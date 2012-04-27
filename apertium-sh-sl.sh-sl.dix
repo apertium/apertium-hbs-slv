@@ -1,0 +1,440 @@
+<dictionary>
+  <alphabet/>
+
+  <sdefs>
+    <sdef n="n" c="Noun"/>
+    <sdef n="m" c="Masculine"/>
+    <sdef n="f" c="Feminine"/>
+    <sdef n="nt" c="Neuter"/>
+    <sdef n="abbr" c="Abbreviation"/>
+    <sdef n="mf" c="Masculine-Feminine"/>
+    <sdef n="mfn" c="Masculine-Feminine-Neuter"/>
+
+    <sdef n="mi" c="Masculine (inanimate)"/>
+    <sdef n="ma" c="Masculine (animate)"/>
+
+    <sdef n="sg" c="Singular"/>
+    <sdef n="pl" c="Plural"/>
+    <sdef n="prn" c="Pronoun"/>
+    <sdef n="pr" c="Preposition"/>
+
+    <sdef n="cnjcoo" c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub" c="Subordinating conjunction"/>
+    <sdef n="cnjadv" c="Adverbial conjunction"/>
+
+    <sdef n="vbser" c="The verb 'to be'"/>
+    <sdef n="vblex" c="Lexical verb"/>
+    <sdef n="vaux" c="Auxilliary verb"/>
+    <sdef n="vbhaver" c="The verb 'to have'"/>
+    <sdef n="vbmod" c="Modal verb"/>
+    <sdef n="pri" c="Present indicative"/>
+    <sdef n="pii" c="Imperfect indicative"/>
+    <sdef n="past" c="Past tense"/>
+    <sdef n="pres" c="Present tense"/>
+    <sdef n="inf" c="Infinitive"/>
+    <sdef n="aor" c="Aorist"/>
+    <sdef n="fti" c="Future indicative"/>
+    <sdef n="imp" c="Imperative"/>
+    <sdef n="futI" c="Future I"/>
+    <sdef n="futII" c="Future II"/>
+
+    <sdef n="pref" c="Prefix"/>
+    <sdef n="clt" c="Clitic"/>
+    <sdef n="part" c="Particle"/>
+
+    <sdef n="exp" c="Expectative"/>
+    <sdef n="sbj" c="Subjunctive"/>
+    <sdef n="opt" c="Optative"/>
+
+    <sdef n="cog" c="Cognomen"/>
+
+    <sdef n="aff" c="Affirmative"/>
+    <sdef n="int" c="Interrogative"/>
+    <sdef n="neg" c="Negative"/>
+
+    <sdef n="p1" c="First person"/>
+    <sdef n="p2" c="Second person"/>
+    <sdef n="p3" c="Third person"/>
+    <sdef n="impers" c="Impersonal"/>
+
+    <sdef n="gen" c="Genitive"/>
+    <sdef n="nom" c="Nominative"/>
+    <sdef n="dat" c="Dative"/>
+    <sdef n="loc" c="Locative"/>
+    <sdef n="acc" c="Accusative"/>
+    <sdef n="ins" c="Instrumental"/>
+    <sdef n="voc" c="Vocative"/>
+
+    <sdef n="ind" c="Indefinite"/>
+    <sdef n="def" c="Definite"/>
+    <sdef n="prx" c="Proximate"/>
+    <sdef n="dst" c="Distal"/>
+
+    <sdef n="sp" c="Singular / Plural"/>
+    <sdef n="ref" c="Reflexive"/>
+    <sdef n="pers" c="Personal"/>
+    <sdef n="tot" c="Totalising"/>
+    <sdef n="num" c="Numeral / Number"/>
+    <sdef n="ij" c="Interjection"/>
+
+    <sdef n="tn" c="Tonico"/>
+    <sdef n="adj" c="Adjective"/>
+    <sdef n="sint" c="Synthetic adjective"/>
+    <sdef n="pst" c="Positive"/>
+    <sdef n="comp" c="Comparative"/>
+    <sdef n="sup" c="Superlative"/>
+    <sdef n="ssup" c="Absolute superlative (sh)"/>
+    <sdef n="ela" c="Elative (sl)"/>
+    <sdef n="attr" c="Attributive"/>
+    <sdef n="pred" c="Predicative"/>
+
+    <sdef n="enc" c="Enclitic"/>
+    <sdef n="pro" c="Proclitic"/>
+
+    <sdef n="detnt" c="Neuter determiner"/>
+    <sdef n="predet" c="Pre determiner"/>
+    <sdef n="atn"/>
+    <sdef n="qnt" c="Quantifier"/>
+    <sdef n="ord" c="Ordinal"/>
+    <sdef n="coll" c="Collective"/>
+    <sdef n="obj" c="Object"/>
+    <sdef n="subj" c="Subject"/>
+    <sdef n="acr" c="Acronym"/>
+    <sdef n="ant" c="Antroponym"/>
+    <sdef n="top" c="Toponym"/>
+
+    <sdef n="al" c="Other / Otros"/>
+    <sdef n="np" c="Proper noun"/>
+    <sdef n="adv" c="Adverb"/>
+    <sdef n="preadv" c="Pre-adverb"/>
+    <sdef n="rel" c="Relative"/>
+    <sdef n="nn" c="Noun noun"/>
+    <sdef n="an" c="Adjective noun"/>
+    <sdef n="aa" c="Adjective adjective"/>
+    <sdef n="itg" c="Interrogative"/>
+    <sdef n="det" c="Determiner"/>
+    <sdef n="dem" c="Demonstrative"/>
+    <sdef n="ger" c="Gerund"/>
+    <sdef n="pp" c="Past participle"/>
+    <sdef n="lp" c="L-participle"/>
+    <sdef n="cni" c="Conditional"/>
+    <sdef n="prs" c="Present subjunctive"/>
+    <sdef n="pis" c="Pretério imperfecto de subjunctivo"/>
+    <sdef n="pos" c="Possessive"/>
+
+
+    <sdef n="sent" c="End of sentence"/>
+    <sdef n="cm" c="Comma"/>
+    <sdef n="lpar" c="Left parenthesis"/>
+    <sdef n="rpar" c="Right parenthesis"/>
+    <sdef n="lquot" c="Left quotenthesis"/>
+    <sdef n="rquot" c="Right quotenthesis"/>
+    <sdef n="lquest" c="Left question-mark"/>
+    <sdef n="web"/>
+    <sdef n="subs"/>
+    <sdef n="pprs"/>
+    <sdef n="guio" c="Hyphen"/>
+    <sdef n="vbdo"/>
+    <sdef n="unc"/>
+    <sdef n="sep"/>
+    <sdef n="pron"/>
+    <sdef n="apos" c="Apostrophe"/>
+
+    <sdef n="GD"/>
+    <sdef n="TD"/>
+    <sdef n="PD"/>
+    <sdef n="ND"/>
+
+    <!--Additional verb symbols-->
+    <sdef n="perf" c="Perfective"/>
+    <sdef n="imperf" c="Imperfective"/>
+    <sdef n="tv" c="Transitive"/>
+    <sdef n="iv" c="Intransitive"/>
+
+  </sdefs>
+
+  <pardefs>
+   <pardef n="pst_to_null">
+    <e><p><l><s n="pst"/></l><r></r></p></e>
+    <e><p><l><s n="comp"/></l><r><s n="comp"/></r></p></e>
+    <e><p><l><s n="sup"/></l><r><s n="sup"/></r></p></e>
+    <e><p><l><s n="ssup"/></l><r><s n="ssup"/></r></p></e>
+   </pardef>
+  </pardefs>
+
+   <!--Analysis section-->
+   <section id="main" type="standard">
+
+    <!--Pronouns-->
+    <e><p><l>free<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+
+    <e><p><l>svoj<s n="prn"/><s n="ref"/><s n="pos"/></l><r>svoj<s n="prn"/><s n="ref"/></r></p></e>
+    <e><p><l>sav<s n="prn"/><s n="tot"/><s n="ma"/></l><r>ves<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e><p><l>sav<s n="prn"/><s n="tot"/><s n="mi"/></l><r>ves<s n="det"/><s n="ind"/><s n="mi"/></r></p></e>
+    <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>zakaj<s n="cnjcoo"/></r></p></e>
+    <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>njen<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
+    <e><p><l>nešto<s n="prn"/></l><r>nekaj<s n="prn"/></r></p></e>
+
+
+	<!-- Matches of tags -->
+    <e><p><l>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/></l><r>se<s n="prn"/><s n="ref"/><s n="mf"/></r></p></e>
+    <e><p><l>njegov<s n="prn"/><s n="pos"/></l><r>njegov<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
+    <e><p><l>njihov<s n="prn"/><s n="pos"/></l><r>njihov<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
+    <e><p><l>ništa<s n="prn"/></l><r>nič<s n="prn"/></r></p></e>
+    <e><p><l>taj<s n="prn"/><s n="dem"/></l><r>ta<s n="prn"/><s n="dem"/></r></p></e>
+
+    <!--Adverbs-->
+    <e><p><l>gdje<s n="adv"/></l><r>kje<s n="adv"/></r></p></e>
+    <e><p><l>gdje<s n="cnjsub"/></l><r>kje<s n="adv"/></r></p></e><!--TODO: "kjer", when cnjsub vs. adv are correctly disambiguated-->
+    <e><p><l>jučer<s n="adv"/></l><r>včeraj<s n="adv"/></r></p></e>
+    <e><p><l>zatim<s n="adv"/></l><r>potem<s n="adv"/></r></p></e>
+    <e><p><l>hitro<s n="adv"/></l><r>hitro<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>uvijek<s n="adv"/></l><r>vedno<s n="adv"/></r></p></e>
+    <e><p><l>zajedno<s n="adv"/></l><r>skupaj<s n="adv"/></r></p></e>
+    <e><p><l>jako<s n="adv"/></l><r>zelo<s n="adv"/></r></p></e>
+    <e><p><l>toplo<s n="adv"/></l><r>toplo<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>danas<s n="adv"/></l><r>danes<s n="adv"/></r></p></e>
+    <e><p><l>dobro<s n="adv"/></l><r>dobro<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>blizu<s n="adv"/></l><r>blizu<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>blisko<s n="adv"/></l><r>blizu<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>vani<s n="adv"/></l><r>zunaj<s n="adv"/></r></p></e>
+    <e><p><l>onda<s n="adv"/></l><r>potem<s n="adv"/></r></p></e>
+    <e><p><l>sada<s n="adv"/></l><r>sedaj<s n="adv"/></r></p></e>
+    <e><p><l>kako<s n="cnjsub"/></l><r>kako<s n="adv"/></r></p></e>
+	
+    <e><p><l>uokolo<s n="adv"/></l><r>okoli<s n="adv"/></r></p></e>
+    <e><p><l>kamo<s n="adv"/></l><r>kam<s n="adv"/></r></p></e>
+    <e><p><l>naravno<s n="adv"/></l><r>naravno<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>nikad<s n="adv"/></l><r>nikoli<s n="adv"/></r></p></e>
+    <e><p><l>možda<s n="adv"/></l><r>mogoče<s n="adv"/></r></p></e>
+    <e><p><l>vjerojatno<s n="adv"/></l><r>verjetno<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>polako<s n="adv"/></l><r>počasi<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>tamo<s n="adv"/></l><r>tam<s n="adv"/></r></p></e>
+    <e><p><l>posvuda<s n="adv"/></l><r>povsod<s n="adv"/></r></p></e>
+    <e><p><l>opet<s n="adv"/></l><r>ponovno<s n="adv"/></r></p></e>
+    <e><p><l>pažljivo<s n="adv"/></l><r>pazljivo<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>sad<s n="adv"/></l><r>sedaj<s n="adv"/></r></p></e>
+    <e><p><l>još<b/>uvijek<s n="adv"/></l><r>še<b/>vedno<s n="adv"/></r></p></e>
+
+
+
+
+    <!--Verbs-->
+    <!--TODO: for verbs, transfer rule to remove transitivity tags-->
+        <!--TODO: for sh=>sl -->
+        <!--TODO: for sl=>sh a script will be needed to generate this :/ -->
+    <e><p><l>biti<s n="vbser"/></l><r>biti<s n="vbser"/></r></p></e>
+    <e><p><l>biti<s n="vbser"/><s n="clt"/></l><r>biti<s n="vbser"/></r></p></e>
+    <e><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: biti<vblex> == to beat, biti<vbser> == to be-->
+
+	
+    <e><p><l>moći<s n="vbmod"/></l><r>moči<s n="vblex"/></r></p></e>
+
+    <e><p><l>gledati<s n="vblex"/></l><r>gledati<s n="vblex"/></r></p></e>
+    <e><p><l>govoriti<s n="vblex"/></l><r>govoriti<s n="vblex"/></r></p></e>
+    <e><p><l>moći<s n="vblex"/></l><r>moči<s n="vblex"/></r></p></e>
+    <e><p><l>obožavati<s n="vblex"/></l><r>oboževati<s n="vblex"/></r></p></e>
+    <e><p><l>igrati<s n="vblex"/></l><r>igrati<s n="vblex"/></r></p></e>
+    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/></r></p></e>
+    <e><p><l>dobiti<s n="vblex"/></l><r>dobiti<s n="vblex"/></r></p></e>
+    <e><p><l>dobivati<s n="vblex"/></l><r>dobivati<s n="vblex"/></r></p></e>
+    <e><p><l>dolaziti<s n="vblex"/></l><r>prihajati<s n="vblex"/></r></p></e>
+    <e><p><l>držati<s n="vblex"/></l><r>držati<s n="vblex"/></r></p></e>
+    <e><p><l>vidjeti<s n="vblex"/></l><r>videti<s n="vblex"/></r></p></e>
+    <e><p><l>znati<s n="vblex"/></l><r>vedeti<s n="vblex"/></r></p></e>
+    <e><p><l>imati<s n="vbhaver"/></l><r>imeti<s n="vblex"/></r></p></e>
+    <e><p><l>voljeti<s n="vblex"/></l><r>hoteti<s n="vblex"/></r></p></e><!--by Krvoje: @Shraier; daj ako se sjetiš javi mi se na IRC, da prodiskutiramo razliku ove dve riječi sh/sl-->
+    <e><p><l>nemati<s n="vbhaver"/></l><r>imeti<s n="vblex"/><s n="neg"/></r></p></e>
+    <e><p><l>spavati<s n="vblex"/></l><r>spati<s n="vblex"/></r></p></e>
+    <e><p><l>potrčavati<s n="vblex"/></l><r>teči<s n="vblex"/></r></p></e>
+    <e><p><l>skrivati<s n="vblex"/></l><r>skrivati<s n="vblex"/></r></p></e>
+    <e><p><l>sjediti<s n="vblex"/></l><r>sedeti<s n="vblex"/></r></p></e>
+    <e><p><l>odbrojavati<s n="vblex"/></l><r>šteti<s n="vblex"/></r></p></e>
+    <e><p><l>završavati<s n="vblex"/><s n="imperf"/></l><r>prenehati<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>pogledavati<s n="vblex"/></l><r>pogledati<s n="vblex"/></r></p></e>
+    <e><p><l>tražiti<s n="vblex"/></l><r>iskati<s n="vblex"/></r></p></e>
+    <e><p><l>piti<s n="vblex"/></l><r>vprašati<s n="vblex"/></r></p></e>
+    <e><p><l>razgovarati<s n="vblex"/></l><r>govoriti<s n="vblex"/></r></p></e>
+    <e><p><l>smijati<s n="vblex"/></l><r>smejati<s n="vblex"/></r></p></e>
+    <e><p><l>misao<s n="vblex"/></l><r>misliti<s n="vblex"/></r></p></e>
+    <e><p><l>reći<s n="vblex"/></l><r>povedati<s n="vblex"/></r></p></e>
+    <e><p><l>kazati<s n="vblex"/></l><r>reči<s n="vblex"/></r></p></e>
+    <e><p><l>odgovarati<s n="vblex"/></l><r>odgovoriti<s n="vblex"/></r></p></e>
+    <e><p><l>željeti<s n="vblex"/></l><r>želeti<s n="vblex"/></r></p></e>
+    <e><p><l>šetati<s n="vblex"/></l><r>hoditi<s n="vblex"/></r></p></e>
+    <e><p><l>pokušavati<s n="vblex"/></l><r>poskušati<s n="vblex"/></r></p></e>
+    <e><p><l>naći<s n="vblex"/></l><r>najti<s n="vblex"/></r></p></e>
+    <e><p><l>začuti<s n="vblex"/></l><r>slišati<s n="vblex"/></r></p></e>
+    <e><p><l>slušati<s n="vblex"/></l><r>poslušati<s n="vblex"/></r></p></e>
+    <e><p><l>prići<s n="vblex"/></l><r>stopiti<s n="vblex"/></r></p></e>
+    <e><p><l>pronaći<s n="vblex"/></l><r>najti<s n="vblex"/></r></p></e>
+    <e><p><l>odlaziti<s n="vblex"/></l><r>oditi<s n="vblex"/></r></p></e>
+    <e><p><l>pojesti<s n="vblex"/></l><r>pojesti<s n="vblex"/></r></p></e>
+    <e><p><l>popiti<s n="vblex"/></l><r>popiti<s n="vblex"/></r></p></e>
+    <e><p><l>raditi<s n="vblex"/></l><r>delati<s n="vblex"/></r></p></e>
+
+
+
+
+    <!--Nouns-->
+    <e><p><l>glava<s n="n"/></l><r>glava<s n="n"/></r></p></e>
+    <e><p><l>godina<s n="n"/><s n="f"/></l><r>leto<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>dijete<s n="n"/><s n="nt"/></l><r>otrok<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>dječak<s n="n"/><s n="ma"/></l><r>deček<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>djevojčica<s n="n"/><s n="f"/></l><r>deklica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>drvo<s n="n"/><s n="nt"/></l><r>drevo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>vrijeme<s n="n"/><s n="nt"/></l><r>vreme<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>voda<s n="n"/><s n="f"/></l><r>voda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mačka<s n="n"/><s n="f"/></l><r>mačka<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vrt<s n="n"/><s n="mi"/></l><r>vrt<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>kuća<s n="n"/><s n="f"/></l><r>hiša<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sestra<s n="n"/><s n="f"/></l><r>sestra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>igra<s n="n"/><s n="f"/></l><r>igra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>čovjek<s n="n"/><s n="ma"/></l><r>človek<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>ptica<s n="n"/><s n="f"/></l><r>ptica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ruka<s n="n"/><s n="f"/></l><r>roka<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>majka<s n="n"/><s n="f"/></l><r>mati<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prozor<s n="n"/><s n="mi"/></l><r>okno<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>oko<s n="n"/><s n="f"/><s n="pl"/></l><r>oči<s n="n"/></r></p></e>
+    <e><p><l>brojanje<s n="n"/><s n="nt"/></l><r>štetje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>odgovor<s n="n"/><s n="mi"/></l><r>odgovor<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>pitanje<s n="n"/><s n="nt"/></l><r>vprašanje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>stol<s n="n"/><s n="mi"/></l><r>miza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stolac<s n="n"/><s n="mi"/></l><r>stol<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>zvuk<s n="n"/><s n="mi"/></l><r>zvok<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>životinja<s n="n"/><s n="f"/></l><r>žival<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ručica<s n="n"/><s n="f"/></l><r>roka<s n="n"/><s n="f"/></r></p></e>
+
+
+
+
+
+    <!--TODO: disambiguation pas<mi> == waist, pas<ma> ==dog-->
+    <e><p><l>pas<s n="n"/><s n="ma"/></l><r>pes<s n="n"/><s n="ma"/></r></p></e>
+
+    <!--Adjectives-->
+    <!--TODO: transfer rule for removing <pst> tags from positive sh=>sl -->
+    <!--TODO: maybe do the modification to the neuter adjective paradigms, to analyse them as adverbs, or both adverb and adjective. This works for sl, sh and mk so it's a free-ride basically-->
+    <e><p><l>lijep<s n="adj"/></l><r>lep<s n="adj"/></r></p><par n="pst_to_null"/></e>
+    <e><p><l>topao<s n="adj"/></l><r>topel<s n="adj"/></r></p><par n="pst_to_null"/></e>
+    <e><p><l>malen<s n="adj"/></l><r>majhen<s n="adj"/></r></p><par n="pst_to_null"/></e>
+    <e><p><l>hladan<s n="adj"/></l><r>mrzel<s n="adj"/></r></p><par n="pst_to_null"/></e>
+    <e><p><l>velik<s n="adj"/></l><r>velik<s n="adj"/></r></p><par n="pst_to_null"/></e>
+    <e><p><l>jak<s n="adj"/></l><r>močan<s n="adj"/></r></p><par n="pst_to_null"/></e>
+    <e><p><l>mal<s n="adj"/></l><r>mali<s n="adj"/></r></p><par n="pst_to_null"/></e>
+    <e><p><l>sretan<s n="adj"/></l><r>srečen<s n="adj"/></r></p><par n="pst_to_null"/></e>
+    <e><p><l>star<s n="adj"/></l><r>star<s n="adj"/></r></p><par n="pst_to_null"/></e>
+
+	<!-- Adjective to Adverb -> rule added -->
+    <e><p><l>jak<s n="adj"/></l><r>zelo<s n="adv"/></r></p><par n="pst_to_null"/></e>
+	
+
+    <!--Conjunctions--><!--muchos amigos falsos :)-->
+    <e><p><l>i<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
+    <e><p><l>a<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
+    <e><p><l>iako<s n="cnjsub"/></l><r>čeprav<s n="cnjsub"/></r></p></e>
+    <e><p><l>ali<s n="cnjcoo"/></l><r>ampak<s n="cnjcoo"/></r></p></e>
+    <e><p><l>no<s n="cnjcoo"/></l><r>ampak<s n="cnjcoo"/></r></p></e><!--"no" in sh can mean either "but,however", or than "više no on"== more than him -->
+    <e><p><l>niti<s n="cnjcoo"/></l><r>niti<s n="cnjcoo"/></r></p></e>
+    <e><p><l>što<s n="cnjsub"/></l><r>kaj<s n="part"/></r></p></e>
+    <e><p><l>kad<s n="cnjsub"/></l><r>ko<s n="cnjsub"/></r></p></e>
+
+    <!--Prepositions-->
+    <!--TODO: for prepositions, in sh they are also marked with cases they govern-->
+    <e><p><l>u<s n="pr"/></l><r>v<s n="pr"/></r></p></e>
+    <e><p><l>ispod<s n="pr"/></l><r>izpod<s n="pr"/></r></p></e><!--?-->
+    <e><p><l>ispred<s n="pr"/></l><r>pred<s n="pr"/></r></p></e><!--?-->
+    <e><p><l>do<s n="pr"/></l><r>do<s n="pr"/></r></p></e>
+    <e><p><l>s<s n="pr"/></l><r>z<s n="pr"/></r></p></e>
+    <e><p><l>kroz<s n="pr"/></l><r>skozi<s n="pr"/></r></p></e>
+
+    <!--TODO: This bunch is to be checked-->
+    <e><p><l>blizu<s n="pr"/></l><r>blizu<s n="pr"/></r></p></e>
+    <e><p><l>radi<s n="pr"/></l><r>zavoljo<s n="pr"/></r></p></e>
+    <e><p><l>bez<s n="pr"/></l><r>brez<s n="pr"/></r></p></e>
+    <e><p><l>čez<s n="pr"/></l><r>čez<s n="pr"/></r></p></e>
+    <e><p><l>do<s n="pr"/></l><r>do<s n="pr"/></r></p></e>
+    <e><p><l>iz<s n="pr"/></l><r>iz<s n="pr"/></r></p></e>
+    <e><p><l>između<s n="pr"/></l><r>izmed<s n="pr"/></r></p></e>
+    <e><p><l>iznad<s n="pr"/></l><r>iznad<s n="pr"/></r></p></e>
+    <e><p><l>ispod<s n="pr"/></l><r>izpod<s n="pr"/></r></p></e>
+    <e><p><l>ispred<s n="pr"/></l><r>izpred<s n="pr"/></r></p></e>
+    <e><p><l>izven<s n="pr"/></l><r>izven?<s n="pr"/></r></p></e>
+    <e><p><l>iza<s n="pr"/></l><r>izza<s n="pr"/></r></p></e>
+    <e><p><l>k<s n="pr"/></l><r>k<s n="pr"/></r></p></e>
+    <e><p><l>kljub<s n="pr"/></l><r>kljub<s n="pr"/></r></p></e>
+    <e><p><l>oko<s n="pr"/></l><r>krog<s n="pr"/></r></p></e>
+    <e><p><l>među<s n="pr"/></l><r>med<s n="pr"/></r></p></e>
+    <e><p><l>mimo<s n="pr"/></l><r>mimo<s n="pr"/></r></p></e>
+    <e><p><l>nad<s n="pr"/></l><r>nad<s n="pr"/></r></p></e>
+    <e><p><l>na<s n="pr"/></l><r>na<s n="pr"/></r></p></e>
+    <e><p><l>od<s n="pr"/></l><r>od<s n="pr"/></r></p></e>
+    <e><p><l>okolo<s n="pr"/></l><r>okoli<s n="pr"/></r></p></e>
+    <e><p><l>onkraj<s n="pr"/></l><r>onkraj<s n="pr"/></r></p></e>
+    <e><p><l>o<s n="pr"/></l><r>o<s n="pr"/></r></p></e>
+    <e><p><l>pod<s n="pr"/></l><r>pod<s n="pr"/></r></p></e>
+    <e><p><l>pokraj<s n="pr"/></l><r>poleg<s n="pr"/></r></p></e>
+    <e><p><l>po<s n="pr"/></l><r>po<s n="pr"/></r></p></e>
+    <e><p><l>povrh<s n="pr"/></l><r>povrh<s n="pr"/></r></p></e>
+    <e><p><l>pred<s n="pr"/></l><r>pred<s n="pr"/></r></p></e>
+    <e><p><l>preko<s n="pr"/></l><r>preko<s n="pr"/></r></p></e>
+    <e><p><l>preko<s n="pr"/></l><r>prek<s n="pr"/></r></p></e>
+    <e><p><l>pri<s n="pr"/></l><r>pri<s n="pr"/></r></p></e>
+    <e><p><l>protiv<s n="pr"/></l><r>proti<s n="pr"/></r></p></e>
+    <e><p><l>ispod<s n="pr"/></l><r>spod<s n="pr"/></r></p></e>
+    <e><p><l>vrh<s n="pr"/></l><r>vrh<s n="pr"/></r></p></e>
+    <e><p><l>vzdolž<s n="pr"/></l><r>vzdolž<s n="pr"/></r></p></e>
+    <e><p><l>zaradi<s n="pr"/></l><r>zaradi<s n="pr"/></r></p></e>
+    <e><p><l>zavoljo<s n="pr"/></l><r>zavoljo<s n="pr"/></r></p></e>
+    <e><p><l>za<s n="pr"/></l><r>za<s n="pr"/></r></p></e>
+    <e><p><l>s<s n="pr"/></l><r>z<s n="pr"/></r></p></e>
+
+    <e><p><l>da<s n="part"/></l><r>da<s n="part"/></r></p></e>
+    <e><p><l>evo<s n="part"/></l><r>evo<s n="part"/></r></p></e>
+    <e><p><l>da</l><r>da</r></p></e>
+    <e><p><l>ne<s n="part"/><s n="neg"/></l><r>ne<s n="part"/></r></p></e>
+    <e><p><l>ne<s n="part"/><s n="neg"/></l><r>ne<s n="cnjcoo"/></r></p></e><!--?-->
+
+    <e><p><l>drugi</l><r>drugo</r></p></e>
+
+    <e><p><l>dvoje<s n="num"/></l><r>dvoje<s n="adv"/></r></p></e>
+
+	<!-- SECTION: NP -->
+    <e><p><l>Ivica<s n="np"/><s n="ant"/></l><r>Janez<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Marica<s n="np"/><s n="ant"/></l><r>Marija<s n="np"/><s n="ant"/></r></p></e>
+
+
+    <!-- SECTION: Punctuation -->
+
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+    <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+    <e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
+    <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
+    <e><p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
+    <e><p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
+    <e><p><l>“<s n="lquot"/></l><r>“<s n="lquot"/></r></p></e>
+    <e><p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
+    <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>%?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+
+
+	<!-- Num -> Num -->
+	<!-- TO DO: Need to add gen.nbr.cas -->
+	<e><p><l>tri<s n="num"/></l><r>tri<s n="num"/></r></p></e>
+	<e><p><l>četiri<s n="num"/></l><r>štiri<s n="num"/></r></p></e>
+	<e><p><l>pet<s n="num"/></l><r>pet<s n="num"/></r></p></e>
+	<e><p><l>šest<s n="num"/></l><r>šest<s n="num"/></r></p></e>
+	<e><p><l>sedam<s n="num"/></l><r>sedem<s n="num"/></r></p></e>
+	<e><p><l>osam<s n="num"/></l><r>osem<s n="num"/></r></p></e>
+	<e><p><l>devet<s n="num"/></l><r>devet<s n="num"/></r></p></e>
+	<e><p><l>deset<s n="num"/></l><r>deset<s n="num"/></r></p></e>
+	
+
+
+   </section>
+
+   <!-- Generation sections, TODO</l><r>-->
+</dictionary>
