@@ -17,6 +17,7 @@
 /apertium-sh-sl.sh.tsx -text
 /apertium-sh-sl.sl-sh.t1x -text
 /apertium-sh-sl.sl-sh.t3x -text
+/apertium-sh-sl.sl.dix -text
 /config.in -text
 /configure -text
 /configure.ac -text
