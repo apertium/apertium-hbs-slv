@@ -12,6 +12,7 @@
 /apertium-sh-sl.sh-sl.dix -text
 /apertium-sh-sl.sh-sl.dix.old -text
 /apertium-sh-sl.sh-sl.lex -text
+/apertium-sh-sl.sh-sl.rlx -text
 /apertium-sh-sl.sh-sl.t1x -text
 /apertium-sh-sl.sh-sl.t2x -text
 /apertium-sh-sl.sh-sl.t3x -text
