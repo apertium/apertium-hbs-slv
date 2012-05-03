@@ -36,7 +36,6 @@ dev/sl.translated.txt -text
 dev/sl_original.txt -text
 /install-sh -text
 /k.sh -text
-/missing -text
 /modes.xml -text
 /regression-tests.sh -text
 /separate.sh -text
