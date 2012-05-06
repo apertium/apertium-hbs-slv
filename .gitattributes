@@ -4,10 +4,8 @@
 /ChangeLog -text
 /INSTALL -text
 /Makefile.am -text
-/Makefile.in -text
 /NEWS -text
 /README -text
-/aclocal.m4 -text
 /alt.xsl -text
 /apertium-sh-sl.post-sh.dix -text
 /apertium-sh-sl.post-sl.dix -text
@@ -26,7 +24,6 @@
 /apertium-sh-sl.sl.dix -text
 /autogen.sh -text
 /config.in -text
-/configure -text
 /configure.ac -text
 dev/apertium-sh-sl.sh-sl.dix.generated -text
 dev/apertium-sl-sr.sl-sr.dix -text
