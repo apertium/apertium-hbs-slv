@@ -24,6 +24,7 @@
 /apertium-sh-sl.sl-sh.t2x -text
 /apertium-sh-sl.sl-sh.t3x -text
 /apertium-sh-sl.sl.dix -text
+/autogen.sh -text
 /config.in -text
 /configure -text
 /configure.ac -text
