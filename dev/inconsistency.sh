@@ -1,4 +1,5 @@
 TMPDIR=/tmp
+VAR=sl-sh_HR
 
 if [[ $1 = "sl-sh" ]]; then
 
@@ -7,7 +8,7 @@ lt-expand ../apertium-sh-sl.sl.dix | grep -v '<prn><enc>' | grep -v 'REGEX' | gr
         apertium-transfer ../apertium-sh-sl.sl-sh.t1x  ../sl-sh.t1x.bin  ../sl-sh.autobil.bin |
         apertium-interchunk ../apertium-sh-sl.sl-sh.t2x  ../sl-sh.t2x.bin |
         apertium-postchunk ../apertium-sh-sl.sl-sh.t3x  ../sl-sh.t3x.bin  | tee $TMPDIR/tmp_testvoc2.txt |
-        lt-proc -d ../sl-sh.autogen.bin > $TMPDIR/tmp_testvoc3.txt
+        lt-proc -d ../$VAR.autogen.bin > $TMPDIR/tmp_testvoc3.txt
 paste -d _ $TMPDIR/tmp_testvoc1.txt $TMPDIR/tmp_testvoc2.txt $TMPDIR/tmp_testvoc3.txt | sed 's/\^.<sent>\$//g' | sed 's/_/   --------->  /g'
 
 elif [[ $1 = "sh-sl" ]]; then
