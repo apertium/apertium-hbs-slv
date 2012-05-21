@@ -508,6 +508,33 @@
       </action>
     </rule>
 
+	<rule comment="ne biti (part.neg + vbser.clt) -> biti.neg">
+      <pattern>
+		<pattern-item n="ne_part"/>
+		<pattern-item n="vbser_past"/>
+      </pattern>
+      <action>
+	<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
+	<out>
+	  <chunk name="Verb" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="VB"/></tag>
+	      <tag><clip pos="2" side="tl" part="a_vrb"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
+		  <clip pos="2" side="tl" part="a_vrb"/>
+		  <clip pos="2" side="tl" part="tns"/>
+		  <lit-tag v="neg"/>
+		  <clip pos="2" side="tl" part="prs"/>
+		  <clip pos="2" side="tl" part="nbr"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
 
 
 
