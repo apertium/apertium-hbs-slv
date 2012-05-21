@@ -508,7 +508,7 @@
       </action>
     </rule>
 
-	<rule comment="(se) ne biti(past) + verb (part.neg + vbser.clt + verb) ->(se) biti.neg verb(past)">
+	<rule comment="(se) ne biti(past) + verb - (part.neg + vbser.clt + verb) -> (se) biti.neg verb(past)">
       <pattern>
 		<pattern-item n="ne_part"/>
 		<pattern-item n="vbser_past"/>
