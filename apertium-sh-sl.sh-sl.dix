@@ -228,7 +228,7 @@
     <e><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: biti<vblex> == to beat, biti<vbser> == to be-->
 
 	
-    <e><p><l>moći<s n="vbmod"/></l><r>moči<s n="vblex"/></r></p></e>
+    <e><p><l>moći<s n="vbmod"/></l><r>moči<s n="vblex"/><s n="imperf"/></r></p></e>
 
     <e><p><l>gledati<s n="vblex"/></l><r>gledati<s n="vblex"/></r></p></e>
     <e><p><l>govoriti<s n="vblex"/></l><r>govoriti<s n="vblex"/></r></p></e>
