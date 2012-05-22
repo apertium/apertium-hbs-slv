@@ -366,6 +366,7 @@
 		<clip pos="1" side="tl" part="lemh"/>
 		<clip pos="1" side="tl" part="a_vrb"/>
 		<clip pos="1" side="tl" part="asp"/>
+		<clip pos="1" side="tl" part="trn"/>
 		<clip pos="1" side="tl" part="tns"/>
 		<clip pos="1" side="tl" part="prs"/>
 		<clip pos="1" side="tl" part="nbr"/>
@@ -433,7 +434,7 @@
 	<out>
 	  <chunk name="Verb" case="caseFirstWord">
 	    <tags>
-	      <tag><lit-tag v="VB"/></tag>
+	      <tag><lit-tag v="VBbsvsgdv"/></tag>
 	      <tag><clip pos="1" side="tl" part="a_vrb"/></tag>
 	    </tags>
 	    <lu>
@@ -482,6 +483,7 @@
 	    <lu>
 	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_vrb"/>
+		<clip pos="1" side="tl" part="trn"/>
 	      <clip pos="1" side="tl" part="tns"/>
 	      <clip pos="1" side="tl" part="prs"/>
 	      <clip pos="1" side="tl" part="nbr"/>
@@ -490,6 +492,7 @@
 	    <lu>
 	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_vrb"/>
+		  <clip pos="1" side="tl" part="trn"/>
 	      <lit-tag v="past"/> <!-- Move to t2x? -->
 	      <clip pos="2" side="tl" part="gen"/>
 	      <clip pos="2" side="tl" part="nbr"/>
@@ -580,7 +583,7 @@
 		      <clip pos="3" side="tl" part="lemh"/>
 			  <clip pos="3" side="tl" part="a_vrb"/>
 			  <clip pos="3" side="tl" part="asp"/>
-			  <lit-tag v="past"/>
+			  <lit-tag v="tv.past"/>
 			  <clip pos="3" side="tl" part="gen"/>
 			  <clip pos="3" side="tl" part="nbr"/>
 		    </lu>	
@@ -660,7 +663,7 @@
 		    </tags>
 		    <lu>
 		      <lit v="imeti"/>	
-			  <lit-tag v="vblex.imperf"/>
+			  <lit-tag v="vblex.imperf.tv"/> <!-- fix in t2x? -->
 			  <clip pos="2" side="tl" part="tns"/>
 			  <clip pos="2" side="tl" part="prs"/>
 			  <clip pos="2" side="tl" part="nbr"/>
