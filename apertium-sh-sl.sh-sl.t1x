@@ -196,6 +196,14 @@
       <cat-item tags="vbhaver.*.*.lp.*"/>
       <cat-item tags="vbmod.lp.*"/>
     </def-cat>
+    <def-cat n="clitic">
+      <cat-item lemma="clitic" tags="prn.*"/>
+    </def-cat>
+    <def-cat n="biti">
+      <cat-item lemma="biti" tags="vbser.*"/>
+	  <cat-item lemma="biti" tags="vblex.*"/>
+	  <cat-item lemma="biti" tags="vbmod.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -337,11 +345,6 @@
       <attr-item tags="@N→"/>
       <attr-item tags="@A←"/>
       <attr-item tags="@Adv←"/>
-    </def-attr>
-
-    <def-attr n="a_im-perf">
-      <attr-item tags="imperf"/>
-      <attr-item tags="perf"/>
     </def-attr>
 
   </section-def-attrs>
@@ -576,7 +579,7 @@
 			<lu>
 		      <clip pos="3" side="tl" part="lemh"/>
 			  <clip pos="3" side="tl" part="a_vrb"/>
-			  <clip pos="3" side="tl" part="a_im-perf"/>
+			  <clip pos="3" side="tl" part="asp"/>
 			  <lit-tag v="past"/>
 			  <clip pos="3" side="tl" part="gen"/>
 			  <clip pos="3" side="tl" part="nbr"/>
@@ -643,6 +646,29 @@
       </action>
     </rule>
 
+	<rule comment="mu je (clitic + biti) -> ima (imeti)">
+      <pattern>
+		<pattern-item n="clitic"/>
+		<pattern-item n="biti"/>
+      </pattern>
+      <action>
+		<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
+		<out>
+		  <chunk name="CliticBiti" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="VB"/></tag>
+		    </tags>
+		    <lu>
+		      <lit v="imeti"/>	
+			  <lit-tag v="vblex.imperf"/>
+			  <clip pos="2" side="tl" part="tns"/>
+			  <clip pos="2" side="tl" part="prs"/>
+			  <clip pos="2" side="tl" part="nbr"/>
+		    </lu>	
+		  </chunk>
+		</out>
+    </action>
+    </rule>
 
 
 
