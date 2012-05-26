@@ -437,6 +437,20 @@
     <e><re>%?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
 
+	<!-- SECTION: Abbreviations -->
+	<e><p><l>km<s n="abbr"/></l><r>km<s n="abbr"/></r></p></e>
+	<e><p><l>km/h<s n="abbr"/></l><r>km/h<s n="abbr"/></r></p></e>
+	<e><p><l>EU<s n="abbr"/></l><r>EU<s n="abbr"/></r></p></e>
+	<e><p><l>BiH<s n="abbr"/></l><r>BiH<s n="abbr"/></r></p></e>
+	<e><p><l>EK<s n="abbr"/></l><r>EK<s n="abbr"/></r></p></e>
+	<e><p><l>RS<s n="abbr"/></l><r>RS<s n="abbr"/></r></p></e>
+	<e><p><l>OEBS<s n="abbr"/></l><r>OEBS<s n="abbr"/></r></p></e>
+	<e><p><l>NATO<s n="abbr"/></l><r>NATO<s n="abbr"/></r></p></e>
+	<e><p><l>UN<s n="abbr"/></l><r>UN<s n="abbr"/></r></p></e>
+	<e><p><l>SAD<s n="abbr"/></l><r>SAD<s n="abbr"/></r></p></e>
+	<e><p><l>UNMIK<s n="abbr"/></l><r>UNMIK<s n="abbr"/></r></p></e>
+
+
 	<!-- Num -> Num -->
 	<!-- TO DO: Need to add gen.nbr.cas -->
 	<e><p><l>tri<s n="num"/></l><r>tri<s n="num"/></r></p></e>
