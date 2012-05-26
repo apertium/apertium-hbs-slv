@@ -470,8 +470,68 @@
 	<e><p><l>vb<s n="abbr"/></l><r>vb<s n="abbr"/></r></p></e>
 	<e><p><l>w<s n="abbr"/></l><r>w<s n="abbr"/></r></p></e>
 	<e><p><l>zda<s n="abbr"/></l><r>zda<s n="abbr"/></r></p></e>
-	
 	<e><p><l>zsms<s n="abbr"/></l><r>zsms<s n="abbr"/></r></p></e>
+
+
+	<!-- SECTION: Interjections -->
+	<e><p><l>amen<s n="ij"/></l><r>amen<s n="ij"/></r></p></e>
+	<e><p><l>ha<s n="ij"/></l><r>ha<s n="ij"/></r></p></e>
+	<e><p><l>no<s n="ij"/></l><r>no<s n="ij"/></r></p></e>
+	<e><p><l>penk<s n="ij"/></l><r>penk<s n="ij"/></r></p></e>
+	<e><p><l>pazi<s n="ij"/></l><r>pozor<s n="ij"/></r></p></e>
+	
+	<e><p><l>aha<s n="ij"/></l><r>aha<s n="ij"/></r></p></e>
+	<e><p><l>oho<s n="ij"/></l><r>oho<s n="ij"/></r></p></e>
+	<e><p><l>uh<s n="ij"/></l><r>uh<s n="ij"/></r></p></e>
+	<e><p><l>oh<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
+	<e><p><l>eh<s n="ij"/></l><r>eh<s n="ij"/></r></p></e>
+	<e><p><l>ih<s n="ij"/></l><r>ih<s n="ij"/></r></p></e>
+	<e><p><l>ah<s n="ij"/></l><r>ah<s n="ij"/></r></p></e>
+	<e><p><l>joj<s n="ij"/></l><r>joj<s n="ij"/></r></p></e>
+	<e><p><l>ijuju<s n="ij"/></l><r>ijuju<s n="ij"/></r></p></e>
+	<e><p><l>ej<s n="ij"/></l><r>ej<s n="ij"/></r></p></e>
+	<e><p><l>haj<s n="ij"/></l><r>haj<s n="ij"/></r></p></e>
+	<e><p><l>hoj<s n="ij"/></l><r>hoj<s n="ij"/></r></p></e>
+	<e><p><l>hej<s n="ij"/></l><r>hej<s n="ij"/></r></p></e>
+	<e><p><l>uf<s n="ij"/></l><r>uf<s n="ij"/></r></p></e>
+	<e><p><l>pi<s n="ij"/></l><r>pi<s n="ij"/></r></p></e>
+	<e><p><l>fuj<s n="ij"/></l><r>fuj<s n="ij"/></r></p></e>
+	<e><p><l>juhuhu<s n="ij"/></l><r>juhuhu<s n="ij"/></r></p></e>
+	<e><p><l>kuku<s n="ij"/></l><r>kuku<s n="ij"/></r></p></e>
+	<e><p><l>ua<s n="ij"/></l><r>ua<s n="ij"/></r></p></e>
+	<e><p><l>oj<s n="ij"/></l><r>oj<s n="ij"/></r></p></e>
+	<e><p><l>de<s n="ij"/></l><r>de<s n="ij"/></r></p></e>
+	<e><p><l>hajde<s n="ij"/></l><r>ajde<s n="ij"/></r></p></e>
+	<e><p><l>mac<s n="ij"/></l><r>mac<s n="ij"/></r></p></e>
+	<e><p><l>guc<s n="ij"/></l><r>guc<s n="ij"/></r></p></e>
+	<e><p><l>pi-pi-pi<s n="ij"/></l><r>pi-pi-pi<s n="ij"/></r></p></e>
+	<e><p><l>iš<s n="ij"/></l><r>iš<s n="ij"/></r></p></e>
+	<e><p><l>pis<s n="ij"/></l><r>pis<s n="ij"/></r></p></e>
+	<e><p><l>šic<s n="ij"/></l><r>šic<s n="ij"/></r></p></e>
+	<e><p><l>kuš<s n="ij"/></l><r>kuš<s n="ij"/></r></p></e>
+	<e><p><l>marš<s n="ij"/></l><r>marš<s n="ij"/></r></p></e>
+	<e><p><l>ehe<s n="ij"/></l><r>ehe<s n="ij"/></r></p></e>
+	<e><p><l>curik<s n="ij"/></l><r>curik<s n="ij"/></r></p></e>
+	<e><p><l>hojs<s n="ij"/></l><r>hojs<s n="ij"/></r></p></e>
+	
+	<!--Some onomatopeic sounds -->
+	<e><p><l>pljus<s n="ij"/></l><r>pljus<s n="ij"/></r></p></e>
+	<e><p><l>krc<s n="ij"/></l><r>krc<s n="ij"/></r></p></e>
+	<e><p><l>krah<s n="ij"/></l><r>krah<s n="ij"/></r></p></e>
+	<e><p><l>bum<s n="ij"/></l><r>bum<s n="ij"/></r></p></e>
+	<e><p><l>kvrc<s n="ij"/></l><r>kvrc<s n="ij"/></r></p></e>
+	<e><p><l>cin<s n="ij"/></l><r>cin<s n="ij"/></r></p></e>
+	<e><p><l>apciha<s n="ij"/></l><r>apciha<s n="ij"/></r></p></e>
+	<e><p><l>apćiha<s n="ij"/></l><r>apćiha<s n="ij"/></r></p></e>
+	
+	<!--Animal sounds-->
+	<e><p><l>mijau<s n="ij"/></l><r>mijav<s n="ij"/></r></p></e>
+	<e><p><l>vau-vau<s n="ij"/></l><r>vau-vau<s n="ij"/></r></p></e>
+	<e><p><l>vauvau<s n="ij"/></l><r>vauvau<s n="ij"/></r></p></e>
+	<e><p><l>vau vau<s n="ij"/></l><r>vau vau<s n="ij"/></r></p></e>
+	<e><p><l>kukuriku<s n="ij"/></l><r>kukuriku<s n="ij"/></r></p></e>
+	<e><p><l>kokodak<s n="ij"/></l><r>kokodak<s n="ij"/></r></p></e>
+
 
 
 	<!-- Num -> Num -->

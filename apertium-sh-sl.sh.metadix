@@ -30127,7 +30127,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--e lm="kad li"><i>kad<b/>li</i><par n="subordinating__cnj"/></e-->
 
 <!--Interjections--><!--Note: The list of interjections in the book by which I am working is very comprehensive-->
-<!--<e lm="uh"><i>uh</i><par n="interjection__ij"/></e>
+<e lm="uh"><i>uh</i><par n="interjection__ij"/></e>
 <e lm="oh"><i>oh</i><par n="interjection__ij"/></e>
 <e lm="eh"><i>eh</i><par n="interjection__ij"/></e>
 <e lm="ih"><i>ih</i><par n="interjection__ij"/></e>
@@ -30135,6 +30135,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="joj"><i>joj</i><par n="interjection__ij"/></e>
 <e lm="ijuju"><i>ijuju</i><par n="interjection__ij"/></e>
 <e lm="oho"><i>oho</i><par n="interjection__ij"/></e>
+<e lm="aha"><i>aha</i><par n="interjection__ij"/></e>
 <e lm="ej"><i>ej</i><par n="interjection__ij"/></e>
 <e lm="haj"><i>haj</i><par n="interjection__ij"/></e>
 <e lm="hoj"><i>hoj</i><par n="interjection__ij"/></e>
@@ -30158,23 +30159,30 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="marš"><i>marš</i><par n="interjection__ij"/></e>
 <e lm="ehe"><i>ehe</i><par n="interjection__ij"/></e>
 <e lm="curik"><i>curik</i><par n="interjection__ij"/></e>
-<e lm="hojs"><i>hojs</i><par n="interjection__ij"/></e>-->
+<e lm="hojs"><i>hojs</i><par n="interjection__ij"/></e>
 <!--Some onomatopeic sounds -->
-<!--<e lm="pljus"><i>pljus</i><par n="interjection__ij"/></e>
+<e lm="pljus"><i>pljus</i><par n="interjection__ij"/></e>
 <e lm="krc"><i>krc</i><par n="interjection__ij"/></e>
 <e lm="krah"><i>krah</i><par n="interjection__ij"/></e>
 <e lm="bum"><i>bum</i><par n="interjection__ij"/></e>
 <e lm="kvrc"><i>kvrc</i><par n="interjection__ij"/></e>
 <e lm="cin"><i>cin</i><par n="interjection__ij"/></e>
 <e lm="apciha"><i>apciha</i><par n="interjection__ij"/></e>
-<e lm="apćiha"><i>apćiha</i><par n="interjection__ij"/></e>-->
+<e lm="apćiha"><i>apćiha</i><par n="interjection__ij"/></e>
 <!--Animal sounds-->
-<!--<e lm="mijau"><i>mijau</i><par n="interjection__ij"/></e>
+<e lm="mijau"><i>mijau</i><par n="interjection__ij"/></e>
 <e lm="vau-vau"><i>vau-vau</i><par n="interjection__ij"/></e>
 <e lm="vauvau"><i>vauvau</i><par n="interjection__ij"/></e>
 <e lm="vau vau"><i>vau<b/>vau</i><par n="interjection__ij"/></e>
 <e lm="kukuriku"><i>kukuriku</i><par n="interjection__ij"/></e>
-<e lm="kokodak"><i>kokodak</i><par n="interjection__ij"/></e>-->
+<e lm="kokodak"><i>kokodak</i><par n="interjection__ij"/></e>
+
+<!-- Interjections from SL -->
+<e lm="amen"><i>amen</i><par n="interjection__ij"/></e>
+<e lm="ha"><i>ha</i><par n="interjection__ij"/></e>
+<e lm="no"><i>no</i><par n="interjection__ij"/></e>
+<e lm="penk"><i>penk</i><par n="interjection__ij"/></e>
+<e lm="pazi"><i>pazi</i><par n="interjection__ij"/></e>
 
 
 <!--Pronouns -->
