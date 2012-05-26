@@ -449,6 +449,29 @@
 	<e><p><l>UN<s n="abbr"/></l><r>UN<s n="abbr"/></r></p></e>
 	<e><p><l>SAD<s n="abbr"/></l><r>SAD<s n="abbr"/></r></p></e>
 	<e><p><l>UNMIK<s n="abbr"/></l><r>UNMIK<s n="abbr"/></r></p></e>
+	
+	<e><p><l>al<s n="abbr"/></l><r>al<s n="abbr"/></r></p></e>
+	<e><p><l>b<s n="abbr"/></l><r>b<s n="abbr"/></r></p></e>
+	<e><p><l>cm<s n="abbr"/></l><r>cm<s n="abbr"/></r></p></e>
+	<e><p><l>g<s n="abbr"/></l><r>g<s n="abbr"/></r></p></e>
+	<e><p><l>h<s n="abbr"/></l><r>h<s n="abbr"/></r></p></e>
+	<e><p><l>is<s n="abbr"/></l><r>is<s n="abbr"/></r></p></e>
+	<e><p><l>j<s n="abbr"/></l><r>j<s n="abbr"/></r></p></e>
+	<e><p><l>lds<s n="abbr"/></l><r>lds<s n="abbr"/></r></p></e>
+	<e><p><l>l<s n="abbr"/></l><r>l<s n="abbr"/></r></p></e>
+	<e><p><l>mg<s n="abbr"/></l><r>mg<s n="abbr"/></r></p></e>
+	<e><p><l>m<s n="abbr"/></l><r>m<s n="abbr"/></r></p></e>
+	<e><p><l>ml<s n="abbr"/></l><r>ml<s n="abbr"/></r></p></e>
+	<e><p><l>ptcu<s n="abbr"/></l><r>ptcu<s n="abbr"/></r></p></e>
+	<e><p><l>rtv<s n="abbr"/></l><r>rtv<s n="abbr"/></r></p></e>
+	<e><p><l>sit<s n="abbr"/></l><r>sit<s n="abbr"/></r></p></e>
+	<e><p><l>sls<s n="abbr"/></l><r>sls<s n="abbr"/></r></p></e>
+	<e><p><l>sns<s n="abbr"/></l><r>sns<s n="abbr"/></r></p></e>
+	<e><p><l>vb<s n="abbr"/></l><r>vb<s n="abbr"/></r></p></e>
+	<e><p><l>w<s n="abbr"/></l><r>w<s n="abbr"/></r></p></e>
+	<e><p><l>zda<s n="abbr"/></l><r>zda<s n="abbr"/></r></p></e>
+	
+	<e><p><l>zsms<s n="abbr"/></l><r>zsms<s n="abbr"/></r></p></e>
 
 
 	<!-- Num -> Num -->

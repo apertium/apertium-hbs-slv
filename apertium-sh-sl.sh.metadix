@@ -29947,6 +29947,29 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Southeast European Times"><i>Southeast<b/>European<b/>Times</i><par n="SETimes__np"/></e>
 <e lm="SETimes"><i>SETimes</i><par n="SETimes__np"/></e>
 
+<!-- SL abbreviations --> 
+<e lm="al"><p><l>al</l><r>al<s n="abbr"/></r></p></e>
+<e lm="b"><p><l>b</l><r>b<s n="abbr"/></r></p></e>
+<e lm="cm"><p><l>cm</l><r>cm<s n="abbr"/></r></p></e>
+<e lm="g"><p><l>g</l><r>g<s n="abbr"/></r></p></e>
+<e lm="h"><p><l>h</l><r>h<s n="abbr"/></r></p></e>
+<e lm="is"><p><l>is</l><r>is<s n="abbr"/></r></p></e>
+<e lm="j"><p><l>j</l><r>j<s n="abbr"/></r></p></e>
+<e lm="lds"><p><l>lds</l><r>lds<s n="abbr"/></r></p></e>
+<e lm="l"><p><l>l</l><r>l<s n="abbr"/></r></p></e>
+<e lm="mg"><p><l>mg</l><r>mg<s n="abbr"/></r></p></e>
+<e lm="m"><p><l>m</l><r>m<s n="abbr"/></r></p></e>
+<e lm="ml"><p><l>ml</l><r>ml<s n="abbr"/></r></p></e>
+<e lm="ptcu"><p><l>ptcu</l><r>ptcu<s n="abbr"/></r></p></e>
+<e lm="rtv"><p><l>rtv</l><r>rtv<s n="abbr"/></r></p></e>
+<e lm="sit"><p><l>sit</l><r>sit<s n="abbr"/></r></p></e>
+<e lm="sls"><p><l>sls</l><r>sls<s n="abbr"/></r></p></e>
+<e lm="sns"><p><l>sns</l><r>sns<s n="abbr"/></r></p></e>
+<e lm="vb"><p><l>vb</l><r>vb<s n="abbr"/></r></p></e>
+<e lm="w"><p><l>w</l><r>w<s n="abbr"/></r></p></e>
+<e lm="zda"><p><l>zda</l><r>zda<s n="abbr"/></r></p></e>
+<e lm="zsms"><p><l>zsms</l><r>zsms<s n="abbr"/></r></p></e>
+
 <!--end Abbreviations-->
 <!--Particles -->
 <e lm="da"><p><l>da</l><r>da<s n="part"/></r></p></e>
