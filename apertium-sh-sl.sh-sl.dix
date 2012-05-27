@@ -171,7 +171,6 @@
     <e><p><l>svoj<s n="prn"/><s n="ref"/><s n="pos"/></l><r>svoj<s n="prn"/><s n="ref"/></r></p></e>
     <e><p><l>sav<s n="prn"/><s n="tot"/><s n="ma"/></l><r>ves<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
     <e><p><l>sav<s n="prn"/><s n="tot"/><s n="mi"/></l><r>ves<s n="det"/><s n="ind"/><s n="mi"/></r></p></e>
-    <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>zakaj<s n="cnjcoo"/></r></p></e>
     <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>njen<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
     <e><p><l>nešto<s n="prn"/></l><r>nekaj<s n="prn"/></r></p></e>
 
@@ -344,17 +343,6 @@
 	<!-- Adjective to Adverb -> rule added -->
     <e><p><l>jak<s n="adj"/></l><r>zelo<s n="adv"/></r></p><par n="pst_to_null"/></e>
 	
-
-    <!--Conjunctions--><!--muchos amigos falsos :)-->
-    <e><p><l>i<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
-    <e><p><l>a<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
-    <e><p><l>iako<s n="cnjsub"/></l><r>čeprav<s n="cnjsub"/></r></p></e>
-    <e><p><l>ali<s n="cnjcoo"/></l><r>ampak<s n="cnjcoo"/></r></p></e>
-    <e><p><l>no<s n="cnjcoo"/></l><r>ampak<s n="cnjcoo"/></r></p></e><!--"no" in sh can mean either "but,however", or than "više no on"== more than him -->
-    <e><p><l>niti<s n="cnjcoo"/></l><r>niti<s n="cnjcoo"/></r></p></e>
-    <e><p><l>što<s n="cnjsub"/></l><r>kaj<s n="part"/></r></p></e>
-    <e><p><l>kad<s n="cnjsub"/></l><r>ko<s n="cnjsub"/></r></p></e>
-
     <!--Prepositions-->
     <!--TODO: for prepositions, in sh they are also marked with cases they govern-->
     <e><p><l>u<s n="pr"/></l><r>v<s n="pr"/></r></p></e>
@@ -532,6 +520,59 @@
 	<e><p><l>kukuriku<s n="ij"/></l><r>kukuriku<s n="ij"/></r></p></e>
 	<e><p><l>kokodak<s n="ij"/></l><r>kokodak<s n="ij"/></r></p></e>
 
+
+	<!-- Conjunctions -->
+	<e><p><l>i<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
+    <e><p><l>a<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ali<s n="cnjcoo"/></l><r>ampak<s n="cnjcoo"/></r></p></e>
+    <e><p><l>no<s n="cnjcoo"/></l><r>ampak<s n="cnjcoo"/></r></p></e><!--"no" in sh can mean either "but,however", or than "više no on"== more than him -->
+    <e><p><l>niti<s n="cnjcoo"/></l><r>niti<s n="cnjcoo"/></r></p></e>
+
+	<e><p><l>a<s n="cnjcoo"/></l><r>a<s n="cnjcoo"/></r></p></e>
+	<e><p><l>ali<s n="cnjcoo"/></l><r>ali<s n="cnjcoo"/></r></p></e>
+	<e><p><l>nego<s n="cnjcoo"/></l><r>ampak<s n="cnjcoo"/></r></p></e>
+	<e><p><l>bilo<s n="cnjcoo"/></l><r>bodisi<s n="cnjcoo"/></r></p></e>
+	<e><p><l>i<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
+	<e><p><l>jer<s n="cnjcoo"/></l><r>kajti<s n="cnjcoo"/></r></p></e>
+	<e><p><l>kad<s n="cnjcoo"/></l><r>ko<s n="cnjcoo"/></r></p></e>
+	<e><p><l>marveč<s n="cnjcoo"/></l><r>marveč<s n="cnjcoo"/></r></p></e>
+	<e><p><l>namreč<s n="cnjcoo"/></l><r>namreč<s n="cnjcoo"/></r></p></e>
+	<e><p><l>a<s n="cnjcoo"/></l><r>ne<s n="cnjcoo"/></r></p></e>
+	<e><p><l>ni<s n="cnjcoo"/></l><r>niti<s n="cnjcoo"/></r></p></e>
+	<e><p><l>odkar<s n="cnjcoo"/></l><r>odkar<s n="cnjcoo"/></r></p></e>
+	<e><p><l>ali<s n="cnjcoo"/></l><r>pa<s n="cnjcoo"/></r></p></e>
+	<e><p><l>jer<s n="cnjcoo"/></l><r>saj<s n="cnjcoo"/></r></p></e>
+	<e><p><l>sicer<s n="cnjcoo"/></l><r>sicer<s n="cnjcoo"/></r></p></e>
+	<e><p><l>nego<s n="cnjcoo"/></l><r>temveč<s n="cnjcoo"/></r></p></e>
+	<e><p><l>no<s n="cnjcoo"/></l><r>toda<s n="cnjcoo"/></r></p></e>
+	<e><p><l>dakle<s n="cnjcoo"/></l><r>torej<s n="cnjcoo"/></r></p></e>
+	<e><p><l>ali<s n="cnjcoo"/></l><r>vendar<s n="cnjcoo"/></r></p></e>
+	<e><p><l>vendarle<s n="cnjcoo"/></l><r>vendarle<s n="cnjcoo"/></r></p></e>
+	<e><p><l>zašto<s n="cnjcoo"/></l><r>zakaj<s n="cnjcoo"/></r></p></e>
+	<e><p><l>no<s n="cnjcoo"/></l><r>torej<s n="cnjcoo"/></r></p></e>
+	<e><p><l>no<s n="cnjcoo"/></l><r>no<s n="cnjcoo"/></r></p></e> <!-- not sure -->
+	
+	<e><p><l>pa<s n="cnjcoo"/></l><r>zato<s n="cnjcoo"/></r></p></e>
+	<e><p><l>pak<s n="cnjcoo"/></l><r>vendar<s n="cnjcoo"/></r></p></e>
+	<e><p><l>te<s n="cnjcoo"/></l><r>ter<s n="cnjcoo"/></r></p></e>
+	<e><p><l>niti<s n="cnjcoo"/></l><r>niti<s n="cnjcoo"/></r></p></e>
+	<e><p><l>ili<s n="cnjcoo"/></l><r>ali<s n="cnjcoo"/></r></p></e>
+	<e><p><l>ili<s n="cnjcoo"/></l><r>oziroma<s n="cnjcoo"/></r></p></e>
+	<e><p><l>već<s n="cnjcoo"/></l><r>vendar<s n="cnjcoo"/></r></p></e>
+	<e><p><l>već<b/>i<s n="cnjcoo"/></l><r>ampak<s n="cnjcoo"/></r></p></e>
+	<e><p><l>tek<s n="cnjcoo"/></l><r>šele<s n="cnjcoo"/></r></p></e>
+	<e><p><l>jedino<s n="cnjcoo"/></l><r>samo<s n="cnjcoo"/></r></p></e>
+	<e><p><l>jedino<s n="cnjcoo"/></l><r>šele<s n="cnjcoo"/></r></p></e>
+	<e><p><l>osim<s n="cnjcoo"/></l><r>razen<s n="cnjcoo"/></r></p></e>
+	<e><p><l>zato<s n="cnjcoo"/></l><r>ker<s n="cnjcoo"/></r></p></e>
+	<e><p><l>zato<s n="cnjcoo"/></l><r>saj<s n="cnjcoo"/></r></p></e>
+	<e><p><l>zato<s n="cnjcoo"/></l><r>zaradi<s n="cnjcoo"/></r></p></e>
+	<e><p><l>stoga<s n="cnjcoo"/></l><r>torej<s n="cnjcoo"/></r></p></e>
+	<e><p><l>stoga<s n="cnjcoo"/></l><r>zato<s n="cnjcoo"/></r></p></e>
+	
+	
+	<!-- test -->
+	<e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>zakaj<s n="prn"/><s n="itg"/></r></p></e>
 
 
 	<!-- Num -> Num -->

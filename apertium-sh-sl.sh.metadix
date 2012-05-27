@@ -30068,6 +30068,17 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="zbog"><i>zbog</i><par n="gen__pr"/></e>
 <!--Conjunctions-->
 <!--Coordinating-->
+
+<!-- Added by Aleš -->
+<e lm="zašto"><i>zašto</i><par n="coordinating__cnj"/></e>
+<e lm="bilo"><i>bilo</i><par n="coordinating__cnj"/></e>
+<e lm="jer"><i>jer</i><par n="coordinating__cnj"/></e>
+<e lm="odkar"><i>odkar</i><par n="coordinating__cnj"/></e>
+<e lm="sicer"><i>sicer</i><par n="coordinating__cnj"/></e>
+<e lm="vendarle"><i>vendarle</i><par n="coordinating__cnj"/></e> <!-- ni -->
+
+<!-- Till here -->
+
 <e lm="i"><i>i</i><par n="coordinating__cnj"/></e>
 <e lm="pa"><i>pa</i><par n="coordinating__cnj"/></e>
 <e lm="pak"><i>pak</i><par n="coordinating__cnj"/></e>
