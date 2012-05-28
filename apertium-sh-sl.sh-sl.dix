@@ -408,6 +408,78 @@
     <e><p><l>Marica<s n="np"/><s n="ant"/></l><r>Marija<s n="np"/><s n="ant"/></r></p></e>
 
 
+	<!-- SECTION: Prepositions -->
+	<e><p><l>blizu<s n="pr"/></l><r>blizu<s n="pr"/></r></p></e>
+	<e><p><l>bez<s n="pr"/></l><r>brez<s n="pr"/></r></p></e>
+	<e><p><l>preko<s n="pr"/></l><r>čez<s n="pr"/></r></p></e>
+	<e><p><l>do<s n="pr"/></l><r>do<s n="pr"/></r></p></e>
+	<e><p><l>h<s n="pr"/></l><r>h<s n="pr"/></r></p></e>
+	<e><p><l>iz<s n="pr"/></l><r>iz<s n="pr"/></r></p></e>
+	<e><p><l>između<s n="pr"/></l><r>izmed<s n="pr"/></r></p></e>
+	<e><p><l>iznad<s n="pr"/></l><r>iznad<s n="pr"/></r></p></e>
+	<e><p><l>ispod<s n="pr"/></l><r>izpod<s n="pr"/></r></p></e>
+	<e><p><l>ispred<s n="pr"/></l><r>izpred<s n="pr"/></r></p></e>
+	<e><p><l>izvan<s n="pr"/></l><r>izven<s n="pr"/></r></p></e>
+	<e><p><l>iza<s n="pr"/></l><r>izza<s n="pr"/></r></p></e>
+	<e><p><l>usprkos<s n="pr"/></l><r>kljub<s n="pr"/></r></p></e>
+	<e><p><l>između<s n="pr"/></l><r>med<s n="pr"/></r></p></e>
+	<e><p><l>mimo<s n="pr"/></l><r>mimo<s n="pr"/></r></p></e>
+	<e><p><l>nad<s n="pr"/></l><r>nad<s n="pr"/></r></p></e>
+	<e><p><l>na<s n="pr"/></l><r>na<s n="pr"/></r></p></e>
+	<e><p><l>umjesto<s n="pr"/></l><r>namesto<s n="pr"/></r></p></e>
+	<e><p><l>nanj<s n="pr"/></l><r>nanj<s n="pr"/></r></p></e> <!-- Not sure -->
+	<e><p><l>okolo<s n="pr"/></l><r>naokoli<s n="pr"/></r></p></e>
+	<e><p><l>prema<s n="pr"/></l><r>naproti<s n="pr"/></r></p></e>
+	<e><p><l>protiv<s n="pr"/></l><r>nasproti<s n="pr"/></r></p></e>
+	<e><p><l>usprkos<s n="pr"/></l><r>navkljub<s n="pr"/></r></p></e>
+	<e><p><l>unatoč<s n="pr"/></l><r>navkljub<s n="pr"/></r></p></e>
+	<e><p><l>po<s n="pr"/></l><r>ob<s n="pr"/></r></p></e>
+	<e><p><l>na<s n="pr"/></l><r>od<s n="pr"/></r></p></e>
+	<e><p><l>o<s n="pr"/></l><r>o<s n="pr"/></r></p></e>
+	<e><p><l>oko<s n="pr"/></l><r>okrog<s n="pr"/></r></p></e>
+	<e><p><l>izvan<s n="pr"/></l><r>onkraj<s n="pr"/></r></p></e>
+	<e><p><l>iznad<s n="pr"/></l><r>onkraj<s n="pr"/></r></p></e>
+	<e><p><l>iznad<s n="pr"/></l><r>onstran<s n="pr"/></r></p></e>
+	<e><p><l>pod<s n="pr"/></l><r>pod<s n="pr"/></r></p></e>
+	<e><p><l>ispod<s n="pr"/></l><r>pod<s n="pr"/></r></p></e>
+	<e><p><l>poslije<s n="pr"/></l><r>po<s n="pr"/></r></p></e>
+	<e><p><l>osim<s n="pr"/></l><r>poleg<s n="pr"/></r></p></e>
+	<e><p><l>na<s n="pr"/></l><r>povrh<s n="pr"/></r></p></e>
+	<e><p><l>na<s n="pr"/></l><r>povrhu<s n="pr"/></r></p></e>
+	<e><p><l>pred<s n="pr"/></l><r>pred<s n="pr"/></r></p></e>
+	<e><p><l>kroz<s n="pr"/></l><r>prek<s n="pr"/></r></p></e>
+	<e><p><l>preko<s n="pr"/></l><r>preko<s n="pr"/></r></p></e>
+	<e><p><l>pri<s n="pr"/></l><r>pri<s n="pr"/></r></p></e>
+	<e><p><l>protiv<s n="pr"/></l><r>proti<s n="pr"/></r></p></e>
+	<e><p><l>sa<s n="pr"/></l><r>s<s n="pr"/></r></p></e>
+	<e><p><l>kroz<s n="pr"/></l><r>skozi<s n="pr"/></r></p></e>
+	<e><p><l>dvkrozoje<s n="pr"/></l><r>skoz<s n="pr"/></r></p></e>
+	<e><p><l>sred<s n="pr"/></l><r>sredi<s n="pr"/></r></p></e>
+	<e><p><l>u<s n="pr"/></l><r>v<s n="pr"/></r></p></e>
+	<e><p><l>vrh<s n="pr"/></l><r>vrh<s n="pr"/></r></p></e>
+	<e><p><l>vrh<s n="pr"/></l><r>vrhu<s n="pr"/></r></p></e>
+	<e><p><l>uzduž<s n="pr"/></l><r>vzdolž<s n="pr"/></r></p></e>
+	<e><p><l>duž<s n="pr"/></l><r>vzdolž<s n="pr"/></r></p></e>
+	<e><p><l>u<s n="pr"/></l><r>za<s n="pr"/></r></p></e>
+	<e><p><l>jer<s n="pr"/></l><r>zaradi<s n="pr"/></r></p></e>
+	<e><p><l>zbog<s n="pr"/></l><r>zavoljo<s n="pr"/></r></p></e>
+	<e><p><l>sa<s n="pr"/></l><r>z<s n="pr"/></r></p></e>
+	<e><p><l>protiv<s n="pr"/></l><r>zoper<s n="pr"/></r></p></e>
+	<e><p><l>pored<s n="pr"/></l><r>zraven<s n="pr"/></r></p></e>
+	<e><p><l>osim<s n="pr"/></l><r>razen<s n="pr"/></r></p></e>
+	
+	
+	<e><p><l>dvoje<s n="pr"/></l><r>ž<s n="pr"/></r></p></e> <!-- ni -->
+	<e><p><l>dvoje<s n="pr"/></l><r>vštric<s n="pr"/></r></p></e> <!-- ni -->
+	<e><p><l>dvoje<s n="pr"/></l><r>vpričo<s n="pr"/></r></p></e> <!-- ni -->
+	<e><p><l>dvoje<s n="pr"/></l><r>spod<s n="pr"/></r></p></e> <!-- ni -->
+	<e><p><l>dvoje<s n="pr"/></l><r>spričo<s n="pr"/></r></p></e> <!-- ni -->
+	<e><p><l>dvoje<s n="pr"/></l><r>raz<s n="pr"/></r></p></e> <!-- ni -->
+	<e><p><l>dvoje<s n="pr"/></l><r>navzlic<s n="pr"/></r></p></e> <!-- ni -->
+	<e><p><l>dvoje<s n="pr"/></l><r>krog<s n="pr"/></r></p></e> <!-- ni -->
+
+
+
     <!-- SECTION: Punctuation -->
 
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
@@ -521,7 +593,7 @@
 	<e><p><l>kokodak<s n="ij"/></l><r>kokodak<s n="ij"/></r></p></e>
 
 
-	<!-- Conjunctions -->
+	<!-- SECTION Conjunctions -->
 	<e><p><l>i<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
     <e><p><l>a<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
     <e><p><l>ali<s n="cnjcoo"/></l><r>ampak<s n="cnjcoo"/></r></p></e>
