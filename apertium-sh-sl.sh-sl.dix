@@ -570,7 +570,47 @@
 	<e><p><l>stoga<s n="cnjcoo"/></l><r>torej<s n="cnjcoo"/></r></p></e>
 	<e><p><l>stoga<s n="cnjcoo"/></l><r>zato<s n="cnjcoo"/></r></p></e>
 	
+	<!-- CnjSub -->
+	<e><p><l>nego<s n="cnjsub"/></l><r>preden<s n="cnjsub"/></r></p></e>
+	<e><p><l>ili<s n="cnjsub"/></l><r>oziroma<s n="cnjsub"/></r></p></e>
+	<e><p><l>da<s n="cnjsub"/></l><r>naj<s n="cnjsub"/></r></p></e>
+	<e><p><l>da li<s n="cnjsub"/></l><r>najsi<s n="cnjsub"/></r></p></e>
+	<e><p><l>kada<s n="cnjsub"/></l><r>kadar<s n="cnjsub"/></r></p></e>
+	<e><p><l>da<s n="cnjsub"/></l><r>da<s n="cnjsub"/></r></p></e>
+	<e><p><l>premda<s n="cnjsub"/></l><r>čeprav<s n="cnjsub"/></r></p></e>
+	<e><p><l>mada<b/>i<s n="cnjsub"/></l><r>čeravno<s n="cnjsub"/></r></p></e>
+	<e><p><l>ako<b/>je<s n="cnjsub"/></l><r>četudi<s n="cnjsub"/></r></p></e>
+	<e><p><l>kao<b/>i<s n="cnjsub"/></l><r>čim<s n="cnjsub"/></r></p></e> <!-- ni -->
+	<e><p><l>kao<b/>što<s n="cnjsub"/></l><r>čim<s n="cnjsub"/></r></p></e>
+	<e><p><l>ako<s n="cnjsub"/></l><r>če<s n="cnjsub"/></r></p></e>
+	<e><p><l>kao<b/>što<s n="cnjsub"/></l><r>kakor<s n="cnjsub"/></r></p></e>
+	<e><p><l>zato<b/>što<s n="cnjsub"/></l><r>ker<s n="cnjsub"/></r></p></e>
+	<e><p><l>kao<b/>što<s n="cnjsub"/></l><r>kot<s n="cnjsub"/></r></p></e>
+	<e><p><l>koji<s n="cnjsub"/></l><r>ki<s n="cnjsub"/></r></p></e>
 	
+	<e><p><l>pri<b/>čemu<s n="cnjsub"/></l><r>pri<s n="cnjsub"/></r></p></e>
+	<e><p><l>kako<s n="cnjsub"/></l><r>kot<s n="cnjsub"/></r></p></e>
+	<e><p><l>gdje<s n="cnjsub"/></l><r>kje<s n="cnjsub"/></r></p></e>
+	<e><p><l>čim<s n="cnjsub"/></l><r>kot<s n="cnjsub"/></r></p></e>
+	<e><p><l>kad<s n="cnjsub"/></l><r>ko<s n="cnjsub"/></r></p></e>
+	<e><p><l>pošto<s n="cnjsub"/></l><r>potem<b/>ko<s n="cnjsub"/></r></p></e>
+	<e><p><l>budući<b/>da<s n="cnjsub"/></l><r>od<s n="cnjsub"/></r></p></e>
+	<e><p><l>što<s n="cnjsub"/></l><r>kaj<s n="cnjsub"/></r></p></e>
+	<e><p><l>iako<s n="cnjsub"/></l><r>čeprav<s n="cnjsub"/></r></p></e>
+	<e><p><l>čim<s n="cnjsub"/></l><r>kot<s n="cnjsub"/></r></p></e>
+	<e><p><l>makar<s n="cnjsub"/></l><r>vsaj<s n="cnjsub"/></r></p></e>
+	<e><p><l>ako<b/>i<s n="cnjsub"/></l><r>če<b/>in<s n="cnjsub"/></r></p></e>
+	<e><p><l>dok<s n="cnjsub"/></l><r>medtem<b/>ko<s n="cnjsub"/></r></p></e>
+	<e><p><l>no<s n="cnjsub"/></l><r>kot<s n="cnjsub"/></r></p></e>
+	<e><p><l>jer<s n="cnjsub"/></l><r>ker<s n="cnjsub"/></r></p></e>
+	<e><p><l>jer<s n="cnjsub"/></l><r>saj<s n="cnjsub"/></r></p></e>
+	<e><p><l>stoga<s n="cnjsub"/></l><r>zato<s n="cnjsub"/></r></p></e>
+	<e><p><l>stoga<s n="cnjsub"/></l><r>torej<s n="cnjsub"/></r></p></e>
+	<e><p><l>mada<s n="cnjsub"/></l><r>čeprav<s n="cnjsub"/></r></p></e>
+	<e><p><l>mada<s n="cnjsub"/></l><r>vendar<s n="cnjsub"/></r></p></e>
+	<e><p><l>neka<s n="cnjsub"/></l><r>ker<s n="cnjsub"/></r></p></e> <!-- wrong -->
+	
+
 	<!-- test -->
 	<e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>zakaj<s n="prn"/><s n="itg"/></r></p></e>
 

@@ -30137,6 +30137,12 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="no"><i>no</i><par n="subordinating__cnj"/></e>
 <!--e lm="kad li"><i>kad<b/>li</i><par n="subordinating__cnj"/></e-->
 
+<e lm="ili"><i>ili</i><par n="subordinating__cnj"/></e>
+<e lm="ako je"><i>ako<b/>je</i><par n="subordinating__cnj"/></e>
+<e lm="mada i"><i>mada<b/>i</i><par n="subordinating__cnj"/></e>
+<e lm="kao i"><i>kao<b/>i</i><par n="subordinating__cnj"/></e>
+<e lm="koji"><i>koji</i><par n="subordinating__cnj"/></e>
+
 <!--Interjections--><!--Note: The list of interjections in the book by which I am working is very comprehensive-->
 <e lm="uh"><i>uh</i><par n="interjection__ij"/></e>
 <e lm="oh"><i>oh</i><par n="interjection__ij"/></e>
