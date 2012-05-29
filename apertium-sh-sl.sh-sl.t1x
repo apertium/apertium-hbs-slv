@@ -384,7 +384,7 @@
       <concat>
 	<clip pos="1" side="tl" part="lemh"/>
 	<clip pos="1" side="tl" part="a_prp"/>
-	<clip pos="1" side="tl" part="lemq"/>
+	<clip pos="1" side="tl" part="cas"/>
       </concat>
       </let>
     </def-macro>
