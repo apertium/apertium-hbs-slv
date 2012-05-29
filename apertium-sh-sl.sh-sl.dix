@@ -403,9 +403,11 @@
 	<e><p><l>nad<s n="pr"/></l><r>povrh<s n="pr"/></r></p></e>
 	<e><p><l>nad<s n="pr"/></l><r>povrhu<s n="pr"/></r></p></e>
 	<e><p><l>ispred<s n="pr"/></l><r>pred<s n="pr"/></r></p></e>
+	<e><p><l>pred<s n="pr"/></l><r>pred<s n="pr"/></r></p></e>
 	<e><p><l>kroz<s n="pr"/></l><r>prek<s n="pr"/></r></p></e>
 	<e><p><l>preko<s n="pr"/></l><r>preko<s n="pr"/></r></p></e>
 	<e><p><l>pri<s n="pr"/></l><r>pri<s n="pr"/></r></p></e>
+	<e><p><l>proti<s n="pr"/></l><r>proti<s n="pr"/></r></p></e>
 	<e><p><l>protiv<s n="pr"/></l><r>proti<s n="pr"/></r></p></e>
 	<e><p><l>sa<s n="pr"/></l><r>s<s n="pr"/></r></p></e>
 	<e><p><l>osim<s n="pr"/></l><r>razen<s n="pr"/></r></p></e>
@@ -422,6 +424,7 @@
 	<e><p><l>uprkos<s n="pr"/></l><r>vpričo<s n="pr"/></r></p></e>
 	<e><p><l>uporedo<s n="pr"/></l><r>vštric<s n="pr"/></r></p></e>
 	<e><p><l>u<s n="pr"/></l><r>za<s n="pr"/></r></p></e>
+	<e><p><l>za<s n="pr"/></l><r>za<s n="pr"/></r></p></e>
 	<e><p><l>jer<s n="pr"/></l><r>zaradi<s n="pr"/></r></p></e>
 	<e><p><l>radi<s n="pr"/></l><r>zavoljo<s n="pr"/></r></p></e>
 	<e><p><l>sa<s n="pr"/></l><r>z<s n="pr"/></r></p></e>
@@ -430,6 +433,30 @@
 	
 	<e><p><l>dvoje<s n="pr"/></l><r>raz<s n="pr"/></r></p></e> <!-- stupid word - never used -->
 	
+
+
+	<!--><e lm="put"><i>put</i><par n="gen__pr"/></e>
+	<e lm="nadomak"><i>nadomak</i><par n="dat__pr"/></e>
+	<e lm="nasuprot"><i>nasuprot</i><par n="dat__pr"/></e>
+	<e lm="niz"><i>niz</i><par n="s/a__acc__pr"/></e>
+	<e lm="uz"><i>uz</i><par n="s/a__acc__pr"/></e>
+	<e lm="kod"><i>kod</i><par n="gen__pr"/></e>
+	<e lm="kraj"><i>kraj</i><par n="gen__pr"/></e>
+	<e lm="mjesto"><i>m</i><par n="e_je__yat"/><i>sto</i><par n="gen__pr"/></e>
+	<e lm="nakon"><i>nakon</i><par n="gen__pr"/></e>
+	<e lm="nasred"><i>nasred</i><par n="gen__pr"/></e>
+	<e lm="navrh"><i>navrh</i><par n="gen__pr"/></e>
+	<e lm="ponad"><i>ponad</i><par n="gen__pr"/></e>
+	<e lm="poput"><i>poput</i><par n="gen__pr"/></e>
+	<e lm="pozadi"><i>pozadi</i><par n="gen__pr"/></e>
+	<e lm="prije"><i>pr</i><par n="e_ije__yat"/><par n="gen__pr"/></e>
+	<e lm="uoči"><i>uoči</i><par n="gen__pr"/></e>
+	<e lm="van"><i>van</i><par n="gen__pr"/></e>
+	<e lm="zarad"><i>zarad</i><par n="gen__pr"/></e>
+	<e lm="zaradi"><i>zaradi</i><par n="gen__pr"/></e>
+	<e lm="zbog"><i>zbog</i><par n="gen__pr"/></e>-->
+
+
 
 
 
