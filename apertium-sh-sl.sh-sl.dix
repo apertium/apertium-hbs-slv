@@ -433,28 +433,28 @@
 	
 	<e><p><l>dvoje<s n="pr"/></l><r>raz<s n="pr"/></r></p></e> <!-- stupid word - never used -->
 	
+	<e><p><l>put<s n="pr"/></l><r>proti<s n="pr"/></r></p></e>
+	<e><p><l>nadomak<s n="pr"/></l><r>blizu<s n="pr"/></r></p></e>
+	<e><p><l>nasuprot<s n="pr"/></l><r>za<b/>razliko<b/>od<s n="pr"/></r></p></e>
+	<e><p><l>niz<s n="pr"/></l><r>navzdol<s n="pr"/></r></p></e>
+	<e><p><l>uz<s n="pr"/></l><r>s<s n="pr"/></r></p></e>
+	<e><p><l>s<s n="pr"/></l><r>s<s n="pr"/></r></p></e>
+	<e><p><l>kod<s n="pr"/></l><r>ob<s n="pr"/></r></p></e>
+	<e><p><l>kraj<s n="pr"/></l><r>na<b/>koncu<s n="pr"/></r></p></e>
+	<e><p><l>mjesto<s n="pr"/></l><r>namesto<s n="pr"/></r></p></e>
+	<e><p><l>nakon<s n="pr"/></l><r>po<s n="pr"/></r></p></e>
+	<e><p><l>nasred<s n="pr"/></l><r>sredi<s n="pr"/></r></p></e>
+	<e><p><l>navrh<s n="pr"/></l><r>na<b/>vrhu<s n="pr"/></r></p></e>
+	<e><p><l>ponad<s n="pr"/></l><r>nad<s n="pr"/></r></p></e>
+	<e><p><l>poput<s n="pr"/></l><r>zraven<s n="pr"/></r></p></e> <!-- ni -->
+	<e><p><l>pozadi<s n="pr"/></l><r>za<s n="pr"/></r></p></e>
+	<e><p><l>prije<s n="pr"/></l><r>zraven<s n="pr"/></r></p></e>
+	<e><p><l>uoči<s n="pr"/></l><r>pred<s n="pr"/></r></p></e>
+	<e><p><l>van<s n="pr"/></l><r>iz<s n="pr"/></r></p></e>
+	<e><p><l>zarad<s n="pr"/></l><r>zaradi<s n="pr"/></r></p></e>
+	<e><p><l>zaradi<s n="pr"/></l><r>zaradi<s n="pr"/></r></p></e>
+	<e><p><l>zbog<s n="pr"/></l><r>zaradi<s n="pr"/></r></p></e>
 
-
-	<!--><e lm="put"><i>put</i><par n="gen__pr"/></e>
-	<e lm="nadomak"><i>nadomak</i><par n="dat__pr"/></e>
-	<e lm="nasuprot"><i>nasuprot</i><par n="dat__pr"/></e>
-	<e lm="niz"><i>niz</i><par n="s/a__acc__pr"/></e>
-	<e lm="uz"><i>uz</i><par n="s/a__acc__pr"/></e>
-	<e lm="kod"><i>kod</i><par n="gen__pr"/></e>
-	<e lm="kraj"><i>kraj</i><par n="gen__pr"/></e>
-	<e lm="mjesto"><i>m</i><par n="e_je__yat"/><i>sto</i><par n="gen__pr"/></e>
-	<e lm="nakon"><i>nakon</i><par n="gen__pr"/></e>
-	<e lm="nasred"><i>nasred</i><par n="gen__pr"/></e>
-	<e lm="navrh"><i>navrh</i><par n="gen__pr"/></e>
-	<e lm="ponad"><i>ponad</i><par n="gen__pr"/></e>
-	<e lm="poput"><i>poput</i><par n="gen__pr"/></e>
-	<e lm="pozadi"><i>pozadi</i><par n="gen__pr"/></e>
-	<e lm="prije"><i>pr</i><par n="e_ije__yat"/><par n="gen__pr"/></e>
-	<e lm="uoči"><i>uoči</i><par n="gen__pr"/></e>
-	<e lm="van"><i>van</i><par n="gen__pr"/></e>
-	<e lm="zarad"><i>zarad</i><par n="gen__pr"/></e>
-	<e lm="zaradi"><i>zaradi</i><par n="gen__pr"/></e>
-	<e lm="zbog"><i>zbog</i><par n="gen__pr"/></e>-->
 
 
 
