@@ -381,7 +381,7 @@
 	<e><p><l>nad<s n="pr"/></l><r>nad<s n="pr"/></r></p></e>
 	<e><p><l>na<s n="pr"/></l><r>na<s n="pr"/></r></p></e>
 	<e><p><l>umjesto<s n="pr"/></l><r>namesto<s n="pr"/></r></p></e>
-	<e><p><l>nanj<s n="pr"/></l><r>nanj<s n="pr"/></r></p></e> <!-- Not sure -->
+	<e><p><l>na<b/>njega<s n="pr"/></l><r>nanj<s n="pr"/></r></p></e>
 	<e><p><l>okolo<s n="pr"/></l><r>naokoli<s n="pr"/></r></p></e>
 	<e><p><l>prema<s n="pr"/></l><r>naproti<s n="pr"/></r></p></e>
 	<e><p><l>protiv<s n="pr"/></l><r>nasproti<s n="pr"/></r></p></e>
@@ -425,13 +425,12 @@
 	<e><p><l>uporedo<s n="pr"/></l><r>vštric<s n="pr"/></r></p></e>
 	<e><p><l>u<s n="pr"/></l><r>za<s n="pr"/></r></p></e>
 	<e><p><l>za<s n="pr"/></l><r>za<s n="pr"/></r></p></e>
-	<e><p><l>jer<s n="pr"/></l><r>zaradi<s n="pr"/></r></p></e>
+	<e><p><l>zbog<s n="pr"/></l><r>zaradi<s n="pr"/></r></p></e>
 	<e><p><l>radi<s n="pr"/></l><r>zavoljo<s n="pr"/></r></p></e>
 	<e><p><l>sa<s n="pr"/></l><r>z<s n="pr"/></r></p></e>
+	<e><p><l>s<s n="pr"/></l><r>z<s n="pr"/></r></p></e>
 	<e><p><l>protiv<s n="pr"/></l><r>zoper<s n="pr"/></r></p></e>
 	<e><p><l>pored<s n="pr"/></l><r>zraven<s n="pr"/></r></p></e>
-	
-	<e><p><l>dvoje<s n="pr"/></l><r>raz<s n="pr"/></r></p></e> <!-- stupid word - never used -->
 	
 	<e><p><l>put<s n="pr"/></l><r>proti<s n="pr"/></r></p></e>
 	<e><p><l>nadomak<s n="pr"/></l><r>blizu<s n="pr"/></r></p></e>

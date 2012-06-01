@@ -30066,6 +30066,31 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="zarad"><i>zarad</i><par n="gen__pr"/></e>
 <e lm="zaradi"><i>zaradi</i><par n="gen__pr"/></e>
 <e lm="zbog"><i>zbog</i><par n="gen__pr"/></e>
+
+	<!-- added -->
+	<e lm="h"><i>h</i><par n="s/a__dat__pr"/></e>
+	<e lm="preko"><i>preko</i><par n="acc__pr"/></e>
+	
+	<e lm="na njega"><i>na<b/>njega</i><par n="acc__pr"/></e>
+	<e lm="na njega"><i>na<b/>njega</i><par n="loc__pr"/></e>
+	
+	<e lm="okolo"><i>okolo</i><par n="gen__pr"/></e>
+	
+	<e lm="što god"><i>što<b/>god</i><par n="dat__pr"/></e>
+	
+	<e lm="onkraj"><i>onkraj</i><par n="gen__pr"/></e>
+	
+	<e r="RL" lm="nakon"><i>nakon</i><par n="acc__pr"/></e>
+	<e r="RL" lm="nakon"><i>nakon</i><par n="loc__pr"/></e>
+	
+	<e r="RL" lm="kroz"><i>kroz</i><par n="s/a__gen__pr"/></e>
+	
+	<e r="RL" lm="sa"><i>s</i><par n="s/a__acc__pr"/></e>
+	
+	<e lm="uprkos"><i>uprkos</i><par n="gen__pr"/></e>
+	<e lm="uporedo"><i>uporedo</i><par n="gen__pr"/></e>
+	
+
 <!--Conjunctions-->
 <!--Coordinating-->
 
