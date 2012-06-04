@@ -183,8 +183,10 @@
     <e><p><l>taj<s n="prn"/><s n="dem"/></l><r>ta<s n="prn"/><s n="dem"/></r></p></e>
 
     <!--Adverbs-->
+    <e><p><l>gdje<s n="cnjsub"/></l><r>kje<s n="adv"/><s n="sint"/></r></p></e><!--TODO: "kjer", when cnjsub vs. adv are correctly disambiguated-->
+    <e><p><l>kako<s n="cnjsub"/></l><r>kako<s n="adv"/><s n="sint"/></r></p></e>
+
     <e><p><l>gdje<s n="adv"/></l><r>kje<s n="adv"/></r></p></e>
-    <e><p><l>gdje<s n="cnjsub"/></l><r>kje<s n="adv"/></r></p></e><!--TODO: "kjer", when cnjsub vs. adv are correctly disambiguated-->
     <e><p><l>jučer<s n="adv"/></l><r>včeraj<s n="adv"/></r></p></e>
     <e><p><l>zatim<s n="adv"/></l><r>potem<s n="adv"/></r></p></e>
     <e><p><l>hitro<s n="adv"/></l><r>hitro<s n="adv"/></r></p></e>
@@ -199,7 +201,6 @@
     <e><p><l>vani<s n="adv"/></l><r>zunaj<s n="adv"/></r></p></e>
     <e><p><l>onda<s n="adv"/></l><r>potem<s n="adv"/></r></p></e>
     <e><p><l>sada<s n="adv"/></l><r>sedaj<s n="adv"/></r></p></e>
-    <e><p><l>kako<s n="cnjsub"/></l><r>kako<s n="adv"/></r></p></e>
 	
     <e><p><l>uokolo<s n="adv"/></l><r>okoli<s n="adv"/></r></p></e>
     <e><p><l>kamo<s n="adv"/></l><r>kam<s n="adv"/></r></p></e>

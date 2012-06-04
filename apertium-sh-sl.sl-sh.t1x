@@ -35,6 +35,10 @@
   <def-cat n="adj">
      <cat-item tags="adj.*"/>
   </def-cat>
+  <def-cat n="adv">
+    <cat-item tags="adv"/>
+    <cat-item tags="adv.*"/>
+  </def-cat>
   <def-cat n="det">
      <cat-item tags="det"/>
      <cat-item tags="det.*"/>
@@ -51,6 +55,10 @@
      <attr-item tags="np"/>
      <attr-item tags="np.ant"/>
      <attr-item tags="np.top"/>
+  </def-attr>
+
+  <def-attr n="a_adv">
+    <attr-item tags="adv"/>
   </def-attr>
 
   <def-attr n="a_num">
@@ -121,13 +129,55 @@
      <attr-item tags="voc"/>
   </def-attr>
 
+  <def-attr n="a_adv_form_SL">
+    <attr-item tags="sint"/>
+    <attr-item tags="sint.comp"/>
+    <attr-item tags="sint.sup"/>
+    <attr-item tags="sint.ela"/>
+  </def-attr>
+
 </section-def-attrs>
 
 <section-def-vars>
   <def-var n="number"/>
   <def-var n="genere"/>
-  <def-var n="motion"/> <!-- We set this to motion if there is a verb, and unset it if there is a noun -->
+  <def-var n="motion"/> <!-- We set this to motion if there is a verb, and unset it if there is a noun -->	
+  <def-var n="caseFirstWord"/>	
+  <def-var n="EOS" v="true"/>
 </section-def-vars>
+
+
+<section-def-macros>
+
+	<def-macro n="firstWord" npar="1"><!--nova versió 8-febr-08  -->
+		<choose>
+			<when>
+				<test>
+					<equal> 
+						<var n="EOS"/>
+						<lit v="true"/>
+					</equal> 
+				</test>
+				<let>
+					<var n="caseFirstWord"/>
+					<lit v="Aa"/>
+				</let>
+			</when>
+			<otherwise> 
+				<let>
+					<var n="caseFirstWord"/>
+					<lit v="aa"/>
+				</let>
+			</otherwise>
+		</choose>
+		<let>
+			<var n="EOS"/>
+			<lit v="false"/>
+		</let>
+	</def-macro>
+
+</section-def-macros>
+
 
 <section-rules>
 
@@ -786,6 +836,92 @@
        </out>
      </action>
   </rule>
+
+	<!-- Added by Aleš -->
+	<rule comment="adverbs">
+      <pattern>
+		<pattern-item n="adv"/>
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<choose>
+		  <when>
+		    <test>
+				<equal>
+				  <clip pos="1" side="sl" part="a_adv_form_SL"/> <!-- SL = adv.sint.ela -> SH = adv.ssup -->
+				  <lit-tag v="sint.ela"/>
+				</equal>
+		    </test>	
+		    <out>
+		      <chunk name="Adv" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+				  <clip pos="1" side="tl" part="lemh"/>
+				  <clip pos="1" side="tl" part="a_adv"/>
+				  <lit-tag v="ssup"/>
+				</lu>
+		      </chunk>
+		    </out>
+		  </when>
+		  <when>
+		    <test>
+				<equal>
+				  <clip pos="1" side="sl" part="a_adv_form_SL"/> <!-- SL = adv.sint.sup -> SH = adv.sup -->
+				  <lit-tag v="sint.sup"/>
+				</equal>
+		    </test>	
+		    <out>
+		      <chunk name="Adv" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+				  <clip pos="1" side="tl" part="lemh"/>
+				  <clip pos="1" side="tl" part="a_adv"/>
+				  <lit-tag v="sup"/>
+				</lu>
+		      </chunk>
+		    </out>
+		  </when>
+		  <when>
+		    <test>
+				<equal>
+				  <clip pos="1" side="sl" part="a_adv_form_SL"/> <!-- SL = adv.sint.comp -> SH = adv.comp -->
+				  <lit-tag v="sint.comp"/>
+				</equal>
+		    </test>	
+		    <out>
+		      <chunk name="Adv" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+				  <clip pos="1" side="tl" part="lemh"/>
+				  <clip pos="1" side="tl" part="a_adv"/>
+				  <lit-tag v="comp"/>
+				</lu>
+		      </chunk>
+		    </out>
+		  </when>
+		  <otherwise> <!-- Else: adv.sint -> adv -->
+		    <out>
+		      <chunk name="Adv" case="caseFirstWord">
+			<tags>
+			  <tag><lit-tag v="VB"/></tag>
+			</tags>
+				<lu>
+				  <clip pos="1" side="tl" part="lemh"/>
+				  <clip pos="1" side="tl" part="a_adv"/>
+				</lu>
+		      </chunk>
+		    </out>
+		  </otherwise>
+		</choose>
+      </action>
+    </rule>
+
 
 </section-rules>
 

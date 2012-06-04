@@ -147,7 +147,7 @@
       <cat-item tags="adv.*"/>
     </def-cat>
     <def-cat n="adj_ADV">
-      <cat-item tags="adj.pst.nt.sg.acc.*"/>
+      <cat-item tags="adj.pst.*.sg.acc.*"/>
     </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
@@ -539,6 +539,7 @@
 			<lu>
 			  <clip pos="1" side="tl" part="lemh"/>
 			  <clip pos="1" side="tl" part="a_adv"/>
+			  <lit-tag v="sint"/>
 			</lu>
 		      </chunk>
 		    </out>
@@ -779,7 +780,7 @@
 		      </chunk>
 		    </out>
 		  </when>
-		  <otherwise> <!-- Else: adv -> adv -->
+		  <otherwise> <!-- Else: adv -> adv.sint -->
 		    <out>
 		      <chunk name="Adv" case="caseFirstWord">
 			<tags>
