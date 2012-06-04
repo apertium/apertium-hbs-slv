@@ -187,15 +187,15 @@
     <e><p><l>gdje<s n="cnjsub"/></l><r>kje<s n="adv"/></r></p></e><!--TODO: "kjer", when cnjsub vs. adv are correctly disambiguated-->
     <e><p><l>jučer<s n="adv"/></l><r>včeraj<s n="adv"/></r></p></e>
     <e><p><l>zatim<s n="adv"/></l><r>potem<s n="adv"/></r></p></e>
-    <e><p><l>hitro<s n="adv"/></l><r>hitro<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>hitro<s n="adv"/></l><r>hitro<s n="adv"/></r></p></e>
     <e><p><l>uvijek<s n="adv"/></l><r>vedno<s n="adv"/></r></p></e>
     <e><p><l>zajedno<s n="adv"/></l><r>skupaj<s n="adv"/></r></p></e>
     <e><p><l>jako<s n="adv"/></l><r>zelo<s n="adv"/></r></p></e>
-    <e><p><l>toplo<s n="adv"/></l><r>toplo<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>toplo<s n="adv"/></l><r>toplo<s n="adv"/></r></p></e>
     <e><p><l>danas<s n="adv"/></l><r>danes<s n="adv"/></r></p></e>
-    <e><p><l>dobro<s n="adv"/></l><r>dobro<s n="adv"/><s n="sint"/></r></p></e>
-    <e><p><l>blizu<s n="adv"/></l><r>blizu<s n="adv"/><s n="sint"/></r></p></e>
-    <e><p><l>blisko<s n="adv"/></l><r>blizu<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>dobro<s n="adv"/></l><r>dobro<s n="adv"/></r></p></e>
+    <e><p><l>blizu<s n="adv"/></l><r>blizu<s n="adv"/></r></p></e>
+    <e><p><l>blisko<s n="adv"/></l><r>blizu<s n="adv"/></r></p></e>
     <e><p><l>vani<s n="adv"/></l><r>zunaj<s n="adv"/></r></p></e>
     <e><p><l>onda<s n="adv"/></l><r>potem<s n="adv"/></r></p></e>
     <e><p><l>sada<s n="adv"/></l><r>sedaj<s n="adv"/></r></p></e>
@@ -203,15 +203,15 @@
 	
     <e><p><l>uokolo<s n="adv"/></l><r>okoli<s n="adv"/></r></p></e>
     <e><p><l>kamo<s n="adv"/></l><r>kam<s n="adv"/></r></p></e>
-    <e><p><l>naravno<s n="adv"/></l><r>naravno<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>naravno<s n="adv"/></l><r>naravno<s n="adv"/></r></p></e>
     <e><p><l>nikad<s n="adv"/></l><r>nikoli<s n="adv"/></r></p></e>
     <e><p><l>možda<s n="adv"/></l><r>mogoče<s n="adv"/></r></p></e>
-    <e><p><l>vjerojatno<s n="adv"/></l><r>verjetno<s n="adv"/><s n="sint"/></r></p></e>
-    <e><p><l>polako<s n="adv"/></l><r>počasi<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>vjerojatno<s n="adv"/></l><r>verjetno<s n="adv"/></r></p></e>
+    <e><p><l>polako<s n="adv"/></l><r>počasi<s n="adv"/></r></p></e>
     <e><p><l>tamo<s n="adv"/></l><r>tam<s n="adv"/></r></p></e>
     <e><p><l>posvuda<s n="adv"/></l><r>povsod<s n="adv"/></r></p></e>
     <e><p><l>opet<s n="adv"/></l><r>ponovno<s n="adv"/></r></p></e>
-    <e><p><l>pažljivo<s n="adv"/></l><r>pazljivo<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>pažljivo<s n="adv"/></l><r>pazljivo<s n="adv"/></r></p></e>
     <e><p><l>sad<s n="adv"/></l><r>sedaj<s n="adv"/></r></p></e>
     <e><p><l>još<b/>uvijek<s n="adv"/></l><r>še<b/>vedno<s n="adv"/></r></p></e>
 

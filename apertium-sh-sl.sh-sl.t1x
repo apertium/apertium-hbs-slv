@@ -245,6 +245,12 @@
       <attr-item tags="adv"/>
     </def-attr>
 
+    <def-attr n="a_adv_form_SH">
+      <attr-item tags="comp"/>
+      <attr-item tags="sup"/>
+      <attr-item tags="ssup"/>
+    </def-attr>
+
     <def-attr n="a_adv_form">
       <attr-item tags="sint"/>
       <attr-item tags="sint.comp"/>
@@ -704,6 +710,91 @@
 		  </chunk>
 		</out>
     </action>
+    </rule>
+
+    <rule comment="adverbs">
+      <pattern>
+		<pattern-item n="adv"/>
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<choose>
+		  <when>
+		    <test>
+				<equal>
+				  <clip pos="1" side="sl" part="a_adv_form_SH"/> <!-- SH = adv.ssup -> SL = adv.sint.ela -->
+				  <lit-tag v="ssup"/>
+				</equal>
+		    </test>	
+		    <out>
+		      <chunk name="Adv" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+				  <clip pos="1" side="tl" part="lemh"/>
+				  <clip pos="1" side="tl" part="a_adv"/>
+				  <lit-tag v="sint.ela"/>
+				</lu>
+		      </chunk>
+		    </out>
+		  </when>
+		  <when>
+		    <test>
+				<equal>
+				  <clip pos="1" side="sl" part="a_adv_form_SH"/> <!-- SH = adv.sup -> SL = adv.sint.sup -->
+				  <lit-tag v="sup"/>
+				</equal>
+		    </test>	
+		    <out>
+		      <chunk name="Adv" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+				  <clip pos="1" side="tl" part="lemh"/>
+				  <clip pos="1" side="tl" part="a_adv"/>
+				  <lit-tag v="sint.sup"/>
+				</lu>
+		      </chunk>
+		    </out>
+		  </when>
+		  <when>
+		    <test>
+				<equal>
+				  <clip pos="1" side="sl" part="a_adv_form_SH"/> <!-- SH = adv.comp -> SL = adv.sint.comp -->
+				  <lit-tag v="comp"/>
+				</equal>
+		    </test>	
+		    <out>
+		      <chunk name="Adv" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+				  <clip pos="1" side="tl" part="lemh"/>
+				  <clip pos="1" side="tl" part="a_adv"/>
+				  <lit-tag v="sint.comp"/>
+				</lu>
+		      </chunk>
+		    </out>
+		  </when>
+		  <otherwise> <!-- Else: adv -> adv -->
+		    <out>
+		      <chunk name="Adv" case="caseFirstWord">
+			<tags>
+			  <tag><lit-tag v="VB"/></tag>
+			</tags>
+				<lu>
+				  <clip pos="1" side="tl" part="lemh"/>
+				  <clip pos="1" side="tl" part="a_adv"/>
+				  <lit-tag v="sint"/>
+				</lu>
+		      </chunk>
+		    </out>
+		  </otherwise>
+		</choose>
+      </action>
     </rule>
 
 
