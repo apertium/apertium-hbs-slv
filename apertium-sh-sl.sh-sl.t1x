@@ -356,6 +356,11 @@
       <attr-item tags="@Adv←"/>
     </def-attr>
 
+    <def-attr n="a_adv_addWord">
+      <attr-item tags="add_comp"/>
+      <attr-item tags="add_sup"/>
+      <attr-item tags="add_ela"/>
+    </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -492,7 +497,7 @@
 	    <lu>
 	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_vrb"/>
-		<clip pos="1" side="tl" part="trn"/>
+		  <clip pos="1" side="tl" part="trn"/>
 	      <clip pos="1" side="tl" part="tns"/>
 	      <clip pos="1" side="tl" part="prs"/>
 	      <clip pos="1" side="tl" part="nbr"/>
@@ -713,13 +718,44 @@
     </action>
     </rule>
 
-    <rule comment="adverbs">
+    <rule comment="Adverbs">
       <pattern>
 		<pattern-item n="adv"/>
       </pattern>
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<choose>
+		  <when>
+		    <test>
+				<and>
+					<equal>
+					  <clip pos="1" side="sl" part="a_adv_form_SH"/> <!-- SH = adv.ssup -> SL = adv.sint.ela -->
+					  <lit-tag v="ssup"/>
+					</equal>
+					<equal>
+					  <clip pos="1" side="tl" part="a_adv_addWord"/>
+					  <lit-tag v="add_ela"/>
+					</equal>
+				</and>
+		    </test>	
+		    <out>
+		      <chunk name="Adv" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+				  	<lit v="veliko"/>	
+					<lit-tag v="adv.sint.ela"/>
+				</lu>
+				<b/>
+				<lu>
+				  <clip pos="1" side="tl" part="lemh"/>
+				  <clip pos="1" side="tl" part="a_adv"/>
+				  <lit-tag v="sint"/>
+				</lu>
+		      </chunk>
+		    </out>
+		  </when>
 		  <when>
 		    <test>
 				<equal>
@@ -739,8 +775,39 @@
 				</lu>
 		      </chunk>
 		    </out>
-		  </when>
+		  </when>	
 		  <when>
+		    <test>
+				<and>
+					<equal>
+					  <clip pos="1" side="sl" part="a_adv_form_SH"/> <!-- SH = adv.sup -> SL = adv.sint.sup -->
+					  <lit-tag v="sup"/>
+					</equal>
+					<equal>
+					  <clip pos="1" side="tl" part="a_adv_addWord"/>
+					  <lit-tag v="add_sup"/>
+					</equal>
+				</and>
+		    </test>	
+		    <out>
+		      <chunk name="Adv" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+				  	<lit v="najbolj"/>	
+					<lit-tag v="adv.sint.sup"/>
+				</lu>
+				<b/>
+				<lu>
+				  <clip pos="1" side="tl" part="lemh"/>
+				  <clip pos="1" side="tl" part="a_adv"/>
+				  <lit-tag v="sint"/>
+				</lu>
+		      </chunk>
+		    </out>
+		  </when>
+	   	  <when>
 		    <test>
 				<equal>
 				  <clip pos="1" side="sl" part="a_adv_form_SH"/> <!-- SH = adv.sup -> SL = adv.sint.sup -->
@@ -756,6 +823,37 @@
 				  <clip pos="1" side="tl" part="lemh"/>
 				  <clip pos="1" side="tl" part="a_adv"/>
 				  <lit-tag v="sint.sup"/>
+				</lu>
+		      </chunk>
+		    </out>
+		  </when>
+		  <when>
+		    <test>
+				<and>
+					<equal>
+					  <clip pos="1" side="sl" part="a_adv_form_SH"/> <!-- SH = adv.comp -> SL = adv.sint.comp -->
+					  <lit-tag v="comp"/>
+					</equal>
+					<equal>
+					  <clip pos="1" side="tl" part="a_adv_addWord"/>
+					  <lit-tag v="add_comp"/>
+					</equal>
+				</and>
+		    </test>	
+		    <out>
+		      <chunk name="Adv" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+				  	<lit v="bolj"/>	
+					<lit-tag v="adv.sint"/>
+				</lu>
+				<b/>
+				<lu>
+				  <clip pos="1" side="tl" part="lemh"/>
+				  <clip pos="1" side="tl" part="a_adv"/>
+				  <lit-tag v="sint"/>
 				</lu>
 		      </chunk>
 		    </out>
