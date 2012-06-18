@@ -163,7 +163,7 @@
     <e><p><l><s n="pst"/></l><r></r></p></e>
     <e><p><l><s n="comp"/></l><r><s n="comp"/></r></p></e>
     <e><p><l><s n="sup"/></l><r><s n="sup"/></r></p></e>
-    <e><p><l><s n="ssup"/></l><r><s n="ssup"/></r></p></e>
+    <e><p><l><s n="ssup"/></l><r><s n="ela"/></r></p></e>
    </pardef>
   </pardefs>
 
@@ -204,6 +204,7 @@
     <e><p><l>blizu<s n="adv"/></l><r>blizu<s n="adv"/></r></p></e>
     <e><p><l>blisko<s n="adv"/></l><r>blizu<s n="adv"/></r></p></e>
     <e><p><l>vani<s n="adv"/></l><r>zunaj<s n="adv"/></r></p></e>
+    <e><p><l>onda<s n="adv"/></l><r>zato<s n="adv"/></r></p></e>
     <e><p><l>onda<s n="adv"/></l><r>potem<s n="adv"/></r></p></e>
     <e><p><l>sada<s n="adv"/></l><r>sedaj<s n="adv"/></r></p></e>
 	
@@ -5821,13 +5822,13 @@
     <e><p><l>malen<s n="adj"/></l><r>majhen<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>hladan<s n="adj"/></l><r>mrzel<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>velik<s n="adj"/></l><r>velik<s n="adj"/></r></p><par n="pst_to_null"/></e>
-    <e><p><l>jak<s n="adj"/></l><r>močan<s n="adj"/></r></p><par n="pst_to_null"/></e>
+    <!--><e><p><l>jak<s n="adj"/></l><r>močan<s n="adj"/></r></p><par n="pst_to_null"/></e>-->
     <e><p><l>mal<s n="adj"/></l><r>mali<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>sretan<s n="adj"/></l><r>srečen<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>star<s n="adj"/></l><r>star<s n="adj"/></r></p><par n="pst_to_null"/></e>
 
 	<!-- Adjective to Adverb -> rule added -->
-    <e><p><l>jak<s n="adj"/></l><r>zelo<s n="adv"/></r></p><par n="pst_to_null"/></e>
+    <e><p><l>jak<s n="adj"/></l><r>zelo<s n="adv"/><s n="sint"/></r></p></e>
 	
 	
     <e><p><l>da<s n="part"/></l><r>da<s n="part"/></r></p></e>
