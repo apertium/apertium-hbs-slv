@@ -71,6 +71,9 @@
     <def-cat n="vbmod">
       <cat-item tags="vbmod.*"/>
     </def-cat>
+    <def-cat n="vbhaver">
+      <cat-item tags="vbhaver.*"/>
+    </def-cat>
     <def-cat n="vblex">
       <cat-item tags="vblex.*"/>
     </def-cat>
@@ -189,6 +192,9 @@
     </def-cat>
     <def-cat n="li_part">
       <cat-item lemma ="li" tags="part.itg"/>
+    </def-cat>
+    <def-cat n="i_cnjcoo">
+      <cat-item lemma ="i" tags="cnjcoo"/>
     </def-cat>
     <def-cat n="kako_adv">
       <cat-item lemma="kako" tags="adv"/>
@@ -920,6 +926,27 @@
 		  </otherwise>
 		</choose>
       </action>
+    </rule>
+
+	<rule comment="li i -> tudi (li.part.itg i.cnjcoo -> tudi.part)">
+      <pattern>
+		<pattern-item n="li_part"/>
+		<pattern-item n="i_cnjcoo"/>
+      </pattern>
+      <action>
+		<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
+		<out>
+		  <chunk name="ChunkName" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="VB"/></tag>
+		    </tags>
+			<lu>
+			  <clip pos="1" side="tl" part="lemh"/> 
+			  <lit-tag v="part"/>
+		    </lu>	
+		  </chunk>
+		</out>
+    </action>
     </rule>
 
 
