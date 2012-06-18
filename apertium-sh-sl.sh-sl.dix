@@ -5713,7 +5713,9 @@
     <e><p><l>biti<s n="vbser"/><s n="clt"/></l><r>biti<s n="vbser"/></r></p></e>
     <e><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: biti<vblex> == to beat, biti<vbser> == to be-->
 	
-    <e><p><l>imati<s n="vbhaver"/></l><r>imeti<s n="vblex"/></r></p></e>
+	<!-- vbhaver -> vblex ==> Added rule -->
+    <e><p><l>imati<s n="vbhaver"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>nemati<s n="vbhaver"/></l><r>imeti<s n="vblex"/><s n="neg"/><s n="imperf"/><s n="tv"/></r></p></e>
 	
 	<!-- Imperf / perf tagged -->
     <e><p><l>moći<s n="vbmod"/></l><r>moči<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
@@ -5739,7 +5741,6 @@
     <e><p><l>vidjeti<s n="vblex"/></l><r>videti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>znati<s n="vblex"/></l><r>vedeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>voljeti<s n="vblex"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e><!--by Krvoje: @Shraier; daj ako se sjetiš javi mi se na IRC, da prodiskutiramo razliku ove dve riječi sh/sl-->
-    <e><p><l>nemati<s n="vbhaver"/></l><r>imeti<s n="vblex"/><s n="neg"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>spavati<s n="vblex"/></l><r>spati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>potrčavati<s n="vblex"/></l><r>teči<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>skrivati<s n="vblex"/></l><r>skrivati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
