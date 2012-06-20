@@ -222,6 +222,7 @@
     <e><p><l>sad<s n="adv"/></l><r>sedaj<s n="adv"/></r></p></e>
     <e><p><l>još<b/>uvijek<s n="adv"/></l><r>še<b/>vedno<s n="adv"/></r></p></e>
 
+    <e><p><l>rano<s n="adv"/></l><r>rano<s n="adv"/></r></p></e> <!-- FIXME: Check -->
 
 	<!-- Added NEW -->
 	<!-- Osnovniki -->
@@ -8297,6 +8298,7 @@
 
 	<!-- Num -> Num -->
 	<!-- TO DO: Need to add gen.nbr.cas -->
+	<e><p><l>jedan<s n="num"/></l><r>en<s n="num"/></r></p></e>
 	<e><p><l>tri<s n="num"/></l><r>tri<s n="num"/></r></p></e>
 	<e><p><l>četiri<s n="num"/></l><r>štiri<s n="num"/></r></p></e>
 	<e><p><l>pet<s n="num"/></l><r>pet<s n="num"/></r></p></e>
@@ -8307,6 +8309,10 @@
 	<e><p><l>deset<s n="num"/></l><r>deset<s n="num"/></r></p></e>
 	
 
+        <!-- SECTION: Verbs -->
+
+	<e r="LR"><p><l>htjeti<s n="vbmod"/></l><r></r></p></e>
+       
 
    </section>
 

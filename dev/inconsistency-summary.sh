@@ -29,10 +29,14 @@ for i in $POS; do
 		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<v' | grep -v REGEX | wc -l`; 
 		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v  -e '<v' | grep -v REGEX | wc -l`;
 		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v -e '<v' | grep -v REGEX |  wc -l`;
+	elif [ "$i" = "vbser" ]; then
+		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<pp' -e '<vbm' | grep -v REGEX | wc -l`; 
+		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v  -e '<pp' -e '<vbm' | grep -v REGEX | wc -l`;
+		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v -e '<pp' -e '<vbm' | grep -v REGEX |  wc -l`;
 	elif [ "$i" = "vbhaver" ]; then
-		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<pp' | grep -v REGEX | wc -l`; 
-		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v  -e '<pp' | grep -v REGEX | wc -l`;
-		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v -e '<pp' | grep -v REGEX |  wc -l`;
+		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<pp' -e '<vbm' | grep -v REGEX | wc -l`; 
+		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v  -e '<pp' -e '<vbm' | grep -v REGEX | wc -l`;
+		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v -e '<pp' -e '<vbm' | grep -v REGEX |  wc -l`;
 	elif [ "$i" = "pr" ]; then
 		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<prn' -e '<ger' | grep -v REGEX | wc -l`; 
 		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v  -e '<prn' -e '<ger' | grep -v REGEX | wc -l`;
@@ -40,7 +44,15 @@ for i in $POS; do
 	elif [ "$i" = "rel" ]; then
 		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<pr' | grep -v REGEX | wc -l`; 
 		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v  -e '<pr' | grep -v REGEX | wc -l`;
-		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v -e '<rel' | grep -v REGEX |  wc -l`;
+		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v -e '<pr' | grep -v REGEX |  wc -l`;
+	elif [ "$i" = "adj" ]; then
+		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<np' | grep -v REGEX | wc -l`; 
+		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v  -e '<np' | grep -v REGEX | wc -l`;
+		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v -e '<np' | grep -v REGEX |  wc -l`;
+	elif [ "$i" = "vbmod" ]; then
+		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<vbl' | grep -v REGEX | wc -l`; 
+		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v  -e '<vbl' | grep -v REGEX | wc -l`;
+		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v -e '<vbl' | grep -v REGEX |  wc -l`;
 	else
 		TOTAL=`cat $INC | grep "<$i>" | grep -v REGEX | wc -l`; 
 		AT=`cat $INC | grep "<$i>" | grep '@'  | grep -v REGEX | wc -l`;
