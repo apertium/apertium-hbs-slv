@@ -955,7 +955,6 @@
     </action>
     </rule>
 
-
     <rule comment="vbhaver -> vblex">
       <pattern>
 		<pattern-item n="vbhaver"/>
@@ -999,6 +998,50 @@
     </rule>
 
 
+    <rule comment="noun.voc -> noun.nom">
+      <pattern>
+		<pattern-item n="nom"/> <!-- Samostalnik -->
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<choose>
+			<when>
+			   <test>
+					<equal>
+					  <clip pos="1" side="sl" part="cas"/>
+					  <lit-tag v="voc"/>
+					</equal>
+			   </test>	
+			   <out>
+			     <chunk name="NVocToNom" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+					<clip pos="1" side="tl" part="lemh"/>
+					<clip pos="1" side="tl" part="a_nom"/>
+					<clip pos="1" side="tl" part="gen"/>
+					<clip pos="1" side="tl" part="nbr"/>
+					<lit-tag v="nom"/>
+				</lu>
+			     </chunk>
+			   </out>
+			 </when>
+			<otherwise> <!-- Else: adv -> adv.sint -->
+			    <out>
+			      <chunk name="Nom" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+					<lu>
+					  <clip pos="1" side="tl" part="whole"/>
+					</lu>
+			      </chunk>
+			    </out>
+			  </otherwise>
+		</choose>
+      </action>
+    </rule>
 
   </section-rules>
 </transfer>
