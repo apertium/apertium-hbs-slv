@@ -200,6 +200,56 @@
     <e><p><l>ništa<s n="prn"/></l><r>nič<s n="prn"/></r></p></e>
     <e><p><l>taj<s n="prn"/><s n="dem"/></l><r>ta<s n="prn"/><s n="dem"/></r></p></e>
 
+	<!-- Added for SH -> SL -->
+	<e><p><l>moj<s n="prn"/><s n="pos"/></l><r>moj<s n="prn"/><s n="pos"/></r></p></e>
+	<e><p><l>tvoj<s n="prn"/><s n="pos"/></l><r>tvoj<s n="prn"/><s n="pos"/></r></p></e>
+	<e><p><l>njen<s n="prn"/><s n="pos"/></l><r>njen<s n="prn"/><s n="pos"/></r></p></e>
+	<e><p><l>naš<s n="prn"/><s n="pos"/></l><r>naš<s n="prn"/><s n="pos"/></r></p></e>
+	<e><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vaš<s n="prn"/><s n="pos"/></r></p></e>
+	<e><p><l>tko<s n="prn"/><s n="itg"/></l><r>kdo<s n="prn"/><s n="itg"/></r></p></e>
+	<e><p><l>što<s n="prn"/><s n="itg"/></l><r>kaj<s n="prn"/><s n="pos"/></r></p></e>
+	<e><p><l>koji<s n="prn"/><s n="itg"/></l><r>kateri<s n="prn"/><s n="itg"/></r></p></e>
+	<e><p><l>kakav<s n="prn"/><s n="itg"/></l><r>kakšen<s n="prn"/><s n="itg"/></r></p></e>
+	<e><p><l>čiji<s n="prn"/><s n="itg"/></l><r>čigav<s n="prn"/><s n="itg"/></r></p></e>
+	<e><p><l>koliki<s n="prn"/><s n="itg"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>koliko<s n="prn"/><s n="itg"/></l><r>kolik<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>netko<s n="prn"/><s n="ind"/></l><r>nekdo<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>itko<s n="prn"/><s n="ind"/></l><r>vsakdo<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>bilo<b/>tko<s n="prn"/><s n="ind"/></l><r>kdorkoli<s n="prn"/><s n="rel"/></r></p></e>
+	<e><p><l>ponešto<s n="prn"/><s n="ind"/></l><r>nekaj<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/></l><r>karkoli<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>išta<s n="prn"/><s n="ind"/></l><r>kaj<s n="prn"/><s n="itg"/></r></p></e>
+	<e><p><l>štošta<s n="prn"/><s n="ind"/></l><r>karkoli<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>nekoji<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>ikoji<s n="prn"/><s n="ind"/></l><r>katerikoli<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>bilo<b/>koji<s n="prn"/><s n="ind"/></l><r>kdor<b/>koli<s n="prn"/><s n="rel"/></r></p></e>
+	<e><p><l>pokoji<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>neki<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>poneki<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>nekakšen<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>kojekakav<s n="prn"/><s n="ind"/></l><r>nekakšen<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>ponečiji<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>ikoliki<s n="prn"/><s n="ind"/></l><r>kolik<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>nitko<s n="prn"/><s n="neg"/></l><r>nihče<s n="prn"/><s n="neg"/></r></p></e>
+	<e><p><l>nikoji<s n="prn"/><s n="neg"/></l><r>nobeden<s n="prn"/><s n="neg"/></r></p></e>
+	<e><p><l>nikakav<s n="prn"/><s n="neg"/></l><r>nikakršen<s n="prn"/><s n="neg"/></r></p></e>
+	<e><p><l>nikoliki<s n="prn"/><s n="neg"/></l><r>nič<s n="prn"/><s n="neg"/></r></p></e>
+	<e><p><l>svatko<s n="prn"/><s n="tot"/></l><r>vsakdo<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>svašta<s n="prn"/><s n="tot"/></l><r>marsikaj<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>svakoji<s n="prn"/><s n="tot"/></l><r>vsakršen<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>svaki<s n="prn"/><s n="tot"/></l><r>vsak<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>svakoliki<s n="prn"/><s n="tot"/></l><r>vsakršen<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>sav<s n="prn"/><s n="tot"/></l><r>ves<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>ovaj<s n="prn"/><s n="dem"/></l><r>ta<s n="prn"/><s n="dem"/></r></p></e>
+	<e><p><l>ovakav<s n="prn"/><s n="dem"/></l><r>tak<s n="prn"/><s n="dem"/></r></p></e>
+	<e><p><l>takav<s n="prn"/><s n="dem"/></l><r>takšen<s n="prn"/><s n="dem"/></r></p></e>
+	<e><p><l>tolik<s n="prn"/><s n="dem"/></l><r>tolik<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>onaj<s n="prn"/><s n="dem"/></l><r>tisti<s n="prn"/><s n="dem"/></r></p></e>
+	<e><p><l>onakav<s n="prn"/><s n="dem"/></l><r>takšen<s n="prn"/><s n="dem"/></r></p></e>
+	<e><p><l>onolik<s n="prn"/><s n="dem"/></l><r>tolikšen<s n="prn"/><s n="ind"/></r></p></e>
+	
+
+
     <!--Adverbs-->
     <e><p><l>gdje<s n="cnjsub"/></l><r>kje<s n="adv"/><s n="sint"/></r></p></e><!--TODO: "kjer", when cnjsub vs. adv are correctly disambiguated-->
     <e><p><l>kako<s n="cnjsub"/></l><r>kako<s n="adv"/><s n="sint"/></r></p></e>

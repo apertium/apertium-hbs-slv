@@ -443,12 +443,18 @@
 		</let>
 	</def-macro>
 	
-    <def-macro n="InAnimate_adapter" npar="1"> <!-- TO DO: macro to change ma/mi to m -->
-      <let><clip pos="1" side="tl" part="whole"/>
-      <concat>
-		<clip pos="1" side="tl" part="lemh"/>
-      </concat>
-      </let>
+    <def-macro n="mima_to_m" npar="1">
+      <choose><!--If the word translates to the target language as masculine (and not feminine or nt), the target language tag is changed from mi/ma -> m -->
+        <when>
+          <test>
+            <or>                
+	      <equal caseless="yes"><clip pos="1" side="tl" part="gen"/><lit-tag v="mi"/></equal>
+	      <equal caseless="yes"><clip pos="1" side="tl" part="gen"/><lit-tag v="ma"/></equal>
+            </or>
+          </test>          
+          <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+        </when>
+      </choose>
     </def-macro>
 
   </section-def-macros>
@@ -1053,6 +1059,7 @@
       </pattern>
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
 		<choose>
 			<when>
 			   <test>
