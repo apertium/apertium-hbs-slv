@@ -149,32 +149,44 @@
 
 <section-def-macros>
 
-	<def-macro n="firstWord" npar="1"><!--nova versió 8-febr-08  -->
-		<choose>
-			<when>
-				<test>
-					<equal> 
-						<var n="EOS"/>
-						<lit v="true"/>
-					</equal> 
-				</test>
-				<let>
-					<var n="caseFirstWord"/>
-					<lit v="Aa"/>
-				</let>
-			</when>
-			<otherwise> 
-				<let>
-					<var n="caseFirstWord"/>
-					<lit v="aa"/>
-				</let>
-			</otherwise>
-		</choose>
-		<let>
-			<var n="EOS"/>
-			<lit v="false"/>
-		</let>
-	</def-macro>
+  <def-macro n="conv-number1" npar="1">
+    <choose>
+      <when>
+        <test>
+          <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="du"/></equal> 
+        </test>
+        <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></let>
+      </when>
+    </choose>
+  </def-macro>
+
+
+  <def-macro n="firstWord" npar="1"><!--nova versió 8-febr-08  -->
+    <choose>
+      <when>
+        <test>
+          <equal> 
+            <var n="EOS"/>
+            <lit v="true"/>
+          </equal> 
+        </test>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="Aa"/>
+        </let>
+      </when>
+      <otherwise> 
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </otherwise>
+    </choose>
+    <let>
+      <var n="EOS"/>
+      <lit v="false"/>
+    </let>
+  </def-macro>
 
 </section-def-macros>
 
@@ -244,6 +256,9 @@
        <pattern-item n="prn"/>
      </pattern>
      <action>
+       <call-macro n="conv-number1">
+         <with-param pos="1"/>
+       </call-macro>
        <out>
          <chunk name="prn" case="caseFirstWord">
            <tags>
@@ -269,6 +284,9 @@
        <pattern-item n="nom"/>
      </pattern>
      <action>
+       <call-macro n="conv-number1">
+         <with-param pos="1"/>
+       </call-macro>
        <out>
          <chunk name="nom" case="caseFirstWord">
            <tags>
@@ -299,6 +317,9 @@
        <pattern-item n="det"/>
      </pattern>
      <action>
+       <call-macro n="conv-number1">
+         <with-param pos="1"/>
+       </call-macro>
        <out>
          <chunk name="nom" case="caseFirstWord">
            <tags>
