@@ -1068,24 +1068,9 @@
 					  <lit-tag v="voc"/>
 					</equal>
 			   </test>	
-			   <out>
-			     <chunk name="Prn_VocToNom" case="caseFirstWord">
-				<tags>
-				  <tag><lit-tag v="VB"/></tag>
-				</tags>
-				<lu>
-					<clip pos="1" side="tl" part="lemh"/>
-					<clip pos="1" side="tl" part="a_prn"/>
-					<clip pos="1" side="tl" part="def"/>
-					<clip pos="1" side="tl" part="prs"/>
-					<clip pos="1" side="tl" part="gen"/>
-					<clip pos="1" side="tl" part="nbr"/>
-					<lit-tag v="nom"/>
-				</lu>
-			     </chunk>
-			   </out>
-			 </when>
-			<otherwise>
+                           <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
+                         </when>
+		</choose>
 			    <out>
 			      <chunk name="Prn" case="caseFirstWord">
 				<tags>
@@ -1096,8 +1081,6 @@
 					</lu>
 			      </chunk>
 			    </out>
-			  </otherwise>
-		</choose>
       </action>
     </rule>
 
