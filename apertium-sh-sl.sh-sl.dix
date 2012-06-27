@@ -189,7 +189,6 @@
     <e><p><l>svoj<s n="prn"/><s n="ref"/><s n="pos"/></l><r>svoj<s n="prn"/><s n="ref"/></r></p></e>
     <e><p><l>sav<s n="prn"/><s n="tot"/><s n="ma"/></l><r>ves<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
     <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>njen<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
-    <e><p><l>nešto<s n="prn"/></l><r>nekaj<s n="prn"/></r></p></e>
 
 
 	<!-- Matches of tags -->
@@ -201,24 +200,24 @@
 
 	<!-- Added for SH -> SL -->
 	<e><p><l>moj<s n="prn"/><s n="pos"/></l><r>moj<s n="prn"/><s n="pos"/></r></p></e>
-	<e><p><l>tvoj<s n="prn"/><s n="pos"/></l><r>tvoj<s n="prn"/><s n="pos"/></r></p></e>
-	<e><p><l>njen<s n="prn"/><s n="pos"/></l><r>njen<s n="prn"/><s n="pos"/></r></p></e>
-	<e><p><l>naš<s n="prn"/><s n="pos"/></l><r>naš<s n="prn"/><s n="pos"/></r></p></e>
-	<e><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vaš<s n="prn"/><s n="pos"/></r></p></e>
-	<e><p><l>tko<s n="prn"/><s n="itg"/></l><r>kdo<s n="prn"/><s n="itg"/></r></p></e>
-	<e><p><l>što<s n="prn"/><s n="itg"/></l><r>kaj<s n="prn"/><s n="pos"/></r></p></e>
+	<e><p><l>tvoj<s n="prn"/><s n="pos"/></l><r>tvoj<s n="prn"/><s n="pos"/><s n="p2"/></r></p></e>
+	<e><p><l>njen<s n="prn"/><s n="pos"/></l><r>njen<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
+	<e><p><l>naš<s n="prn"/><s n="pos"/></l><r>naš<s n="prn"/><s n="pos"/><s n="p1"/></r></p></e>
+	<e><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vaš<s n="prn"/><s n="pos"/><s n="p2"/></r></p></e>
+	<e><p><l>tko<s n="prn"/><s n="itg"/><s n="mfn"/></l><r>kdo<s n="prn"/><s n="itg"/></r></p></e>
+	<e><p><l>što<s n="prn"/><s n="itg"/><s n="mfn"/></l><r>kaj<s n="prn"/><s n="pos"/><s n="mf"/></r></p></e>
 	<e><p><l>koji<s n="prn"/><s n="itg"/></l><r>kateri<s n="prn"/><s n="itg"/></r></p></e>
 	<e><p><l>kakav<s n="prn"/><s n="itg"/></l><r>kakšen<s n="prn"/><s n="itg"/></r></p></e>
 	<e><p><l>čiji<s n="prn"/><s n="itg"/></l><r>čigav<s n="prn"/><s n="itg"/></r></p></e>
 	<e><p><l>koliki<s n="prn"/><s n="itg"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
 	<e><p><l>koliko<s n="prn"/><s n="itg"/></l><r>kolik<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>netko<s n="prn"/><s n="ind"/></l><r>nekdo<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>itko<s n="prn"/><s n="ind"/></l><r>vsakdo<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>bilo<b/>tko<s n="prn"/><s n="ind"/></l><r>kdorkoli<s n="prn"/><s n="rel"/></r></p></e>
-	<e><p><l>ponešto<s n="prn"/><s n="ind"/></l><r>nekaj<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/></l><r>karkoli<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>išta<s n="prn"/><s n="ind"/></l><r>kaj<s n="prn"/><s n="itg"/></r></p></e>
-	<e><p><l>štošta<s n="prn"/><s n="ind"/></l><r>karkoli<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>netko<s n="prn"/><s n="ind"/><s n="mfn"/></l><r>nekdo<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+	<e><p><l>itko<s n="prn"/><s n="ind"/><s n="mfn"/></l><r>vsakdo<s n="prn"/><s n="ind"/><s n="ma"/></r></p></e>
+	<e><p><l>bilo<b/>tko<s n="prn"/><s n="ind"/><s n="mfn"/></l><r>kdorkoli<s n="prn"/><s n="rel"/></r></p></e>
+	<e><p><l>ponešto<s n="prn"/><s n="ind"/><s n="mfn"/></l><r>nekaj<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/><s n="mfn"/></l><r>karkoli<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
+	<e><p><l>išta<s n="prn"/><s n="ind"/><s n="mfn"/></l><r>kaj<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>
+	<e><p><l>štošta<s n="prn"/><s n="ind"/><s n="mfn"/></l><r>karkoli<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
 	<e><p><l>nekoji<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
 	<e><p><l>ikoji<s n="prn"/><s n="ind"/></l><r>katerikoli<s n="prn"/><s n="ind"/></r></p></e>
 	<e><p><l>bilo<b/>koji<s n="prn"/><s n="ind"/></l><r>kdor<b/>koli<s n="prn"/><s n="rel"/></r></p></e>
@@ -246,6 +245,7 @@
 	<e><p><l>onaj<s n="prn"/><s n="dem"/></l><r>tisti<s n="prn"/><s n="dem"/></r></p></e>
 	<e><p><l>onakav<s n="prn"/><s n="dem"/></l><r>takšen<s n="prn"/><s n="dem"/></r></p></e>
 	<e><p><l>onolik<s n="prn"/><s n="dem"/></l><r>tolikšen<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>nešto<s n="prn"/><s n="ind"/><s n="mfn"/></l><r>nekaj<s n="prn"/><s n="ind"/></r></p></e>
 	
 
 

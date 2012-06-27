@@ -1055,7 +1055,7 @@
 
     <rule comment="prn.voc -> prn.nom">
       <pattern>
-		<pattern-item n="prn"/>
+		<pattern-item n="prns"/>
       </pattern>
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
