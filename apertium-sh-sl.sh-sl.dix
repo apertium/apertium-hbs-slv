@@ -188,7 +188,6 @@
 
     <e><p><l>svoj<s n="prn"/><s n="ref"/><s n="pos"/></l><r>svoj<s n="prn"/><s n="ref"/></r></p></e>
     <e><p><l>sav<s n="prn"/><s n="tot"/><s n="ma"/></l><r>ves<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
-    <e><p><l>sav<s n="prn"/><s n="tot"/><s n="mi"/></l><r>ves<s n="det"/><s n="ind"/><s n="mi"/></r></p></e>
     <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>njen<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
     <e><p><l>nešto<s n="prn"/></l><r>nekaj<s n="prn"/></r></p></e>
 
@@ -5778,8 +5777,8 @@
     <e><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: biti<vblex> == to beat, biti<vbser> == to be-->
 	
 	<!-- vbhaver -> vblex ==> Added rule -->
-    <e><p><l>imati<s n="vbhaver"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>nemati<s n="vbhaver"/></l><r>imeti<s n="vblex"/><s n="neg"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>imati<s n="vbhaver"/><s n="imperf"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/></l><r>imeti<s n="vblex"/><s n="neg"/><s n="imperf"/><s n="tv"/></r></p></e>
 	
 	<!-- Imperf / perf tagged -->
     <e><p><l>moći<s n="vbmod"/></l><r>moči<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>

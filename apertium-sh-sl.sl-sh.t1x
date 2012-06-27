@@ -98,7 +98,8 @@
      <attr-item tags="mf"/>
   </def-attr>
 
-  <def-attr n="tns">
+  <def-attr n="tns">	
+     <attr-item tags="inf"/>
      <attr-item tags="pri"/>
      <attr-item tags="pii"/>
      <attr-item tags="imp"/>
@@ -134,6 +135,17 @@
     <attr-item tags="sint.comp"/>
     <attr-item tags="sint.sup"/>
     <attr-item tags="sint.ela"/>
+  </def-attr>
+
+  <def-attr n="trn">
+    <attr-item tags="tv"/>
+    <attr-item tags="iv"/>
+    <attr-item tags="ref"/>
+  </def-attr>
+
+  <def-attr n="asp">
+    <attr-item tags="perf"/>
+    <attr-item tags="imperf"/>
   </def-attr>
 
 </section-def-attrs>
@@ -939,6 +951,47 @@
 		      </chunk>
 		    </out>
 		  </otherwise>
+		</choose>
+      </action>
+    </rule>
+
+	<rule comment="vblex -> vbhaver">
+      <pattern>
+		<pattern-item n="vblex"/>
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<choose>
+			<when>
+			   <test>
+			     <and>
+				<equal>
+				  <clip pos="1" side="sl" part="a_vrb"/>
+				  <lit-tag v="vblex"/>
+				</equal>
+				<equal>
+				  <clip pos="1" side="tl" part="a_vrb"/>
+				  <lit-tag v="vbhaver"/>
+				</equal>
+			     </and>
+			   </test>	
+			   <out>
+			     <chunk name="VblexToVbhaver" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+					<clip pos="1" side="tl" part="lemh"/>
+					<clip pos="1" side="tl" part="a_vrb"/>
+					<clip pos="1" side="tl" part="asp"/>
+					<clip pos="1" side="tl" part="trn"/>
+					<clip pos="1" side="tl" part="tns"/>
+					<clip pos="1" side="tl" part="prs"/>
+					<clip pos="1" side="tl" part="nbr"/>
+				</lu>
+			     </chunk>
+			   </out>
+			 </when>
 		</choose>
       </action>
     </rule>
