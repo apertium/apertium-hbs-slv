@@ -177,6 +177,14 @@
 	<e r="LR"><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
 	<e r="RL"><p><l><s n="pl"/></l><r><s n="ND"/></r></p></e>
 	</pardef>
+	
+	<pardef n="gen_nogen">
+	<e r="LR"><p><l><s n="ma"/></l><r></r></p></e>
+	<e r="LR"><p><l><s n="mi"/></l><r></r></p></e>
+	<e r="LR"><p><l><s n="f"/></l><r></r></p></e>
+	<e r="LR"><p><l><s n="nt"/></l><r></r></p></e>
+	<e r="RL"><p><l><s n="GD"/></l><r></r></p></e>
+	</pardef>
 
   </pardefs>
 
@@ -204,7 +212,7 @@
 	<e><p><l>njen<s n="prn"/><s n="pos"/></l><r>njen<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
 	<e><p><l>naš<s n="prn"/><s n="pos"/></l><r>naš<s n="prn"/><s n="pos"/><s n="p1"/></r></p></e>
 	<e><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vaš<s n="prn"/><s n="pos"/><s n="p2"/></r></p></e>
-	<e><p><l>tko<s n="prn"/><s n="itg"/><s n="mfn"/></l><r>kdo<s n="prn"/><s n="itg"/></r></p></e>
+	<e><p><l>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/></l><r>kdo<s n="prn"/><s n="itg"/></r></p></e>
 	<e><p><l>što<s n="prn"/><s n="itg"/><s n="mfn"/></l><r>kaj<s n="prn"/><s n="pos"/><s n="mf"/></r></p></e>
 	<e><p><l>koji<s n="prn"/><s n="itg"/></l><r>kateri<s n="prn"/><s n="itg"/></r></p></e>
 	<e><p><l>kakav<s n="prn"/><s n="itg"/></l><r>kakšen<s n="prn"/><s n="itg"/></r></p></e>
@@ -231,7 +239,7 @@
 	<e><p><l>nitko<s n="prn"/><s n="neg"/></l><r>nihče<s n="prn"/><s n="neg"/></r></p></e>
 	<e><p><l>nikoji<s n="prn"/><s n="neg"/></l><r>nobeden<s n="prn"/><s n="neg"/></r></p></e>
 	<e><p><l>nikakav<s n="prn"/><s n="neg"/></l><r>nikakršen<s n="prn"/><s n="neg"/></r></p></e>
-	<e><p><l>nikoliki<s n="prn"/><s n="neg"/></l><r>nič<s n="prn"/><s n="neg"/></r></p></e>
+	<e><p><l>nikoliki<s n="prn"/><s n="neg"/></l><r>nič<s n="prn"/><s n="neg"/></r></p><par n="gen_nogen"/></e>
 	<e><p><l>svatko<s n="prn"/><s n="tot"/></l><r>vsakdo<s n="prn"/><s n="ind"/></r></p></e>
 	<e><p><l>svašta<s n="prn"/><s n="tot"/></l><r>marsikaj<s n="prn"/><s n="ind"/></r></p></e>
 	<e><p><l>svakoji<s n="prn"/><s n="tot"/></l><r>vsakršen<s n="prn"/><s n="ind"/></r></p></e>
