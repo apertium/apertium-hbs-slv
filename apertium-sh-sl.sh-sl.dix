@@ -588,7 +588,7 @@
 	<e><p><l>svuda<s n="adv"/></l><r>vsepovsod<s n="adv"/></r></p></e>
 	<e><p><l>uvijek<s n="adv"/></l><r>vseskozi<s n="adv"/></r></p></e>
 	<e><p><l>dovoljno<s n="adv"/></l><r>zadosti<s n="adv"/></r></p></e>
-	<e><p><l>do sada<s n="adv"/></l><r>zaenkrat<s n="adv"/></r></p></e>
+	<e><p><l>do<b/>sada<s n="adv"/></l><r>zaenkrat<s n="adv"/></r></p></e>
 	<e><p><l>sigurno<s n="adv"/></l><r>zagotovo<s n="adv"/></r></p></e>
 	<e><p><l>legalno<s n="adv"/></l><r>zakonito<s n="adv"/></r></p></e>
 	<e><p><l>pažljivo<s n="adv"/></l><r>zamišljeno<s n="adv"/></r></p></e>
@@ -805,6 +805,7 @@
 	<e><p><l>tematski<s n="adv"/></l><r>tematsko<s n="adv"/></r></p></e>
 	<e><p><l>trajno<s n="adv"/></l><r>trajno<s n="adv"/></r></p></e>
 	<e><p><l>čvrsto<s n="adv"/></l><r>trdno<s n="adv"/></r></p></e>
+	<e><p><l>hitro<s n="adv"/></l><r>hitro<s n="adv"/></r></p></e>
 	<e><p><l>hitro<s n="adv"/></l><r>urno<s n="adv"/></r></p></e>
 	<e><p><l>fatalno<s n="adv"/></l><r>usodno<s n="adv"/></r></p></e>
 	<e><p><l>uspješno<s n="adv"/></l><r>uspešno<s n="adv"/></r></p></e>
@@ -8080,7 +8081,7 @@
 
 	<!-- Razlicni spoli -->
 
-	<e><p><l>oko<s n="n"/><s n="f"/></l><r>oči<s n="n"/><s n="ma"/></r></p><par n="sgpl_sg"/></e>
+	<e><p><l>oko<s n="n"/><s n="f"/></l><r>oči<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e>
 	<e><p><l>zločin<s n="n"/><s n="mi"/></l><r>kriminal<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
 	<e><p><l>snijeg<s n="n"/><s n="mi"/></l><r>sneg<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
 	<e><p><l>odmor<s n="n"/><s n="mi"/></l><r>počitnice<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e>
@@ -8233,26 +8234,33 @@
     <!--TODO: disambiguation pas<mi> == waist, pas<ma> ==dog-->
     <e><p><l>pas<s n="n"/><s n="ma"/></l><r>pes<s n="n"/><s n="ma"/></r></p></e>
 
-    <!--Adjectives-->
-    <!--TODO: transfer rule for removing <pst> tags from positive sh=>sl -->
+    <!--Adjectives-->	
+    <e><p><l>velik<s n="adj"/></l><r>velik<s n="adj"/><s n="ind"/></r></p><par n="pst_to_null"/></e>
+    <e><p><l>star<s n="adj"/></l><r>star<s n="adj"/><s n="ind"/></r></p><par n="pst_to_null"/></e>
+
+
+
     <!--TODO: maybe do the modification to the neuter adjective paradigms, to analyse them as adverbs, or both adverb and adjective. This works for sl, sh and mk so it's a free-ride basically-->
     <e><p><l>lijep<s n="adj"/></l><r>lep<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>topao<s n="adj"/></l><r>topel<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>malen<s n="adj"/></l><r>majhen<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>hladan<s n="adj"/></l><r>mrzel<s n="adj"/></r></p><par n="pst_to_null"/></e>
-    <e><p><l>velik<s n="adj"/></l><r>velik<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <!--><e><p><l>jak<s n="adj"/></l><r>močan<s n="adj"/></r></p><par n="pst_to_null"/></e>-->
     <e><p><l>mal<s n="adj"/></l><r>mali<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>sretan<s n="adj"/></l><r>srečen<s n="adj"/></r></p><par n="pst_to_null"/></e>
-    <e><p><l>star<s n="adj"/></l><r>star<s n="adj"/></r></p><par n="pst_to_null"/></e>
 
 	<!-- Adjective to Adverb -> rule added -->
     <e><p><l>jak<s n="adj"/></l><r>zelo<s n="adv"/><s n="sint"/></r></p></e>
 	
+	<!-- Particles -->
+    <e><p><l>li<s n="part"/><s n="itg"/></l><r>tudi<s n="part"/></r></p></e>
+
+
+
+
 	
     <e><p><l>da<s n="part"/></l><r>da<s n="part"/></r></p></e>
     <e><p><l>evo<s n="part"/></l><r>evo<s n="part"/></r></p></e>
-    <e><p><l>li<s n="part"/></l><r>tudi<s n="part"/></r></p></e>
     <e><p><l>da</l><r>da</r></p></e>
     <e><p><l>ne<s n="part"/><s n="neg"/></l><r>ne<s n="part"/></r></p></e>
     <e><p><l>ne<s n="part"/><s n="neg"/></l><r>ne<s n="cnjcoo"/></r></p></e><!--?-->
