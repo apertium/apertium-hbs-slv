@@ -1509,7 +1509,6 @@
 	<e><p><l>plovan<s n="adv"/></l><r>plavajoč<s n="adv"/></r></p></e>
 	<e><p><l>puzeči<s n="adv"/></l><r>plaze<s n="adv"/></r></p></e>
 	<e><p><l>pusto<s n="adv"/></l><r>plehko<s n="adv"/></r></p></e>
-	<e><p><l>igrati<s n="adv"/></l><r>plešoče<s n="adv"/></r></p></e>
 	<e><p><l>pneumatsk<s n="adv"/></l><r>pnevmatično<s n="adv"/></r></p></e>
 	<e><p><l>popreko<s n="adv"/></l><r>počez<s n="adv"/></r></p></e>
 	<e><p><l>pogonski<s n="adv"/></l><r>pogonsko<s n="adv"/></r></p></e>
@@ -1523,7 +1522,7 @@
 	<e><p><l>polagano<s n="adv"/></l><r>polagoma<s n="adv"/></r></p></e>
 	<e><p><l>ljeti<s n="adv"/></l><r>poleti<s n="adv"/></r></p></e>
 	<e><p><l>polinezijsko<s n="adv"/></l><r>polinezijsko<s n="adv"/></r></p></e>
-	<e><p><l>bilo koji<s n="adv"/></l><r>poljubno<s n="adv"/></r></p></e>
+	<e><p><l>bilo<b/>koji<s n="adv"/></l><r>poljubno<s n="adv"/></r></p></e>
 	<e><p><l>polukružno<s n="adv"/></l><r>polkrožno<s n="adv"/></r></p></e>
 	<e><p><l>pomagati<s n="adv"/></l><r>pomagajoč<s n="adv"/></r></p></e>
 	<e><p><l>narančast<s n="adv"/></l><r>pomarančno<s n="adv"/></r></p></e>
@@ -5832,9 +5831,7 @@
     <e><p><l>dolaziti<s n="vblex"/></l><r>prihajati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>držati<s n="vblex"/></l><r>držati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>držati<s n="vblex"/></l><r>držati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>vidjeti<s n="vblex"/></l><r>videti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>vidjeti<s n="vblex"/></l><r>videti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>vidjeti<s n="vblex"/></l><r>videti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>vidjeti<s n="vblex"/></l><r>videti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>znati<s n="vblex"/></l><r>vedeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>voljeti<s n="vblex"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e><!--by Krvoje: @Shraier; daj ako se sjetiš javi mi se na IRC, da prodiskutiramo razliku ove dve riječi sh/sl-->
@@ -8314,7 +8311,6 @@
 	<e><p><l>nad<s n="pr"/></l><r>povrhu<s n="pr"/></r></p></e>
 	<e><p><l>ispred<s n="pr"/></l><r>pred<s n="pr"/></r></p></e>
 	<e><p><l>pred<s n="pr"/></l><r>pred<s n="pr"/></r></p></e>
-	<e><p><l>kroz<s n="pr"/></l><r>prek<s n="pr"/></r></p></e>
 	<e><p><l>preko<s n="pr"/></l><r>preko<s n="pr"/></r></p></e>
 	<e><p><l>pri<s n="pr"/></l><r>pri<s n="pr"/></r></p></e>
 	<e><p><l>proti<s n="pr"/></l><r>proti<s n="pr"/></r></p></e>
@@ -8322,7 +8318,8 @@
 	<e><p><l>sa<s n="pr"/></l><r>s<s n="pr"/></r></p></e>
 	<e><p><l>osim<s n="pr"/></l><r>razen<s n="pr"/></r></p></e>
 	<e><p><l>kroz<s n="pr"/></l><r>skozi<s n="pr"/></r></p></e>
-	<e><p><l>kroz<s n="pr"/></l><r>skoz<s n="pr"/></r></p></e>
+<!--	<e><p><l>kroz<s n="pr"/></l><r>skoz<s n="pr"/></r></p></e> -->	
+<!--	<e><p><l>kroz<s n="pr"/></l><r>prek<s n="pr"/></r></p></e> kroz = acc, prek = gen -><- -->
     <e><p><l>ispod<s n="pr"/></l><r>spod<s n="pr"/></r></p></e>
 	<e><p><l>uprkos<s n="pr"/></l><r>spričo<s n="pr"/></r></p></e>
 	<e><p><l>sred<s n="pr"/></l><r>sredi<s n="pr"/></r></p></e>
