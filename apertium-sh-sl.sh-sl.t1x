@@ -467,17 +467,17 @@
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
-	<out>
-	  <chunk name="Verb" case="caseFirstWord">
-	    <tags>
-	      <tag><lit-tag v="VB"/></tag>
-	      <tag><clip pos="1" side="tl" part="a_vrb"/></tag>
-	    </tags>
-	    <lu>
-	      <clip pos="1" side="tl" part="whole"/>
-	    </lu>
-	  </chunk>
-	</out>
+		<out>
+		  <chunk name="Verb" case="caseFirstWord">
+		    <tags>
+	          <tag><lit-tag v="VB"/></tag>
+	          <tag><clip pos="1" side="tl" part="a_vrb"/></tag>
+		    </tags>
+		    <lu>
+	          <clip pos="1" side="tl" part="whole"/>
+		    </lu>
+		  </chunk>
+		</out>
       </action>
     </rule>
 
@@ -503,7 +503,7 @@
     </rule>
 
     <!--NOTE by krvoje: biti<vblex> == to beat, and biti<vbser> == to be are homographs, added a rule in disambiguation-->
-    <rule comment="je bilo (vbser + vblex) = je bilo (vbser + vbser)">
+    <rule comment="je bilo (vbser + vblex) = je bilo (vbser + vbser) OR je gledal (vbser + vblex)">
       <pattern>
       	<pattern-item n="vbser_past"/>
 		<pattern-item n="vblex"/>
@@ -511,32 +511,69 @@
       <action>
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
-	<out>
-	  <chunk name="Verb" case="caseFirstWord">
-	    <tags>
-	      <tag><lit-tag v="VB"/></tag>
-	    </tags>
-	    <lu>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_vrb"/>
-		  <clip pos="1" side="tl" part="trn"/>
-	      <clip pos="1" side="tl" part="tns"/>
-	      <clip pos="1" side="tl" part="prs"/>
-	      <clip pos="1" side="tl" part="nbr"/>
-	    </lu>
-	    <b/>	
-	    <lu>
-	      <clip pos="2" side="tl" part="lemh"/>
-	      <clip pos="2" side="tl" part="a_vrb"/>
-		  <clip pos="1" side="tl" part="trn"/>
-	      <lit-tag v="past"/> <!-- Move to t2x? -->
-	      <clip pos="2" side="tl" part="gen"/>
-	      <clip pos="2" side="tl" part="nbr"/>
-	    </lu>
-	  </chunk>
-	</out>
+	<choose>
+	<when>
+	    <test>
+			<equal>
+			  <clip pos="2" side="tl" part="a_vrb"/>
+			  <lit-tag v="vbser"/>
+			</equal>
+	    </test>	
+	   	<out>
+		  <chunk name="VerbVbser" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="VB"/></tag>
+		    </tags>
+		    <lu>
+		      <clip pos="1" side="tl" part="lemh"/>
+		      <clip pos="1" side="tl" part="a_vrb"/>
+			  <clip pos="1" side="tl" part="trn"/>
+		      <clip pos="1" side="tl" part="tns"/>
+		      <clip pos="1" side="tl" part="prs"/>
+		      <clip pos="1" side="tl" part="nbr"/>
+		    </lu>
+		    <b/>	
+		    <lu>
+		      <clip pos="2" side="tl" part="lemh"/>
+		      <clip pos="2" side="tl" part="a_vrb"/>
+		      <lit-tag v="past"/> <!-- Move to t2x? -->
+		      <clip pos="2" side="tl" part="gen"/>
+		      <clip pos="2" side="tl" part="nbr"/>
+		    </lu>
+		  </chunk>
+		</out>
+	  </when>
+	  <otherwise>
+		<out>
+		  <chunk name="VerbVbser" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="VB"/></tag>
+		    </tags>
+			<lu>
+		      <clip pos="1" side="tl" part="lemh"/>
+		      <clip pos="1" side="tl" part="a_vrb"/>
+			  <clip pos="1" side="tl" part="trn"/>
+		      <clip pos="1" side="tl" part="tns"/>
+		      <clip pos="1" side="tl" part="prs"/>
+		      <clip pos="1" side="tl" part="nbr"/>
+		    </lu>
+		    <b/>	
+		    <lu>
+		      <clip pos="2" side="tl" part="lemh"/>
+		      <clip pos="2" side="tl" part="a_vrb"/>
+			  <clip pos="2" side="tl" part="asp"/>
+			  <clip pos="2" side="tl" part="trn"/>
+		      <lit-tag v="past"/> <!-- Move to t2x? -->
+		      <clip pos="2" side="tl" part="gen"/>
+		      <clip pos="2" side="tl" part="nbr"/>
+		    </lu>
+		  </chunk>
+		</out>
+	  </otherwise>
+	  </choose>
       </action>
     </rule>
+
 
     <rule comment="Adj (adj.pst.nt.sg.acc) -> adv">
       <pattern>
@@ -1069,7 +1106,7 @@
 					  <lit-tag v="voc"/>
 					</equal>
 			   </test>	
-				<let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
+				<let><clip pos="2" side="tl" part="cas"/><lit-tag v="nom"/></let>
 			 </when>
 			</choose>			
 		    <out>
@@ -1083,7 +1120,7 @@
 				<b/>
 				<lu>
 				 	<clip pos="2" side="tl" part="whole"/>
-					<lit-tag v="ins"/>
+					<!--><lit-tag v="ins"/>-->
 				</lu>
 			</chunk>
 		</out>

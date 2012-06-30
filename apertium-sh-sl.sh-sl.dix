@@ -287,6 +287,7 @@
     <e><p><l>gdje<s n="cnjsub"/></l><r>kje<s n="adv"/><s n="sint"/></r></p></e><!--TODO: "kjer", when cnjsub vs. adv are correctly disambiguated-->
     <e><p><l>kako<s n="cnjsub"/></l><r>kako<s n="adv"/><s n="sint"/></r></p></e>
 
+
     <e><p><l>gdje<s n="adv"/></l><r>kje<s n="adv"/></r></p></e>
     <e><p><l>jučer<s n="adv"/></l><r>včeraj<s n="adv"/></r></p></e>
     <e><p><l>zatim<s n="adv"/></l><r>potem<s n="adv"/></r></p></e>
@@ -5840,8 +5841,7 @@
     <e><p><l>potrčavati<s n="vblex"/></l><r>teči<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>skrivati<s n="vblex"/></l><r>skrivati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>sjediti<s n="vblex"/></l><r>sedeti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>odbrojavati<s n="vblex"/></l><r>šteti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>odbrojavati<s n="vblex"/></l><r>šteti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>odbrojavati<s n="vblex"/></l><r>šteti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>završavati<s n="vblex"/><s n="imperf"/></l><r>prenehati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>pogledavati<s n="vblex"/></l><r>pogledati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>pogledavati<s n="vblex"/></l><r>pogledati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
@@ -5870,6 +5870,7 @@
     <e><p><l>pojesti<s n="vblex"/></l><r>pojesti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>popiti<s n="vblex"/></l><r>popiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>raditi<s n="vblex"/></l><r>delati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>otići<s n="vblex"/></l><r>iti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
 
 
 
