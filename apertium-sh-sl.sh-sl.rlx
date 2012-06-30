@@ -318,6 +318,9 @@ SELECT Masculine IF (0 Cog + ("<Ružić>") ) ;
 SELECT Masculine IF (0 Cog + ("<Stanković>") ) ;
     ## NOTE: This is just a patch. Possibly the cognames are analysed in too great detail
 ###################################################
+
+# pas==dog pâs == waist
+SELECT Animate (0 ("pas"i) + Nom)
     
 # =========================================================================== #
 #   PP disambiguation                                                         #
