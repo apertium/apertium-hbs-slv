@@ -258,6 +258,11 @@ SELECT:AtrrNum->NNum $$NUMBER IF (0 N OR A)(-1 Modifier + $$NUMBER) ;
 SELECT $$NUMBER + Nom IF (-1* NP-HEAD  + $$NUMBER BARRIER BOS) (-1 ("<kao>"i) ) ;    
     ## ona je... kao kadetkinja
 
+SELECT:prep_Noun Pr + $$CASE (0 Pr OR N OR V)(1 Pron + $$CASE);
+	## Radi mene vs. On radi u tvornici
+REMOVE:prep_Noun Pr + $$CASE (0 Pr OR N OR V)(NOT 1 Pron + $$CASE);
+	## Radi mene vs. On radi u tvornici
+
 SELECT:DaVBLex Particle (0 ("<da>"i) ) (1 VBLex);
 SELECT:relŠto  ("što"i) + Relative + $$CASE (0 ("<što>"i) ) (-1 Totalising + $$CASE);
 
@@ -427,6 +432,7 @@ SELECT:InsThenNom Nom (-1 Ins) (0C Nom Or Acc);
 SELECT:N-tiPut Nom (0 Num + Ord) (1C Nom OR Acc) ;
 
 SELECT:ćeSgPl $$NUMBER (0 (+htjeti) + Clt + $$NUMBER) (-1* N + Nom + $$NUMBER BARRIER BOS) ;
+
 
 # =========================================================================== #
 #   Verb chain disambiguation                                                 #
