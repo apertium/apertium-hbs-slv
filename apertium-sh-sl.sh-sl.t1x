@@ -1183,5 +1183,54 @@
       </action>
     </rule>
 
+    <rule comment="li + clitic + verb -> clitic + verb">
+      <pattern>
+		<pattern-item n="li_part"/>
+		<pattern-item n="clitic"/>
+		<pattern-item n="vblex"/>
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="mima_to_m"><with-param pos="2"/></call-macro>
+		<call-macro n="verb_adapter"><with-param pos="3"/></call-macro>
+		<choose>
+			<when>
+			   <test>
+					<equal>
+					  <clip pos="2" side="sl" part="gen"/>
+					  <lit-tag v="m"/>
+					</equal>
+			   </test>	
+               <let><clip pos="2" side="tl" part="gen"/><lit-tag v="mfn"/></let>
+             </when>
+		</choose>
+	    <out>
+	      <chunk name="LiCliticVrb" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="VB"/></tag>
+		</tags>
+			<lu>
+			  <clip pos="2" side="tl" part="lemh"/>
+			  <lit-tag v="prn.emph"/>
+			  <clip pos="2" side="tl" part="prs"/>
+			  <clip pos="2" side="tl" part="gen"/>
+			  <clip pos="2" side="tl" part="nbr"/>
+			  <clip pos="2" side="tl" part="cas"/>
+			</lu>
+			<b/>
+			<lu>
+				<clip pos="3" side="tl" part="lemh"/>
+				<clip pos="3" side="tl" part="a_vrb"/>
+				<clip pos="3" side="tl" part="asp"/>
+				<clip pos="3" side="tl" part="trn"/>
+				<lit-tag v="past.m"/>
+				<clip pos="3" side="tl" part="nbr"/>
+			</lu>
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
+
+
   </section-rules>
 </transfer>
