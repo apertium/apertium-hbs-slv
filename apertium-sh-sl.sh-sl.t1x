@@ -319,6 +319,7 @@
       <attr-item tags="fti"/>
       <attr-item tags="past"/>
       <attr-item tags="pp"/>
+      <attr-item tags="ref.lp"/>
     </def-attr>
 
     <def-attr n="gen">
@@ -417,6 +418,31 @@
       </let>
     </def-macro>
 
+    <def-macro n="prn_voc_adapter" npar="1">
+      <choose>
+        <when>
+          <test>               
+	      <equal caseless="yes"><clip pos="1" side="sl" part="cas"/><lit-tag v="voc"/></equal>
+          </test>          
+          <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="clitic_m_to_mfn" npar="1">
+      <choose>
+        <when>
+          <test>    
+	           	<and>
+	      			<equal caseless="yes"><clip pos="1" side="sl" part="lemh"/><lit v="clitic"/></equal>
+		      		<equal caseless="yes"><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+				</and>
+          </test>          
+          <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mfn"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
 	<def-macro n="firstWord" npar="1"><!--nova versió 8-febr-08  -->
 		<choose>
 			<when>
@@ -489,6 +515,36 @@
 					  <lit-tag v="pers.p3"/>
 				      <clip pos="1" side="tl" part="nbr"/>
 				    </lu>
+				  </chunk>
+				</out>
+			</when>
+			<when>
+				<test>
+					<or>
+						<equal>
+							<clip pos="1" side="tl" part="tns"/>
+						  	<lit-tag v="ref.lp"/>
+						</equal>
+						<equal>
+							<clip pos="1" side="tl" part="tns"/>
+						  	<lit-tag v="lp"/>
+						</equal>
+					</or>
+				</test>
+				<out>
+				  <chunk name="VerbRefLP" case="caseFirstWord">
+				    <tags>
+				      <tag><lit-tag v="VB"/></tag>
+				    </tags>
+						<lu>
+							<clip pos="1" side="tl" part="lemh"/>
+							<clip pos="1" side="tl" part="a_vrb"/>
+							<clip pos="1" side="tl" part="asp"/>
+							<clip pos="1" side="tl" part="trn"/>
+							<lit-tag v="past"/>
+							<clip pos="1" side="sl" part="gen"/>
+							<clip pos="1" side="tl" part="nbr"/>
+						</lu>
 				  </chunk>
 				</out>
 			</when>
@@ -1080,42 +1136,17 @@
       </pattern>
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
-		<choose>
-			<when>
-			   <test>
-					<equal>
-					  <clip pos="1" side="sl" part="cas"/>
-					  <lit-tag v="voc"/>
-					</equal>
-			   </test>	
-			   <out>
-			     <chunk name="NVocToNom" case="caseFirstWord">
-				<tags>
-				  <tag><lit-tag v="VB"/></tag>
-				</tags>
-				<lu>
-					<clip pos="1" side="tl" part="lemh"/>
-					<clip pos="1" side="tl" part="a_nom"/>
-					<clip pos="1" side="tl" part="gen"/>
-					<clip pos="1" side="tl" part="nbr"/>
-					<lit-tag v="nom"/>
-				</lu>
-			     </chunk>
-			   </out>
-			 </when>
-			<otherwise>
-			    <out>
-			      <chunk name="Nom" case="caseFirstWord">
-				<tags>
-				  <tag><lit-tag v="VB"/></tag>
-				</tags>
+		<call-macro n="prn_voc_adapter"><with-param pos="1"/></call-macro>
+			<out>
+				<chunk name="Nom" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
 					<lu>
-					  <clip pos="1" side="tl" part="whole"/>
+						<clip pos="1" side="tl" part="whole"/>
 					</lu>
-			      </chunk>
-			    </out>
-			  </otherwise>
-		</choose>
+				</chunk>
+			</out>
       </action>
     </rule>
 
@@ -1127,31 +1158,21 @@
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
-		<choose>
-			<when>
-			   <test>
-					<equal>
-					  <clip pos="2" side="sl" part="cas"/>
-					  <lit-tag v="voc"/>
-					</equal>
-			   </test>	
-				<let><clip pos="2" side="tl" part="cas"/><lit-tag v="nom"/></let>
-			 </when>
-			</choose>			
-		    <out>
-		      <chunk name="Nom" case="caseFirstWord">
-			<tags>
-			  <tag><lit-tag v="VB"/></tag>
-			</tags>
+		<call-macro n="prn_voc_adapter"><with-param pos="2"/></call-macro>
+		<out>
+			<chunk name="Nom" case="caseFirstWord">
+				<tags>
+					<tag><lit-tag v="VB"/></tag>
+				</tags>
 				<lu>
-				 	<clip pos="1" side="tl" part="whole"/>
+					<clip pos="1" side="tl" part="whole"/>
 				</lu>
 				<b/>
-				<lu>
-				 	<clip pos="2" side="tl" part="whole"/>
-					<!--><lit-tag v="ins"/>-->
-				</lu>
-			</chunk>
+					<lu>
+						<clip pos="2" side="tl" part="whole"/>
+						<!--><lit-tag v="ins"/>-->
+					</lu>
+				</chunk>
 		</out>
       </action>
     </rule>
@@ -1163,27 +1184,48 @@
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
+		<call-macro n="prn_voc_adapter"><with-param pos="1"/></call-macro>
+		<call-macro n="clitic_m_to_mfn"><with-param pos="1"/></call-macro>
 		<choose>
 			<when>
 			   <test>
-					<equal>
-					  <clip pos="1" side="sl" part="cas"/>
-					  <lit-tag v="voc"/>
-					</equal>
-			   </test>	
-               <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
-             </when>
-		</choose>
+					<and>
+						<equal>
+						  <clip pos="1" side="sl" part="lemh"/>
+						  <lit v="clitic"/>
+						</equal>
+						<not><equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.ref.pers"/></equal></not>
+					</and>
+			   </test>
 			    <out>
-			      <chunk name="Prn" case="caseFirstWord">
-				<tags>
-				  <tag><lit-tag v="VB"/></tag>
-				</tags>
-					<lu>
-					  <clip pos="1" side="tl" part="whole"/>
-					</lu>
+			      <chunk name="CliticRule" case="caseFirstWord">
+					<tags>
+				  		<tag><lit-tag v="VB"/></tag>
+					</tags>
+						<lu>
+						  <clip pos="1" side="tl" part="lemh"/>
+						  <lit-tag v="prn.emph"/>
+						  <clip pos="1" side="tl" part="prs"/>
+						  <clip pos="1" side="tl" part="gen"/>
+						  <clip pos="1" side="tl" part="nbr"/>
+						  <clip pos="1" side="tl" part="cas"/>
+						</lu>
 			      </chunk>
 			    </out>
+             </when>
+			<otherwise>	
+				<out>
+			    	<chunk name="Prn" case="caseFirstWord">
+						<tags>
+				  			<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+					  		<clip pos="1" side="tl" part="whole"/>
+						</lu>
+			      	</chunk>
+			   	</out>
+			</otherwise>
+		 </choose>
       </action>
     </rule>
 
@@ -1234,7 +1276,7 @@
              </when>
 		</choose>
 	    <out>
-	      <chunk name="LiCliticVrb" case="caseFirstWord">
+	      <chunk name="Li_Clitic_Vrb" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -1260,7 +1302,7 @@
       </action>
     </rule>
 
-	<rule comment="li + clitic + verb -> clitic + verb">
+	<rule comment="li + verb.lp -> verb.pres">
       <pattern>
 		<pattern-item n="li_part"/>
 		<pattern-item n="vb_lp"/>
@@ -1281,6 +1323,36 @@
 				<lit-tag v="past"/>
 				<clip pos="2" side="sl" part="gen"/>
 				<clip pos="2" side="tl" part="nbr"/>
+			</lu>
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
+
+	<rule comment="clitic + nom + verb (se mati smeje) -> noun + clitic + verb (mati se smeje)">
+      <pattern>
+		<pattern-item n="clitic"/>
+		<pattern-item n="nom"/>
+		<pattern-item n="vblex"/>
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="verb_adapter"><with-param pos="3"/></call-macro>
+	    <out>
+	      <chunk name="Rule" case="caseFirstWord">
+			<tags>
+		  		<tag><lit-tag v="VB"/></tag>
+			</tags>
+			<lu>
+				<clip pos="2" side="tl" part="whole"/>
+			</lu>
+			<b/>
+			<lu>
+				<clip pos="1" side="tl" part="whole"/>
+			</lu>
+			<b/>
+			<lu>
+				<clip pos="3" side="tl" part="whole"/>
 			</lu>
 	      </chunk>
 	    </out>
