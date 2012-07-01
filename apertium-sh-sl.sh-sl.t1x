@@ -318,6 +318,7 @@
       <attr-item tags="futII"/>
       <attr-item tags="fti"/>
       <attr-item tags="past"/>
+      <attr-item tags="pp"/>
     </def-attr>
 
     <def-attr n="gen">
@@ -467,19 +468,47 @@
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
-		<out>
-		  <chunk name="Verb" case="caseFirstWord">
-		    <tags>
-	          <tag><lit-tag v="VB"/></tag>
-	          <tag><clip pos="1" side="tl" part="a_vrb"/></tag>
-		    </tags>
-		    <lu>
-	          <clip pos="1" side="tl" part="whole"/>
-		    </lu>
-		  </chunk>
-		</out>
+	  	<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" side="tl" part="tns"/>
+					  	<lit-tag v="pp"/>
+					</equal>
+				</test>
+				<out>
+				  <chunk name="VerbPP" case="caseFirstWord">
+				    <tags>
+				      <tag><lit-tag v="VB"/></tag>
+				    </tags>
+				    <lu>
+				      <clip pos="1" side="tl" part="lemh"/>
+				      <clip pos="1" side="tl" part="a_vrb"/>
+					  <clip pos="1" side="tl" part="asp"/>
+				      <clip pos="1" side="tl" part="trn"/>
+					  <lit-tag v="pers.p3"/>
+				      <clip pos="1" side="tl" part="nbr"/>
+				    </lu>
+				  </chunk>
+				</out>
+			</when>
+			<otherwise>
+				<out>
+				  <chunk name="Verb" case="caseFirstWord">
+				    <tags>
+			          <tag><lit-tag v="VB"/></tag>
+			          <tag><clip pos="1" side="tl" part="a_vrb"/></tag>
+				    </tags>
+				    <lu>
+			          <clip pos="1" side="tl" part="whole"/>
+				    </lu>
+				  </chunk>
+				</out>
+			</otherwise>
+		</choose>
       </action>
     </rule>
+	
 
     <rule comment="pr">
       <pattern>
@@ -1230,6 +1259,34 @@
 	    </out>
       </action>
     </rule>
+
+	<rule comment="li + clitic + verb -> clitic + verb">
+      <pattern>
+		<pattern-item n="li_part"/>
+		<pattern-item n="vb_lp"/>
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
+	    <out>
+	      <chunk name="LiVBlp" case="caseFirstWord">
+			<tags>
+		  		<tag><lit-tag v="VB"/></tag>
+			</tags>
+			<lu>
+				<clip pos="2" side="tl" part="lemh"/>
+				<clip pos="2" side="tl" part="a_vrb"/>
+				<clip pos="2" side="tl" part="asp"/>
+				<clip pos="2" side="tl" part="trn"/>
+				<lit-tag v="past"/>
+				<clip pos="2" side="sl" part="gen"/>
+				<clip pos="2" side="tl" part="nbr"/>
+			</lu>
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
+
 
 
   </section-rules>
