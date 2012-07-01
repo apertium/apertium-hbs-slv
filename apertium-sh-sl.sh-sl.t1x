@@ -1160,7 +1160,7 @@
 		<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
 		<call-macro n="prn_voc_adapter"><with-param pos="2"/></call-macro>
 		<out>
-			<chunk name="Nom" case="caseFirstWord">
+			<chunk name="Nom_pr" case="caseFirstWord">
 				<tags>
 					<tag><lit-tag v="VB"/></tag>
 				</tags>
