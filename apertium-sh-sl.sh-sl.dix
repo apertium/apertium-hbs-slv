@@ -256,7 +256,7 @@
 	<e><p><l>ikoji<s n="prn"/><s n="ind"/></l><r>katerikoli<s n="prn"/><s n="ind"/></r></p></e>
 	<e><p><l>bilo<b/>koji<s n="prn"/><s n="ind"/></l><r>kdor<b/>koli<s n="prn"/><s n="rel"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/></e>
 	<e><p><l>pokoji<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>neki<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>neki<s n="prn"/><s n="ind"/></l><r>kateri<s n="prn"/><s n="itg"/></r></p></e>
 	<e><p><l>poneki<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
 	<e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>nekakšen<s n="prn"/><s n="ind"/></r></p></e>
 	<e><p><l>kojekakav<s n="prn"/><s n="ind"/></l><r>nekakšen<s n="prn"/><s n="ind"/></r></p></e>
@@ -5886,6 +5886,7 @@
 	<e><p><l>dječak<s n="n"/><s n="ma"/></l><r>deček<s n="n"/><s n="ma"/></r></p></e>
 	<e><p><l>djevojčica<s n="n"/><s n="f"/></l><r>deklica<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>drvo<s n="n"/><s n="nt"/></l><r>drevo<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>vrijeme<s n="n"/><s n="nt"/></l><r>čas<s n="n"/><s n="nt"/><s n="mi"/></r></p></e>
 	<e><p><l>vrijeme<s n="n"/><s n="nt"/></l><r>vreme<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>voda<s n="n"/><s n="f"/></l><r>voda<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>mačka<s n="n"/><s n="f"/></l><r>mačka<s n="n"/><s n="f"/></r></p></e>
@@ -8239,6 +8240,8 @@
     <!--TODO: disambiguation pas<mi> == waist, pas<ma> ==dog-->
     <e><p><l>pas<s n="n"/><s n="ma"/></l><r>pes<s n="n"/><s n="ma"/></r></p></e>
 
+
+
     <!--Adjectives-->	
     <e><p><l>velik<s n="adj"/></l><r>velik<s n="adj"/><s n="ind"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>star<s n="adj"/></l><r>star<s n="adj"/><s n="ind"/></r></p><par n="pst_to_null"/></e>
@@ -8484,7 +8487,6 @@
 	<e><p><l>berlinski<s n="adj"/></l><r>berlinski<s n="adj"/><s n="ind"/></r></p><par n="pst_to_null"/></e>
 
 
-
     <!--TODO: maybe do the modification to the neuter adjective paradigms, to analyse them as adverbs, or both adverb and adjective. This works for sl, sh and mk so it's a free-ride basically-->
     <e><p><l>lijep<s n="adj"/></l><r>lep<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>topao<s n="adj"/></l><r>topel<s n="adj"/></r></p><par n="pst_to_null"/></e>
@@ -8494,8 +8496,13 @@
     <e><p><l>mal<s n="adj"/></l><r>mali<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>sretan<s n="adj"/></l><r>srečen<s n="adj"/></r></p><par n="pst_to_null"/></e>
 
+
 	<!-- Adjective to Adverb -> rule added -->
     <e><p><l>jak<s n="adj"/></l><r>zelo<s n="adv"/><s n="sint"/></r></p></e>
+
+	<!-- Adjective to Pronoun -> rule added -->
+	<e><p><l>drugi<s n="adj"/></l><r>drug<s n="prn"/><s n="ind"/></r></p></e>
+
 	
 	<!-- Particles -->
     <e><p><l>li<s n="part"/><s n="itg"/></l><r>tudi<s n="part"/></r></p></e>
@@ -8510,7 +8517,6 @@
     <e><p><l>ne<s n="part"/><s n="neg"/></l><r>ne<s n="part"/></r></p></e>
     <e><p><l>ne<s n="part"/><s n="neg"/></l><r>ne<s n="cnjcoo"/></r></p></e><!--?-->
 
-    <e><p><l>drugi</l><r>drugo</r></p></e>
 
     <e><p><l>dvoje<s n="num"/></l><r>dvoje<s n="adv"/></r></p></e>
 
@@ -8779,6 +8785,7 @@
 	<e><p><l>zato<s n="cnjcoo"/></l><r>zaradi<s n="cnjcoo"/></r></p></e>
 	<e><p><l>stoga<s n="cnjcoo"/></l><r>torej<s n="cnjcoo"/></r></p></e>
 	<e><p><l>stoga<s n="cnjcoo"/></l><r>zato<s n="cnjcoo"/></r></p></e>
+	
 	
 	<!-- CnjSub -->
 	<e><p><l>nego<s n="cnjsub"/></l><r>preden<s n="cnjsub"/></r></p></e>

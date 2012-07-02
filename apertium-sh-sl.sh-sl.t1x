@@ -213,6 +213,9 @@
 	  <cat-item lemma="biti" tags="vblex.*"/>
 	  <cat-item lemma="biti" tags="vbmod.*"/>
     </def-cat>
+    <def-cat n="biti_clt">
+      <cat-item lemma="biti" tags="vbser.clt.*"/>
+    </def-cat>
     <def-cat n="moći">
       <cat-item lemma="moći" tags="vbser.*"/>
 	  <cat-item lemma="moći" tags="vblex.*"/>
@@ -756,14 +759,15 @@
     </action>
     </rule>
 
-    <rule comment="adjective ma/mi -> adjective m">
+    <rule comment="Adjectives rule">
       <pattern>
 		<pattern-item n="adj"/>
       </pattern>
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
 		<choose>
-			<when>
+			<when> <!-- adjective to adverb rule -->
 			    <test>
 			      <and>
 					<equal>
@@ -788,36 +792,35 @@
 					</lu>
 			      </chunk>
 			    </out>
-			  </when>
-		  <when>
-		    <test>
-		      <or>
-				<equal>
-				  <clip pos="1" side="sl" part="gen"/>
-				  <lit-tag v="ma"/>
-				</equal>
-				<equal>
-				  <clip pos="1" side="sl" part="gen"/>
-				  <lit-tag v="mi"/>
-				</equal>
-		      </or>
-		    </test>	
-		    <out>
-		      <chunk name="Adj" case="caseFirstWord">
+			</when>
+			<when> <!-- adjective to pronoun rule -->
+			   <test>
+					<and>
+						<equal>
+					  		<clip pos="1" side="sl" part="a_adj"/>
+					  		<lit-tag v="adj"/>
+						</equal>
+						<equal>
+					  		<clip pos="1" side="tl" part="a_prn"/>
+					  		<lit-tag v="prn.ind"/>
+						</equal>
+					</and>
+			   </test>	
+               <out>
+		      <chunk name="AdjToPrn" case="caseFirstWord">
 				<tags>
-				  <tag><lit-tag v="VB"/></tag>
+			  		<tag><lit-tag v="VB"/></tag>
 				</tags>
 				<lu>
-				  <clip pos="1" side="tl" part="lemh"/>
-				  <clip pos="1" side="tl" part="a_adj"/>
-				  <lit-tag v="m"/>
-				  <clip pos="1" side="tl" part="nbr"/>
-				  <clip pos="1" side="tl" part="cas"/>
-				  <clip pos="1" side="tl" part="def"/>
+					<clip pos="1" side="tl" part="lemh"/>
+					<clip pos="1" side="tl" part="a_prn"/>
+					<clip pos="1" side="tl" part="gen"/>
+					<clip pos="1" side="tl" part="nbr"/>
+					<clip pos="1" side="tl" part="cas"/>
 				</lu>
 		      </chunk>
 		    </out>
-		  </when>
+          </when>
 		  <otherwise>
 		    <out>
 		      <chunk name="Adj" case="caseFirstWord">
@@ -871,7 +874,7 @@
       <action>
 		<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
 		<out>
-		  <chunk name="ChunkName" case="caseFirstWord">
+		  <chunk name="CliticAndVblex" case="caseFirstWord">
 		    <tags>
 		      <tag><lit-tag v="VB"/></tag>
 		    </tags>
@@ -1366,7 +1369,7 @@
 
 	<rule comment="biti + li = je">
       <pattern>
-		<pattern-item n="biti"/>
+		<pattern-item n="biti_clt"/>
 		<pattern-item n="li_part"/>
       </pattern>
       <action>
@@ -1396,7 +1399,7 @@
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	    <out>
-	      <chunk name="BitiLi_Je" case="caseFirstWord">
+	      <chunk name="MoćiBiti-Mogoče" case="caseFirstWord">
 			<tags>
 		  		<tag><lit-tag v="VB"/></tag>
 			</tags>
@@ -1409,6 +1412,30 @@
       </action>
     </rule>
 
+	<rule comment="ne + biti => biti.neg (vbser)">
+      <pattern>
+		<pattern-item n="ne_part"/>
+		<pattern-item n="biti"/>
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+	    <out>
+	      <chunk name="NeBiti-BitiNeg" case="caseFirstWord">
+			<tags>
+		  		<tag><lit-tag v="VB"/></tag>
+			</tags>
+			<lu>
+				<clip pos="2" side="tl" part="lemh"/>
+				<clip pos="2" side="tl" part="a_vrb"/>
+				<clip pos="2" side="tl" part="tns"/>
+				<clip pos="1" side="sl" part="a_vrb_neg"/>
+				<clip pos="2" side="tl" part="prs"/>
+				<clip pos="2" side="tl" part="nbr"/>
+			</lu>
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
 
 
   </section-rules>
