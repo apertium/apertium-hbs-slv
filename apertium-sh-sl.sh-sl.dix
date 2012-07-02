@@ -5849,8 +5849,9 @@
     <e><p><l>pogledavati<s n="vblex"/></l><r>pogledati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>pogledavati<s n="vblex"/></l><r>pogledati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>tražiti<s n="vblex"/></l><r>iskati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>piti<s n="vblex"/></l><r>vprašati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>piti<s n="vblex"/></l><r>vprašati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>pitati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>vprašati<s n="vblex"/><s n="perf"/><s n="ref"/></r></p></e>
+    <e><p><l>pitati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>vprašati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e r="RL"><p><l>pitati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>vprašati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>razgovarati<s n="vblex"/></l><r>govoriti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>razgovarati<s n="vblex"/></l><r>govoriti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>smijati<s n="vblex"/></l><r>smejati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>

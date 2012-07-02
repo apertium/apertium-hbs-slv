@@ -141,6 +141,9 @@ SET Num-Ord = Num - Ord ;
 # All possible word categories
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interjection | Num | ("\?") ;
 
+# Skippable stuff
+LIST Skippable = ("clitic"i) clt adv cnjcoo cnjsub cm ;
+
 # Categories that can come before the head noun in an ProperNoun 
 SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC | DemPron; 
 SET Modifier = A | Num | DemPron | PosPron | IndPron; # Words that agree in case, number, gender with the following word.
@@ -320,7 +323,7 @@ SELECT Masculine IF (0 Cog + ("<Stanković>") ) ;
 ###################################################
 
 # pas==dog pâs == waist
-SELECT Animate (0 ("pas"i) + Nom)
+SELECT Animate (0 ("pas"i) + Nom);
     
 # =========================================================================== #
 #   PP disambiguation                                                         #
@@ -362,6 +365,9 @@ SELECT Plural + Gen ((1* PluralNum BARRIER (*) - Modifier) OR (-1* PluralNum BAR
 REMOVE Pr + $$CASE (1 Nomen - $$CASE)
 REMOVE Nomen + $$CASE (-1 Pr - $$CASE)
 REMOVE Nomen + $$CASE (-1 Modifier - $$CASE)
+
+REMOVE Modifier + $$CASE (2 Nomen - $$CASE - Clt) (1 Skippable)
+REMOVE Modifier + $$CASE (1 Nomen - $$CASE - Clt)
 	
 SELECT:Pr-Acc-chain Acc IF (-1C ACC-PREP OR Modifier + Acc);
 SELECT:Pr-Acc-chain Acc IF (-2C Nomen + Acc) (-1C CNJ);
