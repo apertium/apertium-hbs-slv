@@ -34,6 +34,8 @@ dev/sh_HR.translated.txt -text
 dev/sh_original.txt -text
 dev/sl.translated.txt -text
 dev/sl_original.txt -text
+dev/story_Pavao1_HR_original.txt -text
+dev/story_Pavao2_HR_original.txt -text
 dev/testvoc-summary.sh-sl.txt -text
 dev/testvoc-summary.sl-sh.txt -text
 dev/testvoc.sh -text
