@@ -221,6 +221,10 @@
 	  <cat-item lemma="moći" tags="vblex.*"/>
 	  <cat-item lemma="moći" tags="vbmod.*"/>
     </def-cat>
+    <def-cat n="cm">
+      <cat-item lemma="," tags="cm"/>
+    </def-cat>
+
   </section-def-cats>
 
   <section-def-attrs>
@@ -426,7 +430,7 @@
       </let>
     </def-macro>
 
-    <def-macro n="prn_voc_adapter" npar="1">
+    <def-macro n="voc_adapter" npar="1">
       <choose>
         <when>
           <test>               
@@ -766,6 +770,7 @@
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
+		<call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
 		<choose>
 			<when> <!-- adjective to adverb rule -->
 			    <test>
@@ -1144,7 +1149,7 @@
       </pattern>
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
-		<call-macro n="prn_voc_adapter"><with-param pos="1"/></call-macro>
+		<call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
 			<out>
 				<chunk name="Nom" case="caseFirstWord">
 					<tags>
@@ -1166,7 +1171,7 @@
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
-		<call-macro n="prn_voc_adapter"><with-param pos="2"/></call-macro>
+		<call-macro n="voc_adapter"><with-param pos="2"/></call-macro>
 		<out>
 			<chunk name="Nom_pr" case="caseFirstWord">
 				<tags>
@@ -1192,7 +1197,7 @@
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
-		<call-macro n="prn_voc_adapter"><with-param pos="1"/></call-macro>
+		<call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
 		<call-macro n="clitic_m_to_mfn"><with-param pos="1"/></call-macro>
 		<choose>
 			<when>
@@ -1432,6 +1437,41 @@
 				<clip pos="2" side="tl" part="prs"/>
 				<clip pos="2" side="tl" part="nbr"/>
 			</lu>
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
+
+	<rule comment="izašao je -> je izstopil">
+      <pattern>
+		<pattern-item n="cm"/>
+		<pattern-item n="vblex"/>
+		<pattern-item n="biti_clt"/>
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+	    <out>
+	      <chunk name="CM-VBlexBiti-BitiVblex" case="caseFirstWord">
+			<tags>
+		  		<tag><lit-tag v="VB"/></tag>
+			</tags>
+			<lu>
+				<clip pos="1" side="tl" part="whole"/>
+			</lu>
+			<b/>
+			<lu>
+				<clip pos="3" side="tl" part="whole"/>
+			</lu>
+			<b/>
+			<lu>
+				<clip pos="2" side="tl" part="lemh"/>
+				<clip pos="2" side="tl" part="a_vrb"/>
+				<clip pos="2" side="tl" part="asp"/>
+				<clip pos="2" side="tl" part="trn"/>
+				<lit-tag v="past"/>
+				<clip pos="2" side="sl" part="gen"/>
+				<clip pos="2" side="tl" part="nbr"/>
+			</lu>	
 	      </chunk>
 	    </out>
       </action>
