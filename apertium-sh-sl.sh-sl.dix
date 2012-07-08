@@ -205,9 +205,9 @@
 	</pardef>
 	
 	<pardef n="mfnsp_to_gen_sg">
-	<e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="m"/><s n="sp"/></r></p></e>
-	<e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="f"/><s n="sp"/></r></p></e>
-	<e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="nt"/><s n="sp"/></r></p></e>
+	<e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="m"/><s n="sg"/></r></p></e>
+	<e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="f"/><s n="sg"/></r></p></e>
+	<e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="nt"/><s n="sg"/></r></p></e>
 	</pardef>
 	
 	<pardef n="gen_m">
@@ -359,7 +359,16 @@
 	<e><p><l>svakakav<s n="prn"/><s n="tot"/></l><r>kakršenkoli<s n="prn"/><s n="ind"/></r></p></e>
 	<e><p><l>sve<s n="prn"/><s n="tot"/></l><r>vse<s n="prn"/><s n="tot"/></r></p><par n="mfn_to_gen"/></e>
 	<e><p><l>ovolik<s n="prn"/><s n="dem"/></l><r>tolik<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>svačiji<s n="prn"/><s n="tot"/></l><r>vsak<s n="prn"/><s n="tot"/></r></p></e>
 	
+	<!-- Transfer rule needed for these entries -->
+	<e><p><l>gdjekoji<s n="prn"/><s n="ind"/></l><r>katerikoli<s n="prn"/><s n="ind"/></r></p></e>
+	
+	<e><p><l>nečiji<s n="prn"/><s n="ind"/></l><r>od<b/>nekoga<s n="prn"/><s n="ind"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e> 
+	<!-- od nekoga => "Našao sam nečiji mobitel" - "I found someone's cellphone" - "Našel sem od nekoga mobitel" -->
+	
+	<e><p><l>ničiji<s n="prn"/><s n="neg"/></l><r>od<b/>nobenega<s n="prn"/><s n="neg"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e> 
+	<!-- od nobenega => "Ovaj automobil nije ničiji" - "This is nobody's car" - "Ta avtomobil ni od nobenega" OR "Ničiji automobil nije crven" - "Nobody's car is red" - "Od nobenega avtomobil ni rdeč"; -->
 
 
     <!--Adverbs-->
