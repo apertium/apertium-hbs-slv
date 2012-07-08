@@ -560,6 +560,34 @@
 				  </chunk>
 				</out>
 			</when>
+			<when>
+				<test>
+					<and>
+						<equal>
+							<clip pos="1" side="sl" part="a_vrb"/>
+					  		<lit-tag v="vblex"/>
+						</equal>
+						<equal>
+							<clip pos="1" side="tl" part="a_vrb"/>
+					  		<lit-tag v="vbser"/>
+						</equal>
+					</and>
+				</test>
+				<out>
+				  <chunk name="Vblex-to-Vbser" case="caseFirstWord">
+				    <tags>
+				      <tag><lit-tag v="VB"/></tag>
+				    </tags>
+				    <lu>
+				      	<clip pos="1" side="tl" part="lemh"/>
+				      	<clip pos="1" side="tl" part="a_vrb"/>	
+						<clip pos="1" side="tl" part="tns"/>
+						<clip pos="1" side="tl" part="prs"/>
+						<clip pos="1" side="tl" part="nbr"/>
+				    </lu>
+				  </chunk>
+				</out>
+			</when>
 			<otherwise>
 				<out>
 				  <chunk name="Verb" case="caseFirstWord">
