@@ -42,6 +42,7 @@ dev/testvoc.sh -text
 /install-sh -text
 /k.sh -text
 /modes.xml -text
+/paradigm-test.sh -text
 /regression-tests.sh -text
 /separate.sh -text
 /sh-sl.prob -text
