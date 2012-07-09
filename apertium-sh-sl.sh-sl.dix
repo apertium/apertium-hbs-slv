@@ -8110,6 +8110,7 @@
 	<e><p><l>znanje<s n="n"/><s n="nt"/></l><r>znanje<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>jutro<s n="n"/><s n="nt"/></l><r>jutro<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>uho<s n="n"/><s n="nt"/></l><r>uho<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>uho<s n="n"/><s n="f"/></l><r>uho<s n="n"/><s n="nt"/></r></p></e> <!-- uho F? -->
 	<e><p><l>nebo<s n="n"/><s n="nt"/></l><r>nebo<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>čelo<s n="n"/><s n="nt"/></l><r>čelo<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>polje<s n="n"/><s n="nt"/></l><r>polje<s n="n"/><s n="nt"/></r></p></e>
@@ -8961,6 +8962,9 @@
 	<e><p><l>oficirstvo<s n="n"/><s n="nt"/></l><r>oficir<s n="n"/><s n="ma"/></r></p></e>
 	<e><p><l>uho<s n="n"/><s n="nt"/></l><r>uho<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>put<s n="n"/><s n="f"/></l><r>pot<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>provokovanje<s n="n"/><s n="nt"/></l><r>provokacija<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>preosveštenstvo<s n="n"/><s n="nt"/></l><r>eminenca<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ala<s n="n"/><s n="f"/></l><r>trakt<s n="n"/><s n="mi"/></r></p></e>
 
 	<!-- TO DO : DODAJ V SL MONODIX -->
 	<e><p><l>agora<s n="n"/><s n="f"/></l><r>zborno<b/>mesto<s n="n"/><s n="nt"/></r></p></e>
@@ -8970,8 +8974,7 @@
 	<e><p><l>putovnica<s n="n"/><s n="f"/></l><r>potni<b/>list<s n="n"/><s n="mi"/></r></p></e>
 	<e><p><l>ajkula<s n="n"/><s n="f"/></l><r>morski<b/>pes<s n="n"/><s n="ma"/></r></p></e>
 	<e><p><l>klimatizacija<s n="n"/><s n="f"/></l><r>klimatska<b/>naprava<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>morski pas<s n="n"/><s n="ma"/></l><r>morski<b/>pes<s n="n"/><s n="ma"/></r></p></e>
-	<e><p><l>menadžerstvo<s n="n"/><s n="nt"/></l><r>menedžer<s n="n"/><s n="ma"/></r></p></e>
+	<e><p><l>morski<b/>pas<s n="n"/><s n="ma"/></l><r>morski<b/>pes<s n="n"/><s n="ma"/></r></p></e>
 	<e><p><l>ručni<b/>rad<s n="n"/><s n="mi"/></l><r>ročno<b/>delo<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>slijepa<b/>ulica<s n="n"/><s n="f"/></l><r>slepa<b/>ulica<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>kožoderstvo<s n="n"/><s n="nt"/></l><r>odiranje<s n="n"/><s n="nt"/></r></p></e>
@@ -8979,9 +8982,9 @@
 	<e><p><l>sinoubojstvo<s n="n"/><s n="nt"/></l><r>umor<b/>sina<s n="n"/><s n="ma"/></r></p></e>
 
 
-	<!-- Razlicni spoli -->
-
+	<!-- Razlicna števila -->
 	<e><p><l>oko<s n="n"/><s n="f"/></l><r>oči<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e>
+	<e><p><l>oko<s n="n"/><s n="nt"/></l><r>oči<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e> <!-- oko NT? -->
 	<e><p><l>zločin<s n="n"/><s n="mi"/></l><r>kriminal<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
 	<e><p><l>snijeg<s n="n"/><s n="mi"/></l><r>sneg<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
 	<e><p><l>odmor<s n="n"/><s n="mi"/></l><r>počitnice<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e>
@@ -9114,14 +9117,10 @@
 	<e><p><l>vegetarijanstvo<s n="n"/><s n="nt"/></l><r>vegetarijanstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
 	<e><p><l>kravarstvo<s n="n"/><s n="nt"/></l><r>živinoreja<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
 	<e><p><l>pluća<s n="n"/><s n="nt"/></l><r>pljuča<s n="n"/><s n="nt"/></r></p><par n="sgpl_pl"/></e>
+	<e><p><l>pluća<s n="n"/><s n="f"/></l><r>pljuča<s n="n"/><s n="nt"/></r></p><par n="sgpl_pl"/></e> <!-- pluća F? -->
+	<e><p><l>menadžerstvo<s n="n"/><s n="nt"/></l><r>menedžerstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
 
-	
-	<!--><e><p><l>municija<s n="n"/><s n="f"/></l><r>strelivo<s n="n"/><s n="nt"/></r></p><par n="sgpl_pl"/></e></e>-->
-	
-	
-	<!--
-	<e><p><l>bogumilstvo<s n="n"/><s n="nt"/></l><r>bogumilstvo==========NI PRAVI PREVOD<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>dobrosusjedstvo<s n="n"/><s n="nt"/></l><r>dobrososedsko==========NI PRAVI PREVOD<s n="n"/><s n="ma"/></r></p></e>-->
+
 	
 	<!-- Proper noun -->
     <e><p><l>Ivica<s n="np"/><s n="ant"/></l><r>Janez<s n="np"/><s n="ant"/></r></p></e>
@@ -9130,7 +9129,7 @@
 	
 	
 	<!-- Nouns -> adjectives - TO DO -->
-	<e><p><l>shodnost<s n="n"/><s n="nt"/></l><r>shoden<s n="adj"/></r></p></e>
+	<e><p><l>shodnost<s n="n"/></l><r>shoden<s n="adj"/></r></p></e>
 	<e><p><l>ala<s n="n"/><s n="nt"/></l><r>raznobarven<s n="adj"/></r></p></e>
 
 
