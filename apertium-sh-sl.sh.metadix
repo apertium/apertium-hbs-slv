@@ -30761,7 +30761,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	
 	
 	<e lm="kvrgav"><i>kvrgav</i><par n="danas__adv"/></e>
-	<e lm="ružan"><i>ružan</i><par n="danas__adv"/></e>
 	<e lm="gromovit"><i>gromovit</i><par n="danas__adv"/></e>
 	<e lm="mrtvo"><i>mrtvo</i><par n="danas__adv"/></e>
 	<e lm="ogroman"><i>ogroman</i><par n="danas__adv"/></e>
@@ -34664,7 +34663,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="kružan"><p><l>najkruž</l><r>kruž</r></p><par n="ruž/an__sup__adj"/></e>
 <e lm="kružan"><p><l>prekruž</l><r>kruž</r></p><par n="ruž/an__ssup__adj"/></e>
 
-
 <e lm="ponovan"><i>ponov</i><par n="ruž/an__pst__adj"/></e>
 <e lm="ponovan"><i>ponov</i><par n="ruž/an__comp__adj"/></e>
 <e lm="ponovan"><p><l>najponov</l><r>ponov</r></p><par n="ruž/an__sup__adj"/></e>
@@ -34674,6 +34672,951 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="autentičan"><i>autentič</i><par n="ruž/an__comp__adj"/></e>
 <e lm="autentičan"><p><l>najautentič</l><r>autentič</r></p><par n="ruž/an__sup__adj"/></e>
 <e lm="autentičan"><p><l>preautentič</l><r>autentič</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="aktualan"><i>aktual</i><par n="ruž/an__pst__adj"/></e>
+<e lm="aktualan"><i>aktual</i><par n="ruž/an__comp__adj"/></e>
+<e lm="aktualan"><p><l>najaktual</l><r>aktual</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="aktualan"><p><l>preaktual</l><r>aktual</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="akutan"><i>akut</i><par n="ruž/an__pst__adj"/></e>
+<e lm="akutan"><i>akut</i><par n="ruž/an__comp__adj"/></e>
+<e lm="akutan"><p><l>najakut</l><r>akut</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="akutan"><p><l>preakut</l><r>akut</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="apstrakan"><i>apstrak</i><par n="ruž/an__pst__adj"/></e>
+<e lm="apstrakan"><i>apstrak</i><par n="ruž/an__comp__adj"/></e>
+<e lm="apstrakan"><p><l>najapstrak</l><r>apstrak</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="apstrakan"><p><l>preapstrak</l><r>apstrak</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="arhaičan"><i>arhaič</i><par n="ruž/an__pst__adj"/></e>
+<e lm="arhaičan"><i>arhaič</i><par n="ruž/an__comp__adj"/></e>
+<e lm="arhaičan"><p><l>najarhaič</l><r>arhaič</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="arhaičan"><p><l>prearhaič</l><r>arhaič</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="autoritativan"><i>autoritativ</i><par n="ruž/an__pst__adj"/></e>
+<e lm="autoritativan"><i>autoritativ</i><par n="ruž/an__comp__adj"/></e>
+<e lm="autoritativan"><p><l>najautoritativ</l><r>autoritativ</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="autoritativan"><p><l>preautoritativ</l><r>autoritativ</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="banalan"><i>banal</i><par n="ruž/an__pst__adj"/></e>
+<e lm="banalan"><i>banal</i><par n="ruž/an__comp__adj"/></e>
+<e lm="banalan"><p><l>najbanal</l><r>banal</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="banalan"><p><l>prebanal</l><r>banal</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="barokan"><i>barok</i><par n="ruž/an__pst__adj"/></e>
+<e lm="barokan"><i>barok</i><par n="ruž/an__comp__adj"/></e>
+<e lm="barokan"><p><l>najbarok</l><r>barok</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="barokan"><p><l>prebarok</l><r>barok</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="bazičan"><i>bazič</i><par n="ruž/an__pst__adj"/></e>
+<e lm="bazičan"><i>bazič</i><par n="ruž/an__comp__adj"/></e>
+<e lm="bazičan"><p><l>najbazič</l><r>bazič</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="bazičan"><p><l>prebazič</l><r>bazič</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="besraman"><i>besram</i><par n="ruž/an__pst__adj"/></e>
+<e lm="besraman"><i>besram</i><par n="ruž/an__comp__adj"/></e>
+<e lm="besraman"><p><l>najbesram</l><r>besram</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="besraman"><p><l>prebesram</l><r>besram</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="bezbrižan"><i>bezbriž</i><par n="ruž/an__pst__adj"/></e>
+<e lm="bezbrižan"><i>bezbriž</i><par n="ruž/an__comp__adj"/></e>
+<e lm="bezbrižan"><p><l>najbezbriž</l><r>bezbriž</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="bezbrižan"><p><l>prebezbriž</l><r>bezbriž</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="bezopasan"><i>bezopas</i><par n="ruž/an__pst__adj"/></e>
+<e lm="bezopasan"><i>bezopas</i><par n="ruž/an__comp__adj"/></e>
+<e lm="bezopasan"><p><l>najbezopas</l><r>bezopas</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="bezopasan"><p><l>prebezopas</l><r>bezopas</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="bezuman"><i>bezum</i><par n="ruž/an__pst__adj"/></e>
+<e lm="bezuman"><i>bezum</i><par n="ruž/an__comp__adj"/></e>
+<e lm="bezuman"><p><l>najbezum</l><r>bezum</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="bezuman"><p><l>prebezum</l><r>bezum</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="bijedan"><i>bijed</i><par n="ruž/an__pst__adj"/></e>
+<e lm="bijedan"><i>bijed</i><par n="ruž/an__comp__adj"/></e>
+<e lm="bijedan"><p><l>najbijed</l><r>bijed</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="bijedan"><p><l>prebijed</l><r>bijed</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="bitan"><i>bit</i><par n="ruž/an__pst__adj"/></e>
+<e lm="bitan"><i>bit</i><par n="ruž/an__comp__adj"/></e>
+<e lm="bitan"><p><l>najbit</l><r>bit</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="bitan"><p><l>prebit</l><r>bit</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="bučan"><i>buč</i><par n="ruž/an__pst__adj"/></e>
+<e lm="bučan"><i>buč</i><par n="ruž/an__comp__adj"/></e>
+<e lm="bučan"><p><l>najbuč</l><r>buč</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="bučan"><p><l>prebuč</l><r>buč</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="budan"><i>bud</i><par n="ruž/an__pst__adj"/></e>
+<e lm="budan"><i>bud</i><par n="ruž/an__comp__adj"/></e>
+<e lm="budan"><p><l>najbud</l><r>bud</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="budan"><p><l>prebud</l><r>bud</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="bujan"><i>buj</i><par n="ruž/an__pst__adj"/></e>
+<e lm="bujan"><i>buj</i><par n="ruž/an__comp__adj"/></e>
+<e lm="bujan"><p><l>najbuj</l><r>buj</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="bujan"><p><l>prebuj</l><r>buj</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="buran"><i>bur</i><par n="ruž/an__pst__adj"/></e>
+<e lm="buran"><i>bur</i><par n="ruž/an__comp__adj"/></e>
+<e lm="buran"><p><l>najbur</l><r>bur</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="buran"><p><l>prebur</l><r>bur</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="centralan"><i>central</i><par n="ruž/an__pst__adj"/></e>
+<e lm="centralan"><i>central</i><par n="ruž/an__comp__adj"/></e>
+<e lm="centralan"><p><l>najcentral</l><r>central</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="centralan"><p><l>precentral</l><r>central</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="čudan"><i>čud</i><par n="ruž/an__pst__adj"/></e>
+<e lm="čudan"><i>čud</i><par n="ruž/an__comp__adj"/></e>
+<e lm="čudan"><p><l>najčud</l><r>čud</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="čudan"><p><l>prečud</l><r>čud</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="degenerativan"><i>degenerativ</i><par n="ruž/an__pst__adj"/></e>
+<e lm="degenerativan"><i>degenerativ</i><par n="ruž/an__comp__adj"/></e>
+<e lm="degenerativan"><p><l>najdegenerativ</l><r>degenerativ</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="degenerativan"><p><l>predegenerativ</l><r>degenerativ</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="depresivan"><i>depresiv</i><par n="ruž/an__pst__adj"/></e>
+<e lm="depresivan"><i>depresiv</i><par n="ruž/an__comp__adj"/></e>
+<e lm="depresivan"><p><l>najdepresiv</l><r>depresiv</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="depresivan"><p><l>predepresiv</l><r>depresiv</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="dokumentaran"><i>dokumentar</i><par n="ruž/an__pst__adj"/></e>
+<e lm="dokumentaran"><i>dokumentar</i><par n="ruž/an__comp__adj"/></e>
+<e lm="dokumentaran"><p><l>najdokumentar</l><r>dokumentar</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="dokumentaran"><p><l>predokumentar</l><r>dokumentar</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="dominantan"><i>dominant</i><par n="ruž/an__pst__adj"/></e>
+<e lm="dominantan"><i>dominant</i><par n="ruž/an__comp__adj"/></e>
+<e lm="dominantan"><p><l>najdominant</l><r>dominant</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="dominantan"><p><l>predominant</l><r>dominant</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="dosadan"><i>dosad</i><par n="ruž/an__pst__adj"/></e>
+<e lm="dosadan"><i>dosad</i><par n="ruž/an__comp__adj"/></e>
+<e lm="dosadan"><p><l>najdosad</l><r>dosad</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="dosadan"><p><l>predosad</l><r>dosad</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="dosadan"><i>dosad</i><par n="ruž/an__pst__adj"/></e>
+<e lm="dosadan"><i>dosad</i><par n="ruž/an__comp__adj"/></e>
+<e lm="dosadan"><p><l>najdosad</l><r>dosad</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="dosadan"><p><l>predosad</l><r>dosad</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="dosljedan"><i>dosljed</i><par n="ruž/an__pst__adj"/></e>
+<e lm="dosljedan"><i>dosljed</i><par n="ruž/an__comp__adj"/></e>
+<e lm="dosljedan"><p><l>najdosljed</l><r>dosljed</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="dosljedan"><p><l>predosljed</l><r>dosljed</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="dostupan"><i>dostup</i><par n="ruž/an__pst__adj"/></e>
+<e lm="dostupan"><i>dostup</i><par n="ruž/an__comp__adj"/></e>
+<e lm="dostupan"><p><l>najdostup</l><r>dostup</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="dostupan"><p><l>predostup</l><r>dostup</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="dugoročan"><i>dugoroč</i><par n="ruž/an__pst__adj"/></e>
+<e lm="dugoročan"><i>dugoroč</i><par n="ruž/an__comp__adj"/></e>
+<e lm="dugoročan"><p><l>najdugoroč</l><r>dugoroč</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="dugoročan"><p><l>predugoroč</l><r>dugoroč</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="fleksibilan"><i>fleksibil</i><par n="ruž/an__pst__adj"/></e>
+<e lm="fleksibilan"><i>fleksibil</i><par n="ruž/an__comp__adj"/></e>
+<e lm="fleksibilan"><p><l>najfleksibil</l><r>fleksibil</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="fleksibilan"><p><l>prefleksibil</l><r>fleksibil</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="genijalan"><i>genijal</i><par n="ruž/an__pst__adj"/></e>
+<e lm="genijalan"><i>genijal</i><par n="ruž/an__comp__adj"/></e>
+<e lm="genijalan"><p><l>najgenijal</l><r>genijal</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="genijalan"><p><l>pregenijal</l><r>genijal</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="glasan"><i>glas</i><par n="ruž/an__pst__adj"/></e>
+<e lm="glasan"><i>glas</i><par n="ruž/an__comp__adj"/></e>
+<e lm="glasan"><p><l>najglas</l><r>glas</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="glasan"><p><l>preglas</l><r>glas</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="glavan"><i>glav</i><par n="ruž/an__pst__adj"/></e>
+<e lm="glavan"><i>glav</i><par n="ruž/an__comp__adj"/></e>
+<e lm="glavan"><p><l>najglav</l><r>glav</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="glavan"><p><l>preglav</l><r>glav</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="glomazan"><i>glomaz</i><par n="ruž/an__pst__adj"/></e>
+<e lm="glomazan"><i>glomaz</i><par n="ruž/an__comp__adj"/></e>
+<e lm="glomazan"><p><l>najglomaz</l><r>glomaz</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="glomazan"><p><l>preglomaz</l><r>glomaz</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="grešan"><i>greš</i><par n="ruž/an__pst__adj"/></e>
+<e lm="grešan"><i>greš</i><par n="ruž/an__comp__adj"/></e>
+<e lm="grešan"><p><l>najgreš</l><r>greš</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="grešan"><p><l>pregreš</l><r>greš</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="grozan"><i>groz</i><par n="ruž/an__pst__adj"/></e>
+<e lm="grozan"><i>groz</i><par n="ruž/an__comp__adj"/></e>
+<e lm="grozan"><p><l>najgroz</l><r>groz</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="grozan"><p><l>pregroz</l><r>groz</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="hladan"><i>hlad</i><par n="ruž/an__pst__adj"/></e>
+<e lm="hladan"><i>hlad</i><par n="ruž/an__comp__adj"/></e>
+<e lm="hladan"><p><l>najhlad</l><r>hlad</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="hladan"><p><l>prehlad</l><r>hlad</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="inteligentan"><i>inteligent</i><par n="ruž/an__pst__adj"/></e>
+<e lm="inteligentan"><i>inteligent</i><par n="ruž/an__comp__adj"/></e>
+<e lm="inteligentan"><p><l>najinteligent</l><r>inteligent</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="inteligentan"><p><l>preinteligent</l><r>inteligent</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="ispravan"><i>isprav</i><par n="ruž/an__pst__adj"/></e>
+<e lm="ispravan"><i>isprav</i><par n="ruž/an__comp__adj"/></e>
+<e lm="ispravan"><p><l>najisprav</l><r>isprav</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="ispravan"><p><l>preisprav</l><r>isprav</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="istočan"><i>istoč</i><par n="ruž/an__pst__adj"/></e>
+<e lm="istočan"><i>istoč</i><par n="ruž/an__comp__adj"/></e>
+<e lm="istočan"><p><l>najistoč</l><r>istoč</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="istočan"><p><l>preistoč</l><r>istoč</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="izvanredan"><i>izvanred</i><par n="ruž/an__pst__adj"/></e>
+<e lm="izvanredan"><i>izvanred</i><par n="ruž/an__comp__adj"/></e>
+<e lm="izvanredan"><p><l>najizvanred</l><r>izvanred</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="izvanredan"><p><l>preizvanred</l><r>izvanred</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="izvoran"><i>izvor</i><par n="ruž/an__pst__adj"/></e>
+<e lm="izvoran"><i>izvor</i><par n="ruž/an__comp__adj"/></e>
+<e lm="izvoran"><p><l>najizvor</l><r>izvor</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="izvoran"><p><l>preizvor</l><r>izvor</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="jednakomjeran"><i>jednakomjer</i><par n="ruž/an__pst__adj"/></e>
+<e lm="jednakomjeran"><i>jednakomjer</i><par n="ruž/an__comp__adj"/></e>
+<e lm="jednakomjeran"><p><l>najjednakomjer</l><r>jednakomjer</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="jednakomjeran"><p><l>prejednakomjer</l><r>jednakomjer</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="jednoličan"><i>jednolič</i><par n="ruž/an__pst__adj"/></e>
+<e lm="jednoličan"><i>jednolič</i><par n="ruž/an__comp__adj"/></e>
+<e lm="jednoličan"><p><l>najjednolič</l><r>jednolič</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="jednoličan"><p><l>prejednolič</l><r>jednolič</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="južan"><i>juž</i><par n="ruž/an__pst__adj"/></e>
+<e lm="južan"><i>juž</i><par n="ruž/an__comp__adj"/></e>
+<e lm="južan"><p><l>najjuž</l><r>juž</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="južan"><p><l>prejuž</l><r>juž</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="kompleksan"><i>kompleks</i><par n="ruž/an__pst__adj"/></e>
+<e lm="kompleksan"><i>kompleks</i><par n="ruž/an__comp__adj"/></e>
+<e lm="kompleksan"><p><l>najkompleks</l><r>kompleks</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="kompleksan"><p><l>prekompleks</l><r>kompleks</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="konzervativan"><i>konzervativ</i><par n="ruž/an__pst__adj"/></e>
+<e lm="konzervativan"><i>konzervativ</i><par n="ruž/an__comp__adj"/></e>
+<e lm="konzervativan"><p><l>najkonzervativ</l><r>konzervativ</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="konzervativan"><p><l>prekonzervativ</l><r>konzervativ</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="kratkotrajan"><i>kratkotraj</i><par n="ruž/an__pst__adj"/></e>
+<e lm="kratkotrajan"><i>kratkotraj</i><par n="ruž/an__comp__adj"/></e>
+<e lm="kratkotrajan"><p><l>najkratkotraj</l><r>kratkotraj</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="kratkotrajan"><p><l>prekratkotraj</l><r>kratkotraj</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="kreativan"><i>kreativ</i><par n="ruž/an__pst__adj"/></e>
+<e lm="kreativan"><i>kreativ</i><par n="ruž/an__comp__adj"/></e>
+<e lm="kreativan"><p><l>najkreativ</l><r>kreativ</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="kreativan"><p><l>prekreativ</l><r>kreativ</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="kvalitetan"><i>kvalitet</i><par n="ruž/an__pst__adj"/></e>
+<e lm="kvalitetan"><i>kvalitet</i><par n="ruž/an__comp__adj"/></e>
+<e lm="kvalitetan"><p><l>najkvalitet</l><r>kvalitet</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="kvalitetan"><p><l>prekvalitet</l><r>kvalitet</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="lagodan"><i>lagod</i><par n="ruž/an__pst__adj"/></e>
+<e lm="lagodan"><i>lagod</i><par n="ruž/an__comp__adj"/></e>
+<e lm="lagodan"><p><l>najlagod</l><r>lagod</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="lagodan"><p><l>prelagod</l><r>lagod</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="ljubazan"><i>ljubaz</i><par n="ruž/an__pst__adj"/></e>
+<e lm="ljubazan"><i>ljubaz</i><par n="ruž/an__comp__adj"/></e>
+<e lm="ljubazan"><p><l>najljubaz</l><r>ljubaz</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="ljubazan"><p><l>preljubaz</l><r>ljubaz</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="lojalan"><i>lojal</i><par n="ruž/an__pst__adj"/></e>
+<e lm="lojalan"><i>lojal</i><par n="ruž/an__comp__adj"/></e>
+<e lm="lojalan"><p><l>najlojal</l><r>lojal</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="lojalan"><p><l>prelojal</l><r>lojal</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="masivan"><i>masiv</i><par n="ruž/an__pst__adj"/></e>
+<e lm="masivan"><i>masiv</i><par n="ruž/an__comp__adj"/></e>
+<e lm="masivan"><p><l>najmasiv</l><r>masiv</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="masivan"><p><l>premasiv</l><r>masiv</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="masan"><i>mas</i><par n="ruž/an__pst__adj"/></e>
+<e lm="masan"><i>mas</i><par n="ruž/an__comp__adj"/></e>
+<e lm="masan"><p><l>najmas</l><r>mas</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="masan"><p><l>premas</l><r>mas</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="mjerodavan"><i>mjerodav</i><par n="ruž/an__pst__adj"/></e>
+<e lm="mjerodavan"><i>mjerodav</i><par n="ruž/an__comp__adj"/></e>
+<e lm="mjerodavan"><p><l>najmjerodav</l><r>mjerodav</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="mjerodavan"><p><l>premjerodav</l><r>mjerodav</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="mračan"><i>mrač</i><par n="ruž/an__pst__adj"/></e>
+<e lm="mračan"><i>mrač</i><par n="ruž/an__comp__adj"/></e>
+<e lm="mračan"><p><l>najmrač</l><r>mrač</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="mračan"><p><l>premrač</l><r>mrač</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="mutan"><i>mut</i><par n="ruž/an__pst__adj"/></e>
+<e lm="mutan"><i>mut</i><par n="ruž/an__comp__adj"/></e>
+<e lm="mutan"><p><l>najmut</l><r>mut</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="mutan"><p><l>premut</l><r>mut</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="naivan"><i>naiv</i><par n="ruž/an__pst__adj"/></e>
+<e lm="naivan"><i>naiv</i><par n="ruž/an__comp__adj"/></e>
+<e lm="naivan"><p><l>najnaiv</l><r>naiv</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="naivan"><p><l>prenaiv</l><r>naiv</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="naporan"><i>napor</i><par n="ruž/an__pst__adj"/></e>
+<e lm="naporan"><i>napor</i><par n="ruž/an__comp__adj"/></e>
+<e lm="naporan"><p><l>najnapor</l><r>napor</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="naporan"><p><l>prenapor</l><r>napor</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="napredan"><i>napred</i><par n="ruž/an__pst__adj"/></e>
+<e lm="napredan"><i>napred</i><par n="ruž/an__comp__adj"/></e>
+<e lm="napredan"><p><l>najnapred</l><r>napred</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="napredan"><p><l>prenapred</l><r>napred</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nasilan"><i>nasil</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nasilan"><i>nasil</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nasilan"><p><l>najnasil</l><r>nasil</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nasilan"><p><l>prenasil</l><r>nasil</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nedjelotvoran"><i>nedjelotvor</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nedjelotvoran"><i>nedjelotvor</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nedjelotvoran"><p><l>najnedjelotvor</l><r>nedjelotvor</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nedjelotvoran"><p><l>prenedjelotvor</l><r>nedjelotvor</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nedosljedan"><i>nedosljed</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nedosljedan"><i>nedosljed</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nedosljedan"><p><l>najnedosljed</l><r>nedosljed</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nedosljedan"><p><l>prenedosljed</l><r>nedosljed</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nedostatan"><i>nedostat</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nedostatan"><i>nedostat</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nedostatan"><p><l>najnedostat</l><r>nedostat</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nedostatan"><p><l>prenedostat</l><r>nedostat</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neiscrpan"><i>neiscrp</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neiscrpan"><i>neiscrp</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neiscrpan"><p><l>najneiscrp</l><r>neiscrp</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neiscrpan"><p><l>preneiscrp</l><r>neiscrp</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nejasan"><i>nejas</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nejasan"><i>nejas</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nejasan"><p><l>najnejas</l><r>nejas</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nejasan"><p><l>prenejas</l><r>nejas</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nekorisan"><i>nekoris</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nekorisan"><i>nekoris</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nekorisan"><p><l>najnekoris</l><r>nekoris</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nekorisan"><p><l>prenekoris</l><r>nekoris</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nemiran"><i>nemir</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nemiran"><i>nemir</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nemiran"><p><l>najnemir</l><r>nemir</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nemiran"><p><l>prenemir</l><r>nemir</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neosporan"><i>neospor</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neosporan"><i>neospor</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neosporan"><p><l>najneospor</l><r>neospor</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neosporan"><p><l>preneospor</l><r>neospor</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nepotreban"><i>nepotreb</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nepotreban"><i>nepotreb</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nepotreban"><p><l>najnepotreb</l><r>nepotreb</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nepotreban"><p><l>prenepotreb</l><r>nepotreb</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nepravedan"><i>nepraved</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nepravedan"><i>nepraved</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nepravedan"><p><l>najnepraved</l><r>nepraved</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nepravedan"><p><l>prenepraved</l><r>nepraved</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nepravilan"><i>nepravil</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nepravilan"><i>nepravil</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nepravilan"><p><l>najnepravil</l><r>nepravil</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nepravilan"><p><l>prenepravil</l><r>nepravil</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neprijatan"><i>neprijat</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neprijatan"><i>neprijat</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neprijatan"><p><l>najneprijat</l><r>neprijat</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neprijatan"><p><l>preneprijat</l><r>neprijat</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neprikladan"><i>nepriklad</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neprikladan"><i>nepriklad</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neprikladan"><p><l>najnepriklad</l><r>nepriklad</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neprikladan"><p><l>prenepriklad</l><r>nepriklad</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nepriličan"><i>neprilič</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nepriličan"><i>neprilič</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nepriličan"><p><l>najneprilič</l><r>neprilič</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nepriličan"><p><l>preneprilič</l><r>neprilič</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neprimjetan"><i>neprimjet</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neprimjetan"><i>neprimjet</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neprimjetan"><p><l>najneprimjet</l><r>neprimjet</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neprimjetan"><p><l>preneprimjet</l><r>neprimjet</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neprofesionalan"><i>neprofesional</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neprofesionalan"><i>neprofesional</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neprofesionalan"><p><l>najneprofesional</l><r>neprofesional</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neprofesionalan"><p><l>preneprofesional</l><r>neprofesional</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neravnomjeran"><i>neravnomjer</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neravnomjeran"><i>neravnomjer</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neravnomjeran"><p><l>najneravnomjer</l><r>neravnomjer</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neravnomjeran"><p><l>preneravnomjer</l><r>neravnomjer</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nerazuman"><i>nerazum</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nerazuman"><i>nerazum</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nerazuman"><p><l>najnerazum</l><r>nerazum</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nerazuman"><p><l>prenerazum</l><r>nerazum</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nerealan"><i>nereal</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nerealan"><i>nereal</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nerealan"><p><l>najnereal</l><r>nereal</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nerealan"><p><l>prenereal</l><r>nereal</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neslavan"><i>neslav</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neslavan"><i>neslav</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neslavan"><p><l>najneslav</l><r>neslav</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neslavan"><p><l>preneslav</l><r>neslav</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nesnosan"><i>nesnos</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nesnosan"><i>nesnos</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nesnosan"><p><l>najnesnos</l><r>nesnos</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nesnosan"><p><l>prenesnos</l><r>nesnos</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nesposoban"><i>nesposob</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nesposoban"><i>nesposob</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nesposoban"><p><l>najnesposob</l><r>nesposob</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nesposoban"><p><l>prenesposob</l><r>nesposob</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nespretan"><i>nespret</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nespretan"><i>nespret</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nespretan"><p><l>najnespret</l><r>nespret</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nespretan"><p><l>prenespret</l><r>nespret</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nesretan"><i>nesret</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nesretan"><i>nesret</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nesretan"><p><l>najnesret</l><r>nesret</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nesretan"><p><l>prenesret</l><r>nesret</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nestabilan"><i>nestabil</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nestabilan"><i>nestabil</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nestabilan"><p><l>najnestabil</l><r>nestabil</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nestabilan"><p><l>prenestabil</l><r>nestabil</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nestalan"><i>nestal</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nestalan"><i>nestal</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nestalan"><p><l>najnestal</l><r>nestal</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nestalan"><p><l>prenestal</l><r>nestal</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nestvaran"><i>nestvar</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nestvaran"><i>nestvar</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nestvaran"><p><l>najnestvar</l><r>nestvar</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nestvaran"><p><l>prenestvar</l><r>nestvar</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="netočan"><i>netoč</i><par n="ruž/an__pst__adj"/></e>
+<e lm="netočan"><i>netoč</i><par n="ruž/an__comp__adj"/></e>
+<e lm="netočan"><p><l>najnetoč</l><r>netoč</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="netočan"><p><l>prenetoč</l><r>netoč</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neudoban"><i>neudob</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neudoban"><i>neudob</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neudoban"><p><l>najneudob</l><r>neudob</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neudoban"><p><l>preneudob</l><r>neudob</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neugodan"><i>neugod</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neugodan"><i>neugod</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neugodan"><p><l>najneugod</l><r>neugod</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neugodan"><p><l>preneugod</l><r>neugod</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neukusan"><i>neukus</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neukusan"><i>neukus</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neukusan"><p><l>najneukus</l><r>neukus</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neukusan"><p><l>preneukus</l><r>neukus</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neuspješan"><i>neuspješ</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neuspješan"><i>neuspješ</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neuspješan"><p><l>najneuspješ</l><r>neuspješ</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neuspješan"><p><l>preneuspješ</l><r>neuspješ</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nevažan"><i>nevaž</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nevažan"><i>nevaž</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nevažan"><p><l>najnevaž</l><r>nevaž</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nevažan"><p><l>prenevaž</l><r>nevaž</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nevjerojatan"><i>nevjerojat</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nevjerojatan"><i>nevjerojat</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nevjerojatan"><p><l>najnevjerojat</l><r>nevjerojat</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nevjerojatan"><p><l>prenevjerojat</l><r>nevjerojat</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nevjerovatan"><i>nevjerovat</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nevjerovatan"><i>nevjerovat</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nevjerovatan"><p><l>najnevjerovat</l><r>nevjerovat</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nevjerovatan"><p><l>prenevjerovat</l><r>nevjerovat</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="neznatan"><i>neznat</i><par n="ruž/an__pst__adj"/></e>
+<e lm="neznatan"><i>neznat</i><par n="ruž/an__comp__adj"/></e>
+<e lm="neznatan"><p><l>najneznat</l><r>neznat</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="neznatan"><p><l>preneznat</l><r>neznat</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nježan"><i>njež</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nježan"><i>njež</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nježan"><p><l>najnjež</l><r>njež</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nježan"><p><l>prenjež</l><r>njež</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nužan"><i>nuž</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nužan"><i>nuž</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nužan"><p><l>najnuž</l><r>nuž</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nužan"><p><l>prenuž</l><r>nuž</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="obilan"><i>obil</i><par n="ruž/an__pst__adj"/></e>
+<e lm="obilan"><i>obil</i><par n="ruž/an__comp__adj"/></e>
+<e lm="obilan"><p><l>najobil</l><r>obil</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="obilan"><p><l>preobil</l><r>obil</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="objektivan"><i>objektiv</i><par n="ruž/an__pst__adj"/></e>
+<e lm="objektivan"><i>objektiv</i><par n="ruž/an__comp__adj"/></e>
+<e lm="objektivan"><p><l>najobjektiv</l><r>objektiv</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="objektivan"><p><l>preobjektiv</l><r>objektiv</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="odličan"><i>odlič</i><par n="ruž/an__pst__adj"/></e>
+<e lm="odličan"><i>odlič</i><par n="ruž/an__comp__adj"/></e>
+<e lm="odličan"><p><l>najodlič</l><r>odlič</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="odličan"><p><l>preodlič</l><r>odlič</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="odlučan"><i>odluč</i><par n="ruž/an__pst__adj"/></e>
+<e lm="odlučan"><i>odluč</i><par n="ruž/an__comp__adj"/></e>
+<e lm="odlučan"><p><l>najodluč</l><r>odluč</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="odlučan"><p><l>preodluč</l><r>odluč</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="odvažan"><i>odvaž</i><par n="ruž/an__pst__adj"/></e>
+<e lm="odvažan"><i>odvaž</i><par n="ruž/an__comp__adj"/></e>
+<e lm="odvažan"><p><l>najodvaž</l><r>odvaž</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="odvažan"><p><l>preodvaž</l><r>odvaž</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="ogavan"><i>ogav</i><par n="ruž/an__pst__adj"/></e>
+<e lm="ogavan"><i>ogav</i><par n="ruž/an__comp__adj"/></e>
+<e lm="ogavan"><p><l>najogav</l><r>ogav</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="ogavan"><p><l>preogav</l><r>ogav</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="okretan"><i>okret</i><par n="ruž/an__pst__adj"/></e>
+<e lm="okretan"><i>okret</i><par n="ruž/an__comp__adj"/></e>
+<e lm="okretan"><p><l>najokret</l><r>okret</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="okretan"><p><l>preokret</l><r>okret</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="okrutan"><i>okrut</i><par n="ruž/an__pst__adj"/></e>
+<e lm="okrutan"><i>okrut</i><par n="ruž/an__comp__adj"/></e>
+<e lm="okrutan"><p><l>najokrut</l><r>okrut</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="okrutan"><p><l>preokrut</l><r>okrut</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="opsežan"><i>opsež</i><par n="ruž/an__pst__adj"/></e>
+<e lm="opsežan"><i>opsež</i><par n="ruž/an__comp__adj"/></e>
+<e lm="opsežan"><p><l>najopsež</l><r>opsež</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="opsežan"><p><l>preopsež</l><r>opsež</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="optimističan"><i>optimistič</i><par n="ruž/an__pst__adj"/></e>
+<e lm="optimističan"><i>optimistič</i><par n="ruž/an__comp__adj"/></e>
+<e lm="optimističan"><p><l>najoptimistič</l><r>optimistič</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="optimističan"><p><l>preoptimistič</l><r>optimistič</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="otporan"><i>otpor</i><par n="ruž/an__pst__adj"/></e>
+<e lm="otporan"><i>otpor</i><par n="ruž/an__comp__adj"/></e>
+<e lm="otporan"><p><l>najotpor</l><r>otpor</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="otporan"><p><l>preotpor</l><r>otpor</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="plodan"><i>plod</i><par n="ruž/an__pst__adj"/></e>
+<e lm="plodan"><i>plod</i><par n="ruž/an__comp__adj"/></e>
+<e lm="plodan"><p><l>najplod</l><r>plod</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="plodan"><p><l>preplod</l><r>plod</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="pobožan"><i>pobož</i><par n="ruž/an__pst__adj"/></e>
+<e lm="pobožan"><i>pobož</i><par n="ruž/an__comp__adj"/></e>
+<e lm="pobožan"><p><l>najpobož</l><r>pobož</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="pobožan"><p><l>prepobož</l><r>pobož</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="podroban"><i>podrob</i><par n="ruž/an__pst__adj"/></e>
+<e lm="podroban"><i>podrob</i><par n="ruž/an__comp__adj"/></e>
+<e lm="podroban"><p><l>najpodrob</l><r>podrob</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="podroban"><p><l>prepodrob</l><r>podrob</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="poguban"><i>pogub</i><par n="ruž/an__pst__adj"/></e>
+<e lm="poguban"><i>pogub</i><par n="ruž/an__comp__adj"/></e>
+<e lm="poguban"><p><l>najpogub</l><r>pogub</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="poguban"><p><l>prepogub</l><r>pogub</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="pohlepan"><i>pohlep</i><par n="ruž/an__pst__adj"/></e>
+<e lm="pohlepan"><i>pohlep</i><par n="ruž/an__comp__adj"/></e>
+<e lm="pohlepan"><p><l>najpohlep</l><r>pohlep</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="pohlepan"><p><l>prepohlep</l><r>pohlep</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="pokoran"><i>pokor</i><par n="ruž/an__pst__adj"/></e>
+<e lm="pokoran"><i>pokor</i><par n="ruž/an__comp__adj"/></e>
+<e lm="pokoran"><p><l>najpokor</l><r>pokor</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="pokoran"><p><l>prepokor</l><r>pokor</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="ponizan"><i>poniz</i><par n="ruž/an__pst__adj"/></e>
+<e lm="ponizan"><i>poniz</i><par n="ruž/an__comp__adj"/></e>
+<e lm="ponizan"><p><l>najponiz</l><r>poniz</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="ponizan"><p><l>preponiz</l><r>poniz</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="ponosan"><i>ponos</i><par n="ruž/an__pst__adj"/></e>
+<e lm="ponosan"><i>ponos</i><par n="ruž/an__comp__adj"/></e>
+<e lm="ponosan"><p><l>najponos</l><r>ponos</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="ponosan"><p><l>preponos</l><r>ponos</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="popularan"><i>popular</i><par n="ruž/an__pst__adj"/></e>
+<e lm="popularan"><i>popular</i><par n="ruž/an__comp__adj"/></e>
+<e lm="popularan"><p><l>najpopular</l><r>popular</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="popularan"><p><l>prepopular</l><r>popular</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="poslušan"><i>posluš</i><par n="ruž/an__pst__adj"/></e>
+<e lm="poslušan"><i>posluš</i><par n="ruž/an__comp__adj"/></e>
+<e lm="poslušan"><p><l>najposluš</l><r>posluš</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="poslušan"><p><l>preposluš</l><r>posluš</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="posredan"><i>posred</i><par n="ruž/an__pst__adj"/></e>
+<e lm="posredan"><i>posred</i><par n="ruž/an__comp__adj"/></e>
+<e lm="posredan"><p><l>najposred</l><r>posred</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="posredan"><p><l>preposred</l><r>posred</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="potreban"><i>potreb</i><par n="ruž/an__pst__adj"/></e>
+<e lm="potreban"><i>potreb</i><par n="ruž/an__comp__adj"/></e>
+<e lm="potreban"><p><l>najpotreb</l><r>potreb</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="potreban"><p><l>prepotreb</l><r>potreb</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="pravedan"><i>praved</i><par n="ruž/an__pst__adj"/></e>
+<e lm="pravedan"><i>praved</i><par n="ruž/an__comp__adj"/></e>
+<e lm="pravedan"><p><l>najpraved</l><r>praved</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="pravedan"><p><l>prepraved</l><r>praved</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="predivan"><i>prediv</i><par n="ruž/an__pst__adj"/></e>
+<e lm="predivan"><i>prediv</i><par n="ruž/an__comp__adj"/></e>
+<e lm="predivan"><p><l>najprediv</l><r>prediv</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="predivan"><p><l>preprediv</l><r>prediv</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="prestižan"><i>prestiž</i><par n="ruž/an__pst__adj"/></e>
+<e lm="prestižan"><i>prestiž</i><par n="ruž/an__comp__adj"/></e>
+<e lm="prestižan"><p><l>najprestiž</l><r>prestiž</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="prestižan"><p><l>preprestiž</l><r>prestiž</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="preziran"><i>prezir</i><par n="ruž/an__pst__adj"/></e>
+<e lm="preziran"><i>prezir</i><par n="ruž/an__comp__adj"/></e>
+<e lm="preziran"><p><l>najprezir</l><r>prezir</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="preziran"><p><l>preprezir</l><r>prezir</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="prijazan"><i>prijaz</i><par n="ruž/an__pst__adj"/></e>
+<e lm="prijazan"><i>prijaz</i><par n="ruž/an__comp__adj"/></e>
+<e lm="prijazan"><p><l>najprijaz</l><r>prijaz</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="prijazan"><p><l>preprijaz</l><r>prijaz</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="prikladan"><i>priklad</i><par n="ruž/an__pst__adj"/></e>
+<e lm="prikladan"><i>priklad</i><par n="ruž/an__comp__adj"/></e>
+<e lm="prikladan"><p><l>najpriklad</l><r>priklad</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="prikladan"><p><l>prepriklad</l><r>priklad</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="primitivan"><i>primitiv</i><par n="ruž/an__pst__adj"/></e>
+<e lm="primitivan"><i>primitiv</i><par n="ruž/an__comp__adj"/></e>
+<e lm="primitivan"><p><l>najprimitiv</l><r>primitiv</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="primitivan"><p><l>preprimitiv</l><r>primitiv</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="primjeran"><i>primjer</i><par n="ruž/an__pst__adj"/></e>
+<e lm="primjeran"><i>primjer</i><par n="ruž/an__comp__adj"/></e>
+<e lm="primjeran"><p><l>najprimjer</l><r>primjer</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="primjeran"><p><l>preprimjer</l><r>primjer</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="primjetan"><i>primjet</i><par n="ruž/an__pst__adj"/></e>
+<e lm="primjetan"><i>primjet</i><par n="ruž/an__comp__adj"/></e>
+<e lm="primjetan"><p><l>najprimjet</l><r>primjet</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="primjetan"><p><l>preprimjet</l><r>primjet</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="pristojan"><i>pristoj</i><par n="ruž/an__pst__adj"/></e>
+<e lm="pristojan"><i>pristoj</i><par n="ruž/an__comp__adj"/></e>
+<e lm="pristojan"><p><l>najpristoj</l><r>pristoj</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="pristojan"><p><l>prepristoj</l><r>pristoj</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="privlačan"><i>privlač</i><par n="ruž/an__pst__adj"/></e>
+<e lm="privlačan"><i>privlač</i><par n="ruž/an__comp__adj"/></e>
+<e lm="privlačan"><p><l>najprivlač</l><r>privlač</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="privlačan"><p><l>preprivlač</l><r>privlač</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="prodoran"><i>prodor</i><par n="ruž/an__pst__adj"/></e>
+<e lm="prodoran"><i>prodor</i><par n="ruž/an__comp__adj"/></e>
+<e lm="prodoran"><p><l>najprodor</l><r>prodor</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="prodoran"><p><l>preprodor</l><r>prodor</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="radioaktivan"><i>radioaktiv</i><par n="ruž/an__pst__adj"/></e>
+<e lm="radioaktivan"><i>radioaktiv</i><par n="ruž/an__comp__adj"/></e>
+<e lm="radioaktivan"><p><l>najradioaktiv</l><r>radioaktiv</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="radioaktivan"><p><l>preradioaktiv</l><r>radioaktiv</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="raskošan"><i>raskoš</i><par n="ruž/an__pst__adj"/></e>
+<e lm="raskošan"><i>raskoš</i><par n="ruž/an__comp__adj"/></e>
+<e lm="raskošan"><p><l>najraskoš</l><r>raskoš</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="raskošan"><p><l>preraskoš</l><r>raskoš</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="ratoboran"><i>ratobor</i><par n="ruž/an__pst__adj"/></e>
+<e lm="ratoboran"><i>ratobor</i><par n="ruž/an__comp__adj"/></e>
+<e lm="ratoboran"><p><l>najratobor</l><r>ratobor</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="ratoboran"><p><l>preratobor</l><r>ratobor</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="razuman"><i>razum</i><par n="ruž/an__pst__adj"/></e>
+<e lm="razuman"><i>razum</i><par n="ruž/an__comp__adj"/></e>
+<e lm="razuman"><p><l>najrazum</l><r>razum</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="razuman"><p><l>prerazum</l><r>razum</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="razvratan"><i>razvrat</i><par n="ruž/an__pst__adj"/></e>
+<e lm="razvratan"><i>razvrat</i><par n="ruž/an__comp__adj"/></e>
+<e lm="razvratan"><p><l>najrazvrat</l><r>razvrat</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="razvratan"><p><l>prerazvrat</l><r>razvrat</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="ritmičan"><i>ritmič</i><par n="ruž/an__pst__adj"/></e>
+<e lm="ritmičan"><i>ritmič</i><par n="ruž/an__comp__adj"/></e>
+<e lm="ritmičan"><p><l>najritmič</l><r>ritmič</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="ritmičan"><p><l>preritmič</l><r>ritmič</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="samotan"><i>samot</i><par n="ruž/an__pst__adj"/></e>
+<e lm="samotan"><i>samot</i><par n="ruž/an__comp__adj"/></e>
+<e lm="samotan"><p><l>najsamot</l><r>samot</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="samotan"><p><l>presamot</l><r>samot</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="savjesan"><i>savjes</i><par n="ruž/an__pst__adj"/></e>
+<e lm="savjesan"><i>savjes</i><par n="ruž/an__comp__adj"/></e>
+<e lm="savjesan"><p><l>najsavjes</l><r>savjes</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="savjesan"><p><l>presavjes</l><r>savjes</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="siromašan"><i>siromaš</i><par n="ruž/an__pst__adj"/></e>
+<e lm="siromašan"><i>siromaš</i><par n="ruž/an__comp__adj"/></e>
+<e lm="siromašan"><p><l>najsiromaš</l><r>siromaš</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="siromašan"><p><l>presiromaš</l><r>siromaš</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="sitan"><i>sit</i><par n="ruž/an__pst__adj"/></e>
+<e lm="sitan"><i>sit</i><par n="ruž/an__comp__adj"/></e>
+<e lm="sitan"><p><l>najsit</l><r>sit</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="sitan"><p><l>presit</l><r>sit</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="sjajan"><i>sjaj</i><par n="ruž/an__pst__adj"/></e>
+<e lm="sjajan"><i>sjaj</i><par n="ruž/an__comp__adj"/></e>
+<e lm="sjajan"><p><l>najsjaj</l><r>sjaj</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="sjajan"><p><l>presjaj</l><r>sjaj</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="skladan"><i>sklad</i><par n="ruž/an__pst__adj"/></e>
+<e lm="skladan"><i>sklad</i><par n="ruž/an__comp__adj"/></e>
+<e lm="skladan"><p><l>najsklad</l><r>sklad</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="skladan"><p><l>presklad</l><r>sklad</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="slabašan"><i>slabaš</i><par n="ruž/an__pst__adj"/></e>
+<e lm="slabašan"><i>slabaš</i><par n="ruž/an__comp__adj"/></e>
+<e lm="slabašan"><p><l>najslabaš</l><r>slabaš</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="slabašan"><p><l>preslabaš</l><r>slabaš</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="slobodan"><i>slobod</i><par n="ruž/an__pst__adj"/></e>
+<e lm="slobodan"><i>slobod</i><par n="ruž/an__comp__adj"/></e>
+<e lm="slobodan"><p><l>najslobod</l><r>slobod</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="slobodan"><p><l>preslobod</l><r>slobod</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="smiješan"><i>smiješ</i><par n="ruž/an__pst__adj"/></e>
+<e lm="smiješan"><i>smiješ</i><par n="ruž/an__comp__adj"/></e>
+<e lm="smiješan"><p><l>najsmiješ</l><r>smiješ</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="smiješan"><p><l>presmiješ</l><r>smiješ</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="sočan"><i>soč</i><par n="ruž/an__pst__adj"/></e>
+<e lm="sočan"><i>soč</i><par n="ruž/an__comp__adj"/></e>
+<e lm="sočan"><p><l>najsoč</l><r>soč</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="sočan"><p><l>presoč</l><r>soč</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="spektakularan"><i>spektakular</i><par n="ruž/an__pst__adj"/></e>
+<e lm="spektakularan"><i>spektakular</i><par n="ruž/an__comp__adj"/></e>
+<e lm="spektakularan"><p><l>najspektakular</l><r>spektakular</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="spektakularan"><p><l>prespektakular</l><r>spektakular</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="sposoban"><i>sposob</i><par n="ruž/an__pst__adj"/></e>
+<e lm="sposoban"><i>sposob</i><par n="ruž/an__comp__adj"/></e>
+<e lm="sposoban"><p><l>najsposob</l><r>sposob</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="sposoban"><p><l>presposob</l><r>sposob</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="spretan"><i>spret</i><par n="ruž/an__pst__adj"/></e>
+<e lm="spretan"><i>spret</i><par n="ruž/an__comp__adj"/></e>
+<e lm="spretan"><p><l>najspret</l><r>spret</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="spretan"><p><l>prespret</l><r>spret</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="sramotan"><i>sramot</i><par n="ruž/an__pst__adj"/></e>
+<e lm="sramotan"><i>sramot</i><par n="ruž/an__comp__adj"/></e>
+<e lm="sramotan"><p><l>najsramot</l><r>sramot</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="sramotan"><p><l>presramot</l><r>sramot</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="štetan"><i>štet</i><par n="ruž/an__pst__adj"/></e>
+<e lm="štetan"><i>štet</i><par n="ruž/an__comp__adj"/></e>
+<e lm="štetan"><p><l>najštet</l><r>štet</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="štetan"><p><l>preštet</l><r>štet</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="strahotan"><i>strahot</i><par n="ruž/an__pst__adj"/></e>
+<e lm="strahotan"><i>strahot</i><par n="ruž/an__comp__adj"/></e>
+<e lm="strahotan"><p><l>najstrahot</l><r>strahot</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="strahotan"><p><l>prestrahot</l><r>strahot</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="stručan"><i>struč</i><par n="ruž/an__pst__adj"/></e>
+<e lm="stručan"><i>struč</i><par n="ruž/an__comp__adj"/></e>
+<e lm="stručan"><p><l>najstruč</l><r>struč</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="stručan"><p><l>prestruč</l><r>struč</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="svakodnevan"><i>svakodnev</i><par n="ruž/an__pst__adj"/></e>
+<e lm="svakodnevan"><i>svakodnev</i><par n="ruž/an__comp__adj"/></e>
+<e lm="svakodnevan"><p><l>najsvakodnev</l><r>svakodnev</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="svakodnevan"><p><l>presvakodnev</l><r>svakodnev</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="tačan"><i>tač</i><par n="ruž/an__pst__adj"/></e>
+<e lm="tačan"><i>tač</i><par n="ruž/an__comp__adj"/></e>
+<e lm="tačan"><p><l>najtač</l><r>tač</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="tačan"><p><l>pretač</l><r>tač</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="tajan"><i>taj</i><par n="ruž/an__pst__adj"/></e>
+<e lm="tajan"><i>taj</i><par n="ruž/an__comp__adj"/></e>
+<e lm="tajan"><p><l>najtaj</l><r>taj</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="tajan"><p><l>pretaj</l><r>taj</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="taman"><i>tam</i><par n="ruž/an__pst__adj"/></e>
+<e lm="taman"><i>tam</i><par n="ruž/an__comp__adj"/></e>
+<e lm="taman"><p><l>najtam</l><r>tam</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="taman"><p><l>pretam</l><r>tam</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="točan"><i>toč</i><par n="ruž/an__pst__adj"/></e>
+<e lm="točan"><i>toč</i><par n="ruž/an__comp__adj"/></e>
+<e lm="točan"><p><l>najtoč</l><r>toč</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="točan"><p><l>pretoč</l><r>toč</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="tolerantan"><i>tolerant</i><par n="ruž/an__pst__adj"/></e>
+<e lm="tolerantan"><i>tolerant</i><par n="ruž/an__comp__adj"/></e>
+<e lm="tolerantan"><p><l>najtolerant</l><r>tolerant</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="tolerantan"><p><l>pretolerant</l><r>tolerant</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="trijezan"><i>trijez</i><par n="ruž/an__pst__adj"/></e>
+<e lm="trijezan"><i>trijez</i><par n="ruž/an__comp__adj"/></e>
+<e lm="trijezan"><p><l>najtrijez</l><r>trijez</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="trijezan"><p><l>pretrijez</l><r>trijez</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="turoban"><i>turob</i><par n="ruž/an__pst__adj"/></e>
+<e lm="turoban"><i>turob</i><par n="ruž/an__comp__adj"/></e>
+<e lm="turoban"><p><l>najturob</l><r>turob</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="turoban"><p><l>preturob</l><r>turob</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="tužan"><i>tuž</i><par n="ruž/an__pst__adj"/></e>
+<e lm="tužan"><i>tuž</i><par n="ruž/an__comp__adj"/></e>
+<e lm="tužan"><p><l>najtuž</l><r>tuž</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="tužan"><p><l>pretuž</l><r>tuž</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="udoban"><i>udob</i><par n="ruž/an__pst__adj"/></e>
+<e lm="udoban"><i>udob</i><par n="ruž/an__comp__adj"/></e>
+<e lm="udoban"><p><l>najudob</l><r>udob</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="udoban"><p><l>preudob</l><r>udob</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="ugledan"><i>ugled</i><par n="ruž/an__pst__adj"/></e>
+<e lm="ugledan"><i>ugled</i><par n="ruž/an__comp__adj"/></e>
+<e lm="ugledan"><p><l>najugled</l><r>ugled</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="ugledan"><p><l>preugled</l><r>ugled</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="ugodan"><i>ugod</i><par n="ruž/an__pst__adj"/></e>
+<e lm="ugodan"><i>ugod</i><par n="ruž/an__comp__adj"/></e>
+<e lm="ugodan"><p><l>najugod</l><r>ugod</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="ugodan"><p><l>preugod</l><r>ugod</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="ukusan"><i>ukus</i><par n="ruž/an__pst__adj"/></e>
+<e lm="ukusan"><i>ukus</i><par n="ruž/an__comp__adj"/></e>
+<e lm="ukusan"><p><l>najukus</l><r>ukus</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="ukusan"><p><l>preukus</l><r>ukus</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="uljudan"><i>uljud</i><par n="ruž/an__pst__adj"/></e>
+<e lm="uljudan"><i>uljud</i><par n="ruž/an__comp__adj"/></e>
+<e lm="uljudan"><p><l>najuljud</l><r>uljud</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="uljudan"><p><l>preuljud</l><r>uljud</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="umjetan"><i>umjet</i><par n="ruž/an__pst__adj"/></e>
+<e lm="umjetan"><i>umjet</i><par n="ruž/an__comp__adj"/></e>
+<e lm="umjetan"><p><l>najumjet</l><r>umjet</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="umjetan"><p><l>preumjet</l><r>umjet</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="uman"><i>um</i><par n="ruž/an__pst__adj"/></e>
+<e lm="uman"><i>um</i><par n="ruž/an__comp__adj"/></e>
+<e lm="uman"><p><l>najum</l><r>um</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="uman"><p><l>preum</l><r>um</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="uporan"><i>upor</i><par n="ruž/an__pst__adj"/></e>
+<e lm="uporan"><i>upor</i><par n="ruž/an__comp__adj"/></e>
+<e lm="uporan"><p><l>najupor</l><r>upor</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="uporan"><p><l>preupor</l><r>upor</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="ustrajan"><i>ustraj</i><par n="ruž/an__pst__adj"/></e>
+<e lm="ustrajan"><i>ustraj</i><par n="ruž/an__comp__adj"/></e>
+<e lm="ustrajan"><p><l>najustraj</l><r>ustraj</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="ustrajan"><p><l>preustraj</l><r>ustraj</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="utjecajan"><i>utjecaj</i><par n="ruž/an__pst__adj"/></e>
+<e lm="utjecajan"><i>utjecaj</i><par n="ruž/an__comp__adj"/></e>
+<e lm="utjecajan"><p><l>najutjecaj</l><r>utjecaj</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="utjecajan"><p><l>preutjecaj</l><r>utjecaj</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="velikodušan"><i>velikoduš</i><par n="ruž/an__pst__adj"/></e>
+<e lm="velikodušan"><i>velikoduš</i><par n="ruž/an__comp__adj"/></e>
+<e lm="velikodušan"><p><l>najvelikoduš</l><r>velikoduš</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="velikodušan"><p><l>prevelikoduš</l><r>velikoduš</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="vjerodostojan"><i>vjerodostoj</i><par n="ruž/an__pst__adj"/></e>
+<e lm="vjerodostojan"><i>vjerodostoj</i><par n="ruž/an__comp__adj"/></e>
+<e lm="vjerodostojan"><p><l>najvjerodostoj</l><r>vjerodostoj</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="vjerodostojan"><p><l>prevjerodostoj</l><r>vjerodostoj</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="vulgaran"><i>vulgar</i><par n="ruž/an__pst__adj"/></e>
+<e lm="vulgaran"><i>vulgar</i><par n="ruž/an__comp__adj"/></e>
+<e lm="vulgaran"><p><l>najvulgar</l><r>vulgar</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="vulgaran"><p><l>prevulgar</l><r>vulgar</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="zadovoljan"><i>zadovolj</i><par n="ruž/an__pst__adj"/></e>
+<e lm="zadovoljan"><i>zadovolj</i><par n="ruž/an__comp__adj"/></e>
+<e lm="zadovoljan"><p><l>najzadovolj</l><r>zadovolj</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="zadovoljan"><p><l>prezadovolj</l><r>zadovolj</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="zahtjevan"><i>zahtjev</i><par n="ruž/an__pst__adj"/></e>
+<e lm="zahtjevan"><i>zahtjev</i><par n="ruž/an__comp__adj"/></e>
+<e lm="zahtjevan"><p><l>najzahtjev</l><r>zahtjev</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="zahtjevan"><p><l>prezahtjev</l><r>zahtjev</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="zahvalan"><i>zahval</i><par n="ruž/an__pst__adj"/></e>
+<e lm="zahvalan"><i>zahval</i><par n="ruž/an__comp__adj"/></e>
+<e lm="zahvalan"><p><l>najzahval</l><r>zahval</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="zahvalan"><p><l>prezahval</l><r>zahval</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="zaslužan"><i>zasluž</i><par n="ruž/an__pst__adj"/></e>
+<e lm="zaslužan"><i>zasluž</i><par n="ruž/an__comp__adj"/></e>
+<e lm="zaslužan"><p><l>najzasluž</l><r>zasluž</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="zaslužan"><p><l>prezasluž</l><r>zasluž</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="zgodan"><i>zgod</i><par n="ruž/an__pst__adj"/></e>
+<e lm="zgodan"><i>zgod</i><par n="ruž/an__comp__adj"/></e>
+<e lm="zgodan"><p><l>najzgod</l><r>zgod</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="zgodan"><p><l>prezgod</l><r>zgod</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="živahan"><i>živah</i><par n="ruž/an__pst__adj"/></e>
+<e lm="živahan"><i>živah</i><par n="ruž/an__comp__adj"/></e>
+<e lm="živahan"><p><l>najživah</l><r>živah</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="živahan"><p><l>preživah</l><r>živah</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="zloban"><i>zlob</i><par n="ruž/an__pst__adj"/></e>
+<e lm="zloban"><i>zlob</i><par n="ruž/an__comp__adj"/></e>
+<e lm="zloban"><p><l>najzlob</l><r>zlob</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="zloban"><p><l>prezlob</l><r>zlob</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="znatan"><i>znat</i><par n="ruž/an__pst__adj"/></e>
+<e lm="znatan"><i>znat</i><par n="ruž/an__comp__adj"/></e>
+<e lm="znatan"><p><l>najznat</l><r>znat</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="znatan"><p><l>preznat</l><r>znat</r></p><par n="ruž/an__ssup__adj"/></e>
+
+<e lm="nenormalan"><i>nenormal</i><par n="ruž/an__pst__adj"/></e>
+<e lm="nenormalan"><i>nenormal</i><par n="ruž/an__comp__adj"/></e>
+<e lm="nenormalan"><p><l>najnenormal</l><r>nenormal</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="nenormalan"><p><l>prenenormal</l><r>nenormal</r></p><par n="ruž/an__ssup__adj"/></e>
 
 <e lm="autonoman"><i>autonom</i><par n="ruž/an__pst__adj"/></e>
 <e lm="autonoman"><i>autonom</i><par n="ruž/an__comp__adj"/></e>
@@ -36908,6 +37851,10 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="posljednji"><i>posl</i><par n="e_je__yat"/><i>dnj</i><par n="odlučujuć/i__adj"/></e>
 <e lm="odlučujući"><i>odlučujuć</i><par n="odlučujuć/i__adj"/></e>
 <e lm="budući"><i>buduć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="obećavajući"><i>obećavajuć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="odjekujući"><i>odjekujuć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="ohrabrujući"><i>ohrabrujuć</i><par n="odlučujuć/i__adj"/></e>
+
 
 <e lm="vaskršnji"><i>vaskršnj</i><par n="odlučujuć/i__adj"/></e>
 <e lm="uskršnji"><i>uskršnj</i><par n="odlučujuć/i__adj"/></e>

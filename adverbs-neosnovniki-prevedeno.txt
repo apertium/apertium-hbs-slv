@@ -193,9 +193,9 @@ poglavitno---glavno
 pogubno---pogubno
 pokorno---pokorno
 požrešno---pohlepno
-pravično---pravednost
+pravično---pravedno
 pravilno---ispravno
-predrzno---odvažano
+predrzno---odvažno
 pregledano---pregledano
 prestižno---prestižno
 prevzetno---nadmeno
