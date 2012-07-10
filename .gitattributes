@@ -6,6 +6,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/adverbs-neosnovniki-prevedeno.txt -text
 /alt.xsl -text
 /apertium-sh-sl.post-sh.dix -text
 /apertium-sh-sl.post-sl.dix -text
