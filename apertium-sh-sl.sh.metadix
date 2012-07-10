@@ -37362,6 +37362,226 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="povjerljiv"><p><l>najpovjerljiv</l><r>povjerljiv</r></p><par n="zdrav__sup__adj"/></e>
 <e lm="povjerljiv"><p><l>prepovjerljiv</l><r>povjerljiv</r></p><par n="zdrav__ssup__adj"/></e>
 
+<e lm="dostojanstven"><i>dostojanstven</i><par n="zdrav__pst__adj"/></e>
+<e lm="dostojanstven"><i>dostojanstven</i><par n="zdrav__comp__adj"/></e>
+<e lm="dostojanstven"><p><l>najdostojanstven</l><r>dostojanstven</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="dostojanstven"><p><l>predostojanstven</l><r>dostojanstven</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="dragocjen"><i>dragocjen</i><par n="zdrav__pst__adj"/></e>
+<e lm="dragocjen"><i>dragocjen</i><par n="zdrav__comp__adj"/></e>
+<e lm="dragocjen"><p><l>najdragocjen</l><r>dragocjen</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="dragocjen"><p><l>predragocjen</l><r>dragocjen</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="iskren"><i>iskren</i><par n="zdrav__pst__adj"/></e>
+<e lm="iskren"><i>iskren</i><par n="zdrav__comp__adj"/></e>
+<e lm="iskren"><p><l>najiskren</l><r>iskren</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="iskren"><p><l>preiskren</l><r>iskren</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="jedinstven"><i>jedinstven</i><par n="zdrav__pst__adj"/></e>
+<e lm="jedinstven"><i>jedinstven</i><par n="zdrav__comp__adj"/></e>
+<e lm="jedinstven"><p><l>najjedinstven</l><r>jedinstven</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="jedinstven"><p><l>prejedinstven</l><r>jedinstven</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="lakomislen"><i>lakomislen</i><par n="zdrav__pst__adj"/></e>
+<e lm="lakomislen"><i>lakomislen</i><par n="zdrav__comp__adj"/></e>
+<e lm="lakomislen"><p><l>najlakomislen</l><r>lakomislen</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="lakomislen"><p><l>prelakomislen</l><r>lakomislen</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="lijen"><i>lijen</i><par n="zdrav__pst__adj"/></e>
+<e lm="lijen"><i>lijen</i><par n="zdrav__comp__adj"/></e>
+<e lm="lijen"><p><l>najlijen</l><r>lijen</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="lijen"><p><l>prelijen</l><r>lijen</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="nadmen"><i>nadmen</i><par n="zdrav__pst__adj"/></e>
+<e lm="nadmen"><i>nadmen</i><par n="zdrav__comp__adj"/></e>
+<e lm="nadmen"><p><l>najnadmen</l><r>nadmen</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="nadmen"><p><l>prenadmen</l><r>nadmen</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="neodređen"><i>neodređen</i><par n="zdrav__pst__adj"/></e>
+<e lm="neodređen"><i>neodređen</i><par n="zdrav__comp__adj"/></e>
+<e lm="neodređen"><p><l>najneodređen</l><r>neodređen</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="neodređen"><p><l>preneodređen</l><r>neodređen</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="neprimjeren"><i>neprimjeren</i><par n="zdrav__pst__adj"/></e>
+<e lm="neprimjeren"><i>neprimjeren</i><par n="zdrav__comp__adj"/></e>
+<e lm="neprimjeren"><p><l>najneprimjeren</l><r>neprimjeren</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="neprimjeren"><p><l>preneprimjeren</l><r>neprimjeren</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="neumjeren"><i>neumjeren</i><par n="zdrav__pst__adj"/></e>
+<e lm="neumjeren"><i>neumjeren</i><par n="zdrav__comp__adj"/></e>
+<e lm="neumjeren"><p><l>najneumjeren</l><r>neumjeren</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="neumjeren"><p><l>preneumjeren</l><r>neumjeren</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="neuobičajen"><i>neuobičajen</i><par n="zdrav__pst__adj"/></e>
+<e lm="neuobičajen"><i>neuobičajen</i><par n="zdrav__comp__adj"/></e>
+<e lm="neuobičajen"><p><l>najneuobičajen</l><r>neuobičajen</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="neuobičajen"><p><l>preneuobičajen</l><r>neuobičajen</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="određen"><i>određen</i><par n="zdrav__pst__adj"/></e>
+<e lm="određen"><i>određen</i><par n="zdrav__comp__adj"/></e>
+<e lm="određen"><p><l>najodređen</l><r>određen</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="određen"><p><l>preodređen</l><r>određen</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="pošten"><i>pošten</i><par n="zdrav__pst__adj"/></e>
+<e lm="pošten"><i>pošten</i><par n="zdrav__comp__adj"/></e>
+<e lm="pošten"><p><l>najpošten</l><r>pošten</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="pošten"><p><l>prepošten</l><r>pošten</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="šaren"><i>šaren</i><par n="zdrav__pst__adj"/></e>
+<e lm="šaren"><i>šaren</i><par n="zdrav__comp__adj"/></e>
+<e lm="šaren"><p><l>najšaren</l><r>šaren</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="šaren"><p><l>prešaren</l><r>šaren</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="savremen"><i>savremen</i><par n="zdrav__pst__adj"/></e>
+<e lm="savremen"><i>savremen</i><par n="zdrav__comp__adj"/></e>
+<e lm="savremen"><p><l>najsavremen</l><r>savremen</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="savremen"><p><l>presavremen</l><r>savremen</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="smislen"><i>smislen</i><par n="zdrav__pst__adj"/></e>
+<e lm="smislen"><i>smislen</i><par n="zdrav__comp__adj"/></e>
+<e lm="smislen"><p><l>najsmislen</l><r>smislen</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="smislen"><p><l>presmislen</l><r>smislen</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="suvremen"><i>suvremen</i><par n="zdrav__pst__adj"/></e>
+<e lm="suvremen"><i>suvremen</i><par n="zdrav__comp__adj"/></e>
+<e lm="suvremen"><p><l>najsuvremen</l><r>suvremen</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="suvremen"><p><l>presuvremen</l><r>suvremen</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="tajanstven"><i>tajanstven</i><par n="zdrav__pst__adj"/></e>
+<e lm="tajanstven"><i>tajanstven</i><par n="zdrav__comp__adj"/></e>
+<e lm="tajanstven"><p><l>najtajanstven</l><r>tajanstven</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="tajanstven"><p><l>pretajanstven</l><r>tajanstven</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="umjeren"><i>umjeren</i><par n="zdrav__pst__adj"/></e>
+<e lm="umjeren"><i>umjeren</i><par n="zdrav__comp__adj"/></e>
+<e lm="umjeren"><p><l>najumjeren</l><r>umjeren</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="umjeren"><p><l>preumjeren</l><r>umjeren</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="veličanstven"><i>veličanstven</i><par n="zdrav__pst__adj"/></e>
+<e lm="veličanstven"><i>veličanstven</i><par n="zdrav__comp__adj"/></e>
+<e lm="veličanstven"><p><l>najveličanstven</l><r>veličanstven</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="veličanstven"><p><l>preveličanstven</l><r>veličanstven</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="pregledan"><i>pregledan</i><par n="zdrav__pst__adj"/></e>
+<e lm="pregledan"><i>pregledan</i><par n="zdrav__comp__adj"/></e>
+<e lm="pregledan"><p><l>najpregledan</l><r>pregledan</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="pregledan"><p><l>prepregledan</l><r>pregledan</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="srčan"><i>srčan</i><par n="zdrav__pst__adj"/></e>
+<e lm="srčan"><i>srčan</i><par n="zdrav__comp__adj"/></e>
+<e lm="srčan"><p><l>najsrčan</l><r>srčan</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="srčan"><p><l>presrčan</l><r>srčan</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="autohton"><i>autohton</i><par n="zdrav__pst__adj"/></e>
+<e lm="autohton"><i>autohton</i><par n="zdrav__comp__adj"/></e>
+<e lm="autohton"><p><l>najautohton</l><r>autohton</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="autohton"><p><l>preautohton</l><r>autohton</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="human"><i>human</i><par n="zdrav__pst__adj"/></e>
+<e lm="human"><i>human</i><par n="zdrav__comp__adj"/></e>
+<e lm="human"><p><l>najhuman</l><r>human</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="human"><p><l>prehuman</l><r>human</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="jeftin"><i>jeftin</i><par n="zdrav__pst__adj"/></e>
+<e lm="jeftin"><i>jeftin</i><par n="zdrav__comp__adj"/></e>
+<e lm="jeftin"><p><l>najjeftin</l><r>jeftin</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="jeftin"><p><l>prejeftin</l><r>jeftin</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="nepotpun"><i>nepotpun</i><par n="zdrav__pst__adj"/></e>
+<e lm="nepotpun"><i>nepotpun</i><par n="zdrav__comp__adj"/></e>
+<e lm="nepotpun"><p><l>najnepotpun</l><r>nepotpun</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="nepotpun"><p><l>prenepotpun</l><r>nepotpun</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="orijentiran"><i>orijentiran</i><par n="zdrav__pst__adj"/></e>
+<e lm="orijentiran"><i>orijentiran</i><par n="zdrav__comp__adj"/></e>
+<e lm="orijentiran"><p><l>najorijentiran</l><r>orijentiran</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="orijentiran"><p><l>preorijentiran</l><r>orijentiran</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="pouzdan"><i>pouzdan</i><par n="zdrav__pst__adj"/></e>
+<e lm="pouzdan"><i>pouzdan</i><par n="zdrav__comp__adj"/></e>
+<e lm="pouzdan"><p><l>najpouzdan</l><r>pouzdan</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="pouzdan"><p><l>prepouzdan</l><r>pouzdan</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="prostran"><i>prostran</i><par n="zdrav__pst__adj"/></e>
+<e lm="prostran"><i>prostran</i><par n="zdrav__comp__adj"/></e>
+<e lm="prostran"><p><l>najprostran</l><r>prostran</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="prostran"><p><l>preprostran</l><r>prostran</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="slan"><i>slan</i><par n="zdrav__pst__adj"/></e>
+<e lm="slan"><i>slan</i><par n="zdrav__comp__adj"/></e>
+<e lm="slan"><p><l>najslan</l><r>slan</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="slan"><p><l>preslan</l><r>slan</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="redovit"><i>redovit</i><par n="zdrav__pst__adj"/></e>
+<e lm="redovit"><i>redovit</i><par n="zdrav__comp__adj"/></e>
+<e lm="redovit"><p><l>najredovit</l><r>redovit</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="redovit"><p><l>preredovit</l><r>redovit</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="rječit"><i>rječit</i><par n="zdrav__pst__adj"/></e>
+<e lm="rječit"><i>rječit</i><par n="zdrav__comp__adj"/></e>
+<e lm="rječit"><p><l>najrječit</l><r>rječit</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="rječit"><p><l>prerječit</l><r>rječit</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="upotrebljiv"><i>upotrebljiv</i><par n="zdrav__pst__adj"/></e>
+<e lm="upotrebljiv"><i>upotrebljiv</i><par n="zdrav__comp__adj"/></e>
+<e lm="upotrebljiv"><p><l>najupotrebljiv</l><r>upotrebljiv</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="upotrebljiv"><p><l>preupotrebljiv</l><r>upotrebljiv</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="vidljiv"><i>vidljiv</i><par n="zdrav__pst__adj"/></e>
+<e lm="vidljiv"><i>vidljiv</i><par n="zdrav__comp__adj"/></e>
+<e lm="vidljiv"><p><l>najvidljiv</l><r>vidljiv</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="vidljiv"><p><l>previdljiv</l><r>vidljiv</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="čudnovat"><i>čudnovat</i><par n="zdrav__pst__adj"/></e>
+<e lm="čudnovat"><i>čudnovat</i><par n="zdrav__comp__adj"/></e>
+<e lm="čudnovat"><p><l>najčudnovat</l><r>čudnovat</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="čudnovat"><p><l>prečudnovat</l><r>čudnovat</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="labav"><i>labav</i><par n="zdrav__pst__adj"/></e>
+<e lm="labav"><i>labav</i><par n="zdrav__comp__adj"/></e>
+<e lm="labav"><p><l>najlabav</l><r>labav</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="labav"><p><l>prelabav</l><r>labav</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="marljiv"><i>marljiv</i><par n="zdrav__pst__adj"/></e>
+<e lm="marljiv"><i>marljiv</i><par n="zdrav__comp__adj"/></e>
+<e lm="marljiv"><p><l>najmarljiv</l><r>marljiv</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="marljiv"><p><l>premarljiv</l><r>marljiv</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="miroljubiv"><i>miroljubiv</i><par n="zdrav__pst__adj"/></e>
+<e lm="miroljubiv"><i>miroljubiv</i><par n="zdrav__comp__adj"/></e>
+<e lm="miroljubiv"><p><l>najmiroljubiv</l><r>miroljubiv</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="miroljubiv"><p><l>premiroljubiv</l><r>miroljubiv</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="neredovit"><i>neredovit</i><par n="zdrav__pst__adj"/></e>
+<e lm="neredovit"><i>neredovit</i><par n="zdrav__comp__adj"/></e>
+<e lm="neredovit"><p><l>najneredovit</l><r>neredovit</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="neredovit"><p><l>preneredovit</l><r>neredovit</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="nestrpljiv"><i>nestrpljiv</i><par n="zdrav__pst__adj"/></e>
+<e lm="nestrpljiv"><i>nestrpljiv</i><par n="zdrav__comp__adj"/></e>
+<e lm="nestrpljiv"><p><l>najnestrpljiv</l><r>nestrpljiv</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="nestrpljiv"><p><l>prenestrpljiv</l><r>nestrpljiv</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="nevidljiv"><i>nevidljiv</i><par n="zdrav__pst__adj"/></e>
+<e lm="nevidljiv"><i>nevidljiv</i><par n="zdrav__comp__adj"/></e>
+<e lm="nevidljiv"><p><l>najnevidljiv</l><r>nevidljiv</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="nevidljiv"><p><l>prenevidljiv</l><r>nevidljiv</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="očit"><i>očit</i><par n="zdrav__pst__adj"/></e>
+<e lm="očit"><i>očit</i><par n="zdrav__comp__adj"/></e>
+<e lm="očit"><p><l>najočit</l><r>očit</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="očit"><p><l>preočit</l><r>očit</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="ohol"><i>ohol</i><par n="zdrav__pst__adj"/></e>
+<e lm="ohol"><i>ohol</i><par n="zdrav__comp__adj"/></e>
+<e lm="ohol"><p><l>najohol</l><r>ohol</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="ohol"><p><l>preohol</l><r>ohol</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="popustljiv"><i>popustljiv</i><par n="zdrav__pst__adj"/></e>
+<e lm="popustljiv"><i>popustljiv</i><par n="zdrav__comp__adj"/></e>
+<e lm="popustljiv"><p><l>najpopustljiv</l><r>popustljiv</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="popustljiv"><p><l>prepopustljiv</l><r>popustljiv</r></p><par n="zdrav__ssup__adj"/></e>
+
 <e lm="dozvoljen"><i>dozvoljen</i><par n="zdrav__pst__adj"/></e>
 <e lm="dozvoljen"><i>dozvoljen</i><par n="zdrav__comp__adj"/></e>
 <e lm="dozvoljen"><p><l>najdozvoljen</l><r>dozvoljen</r></p><par n="zdrav__sup__adj"/></e>
