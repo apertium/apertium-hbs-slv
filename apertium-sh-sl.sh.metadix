@@ -45859,12 +45859,10 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="autonomija"><i>autonomij</i><par n="žen/a__n"/></e>
 <e lm="aristokracija"><i>aristokracij</i><par n="žen/a__n"/></e>
 <e lm="aristokratija"><i>aristokratij</i><par n="žen/a__n"/></e>
-<e lm="eurointegracija"><i>eurointegracij</i><par n="žen/a__n"/></e>
 <e lm="institucija"><i>institucij</i><par n="žen/a__n"/></e>
 <e lm="rasprava"><i>rasprav</i><par n="žen/a__n"/></e>
 <e lm="raspra"><i>raspr</i><par n="žen/a__n"/></e>
 <e lm="teškoća"><i>teškoć</i><par n="žen/a__n"/></e>
-<e lm="toplofikacija"><i>toplofikacij</i><par n="žen/a__n"/></e>
 <e lm="trgovina"><i>trgovin</i><par n="žen/a__n"/></e>
 <e lm="marama"><i>maram</i><par n="žen/a__n"/></e>
 <e lm="asistencija"><i>asistencij</i><par n="žen/a__n"/></e>
@@ -46425,11 +46423,9 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="aukcija"><i>aukcij</i><par n="žen/a__n"/></e>
 <e lm="dezinfekcija"><i>dezinfekcij</i><par n="žen/a__n"/></e>
 <e lm="dekontaminacija"><i>dekontaminacij</i><par n="žen/a__n"/></e>
-<e lm="demistifikacija"><i>demistifikacij</i><par n="žen/a__n"/></e>
 <e lm="denominacija"><i>denominacij</i><par n="žen/a__n"/></e>
 <e lm="depolitizacija"><i>depolitizacij</i><par n="žen/a__n"/></e>
 <e lm="deportacija"><i>deportacij</i><par n="žen/a__n"/></e>
-<e lm="deregistracija"><i>deregistracij</i><par n="žen/a__n"/></e>
 <e lm="definicija"><i>definicij</i><par n="žen/a__n"/></e>
 <e lm="digitalizacija"><i>digitalizacij</i><par n="žen/a__n"/></e>
 <e lm="diskretizacija"><i>diskretizacij</i><par n="žen/a__n"/></e>
@@ -46870,7 +46866,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="neprofesionalnost"><i>neprofesionalno</i><par n="ma/st__n"/></e>
 <e lm="neodlučnost"><i>neodlučno</i><par n="ma/st__n"/></e>
 <e lm="nesigurnost"><i>nesigurno</i><par n="ma/st__n"/></e>
-<e lm="netrepeljivost"><i>netrepeljivo</i><par n="ma/st__n"/></e>
 <e lm="neusuglašenost"><i>neusuglašeno</i><par n="ma/st__n"/></e>
 <e lm="neusaglašenost"><i>neusaglašeno</i><par n="ma/st__n"/></e>
 <e lm="nefunkcionalnost"><i>nefunkcionalno</i><par n="ma/st__n"/></e>
@@ -46928,7 +46923,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="smrtnost"><i>smrtno</i><par n="ma/st__n"/></e>
 <e lm="suglasnost"><i>suglasno</i><par n="ma/st__n"/></e>
 <e lm="saglasnost"><i>saglasno</i><par n="ma/st__n"/></e>
-<e lm="shodnost"><i>shodno</i><par n="ma/st__n"/></e>
 <e lm="sofisticiranost"><i>sofisticirano</i><par n="ma/st__n"/></e>
 <e lm="spontanost"><i>spontano</i><par n="ma/st__n"/></e>
 <e lm="suprotstavljenost"><i>suprotstavljeno</i><par n="ma/st__n"/></e>
@@ -47064,7 +47058,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="blaženstvo"><i>blaženst</i><par n="društ/vo__n"/></e>
 <e lm="blokiranje"><i>blokiranj</i><par n="polj/e__n"/></e>
 <e lm="bogatstvo"><i>bogatst</i><par n="društ/vo__n"/></e>
-<e lm="bogumilstvo"><i>bogumilst</i><par n="društ/vo__n"/></e>
 <e lm="bolovanje"><i>bolovanj</i><par n="polj/e__n"/></e>
 <e lm="brojanje" a="slasher"><i>brojanj</i><par n="polj/e__n"/></e>
 <e lm="bombardiranje"><i>bombardiranj</i><par n="polj/e__n"/></e>
@@ -47115,7 +47108,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="djelovanje"><i>d</i><par n="e_je__yat"/><i>lovanj</i><par n="polj/e__n"/></e>
 <e lm="djevojaštvo"><i>d</i><par n="e_je__yat"/><i>vojašt</i><par n="društ/vo__n"/></e>
 <e lm="dobivanje"><i>dobivanj</i><par n="polj/e__n"/></e>
-<e lm="dobrosusjedstvo"><i>dobrosus</i><par n="e_je__yat"/><i>dst</i><par n="društ/vo__n"/></e>
 <e lm="dodjeljivanje"><i>dod</i><par n="e_je__yat"/><i>ljivanj</i><par n="polj/e__n"/></e>
 <e lm="dokumentiranje"><i>dokumentiranj</i><par n="polj/e__n"/></e>
 <e lm="dolaženje"><i>dolaženj</i><par n="polj/e__n"/></e>
@@ -47165,7 +47157,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="građanstvo"><i>građanst</i><par n="društ/vo__n"/></e>
 <e lm="građenje"><i>građenj</i><par n="polj/e__n"/></e>
 <e lm="grijanje"><i>grijanj</i><par n="polj/e__n"/></e>
-<e lm="grkomanstvo"><i>grkomanst</i><par n="društ/vo__n"/></e>
 <e lm="grnčarstvo"><i>grnčarst</i><par n="društ/vo__n"/></e>
 <e lm="grubijanstvo"><i>grubijanst</i><par n="društ/vo__n"/></e>
 <e lm="gubljenje"><i>gubljenj</i><par n="polj/e__n"/></e>
@@ -47269,7 +47260,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="konjarstvo"><i>konjarst</i><par n="društ/vo__n"/></e>
 <e lm="konstituiranje"><i>konstituiranj</i><par n="polj/e__n"/></e>
 <e lm="konstituisanje"><i>konstituisanj</i><par n="polj/e__n"/></e>
-<e lm="kontraraspoznavanje"><i>kontraraspoznavanj</i><par n="polj/e__n"/></e>
 <e lm="kontroliranje"><i>kontroliranj</i><par n="polj/e__n"/></e>
 <e lm="konzerviranje"><i>konzerviranj</i><par n="polj/e__n"/></e>
 <e lm="konzervisanje"><i>konzervisanj</i><par n="polj/e__n"/></e>
@@ -47287,7 +47277,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="sjedalo"><i>s</i><par n="e_je__yat"/><i>dal</i><par n="koljen/o__n"/></e>
 <e lm="kriminaliziranje"><i>kriminaliziranj</i><par n="polj/e__n"/></e>
 <e lm="kriminalizovanje"><i>kriminalizovanj</i><par n="polj/e__n"/></e>
-<e lm="uzlijetanje"><i>uzl</i><par n="e_ije__yat"/><i>tanje</i><par n="polj/e__n"/></e>
 <e lm="krivovjerstvo"><i>krivov</i><par n="e_je__yat"/><i>rst</i><par n="društ/vo__n"/></e>
 <e lm="kršćanstvo"><i>kršćanst</i><par n="društ/vo__n"/></e>
 <e lm="kršenje"><i>kršenj</i><par n="polj/e__n"/></e>
@@ -47321,7 +47310,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="majstorstvo"><i>majstorst</i><par n="društ/vo__n"/></e>
 <e lm="maltretiranje"><i>maltretiranj</i><par n="polj/e__n"/></e>
 <e lm="manekenstvo"><i>manekenst</i><par n="društ/vo__n"/></e>
-<e lm="maroderstvo"><i>maroderst</i><par n="društ/vo__n"/></e>
 <e lm="masonstvo"><i>masonst</i><par n="društ/vo__n"/></e>
 <e lm="medijatorstvo"><i>medijatorst</i><par n="društ/vo__n"/></e>
 <e lm="menadžerstvo"><i>menadžerst</i><par n="društ/vo__n"/></e>
@@ -47647,7 +47635,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="rudarstvo"><i>rudarst</i><par n="društ/vo__n"/></e>
 <e lm="rukovođenje"><i>rukovođenj</i><par n="polj/e__n"/></e>
 <e lm="rukovodstvo"><i>rukovodst</i><par n="društ/vo__n"/></e>
-<e lm="rusofobstvo"><i>rusofobst</i><par n="društ/vo__n"/></e>
 <e lm="rvanje"><i>rvanj</i><par n="polj/e__n"/></e>
 <e lm="sabiranje"><i>sabiranj</i><par n="polj/e__n"/></e>
 <e lm="sablažnjavanje"><i>sablažnjavanj</i><par n="polj/e__n"/></e>
@@ -47684,10 +47671,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="skrivanje"><i>skrivanj</i><par n="polj/e__n"/></e>
 <e lm="skupljanje"><i>skupljanj</i><par n="polj/e__n"/></e>
 <e lm="slastičarstvo"><i>slastičarst</i><par n="društ/vo__n"/></e>
-<e lm="slavenofilstvo"><i>slavenofilst</i><par n="društ/vo__n"/></e>
-<e lm="slavenofobstvo"><i>slavenofobst</i><par n="društ/vo__n"/></e>
-<e lm="slovenofilstvo"><i>slovenofilst</i><par n="društ/vo__n"/></e>
-<e lm="slovenofobstvo"><i>slovenofobst</i><par n="društ/vo__n"/></e>
 <e lm="slušanje"><i>slušanj</i><par n="polj/e__n"/></e>
 <e lm="smaknuće"><i>smaknuć</i><par n="polj/e__n"/></e>
 <e lm="smanjenje"><i>smanjenj</i><par n="polj/e__n"/></e>
@@ -47708,10 +47691,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="spoticanje"><i>spoticanj</i><par n="polj/e__n"/></e>
 <e lm="sprečavanje"><i>sprečavanj</i><par n="polj/e__n"/></e>
 <e lm="spremanje"><i>spremanj</i><par n="polj/e__n"/></e>
-<e lm="srbofilstvo"><i>srbofilst</i><par n="društ/vo__n"/></e>
-<e lm="srbofobstvo"><i>srbofobst</i><par n="društ/vo__n"/></e>
-<e lm="srbpmanstvo"><i>srbpmanst</i><par n="društ/vo__n"/></e>
-<e lm="srce"><i>src</i><par n="polj/e__n"/></e>
+<e lm="srbofilstvo"><i>srbofilst</i><par n="društ/vo__n"/></e><e lm="srce"><i>src</i><par n="polj/e__n"/></e>
 <e lm="sredstvo"><i>sredst</i><par n="društ/vo__n"/></e>
 <e lm="staklarstvo"><i>staklarst</i><par n="društ/vo__n"/></e>
 <e lm="standardiziranje"><i>standardiziranj</i><par n="polj/e__n"/></e>
@@ -48030,6 +48010,33 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="suverenost"><i>suvereno</i><par n="ma/st__n"/></e>
 <e lm="točnost"><i>točno</i><par n="ma/st__n"/></e>
 <e lm="vidljivost"><i>vidljivo</i><par n="ma/st__n"/></e>
+
+
+<!-- Trim -->
+<!-- SH words with no appropriate translation in SL (TO DO)
+
+<e lm="srbofobstvo"><i>srbofobst</i><par n="društ/vo__n"/></e>
+<e lm="srbpmanstvo"><i>srbpmanst</i><par n="društ/vo__n"/></e>
+<e lm="slavenofilstvo"><i>slavenofilst</i><par n="društ/vo__n"/></e>
+<e lm="slavenofobstvo"><i>slavenofobst</i><par n="društ/vo__n"/></e>
+<e lm="slovenofilstvo"><i>slovenofilst</i><par n="društ/vo__n"/></e>
+<e lm="slovenofobstvo"><i>slovenofobst</i><par n="društ/vo__n"/></e>
+<e lm="rusofobstvo"><i>rusofobst</i><par n="društ/vo__n"/></e>
+<e lm="maroderstvo"><i>maroderst</i><par n="društ/vo__n"/></e>
+<e lm="kontraraspoznavanje"><i>kontraraspoznavanj</i><par n="polj/e__n"/></e>
+<e lm="grkomanstvo"><i>grkomanst</i><par n="društ/vo__n"/></e>
+<e lm="dobrosusjedstvo"><i>dobrosus</i><par n="e_je__yat"/><i>dst</i><par n="društ/vo__n"/></e>
+<e lm="bogumilstvo"><i>bogumilst</i><par n="društ/vo__n"/></e>
+<e lm="netrepeljivost"><i>netrepeljivo</i><par n="ma/st__n"/></e>
+<e lm="deregistracija"><i>deregistracij</i><par n="žen/a__n"/></e>
+<e lm="toplofikacija"><i>toplofikacij</i><par n="žen/a__n"/></e>
+<e lm="eurointegracija"><i>eurointegracij</i><par n="žen/a__n"/></e>
+<e lm="demistifikacija"><i>demistifikacij</i><par n="žen/a__n"/></e>
+<e lm="shodnost"><i>shodno</i><par n="ma/st__n"/></e>
+
+-->
+
+
 
 </section>
 

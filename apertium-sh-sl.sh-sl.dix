@@ -9252,11 +9252,9 @@
 	<e><p><l>dizalo<s n="n"/><s n="nt"/></l><r>dvigalo<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>nakaza<s n="n"/><s n="f"/></l><r>čudak<s n="n"/><s n="ma"/></r></p></e>
 	<e><p><l>kovanica<s n="n"/><s n="f"/></l><r>kovanec<s n="n"/><s n="mi"/></r></p></e>
-	<e><p><l>gužva<s n="n"/><s n="f"/></l><r>gužva<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>stjuardesa<s n="n"/><s n="f"/></l><r>stevardesa<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>soba<s n="n"/><s n="f"/></l><r>soba<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>traka<s n="n"/><s n="f"/></l><r>trak<s n="n"/><s n="mi"/></r></p></e>
-	<e><p><l>prtljaga<s n="n"/><s n="f"/></l><r>prtljaga<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>kontrolorka<s n="n"/><s n="f"/></l><r>kontrolorka<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>majica<s n="n"/><s n="f"/></l><r>majica<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>torba<s n="n"/><s n="f"/></l><r>torba<s n="n"/><s n="f"/></r></p></e>
@@ -9280,20 +9278,20 @@
 	<e><p><l>iznos<s n="n"/><s n="mi"/></l><r>znesek<s n="n"/><s n="mi"/></r></p></e>
 	<e><p><l>izlaz<s n="n"/><s n="mi"/></l><r>izhod<s n="n"/><s n="mi"/></r></p></e>
 	<e><p><l>sjedalo<s n="n"/><s n="nt"/></l><r>sedež<s n="n"/><s n="mi"/></r></p></e>
+	<e><p><l>ocjena<s n="n"/><s n="f"/></l><r>ocena<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kožoderstvo<s n="n"/><s n="nt"/></l><r>odiranje<s n="n"/><s n="nt"/></r></p></e>
 	
 
-	<!-- TO DO : DODAJ V SL MONODIX -->
+	<!-- Multiwords section -->
 	<e><p><l>agora<s n="n"/><s n="f"/></l><r>zborno<b/>mesto<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>restart<s n="n"/><s n="mi"/></l><r>ponovni<b/>zagon<s n="n"/><s n="mi"/></r></p></e>
 	<e><p><l>softver<s n="n"/><s n="mi"/></l><r>programska<b/>oprema<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>ocjena<s n="n"/><s n="f"/></l><r>ocena<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>putovnica<s n="n"/><s n="f"/></l><r>potni<b/>list<s n="n"/><s n="mi"/></r></p></e>
 	<e><p><l>ajkula<s n="n"/><s n="f"/></l><r>morski<b/>pes<s n="n"/><s n="ma"/></r></p></e>
 	<e><p><l>klimatizacija<s n="n"/><s n="f"/></l><r>klimatska<b/>naprava<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>morski<b/>pas<s n="n"/><s n="ma"/></l><r>morski<b/>pes<s n="n"/><s n="ma"/></r></p></e>
 	<e><p><l>ručni<b/>rad<s n="n"/><s n="mi"/></l><r>ročno<b/>delo<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>slijepa<b/>ulica<s n="n"/><s n="f"/></l><r>slepa<b/>ulica<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>kožoderstvo<s n="n"/><s n="nt"/></l><r>odiranje<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>sinoubistvo<s n="n"/><s n="nt"/></l><r>umor<b/>sina<s n="n"/><s n="ma"/></r></p></e>
 	<e><p><l>sinoubojstvo<s n="n"/><s n="nt"/></l><r>umor<b/>sina<s n="n"/><s n="ma"/></r></p></e>
 
@@ -9433,21 +9431,15 @@
 	<e><p><l>pluća<s n="n"/><s n="nt"/></l><r>pljuča<s n="n"/><s n="nt"/></r></p><par n="sgpl_pl"/></e>
 	<e><p><l>pluća<s n="n"/><s n="f"/></l><r>pljuča<s n="n"/><s n="nt"/></r></p><par n="sgpl_pl"/></e> <!-- pluća F? -->
 	<e><p><l>menadžerstvo<s n="n"/><s n="nt"/></l><r>menedžerstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
+	<e><p><l>prtljaga<s n="n"/><s n="f"/></l><r>prtljaga<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+	<e><p><l>gužva<s n="n"/><s n="f"/></l><r>gužva<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
 	
-
 
 	<!-- Proper noun -->
     <e><p><l>Ivica<s n="np"/><s n="ant"/></l><r>Janez<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Marica<s n="np"/><s n="ant"/></l><r>Marija<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Pavao<s n="np"/><s n="ant"/></l><r>Pavel<s n="np"/><s n="ant"/></r></p></e>
 	
-	
-	<!-- Nouns -> adjectives - TO DO -->
-	<e><p><l>shodnost<s n="n"/></l><r>shoden<s n="adj"/></r></p></e>
-	<e><p><l>ala<s n="n"/><s n="nt"/></l><r>raznobarven<s n="adj"/></r></p></e>
-
-
-
 
     <!--TODO: disambiguation pas<mi> == waist, pas<ma> ==dog-->
     <e><p><l>pas<s n="n"/><s n="ma"/></l><r>pes<s n="n"/><s n="ma"/></r></p></e>
