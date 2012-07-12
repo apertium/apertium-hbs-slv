@@ -6168,9 +6168,10 @@
 
 
     <!--Verbs-->
-    <e><p><l>biti<s n="vbser"/></l><r>biti<s n="vbser"/></r></p></e>
-    <e><p><l>biti<s n="vbser"/><s n="clt"/></l><r>biti<s n="vbser"/></r></p></e>
-    <e><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: biti<vblex> == to beat, biti<vbser> == to be-->
+    <e r="LR"><p><l>biti<s n="vbser"/></l><r>biti<s n="vbser"/></r></p></e>
+    <e r="RL"><p><l>biti<s n="vbser"/><s n="clt"/></l><r>biti<s n="vbser"/></r></p></e>
+
+    <e r="LR"><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: this is a tmp one biti<vblex> == to beat, biti<vbser> == to be-->
 	
 	<!-- vbhaver -> vblex ==> Added rule -->
     <e><p><l>imati<s n="vbhaver"/><s n="imperf"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>

@@ -4,48 +4,228 @@
   <section-def-cats>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
+    </def-cat>
+    <def-cat n="nom_gen">
+      <cat-item tags="n.*.*.gen"/>
+      <cat-item tags="n.*.*.gen.*"/>
+    </def-cat>
+    <def-cat n="nom_ins">
+      <cat-item tags="n.*.*.ins"/>
+      <cat-item tags="n.*.*.ins.*"/>
+    </def-cat>
+    <def-cat n="nom_loc">
+      <cat-item tags="n.*.*.loc"/>
+      <cat-item tags="n.*.*.loc.*"/>
+    </def-cat>
+    <def-cat n="nom_or_np">
+      <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
+    </def-cat>
+    <def-cat n="np">
+      <cat-item tags="np.*"/>
+    </def-cat>
+    <def-cat n="np_nom">
+      <cat-item tags="np.*.*.*.nom"/>
+    </def-cat>
+    <def-cat n="np_nom_non_cog_ant">
+      <cat-item tags="np.top.*.*.nom"/>
+      <cat-item tags="np.al.*.*.nom"/>
+    </def-cat>
+    <def-cat n="np_gen">
+      <cat-item tags="np.*.*.*.gen"/>
+    </def-cat>
+    <def-cat n="np_ins">
+      <cat-item tags="np.*.*.*.ins"/>
+    </def-cat>
+    <def-cat n="np_loc">
+      <cat-item tags="np.*.*.*.loc"/>
+    </def-cat>
+    <def-cat n="vb_lp">
+      <cat-item tags="vbser.lp.*"/>
+      <cat-item tags="vblex.*.*.lp.*"/>
+      <cat-item tags="vbhaver.*.*.lp.*"/>
+      <cat-item tags="vbmod.lp.*"/>
+    </def-cat>
+    <def-cat n="vbser_lp">
+      <cat-item tags="vbser.lp.*"/>
+    </def-cat>
+    <def-cat n="vbser_past">
+      <cat-item tags="vbser.clt.pres.*"/>
+      <cat-item tags="vbser.pres.*"/>
+    </def-cat>
+    <def-cat n="vbser_past_clt">
+      <cat-item tags="vbser.clt.*"/>
+    </def-cat>
+    <def-cat n="vbser_past_emph">
+      <cat-item tags="vbser.pres.*"/>
+    </def-cat>
+    <def-cat n="vbser_cond">
+      <cat-item tags="vbser.clt.aor.*"/>
+    </def-cat>
+    <def-cat n="verb">
+      <cat-item tags="vblex.*"/>
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vbmod.*"/>
+      <cat-item tags="vbhaver.*"/>
+    </def-cat>
+    <def-cat n="vbmod">
+      <cat-item tags="vbmod.*"/>
+    </def-cat>
+    <def-cat n="vbhaver">
+      <cat-item tags="vbhaver.*"/>
     </def-cat>
     <def-cat n="vblex">
       <cat-item tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="vblex_ref">
+      <cat-item tags="vblex.*.ref.*"/>
+    </def-cat>
+    <def-cat n="vbser">
       <cat-item tags="vbser.*"/>
     </def-cat>
-    <def-cat n="prn-pers">
-      <cat-item tags="prn.p1.*"/>
-      <cat-item tags="prn.p2.*"/>
-      <cat-item tags="prn.p3.*"/>
+    <def-cat n="vbpp">
+      <cat-item tags="vblex.*.*.pp.*"/>
     </def-cat>
-    <def-cat n="prn-encl">
-      <cat-item tags="prn.enc.p1.*"/>
-      <cat-item tags="prn.enc.p2.*"/>
-      <cat-item tags="prn.enc.p3.*"/>
+    <def-cat n="vbinf">
+      <cat-item tags="vblex.*.*.inf"/>
+      <cat-item tags="vblex.*.*.inf.*"/>
+      <cat-item tags="vbmod.inf"/>
+      <cat-item tags="vbmod.inf.*"/>
+      <cat-item tags="vbhaver.*.*.inf"/>
+      <cat-item tags="vbhaver.*.*.inf.*"/>
+      <cat-item tags="vbser.inf"/>
+      <cat-item tags="vbser.inf.*"/>
     </def-cat>
-    <def-cat n="prn">
+    <def-cat n="vbfutI">
+      <cat-item lemma="htjeti" tags="vbmod.clt.futI.*"/>
+    </def-cat>
+    <def-cat n="vbhtjeti">
+      <cat-item lemma="htjeti" tags="vbmod.pres.*"/>
+      <cat-item lemma="htjeti" tags="vbmod.pii.*"/>
+    </def-cat>
+    <def-cat n="prns"><!--All pronouns-->
+      <cat-item tags="prn"/>
       <cat-item tags="prn.*"/>
     </def-cat>
+    <def-cat n="prn"><!--Not demonstrative, and not reflexive possesive se-->
+      <cat-item tags="prn.pers.*"/>
+      <cat-item tags="prn.pos.*"/>
+      <cat-item tags="prn.ref.pos.*"/>
+      <cat-item tags="prn.itg"/>
+      <cat-item tags="prn.itg.*"/>
+      <cat-item tags="prn.rel"/>
+      <cat-item tags="prn.rel.*"/>
+      <cat-item tags="prn.ind"/>
+      <cat-item tags="prn.ind.*"/>
+      <cat-item tags="prn.neg"/>
+      <cat-item tags="prn.neg.*"/>
+      <cat-item tags="prn.tot"/>
+      <cat-item tags="prn.tot.*"/>
+    </def-cat>
+    <def-cat n="prn_rel">
+      <cat-item tags="prn.rel.*"/>
+    </def-cat>
+    <def-cat n="prn_tot">
+      <cat-item tags="prn.tot"/>
+      <cat-item tags="prn.tot.*"/>
+    </def-cat>
+    <def-cat n="prn_dem">
+      <cat-item tags="prn.dem.*"/>
+    </def-cat>
+    <def-cat n="prn_ref_pers">
+      <cat-item tags="prn.ref.pers.*"/>
+    </def-cat>
+    <def-cat n="rel_prn">
+      <cat-item tags="prn.rel.*"/>
+    </def-cat>
     <def-cat n="num">
+      <cat-item tags="num"/>
       <cat-item tags="num.*"/>
     </def-cat>
-    <def-cat n="cnjcoo">
-      <cat-item tags="cnjcoo"/>
-    </def-cat>
-    <def-cat n="pr">
-      <cat-item tags="pr"/>
-    </def-cat>
-    <def-cat n="adj">
-      <cat-item tags="adj.*"/>
+    <def-cat n="ord">
+      <cat-item tags="num.ord.*"/>
     </def-cat>
     <def-cat n="adv">
       <cat-item tags="adv"/>
       <cat-item tags="adv.*"/>
     </def-cat>
+    <def-cat n="adj_ADV">
+      <cat-item tags="adj.pst.*.sg.acc.*"/>
+    </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj.*"/>
+    </def-cat>
+    <def-cat n="adj_pst">
+      <cat-item tags="adj.pst.*"/>
+    </def-cat>
+    <def-cat n="adj_pss_sfx">
+      <cat-item lemma="pos" tags="adj.*"/>
+    </def-cat>
+    <def-cat n="adj_comp">
+      <cat-item tags="adj.comp.*"/>
+    </def-cat>
+    <def-cat n="adj_sup">
+      <cat-item tags="adj.sup.*"/>
+    </def-cat>
+    <def-cat n="adj_ssup">
+      <cat-item tags="adj.ssup.*"/>
+    </def-cat>
+    <def-cat n="adj_gen">
+      <cat-item tags="adj.*.*.*.gen.*"/>
+    </def-cat>
+    <def-cat n="adj_ins">
+      <cat-item tags="adj.*.*.*.ins.*"/>
+    </def-cat>
+    <def-cat n="pr">
+      <cat-item tags="pr"/>
+      <cat-item tags="pr.*"/>
+    </def-cat>
     <def-cat n="det">
       <cat-item tags="det"/>
       <cat-item tags="det.*"/>
     </def-cat>
-    <def-cat n="prefix-adj">
-      <cat-item tags="pref.adj"/>
-      <cat-item tags="pref.adj.*"/>
+    <def-cat n="exp">
+      <cat-item tags="part.exp"/>
+    </def-cat>
+    <def-cat n="ne_part">
+      <cat-item lemma ="ne" tags="part.neg"/>
+    </def-cat>
+    <def-cat n="li_part">
+      <cat-item lemma ="li" tags="part.itg"/>
+    </def-cat>
+    <def-cat n="cnjcoo">
+      <cat-item tags="cnjcoo"/>
+    </def-cat>
+    <def-cat n="i_cnjcoo">
+      <cat-item lemma ="i" tags="cnjcoo"/>
+    </def-cat>
+    <def-cat n="kako_adv">
+      <cat-item lemma="kako" tags="adv"/>
+      <cat-item lemma="kako" tags="cnjsub"/>
+    </def-cat>
+    <def-cat n="vblex_lp">
+      <cat-item tags="vblex.*.*.lp.*"/>
+      <cat-item tags="vbhaver.*.*.lp.*"/>
+      <cat-item tags="vbmod.lp.*"/>
+    </def-cat>
+    <def-cat n="clitic">
+      <cat-item lemma="clitic" tags="prn.*"/>
+    </def-cat>
+    <def-cat n="biti">
+      <cat-item lemma="biti" tags="vbser.*"/>
+      <cat-item lemma="biti" tags="vblex.*"/>
+      <cat-item lemma="biti" tags="vbmod.*"/>
+    </def-cat>
+    <def-cat n="biti_clt">
+      <cat-item lemma="biti" tags="vbser.clt.*"/>
+    </def-cat>
+    <def-cat n="moći">
+      <cat-item lemma="moći" tags="vbser.*"/>
+      <cat-item lemma="moći" tags="vblex.*"/>
+      <cat-item lemma="moći" tags="vbmod.*"/>
+    </def-cat>
+    <def-cat n="cm">
+      <cat-item lemma="," tags="cm"/>
     </def-cat>
   </section-def-cats>
 
@@ -158,7 +338,6 @@
     <def-var n="EOS" v="true"/>
   </section-def-vars>
 
-
   <section-def-macros>
 
     <def-macro n="conv-number1" npar="1">
@@ -170,6 +349,10 @@
 	  <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></let>
 	</when>
       </choose>
+    </def-macro>
+
+    <def-macro n="verb_adapter" npar="1">
+	<call-macro n="conv-number1"><with-param pos="1"/></call-macro>
     </def-macro>
 
 
@@ -206,61 +389,6 @@
   <section-rules>
 
     <!-- Sintagmas nominales -->
-
-    <rule>
-      <pattern>
-	<pattern-item n="prn-pers"/>
-      </pattern>
-      <action>
-	<out>
-	  <chunk name="prn" case="caseFirstWord">
-	    <tags>
-	      <tag><lit-tag v="SN"/></tag>
-	      <tag><clip pos="1" side="tl" part="prs"/></tag>
-	      <tag><clip pos="1" side="tl" part="gen"/></tag>
-	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
-	      <tag><clip pos="1" side="tl" part="cas"/></tag>
-	    </tags>
-	    <lu>
-	      <clip pos="1" side="tl" part="lem"/>
-	      <clip pos="1" side="tl" part="a_prn"/>
-	      <clip pos="1" side="tl" part="prs" link-to="2"/>
-	      <clip pos="1" side="tl" part="gen" link-to="3"/>
-	      <clip pos="1" side="tl" part="nbr" link-to="4"/>
-	      <clip pos="1" side="tl" part="cas" link-to="5"/>
-	    </lu>
-	  </chunk>
-	</out>
-      </action>
-    </rule>
-
-    <rule>
-      <pattern>
-	<pattern-item n="prn-encl"/>
-      </pattern>
-      <action>
-	<out>
-	  <chunk name="prn_enc" case="caseFirstWord">
-	    <tags>
-	      <tag><lit-tag v="SN"/></tag>
-	      <tag><clip pos="1" side="tl" part="prs"/></tag>
-	      <tag><clip pos="1" side="tl" part="gen"/></tag>
-	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
-	      <tag><clip pos="1" side="tl" part="cas"/></tag>
-	    </tags>
-	    <lu>
-	      <clip pos="1" side="tl" part="lem"/>
-	      <clip pos="1" side="tl" part="a_prn"/>
-	      <clip pos="1" side="tl" part="prs" link-to="2"/>
-	      <clip pos="1" side="tl" part="gen" link-to="3"/>
-	      <clip pos="1" side="tl" part="nbr" link-to="4"/>
-	      <clip pos="1" side="tl" part="cas" link-to="5"/>
-	    </lu>
-	  </chunk>
-	</out>
-      </action>
-    </rule>
-
 
 
     <rule>
@@ -531,71 +659,6 @@
 
     <!-- Sintagmas adjetivos -->
 
-    <rule>
-      <pattern>
-	<pattern-item n="prefix-adj"/>
-	<pattern-item n="adj"/>
-      </pattern>
-      <action>
-	<choose>
-	  <!--  When the adjective is in the superlative
-	       prefix with naj~ -->
-	  <when>
-	    <test>
-	      <and>
-		<equal>
-		  <clip pos="1" side="sl" part="lem"/>
-		  <lit v="нај"/>
-		</equal>
-		<equal>
-		  <clip pos="1" side="sl" part="a_adj"/>
-		  <lit-tag v="adj.sup"/>
-		</equal>
-	      </and>
-	    </test>
-	    <out>
-	      <chunk name="adj" case="caseFirstWord">
-		<tags>
-		  <tag><lit-tag v="SA"/></tag>
-		  <tag><clip pos="2" side="tl" part="gen"/></tag>
-		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
-		  <tag><lit-tag v="nom"/></tag>
-		</tags>
-		<lu>
-		  <lit v="naj"/>
-		</lu>
-		<lu>
-		  <clip pos="2" side="tl" part="lem"/>
-		  <lit-tag v="adj.comp"/>
-		  <clip pos="2" side="tl" part="gen"/>
-		  <clip pos="2" side="tl" part="nbr"/>
-		  <lit-tag v="nom"/>
-		</lu>
-	      </chunk>
-	    </out>
-	  </when>
-	  <otherwise>
-	    <out>
-	      <chunk name="adj" case="caseFirstWord">
-		<tags>
-		  <tag><lit-tag v="SA"/></tag>
-		  <tag><clip pos="2" side="tl" part="gen"/></tag>
-		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
-		  <tag><lit-tag v="nom"/></tag>
-		</tags>
-		<lu>
-		  <clip pos="2" side="tl" part="lem"/>
-		  <clip pos="1" side="tl" part="a_adj"/>
-		  <clip pos="2" side="tl" part="gen"/>
-		  <clip pos="2" side="tl" part="nbr"/>
-		  <lit-tag v="nom"/>
-		</lu>
-	      </chunk>
-	    </out>
-	  </otherwise>
-	</choose>
-      </action>
-    </rule>
 
     <!-- Sintagmas verbales -->
 
@@ -996,6 +1059,25 @@
       </action>
     </rule>
 
+    <!-- Added by Hrvoje -->
+    <rule comment="verb">
+      <pattern>
+	<pattern-item n="vblex"/>
+      </pattern>
+      <action>
+	<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+	<out>
+	  <chunk name="VB" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="VB"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
 
   </section-rules>
 
