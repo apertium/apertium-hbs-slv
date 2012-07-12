@@ -32404,7 +32404,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e lm="plivački"><i>plivački</i><par n="danas__adv"/></e>
 	<e lm="plovan"><i>plovan</i><par n="danas__adv"/></e>
 	<e lm="puzeči"><i>puzeči</i><par n="danas__adv"/></e>
-	<e lm="pusto"><i>pusto</i><par n="danas__adv"/></e>
 	<e lm="pneumatsk"><i>pneumatsk</i><par n="danas__adv"/></e>
 	<e lm="popreko"><i>popreko</i><par n="danas__adv"/></e>
 	<e lm="pogonski"><i>pogonski</i><par n="danas__adv"/></e>
@@ -35765,6 +35764,10 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="zdepast"><p><l>najzdepast</l><r>zdepast</r></p><par n="zdrav__sup__adj"/></e>
 <e lm="zdepast"><p><l>prezdepast</l><r>zdepast</r></p><par n="zdrav__ssup__adj"/></e>
 
+<e lm="pust"><i>pust</i><par n="zdrav__pst__adj"/></e>
+<e lm="pust"><i>pust</i><par n="zdrav__comp__adj"/></e>
+<e lm="pust"><p><l>najpust</l><r>pust</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="pust"><p><l>prepust</l><r>pust</r></p><par n="zdrav__ssup__adj"/></e>
 
 <e lm="dojmljiv"><i>dojmljiv</i><par n="zdrav__pst__adj"/></e>
 <e lm="dojmljiv"><i>dojmljiv</i><par n="zdrav__comp__adj"/></e>
