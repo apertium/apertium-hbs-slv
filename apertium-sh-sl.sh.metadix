@@ -38238,7 +38238,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="učinkovit"><p><l>preučinkovit</l><r>učinkovit</r></p><par n="zdrav__ssup__adj"/></e>
 
 <e lm="ljutit"><i>ljutit</i><par n="zdrav__pst__adj"/></e>
-<e lm="ljutit"><p><l>preljutit</l><r>lju</r></p><par n="zdrav__ssup__adj"/></e>
+<e lm="ljutit"><p><l>preljutit</l><r>ljutit</r></p><par n="zdrav__ssup__adj"/></e>
 <e lm="ljut"><i>lju</i><par n="žu/t__pst__adj"/></e>
 <e lm="ljut"><i>lju</i><par n="žu/t__comp__adj"/></e>
 <e lm="ljut"><p><l>najlju</l><r>lju</r></p><par n="žu/t__sup__adj"/></e>
