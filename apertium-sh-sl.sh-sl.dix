@@ -32,6 +32,7 @@
     <sdef n="past" c="Past tense"/>
     <sdef n="pres" c="Present tense"/>
     <sdef n="inf" c="Infinitive"/>
+    <sdef n="supn" c="Supine"/>
     <sdef n="aor" c="Aorist"/>
     <sdef n="fti" c="Future indicative"/>
     <sdef n="imp" c="Imperative"/>
@@ -6168,8 +6169,12 @@
 
 
     <!--Verbs-->
+    
+    <!-- The verb to be -->
     <e r="LR"><p><l>biti<s n="vbser"/></l><r>biti<s n="vbser"/></r></p></e>
-    <e r="RL"><p><l>biti<s n="vbser"/><s n="clt"/></l><r>biti<s n="vbser"/></r></p></e>
+    <e><p><l>biti<s n="vbser"/><s n="inf"/></l><r>biti<s n="vbser"/><s n="inf"/></r></p></e>
+    <e><p><l>biti<s n="vbser"/><s n="supn"/></l><r>biti<s n="vbser"/><s n="inf"/></r></p></e>
+    <e><p><l>biti<s n="vbser"/><s n="clt"/></l><r>biti<s n="vbser"/></r></p></e>
 
     <e r="LR"><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: this is a tmp one biti<vblex> == to beat, biti<vbser> == to be-->
 	

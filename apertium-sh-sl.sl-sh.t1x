@@ -96,6 +96,12 @@
       <cat-item tags="vbser.inf"/>
       <cat-item tags="vbser.inf.*"/>
     </def-cat>
+    <def-cat n="vbsupn">
+      <cat-item tags="vbser.supn"/>
+      <cat-item tags="vblex.supn"/>
+      <cat-item tags="vbmod.supn"/>
+      <cat-item tags="vbhaver.supn"/>
+    </def-cat>
     <def-cat n="vbfutI">
       <cat-item lemma="htjeti" tags="vbmod.clt.futI.*"/>
     </def-cat>
@@ -248,7 +254,6 @@
     <def-attr n="a_prp">
       <attr-item tags="pr"/>
     </def-attr>
-
     <def-attr n="a_vrb">
       <attr-item tags="vblex"/>
       <attr-item tags="vbmod"/>
@@ -286,6 +291,7 @@
       <attr-item tags="aor"/>
       <attr-item tags="fti"/>
       <attr-item tags="past"/>
+      <attr-item tags="supn"/>
     </def-attr>
 
     <def-attr n="prs">
@@ -295,6 +301,7 @@
     </def-attr>
 
     <def-attr n="nbr">
+      <attr-item tags="du"/>
       <attr-item tags="sp"/>
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -340,19 +347,27 @@
 
   <section-def-macros>
 
-    <def-macro n="conv-number1" npar="1">
+    <def-macro n="dual2plural" npar="1">
       <choose>
 	<when>
 	  <test>
-	    <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="du"/></equal> 
+	    <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="du"/></equal> 
 	  </test>
-	  <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></let>
+	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
 	</when>
       </choose>
     </def-macro>
 
     <def-macro n="verb_adapter" npar="1">
-	<call-macro n="conv-number1"><with-param pos="1"/></call-macro>
+      <!-- Dual to plural -->
+      <call-macro n="dual2plural"><with-param pos="1"/></call-macro>
+      <!-- Supine to infinitive -->
+      <choose>
+	<when>
+	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="supn"/></equal></test>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="inf"/></let>
+	</when>
+      </choose>
     </def-macro>
 
 
@@ -396,7 +411,7 @@
 	<pattern-item n="prn"/>
       </pattern>
       <action>
-	<call-macro n="conv-number1">
+	<call-macro n="dual2plural">
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>
@@ -424,7 +439,7 @@
 	<pattern-item n="nom"/>
       </pattern>
       <action>
-	<call-macro n="conv-number1">
+	<call-macro n="dual2plural">
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>
@@ -457,7 +472,7 @@
 	<pattern-item n="det"/>
       </pattern>
       <action>
-	<call-macro n="conv-number1">
+	<call-macro n="dual2plural">
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>
@@ -1062,7 +1077,7 @@
     <!-- Added by Hrvoje -->
     <rule comment="verb">
       <pattern>
-	<pattern-item n="vblex"/>
+	<pattern-item n="verb"/>
       </pattern>
       <action>
 	<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
