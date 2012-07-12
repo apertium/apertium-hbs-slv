@@ -3212,7 +3212,68 @@
     <e><p><l>krut<s n="adv"/></l><r>togo<s n="adv"/></r></p></e>
     <e><p><l>točan<s n="adv"/></l><r>točno<s n="adv"/></r></p></e>
     <e><p><l>ponosan<s n="adv"/></l><r>ponosno<s n="adv"/></r></p></e>
-    
+    <e><p><l>zdepast<s n="adv"/></l><r>čokato<s n="adv"/></r></p></e>
+	<e><p><l>zdepast<s n="adv"/></l><r>čokato<s n="adv"/></r></p></e>
+	<e><p><l>gorak<s n="adv"/></l><r>grenko<s n="adv"/></r></p></e>
+	<e><p><l>grub<s n="adv"/></l><r>grobo<s n="adv"/></r></p></e>
+	<e><p><l>kiseo<s n="adv"/></l><r>kislo<s n="adv"/></r></p></e>
+	<e><p><l>škrt<s n="adv"/></l><r>skopo<s n="adv"/></r></p></e>
+	<e><p><l>tanak<s n="adv"/></l><r>tenko<s n="adv"/></r></p></e>
+	<e><p><l>tvrdoglav<s n="adv"/></l><r>trmasto<s n="adv"/></r></p></e>
+	<e><p><l>nagao<s n="adv"/></l><r>vihravo<s n="adv"/></r></p></e>
+	<e><p><l>živ<s n="adv"/></l><r>živo<s n="adv"/></r></p></e>
+	<e><p><l>vruć<s n="adv"/></l><r>vroče<s n="adv"/></r></p></e>
+	<e><p><l>bogat<s n="adv"/></l><r>bogato<s n="adv"/></r></p></e>
+	<e><p><l>osjetljiv<s n="adv"/></l><r>občutljivo<s n="adv"/></r></p></e>
+	<e><p><l>pokretljiv<s n="adv"/></l><r>gibljivo<s n="adv"/></r></p></e>
+	<e><p><l>krotak<s n="adv"/></l><r>krotko<s n="adv"/></r></p></e>
+	<e><p><l>neosjetljiv<s n="adv"/></l><r>neobčutljivo<s n="adv"/></r></p></e>
+	<e><p><l>nepopustljiv<s n="adv"/></l><r>nepopustljivo<s n="adv"/></r></p></e>
+	<e><p><l>nepovjerljiv<s n="adv"/></l><r>nezaupljivo<s n="adv"/></r></p></e>
+	<e><p><l>uvjerljiv<s n="adv"/></l><r>prepričljivo<s n="adv"/></r></p></e>
+	<e><p><l>sumnjičav<s n="adv"/></l><r>sumljivo<s n="adv"/></r></p></e>
+	<e><p><l>vitak<s n="adv"/></l><r>vitko<s n="adv"/></r></p></e>
+	<e><p><l>žarki<s n="adv"/></l><r>žarko<s n="adv"/></r></p></e>
+	<e><p><l>duhovit<s n="adv"/></l><r>duhovito<s n="adv"/></r></p></e>
+	<e><p><l>izrazit<s n="adv"/></l><r>izrazito<s n="adv"/></r></p></e>
+	<e><p><l>krepak<s n="adv"/></l><r>krepko<s n="adv"/></r></p></e>
+	<e><p><l>krhak<s n="adv"/></l><r>krhko<s n="adv"/></r></p></e>
+	<e><p><l>neodrediv<s n="adv"/></l><r>nedoločljivo<s n="adv"/></r></p></e>
+	<e><p><l>nerazumljiv<s n="adv"/></l><r>nerazumljivo<s n="adv"/></r></p></e>
+	<e><p><l>neveseo<s n="adv"/></l><r>neveselo<s n="adv"/></r></p></e>
+	<e><p><l>nepouzdan<s n="adv"/></l><r>nezanesljivo<s n="adv"/></r></p></e>
+	<e><p><l>nezanimljiv<s n="adv"/></l><r>nezanimivo<s n="adv"/></r></p></e>
+	<e><p><l>dojmljiv<s n="adv"/></l><r>osupljivo<s n="adv"/></r></p></e>
+	<e><p><l>preporučljiv<s n="adv"/></l><r>priporočljivo<s n="adv"/></r></p></e>
+	<e><p><l>uzbudljiv<s n="adv"/></l><r>razburljivo<s n="adv"/></r></p></e>
+	<e><p><l>razumljiv<s n="adv"/></l><r>razumljivo<s n="adv"/></r></p></e>
+	<e><p><l>slikovit<s n="adv"/></l><r>slikovito<s n="adv"/></r></p></e>
+	<e><p><l>smjeo<s n="adv"/></l><r>smelo<s n="adv"/></r></p></e>
+	<e><p><l>ljutit<s n="adv"/></l><r>srdito<s n="adv"/></r></p></e>
+	<e><p><l>jeziv<s n="adv"/></l><r>srhljivo<s n="adv"/></r></p></e>
+	<e><p><l>učinkovit<s n="adv"/></l><r>učinkovito<s n="adv"/></r></p></e>
+	<e><p><l>vedar<s n="adv"/></l><r>vedro<s n="adv"/></r></p></e>
+	<e><p><l>izdržljiv<s n="adv"/></l><r>vzdržljivo<s n="adv"/></r></p></e>
+	<e><p><l>uzbudljiv<s n="adv"/></l><r>vznemirljivo<s n="adv"/></r></p></e>
+	<e><p><l>uvredljiv<s n="adv"/></l><r>žaljivo<s n="adv"/></r></p></e>
+	<e><p><l>mio<s n="adv"/></l><r>milo<s n="adv"/></r></p></e>
+	<e><p><l>okrugao<s n="adv"/></l><r>okroglo<s n="adv"/></r></p></e>
+	<e><p><l>plitak<s n="adv"/></l><r>plitvo<s n="adv"/></r></p></e>
+	<e><p><l>rahao<s n="adv"/></l><r>rahlo<s n="adv"/></r></p></e>
+	<e><p><l>silovit<s n="adv"/></l><r>silovito<s n="adv"/></r></p></e>
+	<e><p><l>strm<s n="adv"/></l><r>strmo<s n="adv"/></r></p></e>
+	<e><p><l>svijetao<s n="adv"/></l><r>svetlo<s n="adv"/></r></p></e>
+	<e><p><l>veseo<s n="adv"/></l><r>veselo<s n="adv"/></r></p></e>
+	<e><p><l>zanimljiv<s n="adv"/></l><r>zanimivo<s n="adv"/></r></p></e>
+	<e><p><l>zavodljiv<s n="adv"/></l><r>zapeljivo<s n="adv"/></r></p></e>
+	<e><p><l>blag<s n="adv"/></l><r>blago<s n="adv"/></r></p></e>
+	<e><p><l>drag<s n="adv"/></l><r>ljubo<s n="adv"/></r></p></e>
+	<e><p><l>mrzak<s n="adv"/></l><r>neljubo<s n="adv"/></r></p></e>
+	<e><p><l>rijedak<s n="adv"/></l><r>redko<s n="adv"/></r></p></e>
+	<e><p><l>tanak<s n="adv"/></l><r>tanko<s n="adv"/></r></p></e>
+	<e><p><l>tih<s n="adv"/></l><r>tiho<s n="adv"/></r></p></e>
+	<e><p><l>bistar<s n="adv"/></l><r>bistro<s n="adv"/></r></p></e>
+	<e><p><l>temeljit<s n="adv"/></l><r>temeljito<s n="adv"/></r></p></e>
 
     <!-- adjectives (ski) <-> adverbs (sko) -->
     <e><p><l>megalomanski<s n="adv"/></l><r>megalomansko<s n="adv"/></r></p></e>
