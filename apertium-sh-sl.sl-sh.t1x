@@ -964,7 +964,7 @@
 	      </equal>
 	    </test>	
 	    <out>
-	      <chunk name="Adv" case="caseFirstWord">
+	      <chunk name="adv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -984,7 +984,7 @@
 	      </equal>
 	    </test>	
 	    <out>
-	      <chunk name="Adv" case="caseFirstWord">
+	      <chunk name="adv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -1004,7 +1004,7 @@
 	      </equal>
 	    </test>	
 	    <out>
-	      <chunk name="Adv" case="caseFirstWord">
+	      <chunk name="adv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -1018,7 +1018,7 @@
 	  </when>
 	  <otherwise> <!-- Else: adv.sint -> adv -->
 	    <out>
-	      <chunk name="Adv" case="caseFirstWord">
+	      <chunk name="adv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -1054,7 +1054,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="VblexToVbhaver" case="caseFirstWord">
+	      <chunk name="vblex_to_vbhaver" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -1082,7 +1082,7 @@
       <action>
 	<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
 	<out>
-	  <chunk name="VB" case="caseFirstWord">
+	  <chunk name="verb" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
