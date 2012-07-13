@@ -496,6 +496,151 @@
       </choose>
     </def-macro>
 
+    <def-macro n="adverb_adapter" npar="1">
+		<choose>
+	        <when>
+	          <test>    
+		           	<and>
+		      			<equal caseless="yes"><clip pos="1" side="sl" part="a_adv_form_SH"/><lit-tag v="ssup"/></equal>
+			      		<equal caseless="yes"><clip pos="1" side="tl" part="a_adv_addWord"/><lit-tag v="add_ela"/></equal>
+					</and>
+	          </test>          
+	          	<out>
+			      <chunk name="Adv" case="caseFirstWord">
+					<tags>
+					  <tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+					  	<lit v="veliko"/>	
+						<lit-tag v="adv.sint.ela"/>
+					</lu>
+					<b/>
+					<lu>
+					  <clip pos="1" side="tl" part="lemh"/>
+					  <clip pos="1" side="tl" part="a_adv"/>
+					  <lit-tag v="sint"/>
+					</lu>
+			      </chunk>
+			    </out>
+	        </when>
+	        <when>
+	          <test>    
+		      		<equal caseless="yes"><clip pos="1" side="sl" part="a_adv_form_SH"/><lit-tag v="ssup"/></equal>
+	          </test>          
+				<out>
+			      <chunk name="Adv" case="caseFirstWord">
+					<tags>
+					  <tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+					  <clip pos="1" side="tl" part="lemh"/>
+					  <clip pos="1" side="tl" part="a_adv"/>
+					  <lit-tag v="sint.ela"/>
+					</lu>
+			      </chunk>
+			    </out>
+	        </when>	
+	        <when>
+	          <test>    
+		           	<and>
+		      			<equal caseless="yes"><clip pos="1" side="sl" part="a_adv_form_SH"/><lit-tag v="sup"/></equal>
+			      		<equal caseless="yes"><clip pos="1" side="tl" part="a_adv_addWord"/><lit-tag v="add_sup"/></equal>
+					</and>
+	          </test>          
+				<out>
+			      <chunk name="Adv" case="caseFirstWord">
+					<tags>
+					  <tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+					  	<lit v="najbolj"/>	
+						<lit-tag v="adv.sint.sup"/>
+					</lu>
+					<b/>
+					<lu>
+					  <clip pos="1" side="tl" part="lemh"/>
+					  <clip pos="1" side="tl" part="a_adv"/>
+					  <lit-tag v="sint"/>
+					</lu>
+			      </chunk>
+			    </out>
+	        </when>	
+	        <when>
+	          <test>    
+		      		<equal caseless="yes"><clip pos="1" side="sl" part="a_adv_form_SH"/><lit-tag v="sup"/></equal>
+	          </test>          
+			    <out>
+			      <chunk name="Adv" case="caseFirstWord">
+					<tags>
+					  <tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+					  <clip pos="1" side="tl" part="lemh"/>
+					  <clip pos="1" side="tl" part="a_adv"/>
+					  <lit-tag v="sint.sup"/>
+					</lu>
+			      </chunk>
+			    </out>
+	        </when>
+	        <when>
+	          <test>    
+		           	<and>
+		      			<equal caseless="yes"><clip pos="1" side="sl" part="a_adv_form_SH"/><lit-tag v="comp"/></equal>
+			      		<equal caseless="yes"><clip pos="1" side="tl" part="a_adv_addWord"/><lit-tag v="add_comp"/></equal>
+					</and>
+	          </test>          
+				<out>
+			      <chunk name="Adv" case="caseFirstWord">
+					<tags>
+					  <tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+					  	<lit v="bolj"/>	
+						<lit-tag v="adv.sint"/>
+					</lu>
+					<b/>
+					<lu>
+					  <clip pos="1" side="tl" part="lemh"/>
+					  <clip pos="1" side="tl" part="a_adv"/>
+					  <lit-tag v="sint"/>
+					</lu>
+			      </chunk>
+			    </out>
+	        </when>	
+	        <when>
+	          <test>    
+		      		<equal caseless="yes"><clip pos="1" side="sl" part="a_adv_form_SH"/><lit-tag v="comp"/></equal>
+	          </test>          
+			    <out>
+			      <chunk name="Adv" case="caseFirstWord">
+					<tags>
+					  <tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+					  <clip pos="1" side="tl" part="lemh"/>
+					  <clip pos="1" side="tl" part="a_adv"/>
+					  <lit-tag v="sint.comp"/>
+					</lu>
+			      </chunk>
+			    </out>
+	        </when>	
+			  <otherwise> <!-- Else: adv -> adv.sint -->
+			    <out>
+			      <chunk name="Adv" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+					<lu>
+					  <clip pos="1" side="tl" part="lemh"/>
+					  <clip pos="1" side="tl" part="a_adv"/>
+					  <lit-tag v="sint"/>
+					</lu>
+			      </chunk>
+			    </out>
+			  </otherwise>
+	      </choose>
+    </def-macro>
+
   </section-def-macros>
 
   <section-rules>
@@ -875,25 +1020,30 @@
       </action>
     </rule>
 
-	<rule comment="mu je (clitic + biti) -> ima (imeti)">
+	<rule comment="NUM + mu je (clitic + biti) -> ima (imeti) + NUM">
       <pattern>
+		<pattern-item n="num"/>
 		<pattern-item n="clitic"/>
 		<pattern-item n="biti"/>
       </pattern>
       <action>
 		<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
 		<out>
-		  <chunk name="CliticBiti" case="caseFirstWord">
+		  <chunk name="NumCliticBiti" case="caseFirstWord">
 		    <tags>
 		      <tag><lit-tag v="VB"/></tag>
 		    </tags>
 		    <lu>
 		      <lit v="imeti"/>	
 			  <lit-tag v="vblex.imperf.tv"/> <!-- fix in t2x? -->
-			  <clip pos="2" side="tl" part="tns"/>
-			  <clip pos="2" side="tl" part="prs"/>
-			  <clip pos="2" side="tl" part="nbr"/>
+			  <clip pos="3" side="tl" part="tns"/>
+			  <clip pos="3" side="tl" part="prs"/>
+			  <clip pos="3" side="tl" part="nbr"/>
 		    </lu>	
+			<b/>
+		    <lu>
+			  <clip pos="1" side="tl" part="whole"/>
+		    </lu>
 		  </chunk>
 		</out>
     </action>
@@ -1502,6 +1652,77 @@
 			</lu>	
 	      </chunk>
 	    </out>
+      </action>
+    </rule>
+
+	<rule comment=", žena je upitala -> je ženska vprašala">
+      <pattern>
+		<pattern-item n="cm"/>
+		<pattern-item n="nom"/>
+		<pattern-item n="biti_clt"/>
+		<pattern-item n="vblex"/>
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="voc_adapter"><with-param pos="2"/></call-macro>
+	    <out>
+	      <chunk name="CM_Nom_Biti_Vblex-CM_Biti_Nom_Vblex" case="caseFirstWord">
+			<tags>
+		  		<tag><lit-tag v="VB"/></tag>
+			</tags>
+			<lu>
+				<clip pos="1" side="tl" part="whole"/>
+			</lu>
+			<b/>
+			<lu>
+				<clip pos="3" side="tl" part="whole"/>
+			</lu>
+			<b/>
+			<lu>
+				<clip pos="2" side="tl" part="whole"/>
+			</lu>
+			<b/>
+			<lu>
+				<clip pos="4" side="tl" part="lemh"/>
+				<clip pos="4" side="tl" part="a_vrb"/>
+				<clip pos="4" side="tl" part="asp"/>
+				<clip pos="4" side="tl" part="trn"/>
+				<lit-tag v="past"/>
+				<clip pos="4" side="sl" part="gen"/>
+				<clip pos="4" side="tl" part="nbr"/>
+			</lu>	
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
+
+	<rule comment="li_part + adj + adv -> adv + adj (li samo tu -> tukaj samo)"> <!-- TO DO: macro for BOLJ, NAJBOLJ, PREVEČ adverb -->
+      <pattern>
+		<pattern-item n="li_part"/>
+		<pattern-item n="adj"/>
+		<pattern-item n="adv"/>
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="mima_to_m"><with-param pos="2"/></call-macro>
+		<call-macro n="voc_adapter"><with-param pos="2"/></call-macro>
+		<call-macro n="adverb_adapter"><with-param pos="3"/></call-macro>
+		    <out>
+		      <chunk name="LiAdjAdv-AdvAdj" case="caseFirstWord">
+				<tags>
+			  		<tag><lit-tag v="VB"/></tag>
+				</tags>
+				<b/>
+				<lu>
+				  <clip pos="2" side="tl" part="lemh"/>
+				  <clip pos="2" side="tl" part="a_adj"/>
+				  <clip pos="2" side="tl" part="gen"/>
+				  <clip pos="2" side="tl" part="nbr"/>
+				  <clip pos="2" side="tl" part="cas"/>
+				  <clip pos="2" side="tl" part="def"/>
+				</lu>
+		      </chunk>
+		    </out>
       </action>
     </rule>
 
