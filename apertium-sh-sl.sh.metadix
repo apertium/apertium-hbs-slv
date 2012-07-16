@@ -26396,24 +26396,6 @@ after prepositions-->
    <e><p><l>čama</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>čama</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
-<pardef n="vrp/ca__n"><!--Without fleeting a-->
-   <e><p><l>ca</l><r>ca<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-   <e><p><l>ce</l><r>ca<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-   <e><p><l>cu</l><r>ca<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-   <e><p><l>ci</l><r>ca<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-   <e><p><l>ci</l><r>ca<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-   <e><p><l>co</l><r>ca<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
-   <e><p><l>com</l><r>ca<s n="n"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-   <e><p><l>ce</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-   <e><p><l>ce</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-   <e><p><l>ce</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
-   <e><p><l>ci</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-   <e r="LR"><p><l>ca</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-   <e r="LR"><p><l>câ</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-   <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
-   <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
-   <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
-</pardef>
 <pardef n="bun/da__n"><!--Without fleeting a-->
    <e><p><l>da</l><r>da<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
    <e><p><l>de</l><r>da<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -26616,7 +26598,7 @@ after prepositions-->
    <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
-<pardef n="vrp/ca__n">
+<pardef n="vrp/ca__n"><!--Without fleeting -->
    <e><p><l>ca</l><r>ca<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
    <e><p><l>ce</l><r>ca<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
    <e><p><l>cu</l><r>ca<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -31990,9 +31972,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e lm="rado"><i>rado</i><par n="danas__adv"/></e>
 	<e lm="prehrambeni"><i>prehrambeni</i><par n="danas__adv"/></e>
 	<e lm="unatrag"><i>unatrag</i><par n="danas__adv"/></e>
-	<e lm="čežnja"><i>čežnja</i><par n="danas__adv"/></e>
 	<e lm="nostalgija"><i>nostalgija</i><par n="danas__adv"/></e>
-	<e lm="žudnja"><i>žudnja</i><par n="danas__adv"/></e>
 	<e lm="brežuljkast"><i>brežuljkast</i><par n="danas__adv"/></e>
 	<e lm="uzdah"><i>uzdah</i><par n="danas__adv"/></e>
 	<e lm="humanistički"><i>humanistički</i><par n="danas__adv"/></e>
@@ -32701,7 +32681,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e lm="trivijalan"><i>trivijalan</i><par n="danas__adv"/></e>
 	<e lm="truljenje"><i>truljenje</i><par n="danas__adv"/></e>
 	<e lm="tri"><i>tri</i><par n="danas__adv"/></e>
-	<e lm="patnja"><i>patnja</i><par n="danas__adv"/></e>
 	<e lm="gorko"><i>gorko</i><par n="danas__adv"/></e>
 	<e lm="grupa"><i>grupa</i><par n="danas__adv"/></e>
 	<e lm="marketing"><i>marketing</i><par n="danas__adv"/></e>
@@ -32754,7 +32733,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	
 	<e lm="viseći"><i>viseći</i><par n="danas__adv"/></e>
 	<e lm="viskozan"><i>viskozan</i><par n="danas__adv"/></e>
-	<e lm="trešnja"><i>trešnja</i><par n="danas__adv"/></e>
 	<e lm="viteški"><i>viteški</i><par n="danas__adv"/></e>
 	<e lm="vizualno"><i>vizualno</i><par n="danas__adv"/></e>
 	<e lm="uključno"><i>uključno</i><par n="danas__adv"/></e>
@@ -45781,6 +45759,9 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--end Masculine nouns-->
 <!--Feminine nouns -->
 <e lm="vrata"><i>vrat</i><par n="vrat/a__n"/></e>
+<e lm="nosila"><i>nosil</i><par n="vrat/a__n"/></e>
+<e lm="obuća"><i>obuć</i><par n="žen/a__n"/></e>
+<e lm="odjeća"><i>od</i><par n="e_je__yat"/><i>ć</i><par n="žen/a__n"/></e>
 <e lm="poplava"><i>poplav</i><par n="žen/a__n"/></e>
 <e lm="staza"><i>staz</i><par n="žen/a__n"/></e>
 <e lm="torba"><i>torb</i><par n="žen/a__n"/></e>
@@ -45806,19 +45787,22 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="skupina"><i>skupin</i><par n="žen/a__n"/></e>
 <e lm="vatra"><i>vatr</i><par n="žen/a__n"/></e>
 <e lm="nagodba"><i>nagod</i><par n="nared/ba__n"/></e>
+<e lm="odredba"><i>odred</i><par n="nared/ba__n"/></e>
+<e lm="posudba"><i>posud</i><par n="nared/ba__n"/></e>
+<e lm="svjedodžba"><i>sv</i><par n="e_je__yat"/><i>dodž</i><par n="nared/ba__n"/></e>
 <e lm="burza"><i>burz</i><par n="žen/a__n"/></e>
 <e lm="istina"><i>istin</i><par n="žen/a__n"/></e>
 <e lm="godišnjica"><i>godišnjic</i><par n="žen/a__n"/></e>
 <e lm="veličina"><i>veličin</i><par n="žen/a__n"/></e>
 <e lm="šuma"><i>šum</i><par n="žen/a__n"/></e>
 <e lm="dojka"><i>doj</i><par n="sli/ka__n"/></e>
-<e lm="izgradnja"><i>izgradnj</i><par n="žen/a__n"/></e>
+<e lm="izgradnja"><i>izgradnj</i><par n="vožnj/a__n"/></e>
 <e lm="desetica"><i>desetic</i><par n="žen/a__n"/></e>
 <e lm="dužina"><i>dužin</i><par n="žen/a__n"/></e>
 <e lm="duljina"><i>duljin</i><par n="žen/a__n"/></e>
 <e lm="želja"><i>želj</i><par n="žen/a__n"/></e>
 <e lm="zadaća"><i>zadać</i><par n="žen/a__n"/></e>
-<e lm="prijetnja"><i>prijetnj</i><par n="žen/a__n"/></e>
+<e lm="prijetnja"><i>prijetnj</i><par n="vožnj/a__n"/></e>
 <e lm="obmana"><i>obman</i><par n="žen/a__n"/></e>
 <e lm="oluja"><i>oluj</i><par n="žen/a__n"/></e>
 <e lm="novina"><i>novin</i><par n="žen/a__n"/></e>
@@ -45873,8 +45857,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="prepreka"><i>prepre</i><par n="sli/ka__n"/></e>
 <e lm="provjera"><i>provjer</i><par n="žen/a__n"/></e>
 <e lm="procjena"><i>proc</i><par n="e_je__yat"/><i>n</i><par n="žen/a__n"/></e>
-<e lm="suradnja"><i>suradnj</i><par n="žen/a__n"/></e>
-<e lm="saradnja"><i>saradnj</i><par n="žen/a__n"/></e>
+<e lm="suradnja"><i>suradnj</i><par n="vožnj/a__n"/></e>
+<e lm="saradnja"><i>saradnj</i><par n="vožnj/a__n"/></e>
 <e lm="stopa"><i>stop</i><par n="žen/a__n"/></e>
 <e lm="fabrika"><i>fabri</i><par n="sli/ka__n"/></e>
 <e lm="tvornica"><i>tvornic</i><par n="žen/a__n"/></e>
@@ -45887,11 +45871,11 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="nebriga"><i>nebri</i><par n="knji/ga__n"/></e>
 <e lm="razbibriga"><i>razbibri</i><par n="knji/ga__n"/></e>
 <e lm="uvreda"><i>uvred</i><par n="žen/a__n"/></e>
-<e lm="pratnja"><i>pratnj</i><par n="žen/a__n"/></e>
+<e lm="pratnja"><i>pratnj</i><par n="vožnj/a__n"/></e>
 <e lm="desetgodišnjica"><i>desetgodišnjic</i><par n="žen/a__n"/></e>
 <e lm="krivica"><i>krivic</i><par n="žen/a__n"/></e>
 <e lm="praksa"><i>praks</i><par n="žen/a__n"/></e>
-<e lm="mržnja"><i>mržnj</i><par n="žen/a__n"/></e>
+<e lm="mržnja"><i>mržnj</i><par n="vožnj/a__n"/></e>
 <e lm="podrška"><i>podrš</i><par n="sli/ka__n"/></e>
 <e lm="obala"><i>obal</i><par n="žen/a__n"/></e>
 <e lm="palica"><i>palic</i><par n="žen/a__n"/></e>
@@ -45900,8 +45884,125 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="jetra"><i>jet</i><par n="sest/ra__n"/></e>
 <e lm="muha"><i>mu</i><par n="mu/ha__n"/></e>
 <e lm="buha"><i>bu</i><par n="mu/ha__n"/></e>
+<e lm="bilanca"><i>bilan</i><par n="vrp/ca__n"/></e>
 <e lm="cigara"><i>cigar</i><par n="žen/a__n"/></e>
 <e lm="žena"><i>žen</i><par n="žen/a__n"/></e>
+<e lm="administracija"><i>administracij</i><par n="žen/a__n"/></e>
+<e lm="agentica"><i>agentic</i><par n="žen/a__n"/></e>
+<e lm="aleja"><i>alej</i><par n="žen/a__n"/></e>
+<e lm="anamneza"><i>anamnez</i><par n="žen/a__n"/></e>
+<e lm="aparatura"><i>aparatur</i><par n="žen/a__n"/></e>
+<e lm="armada"><i>armad</i><par n="žen/a__n"/></e>
+<e lm="asocijacija"><i>asocijacij</i><par n="žen/a__n"/></e>
+<e lm="autocesta"><i>autocest</i><par n="žen/a__n"/></e>
+<e lm="autorica"><i>autoric</i><par n="žen/a__n"/></e>
+<e lm="babica"><i>babic</i><par n="žen/a__n"/></e>
+<e lm="bala"><i>bal</i><par n="žen/a__n"/></e>
+<e lm="bedarija"><i>bedarij</i><par n="žen/a__n"/></e>
+<e lm="bijeda"><i>bijed</i><par n="žen/a__n"/></e>
+<e lm="bilježnica"><i>bilježnic</i><par n="žen/a__n"/></e>
+<e lm="birokracija"><i>birokracij</i><par n="žen/a__n"/></e>
+<e lm="birokratija"><i>birokratij</i><par n="žen/a__n"/></e>
+<e lm="bjelina"><i>bjelin</i><par n="žen/a__n"/></e>
+<e lm="bjelkinja"><i>bjelkinj</i><par n="žen/a__n"/></e>
+<e lm="bljedoća"><i>bljedoć</i><par n="žen/a__n"/></e>
+<e lm="boja"><i>boj</i><par n="žen/a__n"/></e>
+<e lm="bradica"><i>bradic</i><par n="žen/a__n"/></e>
+<e lm="brana"><i>bran</i><par n="žen/a__n"/></e>
+<e lm="bratovština"><i>bratovštin</i><par n="žen/a__n"/></e>
+<e lm="brazgotina"><i>brazgotin</i><par n="žen/a__n"/></e>
+<e lm="britvica"><i>britvic</i><par n="žen/a__n"/></e>
+<e lm="brizgalica"><i>brizgalic</i><par n="žen/a__n"/></e>
+<e lm="buća"><i>buć</i><par n="žen/a__n"/></e>
+<e lm="butelja"><i>butelj</i><par n="žen/a__n"/></e>
+<e lm="buva"><i>buv</i><par n="žen/a__n"/></e>
+<e lm="carica"><i>caric</i><par n="žen/a__n"/></e>
+<e lm="čarobnica"><i>čarobnic</i><par n="žen/a__n"/></e>
+<e lm="čaša"><i>čaš</i><par n="žen/a__n"/></e>
+<e lm="ćelija"><i>ćelij</i><par n="žen/a__n"/></e>
+<e lm="ceremonija"><i>ceremonij</i><par n="žen/a__n"/></e>
+<e lm="cestarina"><i>cestarin</i><par n="žen/a__n"/></e>
+<e lm="četvrtina"><i>četvrtin</i><par n="žen/a__n"/></e>
+<e lm="cipela"><i>cipel</i><par n="žen/a__n"/></e>
+<e lm="čistačica"><i>čistačic</i><par n="žen/a__n"/></e>
+<e lm="čistoća"><i>čistoć</i><par n="žen/a__n"/></e>
+<e lm="cjepanica"><i>cjepanic</i><par n="žen/a__n"/></e>
+<e lm="članica"><i>članic</i><par n="žen/a__n"/></e>
+<e lm="crkvica"><i>crkvic</i><par n="žen/a__n"/></e>
+<e lm="crnina"><i>crnin</i><par n="žen/a__n"/></e>
+<e lm="crnkinja"><i>crnkinj</i><par n="žen/a__n"/></e>
+<e lm="crta"><i>crt</i><par n="žen/a__n"/></e>
+<e lm="čutura"><i>čutur</i><par n="žen/a__n"/></e>
+<e lm="daljina"><i>daljin</i><par n="žen/a__n"/></e>
+<e lm="dekadencija"><i>dekadencij</i><par n="žen/a__n"/></e>
+<e lm="deklaracija"><i>deklaracij</i><par n="žen/a__n"/></e>
+<e lm="depeša"><i>depeš</i><par n="žen/a__n"/></e>
+<e lm="desetina"><i>desetin</i><par n="žen/a__n"/></e>
+<e lm="desnica"><i>desnic</i><par n="žen/a__n"/></e>
+<e lm="dijagnoza"><i>dijagnoz</i><par n="žen/a__n"/></e>
+<e lm="dijeta"><i>dijet</i><par n="žen/a__n"/></e>
+<e lm="dionica"><i>dionic</i><par n="žen/a__n"/></e>
+<e lm="diplomacija"><i>diplomacij</i><par n="žen/a__n"/></e>
+<e lm="diplomatija"><i>diplomatij</i><par n="žen/a__n"/></e>
+<e lm="diskusija"><i>diskusij</i><par n="žen/a__n"/></e>
+<e lm="divizija"><i>divizij</i><par n="žen/a__n"/></e>
+<e lm="divljina"><i>divljin</i><par n="žen/a__n"/></e>
+<e lm="djetelina"><i>djetelin</i><par n="žen/a__n"/></e>
+<e lm="djevica"><i>djevic</i><par n="žen/a__n"/></e>
+<e lm="dobitnica"><i>dobitnic</i><par n="žen/a__n"/></e>
+<e lm="dobrodošlica"><i>dobrodošlic</i><par n="žen/a__n"/></e>
+<e lm="dogodovština"><i>dogodovštin</i><par n="žen/a__n"/></e>
+<e lm="dolinica"><i>dolinic</i><par n="žen/a__n"/></e>
+<e lm="domaćica"><i>domaćic</i><par n="žen/a__n"/></e>
+<e lm="domovina"><i>domovin</i><par n="žen/a__n"/></e>
+<e lm="dopisnica"><i>dopisnic</i><par n="žen/a__n"/></e>
+<e lm="doplata"><i>doplat</i><par n="žen/a__n"/></e>
+<e lm="dopuna"><i>dopun</i><par n="žen/a__n"/></e>
+<e lm="drolja"><i>drolj</i><par n="žen/a__n"/></e>
+<e lm="družica"><i>družic</i><par n="žen/a__n"/></e>
+<e lm="družina"><i>družin</i><par n="žen/a__n"/></e>
+<e lm="duplja"><i>duplj</i><par n="žen/a__n"/></e>
+<e lm="instruktorica"><i>instruktoric</i><par n="žen/a__n"/></e>
+<e lm="isplata"><i>isplat</i><par n="žen/a__n"/></e>
+<e lm="koliba"><i>kolib</i><par n="žen/a__n"/></e>
+<e lm="krhotina"><i>krhotin</i><par n="žen/a__n"/></e>
+<e lm="krma"><i>krm</i><par n="žen/a__n"/></e>
+<e lm="krpa"><i>krp</i><par n="žen/a__n"/></e>
+<e lm="lisnica"><i>lisnic</i><par n="žen/a__n"/></e>
+<e lm="lomilica"><i>lomilic</i><par n="žen/a__n"/></e>
+<e lm="mašta"><i>mašt</i><par n="žen/a__n"/></e>
+<e lm="miješalica"><i>miješalic</i><par n="žen/a__n"/></e>
+<e lm="mrvica"><i>mrvic</i><par n="žen/a__n"/></e>
+<e lm="mrvičica"><i>mrvičic</i><par n="žen/a__n"/></e>
+<e lm="nadoknada"><i>nadoknad</i><par n="žen/a__n"/></e>
+<e lm="naknada"><i>naknad</i><par n="žen/a__n"/></e>
+<e lm="objava"><i>objav</i><par n="žen/a__n"/></e>
+<e lm="obmana"><i>obman</i><par n="žen/a__n"/></e>
+<e lm="opomena"><i>opomen</i><par n="žen/a__n"/></e>
+<e lm="otplata"><i>otplat</i><par n="žen/a__n"/></e>
+<e lm="pčela"><i>pčel</i><par n="žen/a__n"/></e>
+<e lm="pisalica"><i>pisalic</i><par n="žen/a__n"/></e>
+<e lm="poljoprivreda"><i>poljoprivred</i><par n="žen/a__n"/></e>
+<e lm="posveta"><i>posvet</i><par n="žen/a__n"/></e>
+<e lm="pozivnica"><i>pozivnic</i><par n="žen/a__n"/></e>
+<e lm="primalja"><i>primalj</i><par n="žen/a__n"/></e>
+<e lm="priznanica"><i>priznanic</i><par n="žen/a__n"/></e>
+<e lm="radionica"><i>radionic</i><par n="žen/a__n"/></e>
+<e lm="razonoda"><i>razonod</i><par n="žen/a__n"/></e>
+<e lm="rječca"><i>rječc</i><par n="žen/a__n"/></e>
+<e lm="roba"><i>rob</i><par n="žen/a__n"/></e>
+<e lm="škrabotina"><i>škrabotin</i><par n="žen/a__n"/></e>
+<e lm="špijunaža"><i>špijunaž</i><par n="žen/a__n"/></e>
+<e lm="stanica"><i>stanic</i><par n="žen/a__n"/></e>
+<e lm="straćara"><i>straćar</i><par n="žen/a__n"/></e>
+<e lm="taverna"><i>tavern</i><par n="žen/a__n"/></e>
+<e lm="tradicija"><i>tradicij</i><par n="žen/a__n"/></e>
+<e lm="uputnica"><i>uputnic</i><par n="žen/a__n"/></e>
+<e lm="vještica"><i>vještic</i><par n="žen/a__n"/></e>
+<e lm="vodilja"><i>vodilj</i><par n="žen/a__n"/></e>
+<e lm="vodilica"><i>vodilic</i><par n="žen/a__n"/></e>
+<e lm="zabluda"><i>zablud</i><par n="žen/a__n"/></e>
+<e lm="zemlja"><i>zemlj</i><par n="žen/a__n"/></e>
 <e lm="baka"><i>bak</i><par n="žen/a__n"/></e>
 <e lm="traka"><i>trak</i><par n="žen/a__n"/></e>
 <e lm="soba"><i>sob</i><par n="žen/a__n"/></e>
@@ -45939,7 +46040,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="manjina"><i>manjin</i><par n="žen/a__n"/></e>
 <e lm="nemirnost"><i>nemirno</i><par n="ma/st__n"/></e>
 <e lm="nepokretnost"><i>nepokretno</i><par n="ma/st__n"/></e>
-<e lm="nesuradnja"><i>nesuradnj</i><par n="žen/a__n"/></e>
+<e lm="nesuradnja"><i>nesuradnj</i><par n="vožnj/a__n"/></e>
 <e lm="oborina"><i>oborin</i><par n="žen/a__n"/></e>
 <e lm="odšteta"><i>odštet</i><par n="žen/a__n"/></e>
 <e lm="osjećajnost"><i>os</i><par n="e_je__yat"/><i>ćajno</i><par n="ma/st__n"/></e>
@@ -46018,7 +46119,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="zgrada"><i>zgrad</i><par n="žen/a__n"/></e>
 <e lm="kriza"><i>kriz</i><par n="žen/a__n"/></e>
 <e lm="agora"><i>agor</i><par n="žen/a__n"/></e>
-<e lm="torta"><i>tort</i><par n="žen/a__n"/></e>
 <e lm="šuma"><i>šum</i><par n="žen/a__n"/></e>
 <e lm="količina"><i>količin</i><par n="žen/a__n"/></e>
 <e lm="prašina"><i>prašin</i><par n="žen/a__n"/></e>
@@ -46123,7 +46223,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="posjeta"><i>posjet</i><par n="žen/a__n"/></e>
 <e lm="posljedica"><i>posljedic</i><par n="žen/a__n"/></e>
 <e lm="potreba"><i>potreb</i><par n="žen/a__n"/></e>
-<e lm="pravda"><i>pravd</i><par n="žen/a__n"/></e>
 <e lm="presuda"><i>presud</i><par n="žen/a__n"/></e>
 <e lm="kazna"><i>kazn</i><par n="žen/a__n"/></e>
 <e lm="primjena"><i>primjen</i><par n="žen/a__n"/></e>
@@ -46653,6 +46752,10 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="kabina"><i>kabin</i><par n="žen/a__n"/></e>
 <e lm="visina"><i>visin</i><par n="žen/a__n"/></e>
 <e lm="vožnja"><i>vožnj</i><par n="vožnj/a__n"/></e>
+<e lm="tvrdnja"><i>tvrdnj</i><par n="vožnj/a__n"/></e>
+<e lm="blagajna"><i>blagajn</i><par n="vožnj/a__n"/></e>
+<e lm="brodogradnja"><i>brodogradnj</i><par n="vožnj/a__n"/></e>
+<e lm="cisterna"><i>cistern</i><par n="vožnj/a__n"/></e>
 <e lm="slika"><i>sli</i><par n="sli/ka__n"/></e>
 <e lm="odluka"><i>odlu</i><par n="sli/ka__n"/></e>
 <e lm="stranka"><i>stran</i><par n="sli/ka__n"/></e>
@@ -46667,14 +46770,18 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="crkva"><i>crk</i><par n="buk/va__n"/></e>
 <e lm="sestra"><i>sest</i><par n="sest/ra__n"/></e>
 <e lm="naredba"><i>nared</i><par n="nared/ba__n"/></e>
-<e lm="kadetkinja"><i>kadetki</i><par n="treš/nja__n"/></e>
+<e lm="kadetkinja"><i>kadetki</i><par n="žen/a__n"/></e>
 <e lm="knjiga"><i>knji</i><par n="knji/ga__n"/></e>
 <e lm="žalba"><i>žal</i><par n="dvoj/ba__n"/></e>
 <e lm="bomba"><i>bom</i><par n="dvoj/ba__n"/></e>
 <e lm="pravda"><i>prav</i><par n="bun/da__n"/></e>
+<e lm="nepravda"><i>prav</i><par n="bun/da__n"/></e>
+<e lm="avangarda"><i>avangar</i><par n="bun/da__n"/></e>
 <e lm="tajna"><i>taj</i><par n="taj/na__n"/></e>
 <e lm="kazna"><i>kaz</i><par n="taj/na__n"/></e>
 <e lm="torta"><i>tor</i><par n="tor/ta__n"/></e>
+<e lm="tin"><i>tin</i><par n="plah/ta__n"/></e>
+<e lm="ambulan"><i>ambulan</i><par n="tor/ta__n"/></e>
 <e lm="ruka"><i>ru</i><par n="ru/ka__n"/></e>
 <!--Without sibilarisation of the root-->
 <e lm="kocka"><i>koc</i><par n="pat/ka__n"/></e>
