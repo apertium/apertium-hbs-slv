@@ -6667,7 +6667,7 @@
     <!-- The verb to be -->
     <e r="LR"><p><l>biti<s n="vbser"/></l><r>biti<s n="vbser"/></r></p></e>
     <e><p><l>biti<s n="vbser"/><s n="inf"/></l><r>biti<s n="vbser"/><s n="inf"/></r></p></e>
-    <e><p><l>biti<s n="vbser"/><s n="supn"/></l><r>biti<s n="vbser"/><s n="inf"/></r></p></e>
+    <e><p><l>biti<s n="vbser"/><s n="inf"/></l><r>biti<s n="vbser"/><s n="supn"/></r></p></e>
     <e><p><l>biti<s n="vbser"/><s n="clt"/></l><r>biti<s n="vbser"/></r></p></e>
 
     <e r="LR"><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: this is a tmp one biti<vblex> == to beat, biti<vbser> == to be-->
@@ -11420,6 +11420,7 @@
 
 
     <!-- SECTION Conjunctions -->
+    <e><p><l>i<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
     <e><p><l>i<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
     <e><p><l>a<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
     <e><p><l>ali<s n="cnjcoo"/></l><r>ampak<s n="cnjcoo"/></r></p></e>

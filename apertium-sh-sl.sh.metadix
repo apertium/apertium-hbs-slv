@@ -46031,7 +46031,9 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="isplata"><i>isplat</i><par n="žen/a__n"/></e>
 <e lm="koliba"><i>kolib</i><par n="žen/a__n"/></e>
 <e lm="krhotina"><i>krhotin</i><par n="žen/a__n"/></e>
-<e lm="krma"><i>krm</i><par n="žen/a__n"/></e>
+<e lm="kŕm"><i>kŕm</i><par n="žen/a__n"/></e><!-- Cattle food -->
+<e lm="kȑma"><i>kȑm</i><par n="žen/a__n"/></e><!--The front part of a ship-->
+<e lm="krma"><i>krm</i><par n="žen/a__n"/></e><!--Both-->
 <e lm="krpa"><i>krp</i><par n="žen/a__n"/></e>
 <e lm="lisnica"><i>lisnic</i><par n="žen/a__n"/></e>
 <e lm="lomilica"><i>lomilic</i><par n="žen/a__n"/></e>
