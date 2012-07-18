@@ -184,6 +184,11 @@
       <cat-item tags="det"/>
       <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="cnj">
+      <cat-item tags="cnjcoo"/>
+	  <cat-item tags="cnjsub"/>
+      <cat-item tags="cnjadv"/>
+    </def-cat>
     <def-cat n="exp">
       <cat-item tags="part.exp"/>
     </def-cat>
@@ -223,6 +228,9 @@
     </def-cat>
     <def-cat n="cm">
       <cat-item lemma="," tags="cm"/>
+    </def-cat>
+    <def-cat n="vblex_to_adv">
+      <cat-item tags="vblex.*.*.pprs.adv"/>
     </def-cat>
 
   </section-def-cats>
@@ -267,6 +275,16 @@
       <attr-item tags="det"/>
     </def-attr>
 
+    <def-attr n="a_part">
+      <attr-item tags="part"/>
+    </def-attr>
+
+    <def-attr n="a_cnj">
+      <attr-item tags="cnjcoo"/>
+	  <attr-item tags="cnjsub"/>
+	  <attr-item tags="cnjadv"/>
+    </def-attr>
+
     <def-attr n="a_adv_form_SH">
       <attr-item tags="comp"/>
       <attr-item tags="sup"/>
@@ -307,7 +325,6 @@
       <attr-item tags="iv"/>
       <attr-item tags="ref"/>
     </def-attr>
-
 
     <def-attr n="asp">
       <attr-item tags="perf"/>
@@ -644,6 +661,28 @@
   </section-def-macros>
 
   <section-rules>
+	
+	<rule comment="vblex (SH) to ADV (sl)">
+      <pattern>
+		<pattern-item n="vblex_to_adv"/>
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<out>
+		  <chunk name="Vblex-to-adv" case="caseFirstWord">
+		    <tags>
+	          <tag><lit-tag v="VB"/></tag>
+		    </tags>
+		    <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+		      <clip pos="1" side="tl" part="a_adv"/>
+		      <lit-tag v="sint"/>
+		    </lu>
+		  </chunk>
+		</out>
+      </action>
+    </rule>
+	
     <rule comment="vblex">
       <pattern>
 		<pattern-item n="vblex"/>
@@ -1086,6 +1125,95 @@
       <action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<choose>
+			
+			<when>
+			    <test>
+					<and>
+						<equal>
+						  <clip pos="1" side="sl" part="a_adv"/>
+						  <lit-tag v="adv"/>
+						</equal>
+						<equal>
+						  <clip pos="1" side="tl" part="a_part"/>
+						  <lit-tag v="part"/>
+						</equal>
+					</and>
+			    </test>	
+			    <out>
+			      <chunk name="Adv-to-Part" case="caseFirstWord">
+					<tags>
+					  <tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+					  <clip pos="1" side="tl" part="lemh"/>
+					  <clip pos="1" side="tl" part="a_part"/>
+					</lu>
+			      </chunk>
+			    </out>
+			  </when>
+				<when>
+				    <test>
+						<and>
+							<equal>
+							  <clip pos="1" side="sl" part="a_adv"/>
+							  <lit-tag v="adv"/>
+							</equal>
+							<equal>
+							  <clip pos="1" side="tl" part="a_prp"/>
+							  <lit-tag v="pr"/>
+							</equal>
+						</and>
+				    </test>	
+				    <out>
+				      <chunk name="Adv-to-Pr" case="caseFirstWord">
+						<tags>
+						  <tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+						  <clip pos="1" side="tl" part="lemh"/>
+						  <clip pos="1" side="tl" part="a_prp"/>
+						  <clip pos="1" side="tl" part="cas"/>
+						</lu>
+				      </chunk>
+				    </out>
+				  </when>
+				<when>
+				    <test>
+						<and>
+							<equal>
+							  <clip pos="1" side="sl" part="a_adv"/>
+							  <lit-tag v="adv"/>
+							</equal>
+							<or>
+							<equal>
+							  <clip pos="1" side="tl" part="a_cnj"/>
+							  <lit-tag v="cnjcoo"/>
+							</equal>
+							<equal>
+							  <clip pos="1" side="tl" part="a_cnj"/>
+							  <lit-tag v="cnjsub"/>
+							</equal>
+							<equal>
+							  <clip pos="1" side="tl" part="a_cnj"/>
+							  <lit-tag v="cnjadv"/>
+							</equal>
+							</or>
+						</and>
+				    </test>	
+				    <out>
+				      <chunk name="Adv-to-Cnj" case="caseFirstWord">
+						<tags>
+						  <tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+						  <clip pos="1" side="tl" part="lemh"/>
+						  <clip pos="1" side="tl" part="a_cnj"/>
+						</lu>
+				      </chunk>
+				    </out>
+				  </when>
+			
+			
 		  <when>
 		    <test>
 				<and>

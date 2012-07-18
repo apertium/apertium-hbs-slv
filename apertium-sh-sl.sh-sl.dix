@@ -505,6 +505,7 @@
     <e><p><l>kineski<s n="adv"/></l><r>kitajsko<s n="adv"/></r></p></e>
     <e><p><l>gdje<s n="adv"/></l><r>kje<s n="adv"/></r></p></e>
     <e><p><l>kuda<s n="adv"/></l><r>kod<s n="adv"/></r></p></e>
+    <e><p><l>ikuda<s n="adv"/></l><r>kod<s n="adv"/></r></p></e>
     <e><p><l>konstruktivno<s n="adv"/></l><r>konstruktivno<s n="adv"/></r></p></e>
     <e><p><l>pravilno<s n="adv"/></l><r>korektno<s n="adv"/></r></p></e>
     <e><p><l>gusto<s n="adv"/></l><r>košato<s n="adv"/></r></p></e>
@@ -6514,8 +6515,152 @@
     <e><p><l>umaknuti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>umikajoč<s n="adv"/></r></p></e>
     <e><p><l>laknuti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>lajšajoč<s n="adv"/></r></p></e>
     <e><p><l>odlanuti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>lajšajoč<s n="adv"/></r></p></e>
-    
-
+	<e><p><l>svirati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>svirajoč<s n="adv"/></r></p></e>
+	<e><p><l>svirati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>svirajoč<s n="adv"/></r></p></e>
+	<e><p><l>spakirati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>pakirajoč<s n="adv"/></r></p></e>
+	<e><p><l>spakirati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>pakirajoč<s n="adv"/></r></p></e>
+	<e><p><l>ugledati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>gledajoč<s n="adv"/></r></p></e>
+	<e><p><l>ugledati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>gledajoč<s n="adv"/></r></p></e>
+	<e><p><l>koštati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>veljajoč<s n="adv"/></r></p></e>
+	<e><p><l>koštati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>veljajoč<s n="adv"/></r></p></e>
+	<e><p><l>odrijemati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>dremajoč<s n="adv"/></r></p></e>
+	<e><p><l>spuštati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>spuščajoč<s n="adv"/></r></p></e>
+	<e><p><l>spuštati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>spuščajoč<s n="adv"/></r></p></e>
+	<e><p><l>sračunati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>računajoč<s n="adv"/></r></p></e>
+	<e><p><l>uklapati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>vklapljajoč<s n="adv"/></r></p></e>
+	<e><p><l>umiješati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>mešajoč<s n="adv"/></r></p></e>
+	<e><p><l>pridržati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>držeč<s n="adv"/></r></p></e>
+	<e><p><l>ustajati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>vstajajoč<s n="adv"/></r></p></e>
+	<e><p><l>okarakterizirati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>karakterizirajoč<s n="adv"/></r></p></e>
+	<e><p><l>blagoslivljati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>blagoslavljajoč<s n="adv"/></r></p></e>
+	<e><p><l>duvati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>pihajoč<s n="adv"/></r></p></e>
+	<e><p><l>vjenčati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>poročen<s n="adv"/></r></p></e>
+	<e><p><l>vjenčati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>poročen<s n="adv"/></r></p></e>
+	<e><p><l>saznati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>spoznavajoč<s n="adv"/></r></p></e>
+	<e><p><l>doznati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>spoznavajoč<s n="adv"/></r></p></e>
+	<e><p><l>osigurati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>zagotavljajoč<s n="adv"/></r></p></e>
+	<e><p><l>vraćati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>vračajoč<s n="adv"/></r></p></e>
+	<e><p><l>vraćati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>vračajoč<s n="adv"/></r></p></e>
+	<e><p><l>vaditi<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>vadeč<s n="adv"/></r></p></e>
+	<e><p><l>vaditi<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>vadeč<s n="adv"/></r></p></e>
+	<e><p><l>probuditi<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>zbujajoč<s n="adv"/></r></p></e>
+	<e><p><l>probuditi<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>zbujajoč<s n="adv"/></r></p></e>
+	<e><p><l>piti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>pijoč<s n="adv"/></r></p></e>
+	<e><p><l>piti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>pijoč<s n="adv"/></r></p></e>
+	<e><p><l>oprostiti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>oproščajoč<s n="adv"/></r></p></e>
+	<e><p><l>oprostiti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>oproščajoč<s n="adv"/></r></p></e>
+	<e><p><l>oprostiti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>oproščajoč<s n="adv"/></r></p></e>
+	<e><p><l>sjetiti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>spominjajoč<s n="adv"/></r></p></e>
+	<e><p><l>sjetiti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>spominjajoč<s n="adv"/></r></p></e>
+	<e><p><l>uputiti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>usmerjajoč<s n="adv"/></r></p></e>
+	<e><p><l>pokupiti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>pokupljen<s n="adv"/></r></p></e>
+	<e><p><l>izraziti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>izražajoč<s n="adv"/></r></p></e>
+	<e><p><l>izraziti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>izražajoč<s n="adv"/></r></p></e>
+	<e><p><l>objasniti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>pojasnjujoč<s n="adv"/></r></p></e>
+	<e><p><l>udariti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>udarjajoč<s n="adv"/></r></p></e>
+	<e><p><l>udariti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>udarjajoč<s n="adv"/></r></p></e>
+	<e><p><l>udariti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>udarjajoč<s n="adv"/></r></p></e>
+	<e><p><l>suočiti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>soočajoč<s n="adv"/></r></p></e>
+	<e><p><l>odgovoriti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>odgovarjajoč<s n="adv"/></r></p></e>
+	<e><p><l>uključiti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>vključujoč<s n="adv"/></r></p></e>
+	<e><p><l>smanjiti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>zmanjšujoč<s n="adv"/></r></p></e>
+	<e><p><l>saopštiti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>razkrivajoč<s n="adv"/></r></p></e>
+	<e><p><l>kimnuti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>kimajoč<s n="adv"/></r></p></e>
+	<e><p><l>krenuti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>kimajoč<s n="adv"/></r></p></e>
+	<e><p><l>sučeljavati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>soočajoč<s n="adv"/></r></p></e>
+	<e><p><l>ispunjavati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>izpolnjujoč<s n="adv"/></r></p></e>
+	<e><p><l>ograničavati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>omejujoč<s n="adv"/></r></p></e>
+	<e><p><l>olakšavati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>olajšujoč<s n="adv"/></r></p></e>
+	<e><p><l>olakšavati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>olajšujoč<s n="adv"/></r></p></e>
+	<e><p><l>usaglašavati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>usklajujoč<s n="adv"/></r></p></e>
+	<e><p><l>usuglašavati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>usklajujoč<s n="adv"/></r></p></e>
+	<e><p><l>usaglašavati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>usklajujoč<s n="adv"/></r></p></e>
+	<e><p><l>usuglašavati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>usklajujoč<s n="adv"/></r></p></e>
+	<e><p><l>iseljavati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>izseljujoč<s n="adv"/></r></p></e>
+	<e><p><l>iseljavati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>izseljujoč<s n="adv"/></r></p></e>
+	<e><p><l>iseljavati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>izseljujoč<s n="adv"/></r></p></e>
+	<e><p><l>obučavati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>poučujoč<s n="adv"/></r></p></e>
+	<e><p><l>obučavati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>poučujoč<s n="adv"/></r></p></e>
+	<e><p><l>porobljavati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>zasužnjujoč<s n="adv"/></r></p></e>
+	<e><p><l>smrzavati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>zmrzujoč<s n="adv"/></r></p></e>
+	<e><p><l>izjašnjavati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>pojasnjujoč<s n="adv"/></r></p></e>
+	<e><p><l>ojačavati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>ojačujoč<s n="adv"/></r></p></e>
+	<e><p><l>ojačavati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>ojačujoč<s n="adv"/></r></p></e>
+	<e><p><l>pobjeđivati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>premagujoč<s n="adv"/></r></p></e>
+	<e><p><l>pridruživati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>pridružujoč<s n="adv"/></r></p></e>
+	<e><p><l>ograđivati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>ograjujoč<s n="adv"/></r></p></e>
+	<e><p><l>određivati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>določan<s n="adv"/></r></p></e>
+	<e><p><l>otpisivati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>odpisujoč<s n="adv"/></r></p></e>
+	<e><p><l>otpisivati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>odpisujoč<s n="adv"/></r></p></e>
+	<e><p><l>otpisivati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>odpisujoč<s n="adv"/></r></p></e>
+	<e><p><l>pomirivati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>pomirjujoč<s n="adv"/></r></p></e>
+	<e><p><l>popisivati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>popisujoč<s n="adv"/></r></p></e>
+	<e><p><l>skraćivati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>skrajšujoč<s n="adv"/></r></p></e>
+	<e><p><l>skraćivati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>skrajšujoč<s n="adv"/></r></p></e>
+	<e><p><l>nagrađivati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>nagrajujoč<s n="adv"/></r></p></e>
+	<e><p><l>nagrađivati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>nagrajujoč<s n="adv"/></r></p></e>
+	<e><p><l>pozajmljivati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>posojajoč<s n="adv"/></r></p></e>
+	<e><p><l>prikazivati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>prikazujoč<s n="adv"/></r></p></e>
+	<e><p><l>razrješivati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>razrešujoč<s n="adv"/></r></p></e>
+	<e><p><l>opterećivati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>obremenjujoč<s n="adv"/></r></p></e>
+	<e><p><l>opterećivati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>obremenjujoč<s n="adv"/></r></p></e>
+	<e><p><l>isplaćivati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>izplačujoč<s n="adv"/></r></p></e>
+	<e><p><l>otplaćivati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>odplačujoč<s n="adv"/></r></p></e>
+	<e><p><l>gladovati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>stradajoč<s n="adv"/></r></p></e>
+	<e><p><l>dići<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>dvigajoč<s n="adv"/></r></p></e>
+	<e><p><l>dići<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>dvigajoč<s n="adv"/></r></p></e>
+	<e><p><l>zapisati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>zapisujoč<s n="adv"/></r></p></e>
+	<e><p><l>dopisati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>dopisujoč<s n="adv"/></r></p></e>
+	<e><p><l>popisati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>popisujoč<s n="adv"/></r></p></e>
+	<e><p><l>dokazati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>dokazujoč<s n="adv"/></r></p></e>
+	<e><p><l>pokazati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>pokazujoč<s n="adv"/></r></p></e>
+	<e><p><l>zavezati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>zavezujoč<s n="adv"/></r></p></e>
+	<e><p><l>zavezati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>zavezujoč<s n="adv"/></r></p></e>
+	<e><p><l>zavezati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>zavezujoč<s n="adv"/></r></p></e>
+	<e><p><l>parkirati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>parkirajoč<s n="adv"/></r></p></e>
+	<e><p><l>parkirati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>parkirajoč<s n="adv"/></r></p></e>
+	<e><p><l>parkirati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>parkirajoč<s n="adv"/></r></p></e>
+	<e><p><l>ukrcati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>vkrcan<s n="adv"/></r></p></e>
+	<e><p><l>rezultirati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>rezultirajoč<s n="adv"/></r></p></e>
+	<e><p><l>rezultirati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>rezultirajoč<s n="adv"/></r></p></e>
+	<e><p><l>obamirati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>omedlevajoč<s n="adv"/></r></p></e>
+	<e><p><l>komandirati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>komandirajoč<s n="adv"/></r></p></e>
+	<e><p><l>komandirati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>komandirajoč<s n="adv"/></r></p></e>
+	<e><p><l>verificirati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>preverjajoč<s n="adv"/></r></p></e>
+	<e><p><l>verificirati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>preverjajoč<s n="adv"/></r></p></e>
+	<e><p><l>modificirati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>spreminjajoč<s n="adv"/></r></p></e>
+	<e><p><l>modificirati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>spreminjajoč<s n="adv"/></r></p></e>
+	<e><p><l>modificirati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>spreminjajoč<s n="adv"/></r></p></e>
+	<e><p><l>modificirati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>spreminjajoč<s n="adv"/></r></p></e>
+	<e><p><l>deblokirati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>deblokirajoč<s n="adv"/></r></p></e>
+	<e><p><l>deblokirati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>deblokirajoč<s n="adv"/></r></p></e>
+	<e><p><l>reorganizirati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>organizirajoč<s n="adv"/></r></p></e>
+	<e><p><l>reorganizirati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>organizirajoč<s n="adv"/></r></p></e>
+	<e><p><l>reorganizirati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>organizirajoč<s n="adv"/></r></p></e>
+	<e><p><l>reorganizirati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>organizirajoč<s n="adv"/></r></p></e>
+	<e><p><l>bazirati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>baziran<s n="adv"/></r></p></e>
+	<e><p><l>harmonizirati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>harmonizirajoč<s n="adv"/></r></p></e>
+	<e><p><l>harmonizirati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>harmonizirajoč<s n="adv"/></r></p></e>
+	<e><p><l>harmonizirati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>harmonizirajoč<s n="adv"/></r></p></e>
+	<e><p><l>harmonizirati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>harmonizirajoč<s n="adv"/></r></p></e>
+	<e><p><l>okarakterizirati<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>karakterizirajoč<s n="adv"/></r></p></e>
+	<e><p><l>svoditi<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>padajoč<s n="adv"/></r></p></e>
+	<e><p><l>zaustaviti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>zaustavljajoč<s n="adv"/></r></p></e>
+	<e><p><l>zaustaviti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>zaustavljajoč<s n="adv"/></r></p></e>
+	<e><p><l>buniti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>protestirajoč<s n="adv"/></r></p></e>
+	<e><p><l>buniti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>protestirajoč<s n="adv"/></r></p></e>
+	<e><p><l>lomiti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>lomeč<s n="adv"/></r></p></e>
+	<e><p><l>teretiti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>obtožujoč<s n="adv"/></r></p></e>
+	<e><p><l>podijeliti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>podeljujoč<s n="adv"/></r></p></e>
+	<e><p><l>gušiti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>daveč<s n="adv"/></r></p></e>
+	<e><p><l>žuriti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></l><r>hiteč<s n="adv"/></r></p></e>
+	<e><p><l>žuriti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>hiteč<s n="adv"/></r></p></e>
+	<e><p><l>požuriti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>hiteč<s n="adv"/></r></p></e>
+	<e><p><l>požuriti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>hiteč<s n="adv"/></r></p></e>
+	<e><p><l>spomenuti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></l><r>omenjajoč<s n="adv"/></r></p></e>
+	<e><p><l>spomenuti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>omenjajoč<s n="adv"/></r></p></e>
+	<e><p><l>pokrenuti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>pomaknjen<s n="adv"/></r></p></e>
+	<e><p><l>opomenuti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></l><r>opominjajoč<s n="adv"/></r></p></e>
 
     <!--Verbs-->
     
@@ -11038,7 +11183,13 @@
     <!-- Particles -->
     <e><p><l>li<s n="part"/><s n="itg"/></l><r>tudi<s n="part"/></r></p></e>
 
-
+	<!-- Adv (SH) to Particles (SL) (rule added) -->
+    <e><p><l>valjda<s n="adv"/></l><r>menda<s n="part"/></r></p></e>
+    <e><p><l>ikako<s n="adv"/></l><r>le<s n="part"/></r></p></e>
+    <e><p><l>barem<s n="adv"/></l><r>vsaj<s n="part"/></r></p></e>
+    <e><p><l>uopće<s n="adv"/></l><r>sploh<s n="part"/></r></p></e>
+    <e><p><l>navodno<s n="adv"/></l><r>baje<s n="part"/></r></p></e>
+	
 
 
     
@@ -11147,6 +11298,9 @@
     <e><p><l>zbog<s n="pr"/></l><r>zaradi<s n="pr"/></r></p></e>
 
 
+	<!-- Adverb (SH) to Preposition - rule added -->
+    <e><p><l>umjesto<s n="adv"/></l><r>namesto<s n="pr"/><s n="gen"/></r></p></e>
+    <e><p><l>tijekom<s n="adv"/></l><r>tekom<s n="pr"/><s n="gen"/></r></p></e>
 
 
 
@@ -11354,6 +11508,25 @@
     <e><p><l>mada<s n="cnjsub"/></l><r>vendar<s n="cnjsub"/></r></p></e>
     <e><p><l>neka<s n="cnjsub"/></l><r>ker<s n="cnjsub"/></r></p></e> <!-- wrong -->
     
+	
+	<!-- Adverb (SH) to Conjunctions (SL) - rule added -->
+    <e><p><l>predno<s n="adv"/></l><r>predno<s n="cnjsub"/></r></p></e>
+    <e><p><l>otkako<s n="adv"/></l><r>odkar<s n="cnjsub"/></r></p></e>
+    <e><p><l>kad<s n="adv"/></l><r>kadar<s n="cnjsub"/></r></p></e>
+    <e><p><l>otkad<s n="adv"/></l><r>odkar<s n="cnjsub"/></r></p></e>
+    <e><p><l>ako<s n="adv"/></l><r>če<s n="cnjsub"/></r></p></e>
+    <e><p><l>ipak<s n="adv"/></l><r>vendar<s n="cnjsub"/></r></p></e>
+    <e><p><l>odnosno<s n="adv"/></l><r>oziroma<s n="cnjcoo"/></r></p></e>
+    <e><p><l>otkada<s n="adv"/></l><r>odkar<s n="cnjsub"/></r></p></e>
+	<!-- Vprašalnice -->
+    <e><p><l>ikamo<s n="adv"/></l><r>kam<s n="cnjcoo"/></r></p></e>
+    <e><p><l>otkud<s n="adv"/></l><r>od<b/>kod<s n="cnjcoo"/></r></p></e>
+    <e><p><l>otkuda<s n="adv"/></l><r>od<b/>kod<s n="cnjcoo"/></r></p></e>
+    <e><p><l>odakle<s n="adv"/></l><r>od<b/>kod<s n="cnjcoo"/></r></p></e>
+    <e><p><l>dokle<s n="adv"/></l><r>do<b/>kod<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ikud<s n="adv"/></l><r>kam<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ukoliko<s n="adv"/></l><r>koliko<s n="cnjcoo"/></r></p></e>
+	
 
     <!-- test -->
     <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>zakaj<s n="prn"/><s n="itg"/></r></p></e>
