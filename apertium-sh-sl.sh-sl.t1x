@@ -229,9 +229,6 @@
     <def-cat n="cm">
       <cat-item lemma="," tags="cm"/>
     </def-cat>
-    <def-cat n="vblex_to_adv">
-      <cat-item tags="vblex.*.*.pprs.adv"/>
-    </def-cat>
 
   </section-def-cats>
 
@@ -407,6 +404,9 @@
       <attr-item tags="neg"/>
     </def-attr>
 
+    <def-attr n="vrb_adv">
+      <attr-item tags="vblex.adv"/>
+    </def-attr>
 
   </section-def-attrs>
 
@@ -662,27 +662,6 @@
 
   <section-rules>
 	
-	<rule comment="vblex (SH) to ADV (sl)">
-      <pattern>
-		<pattern-item n="vblex_to_adv"/>
-      </pattern>
-      <action>
-		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
-		<out>
-		  <chunk name="Vblex-to-adv" case="caseFirstWord">
-		    <tags>
-	          <tag><lit-tag v="VB"/></tag>
-		    </tags>
-		    <lu>
-	          <clip pos="1" side="tl" part="lemh"/>
-		      <clip pos="1" side="tl" part="a_adv"/>
-		      <lit-tag v="sint"/>
-		    </lu>
-		  </chunk>
-		</out>
-      </action>
-    </rule>
-	
     <rule comment="vblex">
       <pattern>
 		<pattern-item n="vblex"/>
@@ -691,6 +670,25 @@
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
 	  	<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" side="sl" part="vrb_adv"/>
+					  	<lit-tag v="vblex.adv"/>
+					</equal>
+				</test>
+				<out>
+				  <chunk name="Vrb_Adv" case="caseFirstWord">
+				    <tags>
+				      <tag><lit-tag v="VB"/></tag>
+				    </tags>
+					<lu>
+				      <clip pos="1" side="tl" part="lemh"/>
+				      <lit-tag v="adv.sint"/> <!-- because the verb adapter removes the adv tag -->
+				    </lu>
+				  </chunk>
+				</out>
+			</when>
 			<when>
 				<test>
 					<equal>
