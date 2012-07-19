@@ -5951,7 +5951,7 @@
     <e><p><l>žureći<s n="vblex"/><s n="adv"/></l><r>hiteč<s n="adv"/></r></p></e>
     <e><p><l>žureći<s n="vblex"/><s n="adv"/></l><r>hiteč<s n="adv"/></r></p></e>
 
-	<!-- Vblex.*.ADV -> ADJ.m.sg.nom (because not appropriate translation for joč exists in SL) -->
+	<!-- Vblex.*.ADV -> ADJ.m.sg.nom (because not appropriate translation for joč exists in SL) - rule added -->
 	<e r="LR"><p><l>apelirajući<s n="vblex"/><s n="adv"/></l><r>apeliran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 	<e r="LR"><p><l>apseći<s n="vblex"/><s n="adv"/></l><r>aretiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 	<e r="LR"><p><l>bazirajući<s n="vblex"/><s n="adv"/></l><r>baziran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -5998,7 +5998,7 @@
 	<e r="LR"><p><l>poštujući<s n="vblex"/><s n="adv"/></l><r>spoštovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 	<e r="LR"><p><l>povređujući<s n="vblex"/><s n="adv"/></l><r>poškodovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 	<e r="LR"><p><l>prazneći<s n="vblex"/><s n="adv"/></l><r>prazen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e r="LR"><p><l>prenoseći<s n="vblex"/><s n="adv"/></l><r>prenešen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>prenoseći<s n="vblex"/><s n="adv"/></l><r>prenesen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 	<e r="LR"><p><l>presušujući<s n="vblex"/><s n="adv"/></l><r>presušen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 	<e r="LR"><p><l>pretiskavajući<s n="vblex"/><s n="adv"/></l><r>pretiskan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 	<e r="LR"><p><l>pretražujući<s n="vblex"/><s n="adv"/></l><r>preiskovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
