@@ -35309,8 +35309,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="ugroziti"><i>ugro</i><par n="imperf_ref_vo/ziti__vblex"/></e>
 <e lm="izraziti"><i>izra</i><par n="imperf_tv_vo/ziti__vblex"/></e>
 <e lm="izraziti"><i>izra</i><par n="imperf_ref_vo/ziti__vblex"/></e>
-<e lm="sniziti"><i>sni</i><par n="imperf_tv_vo/ziti__vblex"/></e>
-<e lm="sniziti"><i>sni</i><par n="imperf_ref_vo/ziti__vblex"/></e>
+<e lm="sniziti"><i>sni</i><par n="perf_tv_izra/ziti__vblex"/></e>
+<e lm="sniziti"><i>sni</i><par n="perf_ref_izra/ziti__vblex"/></e>
 <e lm="pronalaziti"><i>pronala</i><par n="imperf_tv_vo/ziti__vblex"/></e>
 <e lm="pronalaziti"><i>pronala</i><par n="imperf_ref_vo/ziti__vblex"/></e>
 <e lm="nalaziti"><i>nala</i><par n="imperf_tv_vo/ziti__vblex"/></e>
