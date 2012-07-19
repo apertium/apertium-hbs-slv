@@ -422,18 +422,28 @@
   <section-def-macros>
     <!--The macro maps tags from the sh tagset to their equivalent in sl-->
     <def-macro n="verb_adapter" npar="1">
-      <let><clip pos="1" side="tl" part="whole"/>
-      <concat>
-		<clip pos="1" side="tl" part="lemh"/>
-		<clip pos="1" side="tl" part="a_vrb"/>
-		<clip pos="1" side="tl" part="asp"/>
-		<clip pos="1" side="tl" part="trn"/>
-		<clip pos="1" side="tl" part="tns"/>
-		<clip pos="1" side="tl" part="prs"/>
-		<clip pos="1" side="tl" part="nbr"/>
-		<clip pos="1" side="tl" part="lemq"/>
-      </concat>
-      </let>
+	<choose>
+		<when>
+			<test>
+				<and>
+					<not><equal><clip pos="1" side="tl" part="a_adv"/><lit-tag v="adv"/></equal></not>
+					<not><equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></equal></not>
+				</and>
+			</test>          
+			<let><clip pos="1" side="tl" part="whole"/>
+		      <concat>
+				<clip pos="1" side="tl" part="lemh"/>
+				<clip pos="1" side="tl" part="a_vrb"/>
+				<clip pos="1" side="tl" part="asp"/>
+				<clip pos="1" side="tl" part="trn"/>
+				<clip pos="1" side="tl" part="tns"/>
+				<clip pos="1" side="tl" part="prs"/>
+				<clip pos="1" side="tl" part="nbr"/>
+				<clip pos="1" side="tl" part="lemq"/>
+		      </concat>
+		      </let>
+		</when>
+	</choose>
     </def-macro>
 
     <!--The macro maps tags from the sh tagset to their equivalent in sl-->
@@ -672,6 +682,31 @@
 	  	<choose>
 			<when>
 				<test>
+					<and>
+						<equal>
+							<clip pos="1" side="sl" part="vrb_adv"/>
+						  	<lit-tag v="vblex.adv"/>
+						</equal>
+						<equal>
+							<clip pos="1" side="tl" part="a_adj"/>
+						  	<lit-tag v="adj"/>
+						</equal>
+					</and>
+				</test>
+				<out>
+				  <chunk name="Vrb_Adj_m_sg_nom" case="caseFirstWord">
+				    <tags>
+				      <tag><lit-tag v="VB"/></tag>
+				    </tags>
+					<lu>
+				      <clip pos="1" side="tl" part="lemh"/>
+				      <lit-tag v="adj.m.sg.nom.ind"/>
+				    </lu>
+				  </chunk>
+				</out>
+			</when>
+			<when>
+				<test>
 					<equal>
 						<clip pos="1" side="sl" part="vrb_adv"/>
 					  	<lit-tag v="vblex.adv"/>
@@ -684,7 +719,8 @@
 				    </tags>
 					<lu>
 				      <clip pos="1" side="tl" part="lemh"/>
-				      <lit-tag v="adv.sint"/> <!-- because the verb adapter removes the adv tag -->
+					  <clip pos="1" side="tl" part="a_adv"/>
+				      <lit-tag v="sint"/> <!-- because the verb adapter removes the adv tag -->
 				    </lu>
 				  </chunk>
 				</out>

@@ -5952,82 +5952,82 @@
     <e><p><l>žureći<s n="vblex"/><s n="adv"/></l><r>hiteč<s n="adv"/></r></p></e>
 
 	<!-- Vblex.*.ADV -> ADJ.m.sg.nom (because not appropriate translation for joč exists in SL) -->
-	<e><p><l>apelirajući<s n="vblex"/><s n="adv"/></l><r>apeliran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>apseći<s n="vblex"/><s n="adv"/></l><r>aretiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>bazirajući<s n="vblex"/><s n="adv"/></l><r>baziran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>bilježeći<s n="vblex"/><s n="adv"/></l><r>beležen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>brišući<s n="vblex"/><s n="adv"/></l><r>brisan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e> 
-	<e><p><l>budeći<s n="vblex"/><s n="adv"/></l><r>bujen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>dajući<s n="vblex"/><s n="adv"/></l><r>dajućiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>dijeleći<s n="vblex"/><s n="adv"/></l><r>deljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>falsificirajući<s n="vblex"/><s n="adv"/></l><r>ponarejen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>financirajući<s n="vblex"/><s n="adv"/></l><r>financiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>garantujući<s n="vblex"/><s n="adv"/></l><r>garantiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>griješeći<s n="vblex"/><s n="adv"/></l><r>grešen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>hapseći<s n="vblex"/><s n="adv"/></l><r>aretiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e> 
-	<e><p><l>iskorjenjujući<s n="vblex"/><s n="adv"/></l><r>izkoreninjen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>iskrivljavajući<s n="vblex"/><s n="adv"/></l><r>izkrivljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>izbivajući<s n="vblex"/><s n="adv"/></l><r>odsoten<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>iznoseći<s n="vblex"/><s n="adv"/></l><r>iznesen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e> 
-	<e><p><l>izobličavajući<s n="vblex"/><s n="adv"/></l><r>izobličen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>izvlačeći<s n="vblex"/><s n="adv"/></l><r>izvlečen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>kažnjavajući<s n="vblex"/><s n="adv"/></l><r>kaznovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>kritizirajući<s n="vblex"/><s n="adv"/></l><r>kritiziran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>kriveći<s n="vblex"/><s n="adv"/></l><r>krivljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>krunišući<s n="vblex"/><s n="adv"/></l><r>kronan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>kupujući<s n="vblex"/><s n="adv"/></l><r>kupljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>liječeći<s n="vblex"/><s n="adv"/></l><r>zdravljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>nasljeđujući<s n="vblex"/><s n="adv"/></l><r>podedovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>odlikujući<s n="vblex"/><s n="adv"/></l><r>odlikovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>odmrzavajući<s n="vblex"/><s n="adv"/></l><r>odmrznjen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>odužujući<s n="vblex"/><s n="adv"/></l><r>oddolžen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>odvlačeći<s n="vblex"/><s n="adv"/></l><r>odvlečen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>okrunjujući<s n="vblex"/><s n="adv"/></l><r>okronan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>oslabljujući<s n="vblex"/><s n="adv"/></l><r>oslabljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>osnažujući<s n="vblex"/><s n="adv"/></l><r>osnažen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>oštećujući<s n="vblex"/><s n="adv"/></l><r>poškodovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>otkupljujući<s n="vblex"/><s n="adv"/></l><r>odkupljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>oviseći<s n="vblex"/><s n="adv"/></l><r>odvisen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>ozvučavajući<s n="vblex"/><s n="adv"/></l><r>ozvočen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>plaćajući<s n="vblex"/><s n="adv"/></l><r>plačan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>podređujući<s n="vblex"/><s n="adv"/></l><r>podrejen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>podvlačeći<s n="vblex"/><s n="adv"/></l><r>podčrtan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>popunjavajući<s n="vblex"/><s n="adv"/></l><r>zapolnjen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>poražavajući<s n="vblex"/><s n="adv"/></l><r>poražen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>porazeći<s n="vblex"/><s n="adv"/></l><r>poražen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>poštujući<s n="vblex"/><s n="adv"/></l><r>spoštovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>povređujući<s n="vblex"/><s n="adv"/></l><r>poškodovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>prazneći<s n="vblex"/><s n="adv"/></l><r>prazen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>prenoseći<s n="vblex"/><s n="adv"/></l><r>prenešen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>presušujući<s n="vblex"/><s n="adv"/></l><r>presušen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>pretiskavajući<s n="vblex"/><s n="adv"/></l><r>pretiskan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>pretražujući<s n="vblex"/><s n="adv"/></l><r>preiskovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>prilagođavajući<s n="vblex"/><s n="adv"/></l><r>prilagojen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>privlačeći<s n="vblex"/><s n="adv"/></l><r>privlačen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>privodeći<s n="vblex"/><s n="adv"/></l><r>priveden<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>pročišćavajući<s n="vblex"/><s n="adv"/></l><r>prečiščen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>raspoređujući<s n="vblex"/><s n="adv"/></l><r>razporejen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>razdjeljujući<s n="vblex"/><s n="adv"/></l><r>razdeljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>razočaravajući<s n="vblex"/><s n="adv"/></l><r>razočaran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>realizirajući<s n="vblex"/><s n="adv"/></l><r>realiziran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>redefinirajući<s n="vblex"/><s n="adv"/></l><r>definiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>ublažavajući<s n="vblex"/><s n="adv"/></l><r>ublažen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>uhićujući<s n="vblex"/><s n="adv"/></l><r>aretiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>ukorjenjujući<s n="vblex"/><s n="adv"/></l><r>ukoreninjen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>unoseći<s n="vblex"/><s n="adv"/></l><r>vnesen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>unoseći<s n="vblex"/><s n="adv"/></l><r>vnesen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e> 
-	<e><p><l>upućujući<s n="vblex"/><s n="adv"/></l><r>napoten<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>urezujući<s n="vblex"/><s n="adv"/></l><r>urezan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>uvozeći<s n="vblex"/><s n="adv"/></l><r>uvožen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>zabilježujući<s n="vblex"/><s n="adv"/></l><r>zabeležen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>zadovoljavajući<s n="vblex"/><s n="adv"/></l><r>zadovoljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>zadužujući<s n="vblex"/><s n="adv"/></l><r>zadolžen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>zaleđujući<s n="vblex"/><s n="adv"/></l><r>zamrznjen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>zamagljujući<s n="vblex"/><s n="adv"/></l><r>zamegljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>zaoštravajući<s n="vblex"/><s n="adv"/></l><r>zaostren<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>zaražujući<s n="vblex"/><s n="adv"/></l><r>okužen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>zaštićujući<s n="vblex"/><s n="adv"/></l><r>zaščiten<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>zaviseći<s n="vblex"/><s n="adv"/></l><r>odvisen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>apelirajući<s n="vblex"/><s n="adv"/></l><r>apeliran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>apseći<s n="vblex"/><s n="adv"/></l><r>aretiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>bazirajući<s n="vblex"/><s n="adv"/></l><r>baziran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>bilježeći<s n="vblex"/><s n="adv"/></l><r>beležen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>brišući<s n="vblex"/><s n="adv"/></l><r>brisan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e> 
+	<e r="LR"><p><l>budeći<s n="vblex"/><s n="adv"/></l><r>bujen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>dajući<s n="vblex"/><s n="adv"/></l><r>dajućiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>dijeleći<s n="vblex"/><s n="adv"/></l><r>deljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>falsificirajući<s n="vblex"/><s n="adv"/></l><r>ponarejen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>financirajući<s n="vblex"/><s n="adv"/></l><r>financiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>garantujući<s n="vblex"/><s n="adv"/></l><r>garantiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>griješeći<s n="vblex"/><s n="adv"/></l><r>grešen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>hapseći<s n="vblex"/><s n="adv"/></l><r>aretiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e> 
+	<e r="LR"><p><l>iskorjenjujući<s n="vblex"/><s n="adv"/></l><r>izkoreninjen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>iskrivljavajući<s n="vblex"/><s n="adv"/></l><r>izkrivljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>izbivajući<s n="vblex"/><s n="adv"/></l><r>odsoten<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>iznoseći<s n="vblex"/><s n="adv"/></l><r>iznesen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e> 
+	<e r="LR"><p><l>izobličavajući<s n="vblex"/><s n="adv"/></l><r>izobličen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>izvlačeći<s n="vblex"/><s n="adv"/></l><r>izvlečen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>kažnjavajući<s n="vblex"/><s n="adv"/></l><r>kaznovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>kritizirajući<s n="vblex"/><s n="adv"/></l><r>kritiziran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>kriveći<s n="vblex"/><s n="adv"/></l><r>krivljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>krunišući<s n="vblex"/><s n="adv"/></l><r>kronan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>kupujući<s n="vblex"/><s n="adv"/></l><r>kupljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>liječeći<s n="vblex"/><s n="adv"/></l><r>zdravljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>nasljeđujući<s n="vblex"/><s n="adv"/></l><r>podedovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>odlikujući<s n="vblex"/><s n="adv"/></l><r>odlikovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>odmrzavajući<s n="vblex"/><s n="adv"/></l><r>odmrznjen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>odužujući<s n="vblex"/><s n="adv"/></l><r>oddolžen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>odvlačeći<s n="vblex"/><s n="adv"/></l><r>odvlečen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>okrunjujući<s n="vblex"/><s n="adv"/></l><r>okronan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>oslabljujući<s n="vblex"/><s n="adv"/></l><r>oslabljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>osnažujući<s n="vblex"/><s n="adv"/></l><r>osnažen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>oštećujući<s n="vblex"/><s n="adv"/></l><r>poškodovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>otkupljujući<s n="vblex"/><s n="adv"/></l><r>odkupljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>oviseći<s n="vblex"/><s n="adv"/></l><r>odvisen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>ozvučavajući<s n="vblex"/><s n="adv"/></l><r>ozvočen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>plaćajući<s n="vblex"/><s n="adv"/></l><r>plačan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>podređujući<s n="vblex"/><s n="adv"/></l><r>podrejen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>podvlačeći<s n="vblex"/><s n="adv"/></l><r>podčrtan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>popunjavajući<s n="vblex"/><s n="adv"/></l><r>zapolnjen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>poražavajući<s n="vblex"/><s n="adv"/></l><r>poražen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>porazeći<s n="vblex"/><s n="adv"/></l><r>poražen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>poštujući<s n="vblex"/><s n="adv"/></l><r>spoštovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>povređujući<s n="vblex"/><s n="adv"/></l><r>poškodovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>prazneći<s n="vblex"/><s n="adv"/></l><r>prazen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>prenoseći<s n="vblex"/><s n="adv"/></l><r>prenešen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>presušujući<s n="vblex"/><s n="adv"/></l><r>presušen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>pretiskavajući<s n="vblex"/><s n="adv"/></l><r>pretiskan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>pretražujući<s n="vblex"/><s n="adv"/></l><r>preiskovan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>prilagođavajući<s n="vblex"/><s n="adv"/></l><r>prilagojen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>privlačeći<s n="vblex"/><s n="adv"/></l><r>privlačen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>privodeći<s n="vblex"/><s n="adv"/></l><r>priveden<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>pročišćavajući<s n="vblex"/><s n="adv"/></l><r>prečiščen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>raspoređujući<s n="vblex"/><s n="adv"/></l><r>razporejen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>razdjeljujući<s n="vblex"/><s n="adv"/></l><r>razdeljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>razočaravajući<s n="vblex"/><s n="adv"/></l><r>razočaran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>realizirajući<s n="vblex"/><s n="adv"/></l><r>realiziran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>redefinirajući<s n="vblex"/><s n="adv"/></l><r>definiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>ublažavajući<s n="vblex"/><s n="adv"/></l><r>ublažen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>uhićujući<s n="vblex"/><s n="adv"/></l><r>aretiran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>ukorjenjujući<s n="vblex"/><s n="adv"/></l><r>ukoreninjen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>unoseći<s n="vblex"/><s n="adv"/></l><r>vnesen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>unoseći<s n="vblex"/><s n="adv"/></l><r>vnesen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e> 
+	<e r="LR"><p><l>upućujući<s n="vblex"/><s n="adv"/></l><r>napoten<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>urezujući<s n="vblex"/><s n="adv"/></l><r>urezan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>uvozeći<s n="vblex"/><s n="adv"/></l><r>uvožen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>zabilježujući<s n="vblex"/><s n="adv"/></l><r>zabeležen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>zadovoljavajući<s n="vblex"/><s n="adv"/></l><r>zadovoljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>zadužujući<s n="vblex"/><s n="adv"/></l><r>zadolžen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>zaleđujući<s n="vblex"/><s n="adv"/></l><r>zamrznjen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>zamagljujući<s n="vblex"/><s n="adv"/></l><r>zamegljen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>zaoštravajući<s n="vblex"/><s n="adv"/></l><r>zaostren<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>zaražujući<s n="vblex"/><s n="adv"/></l><r>okužen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>zaštićujući<s n="vblex"/><s n="adv"/></l><r>zaščiten<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e r="LR"><p><l>zaviseći<s n="vblex"/><s n="adv"/></l><r>odvisen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 	
 	
 
