@@ -229,6 +229,9 @@
     <def-cat n="cm">
       <cat-item lemma="," tags="cm"/>
     </def-cat>
+    <def-cat n="vblex_perf_adv">
+      <cat-item tags="vblex.perf.*.pprs.adv"/>
+    </def-cat>
 
   </section-def-cats>
 
@@ -672,6 +675,31 @@
 
   <section-rules>
 	
+	
+	<rule comment="Vblex.perf.adv -> vblex.pp">
+      <pattern>
+		<pattern-item n="vblex_perf_adv"/>
+      </pattern>
+      <action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+		<out>
+		  <chunk name="VerbPprsAdv_to_VblexPP" case="caseFirstWord">
+		    <tags>
+	          <tag><lit-tag v="VB"/></tag>
+		    </tags>
+		    <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <lit-tag v="vblex.perf"/>
+	          <clip pos="1" side="tl" part="trn"/>
+	          <lit-tag v="pp.m.sg.nom.ind"/>
+		    </lu>
+		  </chunk>
+		</out>
+      </action>
+    </rule>
+
+
     <rule comment="vblex">
       <pattern>
 		<pattern-item n="vblex"/>
