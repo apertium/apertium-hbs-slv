@@ -1199,6 +1199,134 @@
 						  <clip pos="1" side="tl" part="a_adj"/>
 						  <lit-tag v="adj"/>
 						</equal>
+						<equal>
+						  <clip pos="1" side="sl" part="a_adv_form_SH"/> <!-- SH = adv.ssup -> SL = adv.sint.ela -->
+						  <lit-tag v="ssup"/>
+						</equal>
+						<equal>
+						  <clip pos="1" side="tl" part="a_adv_addWord"/>
+						  <lit-tag v="add_ela"/>
+						</equal>
+					</and>
+			    </test>	
+			    <out>
+			      <chunk name="Adv-to-Adj_addEla" case="caseFirstWord">
+					<tags>
+					  <tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+					  	<lit v="veliko"/>	
+						<lit-tag v="adv.sint.ela"/>
+					</lu>
+					<b/>
+					<lu>
+					  <clip pos="1" side="tl" part="lemh"/>
+					  <clip pos="1" side="tl" part="a_adj"/>
+					  <clip pos="1" side="tl" part="gen"/>
+					  <clip pos="1" side="tl" part="nbr"/>
+					  <clip pos="1" side="tl" part="cas"/>
+					  <clip pos="1" side="tl" part="def"/>
+					</lu>
+			      </chunk>
+			    </out>
+			  </when>
+			<when>
+			    <test>
+					<and>
+						<equal>
+						  <clip pos="1" side="sl" part="a_adv"/>
+						  <lit-tag v="adv"/>
+						</equal>
+						<equal>
+						  <clip pos="1" side="tl" part="a_adj"/>
+						  <lit-tag v="adj"/>
+						</equal>
+						<equal>
+						  <clip pos="1" side="sl" part="a_adv_form_SH"/> <!-- SH = adv.sup -> SL = adv.sint.sup -->
+						  <lit-tag v="sup"/>
+						</equal>
+						<equal>
+						  <clip pos="1" side="tl" part="a_adv_addWord"/>
+						  <lit-tag v="add_sup"/>
+						</equal>
+					</and>
+			    </test>	
+			    <out>
+			      <chunk name="Adv-to-Adj_addSup" case="caseFirstWord">
+					<tags>
+					  <tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+					  	<lit v="najbolj"/>	
+						<lit-tag v="adv.sint.sup"/>
+					</lu>
+					<b/>
+					<lu>
+					  <clip pos="1" side="tl" part="lemh"/>
+					  <clip pos="1" side="tl" part="a_adj"/>
+					  <clip pos="1" side="tl" part="gen"/>
+					  <clip pos="1" side="tl" part="nbr"/>
+					  <clip pos="1" side="tl" part="cas"/>
+					  <clip pos="1" side="tl" part="def"/>
+					</lu>
+			      </chunk>
+			    </out>
+			  </when>	
+			<when>
+			    <test>
+					<and>
+						<equal>
+						  <clip pos="1" side="sl" part="a_adv"/>
+						  <lit-tag v="adv"/>
+						</equal>
+						<equal>
+						  <clip pos="1" side="tl" part="a_adj"/>
+						  <lit-tag v="adj"/>
+						</equal>
+						<equal>
+						  <clip pos="1" side="sl" part="a_adv_form_SH"/> <!-- SH = adv.comp -> SL = adv.sint.comp -->
+						  <lit-tag v="comp"/>
+						</equal>
+						<equal>
+						  <clip pos="1" side="tl" part="a_adv_addWord"/>
+						  <lit-tag v="add_comp"/>
+						</equal>
+					</and>
+			    </test>	
+			    <out>
+			      <chunk name="Adv-to-Adj_addComp" case="caseFirstWord">
+					<tags>
+					  <tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+					  	<lit v="bolj"/>	
+						<lit-tag v="adv.sint"/>
+					</lu>
+					<b/>
+					<lu>
+					  <clip pos="1" side="tl" part="lemh"/>
+					  <clip pos="1" side="tl" part="a_adj"/>
+					  <clip pos="1" side="tl" part="gen"/>
+					  <clip pos="1" side="tl" part="nbr"/>
+					  <clip pos="1" side="tl" part="cas"/>
+					  <clip pos="1" side="tl" part="def"/>
+					</lu>
+			      </chunk>
+			    </out>
+			  </when>		
+			
+			
+			<when>
+			    <test>
+					<and>
+						<equal>
+						  <clip pos="1" side="sl" part="a_adv"/>
+						  <lit-tag v="adv"/>
+						</equal>
+						<equal>
+						  <clip pos="1" side="tl" part="a_adj"/>
+						  <lit-tag v="adj"/>
+						</equal>
 					</and>
 			    </test>	
 			    <out>
