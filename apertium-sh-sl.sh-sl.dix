@@ -4899,9 +4899,6 @@
 	<e><p><l>nepravilno<s n="adv"/><s n="ssup"/></l><r>nepravilno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
 	<e><p><l>neprijatno<s n="adv"/><s n="ssup"/></l><r>neprijetno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
 	<e><p><l>neprikladno<s n="adv"/><s n="ssup"/></l><r>neprimerno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
-	<e><p><l>neprilično<s n="adv"/><s n="comp"/></l><r>neugodno<s n="adv"/><s n="sint"/><s n="comp"/><s n="add_comp"/></r></p></e>
-	<e><p><l>neprilično<s n="adv"/><s n="sup"/></l><r>neugodno<s n="adv"/><s n="sint"/><s n="sup"/><s n="add_sup"/></r></p></e>
-	<e><p><l>neprilično<s n="adv"/><s n="ssup"/></l><r>neugodno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
 	<e><p><l>neprimjetno<s n="adv"/><s n="ssup"/></l><r>nevidno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
 	<e><p><l>neprofesionalno<s n="adv"/><s n="comp"/></l><r>neprofesionalno<s n="adv"/><s n="sint"/><s n="comp"/><s n="add_comp"/></r></p></e>
 	<e><p><l>neprofesionalno<s n="adv"/><s n="sup"/></l><r>neprofesionalno<s n="adv"/><s n="sint"/><s n="sup"/><s n="add_sup"/></r></p></e>
@@ -5205,9 +5202,6 @@
 	<e><p><l>doživotno<s n="adv"/><s n="comp"/></l><r>doživljenski<s n="adv"/><s n="sint"/><s n="comp"/><s n="add_comp"/></r></p></e>
 	<e><p><l>doživotno<s n="adv"/><s n="sup"/></l><r>doživljenski<s n="adv"/><s n="sint"/><s n="sup"/><s n="add_sup"/></r></p></e>
 	<e><p><l>doživotno<s n="adv"/><s n="ssup"/></l><r>doživljenski<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
-	<e><p><l>hrabro<s n="adv"/><s n="comp"/></l><r>hrabro<s n="adv"/><s n="sint"/><s n="comp"/><s n="add_comp"/></r></p></e>
-	<e><p><l>hrabro<s n="adv"/><s n="sup"/></l><r>hrabro<s n="adv"/><s n="sint"/><s n="sup"/><s n="add_sup"/></r></p></e>
-	<e><p><l>hrabro<s n="adv"/><s n="ssup"/></l><r>hrabro<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
 	<e><p><l>vedro<s n="adv"/><s n="ssup"/></l><r>vedro<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
 	<e><p><l>žarki<s n="adv"/><s n="ssup"/></l><r>žarko<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
 	<e><p><l>imovinski<s n="adv"/><s n="ssup"/></l><r>nepremičninski<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
@@ -5279,6 +5273,14 @@
 	<e><p><l>kvalitetno<s n="adv"/><s n="ssup"/></l><r>kvalitetno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
 	<e><p><l>masivno<s n="adv"/><s n="sup"/></l><r>masivno<s n="adv"/><s n="sint"/><s n="sup"/><s n="add_sup"/></r></p></e>
 	<e><p><l>masivno<s n="adv"/><s n="ssup"/></l><r>masivno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
+	<e><p><l>neukusno<s n="adv"/><s n="ssup"/></l><r>neokusno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
+	<e><p><l>odvažno<s n="adv"/><s n="ssup"/></l><r>hrabro<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
+	<e><p><l>ustrajno<s n="adv"/><s n="ssup"/></l><r>vztrajno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
+	<e><p><l>programski<s n="adv"/><s n="ssup"/></l><r>programsko<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
+	<e><p><l>softverski<s n="adv"/><s n="ssup"/></l><r>programsko<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
+	<e><p><l>neprilično<s n="adv"/><s n="ssup"/></l><r>neugodno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
+	<e><p><l>neugodno<s n="adv"/><s n="ssup"/></l><r>neugodno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
+	<e><p><l>hrabro<s n="adv"/><s n="ssup"/></l><r>hrabro<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
 
 
     <!-- Vblex.*.ADV -> Adverbs -->
@@ -11269,7 +11271,7 @@
     <e><p><l>ne<s n="part"/><s n="neg"/></l><r>ne<s n="cnjcoo"/></r></p></e><!--?-->
 
 
-    <e><p><l>dvoje<s n="num"/></l><r>dvoje<s n="adv"/></r></p></e>
+    <e><p><l>dvoje<s n="num"/></l><r>dvoje<s n="adv"/><s n="sint"/></r></p></e> <!-- CHECK IF NUMS UBIJE TO -->
 
     <!-- SECTION: Prepositions -->
     <e><p><l>blizu<s n="pr"/></l><r>blizu<s n="pr"/></r></p></e>
