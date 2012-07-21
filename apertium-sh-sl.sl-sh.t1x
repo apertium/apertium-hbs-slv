@@ -263,10 +263,14 @@
 
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
-      <attr-item tags="adj.pve"/>
-      <attr-item tags="adj.comp"/>
-      <attr-item tags="adj.sup"/>
-      <attr-item tags="adj.itg"/>
+    </def-attr>
+
+    <def-attr n="deg">
+      <attr-item tags="pst"/>
+      <attr-item tags="comp"/>     
+      <attr-item tags="sup"/>     
+      <attr-item tags="ssup"/>
+      <attr-item tags="ela"/>
     </def-attr>
 
     <def-attr n="a_prn">
@@ -278,6 +282,8 @@
 
     <def-attr n="gen">
       <attr-item tags="m"/>
+      <attr-item tags="mi"/>
+      <attr-item tags="ma"/>
       <attr-item tags="f"/>
       <attr-item tags="nt"/>
       <attr-item tags="mf"/>
@@ -335,6 +341,11 @@
       <attr-item tags="imperf"/>
     </def-attr>
 
+    <def-attr n="def">
+      <attr-item tags="def"/>
+      <attr-item tags="ind"/>
+    </def-attr>
+
   </section-def-attrs>
 
   <section-def-vars>
@@ -357,6 +368,17 @@
 	</when>
       </choose>
     </def-macro>
+    
+    <def-macro n="m2mima" npar="1">
+      <choose><!--temporary, changes the <m> gender to <mi>-->
+	<when>
+	  <test>
+	    <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal> 
+	  </test>
+	  <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mi"/></let>
+	</when>
+      </choose>
+    </def-macro>
 
     <def-macro n="verb_adapter" npar="1">
       <!-- Dual to plural -->
@@ -367,6 +389,34 @@
 	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="supn"/></equal></test>
 	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="inf"/></let>
 	</when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="adj_adapter" npar="1">
+      <!-- Dual to plural -->
+      <call-macro n="dual2plural"><with-param pos="1"/></call-macro>      
+      <call-macro n="m2mima"><with-param pos="1"/></call-macro>      
+      <choose>
+	<when><!-- Only positive and <ssup> (elative, absolutive superlative) can be def/ind-->
+	  <test>
+	    <or>
+	      <equal><clip pos="1" side="sl" part="deg"/><lit-tag v="sup"/></equal>
+	      <equal><clip pos="1" side="sl" part="deg"/><lit-tag v="comp"/></equal>
+	    </or> 
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adj"/>
+	      <clip pos="1" side="tl" part="deg"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="cas"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>	
       </choose>
     </def-macro>
 
@@ -1085,6 +1135,25 @@
 	  <chunk name="verb" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="adj">
+      <pattern>
+	<pattern-item n="adj"/>
+      </pattern>
+      <action>
+	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
+	<out>
+	  <chunk name="adj" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="A"/></tag>
 	    </tags>
 	    <lu>
 	      <clip pos="1" side="tl" part="whole"/>
