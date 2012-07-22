@@ -6738,7 +6738,8 @@
     <e r="LR"><p><l>biti<s n="vbser"/></l><r>biti<s n="vbser"/></r></p></e>
     <e><p><l>biti<s n="vbser"/><s n="inf"/></l><r>biti<s n="vbser"/><s n="inf"/></r></p></e>
     <e><p><l>biti<s n="vbser"/><s n="inf"/></l><r>biti<s n="vbser"/><s n="supn"/></r></p></e>
-    <e><p><l>biti<s n="vbser"/><s n="clt"/></l><r>biti<s n="vbser"/></r></p></e>
+    <e><p><l>biti<s n="vbser"/><s n="clt"/><s n="pres"/></l><r>biti<s n="vbser"/><s n="pres"/></r></p></e>
+    <e><p><l>biti<s n="vbser"/><s n="imp"/></l><r>biti<s n="vbser"/><s n="imp"/></r></p></e>
     <e><p><l>ne<s n="part"/><s n="neg"/><j/>biti<s n="vbser"/><s n="clt"/><s n="pres"/></l><r>biti<s n="vbser"/><s n="pres"/><s n="neg"/></r></p></e>
 
     <e r="LR"><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: this is a tmp one biti<vblex> == to beat, biti<vbser> == to be-->
