@@ -26026,6 +26026,24 @@ after prepositions-->
     <e><p><l>eima</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
     <e><p><l>eima</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
+<pardef n="genij/e__n">
+    <e><p><l>e</l><r>e<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>a</l><r>e<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>u</l><r>e<s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>e</l><r>e<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>u</l><r>e<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e r="LR"><p><l>e</l><r>e<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>u</l><r>e<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>em</l><r>e<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>a</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>a</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>â</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>ima</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+    <e><p><l>a</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e><p><l>a</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>ima</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><p><l>ima</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
 <pardef n="slu/ga__n"><!--With -u gen plural -->
    <e><p><l>ga</l><r>ga<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
    <e><p><l>ge</l><r>ga<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -45893,6 +45911,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="scenario"><i>scenari</i><par n="vide/o__n"/></e>
 <e lm="tempo"><i>temp</i><par n="vide/o__n"/></e>
 <e lm="veto"><i>vet</i><par n="vide/o__n"/></e>
+<e lm="atelje"><i>atelj</i><par n="dosj/e__n"/></e>
 <e lm="dosje"><i>dosj</i><par n="dosj/e__n"/></e>
 
 <!--Feminine like -->
@@ -47429,7 +47448,102 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--end Other proper nouns-->
 <!--Neuter nouns-->
 <e lm="područje"><i>područj</i><par n="polj/e__n"/></e>
+<e lm="obilje"><i>obilj</i><par n="polj/e__n"/></e>
+<e lm="podušje"><i>podušj</i><par n="polj/e__n"/></e>
+<e lm="preobilje"><i>preobilj</i><par n="polj/e__n"/></e>
+<e lm="obilje"><i>obilj</i><par n="polj/e__n"/></e>
 <e lm="osamostaljenje"><i>osamostaljenj</i><par n="polj/e__n"/></e>
+<e lm="bdjenje"><i>bdjenj</i><par n="polj/e__n"/></e>
+<e lm="bičevanje"><i>bičevanj</i><par n="polj/e__n"/></e>
+<e lm="bivanje"><i>bivanj</i><par n="polj/e__n"/></e>
+<e lm="blaćenje"><i>blaćenj</i><par n="polj/e__n"/></e>
+<e lm="brujenje"><i>brujenj</i><par n="polj/e__n"/></e>
+<e lm="bubnjanje"><i>bubnjanj</i><par n="polj/e__n"/></e>
+<e lm="bučenje"><i>bučenj</i><par n="polj/e__n"/></e>
+<e lm="buncanje"><i>buncanj</i><par n="polj/e__n"/></e>
+<e lm="čitanje"><i>čitanj</i><par n="polj/e__n"/></e>
+<e lm="crtanje"><i>crtanj</i><par n="polj/e__n"/></e>
+<e lm="dodavanje"><i>dodavanj</i><par n="polj/e__n"/></e>
+<e lm="doseljenje"><i>doseljenj</i><par n="polj/e__n"/></e>
+<e lm="iskušenje"><i>iskušenj</i><par n="polj/e__n"/></e>
+<e lm="ispreplitanje"><i>ispreplitanj</i><par n="polj/e__n"/></e>
+<e lm="izbijanje"><i>izbijanj</i><par n="polj/e__n"/></e>
+<e lm="izlaganje"><i>izlaganj</i><par n="polj/e__n"/></e>
+<e lm="izmirenje"><i>izmirenj</i><par n="polj/e__n"/></e>
+<e lm="iznicanje"><i>iznicanj</i><par n="polj/e__n"/></e>
+<e lm="klepetanje"><i>klepetanj</i><par n="polj/e__n"/></e>
+<e lm="kraćenje"><i>kraćenj</i><par n="polj/e__n"/></e>
+<e lm="krštenje"><i>krštenj</i><par n="polj/e__n"/></e>
+<e lm="krvarenje"><i>krvarenj</i><par n="polj/e__n"/></e>
+<e lm="kuhanje"><i>kuhanj</i><par n="polj/e__n"/></e>
+<e lm="lajanje"><i>lajanj</i><par n="polj/e__n"/></e>
+<e lm="lutanje"><i>lutanj</i><par n="polj/e__n"/></e>
+<e lm="milovanje"><i>milovanj</i><par n="polj/e__n"/></e>
+<e lm="naklapanje"><i>naklapanj</i><par n="polj/e__n"/></e>
+<e lm="naseljavanje"><i>naseljavanj</i><par n="polj/e__n"/></e>
+<e lm="noćenje"><i>noćenj</i><par n="polj/e__n"/></e>
+<e lm="obraćenje"><i>obraćenj</i><par n="polj/e__n"/></e>
+<e lm="očuvanje"><i>očuvanj</i><par n="polj/e__n"/></e>
+<e lm="odcijepljenje"><i>odcijepljenj</i><par n="polj/e__n"/></e>
+<e lm="odguravanje"><i>odguravanj</i><par n="polj/e__n"/></e>
+<e lm="oproštenje"><i>oproštenj</i><par n="polj/e__n"/></e>
+<e lm="opterećenje"><i>opterećenj</i><par n="polj/e__n"/></e>
+<e lm="oslabljenje"><i>oslabljenj</i><par n="polj/e__n"/></e>
+<e lm="ostvarenje"><i>ostvarenj</i><par n="polj/e__n"/></e>
+<e lm="osvježenje"><i>osvježenj</i><par n="polj/e__n"/></e>
+<e lm="osvojenje"><i>osvojenj</i><par n="polj/e__n"/></e>
+<e lm="otjecanje"><i>otjecanj</i><par n="polj/e__n"/></e>
+<e lm="otrovanje"><i>otrovanj</i><par n="polj/e__n"/></e>
+<e lm="otvorenje"><i>otvorenj</i><par n="polj/e__n"/></e>
+<e lm="označavanje"><i>označavanj</i><par n="polj/e__n"/></e>
+<e lm="pokretanje"><i>pokretanj</i><par n="polj/e__n"/></e>
+<e lm="pomirenje"><i>pomirenj</i><par n="polj/e__n"/></e>
+<e lm="posjecanje"><i>posjecanj</i><par n="polj/e__n"/></e>
+<e lm="poslanje"><i>poslanj</i><par n="polj/e__n"/></e>
+<e lm="povraćanje"><i>povraćanj</i><par n="polj/e__n"/></e>
+<e lm="prebivanje"><i>prebivanj</i><par n="polj/e__n"/></e>
+<e lm="pregovaranje"><i>pregovaranj</i><par n="polj/e__n"/></e>
+<e lm="premišljanje"><i>premišljanj</i><par n="polj/e__n"/></e>
+<e lm="pretakanje"><i>pretakanj</i><par n="polj/e__n"/></e>
+<e lm="približavanje"><i>približavanj</i><par n="polj/e__n"/></e>
+<e lm="proglašenje"><i>proglašenj</i><par n="polj/e__n"/></e>
+<e lm="proširenje"><i>proširenj</i><par n="polj/e__n"/></e>
+<e lm="prosjačenje"><i>prosjačenj</i><par n="polj/e__n"/></e>
+<e lm="pucketanje"><i>pucketanj</i><par n="polj/e__n"/></e>
+<e lm="rascjepljenje"><i>rascjepljenj</i><par n="polj/e__n"/></e>
+<e lm="raslinje"><i>raslinj</i><par n="polj/e__n"/></e>
+<e lm="razmišljanje"><i>razmišljanj</i><par n="polj/e__n"/></e>
+<e lm="razrješenje"><i>razrješenj</i><par n="polj/e__n"/></e>
+<e lm="sađenje"><i>sađenj</i><par n="polj/e__n"/></e>
+<e lm="savjetovanje"><i>savjetovanj</i><par n="polj/e__n"/></e>
+<e lm="sijevanje"><i>sijevanj</i><par n="polj/e__n"/></e>
+<e lm="sklanjanje"><i>sklanjanj</i><par n="polj/e__n"/></e>
+<e lm="spasenje"><i>spasenj</i><par n="polj/e__n"/></e>
+<e lm="spoznanje"><i>spoznanj</i><par n="polj/e__n"/></e>
+<e lm="stajanje"><i>stajanj</i><par n="polj/e__n"/></e>
+<e lm="trovanje"><i>trovanj</i><par n="polj/e__n"/></e>
+<e lm="udubljenje"><i>udubljenj</i><par n="polj/e__n"/></e>
+<e lm="ugušenje"><i>ugušenj</i><par n="polj/e__n"/></e>
+<e lm="umirivanje"><i>umirivanj</i><par n="polj/e__n"/></e>
+<e lm="uređenje"><i>uređenj</i><par n="polj/e__n"/></e>
+<e lm="useljenje"><i>useljenj</i><par n="polj/e__n"/></e>
+<e lm="usmjerenje"><i>usmjerenj</i><par n="polj/e__n"/></e>
+<e lm="ustrjeljenje"><i>ustrjeljenj</i><par n="polj/e__n"/></e>
+<e lm="utapanje"><i>utapanj</i><par n="polj/e__n"/></e>
+<e lm="utvrđenje"><i>utvrđenj</i><par n="polj/e__n"/></e>
+<e lm="uvrštenje"><i>uvrštenj</i><par n="polj/e__n"/></e>
+<e lm="uzvišenje"><i>uzvišenj</i><par n="polj/e__n"/></e>
+<e lm="vjenčanje"><i>vjenčanj</i><par n="polj/e__n"/></e>
+<e lm="vježbanje"><i>vježbanj</i><par n="polj/e__n"/></e>
+<e lm="vrebanje"><i>vrebanj</i><par n="polj/e__n"/></e>
+<e lm="začepljenje"><i>začepljenj</i><par n="polj/e__n"/></e>
+<e lm="zacjeljivanje"><i>zacjeljivanj</i><par n="polj/e__n"/></e>
+<e lm="zakašnjenje"><i>zakašnjenj</i><par n="polj/e__n"/></e>
+<e lm="zaposjedanje"><i>zaposjedanj</i><par n="polj/e__n"/></e>
+<e lm="zidanje"><i>zidanj</i><par n="polj/e__n"/></e>
+<e lm="zujenje"><i>zujenj</i><par n="polj/e__n"/></e>
+<e lm="zvanje"><i>zvanj</i><par n="polj/e__n"/></e>
+<e lm="zveckanje"><i>zveckanj</i><par n="polj/e__n"/></e>
 <e lm="pridruživanje"><i>pridruživanj</i><par n="polj/e__n"/></e>
 <e lm="abdiciranje"><i>abdiciranj</i><par n="polj/e__n"/></e>
 <e lm="adaptiranje"><i>adaptiranj</i><par n="polj/e__n"/></e>
@@ -47862,6 +47976,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="odobrenje"><i>odobrenj</i><par n="polj/e__n"/></e>
 <e lm="određivanje"><i>određivanj</i><par n="polj/e__n"/></e>
 <e lm="odredište"><i>odredišt</i><par n="polj/e__n"/></e>
+<e lm="mučilište"><i>mučilišt</i><par n="polj/e__n"/></e>
 <e lm="održavanje"><i>održavanj</i><par n="polj/e__n"/></e>
 <e lm="odstranjivanje"><i>odstranjivanj</i><par n="polj/e__n"/></e>
 <e lm="oduzimanje"><i>oduzimanj</i><par n="polj/e__n"/></e>
@@ -48330,6 +48445,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="licemjerje"><i>licemjerj</i><par n="polj/e__n"/></e>
 <e lm="nasljeđe"><i>nasljeđ</i><par n="polj/e__n"/></e>
 <e lm="objašnjenje"><i>objašnjenj</i><par n="polj/e__n"/></e>
+
 <e lm="planinarenje"><i>planinarenj</i><par n="polj/e__n"/></e>
 <e lm="potkrovlje"><i>potkrovlj</i><par n="polj/e__n"/></e>
 <e lm="priopćenje"><i>priopćenj</i><par n="polj/e__n"/></e>
@@ -48674,6 +48790,27 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="vojni rok"><p><l>vojnim<b/>rokovima</l><r>vojni<b/>rok<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
 <e lm="vojni rok"><p><l>vojnim<b/>rokovima</l><r>vojni<b/>rok<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
 <!--/vojni rok-->
+<!--nadgrobni spomenik-->
+<e lm="nadgrobni spomenik"><p><l>nadgrobni<b/>spomenik</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobnog<b/>spomenika</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobnom<b/>spomeniku</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r ="LR" lm="nadgrobni spomenik"><p><l>nadgrobnome<b/>spomeniku</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r ="LR" lm="nadgrobni spomenik"><p><l>nadgrobnomu<b/>spomeniku</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobni<b/>spomenik</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobni<b/>spomeniče</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobnom<b/>spomenik</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR" lm="nadgrobni spomenik"><p><l>nadgrobnome<b/>spomenik</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR" lm="nadgrobni spomenik"><p><l>nadgrobnomu<b/>spomenik</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobnim<b/>spomenikom</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobni<b/>spomenici</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobnih<b/>spomenikova</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR" lm="nadgrobni spomenik"><p><l>nadgrobnih<b/>spomenikovâ</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobnim<b/>spomenicima</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobne<b/>spomenikove</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobni<b/>spomenici</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobnim<b/>spomenicima</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+<e lm="nadgrobni spomenik"><p><l>nadgrobnim<b/>spomenicima</l><r>nadgrobni<b/>spomenik<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--/nadgrobni spomenik-->
 
 <!--prehrambeni proizvod-->
 <e lm="prehrambeni proizvod"><p><l>prehrambeni<b/>proizvod</l><r>prehrambeni<b/>proizvod<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -48718,10 +48855,43 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="patentni zatvarač"><p><l>patentnim<b/>zatvaračima</l><r>patentni<b/>zatvarač<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
 <e lm="patentni zatvarač"><p><l>patentnim<b/>zatvaračima</l><r>patentni<b/>zatvarač<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
 <!--/patentni zatvarač-->
-
+<!--očna jabučica-->
+<e lm="očna jabučica"><p><l>očna<b/>jabučica</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+<e lm="očna jabučica"><p><l>očne<b/>jabučice</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+<e lm="očna jabučica"><p><l>očnoj<b/>jabučici</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+<e lm="očna jabučica"><p><l>očnu<b/>jabučicu</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+<e lm="očna jabučica"><p><l>očna<b/>jabučico</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+<e lm="očna jabučica"><p><l>očnoj<b/>jabučici</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+<e lm="očna jabučica"><p><l>očnom<b/>jabučicom</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<e lm="očna jabučica"><p><l>očne<b/>jabučice</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+<e lm="očna jabučica"><p><l>očnih<b/>jabučica</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR" lm="očna jabučica"><p><l>očnih<b/>jabučicâ</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e lm="očna jabučica"><p><l>očnim<b/>jabučicama</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+<e lm="očna jabučica"><p><l>očne<b/>jabučice</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+<e lm="očna jabučica"><p><l>očne<b/>jabučice</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+<e lm="očna jabučica"><p><l>očnim<b/>jabučicama</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+<e lm="očna jabučica"><p><l>očnim<b/>jabučicama</l><r>očna<b/>jabučica<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--/očna jabučica-->
+<!--pristupna cesta-->
+<e lm="pristupna cesta"><p><l>pristupna<b/>cesta</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupne<b/>ceste</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupnoj<b/>cesti</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupnu<b/>cestu</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupna<b/>cesto</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupnoj<b/>cesti</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupnom<b/>cestom</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupne<b/>ceste</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupnih<b/>cesta</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR" lm="pristupna cesta"><p><l>pristupnih<b/>cestâ</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupnim<b/>cestama</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupne<b/>ceste</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupne<b/>ceste</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupnim<b/>cestama</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+<e lm="pristupna cesta"><p><l>pristupnim<b/>cestama</l><r>pristupna<b/>cesta<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--/pristupna cesta-->
 <!--leđna moždina-->
 <e lm="leđna moždina"><p><l>leđna<b/>moždina</l><r>leđna<b/>moždina<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-<e lm="leđna moždina"><p><l>leđne<b/>moždinae</l><r>leđna<b/>moždina<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+<e lm="leđna moždina"><p><l>leđne<b/>moždine</l><r>leđna<b/>moždina<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
 <e lm="leđna moždina"><p><l>leđnoj<b/>moždini</l><r>leđna<b/>moždina<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
 <e lm="leđna moždina"><p><l>leđnu<b/>moždinu</l><r>leđna<b/>moždina<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
 <e lm="leđna moždina"><p><l>leđna<b/>moždino</l><r>leđna<b/>moždina<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
@@ -48739,7 +48909,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 
 <!--kičmena moždina-->
 <e lm="kičmena moždina"><p><l>kičmena<b/>moždina</l><r>kičmena<b/>moždina<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-<e lm="kičmena moždina"><p><l>kičmene<b/>moždinae</l><r>kičmena<b/>moždina<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+<e lm="kičmena moždina"><p><l>kičmene<b/>moždine</l><r>kičmena<b/>moždina<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
 <e lm="kičmena moždina"><p><l>kičmenoj<b/>moždini</l><r>kičmena<b/>moždina<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
 <e lm="kičmena moždina"><p><l>kičmenu<b/>moždinu</l><r>kičmena<b/>moždina<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
 <e lm="kičmena moždina"><p><l>kičmena<b/>moždino</l><r>kičmena<b/>moždina<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
@@ -48907,6 +49077,23 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="izdavačka kuća"><p><l>izdavačkim<b/>kućama</l><r>izdavačka<b/>kuća<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
 <e lm="izdavačka kuća"><p><l>izdavačkim<b/>kućama</l><r>izdavačka<b/>kuća<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
 <!--/izdavačka kuća-->
+<!--gimnastička dvorana-->
+<e lm="gimnastička dvorana"><p><l>gimnastička<b/>dvorana</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastičke<b/>dvorane</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastičkoj<b/>dvorani</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastičku<b/>dvoranu</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastička<b/>dvorano</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastičkoj<b/>dvorani</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastičkom<b/>dvoranom</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastičke<b/>dvorane</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastičkih<b/>dvorana</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR" lm="gimnastička dvorana"><p><l>gimnastičkih<b/>dvoranâ</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastičkim<b/>dvoranama</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastičke<b/>dvorane</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastičke<b/>dvorane</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastičkim<b/>dvoranama</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+<e lm="gimnastička dvorana"><p><l>gimnastičkim<b/>dvoranama</l><r>gimnastička<b/>dvorana<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--/gimnastička dvoran-->
 <!--samohrana majka-->
 <e lm="samohrana majka"><p><l>samohrana<b/>majka</l><r>samohrana<b/>majka<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
 <e lm="samohrana majka"><p><l>samohrane<b/>majke</l><r>samohrana<b/>majka<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>

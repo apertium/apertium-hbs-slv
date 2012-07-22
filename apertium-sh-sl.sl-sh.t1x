@@ -358,13 +358,43 @@
 
   <section-def-macros>
 
-    <def-macro n="dual2plural" npar="1">
+    <def-macro n="dual_adapter" npar="1">
       <choose>
 	<when>
 	  <test>
 	    <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="du"/></equal> 
 	  </test>
-	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+	  <choose>
+	    <!-- nom/acc.dual -> gen.sg -->
+	    <when>
+	      <test>
+		<or>
+		  <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="nom"/></equal> 
+		  <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="acc"/></equal> 
+		</or>
+	      </test>
+	      <let><clip pos="1" side="tl" part="cas"/><lit-tag v="gen"/></let>
+	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+	    </when>
+	    <!-- gen.dual -> gen.pl -->
+	    <when>
+	      <test>
+		  <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="gen"/></equal> 
+	      </test>
+	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+	    </when>
+	    <!-- dat/loc/ins.du -> dat/loc/ins.pl -->
+	    <when>
+	      <test>
+		<or>
+		  <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="dat"/></equal> 
+		  <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="loc"/></equal> 
+		  <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="ins"/></equal> 
+		</or>
+	      </test>
+	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+	    </when>
+	  </choose>
 	</when>
       </choose>
     </def-macro>
@@ -382,7 +412,7 @@
 
     <def-macro n="verb_adapter" npar="1">
       <!-- Dual to plural -->
-      <call-macro n="dual2plural"><with-param pos="1"/></call-macro>
+      <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
       <!-- Supine to infinitive -->
       <choose>
 	<when>
@@ -392,9 +422,12 @@
       </choose>
     </def-macro>
 
+    <def-macro n="prn_adapter" npar="1">
+      <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>      
+    </def-macro>
+
     <def-macro n="adj_adapter" npar="1">
-      <!-- Dual to plural -->
-      <call-macro n="dual2plural"><with-param pos="1"/></call-macro>      
+      <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>      
       <call-macro n="m2mima"><with-param pos="1"/></call-macro>      
       <choose>
 	<when><!-- Only positive and <ssup> (elative, absolutive superlative) can be def/ind-->
@@ -461,7 +494,7 @@
 	<pattern-item n="prn"/>
       </pattern>
       <action>
-	<call-macro n="dual2plural">
+	<call-macro n="dual_adapter">
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>
@@ -489,7 +522,7 @@
 	<pattern-item n="nom"/>
       </pattern>
       <action>
-	<call-macro n="dual2plural">
+	<call-macro n="dual_adapter">
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>
@@ -522,7 +555,7 @@
 	<pattern-item n="det"/>
       </pattern>
       <action>
-	<call-macro n="dual2plural">
+	<call-macro n="dual_adapter">
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>
@@ -1152,6 +1185,25 @@
 	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
 	<out>
 	  <chunk name="adj" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="A"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="prn">
+      <pattern>
+	<pattern-item n="prns"/>
+      </pattern>
+      <action>
+	<call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
+	<out>
+	  <chunk name="prn" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="A"/></tag>
 	    </tags>

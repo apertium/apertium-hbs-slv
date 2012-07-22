@@ -14,7 +14,9 @@
     <sdef n="ma" c="Masculine (animate)"/>
 
     <sdef n="sg" c="Singular"/>
+    <sdef n="du" c="Dual"/>
     <sdef n="pl" c="Plural"/>
+
     <sdef n="prn" c="Pronoun"/>
     <sdef n="pr" c="Preposition"/>
 
@@ -178,6 +180,14 @@
       <e r="RL"><p><l><s n="ND"/></l><r><s n="pl"/></r></p></e>
     </pardef>
     
+    <pardef n="gen_identity">
+      <e><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
+      <e><p><l><s n="ma"/></l><r><s n="ma"/></r></p></e>
+      <e><p><l><s n="mi"/></l><r><s n="mi"/></r></p></e>
+      <e><p><l><s n="f"/></l><r><s n="f"/></r></p></e>
+      <e><p><l><s n="nt"/></l><r><s n="nt"/></r></p></e>
+    </pardef>
+
     <pardef n="gen_nogen">
       <e r="LR"><p><l><s n="ma"/></l><r></r></p></e>
       <e r="LR"><p><l><s n="mi"/></l><r></r></p></e>
@@ -222,6 +232,16 @@
       <e r="LR"><p><l><s n="sg"/></l><r></r></p></e>
       <e r="LR"><p><l><s n="pl"/></l><r></r></p></e>
       <e r="RL"><p><l><s n="GD"/></l><r></r></p></e><!-- Spectie check please -->
+    </pardef>
+
+    <pardef n="cas_identity">
+      <e><i><s n="nom"/></i></e>
+      <e><i><s n="gen"/></i></e>
+      <e><i><s n="dat"/></i></e>
+      <e><i><s n="acc"/></i></e>
+      <e><i><s n="voc"/></i></e>
+      <e><i><s n="loc"/></i></e>
+      <e><i><s n="ins"/></i></e>
     </pardef>
     
     <pardef n="cas_nocas">
@@ -290,14 +310,19 @@
 
     <e><p><l>svoj<s n="prn"/><s n="ref"/><s n="pos"/></l><r>svoj<s n="prn"/><s n="ref"/></r></p></e>
     <e><p><l>sav<s n="prn"/><s n="tot"/><s n="ma"/></l><r>ves<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e><p><l>sve<s n="prn"/><s n="tot"/><s n="ma"/></l><r>vse<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
     <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>njen<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
 
+    <e><p><l>oba<s n="num"/></l><r>oba<s n="prn"/><s n="ind"/></r></p><par n="gen_identity"/><p><l></l><r><s n="du"/></r></p><par n="cas_identity"/></e>
 
     <!-- Matches of tags -->
     <e><p><l>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/></l><r>se<s n="prn"/><s n="ref"/><s n="mf"/></r></p></e>
     <e><p><l>njegov<s n="prn"/><s n="pos"/></l><r>njegov<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
     <e><p><l>njihov<s n="prn"/><s n="pos"/></l><r>njihov<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
     <e><p><l>taj<s n="prn"/><s n="dem"/></l><r>ta<s n="prn"/><s n="dem"/></r></p></e>
+    
+    <!--by Krvoje; le + prn--><!--TODO: Check with Aleš-->
+    <e><p><l>samo<s n="adv"/><b/>taj<s n="prn"/><s n="dem"/></l><r>le-ta<s n="prn"/><s n="dem"/></r></p></e>
 
     <!-- Added for SH -> SL -->
     <e><p><l>moj<s n="prn"/><s n="pos"/></l><r>moj<s n="prn"/><s n="pos"/></r></p></e>
@@ -374,6 +399,7 @@
     
     <e><p><l>ničiji<s n="prn"/><s n="neg"/></l><r>od<b/>nobenega<s n="prn"/><s n="neg"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e> 
     <!-- od nobenega => "Ovaj automobil nije ničiji" - "This is nobody's car" - "Ta avtomobil ni od nobenega" OR "Ničiji automobil nije crven" - "Nobody's car is red" - "Od nobenega avtomobil ni rdeč"; -->
+    <e><p><l>nitko<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/></l><r>nihče<s n="prn"/><s n="neg"/></r></p></e>
 
 
     <!--Adverbs-->
