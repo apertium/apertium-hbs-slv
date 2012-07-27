@@ -26590,7 +26590,6 @@
       <e><p><l>ama</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>ama</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
-
     <pardef n="žen/a__n">
       <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>e</l><r>a<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -26796,6 +26795,26 @@
       <e><p><l>ki</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
       <e r="LR"><p><l>ci</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
       <e><p><l>ki</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ko</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>kom</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e r="LR"><p><l>ki</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>ka</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>kâ</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>akâ</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>aka</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+    </pardef>
+    <pardef n="olov/ka__n"><!--Only with sibilarization --><!--Fleeting a --><!--Three possibilities for genitive pl-->
+      <e><p><l>ka</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ku</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ci</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ci</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
       <e><p><l>ko</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
       <e><p><l>kom</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -27351,7 +27370,7 @@
       <e><p><l>nama</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>nama</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
-    <pardef n="treš/nja__n">
+    <pardef n="treš/nja__n"><!--With fleeting a-->
       <e><p><l>nja</l><r>nja<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>nje</l><r>nja<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>nju</l><r>nja<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -27388,7 +27407,7 @@
       <e><p><l>trešnjama</l><r>trešnja:1<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>trešnjama</l><r>trešnja:1<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
-    <pardef n="čež/nja__n">
+    <pardef n="čež/nja__n"><!--Without fleeting a-->
       <e><p><l>nja</l><r>nja<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>nje</l><r>nja<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>nju</l><r>nja<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -27459,7 +27478,7 @@
       <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
-    <pardef n="svr/ha__n"><!-- Without sibilarization-->
+    <pardef n="svr/ha__n"><!-- With sibilarization-->
       <e><p><l>ha</l><r>ha<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>he</l><r>ha<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>hu</l><r>ha<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -32516,7 +32535,6 @@
     <e lm="izbrazdan"><i>izbrazdan</i><par n="danas__adv"/></e>
     <e lm="bezbrižno"><i>bezbrižno</i><par n="danas__adv"/></e>
     <e lm="besciljno"><i>besciljno</i><par n="danas__adv"/></e>
-    <e lm="bezposla"><i>bezposla</i><par n="danas__adv"/></e>
     <e lm="korektno"><i>korektno</i><par n="danas__adv"/></e>
     <e lm="besprijekorno"><i>besprijekorno</i><par n="danas__adv"/></e>
     <e lm="neograničen"><i>neograničen</i><par n="danas__adv"/></e>
@@ -32718,7 +32736,6 @@
     <e lm="bilo koji"><i>bilo<b/>koji</i><par n="danas__adv"/></e>
     <e lm="bilo kako"><i>bilo<b/>kako</i><par n="danas__adv"/></e>
     <e lm="kako god"><i>kako<b/>god</i><par n="danas__adv"/></e>
-    <e lm="kala"><i>kala</i><par n="danas__adv"/></e>
     <e lm="bilo kuda"><i>bilo<b/>kuda</i><par n="danas__adv"/></e>
     <e lm="kaotičan"><i>kaotičan</i><par n="danas__adv"/></e>
     <e lm="kazneno"><i>kazneno</i><par n="danas__adv"/></e>
@@ -33244,7 +33261,6 @@
     <e lm="šest puta"><i>šest<b/>puta</i><par n="danas__adv"/></e>
     
     <e lm="ozaren"><i>ozaren</i><par n="danas__adv"/></e>
-    <e lm="sila"><i>sila</i><par n="danas__adv"/></e>
     <e lm="simbolično"><i>simbolično</i><par n="danas__adv"/></e>
     <e lm="simboličan"><i>simboličan</i><par n="danas__adv"/></e>
     <e lm="sinji"><i>sinji</i><par n="danas__adv"/></e>
@@ -33278,7 +33294,6 @@
     <e lm="slučajno"><i>slučajno</i><par n="danas__adv"/></e>
     <e lm="smijati se"><i>smijati<b/>se</i><par n="danas__adv"/></e>
     <e lm="smisleno"><i>smisleno</i><par n="danas__adv"/></e>
-    <e lm="smola"><i>smola</i><par n="danas__adv"/></e>
     <e lm="smrdljiv"><i>smrdljiv</i><par n="danas__adv"/></e>
     <e lm="sniježan"><i>sniježan</i><par n="danas__adv"/></e>
     <e lm="sažalno"><i>sažalno</i><par n="danas__adv"/></e>
@@ -33463,7 +33478,6 @@
     <e lm="ogorčeno"><i>ogorčeno</i><par n="danas__adv"/></e>
     <e lm="potonuće"><i>potonuće</i><par n="danas__adv"/></e>
     <e lm="potonuće"><i>potonuće</i><par n="danas__adv"/></e>
-    <e lm="hvala"><i>hvala</i><par n="danas__adv"/></e>
     <e lm="uvučen"><i>uvučen</i><par n="danas__adv"/></e>
     <e lm="uzalud"><i>uzalud</i><par n="danas__adv"/></e>
     <e lm="razmjenljivo"><i>razmjenljivo</i><par n="danas__adv"/></e>
@@ -36386,6 +36400,8 @@
     <e lm="zdrav"><i>zdrav</i><par n="zdrav__comp__adj"/></e>
     <e lm="zdrav"><p><l>najzdrav</l><r>zdrav</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="zdrav"><p><l>prezdrav</l><r>zdrav</r></p><par n="zdrav__ssup__adj"/></e>
+
+    <e lm="crvenokos"><i>crvenokos</i><par n="zdrav__pst__adj"/></e>
 
     <e lm="zdepast"><i>zdepast</i><par n="zdrav__pst__adj"/></e>
     <e lm="zdepast"><i>zdepast</i><par n="zdrav__comp__adj"/></e>
@@ -47067,6 +47083,11 @@
     <!--Feminine like -->
     <e lm="kolega"><i>koleg</i><par n="koleg/a__n"/></e>
     <e lm="baraba"><i>barab</i><par n="koleg/a__n"/></e>
+    <e lm="stjegonoša"><i>stjegonoš</i><par n="koleg/a__n"/></e>
+    <e lm="ustaša"><i>ustaš</i><par n="koleg/a__n"/></e>
+    <e lm="paša"><i>paš</i><par n="koleg/a__n"/></e>
+    <e lm="pristaša"><i>pristaš</i><par n="koleg/a__n"/></e>
+    <e lm="vojskovođa"><i>vojskovođ</i><par n="koleg/a__n"/></e>
     <e lm="kolumnista"><i>kolumnist</i><par n="koleg/a__n"/></e>
     <!--Antroponyms-->
     <e lm="Nikola"><i>Nikol</i><par n="Nikol/a__np"/></e>
@@ -47083,8 +47104,82 @@
     <!--Feminine nouns -->
     <e lm="vrata"><i>vrat</i><par n="vrat/a__n"/></e>
     <e lm="nosila"><i>nosil</i><par n="vrat/a__n"/></e>
+    <e lm="tabla"><i>tab</i><par n="tab/la__n"/></e>
     <e lm="bojazan"><i>boja</i><par n="sabla/zan__n"/></e>
+    <e lm="naranča"><i>naran</i><par n="naran/ča__n"/></e>    
     <e lm="obuća"><i>obuć</i><par n="žen/a__n"/></e>    
+    <e lm="kulisa"><i>kulis</i><par n="žen/a__n"/></e>
+    <e lm="brineta"><i>brinet</i><par n="žen/a__n"/></e>
+    <e lm="komiteta"><i>komitet</i><par n="žen/a__n"/></e>
+    <e lm="kota"><i>kot</i><par n="žen/a__n"/></e>
+    <e lm="meta"><i>met</i><par n="žen/a__n"/></e>
+    <e lm="nota"><i>not</i><par n="žen/a__n"/></e>
+    <e lm="oplata"><i>oplat</i><par n="žen/a__n"/></e>
+    <e lm="paleta"><i>palet</i><par n="žen/a__n"/></e>
+    <e lm="pretplata"><i>pretplat</i><par n="žen/a__n"/></e>
+    <e lm="salata"><i>salat</i><par n="žen/a__n"/></e>
+    <e lm="silueta"><i>siluet</i><par n="žen/a__n"/></e>
+    <e lm="tableta"><i>tablet</i><par n="žen/a__n"/></e>
+    <e lm="toaleta"><i>toalet</i><par n="žen/a__n"/></e>
+    <e lm="vata"><i>vat</i><par n="žen/a__n"/></e>
+    <e lm="vrednota"><i>vrednot</i><par n="žen/a__n"/></e>
+    <e lm="dojava"><i>dojav</i><par n="žen/a__n"/></e>
+    <e lm="mećava"><i>mećav</i><par n="žen/a__n"/></e>
+    <e lm="njiva"><i>njiv</i><par n="žen/a__n"/></e>
+    <e lm="oprava"><i>oprav</i><par n="žen/a__n"/></e>
+    <e lm="ostava"><i>ostav</i><par n="žen/a__n"/></e>
+    <e lm="pojava"><i>pojav</i><par n="žen/a__n"/></e>
+    <e lm="predstava"><i>predstav</i><par n="žen/a__n"/></e>
+    <e lm="preventiva"><i>preventiv</i><par n="žen/a__n"/></e>
+    <e lm="prijava"><i>prijav</i><par n="žen/a__n"/></e>
+    <e lm="proslava"><i>proslav</i><par n="žen/a__n"/></e>
+    <e lm="strava"><i>strav</i><par n="žen/a__n"/></e>
+    <e lm="superdržava"><i>superdržav</i><par n="žen/a__n"/></e>
+    <e lm="tava"><i>tav</i><par n="žen/a__n"/></e>
+    <e lm="tučnjava"><i>tučnjav</i><par n="žen/a__n"/></e>
+    <e lm="tvrđava"><i>tvrđav</i><par n="žen/a__n"/></e>
+    <e lm="vreva"><i>vrev</i><par n="žen/a__n"/></e>
+    <e lm="groza"><i>groz</i><par n="žen/a__n"/></e>
+    <e lm="griža"><i>griž</i><par n="žen/a__n"/></e>
+    <e lm="loža"><i>lož</i><par n="žen/a__n"/></e>
+    <e lm="reportaža"><i>reportaž</i><par n="žen/a__n"/></e>
+    <e lm="riža"><i>riž</i><par n="žen/a__n"/></e>
+    <e lm="jeza"><i>jez</i><par n="žen/a__n"/></e>
+    <e lm="loza"><i>loz</i><par n="žen/a__n"/></e>
+    <e lm="nervoza"><i>nervoz</i><par n="žen/a__n"/></e>
+    <e lm="princeza"><i>princez</i><par n="žen/a__n"/></e>
+    <e lm="samohipnoza"><i>samohipnoz</i><par n="žen/a__n"/></e>
+    <e lm="suza"><i>suz</i><par n="žen/a__n"/></e>
+    <e lm="melisa"><i>melis</i><par n="žen/a__n"/></e>
+    <e lm="misa"><i>mis</i><par n="žen/a__n"/></e>
+    <e lm="rasa"><i>ras</i><par n="žen/a__n"/></e>
+    <e lm="resa"><i>res</i><par n="žen/a__n"/></e>
+    <e lm="smjesa"><i>smjes</i><par n="žen/a__n"/></e>
+    <e lm="trasa"><i>tras</i><par n="žen/a__n"/></e>
+    <e lm="zavjesa"><i>zavjes</i><par n="žen/a__n"/></e>
+    <e lm="gradnja"><i>grad</i><par n="čež/nja__n"/></e>
+    <e lm="hitnja"><i>hit</i><par n="čež/nja__n"/></e>
+    <e lm="kretnja"><i>kret</i><par n="čež/nja__n"/></e>
+    <e lm="krošnja"><i>kroš</i><par n="treš/nja__n"/></e>
+    <e lm="kušnja"><i>kuš</i><par n="čež/nja__n"/></e>
+    <e lm="milostinja"><i>milostinj</i><par n="žen/a__n"/></e>
+    <e lm="mošnja"><i>moš</i><par n="čež/nja__n"/></e>
+    <e lm="munja"><i>munj</i><par n="žen/a__n"/></e>
+    <e lm="nošnja"><i>noš</i><par n="čež/nja__n"/></e>
+    <e lm="ophodnja"><i>ophod</i><par n="čež/nja__n"/></e>
+    <e lm="oplodnja"><i>oplod</i><par n="čež/nja__n"/></e>
+    <e lm="pedagoginja"><i>pedagoginj</i><par n="žen/a__n"/></e>
+    <e lm="pomutnja"><i>pomut</i><par n="čež/nja__n"/></e>
+    <e lm="psihologinja"><i>psihologinj</i><par n="žen/a__n"/></e>
+    <e lm="pustinja"><i>pustinj</i><par n="žen/a__n"/></e>
+    <e lm="ropkinja"><i>ropkinj</i><par n="žen/a__n"/></e>
+    <e lm="slutnja"><i>slut</i><par n="čež/nja__n"/></e>
+    <e lm="strankinja"><i>strankinj</i><par n="žen/a__n"/></e>
+    <e lm="šurjakinja"><i>šurjakinj</i><par n="žen/a__n"/></e>
+    <e lm="sutkinja"><i>sutkinj</i><par n="žen/a__n"/></e>
+    <e lm="svinja"><i>svinj</i><par n="žen/a__n"/></e>
+    <e lm="tlapnja"><i>tlap</i><par n="čež/nja__n"/></e>
+    <e lm="trgovkinja"><i>trgovkinj</i><par n="žen/a__n"/></e>
     <e lm="studija izvedivosti"><i>studij</i><par n="žen/a__n"/><p><l><b/>izvedivosti</l><r><g><b/>izvedivosti</g></r></p></e>
     <e lm="greda"><i>gred</i><par n="žen/a__n"/></e>
     <e lm="livada"><i>livad</i><par n="žen/a__n"/></e>
@@ -47158,17 +47253,166 @@
     <e lm="rukavica samo s palcem"><i>rukavic</i><par n="žen/a__n"/><p><l><b/>samo<b/>s<b/>palcem</l><r><g><b/>samo<b/>s<b/>palcem</g></r></p></e>
     <e lm="rukavica bez prstiju"><i>rukavic</i><par n="žen/a__n"/><p><l><b/>bez<b/>prstiju</l><r><g><b/>bez<b/>prstiju</g></r></p></e>
     <e lm="municija"><i>municij</i><par n="žen/a__n"/></e>
+    <e lm="akrobacija"><i>akrobacij</i><par n="žen/a__n"/></e>
+    <e lm="alkemija"><i>alkemij</i><par n="žen/a__n"/></e>
+    <e lm="biskupija"><i>biskupij</i><par n="žen/a__n"/></e>
+    <e lm="dizenterija"><i>dizenterij</i><par n="žen/a__n"/></e>
+    <e lm="dječurlija"><i>dječurlij</i><par n="žen/a__n"/></e>
+    <e lm="džamija"><i>džamij</i><par n="žen/a__n"/></e>
+    <e lm="erupcija"><i>erupcij</i><par n="žen/a__n"/></e>
+    <e lm="kaucija"><i>kaucij</i><par n="žen/a__n"/></e>
+    <e lm="kopija"><i>kopij</i><par n="žen/a__n"/></e>
+    <e lm="kupčija"><i>kupčij</i><par n="žen/a__n"/></e>
+    <e lm="legitimacija"><i>legitimacij</i><par n="žen/a__n"/></e>
+    <e lm="leukemija"><i>leukemij</i><par n="žen/a__n"/></e>
+    <e lm="lutrija"><i>lutrij</i><par n="žen/a__n"/></e>
+    <e lm="markacija"><i>markacij</i><par n="žen/a__n"/></e>
+    <e lm="mašinerija"><i>mašinerij</i><par n="žen/a__n"/></e>
+    <e lm="morija"><i>morij</i><par n="žen/a__n"/></e>
+    <e lm="pistacija"><i>pistacij</i><par n="žen/a__n"/></e>
+    <e lm="pješadija"><i>pješadij</i><par n="žen/a__n"/></e>
+    <e lm="protekcija"><i>protekcij</i><par n="žen/a__n"/></e>
+    <e lm="provalija"><i>provalij</i><par n="žen/a__n"/></e>
+    <e lm="psihijatrija"><i>psihijatrij</i><par n="žen/a__n"/></e>
+    <e lm="pukovnija"><i>pukovnij</i><par n="žen/a__n"/></e>
+    <e lm="punkcija"><i>punkcij</i><par n="žen/a__n"/></e>
+    <e lm="recepcija"><i>recepcij</i><par n="žen/a__n"/></e>
+    <e lm="represija"><i>represij</i><par n="žen/a__n"/></e>
+    <e lm="revija"><i>revij</i><par n="žen/a__n"/></e>
+    <e lm="sakristija"><i>sakristij</i><par n="žen/a__n"/></e>
+    <e lm="sanjarija"><i>sanjarij</i><par n="žen/a__n"/></e>
+    <e lm="slikarija"><i>slikarij</i><par n="žen/a__n"/></e>
+    <e lm="sljeparija"><i>sljeparij</i><par n="žen/a__n"/></e>
+    <e lm="stipendija"><i>stipendij</i><par n="žen/a__n"/></e>
+    <e lm="svinjarija"><i>svinjarij</i><par n="žen/a__n"/></e>
+    <e lm="varijacija"><i>varijacij</i><par n="žen/a__n"/></e>
+    <e lm="zanatlija"><i>zanatlij</i><par n="žen/a__n"/></e>
     <e lm="veljača"><i>veljač</i><par n="žen/a__n"/></e>
     <e lm="šansa"><i>šans</i><par n="žen/a__n"/></e>
     <e lm="droga"><i>drog</i><par n="žen/a__n"/></e>
     <e lm="prilika"><i>prili</i><par n="sli/ka__n"/></e>
+    <e lm="zbrka"><i>zbr</i><par n="sli/ka__n"/></e>
     <e lm="dlaka"><i>dla</i><par n="sli/ka__n"/></e>
+    <e lm="olovka"><i>olov</i><par n="olov/ka__n"/></e>
+    <e lm="pretpostavka"><i>pretpostav</i><par n="olov/ka__n"/></e>
+    <e lm="školjka"><i>školj</i><par n="olov/ka__n"/></e>
+
     <e lm="tvrtka"><i>tvrt</i><par n="das/ka__n"/></e>
+    <e lm="opaska"><i>opas</i><par n="das/ka__n"/></e>
     <e lm="dosjetka"><i>dos</i><par n="e_je__yat"/><i>t</i><par n="das/ka__n"/></e>
     <e lm="beretka"><i>beret</i><par n="das/ka__n"/></e>
     <e lm="gomila"><i>gomil</i><par n="žen/a__n"/></e>
+    <e lm="budala"><i>budal</i><par n="žen/a__n"/></e>
+    <e lm="ćela"><i>ćel</i><par n="žen/a__n"/></e>
+    <e lm="ilegala"><i>ilegal</i><par n="žen/a__n"/></e>
+    <e lm="katedrala"><i>katedral</i><par n="žen/a__n"/></e>
+    <e lm="kola"><i>kol</i><par n="žen/a__n"/></e>
+    <e lm="kula"><i>kul</i><par n="žen/a__n"/></e>
+    <e lm="mula"><i>mul</i><par n="žen/a__n"/></e>
+    <e lm="parcela"><i>parcel</i><par n="žen/a__n"/></e>
+    <e lm="parola"><i>parol</i><par n="žen/a__n"/></e>
+    <e lm="patrola"><i>patrol</i><par n="žen/a__n"/></e>
+    <e lm="provala"><i>proval</i><par n="žen/a__n"/></e>
+    <e lm="rebula"><i>rebul</i><par n="žen/a__n"/></e>
+    <e lm="šala"><i>šal</i><par n="žen/a__n"/></e>
+    <e lm="samokontrola"><i>samokontrol</i><par n="žen/a__n"/></e>
+    <e lm="strijela"><i>strijel</i><par n="žen/a__n"/></e>
+    <e lm="velesila"><i>velesil</i><par n="žen/a__n"/></e>
+    <e lm="zahvala"><i>zahval</i><par n="žen/a__n"/></e>
+    <e lm="zdjela"><i>zdjel</i><par n="žen/a__n"/></e>
+    <e lm="žila"><i>žil</i><par n="žen/a__n"/></e>
+    <e lm="guma"><i>gum</i><par n="žen/a__n"/></e>
+    <e lm="krama"><i>kram</i><par n="žen/a__n"/></e>
+    <e lm="kuma"><i>kum</i><par n="žen/a__n"/></e>
+    <e lm="pidžama"><i>pidžam</i><par n="žen/a__n"/></e>
+    <e lm="plima"><i>plim</i><par n="žen/a__n"/></e>
+    <e lm="polutama"><i>polutam</i><par n="žen/a__n"/></e>
+    <e lm="reklama"><i>reklam</i><par n="žen/a__n"/></e>
+    <e lm="trauma"><i>traum</i><par n="žen/a__n"/></e>
     <e lm="hrpa"><i>hrp</i><par n="žen/a__n"/></e>
     <e lm="skupina"><i>skupin</i><par n="žen/a__n"/></e>
+    <e lm="bušotina"><i>bušotin</i><par n="žen/a__n"/></e>
+    <e lm="škrinja"><i>škrinj</i><par n="žen/a__n"/></e>
+    <e lm="buna"><i>bun</i><par n="žen/a__n"/></e>
+    <e lm="grana"><i>gran</i><par n="žen/a__n"/></e>
+    <e lm="kruna"><i>krun</i><par n="žen/a__n"/></e>
+    <e lm="mahuna"><i>mahun</i><par n="žen/a__n"/></e>
+    <e lm="megatona"><i>megaton</i><par n="žen/a__n"/></e>
+    <e lm="mijena"><i>mijen</i><par n="žen/a__n"/></e>
+    <e lm="mrena"><i>mren</i><par n="žen/a__n"/></e>
+    <e lm="nakana"><i>nakan</i><par n="žen/a__n"/></e>
+    <e lm="opsjena"><i>opsjen</i><par n="žen/a__n"/></e>
+    <e lm="pelena"><i>pelen</i><par n="žen/a__n"/></e>
+    <e lm="pilana"><i>pilan</i><par n="žen/a__n"/></e>
+    <e lm="pjena"><i>pjen</i><par n="žen/a__n"/></e>
+    <e lm="pobuna"><i>pobun</i><par n="žen/a__n"/></e>
+    <e lm="prehrana"><i>prehran</i><par n="žen/a__n"/></e>
+    <e lm="samoobmana"><i>samoobman</i><par n="žen/a__n"/></e>
+    <e lm="sjena"><i>sjen</i><par n="žen/a__n"/></e>
+    <e lm="spona"><i>spon</i><par n="žen/a__n"/></e>
+    <e lm="stijena"><i>stijen</i><par n="žen/a__n"/></e>
+    <e lm="štrena"><i>štren</i><par n="žen/a__n"/></e>
+    <e lm="struna"><i>strun</i><par n="žen/a__n"/></e>
+    <e lm="zabuna"><i>zabun</i><par n="žen/a__n"/></e>
+    <e lm="butina"><i>butin</i><par n="žen/a__n"/></e>
+    <e lm="dina"><i>din</i><par n="žen/a__n"/></e>
+    <e lm="grmljavina"><i>grmljavin</i><par n="žen/a__n"/></e>
+    <e lm="hladovina"><i>hladovin</i><par n="žen/a__n"/></e>
+    <e lm="jamčevina"><i>jamčevin</i><par n="žen/a__n"/></e>
+    <e lm="kosina"><i>kosin</i><par n="žen/a__n"/></e>
+    <e lm="kotlina"><i>kotlin</i><par n="žen/a__n"/></e>
+    <e lm="kovina"><i>kovin</i><par n="žen/a__n"/></e>
+    <e lm="krivotvorina"><i>krivotvorin</i><par n="žen/a__n"/></e>
+    <e lm="kupina"><i>kupin</i><par n="žen/a__n"/></e>
+    <e lm="ljetina"><i>ljetin</i><par n="žen/a__n"/></e>
+    <e lm="lukavština"><i>lukavštin</i><par n="žen/a__n"/></e>
+    <e lm="mješavina"><i>mješavin</i><par n="žen/a__n"/></e>
+    <e lm="modrina"><i>modrin</i><par n="žen/a__n"/></e>
+    <e lm="moždina"><i>moždin</i><par n="žen/a__n"/></e>
+    <e lm="mrcina"><i>mrcin</i><par n="žen/a__n"/></e>
+    <e lm="neistina"><i>neistin</i><par n="žen/a__n"/></e>
+    <e lm="nekretnina"><i>nekretnin</i><par n="žen/a__n"/></e>
+    <e lm="oblina"><i>oblin</i><par n="žen/a__n"/></e>
+    <e lm="ogrebotina"><i>ogrebotin</i><par n="žen/a__n"/></e>
+    <e lm="olupina"><i>olupin</i><par n="žen/a__n"/></e>
+    <e lm="oštrina"><i>oštrin</i><par n="žen/a__n"/></e>
+    <e lm="otopina"><i>otopin</i><par n="žen/a__n"/></e>
+    <e lm="patvorina"><i>patvorin</i><par n="žen/a__n"/></e>
+    <e lm="pogrebnina"><i>pogrebnin</i><par n="žen/a__n"/></e>
+    <e lm="poluistina"><i>poluistin</i><par n="žen/a__n"/></e>
+    <e lm="pomrčina"><i>pomrčin</i><par n="žen/a__n"/></e>
+    <e lm="poštarina"><i>poštarin</i><par n="žen/a__n"/></e>
+    <e lm="potrepština"><i>potrepštin</i><par n="žen/a__n"/></e>
+    <e lm="praznina"><i>praznin</i><par n="žen/a__n"/></e>
+    <e lm="prljavština"><i>prljavštin</i><par n="žen/a__n"/></e>
+    <e lm="pukotina"><i>pukotin</i><par n="žen/a__n"/></e>
+    <e lm="ravnina"><i>ravnin</i><par n="žen/a__n"/></e>
+    <e lm="rodbina"><i>rodbin</i><par n="žen/a__n"/></e>
+    <e lm="rogožina"><i>rogožin</i><par n="žen/a__n"/></e>
+    <e lm="ruševina"><i>ruševin</i><par n="žen/a__n"/></e>
+    <e lm="širina"><i>širin</i><par n="žen/a__n"/></e>
+    <e lm="sirovina"><i>sirovin</i><par n="žen/a__n"/></e>
+    <e lm="školarina"><i>školarin</i><par n="žen/a__n"/></e>
+    <e lm="slavina"><i>slavin</i><par n="žen/a__n"/></e>
+    <e lm="sobetina"><i>sobetin</i><par n="žen/a__n"/></e>
+    <e lm="staklenina"><i>staklenin</i><par n="žen/a__n"/></e>
+    <e lm="starješina"><i>starješin</i><par n="žen/a__n"/></e>
+    <e lm="strmina"><i>strmin</i><par n="žen/a__n"/></e>
+    <e lm="šupljina"><i>šupljin</i><par n="žen/a__n"/></e>
+    <e lm="svježina"><i>svježin</i><par n="žen/a__n"/></e>
+    <e lm="tišina"><i>tišin</i><par n="žen/a__n"/></e>
+    <e lm="tmina"><i>tmin</i><par n="žen/a__n"/></e>
+    <e lm="tratina"><i>tratin</i><par n="žen/a__n"/></e>
+    <e lm="trošarina"><i>trošarin</i><par n="žen/a__n"/></e>
+    <e lm="tvorevina"><i>tvorevin</i><par n="žen/a__n"/></e>
+    <e lm="udubina"><i>udubin</i><par n="žen/a__n"/></e>
+    <e lm="ulaznina"><i>ulaznin</i><par n="žen/a__n"/></e>
+    <e lm="umjetnina"><i>umjetnin</i><par n="žen/a__n"/></e>
+    <e lm="užina"><i>užin</i><par n="žen/a__n"/></e>
+    <e lm="vedrina"><i>vedrin</i><par n="žen/a__n"/></e>
+    <e lm="vladavina"><i>vladavin</i><par n="žen/a__n"/></e>
+    <e lm="žabokrečina"><i>žabokrečin</i><par n="žen/a__n"/></e>
+
     <e lm="tribina"><i>tribin</i><par n="žen/a__n"/></e>
     <e lm="vatra"><i>vatr</i><par n="žen/a__n"/></e>
     <e lm="pristojba"><i>pristoj</i><par n="nared/ba__n"/><p><l><b/>za<b/>parkiranje</l><r><g><b/>za<b/>parkiranje</g></r></p></e>
@@ -47207,9 +47451,36 @@
     <e lm="istina"><i>istin</i><par n="žen/a__n"/></e>
     <e lm="godišnjica"><i>godišnjic</i><par n="žen/a__n"/></e>
     <e lm="veličina"><i>veličin</i><par n="žen/a__n"/></e>
+    <e lm="bedrenjača"><i>bedrenjač</i><par n="žen/a__n"/></e>
+    <e lm="ispaša"><i>ispaš</i><par n="žen/a__n"/></e>
+    <e lm="kopača"><i>kopač</i><par n="žen/a__n"/></e>
+    <e lm="kornjača"><i>kornjač</i><par n="žen/a__n"/></e>
+    <e lm="krastača"><i>krastač</i><par n="žen/a__n"/></e>
+    <e lm="kutlača"><i>kutlač</i><par n="žen/a__n"/></e>
+    <e lm="leća"><i>leć</i><par n="žen/a__n"/></e>
+    <e lm="ljeskovača"><i>ljeskovač</i><par n="žen/a__n"/></e>
+    <e lm="naprtnjača"><i>naprtnjač</i><par n="žen/a__n"/></e>
+    <e lm="papuča"><i>papuč</i><par n="žen/a__n"/></e>
+    <e lm="plavuša"><i>plavuš</i><par n="žen/a__n"/></e>
+    <e lm="ploča"><i>ploč</i><par n="žen/a__n"/></e>
+    <e lm="pogača"><i>pogač</i><par n="žen/a__n"/></e>
+    <e lm="pregača"><i>pregač</i><par n="žen/a__n"/></e>
+    <e lm="rudača"><i>rudač</i><par n="žen/a__n"/></e>
+    <e lm="sreća"><i>sreć</i><par n="žen/a__n"/></e>
+    <e lm="štitnjača"><i>štitnjač</i><par n="žen/a__n"/></e>
+    <e lm="svijeća"><i>svijeć</i><par n="žen/a__n"/></e>
+    <e lm="tuča"><i>tuč</i><par n="žen/a__n"/></e>
+    <e lm="vjeđa"><i>vjeđ</i><par n="žen/a__n"/></e>
+    <e lm="vjetrenjača"><i>vjetrenjač</i><par n="žen/a__n"/></e>
+    <e lm="vreća"><i>vreć</i><par n="žen/a__n"/></e>
+    <e lm="zaimača"><i>zaimač</i><par n="žen/a__n"/></e>
     <e lm="šuma"><i>šum</i><par n="žen/a__n"/></e>
     <e lm="dojka"><i>doj</i><par n="sli/ka__n"/></e>
     <e lm="izgradnja"><i>izgradnj</i><par n="vožnj/a__n"/></e>
+    <e lm="omča"><i>omč</i><par n="vožnj/a__n"/></e>
+    <e lm="unča"><i>unč</i><par n="vožnj/a__n"/></e>
+    <e lm="sintaksa"><i>sintaks</i><par n="vožnj/a__n"/></e>
+    <e lm="nijansa"><i>nijans</i><par n="vožnj/a__n"/></e>
     <e lm="desetica"><i>desetic</i><par n="žen/a__n"/></e>
     <e lm="dužina"><i>dužin</i><par n="žen/a__n"/></e>
     <e lm="duljina"><i>duljin</i><par n="žen/a__n"/></e>
@@ -47278,12 +47549,37 @@
     <e lm="članica"><i>članic</i><par n="žen/a__n"/></e>
     <e lm="zemlja"><i>zem</i><par n="zem/lja__n"/></e>
     <e lm="petlja"><i>pet</i><par n="zem/lja__n"/></e>
+    <e lm="baklja"><i>bak</i><par n="zem/lja__n"/></e>
     <e lm="milja"><i>milj</i><par n="žen/a__n"/></e>
+    <e lm="bogomolja"><i>bogomolj</i><par n="žen/a__n"/></e>
+    <e lm="košulja"><i>košulj</i><par n="žen/a__n"/></e>
+    <e lm="krivulja"><i>krivulj</i><par n="žen/a__n"/></e>
+    <e lm="mrlja"><i>mrlj</i><par n="žen/a__n"/></e>
+    <e lm="nevolja"><i>nevolj</i><par n="žen/a__n"/></e>
+    <e lm="nosilja"><i>nosilj</i><par n="žen/a__n"/></e>
+    <e lm="postelja"><i>postelj</i><par n="žen/a__n"/></e>
+    <e lm="pratilja"><i>pratilj</i><par n="žen/a__n"/></e>
+    <e lm="predaja"><i>predaj</i><par n="žen/a__n"/></e>
+    <e lm="rasprodaja"><i>rasprodaj</i><par n="žen/a__n"/></e>
+    <e lm="rodilja"><i>rodilj</i><par n="žen/a__n"/></e>
+    <e lm="srdobolja"><i>srdobolj</i><par n="žen/a__n"/></e>
+    <e lm="staja"><i>staj</i><par n="žen/a__n"/></e>
+    <e lm="vlasulja"><i>vlasulj</i><par n="žen/a__n"/></e>
     <e lm="kuna"><i>kun</i><par n="žen/a__n"/></e>
     <e lm="obveznica"><i>obveznic</i><par n="žen/a__n"/></e>
     <e lm="briga"><i>bri</i><par n="knji/ga__n"/></e>
     <e lm="nebriga"><i>nebri</i><par n="knji/ga__n"/></e>
     <e lm="razbibriga"><i>razbibri</i><par n="knji/ga__n"/></e>
+    <e lm="pjega"><i>pje</i><par n="knji/ga__n"/></e>
+    <e lm="podloga"><i>podlo</i><par n="knji/ga__n"/></e>
+    <e lm="prisega"><i>prise</i><par n="knji/ga__n"/></e>
+    <e lm="pruga"><i>pru</i><par n="knji/ga__n"/></e>
+    <e lm="sloga"><i>slo</i><par n="knji/ga__n"/></e>
+    <e lm="vaga"><i>va</i><par n="kvr/ga__n"/></e>
+    <e lm="vijuga"><i>viju</i><par n="knji/ga__n"/></e>
+    <e lm="vlaga"><i>vla</i><par n="knji/ga__n"/></e>
+    <e lm="zaprega"><i>zapre</i><par n="knji/ga__n"/></e>
+    <e lm="zasluga"><i>zaslu</i><par n="knji/ga__n"/></e>
     <e lm="uvreda"><i>uvred</i><par n="žen/a__n"/></e>
     <e lm="pratnja"><i>pratnj</i><par n="vožnj/a__n"/></e>
     <e lm="desetgodišnjica"><i>desetgodišnjic</i><par n="žen/a__n"/></e>
@@ -47298,6 +47594,9 @@
     <e lm="jetra"><i>jet</i><par n="sest/ra__n"/></e>
     <e lm="muha"><i>mu</i><par n="mu/ha__n"/></e>
     <e lm="buha"><i>bu</i><par n="mu/ha__n"/></e>
+    <e lm="ploha"><i>plo</i><par n="mu/ha__n"/></e>
+    <e lm="utjeha"><i>ut</i><par n="e_je__yat"/><par n="mu/ha__n"/></e>
+    <e lm="zaliha"><i>zali</i><par n="mu/ha__n"/></e>
     <e lm="ovrha"><i>ovr</i><par n="mu/ha__n"/></e>
     <e lm="bilanca"><i>bilan</i><par n="vrp/ca__n"/></e>
     <e lm="boca"><i>bo</i><par n="vrp/ca__n"/></e>
@@ -47325,7 +47624,9 @@
     <e lm="lomača"><i>lomač</i><par n="žen/a__n"/></e>
     <e lm="ružnoća"><i>ružnoć</i><par n="žen/a__n"/></e>
     <e lm="žena"><i>žen</i><par n="žen/a__n"/></e>
+    <e lm="breskva"><i></i><par n="breskva__n"/></e>
     <e lm="administracija"><i>administracij</i><par n="žen/a__n"/></e>
+    <e lm="obrva"><i>obrv</i><par n="žen/a__n"/></e>
     <e lm="prepona"><i>prepon</i><par n="žen/a__n"/></e>
     <e lm="agentica"><i>agentic</i><par n="žen/a__n"/></e>
     <e lm="aleja"><i>alej</i><par n="žen/a__n"/></e>
@@ -48405,12 +48706,24 @@
     <e lm="prodavnica"><i>prodavnic</i><par n="žen/a__n"/></e>
     <e lm="prodavaonica"><i>prodavaonic</i><par n="žen/a__n"/></e>
     <e lm="beneficija"><i>beneficij</i><par n="žen/a__n"/></e>
+    <e lm="daska"><i>das</i><par n="das/ka__n"/></e>
+    <e lm="bajka"><i>baj</i><par n="das/ka__n"/></e>
+    <e lm="ljuska"><i>ljus</i><par n="das/ka__n"/></e>
+    <e lm="lozinka"><i>lozin</i><par n="das/ka__n"/></e>
+    <e lm="limenka"><i>limen</i><par n="das/ka__n"/></e>
+    <e lm="ljepenka"><i>l</i><par n="e_je__yat"/><i>pen</i><par n="das/ka__n"/></e>
     <e lm="greška"><i>greš</i><par n="das/ka__n"/></e>
+    <e lm="građanka"><i>građan</i><par n="das/ka__n"/></e>
+    <e lm="guska"><i>gus</i><par n="das/ka__n"/></e>
+    <e lm="kolijevka"><i>kol</i><par n="e_ije__yat"/><i>v</i><par n="das/ka__n"/></e>
+    <e lm="klopka"><i>klop</i><par n="das/ka__n"/></e>
     <e lm="trijeska"><i>tr</i><par n="e_ije__yat"/><i>s</i><par n="das/ka__n"/></e>
     <e lm="špijunka"><i>špijun</i><par n="das/ka__n"/></e>
     <e lm="svjetiljka"><i>sv</i><par n="e_je__yat"/><i>tilj</i><par n="das/ka__n"/></e>
     <e lm="drška"><i>drš</i><par n="das/ka__n"/></e>
     <e lm="trojka"><i>troj</i><par n="sli/ka__n"/></e>
+    <e lm="hiljadarka"><i>hiljadar</i><par n="sli/ka__n"/></e>
+    <e lm="fućkaljka"><i>fućkalj</i><par n="sli/ka__n"/></e>
     <e lm="jabuka"><i>jabu</i><par n="sli/ka__n"/></e>
     <e lm="rođakinja"><i>rođakinj</i><par n="žen/a__n"/></e>
     <e lm="radiodifuzija"><i>radiodifuzij</i><par n="žen/a__n"/></e>
@@ -48478,6 +48791,38 @@
     <e lm="blagajna"><i>blagajn</i><par n="vožnj/a__n"/></e>
     <e lm="brodogradnja"><i>brodogradnj</i><par n="vožnj/a__n"/></e>
     <e lm="cisterna"><i>cistern</i><par n="vožnj/a__n"/></e>
+    <e lm="ljekarna"><i>ljekarn</i><par n="vožnj/a__n"/></e>
+    <e lm="pekarna"><i>pekarn</i><par n="vožnj/a__n"/></e>
+    <e lm="urna"><i>urn</i><par n="vožnj/a__n"/></e>
+    <e lm="usna"><i>usn</i><par n="vožnj/a__n"/></e>
+    <e lm="vojarna"><i>vojarn</i><par n="vožnj/a__n"/></e>
+    <e lm="gospa"><i>gosp</i><par n="žen/a__n"/></e>
+    <e lm="pipa"><i>pip</i><par n="žen/a__n"/></e>
+    <e lm="pohlepa"><i>pohlep</i><par n="žen/a__n"/></e>
+    <e lm="potkrepa"><i>potkrep</i><par n="žen/a__n"/></e>
+    <e lm="rupa"><i>rup</i><par n="žen/a__n"/></e>
+    <e lm="šapa"><i>šap</i><par n="žen/a__n"/></e>
+    <e lm="šupa"><i>šup</i><par n="žen/a__n"/></e>
+    <e lm="bura"><i>bur</i><par n="žen/a__n"/></e>
+    <e lm="ljuštura"><i>ljuštur</i><par n="žen/a__n"/></e>
+    <e lm="matura"><i>matur</i><par n="žen/a__n"/></e>
+    <e lm="minijatura"><i>minijatur</i><par n="žen/a__n"/></e>
+    <e lm="nevjera"><i>nevjer</i><par n="žen/a__n"/></e>
+    <e lm="pasiflora"><i>pasiflor</i><par n="žen/a__n"/></e>
+    <e lm="pekara"><i>pekar</i><par n="žen/a__n"/></e>
+    <e lm="pivara"><i>pivar</i><par n="žen/a__n"/></e>
+    <e lm="pokora"><i>pokor</i><par n="žen/a__n"/></e>
+    <e lm="popara"><i>popar</i><par n="žen/a__n"/></e>
+    <e lm="pora"><i>por</i><par n="žen/a__n"/></e>
+    <e lm="rivijera"><i>rivijer</i><par n="žen/a__n"/></e>
+    <e lm="sfera"><i>sfer</i><par n="žen/a__n"/></e>
+    <e lm="sjekira"><i>sjekir</i><par n="žen/a__n"/></e>
+    <e lm="tiskara"><i>tiskar</i><par n="žen/a__n"/></e>
+    <e lm="vjera"><i>vjer</i><par n="žen/a__n"/></e>
+    <e lm="zamjera"><i>zamjer</i><par n="žen/a__n"/></e>
+    <e lm="zastara"><i>zastar</i><par n="žen/a__n"/></e>
+    <e lm="željezara"><i>željezar</i><par n="žen/a__n"/></e>
+    <e lm="zakrpa"><i>zakrp</i><par n="vožnj/a__n"/></e>
     <e lm="slika"><i>sli</i><par n="sli/ka__n"/></e>
     <e lm="odluka"><i>odlu</i><par n="sli/ka__n"/></e>
     <e lm="stranka"><i>stran</i><par n="sli/ka__n"/></e>
@@ -48498,6 +48843,11 @@
     <e lm="novčarka"><i>novčar</i><par n="das/ka__n"/></e>
     <e lm="djevojka"><i>d</i><par n="e_je__yat"/><i>voj</i><par n="das/ka__n"/></e>
     <e lm="crkva"><i>crk</i><par n="buk/va__n"/></e>
+    <e lm="bačva"><i>bač</i><par n="buk/va__n"/></e>
+    <e lm="breskva"><i>bresk</i><par n="buk/va__n"/></e>
+    <e lm="britva"><i>brit</i><par n="buk/va__n"/></e>
+    <e lm="bukva"><i>buk</i><par n="buk/va__n"/></e>
+    <e lm="molitva"><i>molit</i><par n="buk/va__n"/></e>
     <e lm="kletva"><i>klet</i><par n="buk/va__n"/></e>
     <e lm="spužva"><i>spuž</i><par n="buk/va__n"/></e>
     <e lm="korice"><i>koric</i><par n="koric/e__n"/></e>
@@ -48506,6 +48856,8 @@
     <e lm="ljestve"><i>ljest</i><par n="ljest/ve__n"/></e>
     <e lm="rašlje"><i>raš</i><par n="raš/lje__n"/></e>
     <e lm="sestra"><i>sest</i><par n="sest/ra__n"/></e>
+    <e lm="jezgra"><i>jezg</i><par n="sest/ra__n"/></e>
+    <e lm="šifra"><i>šif</i><par n="sest/ra__n"/></e>
     <e lm="naredba"><i>nared</i><par n="nared/ba__n"/></e>
     <e lm="kadetkinja"><i>kadetki</i><par n="žen/a__n"/></e>
     <e lm="knjiga"><i>knji</i><par n="knji/ga__n"/></e>
@@ -48528,6 +48880,14 @@
     <e lm="kegla"><i>keg</i><par n="cik/la__n"/></e>
     <e lm="polukugla"><i>polukug</i><par n="cik/la__n"/></e>
     <e lm="tin"><i>tin</i><par n="plah/ta__n"/></e>
+    <e lm="funta"><i>fun</i><par n="plah/ta__n"/></e>
+    <e lm="lopta"><i>lop</i><par n="plah/ta__n"/></e>
+    <e lm="nevjesta"><i>nevjes</i><par n="plah/ta__n"/></e>
+    <e lm="pasta"><i>pas</i><par n="plah/ta__n"/></e>
+    <e lm="plahta"><i>plah</i><par n="plah/ta__n"/></e>
+    <e lm="sekta"><i>sek</i><par n="plah/ta__n"/></e>
+    <e lm="sorta"><i>sor</i><par n="plah/ta__n"/></e>
+    <e lm="varijanta"><i>varijan</i><par n="plah/ta__n"/></e>
     <e lm="etiketa"><i>etike</i><par n="plah/ta__n"/></e>
     <e lm="flauta"><i>flau</i><par n="plah/ta__n"/></e>
     <e lm="fronta"><i>fron</i><par n="plah/ta__n"/></e>
@@ -48537,12 +48897,22 @@
     <e lm="krasta"><i>kras</i><par n="plah/ta__n"/></e>
     <e lm="ambulan"><i>ambulan</i><par n="tor/ta__n"/></e>
     <e lm="ruka"><i>ru</i><par n="ru/ka__n"/></e>
+    <e lm="zagonetka"><i>zagone</i><par n="pripovije/tka__n"/></e>
     <!--Without sibilarisation of the root-->
+    <e lm="patka"><i>pat</i><par n="pat/ka__n"/></e>
     <e lm="kocka"><i>koc</i><par n="pat/ka__n"/></e>
+    <e lm="zvjerka"><i>zv</i><par n="e_je__yat"/><i>r</i><par n="pat/ka__n"/></e>
+    <e lm="ženka"><i>žen</i><par n="pat/ka__n"/></e>
+    <e lm="veteranka"><i>veteran</i><par n="pat/ka__n"/></e>
+    <e lm="šminka"><i>šmin</i><par n="pat/ka__n"/></e>
+    <e lm="pečenka"><i>pečen</i><par n="pat/ka__n"/></e>
+    <e lm="krinka"><i>krin</i><par n="pat/ka__n"/></e>
+    <e lm="manekenka"><i>maneken</i><par n="pat/ka__n"/></e>
     <e lm="bjegunka"><i>b</i><par n="e_je__yat"/><i>gun</i><par n="pat/ka__n"/></e>
     <e lm="ciganka"><i>cigan</i><par n="pat/ka__n"/></e>
     <e lm="crnka"><i>crn</i><par n="pat/ka__n"/></e>
     <e lm="droga"><i>dro</i><par n="fi/ga__n"/></e>
+    <e lm="naslaga"><i>nasla</i><par n="fi/ga__n"/></e>
     <!--Irregular-->
     <e lm="kći"><i/><par n="kći__n"/></e>
     <!--the blessed -i declension -->
@@ -50240,6 +50610,7 @@
     <e lm="falsifikacija"><i>falsifikacij</i><par n="žen/a__n"/></e>
     <e lm="ilegalnost"><i>ilegalno</i><par n="ma/st__n"/></e>
     <e lm="isprika"><i>ispri</i><par n="sli/ka__n"/></e>
+    <e lm="polka"><i>pol</i><par n="sli/ka__n"/></e>
     <e lm="ljubomora"><i>ljubomor</i><par n="žen/a__n"/></e>
     <e lm="bijelka"><i>b</i><par n="e_ije__yat"/><i>lk</i><par n="žen/a__n"/></e>
     <e lm="ljubopitnost"><i>ljubopitno</i><par n="ma/st__n"/></e>
@@ -50258,6 +50629,19 @@
     <e lm="morski pas"><i/><par n="MorskiPas__n"/></e>
     <e lm="akropola"><i>akropol</i><par n="žen/a__n"/></e>
     <e lm="tvrtka"><i>tvrt</i><par n="das/ka__n"/></e>
+    <e lm="zipka"><i>zip</i><par n="das/ka__n"/></e>
+    <e lm="zviždaljka"><i>zviždalj</i><par n="das/ka__n"/></e>
+    <e lm="žalopojka"><i>žalopoj</i><par n="das/ka__n"/></e>
+    <e lm="zamka"><i>zam</i><par n="das/ka__n"/></e>
+    <e lm="srećka"><i>sreć</i><par n="das/ka__n"/></e>
+    <e lm="štipaljka"><i>štipalj</i><par n="das/ka__n"/></e>
+    <e lm="tetka"><i>tet</i><par n="das/ka__n"/></e>
+    <e lm="uška"><i>uš</i><par n="das/ka__n"/></e>
+    <e lm="prečka"><i>preč</i><par n="das/ka__n"/></e>
+    <e lm="prepirka"><i>prepir</i><par n="das/ka__n"/></e>
+    <e lm="marka"><i>mar</i><par n="das/ka__n"/></e>
+    <e lm="neznanka"><i>neznan</i><par n="das/ka__n"/></e>
+    <e lm="njuška"><i>njuš</i><par n="das/ka__n"/></e>
     <e lm="petoljetka"><i>petoljet</i><par n="das/ka__n"/></e>
     <e lm="prostirka"><i>prostir</i><par n="das/ka__n"/></e>
     <e lm="crpka"><i>crp</i><par n="das/ka__n"/></e>
