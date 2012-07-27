@@ -9,4 +9,4 @@
 #	 ./paradigm-test.sh igrati igr svir
 
 
-lt-expand apertium-sh-sl.sh.dix | grep ":$1" | grep -v "+" | sed "s|$2|$3|g" | less
+lt-expand apertium-sh-sl.sh.dix | grep ":$1<" | grep -v "+" | sed "s|$2|$3|g" | less
