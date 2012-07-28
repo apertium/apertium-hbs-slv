@@ -493,7 +493,7 @@
     <e><p><l>konačno<s n="adv"/></l><r>dokončno<s n="adv"/></r></p></e>
     <e><p><l>dolje<s n="adv"/></l><r>dol<s n="adv"/></r></p></e>
     <e><p><l>dopunski<s n="adv"/></l><r>dopolnjujoč<s n="adv"/></r></p></e>
-    <e><p><l>do sada<s n="adv"/></l><r>doslej<s n="adv"/></r></p></e>
+    <e><p><l>do<b/>sada<s n="adv"/></l><r>doslej<s n="adv"/></r></p></e>
     <e><p><l>puno<s n="adv"/></l><r>dosti<s n="adv"/></r></p></e>
     <e><p><l>prethodno<s n="adv"/></l><r>dotlej<s n="adv"/></r></p></e>
     <e><p><l>dovoljno<s n="adv"/></l><r>dovolj<s n="adv"/></r></p></e>
@@ -722,7 +722,8 @@
     <e><p><l>svuda<s n="adv"/></l><r>vsepovsod<s n="adv"/></r></p></e>
     <e><p><l>uvijek<s n="adv"/></l><r>vseskozi<s n="adv"/></r></p></e>
     <e><p><l>dovoljno<s n="adv"/></l><r>zadosti<s n="adv"/></r></p></e>
-    <e><p><l>do<b/>sada<s n="adv"/></l><r>zaenkrat<s n="adv"/></r></p></e>
+    <e><p><l>zasada<s n="adv"/></l><r>zaenkrat<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>zasada<s n="adv"/></l><r>zaenkrat<s n="adv"/></r></p></e>
     <e><p><l>sigurno<s n="adv"/></l><r>zagotovo<s n="adv"/></r></p></e>
     <e><p><l>legalno<s n="adv"/></l><r>zakonito<s n="adv"/></r></p></e>
     <e><p><l>pažljivo<s n="adv"/></l><r>zamišljeno<s n="adv"/></r></p></e>
@@ -818,7 +819,8 @@
     <e><p><l>zarazno<s n="adv"/></l><r>nalezljivo<s n="adv"/></r></p></e>
     <e><p><l>naprijed<s n="adv"/></l><r>naprej<s n="adv"/></r></p></e>
     <e><p><l>krajnje<s n="adv"/></l><r>nazadnje<s n="adv"/></r></p></e>
-    <e><p><l>oko<s n="adv"/></l><r>okrog<s n="adv"/></r></p></e>
+    <e><p><l>ukrug<s n="adv"/></l><r>okrog<s n="adv"/></r></p></e>
+    <e><p><l>oko<s n="adv"/></l><r>okoli<s n="adv"/></r></p></e>
     <e><p><l>ovalno<s n="adv"/></l><r>ovalno<s n="adv"/></r></p></e>
     <e><p><l>danju<s n="adv"/></l><r>podnevi<s n="adv"/></r></p></e>
     <e><p><l>katastrofalno<s n="adv"/></l><r>porazno<s n="adv"/></r></p></e>
@@ -855,7 +857,7 @@
     <!-- DODANI OSNOVNIKI V SH (sl -> sh)-->
     <e><p><l>apsolutistički<s n="adv"/></l><r>absolutistično<s n="adv"/></r></p></e>
     <e><p><l>apsurdno<s n="adv"/></l><r>absurdno<s n="adv"/></r></p></e>
-    <e><p><l>ambulantni<s n="adv"/></l><r>ambulantno<s n="adv"/></r></p></e>
+    <e><p><l>ambulantno<s n="adv"/></l><r>ambulantno<s n="adv"/></r></p></e>
     <e><p><l>analitički<s n="adv"/></l><r>analitično<s n="adv"/></r></p></e>
     <e><p><l>anđeoski<s n="adv"/></l><r>angelsko<s n="adv"/></r></p></e>
     <e><p><l>antibiotični<s n="adv"/></l><r>antibiotično<s n="adv"/></r></p></e>
@@ -1028,7 +1030,6 @@
     <e><p><l>gluho<s n="adv"/></l><r>gluho<s n="adv"/></r></p></e>
     <e><p><l>gore<s n="adv"/></l><r>gor<s n="adv"/></r></p></e>
     <e><p><l>gore<s n="adv"/></l><r>gori<s n="adv"/></r></p></e>
-    <e><p><l>domaćinstvo<s n="adv"/></l><r>gospodinjsko<s n="adv"/></r></p></e>
     <e><p><l>gost<s n="adv"/></l><r>goste<s n="adv"/></r></p></e>
     <e><p><l>govordžija<s n="adv"/></l><r>gostobesedno<s n="adv"/></r></p></e>
     <e><p><l>gostovati<s n="adv"/></l><r>gostujoče<s n="adv"/></r></p></e>
