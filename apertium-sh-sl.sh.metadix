@@ -32057,15 +32057,6 @@
     <!--Conjunctions-->
     <!--Coordinating-->
 
-    <!-- Added by Aleš -->
-    <e lm="zašto"><i>zašto</i><par n="coordinating__cnj"/></e>
-    <e lm="bilo"><i>bilo</i><par n="coordinating__cnj"/></e>
-    <e lm="jer"><i>jer</i><par n="coordinating__cnj"/></e>
-    <e lm="odkar"><i>odkar</i><par n="coordinating__cnj"/></e>
-    <e lm="sicer"><i>sicer</i><par n="coordinating__cnj"/></e>
-    <e lm="vendarle"><i>vendarle</i><par n="coordinating__cnj"/></e> <!-- ni -->
-
-    <!-- Till here -->
 
     <e lm="i"><i>i</i><par n="coordinating__cnj"/></e>
     <e lm="pa"><i>pa</i><par n="coordinating__cnj"/></e>
@@ -32762,7 +32753,6 @@
     <e lm="laskavo"><i>laskavo</i><par n="danas__adv"/></e>
     <e lm="ledeno"><i>ledeno</i><par n="danas__adv"/></e>
     <e lm="ljepljiv"><i>ljepljiv</i><par n="danas__adv"/></e>
-    <e lm="ljepota"><i>ljepota</i><par n="danas__adv"/></e>
     <e lm="drveno"><i>drveno</i><par n="danas__adv"/></e>
     <e lm="svjetlucavo"><i>svjetlucavo</i><par n="danas__adv"/></e>
     <e lm="drven"><i>drven</i><par n="danas__adv"/></e>
@@ -32778,7 +32768,6 @@
     <e lm="odvojeno"><i>odvojeno</i><par n="danas__adv"/></e>
     <e lm="logičan"><i>logičan</i><par n="danas__adv"/></e>
     <e lm="luksuzno"><i>luksuzno</i><par n="danas__adv"/></e>
-    <e lm="lokva"><i>lokva</i><par n="danas__adv"/></e>
     <e lm="mafijski"><i>mafijski</i><par n="danas__adv"/></e>
     <e lm="magnetski"><i>magnetski</i><par n="danas__adv"/></e>
     
@@ -32816,7 +32805,6 @@
     <e lm="omladinski"><i>omladinski</i><par n="danas__adv"/></e>
     <e lm="mladoliko"><i>mladoliko</i><par n="danas__adv"/></e>
     <e lm="mlječno"><i>mlječno</i><par n="danas__adv"/></e>
-    <e lm="snaga"><i>snaga</i><par n="danas__adv"/></e>
     <e lm="močvara"><i>močvara</i><par n="danas__adv"/></e>
     <e lm="šutljivo"><i>šutljivo</i><par n="danas__adv"/></e>
     <e lm="šutljiv"><i>šutljiv</i><par n="danas__adv"/></e>
@@ -32984,7 +32972,6 @@
     <e lm="šaljivo"><i>šaljivo</i><par n="danas__adv"/></e>
     <e lm="normanski"><i>normanski</i><par n="danas__adv"/></e>
     <e lm="ludo"><i>ludo</i><par n="danas__adv"/></e>
-    <e lm="trudna"><i>trudna</i><par n="danas__adv"/></e>
     <e lm="nutar"><i>nutar</i><par n="danas__adv"/></e>
     <e lm="novinar"><i>novinar</i><par n="danas__adv"/></e>
     <e lm="povremeno"><i>povremeno</i><par n="danas__adv"/></e>
@@ -33066,7 +33053,6 @@
     
     <e lm="noću"><i>noću</i><par n="danas__adv"/></e>
     <e lm="popodne"><i>popodne</i><par n="danas__adv"/></e>
-    <e lm="pohota"><i>pohota</i><par n="danas__adv"/></e>
     <e lm="prije"><i>prije</i><par n="danas__adv"/></e>
     
     <e lm="rijetko"><i>rijetko</i><par n="danas__adv"/></e>
@@ -33257,7 +33243,6 @@
     <e lm="sljedeći"><i>sljedeći</i><par n="danas__adv"/></e>
     
     <e lm="naposljetku"><i>naposljetku</i><par n="danas__adv"/></e>
-    <e lm="prijevara"><i>prijevara</i><par n="danas__adv"/></e>
     <e lm="slijep"><i>slijep</i><par n="danas__adv"/></e>
     <e lm="mršavo"><i>mršavo</i><par n="danas__adv"/></e>
     <e lm="nagnut"><i>nagnut</i><par n="danas__adv"/></e>
@@ -33409,8 +33394,6 @@
     <e lm="vodoravno"><i>vodoravno</i><par n="danas__adv"/></e>
     <e lm="ratnički"><i>ratnički</i><par n="danas__adv"/></e>
     <e lm="rado"><i>rado</i><par n="danas__adv"/></e>
-    <e lm="miris"><i>miris</i><par n="danas__adv"/></e>
-    <e lm="vosak"><i>vosak</i><par n="danas__adv"/></e>
     <e lm="šupalj"><i>šupalj</i><par n="danas__adv"/></e>
     <e lm="utjecajno"><i>utjecajno</i><par n="danas__adv"/></e>
     <e lm="upitno"><i>upitno</i><par n="danas__adv"/></e>
@@ -33425,8 +33408,6 @@
     <e lm="odvojeno"><i>odvojeno</i><par n="danas__adv"/></e>
     <e lm="sadržajno"><i>sadržajno</i><par n="danas__adv"/></e>
     <e lm="ugodno"><i>ugodno</i><par n="danas__adv"/></e>
-    <e lm="sve"><i>sve</i><par n="danas__adv"/></e>
-    <e lm="sve"><i>sve</i><par n="danas__adv"/></e>
     <e lm="svemogući"><i>svemogući</i><par n="danas__adv"/></e>
     <e lm="svestrano"><i>svestrano</i><par n="danas__adv"/></e>
     <e lm="ustranu"><i>ustranu</i><par n="danas__adv"/></e>
@@ -33437,7 +33418,6 @@
     <e lm="uporedan"><i>uporedan</i><par n="danas__adv"/></e>
     <e lm="uzvišeno"><i>uzvišeno</i><par n="danas__adv"/></e>
     <e lm="unazad"><i>unazad</i><par n="danas__adv"/></e>
-    <e lm="privremen"><i>privremen</i><par n="danas__adv"/></e>
     
     <e lm="unatrag"><i>unatrag</i><par n="danas__adv"/></e>
     <e lm="zadnji"><i>zadnji</i><par n="danas__adv"/></e>
@@ -47075,6 +47055,8 @@
     <e lm="bojazan"><i>boja</i><par n="sabla/zan__n"/></e>
     <e lm="naranča"><i>naran</i><par n="naran/ča__n"/></e>    
     <e lm="obuća"><i>obuć</i><par n="žen/a__n"/></e>    
+    <e lm="prevara"><i>pr</i><par n="e_e__yat"/><i>var</i><par n="žen/a__n"/></e>    
+    <e lm="prevara"><i>pr</i><par n="e_ije__yat"/><i>var</i><par n="žen/a__n"/></e>    
     <e lm="kulisa"><i>kulis</i><par n="žen/a__n"/></e>
     <e lm="brineta"><i>brinet</i><par n="žen/a__n"/></e>
     <e lm="komiteta"><i>komitet</i><par n="žen/a__n"/></e>
@@ -47090,6 +47072,7 @@
     <e lm="toaleta"><i>toalet</i><par n="žen/a__n"/></e>
     <e lm="vata"><i>vat</i><par n="žen/a__n"/></e>
     <e lm="vrednota"><i>vrednot</i><par n="žen/a__n"/></e>
+    <e lm="ljepota"><i>l</i><par n="e_je__yat"/><i>pot</i><par n="žen/a__n"/></e>
     <e lm="dojava"><i>dojav</i><par n="žen/a__n"/></e>
     <e lm="mećava"><i>mećav</i><par n="žen/a__n"/></e>
     <e lm="njiva"><i>njiv</i><par n="žen/a__n"/></e>
@@ -47174,6 +47157,7 @@
     <e lm="torba"><i>torb</i><par n="žen/a__n"/></e>
     <e lm="majica"><i>majic</i><par n="žen/a__n"/></e>
     <e lm="drugarica"><i>drugaric</i><par n="žen/a__n"/></e>
+    <e lm="trudnica"><i>trudnic</i><par n="žen/a__n"/></e>
     <e lm="petorica"><i>petoric</i><par n="žen/a__n"/></e>
     <e lm="biciklistica"><i>biciklistic</i><par n="žen/a__n"/></e>
     <e lm="blagovaonica"><i>blagovaonic</i><par n="žen/a__n"/></e>
@@ -48574,6 +48558,7 @@
     <e lm="prelokacija"><i>prelokacij</i><par n="žen/a__n"/></e>
     <e lm="preokupacija"><i>preokupacij</i><par n="žen/a__n"/></e>
     <e lm="provokacija"><i>provokacij</i><par n="žen/a__n"/></e>
+    <e lm="kupa"><i>kup</i><par n="žen/a__n"/></e>
     <e lm="projekcija"><i>projekcij</i><par n="žen/a__n"/></e>
     <e lm="proliferacija"><i>proliferacij</i><par n="žen/a__n"/></e>
     <e lm="promocija"><i>promocij</i><par n="žen/a__n"/></e>
@@ -48652,7 +48637,7 @@
     <e lm="predsjedateljka"><i>predsjedateljk</i><par n="žen/a__n"/></e>
     <e lm="puška"><i>puš</i><par n="sli/ka__n"/></e>
     <e lm="razlika"><i>razli</i><par n="sli/ka__n"/></e>
-    <e lm="rijeka"><i>r</i><par n="e_ije__yat"/><i>e</i><par n="sli/ka__n"/></e>
+    <e lm="rijeka"><i>r</i><par n="e_ije__yat"/><i></i><par n="sli/ka__n"/></e>
     <e lm="republika"><i>republi</i><par n="sli/ka__n"/></e>
     <e lm="statistika"><i>statisti</i><par n="sli/ka__n"/></e>
     <e lm="stoka"><i>sto</i><par n="sli/ka__n"/></e>
@@ -48661,6 +48646,7 @@
     <e lm="droga"><i>drog</i><par n="žen/a__n"/></e>
     <e lm="knjiga"><i>knji</i><par n="knji/ga__n"/></e>
     <e lm="snaga"><i>sna</i><par n="knji/ga__n"/></e>
+    <e lm="duga"><i>du</i><par n="knji/ga__n"/></e>
     <e lm="liga"><i>lig</i><par n="žen/a__n"/></e>
     <e lm="potraga"><i>potra</i><par n="knji/ga__n"/></e>
     <e lm="istraga"><i>istra</i><par n="knji/ga__n"/></e>
@@ -48817,6 +48803,7 @@
     <e lm="novčarka"><i>novčar</i><par n="das/ka__n"/></e>
     <e lm="djevojka"><i>d</i><par n="e_je__yat"/><i>voj</i><par n="das/ka__n"/></e>
     <e lm="crkva"><i>crk</i><par n="buk/va__n"/></e>
+    <e lm="lokva"><i>lok</i><par n="buk/va__n"/></e>
     <e lm="bačva"><i>bač</i><par n="buk/va__n"/></e>
     <e lm="breskva"><i>bresk</i><par n="buk/va__n"/></e>
     <e lm="britva"><i>brit</i><par n="buk/va__n"/></e>

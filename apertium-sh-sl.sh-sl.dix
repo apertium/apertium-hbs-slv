@@ -1190,7 +1190,6 @@
     <e><p><l>odvojeno<s n="adv"/></l><r>ločeno<s n="adv"/></r></p></e>
     <e><p><l>logičan<s n="adv"/></l><r>logično<s n="adv"/></r></p></e>
     <e><p><l>luksuzno<s n="adv"/></l><r>luksuzno<s n="adv"/></r></p></e>
-    <e><p><l>lokva<s n="adv"/></l><r>luže<s n="adv"/></r></p></e>
     <e><p><l>mafijski<s n="adv"/></l><r>mafijsko<s n="adv"/></r></p></e>
     <e><p><l>magnetski<s n="adv"/></l><r>magnetno<s n="adv"/></r></p></e>
     <e><p><l>zamahivati<s n="adv"/></l><r>mahajoč<s n="adv"/></r></p></e>
@@ -10584,7 +10583,7 @@
     <e><p><l>dijeta<s n="n"/><s n="f"/></l><r>dieta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>razlika<s n="n"/><s n="f"/></l><r>diferenca<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>diskusija<s n="n"/><s n="f"/></l><r>diskusija<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>miris</l><r>dišava<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>miris<s n="n"/><s n="m"/></l><r>dišava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>divizija<s n="n"/><s n="f"/></l><r>divizija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>divljina<s n="n"/><s n="f"/></l><r>divjina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dlaka<s n="n"/><s n="f"/></l><r>dlaka<s n="n"/><s n="f"/></r></p></e>
@@ -10653,7 +10652,7 @@
     <e><p><l>obmana<s n="n"/><s n="f"/></l><r>goljufija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>golotinja<s n="n"/><s n="f"/></l><r>golota<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gusjenica<s n="n"/><s n="f"/></l><r>gosenica<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>gospoda</l><r>gospoda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gospoda<s n="n"/><s n="f"/><s n="pl"/></l><r>gospoda<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>gospodarica<s n="n"/><s n="f"/></l><r>gospodarica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>domaćica<s n="n"/><s n="f"/></l><r>gospodinja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gospodarica<s n="n"/><s n="f"/></l><r>gospodinja<s n="n"/><s n="f"/></r></p></e>
@@ -10833,7 +10832,7 @@
     <e><p><l>kukavica<s n="n"/><s n="f"/></l><r>kukavica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kulisa<s n="n"/><s n="f"/></l><r>kulisa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>krastavac<s n="n"/><s n="mi"/></l><r>kumara<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>kupa</l><r>kupa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kupa<s n="n"/><s n="f"/></l><r>kupa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kupčija<s n="n"/><s n="f"/></l><r>kupčija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kokoš<s n="n"/><s n="f"/></l><r>kura<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ogrjev<s n="n"/><s n="mi"/></l><r>kurjava<s n="n"/><s n="f"/></r></p></e>
@@ -10853,7 +10852,7 @@
     <e><p><l>ljekarna<s n="n"/><s n="f"/></l><r>lekarna<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>apoteka<s n="n"/><s n="f"/></l><r>lekarna<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ljepenka<s n="n"/><s n="f"/></l><r>lepenka<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>ljepota</l><r>lepota<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ljepota<s n="n"/><s n="f"/></l><r>lepota<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ljepotica<s n="n"/><s n="f"/></l><r>lepotica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ljeskovača<s n="n"/><s n="f"/></l><r>leskovka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ljetina<s n="n"/><s n="f"/></l><r>letina<s n="n"/><s n="f"/></r></p></e>
@@ -10882,7 +10881,7 @@
     <e><p><l>ljuštura<s n="n"/><s n="f"/></l><r>lupina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kora<s n="n"/><s n="f"/></l><r>lupina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ljuska<s n="n"/><s n="f"/></l><r>luskina<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>lokva</l><r>luža<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lokva<s n="n"/><s n="f"/></l><r>luža<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mlaka<s n="n"/><s n="f"/></l><r>luža<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lokvica<s n="n"/><s n="f"/></l><r>lužica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>torbica<s n="n"/><s n="f"/></l><r>malha<s n="n"/><s n="f"/></r></p></e>
@@ -10899,7 +10898,7 @@
     <e><p><l>maternica<s n="n"/><s n="f"/></l><r>maternica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>matica<s n="n"/><s n="f"/></l><r>matica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>matura<s n="n"/><s n="f"/></l><r>matura<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>duga</l><r>mavrica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>duga<s n="n"/><s n="f"/></l><r>mavrica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>megatona<s n="n"/><s n="f"/></l><r>megatona<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>izmaglica<s n="n"/><s n="f"/></l><r>meglica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>melisa<s n="n"/><s n="f"/></l><r>melisa<s n="n"/><s n="f"/></r></p></e>
@@ -10909,7 +10908,7 @@
     <e><p><l>metoda<s n="n"/><s n="f"/></l><r>metoda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>milostinja<s n="n"/><s n="f"/></l><r>miloščina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>minijatura<s n="n"/><s n="f"/></l><r>miniatura<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>mistika</l><r>mistika<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mistika<s n="n"/><s n="f"/></l><r>mistika<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mitnica<s n="n"/><s n="f"/></l><r>mitnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>stolić<s n="n"/><s n="mi"/></l><r>mizica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>maloljetnica<s n="n"/><s n="f"/></l><r>mladoletnica<s n="n"/><s n="f"/></r></p></e>
@@ -10920,7 +10919,7 @@
     <e><p><l>majstorica<s n="n"/><s n="f"/></l><r>mojstrica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vlažnost<s n="n"/><s n="f"/></l><r>mokrota<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bogomolja<s n="n"/><s n="f"/></l><r>molilnica<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>mora</l><r>mora<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mora<s n="n"/><s n="f"/></l><r>mora<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>moral<s n="n"/><s n="mi"/></l><r>morala<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>morija<s n="n"/><s n="f"/></l><r>morija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ubojica<s n="n"/><s n="f"/></l><r>morilka<s n="n"/><s n="f"/></r></p></e>
@@ -10970,14 +10969,14 @@
     <e><p><l>njiva<s n="n"/><s n="f"/></l><r>njiva<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nogavica<s n="n"/><s n="f"/></l><r>nogavica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ludnica<s n="n"/><s n="f"/></l><r>norišnica<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>trudna</l><r>nosečnica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trudnica<s n="n"/><s n="f"/></l><r>nosečnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nosilja<s n="n"/><s n="f"/></l><r>nosilka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nošnja<s n="n"/><s n="f"/></l><r>noša<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nota<s n="n"/><s n="f"/></l><r>nota<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>unutrašnjost<s n="n"/><s n="f"/></l><r>notranjščina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>novitet<s n="n"/><s n="mi"/></l><r>noviteta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nožica<s n="n"/><s n="f"/></l><r>nožica<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>korice</l><r>nožnica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>korice<s n="n"/><s n="f"/></l><r>nožnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nužda<s n="n"/><s n="f"/></l><r>nuja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>redovnica<s n="n"/><s n="f"/></l><r>nuna<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>časna<b/>sestra<s n="n"/><s n="f"/></l><r>nuna<s n="n"/><s n="f"/></r></p></e>
@@ -11075,7 +11074,7 @@
     <e><p><l>plesačica<s n="n"/><s n="f"/></l><r>plesalka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ćela<s n="n"/><s n="f"/></l><r>pleša<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>plima<s n="n"/><s n="f"/></l><r>plima<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>upala<b/>pluća</l><r>pljučnica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>upala<b/>pluća<s n="n"/><s n="f"/></l><r>pljučnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lim<s n="n"/><s n="mi"/></l><r>pločevina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pleh<s n="n"/><s n="mi"/></l><r>pločevina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>limenka<s n="n"/><s n="f"/></l><r>pločevinka<s n="n"/><s n="f"/></r></p></e>
@@ -11101,7 +11100,7 @@
     <e><p><l>pogrebnina<s n="n"/><s n="f"/></l><r>pogrebnina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>podušje<s n="n"/><s n="nt"/></l><r>pogrebščina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>propast<s n="n"/><s n="f"/></l><r>poguba<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>pohota</l><r>pohota<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pohota<s n="n"/><s n="f"/></l><r>pohota<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gozba<s n="n"/><s n="f"/></l><r>pojedina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pokora<s n="n"/><s n="f"/></l><r>pokora<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pokornost<s n="n"/><s n="f"/></l><r>pokorščina<s n="n"/><s n="f"/></r></p></e>
@@ -11142,7 +11141,7 @@
     <e><p><l>pravednica<s n="n"/><s n="f"/></l><r>pravičnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bajka<s n="n"/><s n="f"/></l><r>pravljica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>praznina<s n="n"/><s n="f"/></l><r>praznina<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>probava</l><r>prebava<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>probava<s n="n"/><s n="f"/></l><r>prebava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>prečka<s n="n"/><s n="f"/></l><r>prečka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>prerada<s n="n"/><s n="f"/></l><r>predelava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>prethodnica<s n="n"/><s n="f"/></l><r>predhodnica<s n="n"/><s n="f"/></r></p></e>
@@ -11166,7 +11165,7 @@
     <e><p><l>predviđanje<s n="n"/><s n="nt"/></l><r>prerokba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>presjek<s n="n"/><s n="mi"/></l><r>preseka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>opskrba<s n="n"/><s n="f"/></l><r>preskrba<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>probava</l><r>presnova<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>probava<s n="n"/><s n="f"/></l><r>presnova<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>procjena<s n="n"/><s n="f"/></l><r>presoja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>prijestolnica<s n="n"/><s n="f"/></l><r>prestolnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>izgovor<s n="n"/><s n="mi"/></l><r>pretveza<s n="n"/><s n="f"/></r></p></e>
@@ -11231,7 +11230,7 @@
     <e><p><l>regulacija<s n="n"/><s n="f"/></l><r>regulacija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>reklama<s n="n"/><s n="f"/></l><r>reklama<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>relacija<s n="n"/><s n="f"/></l><r>relacija<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>repa</l><r>repa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>repa<s n="n"/><s n="f"/></l><r>repa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>represija<s n="n"/><s n="f"/></l><r>represija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>resa<s n="n"/><s n="f"/></l><r>resa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>restoran<s n="n"/><s n="mi"/></l><r>restavracija<s n="n"/><s n="f"/></r></p></e>
@@ -11248,12 +11247,12 @@
     <e><p><l>plahta<s n="n"/><s n="f"/></l><r>rjuha<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kupina<s n="n"/><s n="f"/></l><r>robidnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rodbina<s n="n"/><s n="f"/></l><r>rodbina<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>rašlje</l><r>rogovila<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rašlje<s n="n"/><s n="f"/></l><r>rogovila<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rogožina<s n="n"/><s n="f"/></l><r>rogoznica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rukavica<s n="n"/><s n="f"/></l><r>rokavica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>romantizam<s n="n"/><s n="mi"/></l><r>romantika<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>romantika<s n="n"/><s n="f"/></l><r>romantika<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>ruža</l><r>roža<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ruža<s n="n"/><s n="f"/></l><r>roža<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ružica<s n="n"/><s n="f"/></l><r>rožica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rubrika<s n="n"/><s n="f"/></l><r>rubrika<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rudača<s n="n"/><s n="f"/></l><r>rudnina<s n="n"/><s n="f"/></r></p></e>
@@ -11306,7 +11305,6 @@
     <e><p><l>iskušenje<s n="n"/><s n="nt"/></l><r>skušnjava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kušnja<s n="n"/><s n="f"/></l><r>skušnjava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>napast<s n="n"/><s n="f"/></l><r>skušnjava<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>slana</l><r>slana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mraz<s n="n"/><s n="mi"/></l><r>slana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>obmana<s n="n"/><s n="f"/></l><r>sleparija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>opsjena<s n="n"/><s n="f"/></l><r>sleparija<s n="n"/><s n="f"/></r></p></e>
@@ -11339,7 +11337,7 @@
     <e><p><l>spavaonica<s n="n"/><s n="f"/></l><r>spalnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>specijalitet<s n="n"/><s n="mi"/></l><r>specialiteta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>spona<s n="n"/><s n="f"/></l><r>sponka<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>spora</l><r>spora<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>spora<s n="n"/><s n="f"/></l><r>spora<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>spoznanje<s n="n"/><s n="nt"/></l><r>spoznava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pomirenje<s n="n"/><s n="nt"/></l><r>sprava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>izmirenje<s n="n"/><s n="nt"/></l><r>sprava<s n="n"/><s n="f"/></r></p></e>
@@ -11440,7 +11438,7 @@
     <e><p><l>točionica<s n="n"/><s n="f"/></l><r>točilnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>utjeha<s n="n"/><s n="f"/></l><r>tolažba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>banda<s n="n"/><s n="f"/></l><r>tolpa<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>tona</l><r>tona<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tona<s n="n"/><s n="f"/></l><r>tona<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>drugarica<s n="n"/><s n="f"/></l><r>tovarišica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tračnica<s n="n"/><s n="f"/></l><r>tračnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tragika<s n="n"/><s n="f"/></l><r>tragika<s n="n"/><s n="f"/></r></p></e>
@@ -11529,7 +11527,7 @@
     <e><p><l>vijuga<s n="n"/><s n="f"/></l><r>vijuga<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>visina<s n="n"/><s n="f"/></l><r>višava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>posjetnica<s n="n"/><s n="f"/></l><r>vizitka<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>vile</l><r>vlača<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vile<s n="n"/><s n="f"/></l><r>vlača<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vladavina<s n="n"/><s n="f"/></l><r>vladavina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>šlep<s n="n"/><s n="mi"/></l><r>vlečka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>žar<s n="n"/><s n="mi"/></l><r>vnema<s n="n"/><s n="f"/></r></p></e>
@@ -11538,7 +11536,7 @@
     <e><p><l>uhoda<s n="n"/><s n="f"/></l><r>vohunka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vojni<b/>rok<s n="n"/><s n="mi"/></l><r>vojaščina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vojarna<s n="n"/><s n="f"/></l><r>vojašnica<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>miris</l><r>vonjava<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>miris<s n="n"/><s n="mi"/></l><r>vonjava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>šupljina<s n="n"/><s n="f"/></l><r>votlina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>karta<s n="n"/><s n="f"/></l><r>vozovnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pristupna<b/>cesta<s n="n"/><s n="f"/></l><r>vpadnica<s n="n"/><s n="f"/></r></p></e>
@@ -11594,7 +11592,7 @@
     <e><p><l>zapreka<s n="n"/><s n="f"/></l><r>zapreka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>prisega<s n="n"/><s n="f"/></l><r>zaprisega<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>utor<s n="n"/><s n="mi"/></l><r>zareza<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>zasjeda</l><r>zaseda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zasjeda<s n="n"/><s n="f"/></l><r>zaseda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>zaposjedanje<s n="n"/><s n="nt"/></l><r>zasedba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>zasluga<s n="n"/><s n="f"/></l><r>zasluga<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>osiguravajuća<b/>kuća<s n="n"/><s n="f"/></l><r>zavarovalnica<s n="n"/><s n="f"/></r></p></e>
