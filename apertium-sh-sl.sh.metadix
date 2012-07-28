@@ -46908,7 +46908,6 @@
     <e lm="lanac"><i>lan</i><par n="prosin/ac__n"/></e>
     <e lm="lonac"><i>lon</i><par n="prosin/ac__n"/></e>
     <e lm="oslonac"><i>oslon</i><par n="prosin/ac__n"/></e>
-    <e lm="pojedinac"><i>pojedin</i><par n="prosin/ac__n"/></e>
     <e lm="prepečenac"><i>prepečen</i><par n="prosin/ac__n"/></e>
     <e lm="ranac"><i>ran</i><par n="prosin/ac__n"/></e>
     <e lm="složenac"><i>složen</i><par n="prosin/ac__n"/></e>
@@ -47422,6 +47421,7 @@
     <e lm="burza"><i>burz</i><par n="žen/a__n"/></e>
     <e lm="istina"><i>istin</i><par n="žen/a__n"/></e>
     <e lm="godišnjica"><i>godišnjic</i><par n="žen/a__n"/></e>
+    <e lm="stogodišnjica"><i>stogodišnjic</i><par n="žen/a__n"/></e>
     <e lm="veličina"><i>veličin</i><par n="žen/a__n"/></e>
     <e lm="bedrenjača"><i>bedrenjač</i><par n="žen/a__n"/></e>
     <e lm="ispaša"><i>ispaš</i><par n="žen/a__n"/></e>
@@ -48913,6 +48913,7 @@
     <e lm="četvrt"><i>četvr</i><par n="smr/t__n"/></e>
     <e lm="nit"><i>ni</i><par n="smr/t__n"/></e>
     <e lm="glad"><i>gla</i><par n="gla/d__n"/></e>
+    <e lm="mjed"><i>m</i><par n="e_je__yat"/><par n="gla/d__n"/></e>
     <e lm="gamad"><i>gama</i><par n="gla/d__n"/></e>
     <e lm="propovijed"><i>propov</i><par n="e_ije__yat"/><par n="gla/d__n"/></e>
     <e lm="mast"><i>ma</i><par n="ma/st__n"/></e>
@@ -50582,6 +50583,7 @@
     <e lm="pluća"><i>pluć</i><par n="vrat/a__n"/></e>
     <e lm="gospoda"><i>gospod</i><par n="vrat/a__n"/></e>
     <e lm="kreda"><i>kred</i><par n="žen/a__n"/></e>
+    <e lm="peta"><i>pet</i><par n="žen/a__n"/></e>
     <e lm="smola"><i>smol</i><par n="žen/a__n"/></e>
     <e lm="iznutrica"><i>iznutric</i><par n="žen/a__n"/></e>
     <e lm="čarolija"><i>čarolij</i><par n="žen/a__n"/></e>
