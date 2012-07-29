@@ -198,6 +198,16 @@
       <e><p><l><s n="nt"/></l><r><s n="nt"/></r></p></e>
     </pardef>
 
+    <pardef n="num_identity">
+      <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+      <e><p><l><s n="pl"/></l><r><s n="du"/></r></p></e><!--Not quite, but handled in transfer-->
+    </pardef>
+
+    <pardef n="def2null">
+      <e><p><l><s n="def"/></l><r></r></p></e>
+    </pardef>
+
     <pardef n="gen_nogen">
       <e r="LR"><p><l><s n="ma"/></l><r></r></p></e>
       <e r="LR"><p><l><s n="mi"/></l><r></r></p></e>
@@ -394,7 +404,7 @@
     
     <e><p><l>koješta<s n="prn"/><s n="ind"/></l><r>katerikoli<s n="prn"/><s n="ind"/></r></p><par n="mfnsp_to_gen_sg"/></e>
     <e><p><l>ikakav<s n="prn"/><s n="ind"/></l><r>kakršenkoli<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>bilo kakav<s n="prn"/><s n="ind"/></l><r>kakršenkoli<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>bilo<b/>kakav<s n="prn"/><s n="ind"/></l><r>kakršenkoli<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>ičiji<s n="prn"/><s n="ind"/></l><r>katerikoli<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>svakakav<s n="prn"/><s n="tot"/></l><r>kakršenkoli<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>sve<s n="prn"/><s n="tot"/></l><r>vse<s n="prn"/><s n="tot"/></r></p><par n="mfn_to_gen"/></e>
@@ -1803,7 +1813,7 @@
     <e><p><l>treperiti<s n="adv"/></l><r>svetlikajoč<s n="adv"/></r></p></e>
     <e><p><l>svjetlo<s n="adv"/></l><r>svetlobno<s n="adv"/></r></p></e>
     <e><p><l>savjetodavan<s n="adv"/></l><r>svetovalno<s n="adv"/></r></p></e>
-    <e><p><l>svijetski<s n="adv"/></l><r>svetovno<s n="adv"/></r></p></e>
+    <e><p><l>svjetski<s n="adv"/></l><r>svetovno<s n="adv"/></r></p></e>
     <e><p><l>svjež<s n="adv"/></l><r>sveže<s n="adv"/></r></p></e>
     <e><p><l>svila<s n="adv"/></l><r>svileno<s n="adv"/></r></p></e>
     <e><p><l>svila<s n="adv"/></l><r>svilnato<s n="adv"/></r></p></e>
@@ -7938,7 +7948,7 @@
     <e><p><l>avion<s n="n"/><s n="mi"/></l><r>letalo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>general<s n="n"/><s n="ma"/></l><r>general<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>brod<s n="n"/><s n="mi"/></l><r>ladja<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>drug<s n="n"/><s n="ma"/></l><r>spremljevalec<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>pratitelj<s n="n"/><s n="ma"/></l><r>spremljevalec<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>prijedlog<s n="n"/><s n="mi"/></l><r>predlog<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>prilog<s n="n"/><s n="mi"/></l><r>prispevek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>okrug<s n="n"/><s n="mi"/></l><r>okrožje<s n="n"/><s n="nt"/></r></p></e>
@@ -10259,9 +10269,9 @@
     <e><p><l>gužva<s n="n"/><s n="f"/></l><r>gužva<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
 
     <!--Translations by Krvoje--><!--TODO: they are sorted by most common translations, make duplicates r="LR"-->
-    <e><p><l>pristojba<s n="n"/><s n="f"/><g><b/>za<b/>parkiranje</g></l><r>parkirnina<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>pristojba<s n="n"/><s n="f"/><g><b/>za<b/>smeće</g></l><r>smetnjak<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>duhan<s n="n"/><s n="mi"/><g><b/>za<b/>šmrkanje</g></l><r>njuhanec<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>pristojba<g><b/>za<b/>parkiranje</g><s n="n"/><s n="f"/></l><r>parkirnina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pristojba<g><b/>za<b/>smeće</g><s n="n"/><s n="f"/></l><r>smetnjak<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>duhan<g><b/>za<b/>šmrkanje</g><s n="n"/><s n="mi"/></l><r>njuhanec<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>rukavica<s n="n"/><s n="f"/><g><b/>samo<b/>s<b/>palcem</g></l><r>palčnik<s n="n"/><s n="mi"/></r></p></e>
     <e r="LR"><p><l>rukavica<s n="n"/><s n="f"/><g><b/>bez<b/>prstiju</g></l><r>palčnik<s n="n"/><s n="mi"/></r></p></e>
 
@@ -11081,7 +11091,7 @@
     <e><p><l>plesačica<s n="n"/><s n="f"/></l><r>plesalka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ćela<s n="n"/><s n="f"/></l><r>pleša<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>plima<s n="n"/><s n="f"/></l><r>plima<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>upala<s n="n"/><s n="f"/><g><b/>pluća</g></l><r>pljučnica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>upala<g><b/>pluća</g><s n="n"/><s n="f"/></l><r>pljučnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lim<s n="n"/><s n="mi"/></l><r>pločevina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pleh<s n="n"/><s n="mi"/></l><r>pločevina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>limenka<s n="n"/><s n="f"/></l><r>pločevinka<s n="n"/><s n="f"/></r></p></e>
@@ -11957,7 +11967,7 @@
     <e><p><l>tvar<s n="n"/><s n="f"/></l><r>snov<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mladić<s n="n"/><s n="ma"/></l><r>fant<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>kokoš<s n="n"/><s n="f"/></l><r>kokoš<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>svjetlo</l><r>luč<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>svjetlo<s n="n"/><s n="nt"/></l><r>luč<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nemoć<s n="n"/><s n="f"/></l><r>nemoč<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>peć<s n="n"/><s n="f"/></l><r>peč<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>premoć<s n="n"/><s n="f"/></l><r>premoč<s n="n"/><s n="f"/></r></p></e>
@@ -12306,7 +12316,7 @@
     <e><p><l>metež<s n="n"/><s n="mi"/></l><r>metež<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>flaster<s n="n"/><s n="mi"/></l><r>obliž<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>oplata<s n="n"/><s n="f"/></l><r>opaž<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>raj</l><r>paradiž<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>raj<s n="n"/><s n="mi"/></l><r>paradiž<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>škripac<s n="n"/><s n="mi"/></l><r>primež<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>ovrha<s n="n"/><s n="f"/></l><r>rubež<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>plod<s n="n"/><s n="mi"/></l><r>sadež<s n="n"/><s n="mi"/></r></p></e>
@@ -12461,7 +12471,7 @@
     <e><p><l>slutnja<s n="n"/><s n="f"/></l><r>slutnja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ropkinja<s n="n"/><s n="f"/></l><r>sužnja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>narav<s n="n"/><s n="f"/></l><r>nrav<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>seks<s n="n"/><s n="mi"/></l><r>seks<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>seks<s n="n"/><s n="mi"/></l><r>seks<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>grof<s n="n"/><s n="ma"/></l><r>grof<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>bližnji</l><r>sočlovek<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>seljak<s n="n"/><s n="ma"/></l><r>kmet<s n="n"/><s n="ma"/></r></p></e>
@@ -13610,7 +13620,7 @@
     <e><p><l>proporcionalan<s n="adj"/></l><r>sorazmeren<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>specifičan<s n="adj"/></l><r>specifičen<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>primljen<s n="adj"/></l><r>sprejemen<s n="adj"/></r></p><par n="pst_to_null"/></e>
-    <e><p><l>globalan<s n="adj"/></l><r>svetoven<s n="adj"/></r></p><par n="pst_to_null"/></e>
+    <e><p><l>svjetski<s n="adj"/></l><r>svetoven<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>jedinstven<s n="adj"/></l><r>svojevrsten<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>tehnički<s n="adj"/></l><r>tehničen<s n="adj"/></r></p><par n="pst_to_null"/></e>
     <e><p><l>teoretski<s n="adj"/></l><r>teoretičen<s n="adj"/></r></p><par n="pst_to_null"/></e>
@@ -13924,7 +13934,7 @@
     <e><p><l>jak<s n="adj"/></l><r>zelo<s n="adv"/><s n="sint"/></r></p></e>
 
     <!-- Adjective to Pronoun -> rule added -->
-    <e><p><l>drugi<s n="adj"/></l><r>drug<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>drugi<s n="adj"/><s n="adj"/></l><r>drug<s n="prn"/><s n="ind"/></r></p><par n="gen_identity"/><par n="num_identity"/><par n="cas_identity"/><par n="def2null"/></e>
 
     
     <!-- Particles -->
@@ -14274,9 +14284,7 @@
     <e><p><l>dokle<s n="adv"/></l><r>do<b/>kod<s n="cnjcoo"/></r></p></e>
     <e><p><l>ikud<s n="adv"/></l><r>kam<s n="cnjcoo"/></r></p></e>
     <e><p><l>ukoliko<s n="adv"/></l><r>koliko<s n="cnjcoo"/></r></p></e>
-    
 
-    <!-- test -->
     <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>zakaj<s n="prn"/><s n="itg"/></r></p></e>
 
 

@@ -23857,14 +23857,14 @@
       <e><par n="e_ije__yat"/><p><l>te</l><r>t<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
       <e><par n="e_ije__yat"/><p><l>tu</l><r>t<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
       <e><par n="e_ije__yat"/><p><l>tom</l><r>t<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><par n="e_je__yat"/><p><l>tovi</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><par n="e_je__yat"/><p><l>tova</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e r="LR"><i/><par n="e_je__yat"/><p><l>tovâ</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><par n="e_je__yat"/><p><l>tovima</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><par n="e_je__yat"/><p><l>tove</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><par n="e_je__yat"/><p><l>tovi</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
-      <e><par n="e_je__yat"/><p><l>tovima</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
-      <e><par n="e_je__yat"/><p><l>tovima</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>tovi</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>tova</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><i/><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>tovâ</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>tovima</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>tove</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>tovi</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>tovima</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>tovima</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
     <pardef n="seks__n"><!--Singularia tantum-->
       <e><p><l></l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -45068,6 +45068,7 @@
     <e lm="koš"><i>koš</i><par n="ološ__n"/></e>
     <e lm="ološ"><i>ološ</i><par n="ološ__n"/></e>
     <e lm="orijaš"><i>orijaš</i><par n="prijatelj__n"/></e>
+    <e lm="pratitelj"><i>pratitelj</i><par n="prijatelj__n"/></e>
     <e lm="crvendać"><i>crvendać</i><par n="prijatelj__n"/></e>
     <e lm="pajdaš"><i>pajdaš</i><par n="prijatelj__n"/></e>
     <e lm="sportaš"><i>sportaš</i><par n="prijatelj__n"/></e>
@@ -45471,6 +45472,7 @@
     <e lm="stolić"><i>stolić</i><par n="stolčić__n"/></e>
     <e lm="plač"><i>plač</i><par n="plač__n"/></e>
     <e lm="sjaj"><i>sjaj</i><par n="plač__n"/></e>
+    <e lm="raj"><i>raj</i><par n="plač__n"/></e>
     <e lm="sloj"><i>sloj</i><par n="plač__n"/></e>
     <e lm="sprej"><i>sprej</i><par n="plač__n"/></e>
     <e lm="tuš"><i>tuš</i><par n="plač__n"/></e>
@@ -48515,6 +48517,7 @@
     <e lm="gonjenje"><i>gonjenj</i><par n="polj/e__n"/></e>
     <e lm="gorenje"><i>gorenj</i><par n="polj/e__n"/></e>
     <e lm="dizalo"><i>dizal</i><par n="koljen/o__n"/></e>
+    <e lm="svjetlo"><i>sv</i><par n="e_je__yat"/><i>tl</i><par n="koljen/o__n"/></e>
     <e lm="bjesnilo"><i>bjesnil</i><par n="koljen/o__n"/></e>
     <e lm="pojačalo"><i>pojačal</i><par n="koljen/o__n"/></e>
     <e lm="povećalo"><i>povećal</i><par n="koljen/o__n"/></e>
