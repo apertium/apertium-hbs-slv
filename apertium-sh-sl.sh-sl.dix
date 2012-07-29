@@ -201,7 +201,7 @@
     <pardef n="num_identity">
       <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
-      <e><p><l><s n="pl"/></l><r><s n="du"/></r></p></e><!--Not quite, but handled in transfer-->
+      <e r="RL"><p><l><s n="pl"/></l><r><s n="du"/></r></p></e><!--Not quite, but handled in transfer-->
     </pardef>
 
     <pardef n="def2null">
@@ -217,27 +217,25 @@
     </pardef>
     
     <pardef n="mfn_to_gen">
-      <e r="LR"><p><l><s n="mfn"/></l><r><s n="m"/></r></p></e>
-      <e r="LR"><p><l><s n="mfn"/></l><r><s n="f"/></r></p></e>
-      <e r="LR"><p><l><s n="mfn"/></l><r><s n="nt"/></r></p></e>
+      <e><p><l><s n="mfn"/></l><r><s n="m"/></r></p></e>
+      <e r="RL"><p><l><s n="mfn"/></l><r><s n="f"/></r></p></e>
+      <e r="RL"><p><l><s n="mfn"/></l><r><s n="nt"/></r></p></e>
     </pardef>
     
     <pardef n="mfnsp_to_gen">
-      <e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="m"/></r></p></e>
-      <e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="f"/></r></p></e>
-      <e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="nt"/></r></p></e>
+      <e><p><l><s n="mfn"/><s n="sp"/></l><r><s n="m"/></r></p></e>
+      <e r="RL"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="f"/></r></p></e>
+      <e r="RL"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="nt"/></r></p></e>
     </pardef>
     
     <pardef n="mfnsp_to_nogen">
-      <e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r></r></p></e>
-      <e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r></r></p></e>
-      <e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r></r></p></e>
+      <e><p><l><s n="mfn"/><s n="sp"/></l><r></r></p></e>
     </pardef>
     
     <pardef n="mfnsp_to_gen_sg">
-      <e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l><s n="mfn"/><s n="sp"/></l><r><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="f"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="mfn"/><s n="sp"/></l><r><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="gen_m">
@@ -13934,7 +13932,7 @@
     <e><p><l>jak<s n="adj"/></l><r>zelo<s n="adv"/><s n="sint"/></r></p></e>
 
     <!-- Adjective to Pronoun -> rule added -->
-    <e><p><l>drugi<s n="adj"/><s n="adj"/></l><r>drug<s n="prn"/><s n="ind"/></r></p><par n="gen_identity"/><par n="num_identity"/><par n="cas_identity"/><par n="def2null"/></e>
+    <e><p><l>drugi<s n="adj"/><s n="pst"/></l><r>drug<s n="prn"/><s n="ind"/></r></p><par n="gen_identity"/><par n="num_identity"/><par n="cas_identity"/><par n="def2null"/></e>
 
     
     <!-- Particles -->

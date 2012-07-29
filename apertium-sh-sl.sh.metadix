@@ -5130,9 +5130,12 @@
       <e><par n="ovakav__dem__prn"/></e>
       <e><par n="ovolik__dem__prn"/></e>
 
-      <e><par n="taj__dem__prn"/></e>
+      <e><par n="taj__dem__prn"/></e>            
       <e><par n="takav__dem__prn"/></e>
       <e><par n="tolik__dem__prn"/></e>
+
+      <!-- For to Slovene: -->
+      <e><p><l>samo<b/></l><r>samo<s n="adv"/><b/></r></p><par n="taj__dem__prn"/></e>
 
       <e><par n="onaj__dem__prn"/></e>
       <e><par n="onakav__dem__prn"/></e>
