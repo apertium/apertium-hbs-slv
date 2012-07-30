@@ -299,6 +299,7 @@
       <attr-item tags="fti"/>
       <attr-item tags="past"/>
       <attr-item tags="supn"/>
+      <attr-item tags="pp"/>
     </def-attr>
 
     <def-attr n="prs">
@@ -430,6 +431,10 @@
 	<when>
 	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="supn"/></equal></test>
 	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="inf"/></let>
+	</when>
+	<when>
+	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pp"/></equal></test>
+	  <call-macro n="m2mima"><with-param pos="1"/></call-macro>
 	</when>
       </choose>
     </def-macro>

@@ -305,6 +305,12 @@
       <e><p><l><s n="iv"/></l><r><s n="ref"/></r></p></e>
     </pardef>
 
+    <pardef n="ref_to_allforms">
+      <e><p><l><s n="iv"/></l><r><s n="tv"/></r></p></e>
+      <e><p><l><s n="iv"/></l><r><s n="iv"/></r></p></e>
+      <e><p><l><s n="iv"/></l><r><s n="ref"/></r></p></e>
+    </pardef>
+
     <pardef n="allforms_to_tv">
       <e><p><l><s n="tv"/></l><r><s n="tv"/></r></p></e>
       <e><p><l><s n="iv"/></l><r><s n="tv"/></r></p></e>
@@ -6824,7 +6830,7 @@
     <e><p><l>razgovarati<s n="vblex"/></l><r>govoriti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>razgovarati<s n="vblex"/></l><r>govoriti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>smijati<s n="vblex"/></l><r>smejati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>misao<s n="vblex"/></l><r>misliti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>misliti<s n="vblex"/></l><r>misliti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>reći<s n="vblex"/></l><r>povedati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>kazati<s n="vblex"/></l><r>reči<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>odgovarati<s n="vblex"/></l><r>odgovoriti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
@@ -6890,7 +6896,7 @@
     <e><p><l>podržavati<s n="vblex"/><s n="imperf"/></l><r>podpirati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms_to_tv"/></e>
     <e><p><l>vući<s n="vblex"/><s n="imperf"/></l><r>vleči<s n="vblex"/><s n="imperf"/></r></p><par n="allforms_to_tv"/></e>
     <e><p><l>povući<s n="vblex"/><s n="perf"/></l><r>povleči<s n="vblex"/><s n="perf"/></r></p><par n="allforms_to_tv"/></e>
-    <e><p><l>uleći<s n="vblex"/><s n="perf"/></l><r>ležati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms_to_iv"/></e>
+    <e><p><l>ležati<s n="vblex"/><s n="imperf"/></l><r>ležati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms_to_iv"/></e>
     <e><p><l>češati<s n="vblex"/><s n="imperf"/></l><r>česati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms_to_tv"/></e>
     <e><p><l>padati<s n="vblex"/><s n="imperf"/></l><r>padati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms_to_iv"/></e>
     <e><p><l>stiskati<s n="vblex"/><s n="imperf"/></l><r>stiskati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms_to_tv"/></e>
@@ -6945,7 +6951,8 @@
     <e><p><l>letjeti<s n="vblex"/><s n="imperf"/></l><r>leteti<s n="vblex"/><s n="imperf"/></r></p><par n="allforms_to_iv"/></e>
     <e><p><l>poletjeti<s n="vblex"/><s n="perf"/></l><r>poleteti<s n="vblex"/><s n="perf"/></r></p><par n="allforms_to_iv"/></e>
     <e><p><l>smrdjeti<s n="vblex"/><s n="imperf"/></l><r>smrdeti<s n="vblex"/><s n="imperf"/></r></p><par n="allforms_to_iv"/></e>
-    <e><p><l>smjeti<s n="vblex"/><s n="perf"/></l><r>upati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms_to_iv"/></e>
+    <e><p><l>nadati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>upati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p></e>
+    <e r="LR"><p><l>smjeti<s n="vblex"/><s n="perf"/></l><r>upati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms_to_iv"/></e>
     <e><p><l>poginuti<s n="vblex"/><s n="perf"/></l><r>umreti<s n="vblex"/><s n="perf"/></r></p><par n="allforms_to_iv"/></e>
     <e><p><l>obrnuti<s n="vblex"/><s n="perf"/></l><r>menjati<s n="vblex"/><s n="perf"/></r></p><par n="allforms_to_tv"/></e>
     <e><p><l>navesti<s n="vblex"/><s n="perf"/></l><r>navesti<s n="vblex"/><s n="perf"/></r></p><par n="allforms_to_tv"/></e>
