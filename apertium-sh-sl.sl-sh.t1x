@@ -4,6 +4,7 @@
   <section-def-cats>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
     </def-cat>
     <def-cat n="nom_gen">
       <cat-item tags="n.*.*.gen"/>
@@ -435,6 +436,7 @@
 	<when>
 	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pp"/></equal></test>
 	  <call-macro n="m2mima"><with-param pos="1"/></call-macro>
+	  <let><clip pos="1" side="tl" part="trn"/><lit-tag v="tv"/></let><!--This is evil, but intransitive verbs have no <pp> -->
 	</when>
       </choose>
     </def-macro>
@@ -511,9 +513,7 @@
 	<pattern-item n="nom"/>
       </pattern>
       <action>
-	<call-macro n="dual_adapter">
-	  <with-param pos="1"/>
-	</call-macro>
+	<call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
 	<out>
 	  <chunk name="nom" case="caseFirstWord">
 	    <tags>
@@ -523,18 +523,10 @@
 	      <tag><lit-tag v="nom"/></tag>
 	    </tags>
 	    <lu>
-	      <clip pos="1" side="tl" part="lem"/>
-	      <clip pos="1" side="tl" part="a_nom"/>
-	      <clip pos="1" side="tl" part="gen" link-to="2"/>
-	      <clip pos="1" side="tl" part="nbr" link-to="3"/>
-	      <lit-tag v="4"/>
+	      <clip pos="1" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
 	</out>
-	<let>
-	  <var n="motion"/>
-	  <lit v="false"/>
-	</let>
       </action>
     </rule>
 
