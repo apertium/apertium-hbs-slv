@@ -303,6 +303,7 @@
       <attr-item tags="past"/>
       <attr-item tags="supn"/>
       <attr-item tags="pp"/>
+      <attr-item tags="lp"/>
     </def-attr>
 
     <def-attr n="prs">
@@ -440,6 +441,10 @@
 	  <call-macro n="m2mima"><with-param pos="1"/></call-macro>
 	  <let><clip pos="1" side="tl" part="trn"/><lit-tag v="tv"/></let><!--This is evil, but intransitive verbs have no <pp> -->
 	</when>
+	<when>
+	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="past"/></equal></test>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp"/></let>
+	</when>	
       </choose>
     </def-macro>
 
@@ -702,7 +707,7 @@
     <!-- Added by Hrvoje -->
     <rule comment="verb">
       <pattern>
-    	<pattern-item n="vblex"/>
+    	<pattern-item n="verb"/>
       </pattern>
       <action>
     	<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>

@@ -6798,7 +6798,7 @@
     
     <!-- vbhaver -> vblex ==> Added rule -->
     <e><p><l>imati<s n="vbhaver"/><s n="imperf"/></l><r>imeti<s n="vblex"/><s n="imperf"/></r></p></e>
-    <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/></l><r>imeti<s n="vblex"/><s n="neg"/><s n="imperf"/></r></p></e>
+    <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pres"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="neg"/></r></p></e>
 
     
     <!-- ADD TAGS TO THIS SET OF ENTRIES -->
