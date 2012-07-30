@@ -242,6 +242,8 @@
       <attr-item tags="np"/>
       <attr-item tags="np.ant"/>
       <attr-item tags="np.top"/>
+      <attr-item tags="np.cog"/>
+      <attr-item tags="np.al"/>
     </def-attr>
 
     <def-attr n="a_adv">
@@ -441,6 +443,31 @@
       </choose>
     </def-macro>
 
+    <def-macro n="nom_adapter" npar="1">
+	  <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
+	  <choose>
+	  <when>
+	    <test>
+	      <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></equal>
+	      <!--Do absolutely nothing if it's an adjective-->
+	    </test>
+	  </when>
+	  <otherwise>
+	  <let><!--For multiwords with declension at the beginning (and all other stuff)-->
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="cas"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	  </otherwise>
+	  </choose>
+    </def-macro>
+
     <def-macro n="prn_adapter" npar="1">
 	  <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>      
 	  <call-macro n="m2mima"><with-param pos="1"/></call-macro>      
@@ -513,7 +540,7 @@
 	<pattern-item n="nom"/>
       </pattern>
       <action>
-	<call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
 	<out>
 	  <chunk name="nom" case="caseFirstWord">
 	    <tags>

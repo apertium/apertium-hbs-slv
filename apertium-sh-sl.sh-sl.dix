@@ -10337,6 +10337,8 @@
     <e><p><l>tinta<s n="n"/><s n="f"/></l><r>črnilo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>osjetilo<s n="n"/><s n="nt"/></l><r>čutilo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dar<s n="n"/><s n="mi"/></l><r>darilo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>dar<s n="n"/><s n="mi"/></l><r>dar<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>dan<s n="n"/><s n="mi"/></l><r>dan<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>dlijeto<s n="n"/><s n="nt"/></l><r>dleto<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dokaz<s n="n"/><s n="mi"/></l><r>dokazilo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>doplata<s n="n"/><s n="f"/></l><r>doplačilo<s n="n"/><s n="nt"/></r></p></e>
@@ -11105,7 +11107,7 @@
     <e><p><l>plesačica<s n="n"/><s n="f"/></l><r>plesalka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ćela<s n="n"/><s n="f"/></l><r>pleša<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>plima<s n="n"/><s n="f"/></l><r>plima<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>upala<g><b/>pluća</g><s n="n"/><s n="f"/></l><r>pljučnica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>upala<s n="n"/><s n="f"/></l><r>pljučnica<s n="n"/><s n="f"/></r></p><par n="num_identity"/><par n="cas_identity"/><p><l><g><b/>pluća</g></l><r></r></p></e>
     <e><p><l>lim<s n="n"/><s n="mi"/></l><r>pločevina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pleh<s n="n"/><s n="mi"/></l><r>pločevina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>limenka<s n="n"/><s n="f"/></l><r>pločevinka<s n="n"/><s n="f"/></r></p></e>
@@ -11677,8 +11679,8 @@
     <e><p><l>lopta<s n="n"/><s n="f"/></l><r>žoga<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>akrobacija<s n="n"/><s n="f"/></l><r>akrobatika<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>alkemija<s n="n"/><s n="f"/></l><r>alkimija<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>engleski</l><r>angleščina<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>baskijski</l><r>baskovščina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>engleski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>angleščina<s n="n"/><s n="f"/></r></p><par n="num_identity"/><par n="cas_identity"/><par n="def2null"/></e>
+    <e><p><l>baskijski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>baskovščina<s n="n"/><s n="f"/></r></p><par n="num_identity"/><par n="cas_identity"/><par n="def2null"/></e>
     <e><p><l>berba<s n="n"/><s n="f"/></l><r>bera<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>bura<s n="n"/><s n="f"/></l><r>burja<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>iznutrice<s n="n"/><s n="f"/></l><r>drobovina<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e>
@@ -12417,7 +12419,7 @@
     <e><p><l>nafta<s n="n"/><s n="f"/></l><r>nafta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>krama<s n="n"/><s n="f"/></l><r>navlaka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nevjera<s n="n"/><s n="f"/></l><r>nevera<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>portugalski</l><r>portugalščina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>portugalski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>portugalščina<s n="n"/><s n="f"/></r></p><par n="num_identity"/><par n="cas_identity"/><par n="def2null"/></e>
     <e><p><l>publicitet<s n="n"/><s n="mi"/></l><r>publiciteta<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>vlaga<s n="n"/><s n="f"/></l><r>vlaga<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>povrće<s n="n"/><s n="nt"/></l><r>zelenjava<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
@@ -12487,7 +12489,7 @@
     <e><p><l>narav<s n="n"/><s n="f"/></l><r>nrav<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>seks<s n="n"/><s n="mi"/></l><r>seks<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>grof<s n="n"/><s n="ma"/></l><r>grof<s n="n"/><s n="ma"/></r></p></e>
-    <e><p><l>bližnji</l><r>sočlovek<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>bližnji<s n="adj"/><s n="pst"/><s n="ma"/></l><r>sočlovek<s n="n"/><s n="ma"/></r></p><par n="num_identity"/><par n="cas_identity"/><par n="def2null"/></e>
     <e><p><l>seljak<s n="n"/><s n="ma"/></l><r>kmet<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>poljoprivrednik<s n="n"/><s n="ma"/></l><r>kmet<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>tlo<s n="n"/><s n="nt"/></l><r>tla<s n="n"/><s n="nt"/></r></p><par n="sgpl_pl"/></e>
