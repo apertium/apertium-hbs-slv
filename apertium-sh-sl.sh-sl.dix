@@ -6783,8 +6783,9 @@
     <e r="LR"><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: this is a tmp one biti<vblex> == to beat, biti<vbser> == to be-->
     
     <!-- vbhaver -> vblex ==> Added rule -->
-    <e><p><l>imati<s n="vbhaver"/><s n="imperf"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/></l><r>imeti<s n="vblex"/><s n="neg"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>imati<s n="vbhaver"/><s n="imperf"/></l><r>imeti<s n="vblex"/><s n="imperf"/></r></p></e>
+    <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/></l><r>imeti<s n="vblex"/><s n="neg"/><s n="imperf"/></r></p></e>
+
     
     <!-- ADD TAGS TO THIS SET OF ENTRIES -->
     <e><p><l>moći<s n="vbmod"/></l><r>moči<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>

@@ -6251,16 +6251,16 @@
     <pardef n="i/mati__vbhaver">
       <!--Infinitive-->
       <e><p><l>ma</l><r>ma</r></p><par n="inf_ti+fiiI__sfx__tv__vbhaver__imperf"/></e>
-      <e><p><l>ma</l><r>ma</r></p><par n="inf_ti+fiiI__sfx__ref__vbhaver__imperf"/></e>
+      <!-- <e><p><l>ma</l><r>ma</r></p><par n="inf_ti+fiiI__sfx__ref__vbhaver__imperf"/></e> -->
       <!--Imperative-->
       <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
-      <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imp__sfx__j__vblex"/></e>
+      <!-- <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imp__sfx__j__vblex"/></e> -->
       <!--Present-->
       <e><p><l>m</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e>
-      <e><p><l>m</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__am__vblex"/></e>
+      <!-- <e><p><l>m</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__am__vblex"/></e> -->
       <!--Imperfect-->
       <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
-      <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e>
+      <!-- <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e> -->
       <!--Participles-->
       <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
       <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e>
