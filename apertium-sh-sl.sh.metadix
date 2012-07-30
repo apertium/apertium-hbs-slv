@@ -32201,6 +32201,7 @@
     <e lm="nasuprot"><i>nasuprot</i><par n="dat__pr"/></e>
     <e lm="unatoč"><i>unatoč</i><par n="dat__pr"/></e>
     <e lm="usprkos"><i>usprkos</i><par n="dat__pr"/></e>
+    <e r="LR" lm="usprkos"><p><l>uprkos</l><r>usprkos</r></p><par n="dat__pr"/></e>
     <!-- with Accusative only -->
     <e lm="kroz"><i>kroz</i><par n="s/a__acc__pr"/></e>
     <e lm="niz"><i>niz</i><par n="s/a__acc__pr"/></e>
@@ -32396,6 +32397,8 @@
 
     <!--Todo: add the compounds "radi čega", "zbog čega"... in the mk monodix there are some translations for them, though not all-->
     <!--Adverbs (the closed subset) -->
+    <e lm="usporedo"><i>usporedo</i><par n="danas__adv"/></e>
+    <e lm="uporedo"><i>uporedo</i><par n="danas__adv"/></e>
     <e lm="kasnije"><i>kasnije</i><par n="danas__adv"/></e>
     <e lm="ubuduće"><i>ubuduće</i><par n="danas__adv"/></e>
     <e lm="nadalje"><i>nadalje</i><par n="danas__adv"/></e>
