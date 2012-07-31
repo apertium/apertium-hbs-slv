@@ -6792,9 +6792,9 @@
     <!--Verbs-->
     
     <!-- The verb to be -->
-    <e r="LR"><p><l>biti<s n="vbser"/></l><r>biti<s n="vbser"/></r></p></e>
+    <e><p><l>biti<s n="vbser"/></l><r>biti<s n="vbser"/></r></p></e>
     <e><p><l>biti<s n="vbser"/><s n="inf"/></l><r>biti<s n="vbser"/><s n="inf"/></r></p></e>
-    <e><p><l>biti<s n="vbser"/><s n="inf"/></l><r>biti<s n="vbser"/><s n="supn"/></r></p></e>
+    <e r="RL"><p><l>biti<s n="vbser"/><s n="inf"/></l><r>biti<s n="vbser"/><s n="supn"/></r></p></e>
     <e><p><l>biti<s n="vbser"/><s n="clt"/><s n="pres"/></l><r>biti<s n="vbser"/><s n="pres"/></r></p></e>
     <e><p><l>biti<s n="vbser"/><s n="imp"/></l><r>biti<s n="vbser"/><s n="imp"/></r></p></e>
     <e><p><l>ne<s n="part"/><s n="neg"/><j/>biti<s n="vbser"/><s n="clt"/><s n="pres"/></l><r>biti<s n="vbser"/><s n="pres"/><s n="neg"/></r></p></e>
@@ -6863,7 +6863,7 @@
     <e><p><l>odlaziti<s n="vblex"/></l><r>oditi<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>pojesti<s n="vblex"/></l><r>pojesti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>popiti<s n="vblex"/></l><r>popiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>raditi<s n="vblex"/></l><r>delati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>raditi<s n="vblex"/><s n="imperf"/></l><r>delati<s n="vblex"/><s n="imperf"/></r></p></e>
     <e><p><l>otići<s n="vblex"/></l><r>iti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
 
 
@@ -15893,28 +15893,29 @@
     <e><p><l>a<s n="cnjcoo"/></l><r>a<s n="cnjcoo"/></r></p></e>
     <e><p><l>a<s n="cnjcoo"/></l><r>pa<s n="cnjcoo"/></r></p></e>
     <e><p><l>nego<s n="cnjcoo"/></l><r>ampak<s n="cnjcoo"/></r></p></e>
-    <e><p><l>bilo<s n="cnjcoo"/></l><r>bodisi<s n="cnjcoo"/></r></p></e>
+    <e r="RL"><p><l>ili<s n="cnjcoo"/></l><r>bodisi<s n="cnjcoo"/></r></p></e>
     <e><p><l>i<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
-    <e><p><l>jer<s n="cnjcoo"/></l><r>kajti<s n="cnjcoo"/></r></p></e>
+    <e><p><l>jer<s n="cnjsub"/></l><r>kajti<s n="cnjcoo"/></r></p></e>
     <e><p><l>kad<s n="cnjcoo"/></l><r>ko<s n="cnjcoo"/></r></p></e>
     <e><p><l>marveč<s n="cnjcoo"/></l><r>marveč<s n="cnjcoo"/></r></p></e>
     <e><p><l>namreč<s n="cnjcoo"/></l><r>namreč<s n="cnjcoo"/></r></p></e>
     <e><p><l>a<s n="cnjcoo"/></l><r>ne<s n="cnjcoo"/></r></p></e>
     <e><p><l>ni<s n="cnjcoo"/></l><r>niti<s n="cnjcoo"/></r></p></e>
-    <e><p><l>odkar<s n="cnjcoo"/></l><r>odkar<s n="cnjcoo"/></r></p></e>
-    <e><p><l>jer<s n="cnjcoo"/></l><r>saj<s n="cnjcoo"/></r></p></e>
-    <e><p><l>sicer<s n="cnjcoo"/></l><r>sicer<s n="cnjcoo"/></r></p></e>
+    <e><p><l>otkad<s n="adv"/></l><r>odkar<s n="cnjcoo"/></r></p></e>
+    <e><p><l>jer<s n="cnjsub"/></l><r>saj<s n="cnjcoo"/></r></p></e>
+    <e><p><l>inače<s n="adv"/></l><r>sicer<s n="cnjcoo"/></r></p></e>
+    <e r="LR"><p><l>doduše<s n="adv"/></l><r>sicer<s n="cnjcoo"/></r></p></e>
     <e><p><l>nego<s n="cnjcoo"/></l><r>temveč<s n="cnjcoo"/></r></p></e>
     <e><p><l>no<s n="cnjcoo"/></l><r>toda<s n="cnjcoo"/></r></p></e>
     <e><p><l>dakle<s n="cnjcoo"/></l><r>torej<s n="cnjcoo"/></r></p></e>
     <e><p><l>ali<s n="cnjcoo"/></l><r>vendar<s n="cnjcoo"/></r></p></e>
-    <e><p><l>vendarle<s n="cnjcoo"/></l><r>vendarle<s n="cnjcoo"/></r></p></e>
-    <e><p><l>zašto<s n="cnjcoo"/></l><r>zakaj<s n="cnjcoo"/></r></p></e>
-    <e><p><l>no<s n="cnjcoo"/></l><r>torej<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ipak<s n="adv"/></l><r>vendarle<s n="cnjcoo"/></r></p></e>
+    <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>zakaj<s n="cnjcoo"/></r></p></e>
+    <e><p><l>dakle<s n="cnjcoo"/></l><r>torej<s n="cnjcoo"/></r></p></e>
     <e><p><l>no<s n="cnjcoo"/></l><r>no<s n="cnjcoo"/></r></p></e> <!-- not sure -->
     
     <e><p><l>pa<s n="cnjcoo"/></l><r>zato<s n="cnjcoo"/></r></p></e>
-    <e><p><l>pak<s n="cnjcoo"/></l><r>vendar<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ipak<s n="adv"/></l><r>vendar<s n="cnjcoo"/></r></p></e>
     <e><p><l>te<s n="cnjcoo"/></l><r>ter<s n="cnjcoo"/></r></p></e>
     <e><p><l>niti<s n="cnjcoo"/></l><r>niti<s n="cnjcoo"/></r></p></e>
     <e><p><l>ili<s n="cnjcoo"/></l><r>ali<s n="cnjcoo"/></r></p></e>
@@ -15975,7 +15976,7 @@
     
     <!-- Adverb (SH) to Conjunctions (SL) - rule added -->
     <e><p><l>predno<s n="adv"/></l><r>predno<s n="cnjsub"/></r></p></e>
-    <e><p><l>otkako<s n="adv"/></l><r>odkar<s n="cnjsub"/></r></p></e>
+    <e r="LR"><p><l>otkako<s n="adv"/></l><r>odkar<s n="cnjsub"/></r></p></e>
     <e><p><l>kad<s n="adv"/></l><r>kadar<s n="cnjsub"/></r></p></e>
     <e><p><l>otkad<s n="adv"/></l><r>odkar<s n="cnjsub"/></r></p></e>
     <e><p><l>ako<s n="adv"/></l><r>če<s n="cnjsub"/></r></p></e>
