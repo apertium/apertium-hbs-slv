@@ -6802,7 +6802,9 @@
     <e r="LR"><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: this is a tmp one biti<vblex> == to beat, biti<vbser> == to be-->
     
     <!-- vbhaver -> vblex ==> Added rule -->
-    <e><p><l>imati<s n="vbhaver"/></l><r>imeti<s n="vblex"/></r></p></e>
+    <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>imetak<s n="n"/><s n="mi"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="ger"/><s n="nt"/></r></p></e>
+    <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pres"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pres"/></r></p></e>
     <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pres"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="neg"/></r></p></e>
 
     

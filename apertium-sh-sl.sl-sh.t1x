@@ -64,10 +64,6 @@
       <cat-item tags="vbser.clt.aor.*"/>
     </def-cat>
     <def-cat n="verb">
-      <cat-item tags="vblex"/>
-      <cat-item tags="vbser"/>
-      <cat-item tags="vbmod"/>
-      <cat-item tags="vbhaver"/>
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbmod.*"/>
@@ -102,10 +98,10 @@
       <cat-item tags="vbser.inf.*"/>
     </def-cat>
     <def-cat n="vbsupn">
-      <cat-item tags="vbser.supn"/>
-      <cat-item tags="vblex.supn"/>
-      <cat-item tags="vbmod.supn"/>
-      <cat-item tags="vbhaver.supn"/>
+      <cat-item tags="vbser.*.*.supn"/>
+      <cat-item tags="vblex.*.*.supn"/>
+      <cat-item tags="vbmod.*.*.supn"/>
+      <cat-item tags="vbhaver.*.*.supn"/>
     </def-cat>
     <def-cat n="vbfutI">
       <cat-item lemma="htjeti" tags="vbmod.clt.futI.*"/>
@@ -294,6 +290,7 @@
       <attr-item tags="f"/>
       <attr-item tags="nt"/>
       <attr-item tags="mf"/>
+      <attr-item tags="mfn"/>
       <attr-item tags="GD"/>
     </def-attr>
 
@@ -304,11 +301,11 @@
       <attr-item tags="imp"/>
       <attr-item tags="aor"/>
       <attr-item tags="fti"/>
-      <attr-item tags="past"/>
       <attr-item tags="pres"/>
-      <attr-item tags="supn"/>
       <attr-item tags="pp"/>
       <attr-item tags="lp"/>
+      <attr-item tags="supn"/>
+      <attr-item tags="past"/>
     </def-attr>
 
     <def-attr n="prs">
@@ -362,7 +359,6 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="genere"/>
-    <def-var n="motion"/> <!-- We set this to motion if there is a verb, and unset it if there is a noun -->	
     <def-var n="caseFirstWord"/>	
     <def-var n="EOS" v="true"/>
   </section-def-vars>
@@ -390,7 +386,7 @@
 	    <!-- gen.dual -> gen.pl -->
 	    <when>
 	      <test>
-		  <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="gen"/></equal> 
+		<equal><clip pos="1" side="sl" part="cas"/><lit-tag v="gen"/></equal> 
 	      </test>
 	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
 	    </when>
@@ -433,7 +429,6 @@
     </def-macro>
 
     <def-macro n="verb_adapter" npar="1">
-      <!-- Dual to plural -->
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
       <!-- Supine to infinitive -->
       <choose>
@@ -454,15 +449,15 @@
     </def-macro>
 
     <def-macro n="nom_adapter" npar="1">
-	  <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
-	  <choose>
-	  <when>
-	    <test>
-	      <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></equal>
-	      <!--Do absolutely nothing if it's an adjective-->
-	    </test>
-	  </when>
-	  <otherwise>
+      <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
+      <choose>
+	<when>
+	  <test>
+	    <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></equal>
+	    <!--Do absolutely nothing if it's an adjective-->
+	  </test>
+	</when>
+	<otherwise>
 	  <let><!--For multiwords with declension at the beginning (and all other stuff)-->
 	    <clip pos="1" side="tl" part="whole"/>
 	    <concat>
@@ -474,13 +469,13 @@
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </concat>
 	  </let>
-	  </otherwise>
-	  </choose>
+	</otherwise>
+      </choose>
     </def-macro>
 
     <def-macro n="prn_adapter" npar="1">
-	  <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>      
-	  <call-macro n="m2mima"><with-param pos="1"/></call-macro>      
+      <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>      
+      <call-macro n="m2mima"><with-param pos="1"/></call-macro>      
     </def-macro>
 
     <def-macro n="adj_adapter" npar="1">
