@@ -168,6 +168,17 @@
       <e><p><l><s n="sup"/></l><r><s n="sup"/></r></p></e>
       <e><p><l><s n="ssup"/></l><r><s n="ela"/></r></p></e>
     </pardef>
+
+    <pardef n="prs_to_null">
+      <e><p><l><s n="p1"/></l><r></r></p></e>
+      <e><p><l><s n="p2"/></l><r></r></p></e>
+      <e><p><l><s n="p3"/></l><r></r></p></e>
+    </pardef>
+
+    <pardef n="nbr_to_null">
+      <e><p><l><s n="sg"/></l><r></r></p></e>
+      <e><p><l><s n="pl"/></l><r></r></p></e>
+    </pardef>
     
     <pardef n="sgpl_sg">
       <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
@@ -6798,9 +6809,10 @@
     <e><p><l>biti<s n="vbser"/><s n="clt"/><s n="pres"/></l><r>biti<s n="vbser"/><s n="pres"/></r></p></e>
     <e><p><l>biti<s n="vbser"/><s n="imp"/></l><r>biti<s n="vbser"/><s n="imp"/></r></p></e>
     <e><p><l>ne<s n="part"/><s n="neg"/><j/>biti<s n="vbser"/><s n="clt"/><s n="pres"/></l><r>biti<s n="vbser"/><s n="pres"/><s n="neg"/></r></p></e>
+    <!--Conditional-->
+    <e r="LR"><p><l>biti<s n="vbser"/><s n="clt"/><s n="aor"/></l><r>biti<s n="vbser"/><s n="cni"/></r></p><par n="prs_to_null"/><par n="nbr_to_null"/></e>
+    <e r="RL"><p><l>biti<s n="vbser"/><s n="clt"/><s n="aor"/><s n="p3"/><s n="sg"/></l><r>biti<s n="vbser"/><s n="cni"/></r></p><par n="prs_to_null"/><par n="nbr_to_null"/></e><!--Temporary, will be matched in transfer-->
 
-    <e r="LR"><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: this is a tmp one biti<vblex> == to beat, biti<vbser> == to be-->
-    
     <!-- vbhaver -> vblex ==> Added rule -->
     <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>imetak<s n="n"/><s n="mi"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="ger"/><s n="nt"/></r></p></e>
@@ -6853,10 +6865,10 @@
     <e><p><l>šetati<s n="vblex"/></l><r>hoditi<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>pokušavati<s n="vblex"/></l><r>poskušati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>naći<s n="vblex"/></l><r>najti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>začuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>začuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>začuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>začuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>slušati<s n="vblex"/></l><r>poslušati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>prići<s n="vblex"/></l><r>stopiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>pronaći<s n="vblex"/></l><r>najti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
