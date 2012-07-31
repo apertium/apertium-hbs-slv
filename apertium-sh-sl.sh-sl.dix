@@ -352,6 +352,7 @@
     <e><p><l>njegov<s n="prn"/><s n="pos"/></l><r>njegov<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
     <e><p><l>njihov<s n="prn"/><s n="pos"/></l><r>njihov<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
     <e><p><l>taj<s n="prn"/><s n="dem"/></l><r>ta<s n="prn"/><s n="dem"/></r></p></e>
+    <e r="RL"><p><l>taj<s n="prn"/><s n="dem"/></l><r>tale<s n="prn"/><s n="dem"/></r></p></e>
     
     <!--by Krvoje; le + prn--><!--TODO: Check with Aleš-->
     <e><p><l>samo<s n="adv"/><b/>taj<s n="prn"/><s n="dem"/></l><r>le-ta<s n="prn"/><s n="dem"/></r></p></e>
@@ -387,7 +388,7 @@
     <e><p><l>ikoji<s n="prn"/><s n="ind"/></l><r>katerikoli<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>bilo<b/>koji<s n="prn"/><s n="ind"/></l><r>kdor<b/>koli<s n="prn"/><s n="rel"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/></e>
     <e><p><l>pokoji<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>neki<s n="prn"/><s n="ind"/></l><r>kateri<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>neki<s n="prn"/><s n="ind"/></l><r>nek<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>poneki<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>nekakšen<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>kojekakav<s n="prn"/><s n="ind"/></l><r>nekakšen<s n="prn"/><s n="ind"/></r></p></e>
@@ -406,8 +407,11 @@
     <e><p><l>ovaj<s n="prn"/><s n="dem"/></l><r>ta<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>ovakav<s n="prn"/><s n="dem"/></l><r>tak<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>takav<s n="prn"/><s n="dem"/></l><r>takšen<s n="prn"/><s n="dem"/></r></p></e>
+    <e r="RL"><p><l>takav<s n="prn"/><s n="dem"/></l><r>takle<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>samo<s n="adv"/><b/>takav<s n="prn"/><s n="dem"/></l><r>le-takšen<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>tolik<s n="prn"/><s n="dem"/></l><r>tolik<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>onaj<s n="prn"/><s n="dem"/></l><r>tisti<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>samo<s n="adv"/><b/>onaj<s n="prn"/><s n="dem"/></l><r>le-tisti<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>onakav<s n="prn"/><s n="dem"/></l><r>takšen<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>onolik<s n="prn"/><s n="dem"/></l><r>tolikšen<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>nešto<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>nekaj<s n="prn"/><s n="ind"/><s n="sg"/></r></p></e>
@@ -432,6 +436,7 @@
     <e><p><l>ničiji<s n="prn"/><s n="neg"/></l><r>od<b/>nobenega<s n="prn"/><s n="neg"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e> 
     <!-- od nobenega => "Ovaj automobil nije ničiji" - "This is nobody's car" - "Ta avtomobil ni od nobenega" OR "Ničiji automobil nije crven" - "Nobody's car is red" - "Od nobenega avtomobil ni rdeč"; -->
     <e><p><l>nitko<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/></l><r>nihče<s n="prn"/><s n="neg"/></r></p></e>
+    <e><p><l>nijedan<s n="adj"/><s n="sp"/></l><r>noben<s n="prn"/><s n="ind"/><s n="neg"/></r></p></e>
 
 
     <!--Adverbs-->
@@ -6797,7 +6802,7 @@
     <e r="LR"><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> <!--Note: this is a tmp one biti<vblex> == to beat, biti<vbser> == to be-->
     
     <!-- vbhaver -> vblex ==> Added rule -->
-    <e><p><l>imati<s n="vbhaver"/><s n="imperf"/></l><r>imeti<s n="vblex"/><s n="imperf"/></r></p></e>
+    <e><p><l>imati<s n="vbhaver"/></l><r>imeti<s n="vblex"/></r></p></e>
     <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pres"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="neg"/></r></p></e>
 
     

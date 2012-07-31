@@ -29689,6 +29689,95 @@
       <e><p><l>jednim</l><r>jedan<s n="num"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
       <e r="LR"><p><l>jednima</l><r>jedan<s n="num"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 
+      <!--No es un numero, pero, viene de un numero-->
+      <e><p><l>nijedan</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>nijednog</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>nijednoga</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>nijednog</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e r="LR"><p><l>nijednoga</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>nijedni</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>nijednom</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>nijednomu</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>nijednome</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>nijednom</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>nijednomu</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>nijednome</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>nijedni</l><r>nijedan<s n="adj"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>nijednih</l><r>nijedan<s n="adj"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>nijedne</l><r>nijedan<s n="adj"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>nijedni</l><r>nijedan<s n="adj"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>nijednima</l><r>nijedan<s n="adj"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>nijednima</l><r>nijedan<s n="adj"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>nijednima</l><r>nijedan<s n="adj"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+
+      <e><p><l>nijedan</l><r>nijedan<s n="adj"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>nijednog</l><r>nijedan<s n="adj"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>nijednoga</l><r>nijedan<s n="adj"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>nijedan</l><r>nijedan<s n="adj"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>nijedan</l><r>nijedan<s n="adj"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>nijednom</l><r>nijedan<s n="adj"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>nijednomu</l><r>nijedan<s n="adj"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>nijednome</l><r>nijedan<s n="adj"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>nijednom</l><r>nijedan<s n="adj"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>nijednomu</l><r>nijedan<s n="adj"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>nijednome</l><r>nijedan<s n="adj"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>nijedni</l><r>nijedan<s n="adj"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>nijednih</l><r>nijedan<s n="adj"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>nijedne</l><r>nijedan<s n="adj"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>nijedni</l><r>nijedan<s n="adj"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>nijednima</l><r>nijedan<s n="adj"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>nijednima</l><r>nijedan<s n="adj"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>nijednima</l><r>nijedan<s n="adj"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+
+      <e><p><l>nijedna</l><r>nijedan<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>nijedne</l><r>nijedan<s n="adj"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>nijednu</l><r>nijedan<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>nijedna</l><r>nijedan<s n="adj"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>nijednoj</l><r>nijedan<s n="adj"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>nijednoj</l><r>nijedan<s n="adj"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>nijednom</l><r>nijedan<s n="adj"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>nijedni</l><r>nijedan<s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>nijednih</l><r>nijedan<s n="adj"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>nijedne</l><r>nijedan<s n="adj"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>nijedne</l><r>nijedan<s n="adj"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>nijednima</l><r>nijedan<s n="adj"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>nijednima</l><r>nijedan<s n="adj"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>nijednima</l><r>nijedan<s n="adj"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+
+      <e><p><l>nijedno</l><r>nijedan<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>nijednog</l><r>nijedan<s n="adj"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>nijednoga</l><r>nijedan<s n="adj"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>nijedno</l><r>nijedan<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>nijedno</l><r>nijedan<s n="adj"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>nijednom</l><r>nijedan<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>nijednomu</l><r>nijedan<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>nijednome</l><r>nijedan<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>nijednom</l><r>nijedan<s n="adj"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>nijednomu</l><r>nijedan<s n="adj"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>nijednome</l><r>nijedan<s n="adj"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>nijedna</l><r>nijedan<s n="adj"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>nijednih</l><r>nijedan<s n="adj"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>nijedna</l><r>nijedan<s n="adj"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>nijedna</l><r>nijedan<s n="adj"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>nijednima</l><r>nijedan<s n="adj"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>nijednima</l><r>nijedan<s n="adj"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>nijednim</l><r>nijedan<s n="adj"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>nijednima</l><r>nijedan<s n="adj"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+
       <!--Aquellos sin inflexion-->
       <!--This number has yat, and gender, so it's a special case-->
       <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="nom"/></r></p></e>

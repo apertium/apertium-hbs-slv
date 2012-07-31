@@ -64,6 +64,10 @@
       <cat-item tags="vbser.clt.aor.*"/>
     </def-cat>
     <def-cat n="verb">
+      <cat-item tags="vblex"/>
+      <cat-item tags="vbser"/>
+      <cat-item tags="vbmod"/>
+      <cat-item tags="vbhaver"/>
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbmod.*"/>
@@ -301,6 +305,7 @@
       <attr-item tags="aor"/>
       <attr-item tags="fti"/>
       <attr-item tags="past"/>
+      <attr-item tags="pres"/>
       <attr-item tags="supn"/>
       <attr-item tags="pp"/>
       <attr-item tags="lp"/>
@@ -637,7 +642,7 @@
 	    <out>
 	      <chunk name="adv" case="caseFirstWord">
 		<tags>
-		  <tag><lit-tag v="VB"/></tag>
+		  <tag><lit-tag v="V"/></tag>
 		</tags>
 		<lu>
 		  <clip pos="1" side="tl" part="lemh"/>
@@ -657,7 +662,7 @@
 	    <out>
 	      <chunk name="adv" case="caseFirstWord">
 		<tags>
-		  <tag><lit-tag v="VB"/></tag>
+		  <tag><lit-tag v="V"/></tag>
 		</tags>
 		<lu>
 		  <clip pos="1" side="tl" part="lemh"/>
@@ -677,7 +682,7 @@
 	    <out>
 	      <chunk name="adv" case="caseFirstWord">
 		<tags>
-		  <tag><lit-tag v="VB"/></tag>
+		  <tag><lit-tag v="V"/></tag>
 		</tags>
 		<lu>
 		  <clip pos="1" side="tl" part="lemh"/>
@@ -691,7 +696,7 @@
 	    <out>
 	      <chunk name="adv" case="caseFirstWord">
 		<tags>
-		  <tag><lit-tag v="VB"/></tag>
+		  <tag><lit-tag v="V"/></tag>
 		</tags>
 		<lu>
 		  <clip pos="1" side="tl" part="lemh"/>
