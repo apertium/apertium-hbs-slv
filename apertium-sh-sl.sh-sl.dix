@@ -10152,8 +10152,9 @@
 
 
     <!-- Razlicna števila -->
-    <e><p><l>oko<s n="n"/><s n="f"/></l><r>oči<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e>
-    <e><p><l>oko<s n="n"/><s n="nt"/></l><r>oči<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e> <!-- oko NT? -->
+    <e><p><l>oko<s n="n"/><s n="f"/><s n="pl"/></l><r>oko<s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="sgpl_pl"/></e>
+    <e><p><l>oko<s n="n"/><s n="nt"/><s n="sg"/></l><r>oko<s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="sgpl_pl"/></e>
+    <e><p><l>oko<s n="n"/><s n="nt"/><s n="sg"/></l><r>oko<s n="n"/><s n="nt"/><s n="du"/></r></p><par n="sgpl_pl"/></e>
     <e><p><l>zločin<s n="n"/><s n="mi"/></l><r>kriminal<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>snijeg<s n="n"/><s n="mi"/></l><r>sneg<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>odmor<s n="n"/><s n="mi"/></l><r>počitnice<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e>

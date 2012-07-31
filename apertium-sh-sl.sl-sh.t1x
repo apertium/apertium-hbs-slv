@@ -415,6 +415,24 @@
 	  </choose>
 	</when>
       </choose>
+      <choose><!--If it's one of the nouns different singular/plural-->
+	<when>
+	  <test><!--If it's oko<nt><sg>/oči<f><pl>-->
+	      <equal><clip pos="1" side="tl" part="lemh"/><lit v="oko"/></equal> 
+	  </test>
+	  <choose>
+	    <when>
+	      <test>
+		<equal><clip pos="1" side="tl" part="nbr"/><lit v="pl"/></equal> 
+	      </test>
+	      <let><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></let>
+	    </when>
+	    <otherwise>
+	      <let><clip pos="1" side="tl" part="gen"/><lit-tag v="nt"/></let>
+	    </otherwise>
+	  </choose>
+	</when>
+      </choose>
     </def-macro>
     
     <def-macro n="m2mima" npar="1">

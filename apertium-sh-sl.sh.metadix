@@ -22975,7 +22975,7 @@
       <e r="LR"><p><l>em</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
       <e><p><l>emu</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>em</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-      <e r="LR"><p><l>emu</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>emu</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
       <e><p><l>eg</l><r><s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
       <e><p><l>ega</l><r><s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
       <e><p><l>i</l><r><s n="ma"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
@@ -40462,6 +40462,11 @@
     <e lm="portugalski"><p><l>najportugals</l><r>portugals</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="portugalski"><p><l>preportugals</l><r>portugals</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
+    <e lm="baskijski"><i>baskijs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="baskijski"><p><l>baskijs</l><r>baskijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="baskijski"><p><l>najbaskijs</l><r>baskijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="baskijski"><p><l>prebaskijs</l><r>baskijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
     <e lm="pregovarački"><i>pregovarač</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="pregovarački"><p><l>pregovarač</l><r>pregovarač</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="pregovarački"><p><l>najpregovarač</l><r>pregovarač</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -45604,6 +45609,7 @@
     <e lm="tovar"><i>tovar</i><par n="program__n"/></e>
     <e lm="zločin"><i>zločin</i><par n="program__n"/></e>
     <e lm="napad"><i>napad</i><par n="program__n"/></e>
+    <e lm="dan"><i>dan</i><par n="program__n"/></e>
     <e lm="as"><i>a</i><par n="a/s__n"/></e>
     <e lm="disk"><i>di</i><par n="di/sk__n"/></e>
     <e lm="grof"><i>grof</i><par n="grof__n"/></e>
