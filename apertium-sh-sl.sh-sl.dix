@@ -447,7 +447,7 @@
     <e><p><l>ničiji<s n="prn"/><s n="neg"/></l><r>od<b/>nobenega<s n="prn"/><s n="neg"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e> 
     <!-- od nobenega => "Ovaj automobil nije ničiji" - "This is nobody's car" - "Ta avtomobil ni od nobenega" OR "Ničiji automobil nije crven" - "Nobody's car is red" - "Od nobenega avtomobil ni rdeč"; -->
     <e><p><l>nitko<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/></l><r>nihče<s n="prn"/><s n="neg"/></r></p></e>
-    <e><p><l>nijedan<s n="adj"/><s n="sp"/></l><r>noben<s n="prn"/><s n="ind"/><s n="neg"/></r></p></e>
+    <e><p><l>nijedan<s n="adj"/></l><r>noben<s n="prn"/><s n="ind"/><s n="neg"/></r></p></e>
 
 
     <!--Adverbs-->
