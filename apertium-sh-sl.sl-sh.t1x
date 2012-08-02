@@ -566,7 +566,30 @@
 
     <def-macro n="prn_adapter" npar="1">
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>      
-      <call-macro n="m2mima"><with-param pos="1"/></call-macro>      
+      <choose>			
+	<when>
+	  <test>
+	    <and>
+	      <not><!--If we're not dealing with unigender stuff-->
+		<equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mfn"/></equal>
+	      </not>
+	      <not><!-- And it's not one of the few prns in sh that have <m> -->
+		<or>
+		  <equal><clip pos="1" side="tl" part="lem"/><lit v="clitic"/></equal>
+		  <equal><clip pos="1" side="tl" part="lem"/><lit v="free"/></equal>
+		</or>
+	      </not>
+	      <not><!-- And it's not already with mi/ma -->
+		<or>
+		  <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mi"/></equal>
+		  <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="ma"/></equal>
+		</or>
+	      </not>
+	    </and>
+	  </test>
+	  <call-macro n="m2mima"><with-param pos="1"/></call-macro>
+	</when>
+      </choose>
     </def-macro>
 
     <def-macro n="adj_adapter" npar="1">

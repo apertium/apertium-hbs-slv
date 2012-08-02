@@ -193,7 +193,7 @@
 
     <pardef n="pl_sgpl">
       <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
-      <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="sg_sgpl">
@@ -234,9 +234,9 @@
     </pardef>
     
     <pardef n="mfn_to_gen">
-      <e><p><l><s n="mfn"/></l><r><s n="m"/></r></p></e>
+      <e r="RL"><p><l><s n="mfn"/></l><r><s n="m"/></r></p></e>
       <e r="RL"><p><l><s n="mfn"/></l><r><s n="f"/></r></p></e>
-      <e r="RL"><p><l><s n="mfn"/></l><r><s n="nt"/></r></p></e>
+      <e><p><l><s n="mfn"/></l><r><s n="nt"/></r></p></e>
     </pardef>
     
     <pardef n="mfnsp_to_gen">
@@ -396,8 +396,10 @@
     <e><p><l>čiji<s n="prn"/><s n="rel"/></l><r>čigar<s n="prn"/><s n="rel"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e>
     <e><p><l>koliki<s n="prn"/><s n="itg"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>koliki<s n="prn"/><s n="rel"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>koliko<s n="prn"/><s n="itg"/></l><r>kolik<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>koliko<s n="prn"/><s n="rel"/></l><r>kolik<s n="prn"/><s n="rel"/></r></p></e>
+    <e><p><l>koliki<s n="prn"/><s n="ind"/></l><r>kolik<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>koliki<s n="prn"/><s n="rel"/></l><r>kolik<s n="prn"/><s n="rel"/></r></p></e>
+    <e r="LR"><p><l>koliko<s n="prn"/><s n="rel"/></l><r>kolik<s n="prn"/><s n="rel"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e r="LR"><p><l>koliko<s n="prn"/><s n="itg"/></l><r>kolik<s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>netko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>nekdo<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>itko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>vsakdo<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
     <e><p><l>bilo<b/>tko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>kdorkoli<s n="prn"/><s n="rel"/></r></p></e>
@@ -444,7 +446,7 @@
     <e><p><l>bilo<b/>kakav<s n="prn"/><s n="ind"/></l><r>kakršenkoli<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>ičiji<s n="prn"/><s n="ind"/></l><r>katerikoli<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>svakakav<s n="prn"/><s n="tot"/></l><r>kakršenkoli<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>sve<s n="prn"/><s n="tot"/></l><r>vse<s n="prn"/><s n="tot"/></r></p><par n="mfn_to_gen"/></e>
+    <e><p><l>sve<s n="prn"/><s n="tot"/></l><r>vse<s n="prn"/><s n="tot"/></r></p><par n="mfn_to_gen"/><par n="pl_sgpl"/></e>
     <e><p><l>ovolik<s n="prn"/><s n="dem"/></l><r>tolik<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>svačiji<s n="prn"/><s n="tot"/></l><r>vsak<s n="prn"/><s n="tot"/></r></p></e>
     
