@@ -565,6 +565,7 @@
       <e r="LR"><p><l>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e><!--these two variants-->
       <e r="LR"><p><l>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e><!--these two variants-->
       <e r="LR"><p><l>nj</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e r="RL"><p><l>na<b/>nj</l><r>na<s n="pr"/><s n="acc"/><j/>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e><!--For sh->sl-->
       <e r="LR"><p><l>nj</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
       <e r="RL"><p><l><a></a>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e><!--this will change to nj after certain prepositions-->
       <e r="RL"><p><l><a></a>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e><!--this will change to nj after certain prepositions-->

@@ -373,6 +373,39 @@
 
   <section-def-macros>
 
+    <def-macro n="pr_adapter" npar="1">
+      <choose>
+	<when> <!-- For the few cases u se, na se, poda se..., when the case is not marked on the preposition in analysis -->
+	  <test>
+	    <and>
+	      <or>
+		<equal><clip pos="1" side="tl" part="lem"/><lit v="za"/></equal> 
+		<equal><clip pos="1" side="tl" part="lem"/><lit v="na"/></equal> 
+		<equal><clip pos="1" side="tl" part="lem"/><lit v="u"/></equal> 
+	      </or>
+	      <not>
+		<or>
+		  <equal><clip pos="1" side="tl" part="cas"/><lit-tag v="acc"/></equal> 
+		  <equal><clip pos="1" side="tl" part="cas"/><lit-tag v="loc"/></equal> 
+		  <equal><clip pos="1" side="tl" part="cas"/><lit-tag v="ins"/></equal> 
+		  <equal><clip pos="1" side="tl" part="cas"/><lit-tag v="gen"/></equal> 
+		</or>
+	      </not>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_prp"/>
+	      <lit-tag v="acc"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>
+      </choose>
+    </def-macro>
+
     <def-macro n="dual_adapter" npar="1">
       <choose>
 	<when>
@@ -427,7 +460,7 @@
       <choose><!--If it's one of the nouns different singular/plural-->
 	<when>
 	  <test><!--If it's oko<nt><sg>/oči<f><pl>-->
-	      <equal><clip pos="1" side="tl" part="lemh"/><lit v="oko"/></equal> 
+	    <equal><clip pos="1" side="tl" part="lemh"/><lit v="oko"/></equal> 
 	  </test>
 	  <choose>
 	    <when>
@@ -625,6 +658,7 @@
 	<pattern-item n="pr"/>
       </pattern>
       <action>
+	<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
 	<out>
 	  <chunk name="prep" case="caseFirstWord">
 	    <tags>

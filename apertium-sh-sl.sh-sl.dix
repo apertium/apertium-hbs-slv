@@ -209,6 +209,12 @@
       <e><p><l><s n="nt"/></l><r><s n="nt"/></r></p></e>
     </pardef>
 
+    <pardef n="pers_identity">
+      <e><p><l><s n="p1"/></l><r><s n="p1"/></r></p></e>
+      <e><p><l><s n="p2"/></l><r><s n="p2"/></r></p></e>
+      <e><p><l><s n="p3"/></l><r><s n="p3"/></r></p></e>
+    </pardef>
+
     <pardef n="num_identity">
       <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
@@ -350,6 +356,10 @@
     <!--Pronouns-->
     <e><p><l>free<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
     <e><p><l>clitic<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+
+    <!--For contractions-->
+    <e><p><l>clitic<s n="prn"/><s n="pers"/><s n="clt"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_identity"/><p><l><s n="mfn"/></l><r><s n="mf"/></r></p></e>
+
 
     <e><p><l>svoj<s n="prn"/><s n="ref"/><s n="pos"/></l><r>svoj<s n="prn"/><s n="ref"/></r></p></e>
     <e><p><l>sav<s n="prn"/><s n="tot"/><s n="ma"/></l><r>ves<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
@@ -15692,7 +15702,8 @@
     <e><p><l>mimo<s n="pr"/></l><r>mimo<s n="pr"/></r></p></e>
     <e><p><l>nad<s n="pr"/></l><r>nad<s n="pr"/></r></p></e>
     <e><p><l>umjesto<s n="pr"/></l><r>namesto<s n="pr"/></r></p></e>
-    <e><p><l>na<b/>njega<s n="pr"/></l><r>nanj<s n="pr"/></r></p></e>
+    <e><p><l>na<s n="pr"/><s n="acc"/><j/>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></l><r>nanj<s n="pr"/><s n="acc"/></r></p></e>
+    <e><p><l>na<s n="pr"/><s n="acc"/><j/>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></l><r>nanj<s n="pr"/><s n="loc"/></r></p></e>
     <e><p><l>oko<s n="pr"/></l><r>naokoli<s n="pr"/></r></p></e>
     <e><p><l>prema<s n="pr"/></l><r>naproti<s n="pr"/></r></p></e>
     <e><p><l>protiv<s n="pr"/></l><r>nasproti<s n="pr"/></r></p></e>
@@ -15719,7 +15730,8 @@
     <e><p><l>pri<s n="pr"/></l><r>pri<s n="pr"/></r></p></e>
     <e><p><l>proti<s n="pr"/></l><r>proti<s n="pr"/></r></p></e>
     <e><p><l>protiv<s n="pr"/></l><r>proti<s n="pr"/></r></p></e>
-    <e><p><l>sa<s n="pr"/></l><r>s<s n="pr"/></r></p></e>
+    <e><p><l>s<s n="pr"/></l><r>s<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>s<s n="pr"/><s n="gen"/></l><r>s<s n="pr"/><s n="acc"/></r></p></e>
     <e><p><l>osim<s n="pr"/></l><r>razen<s n="pr"/></r></p></e>
     <e><p><l>kroz<s n="pr"/></l><r>skozi<s n="pr"/></r></p></e>
     <!--	<e><p><l>kroz<s n="pr"/></l><r>skoz<s n="pr"/></r></p></e> -->	
@@ -15729,7 +15741,6 @@
     <e><p><l>sred<s n="pr"/></l><r>sredi<s n="pr"/></r></p></e>
     
     <!-- When +ed with a prnpers doesn't carry a case-->
-    <!-- Thus this black magic-->
     <e><p><l>u<s n="pr"/></l><r>v<s n="pr"/></r></p></e>
     <e><p><l>za<s n="pr"/></l><r>za<s n="pr"/></r></p></e>
     <e><p><l>na<s n="pr"/></l><r>na<s n="pr"/></r></p></e>  
