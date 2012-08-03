@@ -376,7 +376,13 @@
     <e r="RL"><p><l>taj<s n="prn"/><s n="dem"/></l><r>tale<s n="prn"/><s n="dem"/></r></p></e>
     
     <!--by Krvoje; le + prn--><!--TODO: Check with Aleš-->
-    <e><p><l>samo<s n="adv"/><b/>taj<s n="prn"/><s n="dem"/></l><r>le-ta<s n="prn"/><s n="dem"/></r></p></e>
+    <!--le-takšen -> samo takav <= the adverb is added in transfer-->
+    <e r="RL"><p><l>onaj<s n="prn"/><s n="dem"/></l><r>le-oni<s n="prn"/><s n="dem"/></r></p></e> <!--Krvoje: This is all possibly wrong, but this one's particularly suspicious-->
+    <e r="RL"><p><l>ovaj<s n="prn"/><s n="dem"/></l><r>le-ta<s n="prn"/><s n="dem"/></r></p></e>
+    <e r="RL"><p><l>ovakav<s n="prn"/><s n="dem"/></l><r>le-tak<s n="prn"/><s n="dem"/></r></p></e>
+    <e r="RL"><p><l>takav<s n="prn"/><s n="dem"/></l><r>le-takšen<s n="prn"/><s n="dem"/></r></p></e>
+    <e r="RL"><p><l>onaj<s n="prn"/><s n="dem"/></l><r>le-tisti<s n="prn"/><s n="dem"/></r></p></e>
+
 
     <!-- Added for SH -> SL -->
     <e><p><l>moj<s n="prn"/><s n="pos"/></l><r>moj<s n="prn"/><s n="pos"/></r></p></e>
@@ -431,10 +437,8 @@
     <e><p><l>ovakav<s n="prn"/><s n="dem"/></l><r>tak<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>takav<s n="prn"/><s n="dem"/></l><r>takšen<s n="prn"/><s n="dem"/></r></p></e>
     <e r="RL"><p><l>takav<s n="prn"/><s n="dem"/></l><r>takle<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>samo<s n="adv"/><b/>takav<s n="prn"/><s n="dem"/></l><r>le-takšen<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>tolik<s n="prn"/><s n="dem"/></l><r>tolik<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>onaj<s n="prn"/><s n="dem"/></l><r>tisti<s n="prn"/><s n="dem"/></r></p></e>
-    <e><p><l>samo<s n="adv"/><b/>onaj<s n="prn"/><s n="dem"/></l><r>le-tisti<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>onakav<s n="prn"/><s n="dem"/></l><r>takšen<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>onolik<s n="prn"/><s n="dem"/></l><r>tolikšen<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>nešto<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>nekaj<s n="prn"/><s n="ind"/><s n="sg"/></r></p></e>

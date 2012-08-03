@@ -565,7 +565,29 @@
     </def-macro>
 
     <def-macro n="prn_adapter" npar="1">
-      <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>      
+      <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
+      <choose>
+	<when><!--For the le-tak etc. pronouns-->
+	  <test>
+	  <or>
+	    <equal><clip pos="1" side="tl" part="lem"/><lit v="le-oni"/></equal>
+	    <equal><clip pos="1" side="tl" part="lem"/><lit v="le-ta"/></equal>
+	    <equal><clip pos="1" side="tl" part="lem"/><lit v="le-tak"/></equal>
+	    <equal><clip pos="1" side="tl" part="lem"/><lit v="le-takšen"/></equal>
+	    <equal><clip pos="1" side="tl" part="lem"/><lit v="le-tisti"/></equal>
+	  </or>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <lit v="samo"/>
+	      <lit-tag v="adv"/>
+	      <b/>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </concat>
+	  </let>
+	</when>
+      </choose>
       <choose>			
 	<when>
 	  <test>
