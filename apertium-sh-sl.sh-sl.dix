@@ -76,6 +76,7 @@
     <sdef n="sp" c="Singular / Plural"/>
     <sdef n="ref" c="Reflexive"/>
     <sdef n="pers" c="Personal"/>
+    <sdef n="emph" c="?"/>
     <sdef n="tot" c="Totalising"/>
     <sdef n="num" c="Numeral / Number"/>
     <sdef n="ij" c="Interjection"/>
@@ -201,7 +202,7 @@
       <e r="LR"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
     </pardef>
     
-    <pardef n="gen_identity">
+    <pardef n="gen_id">
       <e><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
       <e><p><l><s n="ma"/></l><r><s n="ma"/></r></p></e>
       <e><p><l><s n="mi"/></l><r><s n="mi"/></r></p></e>
@@ -209,20 +210,37 @@
       <e><p><l><s n="nt"/></l><r><s n="nt"/></r></p></e>
     </pardef>
 
-    <pardef n="pers_identity">
+    <pardef n="null2gen">
+      <e><p><l></l><r><s n="m"/></r></p></e>
+      <e><p><l></l><r><s n="ma"/></r></p></e>
+      <e><p><l></l><r><s n="mi"/></r></p></e>
+      <e><p><l></l><r><s n="f"/></r></p></e>
+      <e><p><l></l><r><s n="nt"/></r></p></e>
+    </pardef>
+
+    <pardef n="pers_id">
       <e><p><l><s n="p1"/></l><r><s n="p1"/></r></p></e>
       <e><p><l><s n="p2"/></l><r><s n="p2"/></r></p></e>
       <e><p><l><s n="p3"/></l><r><s n="p3"/></r></p></e>
     </pardef>
 
-    <pardef n="num_identity">
+    <pardef n="num_id">
       <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
       <e r="RL"><p><l><s n="pl"/></l><r><s n="du"/></r></p></e><!--Not quite, but handled in transfer-->
     </pardef>
 
+    <pardef n="null2num">
+      <e><p><l></l><r><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="du"/></r></p></e>
+    </pardef>
+
     <pardef n="def2null">
       <e><p><l><s n="def"/></l><r></r></p></e>
+    </pardef>
+    <pardef n="ind2null">
+      <e><p><l><s n="ind"/></l><r></r></p></e>
     </pardef>
 
     <pardef n="gen_nogen">
@@ -277,7 +295,7 @@
       <e r="RL"><p><l><s n="GD"/></l><r></r></p></e><!-- Spectie check please -->
     </pardef>
 
-    <pardef n="cas_identity">
+    <pardef n="cas_id">
       <e><i><s n="nom"/></i></e>
       <e><i><s n="gen"/></i></e>
       <e><i><s n="dat"/></i></e>
@@ -285,6 +303,15 @@
       <e><i><s n="voc"/></i></e>
       <e><i><s n="loc"/></i></e>
       <e><i><s n="ins"/></i></e>
+    </pardef>
+
+    <pardef n="null2cas">
+      <e><p><l/><r><s n="nom"/></r></p></e>
+      <e><p><l/><r><s n="gen"/></r></p></e>
+      <e><p><l/><r><s n="dat"/></r></p></e>
+      <e><p><l/><r><s n="acc"/></r></p></e>
+      <e><p><l/><r><s n="loc"/></r></p></e>
+      <e><p><l/><r><s n="ins"/></r></p></e>
     </pardef>
     
     <pardef n="cas_nocas">
@@ -354,24 +381,28 @@
   <section id="main" type="standard">
 
     <!--Pronouns-->
-    <e><p><l>free<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
-    <e><p><l>clitic<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_id"/></e>
+    <e><p><l>free<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/><s n="emph"/></r></p><par n="pers_id"/></e>
 
     <!--For contractions-->
-    <e><p><l>clitic<s n="prn"/><s n="pers"/><s n="clt"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_identity"/><p><l><s n="mfn"/></l><r><s n="mf"/></r></p></e>
+    <e><p><l>clitic<s n="prn"/><s n="pers"/><s n="clt"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_id"/><p><l><s n="mfn"/></l><r><s n="mf"/></r></p></e>
 
 
     <e><p><l>svoj<s n="prn"/><s n="ref"/><s n="pos"/></l><r>svoj<s n="prn"/><s n="ref"/></r></p></e>
-    <e><p><l>sav<s n="prn"/><s n="tot"/><s n="ma"/></l><r>ves<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
-    <e><p><l>sve<s n="prn"/><s n="tot"/><s n="ma"/></l><r>vse<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e><p><l>sav<s n="prn"/><s n="tot"/></l><r>ves<s n="prn"/><s n="ind"/></r></p></e><!--TODO: Check-->
+    <e r="RL"><p><l>sav<s n="prn"/><s n="tot"/></l><r>vse<s n="prn"/><s n="ind"/></r></p></e><!--TODO: Check-->
+    <e><p><l>sav<s n="prn"/><s n="tot"/></l><r>vse<s n="prn"/><s n="tot"/></r></p></e><!--TODO: Check-->
+    <e><p><l>sve<s n="prn"/><s n="tot"/><s n="mfn"/></l><r>vse<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e><!--TODO: Check-->
+    <e r="RL"><p><l>sve<s n="prn"/><s n="tot"/><s n="mfn"/></l><r>vse<s n="prn"/><s n="tot"/><s n="nt"/></r></p></e><!--TODO: Check-->
     <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>njen<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
 
-    <e><p><l>oba<s n="num"/></l><r>oba<s n="prn"/><s n="ind"/></r></p><par n="gen_identity"/><p><l></l><r><s n="du"/></r></p><par n="cas_identity"/></e>
+    <e><p><l>oba<s n="num"/></l><r>oba<s n="prn"/><s n="ind"/></r></p><par n="gen_id"/><p><l></l><r><s n="du"/></r></p><par n="cas_id"/></e>
 
     <!-- Matches of tags -->
     <e><p><l>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/></l><r>se<s n="prn"/><s n="ref"/><s n="mf"/></r></p></e>
     <e><p><l>njegov<s n="prn"/><s n="pos"/></l><r>njegov<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
     <e><p><l>njihov<s n="prn"/><s n="pos"/></l><r>njihov<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
+    <e r="RL"><p><l>njihov<s n="prn"/><s n="pos"/></l><r>njun<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
     <e><p><l>taj<s n="prn"/><s n="dem"/></l><r>ta<s n="prn"/><s n="dem"/></r></p></e>
     <e r="RL"><p><l>taj<s n="prn"/><s n="dem"/></l><r>tale<s n="prn"/><s n="dem"/></r></p></e>
     
@@ -389,7 +420,9 @@
     <e><p><l>tvoj<s n="prn"/><s n="pos"/></l><r>tvoj<s n="prn"/><s n="pos"/><s n="p2"/></r></p></e>
     <e><p><l>njen<s n="prn"/><s n="pos"/></l><r>njen<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
     <e><p><l>naš<s n="prn"/><s n="pos"/></l><r>naš<s n="prn"/><s n="pos"/><s n="p1"/></r></p></e>
+    <e r="RL"><p><l>naš<s n="prn"/><s n="pos"/></l><r>najin<s n="prn"/><s n="pos"/><s n="p1"/></r></p></e>
     <e><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vaš<s n="prn"/><s n="pos"/><s n="p2"/></r></p></e>
+    <e r="RL"><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vajin<s n="prn"/><s n="pos"/><s n="p2"/></r></p></e>
     <e><p><l>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/></l><r>kdo<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>tko<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/></l><r>kdor<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>što<s n="prn"/><s n="itg"/><s n="mfn"/></l><r>kaj<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>
@@ -397,15 +430,19 @@
     <e><p><l>koji<s n="prn"/><s n="itg"/></l><r>kateri<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>koji<s n="prn"/><s n="rel"/></l><r>kateri<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>kakav<s n="prn"/><s n="itg"/></l><r>kakšen<s n="prn"/><s n="itg"/></r></p></e>
-    <e><p><l>kakav<s n="prn"/><s n="rel"/></l><r>kakršen<s n="prn"/><s n="rel"/></r></p></e>
+    <e r="RL"><p><l>kakav<s n="prn"/><s n="rel"/></l><r>kakršen<s n="prn"/><s n="rel"/></r></p></e>
+    <e r="RL"><p><l>kakav<s n="prn"/><s n="itg"/></l><r>kak<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>čiji<s n="prn"/><s n="itg"/></l><r>čigav<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>čiji<s n="prn"/><s n="rel"/></l><r>čigar<s n="prn"/><s n="rel"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e>
+    <e><p><l>jedan<s n="num"/></l><r>en<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>koliki<s n="prn"/><s n="itg"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>koliki<s n="prn"/><s n="rel"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>koliki<s n="prn"/><s n="ind"/></l><r>kolik<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>koliki<s n="prn"/><s n="rel"/></l><r>kolik<s n="prn"/><s n="rel"/></r></p></e>
-    <e r="LR"><p><l>koliko<s n="prn"/><s n="rel"/></l><r>kolik<s n="prn"/><s n="rel"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e r="LR"><p><l>koliko<s n="prn"/><s n="itg"/></l><r>kolik<s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>koliko<s n="prn"/><s n="itg"/></l><r>koliko<s n="prn"/><s n="itg"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e r="LR"><p><l>koliko<s n="prn"/><s n="rel"/></l><r>koliko<s n="prn"/><s n="itg"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>koliko<s n="cnjcoo"/></l><r>kolikor<s n="prn"/><s n="rel"/></r></p></e>
+    <e r="LR"><p><l>koliko<b/>god<s n="adv"/></l><r>kolikor<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>netko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>nekdo<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>itko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>vsakdo<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
     <e><p><l>bilo<b/>tko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>kdorkoli<s n="prn"/><s n="rel"/></r></p></e>
@@ -419,6 +456,7 @@
     <e><p><l>pokoji<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>neki<s n="prn"/><s n="ind"/></l><r>nek<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>poneki<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
+    <e r="RL"><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>nekak<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>nekakšen<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>kojekakav<s n="prn"/><s n="ind"/></l><r>nekakšen<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>ponečiji<s n="prn"/><s n="ind"/></l><r>nekateri<s n="prn"/><s n="ind"/></r></p></e>
@@ -450,9 +488,9 @@
     <e><p><l>bilo<b/>kakav<s n="prn"/><s n="ind"/></l><r>kakršenkoli<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>ičiji<s n="prn"/><s n="ind"/></l><r>katerikoli<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>svakakav<s n="prn"/><s n="tot"/></l><r>kakršenkoli<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>sve<s n="prn"/><s n="tot"/></l><r>vse<s n="prn"/><s n="tot"/></r></p><par n="mfn_to_gen"/><par n="pl_sgpl"/></e>
     <e><p><l>ovolik<s n="prn"/><s n="dem"/></l><r>tolik<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>svačiji<s n="prn"/><s n="tot"/></l><r>vsak<s n="prn"/><s n="tot"/></r></p></e>
+    <e><p><l>drugačiji<s n="adj"/><s n="pst"/></l><r>drugačen<s n="prn"/><s n="ind"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
     
     <!-- Transfer rule needed for these entries -->
     <e><p><l>gdjekoji<s n="prn"/><s n="ind"/></l><r>katerikoli<s n="prn"/><s n="ind"/></r></p></e>
@@ -1025,7 +1063,7 @@
     <e><p><l>kliziti<s n="adv"/></l><r>drseč<s n="adv"/></r></p></e>
     <e><p><l>kliziti<s n="adv"/></l><r>drse<s n="adv"/></r></p></e>
     <e><p><l>inače<s n="adv"/></l><r>drugače<s n="adv"/></r></p></e>
-    <e><p><l>drukčiji<s n="adv"/></l><r>drugačno<s n="adv"/></r></p></e>
+    <e><p><l>drukčije<s n="adv"/></l><r>drugačno<s n="adv"/></r></p></e>
     <e><p><l>drugdje<s n="adv"/></l><r>drugam<s n="adv"/></r></p></e>
     <e><p><l>drugi put<s n="adv"/></l><r>drugič<s n="adv"/></r></p></e>
     <e><p><l>drugdje<s n="adv"/></l><r>drugje<s n="adv"/></r></p></e>
@@ -11556,7 +11594,7 @@
     <e><p><l>plesačica<s n="n"/><s n="f"/></l><r>plesalka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ćela<s n="n"/><s n="f"/></l><r>pleša<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>plima<s n="n"/><s n="f"/></l><r>plima<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>upala<s n="n"/><s n="f"/></l><r>pljučnica<s n="n"/><s n="f"/></r></p><par n="num_identity"/><par n="cas_identity"/><p><l><g><b/>pluća</g></l><r></r></p></e>
+    <e><p><l>upala<s n="n"/><s n="f"/></l><r>pljučnica<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><p><l><g><b/>pluća</g></l><r></r></p></e>
     <e><p><l>lim<s n="n"/><s n="mi"/></l><r>pločevina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pleh<s n="n"/><s n="mi"/></l><r>pločevina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>limenka<s n="n"/><s n="f"/></l><r>pločevinka<s n="n"/><s n="f"/></r></p></e>
@@ -12128,8 +12166,8 @@
     <e><p><l>lopta<s n="n"/><s n="f"/></l><r>žoga<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>akrobacija<s n="n"/><s n="f"/></l><r>akrobatika<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>alkemija<s n="n"/><s n="f"/></l><r>alkimija<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>engleski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>angleščina<s n="n"/><s n="f"/></r></p><par n="num_identity"/><par n="cas_identity"/><par n="def2null"/></e>
-    <e><p><l>baskijski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>baskovščina<s n="n"/><s n="f"/></r></p><par n="num_identity"/><par n="cas_identity"/><par n="def2null"/></e>
+    <e><p><l>engleski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>angleščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
+    <e><p><l>baskijski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>baskovščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
     <e><p><l>berba<s n="n"/><s n="f"/></l><r>bera<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>bura<s n="n"/><s n="f"/></l><r>burja<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>iznutrice<s n="n"/><s n="f"/></l><r>drobovina<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e>
@@ -12868,7 +12906,7 @@
     <e><p><l>nafta<s n="n"/><s n="f"/></l><r>nafta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>krama<s n="n"/><s n="f"/></l><r>navlaka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nevjera<s n="n"/><s n="f"/></l><r>nevera<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>portugalski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>portugalščina<s n="n"/><s n="f"/></r></p><par n="num_identity"/><par n="cas_identity"/><par n="def2null"/></e>
+    <e><p><l>portugalski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>portugalščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
     <e><p><l>publicitet<s n="n"/><s n="mi"/></l><r>publiciteta<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>vlaga<s n="n"/><s n="f"/></l><r>vlaga<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>povrće<s n="n"/><s n="nt"/></l><r>zelenjava<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
@@ -12938,7 +12976,7 @@
     <e><p><l>narav<s n="n"/><s n="f"/></l><r>nrav<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>seks<s n="n"/><s n="mi"/></l><r>seks<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>grof<s n="n"/><s n="ma"/></l><r>grof<s n="n"/><s n="ma"/></r></p></e>
-    <e><p><l>bližnji<s n="adj"/><s n="pst"/><s n="ma"/></l><r>sočlovek<s n="n"/><s n="ma"/></r></p><par n="num_identity"/><par n="cas_identity"/><par n="def2null"/></e>
+    <e><p><l>bližnji<s n="adj"/><s n="pst"/><s n="ma"/></l><r>sočlovek<s n="n"/><s n="ma"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
     <e><p><l>seljak<s n="n"/><s n="ma"/></l><r>kmet<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>poljoprivrednik<s n="n"/><s n="ma"/></l><r>kmet<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>tlo<s n="n"/><s n="nt"/></l><r>tla<s n="n"/><s n="nt"/></r></p><par n="sgpl_pl"/></e>
@@ -16075,7 +16113,9 @@
     <e><p><l>jak<s n="adj"/></l><r>zelo<s n="adv"/><s n="sint"/></r></p></e>
 
     <!-- Adjective to Pronoun -> rule added -->
-    <e><p><l>drugi<s n="adj"/><s n="pst"/></l><r>drug<s n="prn"/><s n="ind"/></r></p><par n="gen_identity"/><par n="num_identity"/><par n="cas_identity"/><par n="def2null"/></e>
+    <e><p><l>drugi<s n="adj"/><s n="pst"/></l><r>drug<s n="prn"/><s n="ind"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
+    <e><p><l>jednak<s n="adj"/><s n="pst"/></l><r>enak<s n="prn"/><s n="ind"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/><par n="ind2null"/></e>
+    <e><p><l>isti<s n="adj"/><s n="pst"/></l><r>isti<s n="prn"/><s n="ind"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/><par n="ind2null"/></e>
 
     
     <!-- Particles -->
@@ -16087,10 +16127,7 @@
     <e><p><l>barem<s n="adv"/></l><r>vsaj<s n="part"/></r></p></e>
     <e><p><l>uopće<s n="adv"/></l><r>sploh<s n="part"/></r></p></e>
     <e><p><l>navodno<s n="adv"/></l><r>baje<s n="part"/></r></p></e>
-    
-
-
-    
+        
     <e><p><l>da<s n="part"/></l><r>da<s n="part"/></r></p></e>
     <e><p><l>evo<s n="part"/></l><r>evo<s n="part"/></r></p></e>
     <e><p><l>da</l><r>da</r></p></e>
@@ -16432,7 +16469,7 @@
     <e><p><l>odakle<s n="adv"/></l><r>od<b/>kod<s n="cnjcoo"/></r></p></e>
     <e><p><l>dokle<s n="adv"/></l><r>do<b/>kod<s n="cnjcoo"/></r></p></e>
     <e><p><l>ikud<s n="adv"/></l><r>kam<s n="cnjcoo"/></r></p></e>
-    <e><p><l>ukoliko<s n="adv"/></l><r>koliko<s n="cnjcoo"/></r></p></e>
+    <e><p><l>koliko<s n="prn"/><s n="rel"/></l><r>koliko<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>zakaj<s n="prn"/><s n="itg"/></r></p></e>
 

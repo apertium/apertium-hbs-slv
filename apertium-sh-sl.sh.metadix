@@ -35652,6 +35652,11 @@
 
     <e lm="crvenokos"><i>crvenokos</i><par n="zdrav__pst__adj"/></e>
 
+    <e lm="jednak"><i>jednak</i><par n="zdrav__pst__adj"/></e>
+    <e lm="jednak"><i>jednak</i><par n="zdrav__comp__adj"/></e>
+    <e lm="jednak"><p><l>najjednak</l><r>jednak</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="jednak"><p><l>prejednak</l><r>jednak</r></p><par n="zdrav__ssup__adj"/></e>
+
     <e lm="zdepast"><i>zdepast</i><par n="zdrav__pst__adj"/></e>
     <e lm="zdepast"><i>zdepast</i><par n="zdrav__comp__adj"/></e>
     <e lm="zdepast"><p><l>najzdepast</l><r>zdepast</r></p><par n="zdrav__sup__adj"/></e>
@@ -39511,6 +39516,9 @@
     <e lm="jedini"><i>jedin</i><par n="garantn/i__adj"/></e>
     <e lm="ostali"><i>ostal</i><par n="garantn/i__adj"/></e>
     <e lm="prošli"><i>prošl</i><par n="garantn/i__adj"/></e>
+
+    <e r="LR" lm="drugačiji"><i>drugačij</i><par n="odlučujuć/i__adj"/></e>
+    <e lm="drugačiji"><p><l>drukčij</l><r>drugačij</r></p><par n="odlučujuć/i__adj"/></e>
 
     <e lm="godišnji"><i>godišnj</i><par n="odlučujuć/i__adj"/></e>
     <e lm="sutrašnji"><i>sutrašnj</i><par n="odlučujuć/i__adj"/></e>
