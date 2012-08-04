@@ -632,6 +632,7 @@
       <e><p><l>kime</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
     </pardef>
     <pardef n="tko__rel__prn">
+      <e><p><l>tko</l><r>tko<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
       <e><p><l>koga</l><r>tko<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
       <e><p><l>koga</l><r>tko<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
       <e r="LR"><p><l>komu</l><r>tko<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>

@@ -286,6 +286,7 @@
       <attr-item tags="prn.dem"/>
       <attr-item tags="prn.enc"/>
       <attr-item tags="prn.itg"/>
+      <attr-item tags="prn.emph"/>
       <attr-item tags="prn.ref.pers"/>
     </def-attr>
 
@@ -568,6 +569,50 @@
     <def-macro n="prn_adapter" npar="1">
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
       <choose>
+	<when>
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.emph"/></equal>
+	      <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="mfn"/></equal>
+	    </and>	    
+	  </test>
+	  <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+	</when>
+      </choose>
+      <choose>
+	<when><!--Personal pronouns-->
+	  <test>
+	    <equal><clip pos="1" side="sl" part="lem"/><lit v="prpers"/></equal>
+	  </test>
+	  <choose>
+	    <when><!--For personal pronouns dual, they are mfn plural-->
+	      <test><!-- TODO: Possibly translate dual as compound pronominal phrases "midva" => "nas dvojica" etc. -->
+		<equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="du"/></equal>
+	      </test>
+	      <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mfn"/></let>
+	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+	    </when>
+	    <when><!--The p1 & p2 is always mfn in sh-->
+	      <test>
+		<or>
+		  <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
+		  <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p2"/></equal>
+		</or>
+	      </test>
+	      <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mfn"/></let>
+	    </when>
+	    <when><!--The p3 pl mfn, save in nominative-->
+	      <test>
+		<and>
+		  <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>
+		  <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+		  <not><equal><clip pos="1" side="sl" part="cas"/><lit-tag v="nom"/></equal></not>
+		</and>
+	      </test>
+	      <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mfn"/></let>
+	    </when>
+	  </choose>
+	</when>
 	<when><!--For the le-tak etc. pronouns-->
 	  <test>
 	  <or>
