@@ -286,6 +286,7 @@
       <attr-item tags="prn.dem"/>
       <attr-item tags="prn.enc"/>
       <attr-item tags="prn.itg"/>
+      <attr-item tags="prn.ref.pers"/>
     </def-attr>
 
     <def-attr n="gen">
@@ -585,6 +586,15 @@
 	      <b/>
 	      <clip pos="1" side="tl" part="whole"/>
 	    </concat>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.ref.pers"/></equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="cas"/>
+	    <lit-tag v="acc"/>
 	  </let>
 	</when>
       </choose>

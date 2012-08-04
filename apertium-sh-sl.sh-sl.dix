@@ -436,16 +436,17 @@
     <e><p><l>čiji<s n="prn"/><s n="rel"/></l><r>čigar<s n="prn"/><s n="rel"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e>
     <e><p><l>jedan<s n="num"/></l><r>en<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>koliki<s n="prn"/><s n="itg"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>koliki<s n="prn"/><s n="rel"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
+    <e r="LR"><p><l>koliki<s n="prn"/><s n="rel"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>koliki<s n="prn"/><s n="ind"/></l><r>kolik<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>koliki<s n="prn"/><s n="rel"/></l><r>kolik<s n="prn"/><s n="rel"/></r></p></e>
-    <e><p><l>koliko<s n="prn"/><s n="itg"/></l><r>koliko<s n="prn"/><s n="itg"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
-    <e r="LR"><p><l>koliko<s n="prn"/><s n="rel"/></l><r>koliko<s n="prn"/><s n="itg"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>koliko<s n="prn"/><s n="itg"/></l><r>koliko<s n="prn"/><s n="itg"/></r></p><par n="null2num"/><par n="null2cas"/></e>
+    <e r="LR"><p><l>koliko<s n="prn"/><s n="rel"/></l><r>koliko<s n="prn"/><s n="itg"/></r></p><par n="null2num"/><par n="null2cas"/></e>
     <e><p><l>koliko<s n="cnjcoo"/></l><r>kolikor<s n="prn"/><s n="rel"/></r></p></e>
     <e r="LR"><p><l>koliko<b/>god<s n="adv"/></l><r>kolikor<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>netko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>nekdo<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>itko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>vsakdo<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
     <e><p><l>bilo<b/>tko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>kdorkoli<s n="prn"/><s n="rel"/></r></p></e>
+    <e><p><l>mnogo<b/>tko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>kdorkoli<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>ponešto<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>nekaj<s n="prn"/><s n="ind"/><s n="sg"/></r></p></e>
     <e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/><s n="mfn"/></l><r>karkoli<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
     <e><p><l>išta<s n="prn"/><s n="ind"/><s n="mfn"/></l><r>kaj<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>

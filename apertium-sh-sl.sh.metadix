@@ -848,7 +848,7 @@
 	<e><p><l>šta</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
       </group>
       <e><p><l>čega</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>čemu</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+      <e><p><l>čemu</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
       <e><p><l>čemu</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>čem</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>čim</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
@@ -874,7 +874,7 @@
 	<e><p><l>šta</l><r>što<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
       </group>
       <e><p><l>čega</l><r>što<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>čemu</l><r>što<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+      <e><p><l>čemu</l><r>što<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
       <e><p><l>čemu</l><r>što<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>čem</l><r>što<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>čim</l><r>što<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
@@ -900,7 +900,7 @@
 	<e><p><l>šta</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
       </group>
       <e><p><l>čega</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>čemu</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+      <e><p><l>čemu</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
       <e><p><l>čemu</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>čem</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>čim</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
@@ -926,7 +926,7 @@
 	<e><p><l>šta</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
       </group>
       <e><p><l>čega</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>čemu</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+      <e><p><l>čemu</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
       <e><p><l>čemu</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>čem</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>čim</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
@@ -954,7 +954,7 @@
         <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
       </group>
       <e><p><l>čega</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>čemu</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+      <e><p><l>čemu</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
       <e><p><l>čemu</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>čem</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>čim</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
@@ -982,7 +982,7 @@
         <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
       </group>
       <e><p><l>čega</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>čemu</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+      <e><p><l>čemu</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
       <e><p><l>čemu</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>čem</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>čim</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
@@ -5076,6 +5076,8 @@
       <e><i>ne</i><par n="ne/tko__ind__prn"/></e>
       <e><i>i</i><par n="ne/tko__ind__prn"/></e>
       <e><i>bilo<b/></i><par n="ne/tko__ind__prn"/></e>
+
+      <e><i>mnogo<b/></i><par n="ne/tko__ind__prn"/></e>
 
       <e><i>ne</i><par n="ne/što__ind__prn"/></e>
       <e><i>pone</i><par n="ne/što__ind__prn"/></e>
