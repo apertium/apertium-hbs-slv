@@ -8373,6 +8373,44 @@
     <e r="LR"><p><l>diskutirati<s n="vblex"/><s n="perf"/></l><r>razpravljati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms_to_iv"/></e>
     <e><p><l>prezentovati<s n="vblex"/><s n="perf"/></l><r>predstaviti<s n="vblex"/><s n="perf"/></r></p><par n="allforms_to_tv"/></e>
     <e r="LR"><p><l>prezentovati<s n="vblex"/><s n="imperf"/></l><r>predstaviti<s n="vblex"/><s n="perf"/></r></p><par n="allforms_to_tv"/></e>
+
+	<!-- REF to tv/iv (TO DO: properly tag REF on SL side (now ref is tagged as TV) and fix these entries) -->
+	<e><p><l>zadržati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>zadržati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>naklanjati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>nagibati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>nagledati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>nagledati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>izjašnjavati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>izjasniti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>pričinjavati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>zamisliti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>pojaviti<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>pojaviti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>izjasniti<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>izjasniti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>sastojati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>sestaviti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>osmjeljivati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>opogumiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>opredijeliti<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>opredeliti<s n="vblex"/><s n="perf"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>sastati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>sestati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>odreći<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>odrekati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>odricati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>odrekati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>raspasti<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>razpasti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+	<e><p><l>spasavati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>rešiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>izvinjavati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>odpustiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>boriti<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>boriti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="iv"/></r></p></e>
+	<e><p><l>dogoditi<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>zgoditi<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>ogledavati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>ogledovati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>nadmetati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>tekmovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+	<e><p><l>opredjeljivati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>opredeljevati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>bližiti<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>približevati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>samozaštititi<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>zaščititi<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>samozaštitjeti<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>zaščititi<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>pobratimiti<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>pobratiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>protiviti<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>protestirati<s n="vblex"/><s n="perf"/><s n="imperf"/><s n="iv"/></r></p></e>
+	<e><p><l>svađati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>kregati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>nadati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>upati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+	<e><p><l>penjati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>plezati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+	<e><p><l>događati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>dogajati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="iv"/></r></p></e>
+	<e><p><l>osvrtati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>ozirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>ispričavati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>odpuščati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>pojavljivati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>pojavljati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="iv"/></r></p></e>
+	<e><p><l>zbivati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>dogajati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="iv"/></r></p></e>
+	<e><p><l>pokajati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>kesati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>oporavljati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>popravljati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     
 
 
