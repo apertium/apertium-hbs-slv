@@ -13294,6 +13294,46 @@
     <e><p><l>Marica<s n="np"/><s n="ant"/></l><r>Marija<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Pavao<s n="np"/><s n="ant"/></l><r>Pavel<s n="np"/><s n="ant"/></r></p></e>
 
+    <!-- Toponyms -->
+    <e><p><l>Lucija<s n="np"/><s n="ant"/></l><r>Lucija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Viktorija<s n="np"/><s n="top"/></l><r>Viktorija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Polinezija<s n="np"/><s n="top"/></l><r>Polinezija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Idrija<s n="np"/><s n="top"/></l><r>Idrija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Mandžurija<s n="np"/><s n="top"/></l><r>Mandžurija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rezija<s n="np"/><s n="top"/></l><r>Rezija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Italija<s n="np"/><s n="top"/></l><r>Italija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Albanija<s n="np"/><s n="top"/></l><r>Albanija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Andaluzija<s n="np"/><s n="top"/></l><r>Andaluzija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Australija<s n="np"/><s n="top"/></l><r>Australija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Austrija<s n="np"/><s n="top"/></l><r>Austrija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Azija<s n="np"/><s n="top"/></l><r>Azija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Belgija<s n="np"/><s n="top"/></l><r>Belgija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Brazilija<s n="np"/><s n="top"/></l><r>Brazilija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Britanija<s n="np"/><s n="top"/></l><r>Britanija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Dalmacija<s n="np"/><s n="top"/></l><r>Dalmacija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Estonija<s n="np"/><s n="top"/></l><r>Estonija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Euroazija<s n="np"/><s n="top"/></l><r>Euroazija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Francija<s n="np"/><s n="top"/></l><r>Francija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Galicija<s n="np"/><s n="top"/></l><r>Galicija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Indija<s n="np"/><s n="top"/></l><r>Indija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Jugoslavija<s n="np"/><s n="top"/></l><r>Jugoslavija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Kalabrija<s n="np"/><s n="top"/></l><r>Kalabrija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Kaledonija<s n="np"/><s n="top"/></l><r>Kaledonija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Katalonija<s n="np"/><s n="top"/></l><r>Katalonija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Libija<s n="np"/><s n="top"/></l><r>Libija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Lombardija<s n="np"/><s n="top"/></l><r>Lombardija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Makedonija<s n="np"/><s n="top"/></l><r>Makedonija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Mongolija<s n="np"/><s n="top"/></l><r>Mongolija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Normandija<s n="np"/><s n="top"/></l><r>Normandija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Oceanija<s n="np"/><s n="top"/></l><r>Oceanija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Perzija<s n="np"/><s n="top"/></l><r>Perzija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rusija<s n="np"/><s n="top"/></l><r>Rusija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Sardinija<s n="np"/><s n="top"/></l><r>Sardinija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Skandinavija<s n="np"/><s n="top"/></l><r>Skandinavija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Slovenija<s n="np"/><s n="top"/></l><r>Slovenija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Srbija<s n="np"/><s n="top"/></l><r>Srbija<s n="np"/><s n="top"/></r></p></e>
+
+
     <!-- Cognames -->
     <e><p><l>Acevski<s n="np"/><s n="cog"/></l><r>Acevski<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Ajanovski<s n="np"/><s n="cog"/></l><r>Ajanovski<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>

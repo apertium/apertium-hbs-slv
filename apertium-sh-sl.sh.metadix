@@ -28653,6 +28653,7 @@
       <e><p><l>ić</l><r>ić<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ića</l><r>ić<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>iću</l><r>ić<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ića</l><r>ić<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>iću</l><r>ić<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>ić</l><r>ić<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
       <e><p><l>iću</l><r>ić<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
@@ -29582,6 +29583,7 @@
       <e><i>devetero</i><par n="numeros_sin_inflexion"/></e>
       <e><i>desetoro</i><par n="numeros_sin_inflexion"/></e>
 
+      <e><i>dva</i><par n="numeros_sin_inflexion"/></e>
       <e><i>tri</i><par n="numeros_sin_inflexion"/></e>
       <e><i>tri</i><par n="numeros_con_inflexion"/></e>
       <e><i>četiri</i><par n="numeros_sin_inflexion"/></e>
@@ -48532,6 +48534,42 @@
     <e lm="Španjolska"><i>Španjol</i><par n="Hrvat/ska__np"/></e>
     <e lm="Španija"><i>Špan</i><par n="Srb/ija__np"/></e>
     <e lm="Srbija"><i>Srb</i><par n="Srb/ija__np"/></e>
+    <e lm="Viktorija"><i>Viktor</i><par n="Srb/ija__np"/></e>
+    <e lm="Polinezija"><i>Polinez</i><par n="Srb/ija__np"/></e>
+    <e lm="Idrija"><i>Idr</i><par n="Srb/ija__np"/></e>
+    <e lm="Mandžurija"><i>Mandžur</i><par n="Srb/ija__np"/></e>
+    <e lm="Rezija"><i>Rez</i><par n="Srb/ija__np"/></e>
+    <e lm="Italija"><i>Ital</i><par n="Srb/ija__np"/></e>
+    <e lm="Albanija"><i>Alban</i><par n="Srb/ija__np"/></e>
+    <e lm="Andaluzija"><i>Andaluz</i><par n="Srb/ija__np"/></e>
+    <e lm="Australija"><i>Austral</i><par n="Srb/ija__np"/></e>
+    <e lm="Austrija"><i>Austr</i><par n="Srb/ija__np"/></e>
+    <e lm="Azija"><i>Az</i><par n="Srb/ija__np"/></e>
+    <e lm="Belgija"><i>Belg</i><par n="Srb/ija__np"/></e>
+    <e lm="Brazilija"><i>Brazil</i><par n="Srb/ija__np"/></e>
+    <e lm="Britanija"><i>Britan</i><par n="Srb/ija__np"/></e>
+    <e lm="Dalmacija"><i>Dalmac</i><par n="Srb/ija__np"/></e>
+    <e lm="Estonija"><i>Eston</i><par n="Srb/ija__np"/></e>
+    <e lm="Euroazija"><i>Euroaz</i><par n="Srb/ija__np"/></e>
+    <e lm="Francija"><i>Franc</i><par n="Srb/ija__np"/></e>
+    <e lm="Galicija"><i>Galic</i><par n="Srb/ija__np"/></e>
+    <e lm="Indija"><i>Ind</i><par n="Srb/ija__np"/></e>
+    <e lm="Jugoslavija"><i>Jugoslav</i><par n="Srb/ija__np"/></e>
+    <e lm="Kalabrija"><i>Kalabr</i><par n="Srb/ija__np"/></e>
+    <e lm="Kaledonija"><i>Kaledon</i><par n="Srb/ija__np"/></e>
+    <e lm="Katalonija"><i>Katalon</i><par n="Srb/ija__np"/></e>
+    <e lm="Libija"><i>Lib</i><par n="Srb/ija__np"/></e>
+    <e lm="Lombardija"><i>Lombard</i><par n="Srb/ija__np"/></e>
+    <e lm="Makedonija"><i>Makedon</i><par n="Srb/ija__np"/></e>
+    <e lm="Mongolija"><i>Mongol</i><par n="Srb/ija__np"/></e>
+    <e lm="Normandija"><i>Normand</i><par n="Srb/ija__np"/></e>
+    <e lm="Oceanija"><i>Ocean</i><par n="Srb/ija__np"/></e>
+    <e lm="Perzija"><i>Perz</i><par n="Srb/ija__np"/></e>
+    <e lm="Rusija"><i>Rus</i><par n="Srb/ija__np"/></e>
+    <e lm="Sardinija"><i>Sardin</i><par n="Srb/ija__np"/></e>
+    <e lm="Skandinavija"><i>Skandinav</i><par n="Srb/ija__np"/></e>
+    <e lm="Slovenija"><i>Sloven</i><par n="Srb/ija__np"/></e>
+    <e lm="Srbija"><i>Srb</i><par n="Srb/ija__np"/></e>
     <e lm="Rumunija"><i>Rumun</i><par n="Srb/ija__np"/></e>
     <e lm="Bosna"><i>Bosn</i><par n="Bosn/a__np"/></e>
     <e lm="Kamenica"><i>Kamenic</i><par n="Bosn/a__np"/></e>
@@ -48585,6 +48623,7 @@
     <e lm="Banja Luka"><i>Rije</i><par n="Rije/ka__n"/></e><!--Perhaps a multiword-->
     <!--Antroponyms-->
     <e lm="Jasenka"><i>Jasen</i><par n="Jasen/ka__n"/></e>
+    <e lm="Lucija"><i>Lucij</i><par n="An/a__np"/></e>
     <e lm="Ana"><i>An</i><par n="An/a__np"/></e>
     <e lm="Marica"><i>Maric</i><par n="An/a__np"/></e>
     <e lm="Anja"><i>Anj</i><par n="Anj/a__np"/></e>
