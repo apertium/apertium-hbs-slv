@@ -831,7 +831,7 @@
 	      </chunk>
 	    </out>
 	  </when>
-	  <when>
+	  <when> <!-- NEEDS FIX? pp -> pp? -->
 	    <test>
 	      <equal>
 		<clip pos="1" side="tl" part="tns"/>
@@ -854,6 +854,30 @@
 	      </chunk>
 	    </out>
 	  </when>
+		<when>
+			<test>
+				<equal>
+					<clip pos="1" side="tl" part="tns"/>
+					<lit-tag v="aor"/>
+				</equal>
+			</test>
+			<out>
+				<chunk name="VerbAOR" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+						<clip pos="1" side="tl" part="lemh"/>
+						<clip pos="1" side="tl" part="a_vrb"/>
+						<clip pos="1" side="tl" part="asp"/>
+						<clip pos="1" side="tl" part="trn"/>
+						<lit-tag v="pres"/>
+						<clip pos="1" side="tl" part="prs"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+				</chunk>
+			</out>
+		</when>
 	  <when>
 	    <test>
 	      <or>
