@@ -29558,30 +29558,14 @@
       <e><i>osm</i><par n="collective_numerals"/></e>
       <e><i>devet</i><par n="collective_numerals"/></e>
       <e><i>deset</i><par n="collective_numerals"/></e>
-      <e><i>jedanaest</i><par n="collective_numerals"/></e>
-      <e><i>dvanaest</i><par n="collective_numerals"/></e>
-      <e><i>trinaest</i><par n="collective_numerals"/></e>
-      <e><i>četrnaest</i><par n="collective_numerals"/></e>
-      <e><i>petnaest</i><par n="collective_numerals"/></e>
-      <e><i>šesnaest</i><par n="collective_numerals"/></e>
-      <e><i>sedamnaest</i><par n="collective_numerals"/></e>
-      <e><i>osamnaest</i><par n="collective_numerals"/></e>
-      <e><i>devetnaest</i><par n="collective_numerals"/></e>
-      <e><i>dvadeset</i><par n="collective_numerals"/></e>
-
+      <e><i>trideset</i><par n="collective_numerals"/></e>
+      <e><i>četrdeset</i><par n="collective_numerals"/></e>
+      <e><i>pedeset</i><par n="collective_numerals"/></e>
+      <e><i>šezdeset</i><par n="collective_numerals"/></e>
+      <e><i>sedamdeset</i><par n="collective_numerals"/></e>
+      <e><i>osamdeset</i><par n="collective_numerals"/></e>
+      <e><i>devedeset</i><par n="collective_numerals"/></e>
       <!--end Collective numerals-->
-
-      <!--TODO: add a paradigm for these collectives-->
-      <e><i>dvoje</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>oboje</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>troje</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>četvero</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>petero</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>šestero</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>sedmero</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>osmero</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>devetero</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>desetoro</i><par n="numeros_sin_inflexion"/></e>
 
       <e><i>dva</i><par n="numeros_sin_inflexion"/></e>
       <e><i>tri</i><par n="numeros_sin_inflexion"/></e>
@@ -29603,8 +29587,29 @@
       <e><i>sedamnaest</i><par n="numeros_sin_inflexion"/></e>
       <e><i>osamnaest</i><par n="numeros_sin_inflexion"/></e>
       <e><i>devetnaest</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>dvadeset</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>sto</i><par n="numeros_sin_inflexion"/></e>
+
+      <!--TODO: add a paradigm for these collectives-->
+      <e><i>dvoje</i><par n="numeros_sin_inflexion"/></e>
+      <e><i>oboje</i><par n="numeros_sin_inflexion"/></e>
+      <e><i>troje</i><par n="numeros_sin_inflexion"/></e>
+      <e><i>četvero</i><par n="numeros_sin_inflexion"/></e>
+      <e><i>petero</i><par n="numeros_sin_inflexion"/></e>
+      <e><i>šestero</i><par n="numeros_sin_inflexion"/></e>
+      <e><i>sedmero</i><par n="numeros_sin_inflexion"/></e>
+      <e><i>osmero</i><par n="numeros_sin_inflexion"/></e>
+      <e><i>devetero</i><par n="numeros_sin_inflexion"/></e>
+      <e><i>desetoro</i><par n="numeros_sin_inflexion"/></e>
+
+      <e><i>jedanaest</i><par n="collective_numerals"/></e>
+      <e><i>dvanaest</i><par n="collective_numerals"/></e>
+      <e><i>trinaest</i><par n="collective_numerals"/></e>
+      <e><i>četrnaest</i><par n="collective_numerals"/></e>
+      <e><i>petnaest</i><par n="collective_numerals"/></e>
+      <e><i>šesnaest</i><par n="collective_numerals"/></e>
+      <e><i>sedamnaest</i><par n="collective_numerals"/></e>
+      <e><i>osamnaest</i><par n="collective_numerals"/></e>
+      <e><i>devetnaest</i><par n="collective_numerals"/></e>
+      <e><i>dvadeset</i><par n="collective_numerals"/></e>
 
       <!--Todo: Add the other numbers' declension-->
       <e><p><l>jedan</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -29786,34 +29791,7 @@
 
       <!--Aquellos sin inflexion-->
       <!--This number has yat, and gender, so it's a special case-->
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="nom"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="gen"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="dat"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="acc"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="voc"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="loc"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="ins"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="nom"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="gen"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="dat"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="acc"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="voc"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="loc"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="ins"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="nom"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="gen"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="dat"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="acc"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="voc"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="loc"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="ins"/></r></p></e>
-      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="nom"/></r></p></e>
-      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="gen"/></r></p></e>
-      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="dat"/></r></p></e>
-      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="acc"/></r></p></e>
-      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="voc"/></r></p></e>
-      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="loc"/></r></p></e>
-      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="ins"/></r></p></e>
+      <e><p><l>dva</l><r>dva<s n="num"/></r></p></e>
       <!--Los con inflexion-->
       <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="nom"/></r></p></e>
       <e><p><l>dvaju</l><r>dva<s n="num"/><s n="mi"/><s n="gen"/></r></p></e>

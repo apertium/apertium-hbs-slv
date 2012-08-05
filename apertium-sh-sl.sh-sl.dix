@@ -16353,6 +16353,8 @@
     <!-- When +ed with a prnpers doesn't carry a case-->
     <e><p><l>u<s n="pr"/></l><r>v<s n="pr"/></r></p></e>
     <e><p><l>za<s n="pr"/></l><r>za<s n="pr"/></r></p></e>
+    <e><p><l>na<s n="pr"/><s n="loc"/></l><r>na<s n="pr"/><s n="loc"/></r></p></e>  
+    <e><p><l>na<s n="pr"/><s n="acc"/></l><r>na<s n="pr"/><s n="acc"/></r></p></e>  
 
     <e><p><l>vrh<s n="pr"/></l><r>vrh<s n="pr"/></r></p></e>
     <e><p><l>vrh<s n="pr"/></l><r>vrhu<s n="pr"/></r></p></e>
