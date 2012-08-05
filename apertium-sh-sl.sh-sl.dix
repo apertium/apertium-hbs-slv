@@ -16347,11 +16347,12 @@
     <e><p><l>ispod<s n="pr"/></l><r>spod<s n="pr"/></r></p></e>
     <e><p><l>usprkos<s n="pr"/><s n="dat"/></l><r>spričo<s n="pr"/><s n="gen"/></r></p></e>
     <e><p><l>sred<s n="pr"/></l><r>sredi<s n="pr"/></r></p></e>
+	<e><p><l>na<s n="pr"/><s n="loc"/></l><r>na<s n="pr"/><s n="loc"/></r></p></e>  
+	<e><p><l>na<s n="pr"/><s n="acc"/></l><r>na<s n="pr"/><s n="acc"/></r></p></e>
     
     <!-- When +ed with a prnpers doesn't carry a case-->
     <e><p><l>u<s n="pr"/></l><r>v<s n="pr"/></r></p></e>
     <e><p><l>za<s n="pr"/></l><r>za<s n="pr"/></r></p></e>
-    <e><p><l>na<s n="pr"/></l><r>na<s n="pr"/></r></p></e>  
 
     <e><p><l>vrh<s n="pr"/></l><r>vrh<s n="pr"/></r></p></e>
     <e><p><l>vrh<s n="pr"/></l><r>vrhu<s n="pr"/></r></p></e>
@@ -16541,6 +16542,7 @@
     <e><p><l>dakle<s n="cnjcoo"/></l><r>torej<s n="cnjcoo"/></r></p></e>
     <e><p><l>ali<s n="cnjcoo"/></l><r>vendar<s n="cnjcoo"/></r></p></e>
     <e><p><l>ipak<s n="adv"/></l><r>vendarle<s n="cnjcoo"/></r></p></e>
+    <e><p><l>pak<s n="cnjcoo"/></l><r>pa<s n="cnjcoo"/></r></p></e>
     <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>zakaj<s n="cnjcoo"/></r></p></e>
     <e><p><l>dakle<s n="cnjcoo"/></l><r>torej<s n="cnjcoo"/></r></p></e>
     <e><p><l>no<s n="cnjcoo"/></l><r>no<s n="cnjcoo"/></r></p></e> <!-- not sure -->
