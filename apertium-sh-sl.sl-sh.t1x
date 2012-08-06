@@ -542,15 +542,66 @@
     </def-macro>
 
     <def-macro n="num_adapter" npar="1">
-      <let>
-	<clip pos="1" side="tl" part="whole"/>
-	<concat>
-	  <clip pos="1" side="tl" part="lem"/>
-	  <clip pos="1" side="tl" part="a_num"/>
-	  <clip pos="1" side="tl" part="gen"/>
-	  <clip pos="1" side="tl" part="cas"/>
-	</concat>
-      </let>
+      <choose>
+	<when>
+	  <test>
+	    <or>		
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="dva"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="dvaindvajset"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="dvaintrideset"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="dvainštirideset"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="dvainpetdeset"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="dvainšestdeset"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="dvainsedemdeset"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="dvainosemdeset"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="dvaindevetdeset"/></equal>
+	    </or>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lem"/>
+	      <clip pos="1" side="tl" part="a_num"/>
+	      <clip pos="1" side="sl" part="gen"/>
+	      <clip pos="1" side="tl" part="cas"/>
+	    </concat>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	      <or>
+		<equal><clip pos="1" side="sl" part="lem"/><lit v="en"/></equal>
+		<equal><clip pos="1" side="sl" part="lem"/><lit v="enaindvajset"/></equal>
+		<equal><clip pos="1" side="sl" part="lem"/><lit v="enaintrideset"/></equal>
+		<equal><clip pos="1" side="sl" part="lem"/><lit v="enainštirideset"/></equal>
+		<equal><clip pos="1" side="sl" part="lem"/><lit v="enainpetdeset"/></equal>
+		<equal><clip pos="1" side="sl" part="lem"/><lit v="enainšestdeset"/></equal>
+		<equal><clip pos="1" side="sl" part="lem"/><lit v="enainsedemdeset"/></equal>
+		<equal><clip pos="1" side="sl" part="lem"/><lit v="enainosemdeset"/></equal>
+		<equal><clip pos="1" side="sl" part="lem"/><lit v="enaindevetdeset"/></equal>
+	      </or>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lem"/>
+	      <clip pos="1" side="tl" part="a_num"/>
+	      <clip pos="1" side="sl" part="gen"/>
+	      <clip pos="1" side="sl" part="nbr"/>
+	      <clip pos="1" side="tl" part="cas"/>
+	    </concat>
+	  </let>
+	</when>
+	<otherwise><!--For now just normalises to the caseless version, though the collective case should be covered-->
+	  <let>
+	  <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lem"/>
+	      <clip pos="1" side="tl" part="a_num"/>
+	    </concat>
+	  </let>	  
+	</otherwise>
+      </choose>
       <choose> <!-- Numbers are special, so not calling dual adapter here -->
 	<when>
 	  <test>
@@ -649,13 +700,13 @@
 	</when>
 	<when><!--For the le-tak etc. pronouns-->
 	  <test>
-	  <or>
-	    <equal><clip pos="1" side="tl" part="lem"/><lit v="le-oni"/></equal>
-	    <equal><clip pos="1" side="tl" part="lem"/><lit v="le-ta"/></equal>
-	    <equal><clip pos="1" side="tl" part="lem"/><lit v="le-tak"/></equal>
-	    <equal><clip pos="1" side="tl" part="lem"/><lit v="le-takšen"/></equal>
-	    <equal><clip pos="1" side="tl" part="lem"/><lit v="le-tisti"/></equal>
-	  </or>
+	    <or>
+	      <equal><clip pos="1" side="tl" part="lem"/><lit v="le-oni"/></equal>
+	      <equal><clip pos="1" side="tl" part="lem"/><lit v="le-ta"/></equal>
+	      <equal><clip pos="1" side="tl" part="lem"/><lit v="le-tak"/></equal>
+	      <equal><clip pos="1" side="tl" part="lem"/><lit v="le-takšen"/></equal>
+	      <equal><clip pos="1" side="tl" part="lem"/><lit v="le-tisti"/></equal>
+	    </or>
 	  </test>
 	  <let>
 	    <clip pos="1" side="tl" part="whole"/>

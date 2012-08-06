@@ -16637,28 +16637,28 @@
 
     <!-- Num -> Num -->
     <!-- TO DO: Need to add gen.nbr.cas -->
-    <e><p><l>jedan<s n="num"/></l><r>en<s n="num"/></r></p></e>
-    <e><p><l>dva<s n="num"/></l><r>dva<s n="num"/></r></p></e>
-    <e><p><l>tri<s n="num"/></l><r>tri<s n="num"/></r></p></e>
-    <e><p><l>četiri<s n="num"/></l><r>štiri<s n="num"/></r></p></e>
-    <e><p><l>pet<s n="num"/></l><r>pet<s n="num"/></r></p></e>
-    <e><p><l>šest<s n="num"/></l><r>šest<s n="num"/></r></p></e>
-    <e><p><l>sedam<s n="num"/></l><r>sedem<s n="num"/></r></p></e>
-    <e><p><l>osam<s n="num"/></l><r>osem<s n="num"/></r></p></e>
-    <e><p><l>devet<s n="num"/></l><r>devet<s n="num"/></r></p></e>
-    <e><p><l>deset<s n="num"/></l><r>deset<s n="num"/></r></p></e>
-    <e><p><l>jedanaest<s n="num"/></l><r>enajst<s n="num"/></r></p></e>
-    <e><p><l>dvanaest<s n="num"/></l><r>dvanajst<s n="num"/></r></p></e>
-    <e><p><l>trinaest<s n="num"/></l><r>trinajst<s n="num"/></r></p></e>
-    <e><p><l>četrnaest<s n="num"/></l><r>štirinajst<s n="num"/></r></p></e>
-    <e><p><l>petnaest<s n="num"/></l><r>petnajst<s n="num"/></r></p></e>
-    <e><p><l>šestnaest<s n="num"/></l><r>šestnajst<s n="num"/></r></p></e>
-    <e><p><l>sedamnaest<s n="num"/></l><r>sedemnajst<s n="num"/></r></p></e>
-    <e><p><l>osamnaest<s n="num"/></l><r>osemnajst<s n="num"/></r></p></e>
-    <e><p><l>devetnaest<s n="num"/></l><r>devetnajst<s n="num"/></r></p></e>
+    <e><p><l>jedan<s n="num"/></l><r>en<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
+    <e><p><l>dva<s n="num"/></l><r>dva<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
+    <e><p><l>tri<s n="num"/></l><r>tri<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>četiri<s n="num"/></l><r>štiri<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>pet<s n="num"/></l><r>pet<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>šest<s n="num"/></l><r>šest<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>sedam<s n="num"/></l><r>sedem<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>osam<s n="num"/></l><r>osem<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>devet<s n="num"/></l><r>devet<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>deset<s n="num"/></l><r>deset<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>jedanaest<s n="num"/></l><r>enajst<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>dvanaest<s n="num"/></l><r>dvanajst<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>trinaest<s n="num"/></l><r>trinajst<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>četrnaest<s n="num"/></l><r>štirinajst<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>petnaest<s n="num"/></l><r>petnajst<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>šesnaest<s n="num"/></l><r>šestnajst<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>sedamnaest<s n="num"/></l><r>sedemnajst<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>osamnaest<s n="num"/></l><r>osemnajst<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>devetnaest<s n="num"/></l><r>devetnajst<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
 
-    <e><p><l>dvadeset<s n="num"/></l><r>dvajset<s n="num"/></r></p></e>
-    <e><p><l>dvadeset<b/>i<b/>jedan<s n="num"/></l><r>enaindvajset<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<s n="num"/></l><r>dvajset<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>dvadeset<b/>i<b/>jedan<s n="num"/></l><r>enaindvajset<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
     <e><p><l>dvadeset<b/>i<b/>dva<s n="num"/></l><r>dvaindvajset<s n="num"/></r></p></e>
     <e><p><l>dvadeset<b/>i<b/>tri<s n="num"/></l><r>triindvajset<s n="num"/></r></p></e>
     <e><p><l>dvadeset<b/>i<b/>četiri<s n="num"/></l><r>štiriindvajset<s n="num"/></r></p></e>
@@ -16668,8 +16668,8 @@
     <e><p><l>dvadeset<b/>i<b/>osam<s n="num"/></l><r>osemindvajset<s n="num"/></r></p></e>
     <e><p><l>dvadeset<b/>i<b/>devet<s n="num"/></l><r>devetindvajset<s n="num"/></r></p></e>
 
-    <e><p><l>trideset<s n="num"/></l><r>trideset<s n="num"/></r></p></e>
-    <e><p><l>trideset<b/>i<b/>jedan<s n="num"/></l><r>enaintrideset<s n="num"/></r></p></e>
+    <e><p><l>trideset<s n="num"/></l><r>trideset<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>trideset<b/>i<b/>jedan<s n="num"/></l><r>enaintrideset<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
     <e><p><l>trideset<b/>i<b/>dva<s n="num"/></l><r>dvaintrideset<s n="num"/></r></p></e>
     <e><p><l>trideset<b/>i<b/>tri<s n="num"/></l><r>triintrideset<s n="num"/></r></p></e>
     <e><p><l>trideset<b/>i<b/>četiri<s n="num"/></l><r>štiriintrideset<s n="num"/></r></p></e>
@@ -16679,8 +16679,8 @@
     <e><p><l>trideset<b/>i<b/>osam<s n="num"/></l><r>osemintrideset<s n="num"/></r></p></e>
     <e><p><l>trideset<b/>i<b/>devet<s n="num"/></l><r>devetintrideset<s n="num"/></r></p></e>
 
-    <e><p><l>četrdeset<s n="num"/></l><r>štirideset<s n="num"/></r></p></e>
-    <e><p><l>četrdeset<b/>i<b/>jedan<s n="num"/></l><r>enainštirideset<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<s n="num"/></l><r>štirideset<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>četrdeset<b/>i<b/>jedan<s n="num"/></l><r>enainštirideset<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
     <e><p><l>četrdeset<b/>i<b/>dva<s n="num"/></l><r>dvainštirideset<s n="num"/></r></p></e>
     <e><p><l>četrdeset<b/>i<b/>tri<s n="num"/></l><r>triinštirideset<s n="num"/></r></p></e>
     <e><p><l>četrdeset<b/>i<b/>četiri<s n="num"/></l><r>štiriinštirideset<s n="num"/></r></p></e>
@@ -16690,8 +16690,8 @@
     <e><p><l>četrdeset<b/>i<b/>osam<s n="num"/></l><r>oseminštirideset<s n="num"/></r></p></e>
     <e><p><l>četrdeset<b/>i<b/>devet<s n="num"/></l><r>devetinštirideset<s n="num"/></r></p></e>
 
-    <e><p><l>pedeset<s n="num"/></l><r>petdeset<s n="num"/></r></p></e>
-    <e><p><l>pedeset<b/>i<b/>jedan<s n="num"/></l><r>enainpetdeset<s n="num"/></r></p></e>
+    <e><p><l>pedeset<s n="num"/></l><r>petdeset<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>pedeset<b/>i<b/>jedan<s n="num"/></l><r>enainpetdeset<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
     <e><p><l>pedeset<b/>i<b/>dva<s n="num"/></l><r>dvainpetdeset<s n="num"/></r></p></e>
     <e><p><l>pedeset<b/>i<b/>tri<s n="num"/></l><r>triinpetdeset<s n="num"/></r></p></e>
     <e><p><l>pedeset<b/>i<b/>četiri<s n="num"/></l><r>štiriinpetdeset<s n="num"/></r></p></e>
@@ -16701,8 +16701,8 @@
     <e><p><l>pedeset<b/>i<b/>osam<s n="num"/></l><r>oseminpetdeset<s n="num"/></r></p></e>
     <e><p><l>pedeset<b/>i<b/>devet<s n="num"/></l><r>devetinpetdeset<s n="num"/></r></p></e>    
 
-    <e><p><l>šezdeset<s n="num"/></l><r>šestdeset<s n="num"/></r></p></e>
-    <e><p><l>šezdeset<b/>i<b/>jedan<s n="num"/></l><r>enainšestdeset<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<s n="num"/></l><r>šestdeset<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>šezdeset<b/>i<b/>jedan<s n="num"/></l><r>enainšestdeset<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
     <e><p><l>šezdeset<b/>i<b/>dva<s n="num"/></l><r>dvainšestdeset<s n="num"/></r></p></e>
     <e><p><l>šezdeset<b/>i<b/>tri<s n="num"/></l><r>triinšestdeset<s n="num"/></r></p></e>
     <e><p><l>šezdeset<b/>i<b/>četiri<s n="num"/></l><r>štiriinšestdeset<s n="num"/></r></p></e>
@@ -16712,8 +16712,8 @@
     <e><p><l>šezdeset<b/>i<b/>osam<s n="num"/></l><r>oseminšestdeset<s n="num"/></r></p></e>
     <e><p><l>šezdeset<b/>i<b/>devet<s n="num"/></l><r>devetinšestdeset<s n="num"/></r></p></e>    
 
-    <e><p><l>sedamdeset<s n="num"/></l><r>sedemdeset<s n="num"/></r></p></e>
-    <e><p><l>sedamdeset<b/>i<b/>jedan<s n="num"/></l><r>enainsedemdeset<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<s n="num"/></l><r>sedemdeset<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>sedamdeset<b/>i<b/>jedan<s n="num"/></l><r>enainsedemdeset<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
     <e><p><l>sedamdeset<b/>i<b/>dva<s n="num"/></l><r>dvainsedemdeset<s n="num"/></r></p></e>
     <e><p><l>sedamdeset<b/>i<b/>tri<s n="num"/></l><r>triinsedemdeset<s n="num"/></r></p></e>
     <e><p><l>sedamdeset<b/>i<b/>četiri<s n="num"/></l><r>štiriinsedemdeset<s n="num"/></r></p></e>
@@ -16723,8 +16723,8 @@
     <e><p><l>sedamdeset<b/>i<b/>osam<s n="num"/></l><r>oseminsedemdeset<s n="num"/></r></p></e>
     <e><p><l>sedamdeset<b/>i<b/>devet<s n="num"/></l><r>devetinsedemdeset<s n="num"/></r></p></e>    
 
-    <e><p><l>osamdeset<s n="num"/></l><r>osemdeset<s n="num"/></r></p></e>
-    <e><p><l>osamdeset<b/>i<b/>jedan<s n="num"/></l><r>enainosemdeset<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<s n="num"/></l><r>osemdeset<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>osamdeset<b/>i<b/>jedan<s n="num"/></l><r>enainosemdeset<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
     <e><p><l>osamdeset<b/>i<b/>dva<s n="num"/></l><r>dvainosemdeset<s n="num"/></r></p></e>
     <e><p><l>osamdeset<b/>i<b/>tri<s n="num"/></l><r>triinosemdeset<s n="num"/></r></p></e>
     <e><p><l>osamdeset<b/>i<b/>četiri<s n="num"/></l><r>štiriinosemdeset<s n="num"/></r></p></e>
@@ -16734,30 +16734,8 @@
     <e><p><l>osamdeset<b/>i<b/>osam<s n="num"/></l><r>oseminosemdeset<s n="num"/></r></p></e>
     <e><p><l>osamdeset<b/>i<b/>devet<s n="num"/></l><r>devetinosemdeset<s n="num"/></r></p></e>    
 
-    <e><p><l>sedamdeset<s n="num"/></l><r>sedemdeset<s n="num"/></r></p></e>
-    <e><p><l>sedamdeset<b/>i<b/>jedan<s n="num"/></l><r>enainsedemdeset<s n="num"/></r></p></e>
-    <e><p><l>sedamdeset<b/>i<b/>dva<s n="num"/></l><r>dvainsedemdeset<s n="num"/></r></p></e>
-    <e><p><l>sedamdeset<b/>i<b/>tri<s n="num"/></l><r>triinsedemdeset<s n="num"/></r></p></e>
-    <e><p><l>sedamdeset<b/>i<b/>četiri<s n="num"/></l><r>štiriinsedemdeset<s n="num"/></r></p></e>
-    <e><p><l>sedamdeset<b/>i<b/>pet<s n="num"/></l><r>petinsedemdeset<s n="num"/></r></p></e>
-    <e><p><l>sedamdeset<b/>i<b/>šest<s n="num"/></l><r>šestinsedemdeset<s n="num"/></r></p></e>
-    <e><p><l>sedamdeset<b/>i<b/>sedam<s n="num"/></l><r>sedeminsedemdeset<s n="num"/></r></p></e>
-    <e><p><l>sedamdeset<b/>i<b/>osam<s n="num"/></l><r>oseminsedemdeset<s n="num"/></r></p></e>
-    <e><p><l>sedamdeset<b/>i<b/>devet<s n="num"/></l><r>devetinsedemdeset<s n="num"/></r></p></e>    
-
-    <e><p><l>osamdeset<s n="num"/></l><r>osemdeset<s n="num"/></r></p></e>
-    <e><p><l>osamdeset<b/>i<b/>jedan<s n="num"/></l><r>enainosemdeset<s n="num"/></r></p></e>
-    <e><p><l>osamdeset<b/>i<b/>dva<s n="num"/></l><r>dvainosemdeset<s n="num"/></r></p></e>
-    <e><p><l>osamdeset<b/>i<b/>tri<s n="num"/></l><r>triinosemdeset<s n="num"/></r></p></e>
-    <e><p><l>osamdeset<b/>i<b/>četiri<s n="num"/></l><r>štiriinosemdeset<s n="num"/></r></p></e>
-    <e><p><l>osamdeset<b/>i<b/>pet<s n="num"/></l><r>petinosemdeset<s n="num"/></r></p></e>
-    <e><p><l>osamdeset<b/>i<b/>šest<s n="num"/></l><r>šestinosemdeset<s n="num"/></r></p></e>
-    <e><p><l>osamdeset<b/>i<b/>sedam<s n="num"/></l><r>sedeminosemdeset<s n="num"/></r></p></e>
-    <e><p><l>osamdeset<b/>i<b/>osam<s n="num"/></l><r>oseminosemdeset<s n="num"/></r></p></e>
-    <e><p><l>osamdeset<b/>i<b/>devet<s n="num"/></l><r>devetinosemdeset<s n="num"/></r></p></e>    
-
-    <e><p><l>devedeset<s n="num"/></l><r>devetdeset<s n="num"/></r></p></e>
-    <e><p><l>devedeset<b/>i<b/>jedan<s n="num"/></l><r>enaindevetdeset<s n="num"/></r></p></e>
+    <e><p><l>devedeset<s n="num"/></l><r>devetdeset<s n="num"/></r></p><par n="null2gen"/><par n="null2num"/><par n="null2cas"/></e>
+    <e><p><l>devedeset<b/>i<b/>jedan<s n="num"/></l><r>enaindevetdeset<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
     <e><p><l>devedeset<b/>i<b/>dva<s n="num"/></l><r>dvaindevetdeset<s n="num"/></r></p></e>
     <e><p><l>devedeset<b/>i<b/>tri<s n="num"/></l><r>triindevetdeset<s n="num"/></r></p></e>
     <e><p><l>devedeset<b/>i<b/>četiri<s n="num"/></l><r>štiriindevetdeset<s n="num"/></r></p></e>
