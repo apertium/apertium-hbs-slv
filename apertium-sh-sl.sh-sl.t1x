@@ -218,6 +218,9 @@
       <cat-item lemma="biti" tags="vblex.*"/>
       <cat-item lemma="biti" tags="vbmod.*"/>
     </def-cat>
+    <def-cat n="biti_vbser">
+      <cat-item lemma="biti" tags="vbser.*"/>
+    </def-cat>
     <def-cat n="biti_clt">
       <cat-item lemma="biti" tags="vbser.clt.*"/>
     </def-cat>
@@ -856,13 +859,19 @@
 	  </when>
 		<when>
 			<test>
-				<equal>
-					<clip pos="1" side="tl" part="tns"/>
-					<lit-tag v="aor"/>
-				</equal>
+				<or>
+					<equal>
+						<clip pos="1" side="tl" part="tns"/>
+						<lit-tag v="aor"/> <!-- perf -->
+					</equal>
+					<equal>
+						<clip pos="1" side="tl" part="tns"/>
+						<lit-tag v="pii"/> <!-- imperf -->
+					</equal>
+				</or>
 			</test>
 			<out>
-				<chunk name="VerbAOR" case="caseFirstWord">
+				<chunk name="VerbAOR_PII" case="caseFirstWord">
 					<tags>
 						<tag><lit-tag v="VB"/></tag>
 					</tags>
@@ -871,7 +880,13 @@
 						<clip pos="1" side="tl" part="a_vrb"/>
 						<clip pos="1" side="tl" part="asp"/>
 						<clip pos="1" side="tl" part="trn"/>
-						<lit-tag v="pres"/>
+						<lit-tag v="past.m"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<lit v="biti"/>
+						<lit-tag v="vbser.pres"/>
 						<clip pos="1" side="tl" part="prs"/>
 						<clip pos="1" side="tl" part="nbr"/>
 					</lu>
@@ -952,6 +967,46 @@
 	</choose>
       </action>
     </rule>
+
+	<rule comment="Biti.vbser">
+      <pattern>
+	<pattern-item n="biti_vbser"/>
+      </pattern>
+		<action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+			<choose>
+				<when>
+					<test>
+					<or>
+						<equal>
+							<clip pos="1" side="sl" part="tns"/>
+							<lit-tag v="lp"/>
+						</equal>
+						<equal>
+							<clip pos="1" side="sl" part="tns"/>
+							<lit-tag v="pii"/>
+						</equal>
+					</or>
+				</test>	
+				<out>
+					<chunk name="BitiVbser_LP_PII" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+							<clip pos="1" side="tl" part="lemh"/>
+							<clip pos="1" side="tl" part="a_vrb"/>
+							<lit-tag v="past"/>
+							<clip pos="1" side="sl" part="gen"/>
+							<clip pos="1" side="tl" part="nbr"/>
+						</lu>
+					</chunk>
+				</out>
+				</when>
+			</choose>
+		</action>
+	</rule>
     
 
     <rule comment="pr">
