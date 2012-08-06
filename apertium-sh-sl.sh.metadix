@@ -18,7 +18,7 @@
     <sdef n="pers" c="Personal"/>
     <sdef n="pr" c="Preposition"/>
     <sdef n="num" c="Numeral"/>
-    <sdef n="coll" c="coll"/>
+    <sdef n="coll" c="Collective"/>
     <sdef n="np" c="Proper noun"/>
     <sdef n="ij" c="Interjection"/>
     <sdef n="cnjcoo" c="Coordinating conjunction"/>
@@ -28592,6 +28592,17 @@
 
       <e><p><l>ov</l><r><s n="np"/><s n="ant"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
     </pardef>
+    <pardef n="Matej__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>a</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>a</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>u</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>u</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>e</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>em</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+
+      <e><p><l>ev</l><r><s n="np"/><s n="ant"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+    </pardef>
     <!-- end Masculine antroponyms-->
     <pardef n="Ant/e__np">
       <e><p><l>e</l><r>e<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -28603,6 +28614,28 @@
       <e><p><l>om</l><r>e<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
 
       <e><p><l>in</l><r>e<s n="np"/><s n="ant"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+    </pardef>
+    <pardef n="Bož/o__np">
+      <e><p><l>o</l><r>o<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>e</l><r>o<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>u</l><r>o<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>i</l><r>o<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>i</l><r>o<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>o</l><r>o<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>om</l><r>o<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+
+      <e><p><l>in</l><r>o<s n="np"/><s n="ant"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+    </pardef>
+    <pardef n="Jank/o__cog__np">
+      <e><p><l>o</l><r>o<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>u</l><r>o<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>u</l><r>o<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>o</l><r>o<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>om</l><r>o<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+
+      <e><p><l>ov</l><r>o<s n="np"/><s n="cog"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
     </pardef>
     <!--Surnames-->
     <pardef n="Prezime__cog__np">
@@ -28646,6 +28679,47 @@
       <e><p><l>ov</l><r><s n="np"/><s n="cog"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
     </pardef>
     <!--end 'Prezime'-->
+    <pardef n="Tolstoj__cog__np">
+      <!--Masculine-->
+      <!--Singular-->
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>a</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>u</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>u</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l></l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>u</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>em</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+      <!--Plural-->
+      <e><p><l>i</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>a</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>ima</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ima</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>ima</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>e</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>i</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+
+      <!-- Feminine-->
+      <!--Singular-->
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+      <!--Plural-->
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+
+      <e><p><l>ev</l><r><s n="np"/><s n="cog"/><s n="mi"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+      <e><p><l>ev</l><r><s n="np"/><s n="cog"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+    </pardef>
+
     <!--Proper noun paradigm 'prezimen/ić'-->
     <pardef n="Prezimen/ić__cog__np">
       <!--Masculine-->
@@ -28689,6 +28763,49 @@
       <e><p><l>ićev</l><r>ić<s n="np"/><s n="cog"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
     </pardef>
     <!--end 'prezimen/ić'-->
+    <!--Proper noun paradigm 'prezimen/ič'--><!--For slovene -ič cognames-->
+    <pardef n="Tomš/ič__cog__np">
+      <!--Masculine-->
+      <!--Singular-->
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>iča</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>iču</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>iča</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>iču</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>iču</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>ičem</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+      <!--Plural-->
+      <e><p><l>iči</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>iča</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>ičima</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ičima</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>ičima</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>iče</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>iči</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+
+      <!-- Feminine-->
+      <!--Singular-->
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+      <!--Plural-->
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ič</l><r>ič<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+
+      <e><p><l>ičev</l><r>ič<s n="np"/><s n="cog"/><s n="mi"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+      <e><p><l>ičev</l><r>ič<s n="np"/><s n="cog"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+    </pardef>
+    <!--end 'prezimen/ič'-->
     <pardef n="Krnet/a__cog__np">
       <!--Masculine-->
       <e><p><l>a</l><r>a<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -29454,95 +29571,30 @@
       <e><p><l>ma</l><r><s n="num"/><s n="ma"/><s n="ins"/></r></p></e>
       <e><p><l>ju</l><r><s n="num"/><s n="ma"/><s n="gen"/></r></p></e>
     </pardef>
+
     <pardef n="collective_numerals">
-      <e><p><l>ero</l><r>oro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>erih</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>orih</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>erih</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>orih</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>erih</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>orih</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>erih</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>orih</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="nom"/></r></p></e>
+      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="nom"/></r></p></e>
+      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="gen"/></r></p></e>
+      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="gen"/></r></p></e>
+      <e><p><l>erih</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="gen"/></r></p></e>
+      <e><p><l>orih</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="gen"/></r></p></e>
+      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="acc"/></r></p></e>
+      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="acc"/></r></p></e>
+      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="voc"/></r></p></e>
+      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="voc"/></r></p></e>
+      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e><p><l>ero</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="ins"/></r></p></e>
+      <e><p><l>oro</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="ins"/></r></p></e>
+      <e><p><l>erima</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="ins"/></r></p></e>
+      <e><p><l>orima</l><r>ero<s n="num"/><s n="coll"/><s n="nt"/><s n="ins"/></r></p></e>
     </pardef>
 
     <pardef n="base_numerals">
@@ -29636,7 +29688,6 @@
       <e r="LR"><p><l>jednima</l><r>jedan<s n="num"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 
       <e><p><l>dva</l><r>dva<s n="num"/></r></p></e>
-
       <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="nom"/></r></p></e>
       <e><p><l>dvaju</l><r>dva<s n="num"/><s n="mi"/><s n="gen"/></r></p></e>
       <e><p><l>dvama</l><r>dva<s n="num"/><s n="mi"/><s n="dat"/></r></p></e>
@@ -29664,7 +29715,7 @@
       <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="acc"/></r></p></e>
       <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="voc"/></r></p></e>
       <e><i>dv</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="loc"/></r></p></e>
-      <e><i>dv</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="ins"/></r></p></e>
+      <e><i>dv</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="ins"/></r></p></e>      
 
       <e><i>tri</i><par n="numeros_con_inflexion"/></e>
       <e><i>četiri</i><par n="numeros_sin_inflexion"/></e>
@@ -29683,6 +29734,37 @@
       <e><i>sedam</i><par n="numeros_sin_inflexion"/></e>
       <e><i>osam</i><par n="numeros_sin_inflexion"/></e>
       <e><i>devet</i><par n="numeros_sin_inflexion"/></e>
+
+
+
+      <e><i>četv</i><par n="collective_numerals"/></e>
+      <e><i>pet</i><par n="collective_numerals"/></e>
+      <e><i>šest</i><par n="collective_numerals"/></e>
+      <e><i>sedm</i><par n="collective_numerals"/></e>
+      <e><i>osm</i><par n="collective_numerals"/></e>
+      <e><i>devet</i><par n="collective_numerals"/></e>
+
+      <e><p><l>dvoje</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="nom"/></r></p></e>
+      <e><p><l>dvojih</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="gen"/></r></p></e>
+      <e><p><l>dvojim</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>dvojima</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e><p><l>dvoje</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="acc"/></r></p></e>
+      <e><p><l>dvoje</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="voc"/></r></p></e>
+      <e><p><l>dvojim</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>dvojim</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e><p><l>dvojim</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>dvojima</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="ins"/></r></p></e>
+      <e><p><l>troje</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="nom"/></r></p></e>
+      <e><p><l>trojih</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="gen"/></r></p></e>
+      <e><p><l>trojim</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>trojima</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e><p><l>troje</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="acc"/></r></p></e>
+      <e><p><l>troje</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="voc"/></r></p></e>
+      <e><p><l>trojim</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>trojim</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e><p><l>trojim</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>trojima</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="ins"/></r></p></e>
+
     </pardef>
 
     <pardef n="numeros"><!--TODO: numbers are to be done-->
@@ -29692,6 +29774,7 @@
       <e><re>[0-9]+</re><p><l><b/>godina</l> <r><b/>godina<s n="num"/></r></p></e>
 
       <!--Collective numerals-->
+      <e><i>četv</i><par n="collective_numerals"/></e>
       <e><i>pet</i><par n="collective_numerals"/></e>
       <e><i>šest</i><par n="collective_numerals"/></e>
       <e><i>sedm</i><par n="collective_numerals"/></e>
@@ -29705,6 +29788,26 @@
       <e><i>sedamdeset</i><par n="collective_numerals"/></e>
       <e><i>osamdeset</i><par n="collective_numerals"/></e>
       <e><i>devedeset</i><par n="collective_numerals"/></e>
+      <e><p><l>dvoje</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="nom"/></r></p></e>
+      <e><p><l>dvojih</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="gen"/></r></p></e>
+      <e><p><l>dvojim</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>dvojima</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e><p><l>dvoje</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="acc"/></r></p></e>
+      <e><p><l>dvoje</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="voc"/></r></p></e>
+      <e><p><l>dvojim</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>dvojim</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e><p><l>dvojim</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>dvojima</l><r>dvoje<s n="num"/><s n="coll"/><s n="nt"/><s n="ins"/></r></p></e>
+      <e><p><l>troje</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="nom"/></r></p></e>
+      <e><p><l>trojih</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="gen"/></r></p></e>
+      <e><p><l>trojim</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>trojima</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e><p><l>troje</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="acc"/></r></p></e>
+      <e><p><l>troje</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="voc"/></r></p></e>
+      <e><p><l>trojim</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>trojim</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e><p><l>trojim</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>trojima</l><r>troje<s n="num"/><s n="coll"/><s n="nt"/><s n="ins"/></r></p></e>
       <!--end Collective numerals-->      
 
       <e><i>dva</i><par n="numeros_sin_inflexion"/></e>
@@ -29751,14 +29854,13 @@
       <!--TODO: add a paradigm for these collectives-->
       <e><i>dvoje</i><par n="numeros_sin_inflexion"/></e>
       <e><i>oboje</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>troje</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>četvero</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>petero</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>šestero</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>sedmero</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>osmero</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>devetero</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>desetoro</i><par n="numeros_sin_inflexion"/></e>
+
+      <e><i>četv</i><par n="collective_numerals"/></e>
+      <e><i>pet</i><par n="collective_numerals"/></e>
+      <e><i>šest</i><par n="collective_numerals"/></e>
+      <e><i>sedm</i><par n="collective_numerals"/></e>
+      <e><i>osm</i><par n="collective_numerals"/></e>
+      <e><i>devet</i><par n="collective_numerals"/></e>
 
       <e><i>jedanaest</i><par n="collective_numerals"/></e>
       <e><i>dvanaest</i><par n="collective_numerals"/></e>
@@ -43797,15 +43899,23 @@
     <!-- Nouns -->
 
     <!--Antroponyms-->
+    <!--Cognames ending in a -o -->
+    <e lm="Janko"><i>Jank</i><par n="Jank/o__cog__np"/></e>
+    <e lm="Marko"><i>Mark</i><par n="Jank/o__cog__np"/></e>
+    <e lm="Marko"><i>Mir</i><par n="Jank/o__cog__np"/></e>
     <!--Cognames ending in a -i -->
     <e lm="Rexhepi"><i>Rexhepi</i><par n="Filipi__cog__np"/></e>
+    <e lm="Gaspari"><i>Gaspar</i><par n="Filipi__cog__np"/></e>
     <!--Cognames ending in a consonant-->
     <e lm="Erdogan"><i>Erdogan</i><par n="Prezime__cog__np"/></e>
     <e lm="Sadik"><i>Sadik</i><par n="Prezime__cog__np"/></e>
     <!--Cognames ending in -a-->
     <e lm="Krneta"><i>Krnet</i><par n="Krnet/a__cog__np"/></e>
+    <e lm="Janša"><i>Janša</i><par n="Krnet/a__cog__np"/></e>
+    <e lm="Geržina"><i>Geržin</i><par n="Krnet/a__cog__np"/></e>
     <e lm="Berisha"><i>Berish</i><par n="Krnet/a__cog__np"/></e>
     <!--Cognames ending in -ić-->
+    <e lm="Tomšič"><i>Tomšič</i><par n="Tomš/ič__cog__np"/></e>
     <e lm="Kirković"><i>Kirkov</i><par n="Prezimen/ić__cog__np"/></e>
     <e lm="Keleketić"><i>Keleket</i><par n="Prezimen/ić__cog__np"/></e>
     <e lm="Milutinović"><i>Milutinov</i><par n="Prezimen/ić__cog__np"/></e>
@@ -45207,6 +45317,95 @@
     <e lm="Ščekić"><i>Šček</i><par n="Prezimen/ić__cog__np"/></e>
     <e lm="Ščepanović"><i>Ščepanov</i><par n="Prezimen/ić__cog__np"/></e>
     <!--end Cognames ending in -ić-->
+    <!--Surnames ending in -j-->
+    <e lm="Tolstoj"><i>Tolstoj</i><par n="Tolstoj__cog__np"/></e>
+    <e lm="Dobrajc"><i>Dobrajc</i><par n="Tolstoj__cog__np"/></e>
+    <e lm="Rejc"><i>Rejc</i><par n="Tolstoj__cog__np"/></e>
+    <e lm="Zdovc"><i>Zdovc</i><par n="Tolstoj__cog__np"/></e>
+    <e lm="Aljaž"><i>Aljaž</i><par n="Tolstoj__cog__np"/></e>
+    <e lm="Ambrož"><i>Ambrož</i><par n="Tolstoj__cog__np"/></e>
+    <e lm="Matuš"><i>Matuš</i><par n="Tolstoj__cog__np"/></e>
+    <e lm="Aaronson"><i>Aaronson</i><par n="Prezime__cog__np"/></e>
+    <e lm="Albreht"><i>Albreht</i><par n="Prezime__cog__np"/></e>
+    <e lm="Armstrong"><i>Armstrong</i><par n="Prezime__cog__np"/></e>
+    <e lm="Bach"><i>Bach</i><par n="Prezime__cog__np"/></e>
+    <e lm="Bailey"><i>Bailey</i><par n="Prezime__cog__np"/></e>
+    <e lm="Bavčar"><i>Bavčar</i><par n="Prezime__cog__np"/></e>
+    <e lm="Bizjak"><i>Bizjak</i><par n="Prezime__cog__np"/></e>
+    <e lm="Borštner"><i>Borštner</i><par n="Prezime__cog__np"/></e>
+    <e lm="Borštnik"><i>Borštnik</i><par n="Prezime__cog__np"/></e>
+    <e lm="Byron"><i>Byron</i><par n="Prezime__cog__np"/></e>
+    <e lm="Cankar"><i>Cankar</i><par n="Prezime__cog__np"/></e>
+    <e lm="Cezar"><i>Cezar</i><par n="Prezime__cog__np"/></e>
+    <e lm="Chaucer"><i>Chaucer</i><par n="Prezime__cog__np"/></e>
+    <e lm="Churchill"><i>Churchill</i><par n="Prezime__cog__np"/></e>
+    <e lm="Clinton"><i>Clinton</i><par n="Prezime__cog__np"/></e>
+    <e lm="Cromwell"><i>Cromwell</i><par n="Prezime__cog__np"/></e>
+    <e lm="Darwin"><i>Darwin</i><par n="Prezime__cog__np"/></e>
+    <e lm="Debelak"><i>Debelak</i><par n="Prezime__cog__np"/></e>
+    <e lm="Demšar"><i>Demšar</i><par n="Prezime__cog__np"/></e>
+    <e lm="Dickens"><i>Dickens</i><par n="Prezime__cog__np"/></e>
+    <e lm="Dragan"><i>Dragan</i><par n="Prezime__cog__np"/></e>
+    <e lm="Drnovšek"><i>Drnovšek</i><par n="Prezime__cog__np"/></e>
+    <e lm="Edison"><i>Edison</i><par n="Prezime__cog__np"/></e>
+    <e lm="Einstein"><i>Einstein</i><par n="Prezime__cog__np"/></e>
+    <e lm="Freud"><i>Freud</i><par n="Prezime__cog__np"/></e>
+    <e lm="Goldstein"><i>Goldstein</i><par n="Prezime__cog__np"/></e>
+    <e lm="Grant"><i>Grant</i><par n="Prezime__cog__np"/></e>
+    <e lm="Hafner"><i>Hafner</i><par n="Prezime__cog__np"/></e>
+    <e lm="Hitler"><i>Hitler</i><par n="Prezime__cog__np"/></e>
+    <e lm="Hočevar"><i>Hočevar</i><par n="Prezime__cog__np"/></e>
+    <e lm="Jefferson"><i>Jefferson</i><par n="Prezime__cog__np"/></e>
+    <e lm="Jones"><i>Jones</i><par n="Prezime__cog__np"/></e>
+    <e lm="Kant"><i>Kant</i><par n="Prezime__cog__np"/></e>
+    <e lm="Kocjan"><i>Kocjan</i><par n="Prezime__cog__np"/></e>
+    <e lm="Kolumb"><i>Kolumb</i><par n="Prezime__cog__np"/></e>
+    <e lm="Krek"><i>Krek</i><par n="Prezime__cog__np"/></e>
+    <e lm="Kučan"><i>Kučan</i><par n="Prezime__cog__np"/></e>
+    <e lm="Lah"><i>Lah</i><par n="Prezime__cog__np"/></e>
+    <e lm="Ludvik"><i>Ludvik</i><par n="Prezime__cog__np"/></e>
+    <e lm="Magellan"><i>Magellan</i><par n="Prezime__cog__np"/></e>
+    <e lm="Marx"><i>Marx</i><par n="Prezime__cog__np"/></e>
+    <e lm="Maver"><i>Maver</i><par n="Prezime__cog__np"/></e>
+    <e lm="Milton"><i>Milton</i><par n="Prezime__cog__np"/></e>
+    <e lm="Mlakar"><i>Mlakar</i><par n="Prezime__cog__np"/></e>
+    <e lm="Nobel"><i>Nobel</i><par n="Prezime__cog__np"/></e>
+    <e lm="Novak"><i>Novak</i><par n="Prezime__cog__np"/></e>
+    <e lm="O'Brien"><i>O'Brien</i><par n="Prezime__cog__np"/></e>
+    <e lm="Parsons"><i>Parsons</i><par n="Prezime__cog__np"/></e>
+    <e lm="Pečan"><i>Pečan</i><par n="Prezime__cog__np"/></e>
+    <e lm="Pilat"><i>Pilat</i><par n="Prezime__cog__np"/></e>
+    <e lm="Plečnik"><i>Plečnik</i><par n="Prezime__cog__np"/></e>
+    <e lm="Plut"><i>Plut</i><par n="Prezime__cog__np"/></e>
+    <e lm="Poljšak"><i>Poljšak</i><par n="Prezime__cog__np"/></e>
+    <e lm="Požarnik"><i>Požarnik</i><par n="Prezime__cog__np"/></e>
+    <e lm="Prešeren"><i>Prešeren</i><par n="Prezime__cog__np"/></e>
+    <e lm="Pretnar"><i>Pretnar</i><par n="Prezime__cog__np"/></e>
+    <e lm="Pukl"><i>Pukl</i><par n="Prezime__cog__np"/></e>
+    <e lm="Puškin"><i>Puškin</i><par n="Prezime__cog__np"/></e>
+    <e lm="Ravnikar"><i>Ravnikar</i><par n="Prezime__cog__np"/></e>
+    <e lm="Romih"><i>Romih</i><par n="Prezime__cog__np"/></e>
+    <e lm="Rus"><i>Rus</i><par n="Prezime__cog__np"/></e>
+    <e lm="Rusjan"><i>Rusjan</i><par n="Prezime__cog__np"/></e>
+    <e lm="Rutherford"><i>Rutherford</i><par n="Prezime__cog__np"/></e>
+    <e lm="Sisinger"><i>Sisinger</i><par n="Prezime__cog__np"/></e>
+    <e lm="Sitar"><i>Sitar</i><par n="Prezime__cog__np"/></e>
+    <e lm="Smith"><i>Smith</i><par n="Prezime__cog__np"/></e>
+    <e lm="Swift"><i>Swift</i><par n="Prezime__cog__np"/></e>
+    <e lm="Tancig"><i>Tancig</i><par n="Prezime__cog__np"/></e>
+    <e lm="Tillotson"><i>Tillotson</i><par n="Prezime__cog__np"/></e>
+    <e lm="Urban"><i>Urban</i><par n="Prezime__cog__np"/></e>
+    <e lm="Valvasor"><i>Valvasor</i><par n="Prezime__cog__np"/></e>
+    <e lm="Vidmar"><i>Vidmar</i><par n="Prezime__cog__np"/></e>
+    <e lm="Vilfan"><i>Vilfan</i><par n="Prezime__cog__np"/></e>
+    <e lm="Washington"><i>Washington</i><par n="Prezime__cog__np"/></e>
+    <e lm="Watson"><i>Watson</i><par n="Prezime__cog__np"/></e>
+    <e lm="Williams"><i>Williams</i><par n="Prezime__cog__np"/></e>
+    <e lm="Wilsher"><i>Wilsher</i><par n="Prezime__cog__np"/></e>
+    <e lm="Wilson"><i>Wilson</i><par n="Prezime__cog__np"/></e>
+    <e lm="Wright"><i>Wright</i><par n="Prezime__cog__np"/></e>
+    <e lm="Zupan"><i>Zupan</i><par n="Prezime__cog__np"/></e>
+    <!--end Surnames ending in -j-->
     <!--Surnames ending in -ov/-ev-->
     <e lm="Bulgakov"><i>Bulgako</i><par n="Bulgako/v__cog__np"/></e>
     <e lm="Popov"><i>Popo</i><par n="Bulgako/v__cog__np"/></e>
@@ -45227,6 +45426,7 @@
     <!--end Surnames ending in -ov/-ev-->
     <!--Cognames ending in -ski-->
     <e lm="Boškovski"><i>Boškov</i><par n="Prezimen/ski__cog__np"/></e>
+    <e lm="Dostojev"><i>Dostojev</i><par n="Prezimen/ski__cog__np"/></e>
     <e lm="Gruevski"><i>Gruev</i><par n="Prezimen/ski__cog__np"/></e>
     <e lm="Milošoski"><i>Milošo</i><par n="Prezimen/ski__cog__np"/></e>
     <e lm="Nikolovski"><i>Nikolov</i><par n="Prezimen/ski__cog__np"/></e>
@@ -46505,15 +46705,141 @@
     <e lm="vojskovođa"><i>vojskovođ</i><par n="koleg/a__n"/></e>
     <e lm="kolumnista"><i>kolumnist</i><par n="koleg/a__n"/></e>
     <!--Antroponyms-->
+    <e lm="Abraham"><i>Abraham</i><par n="Mislav__np"/></e>
+    <e lm="Adam"><i>Adam</i><par n="Mislav__np"/></e>
+    <e lm="Albert"><i>Albert</i><par n="Mislav__np"/></e>
+    <e lm="Albin"><i>Albin</i><par n="Mislav__np"/></e>
+    <e lm="Aleksander"><i>Aleksander</i><par n="Mislav__np"/></e>
+    <e lm="Alfred"><i>Alfred</i><par n="Mislav__np"/></e>
+    <e lm="Andrej"><i>Andrej</i><par n="Matej__np"/></e>
+    <e lm="Anton"><i>Anton</i><par n="Mislav__np"/></e>
+    <e lm="Baal"><i>Baal</i><par n="Mislav__np"/></e>
+    <e lm="Baltazar"><i>Baltazar</i><par n="Mislav__np"/></e>
+    <e lm="Benjamin"><i>Benjamin</i><par n="Mislav__np"/></e>
+    <e lm="Bernard"><i>Bernard</i><par n="Mislav__np"/></e>
+    <e lm="Bob"><i>Bob</i><par n="Mislav__np"/></e>
+    <e lm="Bogdan"><i>Bogdan</i><par n="Mislav__np"/></e>
+    <e lm="Bojan"><i>Bojan</i><par n="Mislav__np"/></e>
+    <e lm="Boris"><i>Boris</i><par n="Mislav__np"/></e>
+    <e lm="Boštjan"><i>Boštjan</i><par n="Mislav__np"/></e>
+    <e lm="Ciril"><i>Ciril</i><par n="Mislav__np"/></e>
+    <e lm="Damjan"><i>Damjan</i><par n="Mislav__np"/></e>
+    <e lm="Dragan"><i>Dragan</i><par n="Mislav__np"/></e>
+    <e lm="Dušan"><i>Dušan</i><par n="Mislav__np"/></e>
+    <e lm="Edvard"><i>Edvard</i><par n="Mislav__np"/></e>
+    <e lm="Emil"><i>Emil</i><par n="Mislav__np"/></e>
+    <e lm="Emmanuel"><i>Emmanuel</i><par n="Mislav__np"/></e>
+    <e lm="Filip"><i>Filip</i><par n="Mislav__np"/></e>
+    <e lm="Fran"><i>Fran</i><par n="Mislav__np"/></e>
+    <e lm="Franc"><i>Franc</i><par n="Matej__np"/></e>
+    <e lm="Gabrijel"><i>Gabrijel</i><par n="Mislav__np"/></e>
+    <e lm="Gregor"><i>Gregor</i><par n="Mislav__np"/></e>
+    <e lm="Gregorij"><i>Gregorij</i><par n="Matej__np"/></e>
+    <e lm="Hamlet"><i>Hamlet</i><par n="Mislav__np"/></e>
+    <e lm="Henrik"><i>Henrik</i><par n="Mislav__np"/></e>
+    <e lm="Hipokrat"><i>Hipokrat</i><par n="Mislav__np"/></e>
+    <e lm="Hubert"><i>Hubert</i><par n="Mislav__np"/></e>
+    <e lm="Ignacij"><i>Ignacij</i><par n="Matej__np"/></e>
+    <e lm="Igor"><i>Igor</i><par n="Mislav__np"/></e>
+    <e lm="Ivan"><i>Ivan</i><par n="Mislav__np"/></e>
+    <e lm="Izak"><i>Izak</i><par n="Mislav__np"/></e>
+    <e lm="Iztok"><i>Iztok</i><par n="Mislav__np"/></e>
+    <e lm="Jakob"><i>Jakob</i><par n="Mislav__np"/></e>
+    <e lm="James"><i>James</i><par n="Mislav__np"/></e>
+    <e lm="Isus"><i>Isus</i><par n="Mislav__np"/></e>
+    <e lm="John"><i>John</i><par n="Mislav__np"/></e>
+    <e lm="Josip"><i>Josip</i><par n="Mislav__np"/></e>
+    <e lm="Jožef"><i>Jožef</i><par n="Mislav__np"/></e>
+    <e lm="Jurij"><i>Jurij</i><par n="Matej__np"/></e>
+    <e lm="Kajn"><i>Kajn</i><par n="Mislav__np"/></e>
+    <e lm="Karel"><i>Karel</i><par n="Mislav__np"/></e>
+    <e lm="Klementin"><i>Klementin</i><par n="Mislav__np"/></e>
+    <e lm="Konstantin"><i>Konstantin</i><par n="Mislav__np"/></e>
+    <e lm="Krištof"><i>Krištof</i><par n="Mislav__np"/></e>
+    <e lm="Krist"><i>Krist</i><par n="Mislav__np"/></e>
+    <e lm="Leopold"><i>Leopold</i><par n="Mislav__np"/></e>
+    <e lm="Lovrenc"><i>Lovrenc</i><par n="Mislav__np"/></e>
+    <e lm="Ludvik"><i>Ludvik</i><par n="Mislav__np"/></e>
+    <e lm="Marcel"><i>Marcel</i><par n="Mislav__np"/></e>
+    <e lm="Marijan"><i>Marijan</i><par n="Mislav__np"/></e>
+    <e lm="Martin"><i>Martin</i><par n="Mislav__np"/></e>
+    <e lm="Matej"><i>Matej</i><par n="Matej__np"/></e>
+    <e lm="Metod"><i>Metod</i><par n="Mislav__np"/></e>
+    <e lm="Mihael"><i>Mihael</i><par n="Mislav__np"/></e>
+    <e lm="Milan"><i>Milan</i><par n="Mislav__np"/></e>
+    <e lm="Oliver"><i>Oliver</i><par n="Mislav__np"/></e>
+    <e lm="Oskar"><i>Oskar</i><par n="Mislav__np"/></e>
+    <e lm="Oton"><i>Oton</i><par n="Mislav__np"/></e>
+    <e lm="Oziris"><i>Oziris</i><par n="Mislav__np"/></e>
+    <e lm="Pankracij"><i>Pankracij</i><par n="Matej__np"/></e>
+    <e lm="Peter"><i>Peter</i><par n="Mislav__np"/></e>
+    <e lm="Rafael"><i>Rafael</i><par n="Mislav__np"/></e>
+    <e lm="Robert"><i>Robert</i><par n="Mislav__np"/></e>
+    <e lm="Roman"><i>Roman</i><par n="Mislav__np"/></e>
+    <e lm="Samuel"><i>Samuel</i><par n="Mislav__np"/></e>
+    <e lm="Simon"><i>Simon</i><par n="Mislav__np"/></e>
+    <e lm="Sokrat"><i>Sokrat</i><par n="Mislav__np"/></e>
+    <e lm="Stalin"><i>Stalin</i><par n="Mislav__np"/></e>
+    <e lm="Tadej"><i>Tadej</i><par n="Matej__np"/></e>
+    <e lm="Tarzan"><i>Tarzan</i><par n="Mislav__np"/></e>
+    <e lm="Tom"><i>Tom</i><par n="Mislav__np"/></e>
+    <e lm="Urban"><i>Urban</i><par n="Mislav__np"/></e>
+    <e lm="Vid"><i>Vid</i><par n="Mislav__np"/></e>
+    <e lm="Viljem"><i>Viljem</i><par n="Mislav__np"/></e>
+    <e lm="Vitodrag"><i>Vitodrag</i><par n="Mislav__np"/></e>
+    <e lm="Vladimir"><i>Vladimir</i><par n="Mislav__np"/></e>
+    <e lm="William"><i>William</i><par n="Mislav__np"/></e>
+    <e lm="Winston"><i>Winston</i><par n="Mislav__np"/></e>
+    <e lm="Zoran"><i>Zoran</i><par n="Mislav__np"/></e>
+    <e lm="Aljaž"><i>Aljaž</i><par n="Matej__np"/></e>
+    <e lm="Ambrož"><i>Ambrož</i><par n="Matej__np"/></e>
+    <e lm="Blaž"><i>Blaž</i><par n="Matej__np"/></e>
+    <e lm="Judež"><i>Judež</i><par n="Matej__np"/></e>
+    <e lm="Matjaž"><i>Matjaž</i><par n="Matej__np"/></e>
+    <e lm="Primož"><i>Primož</i><par n="Matej__np"/></e>
+    <e lm="Tomaž"><i>Tomaž</i><par n="Matej__np"/></e>
+    <e lm="Uroš"><i>Uroš</i><par n="Matej__np"/></e>
+    <e lm="Bogo"><i>Bog</i><par n="Bož/o__np"/></e>
+    <e lm="Božo"><i>Bož</i><par n="Bož/o__np"/></e>
+    <e lm="Branko"><i>Brank</i><par n="Bož/o__np"/></e>
+    <e lm="Darko"><i>Dark</i><par n="Bož/o__np"/></e>
+    <e lm="Drago"><i>Drag</i><par n="Bož/o__np"/></e>
+    <e lm="Janko"><i>Jank</i><par n="Bož/o__np"/></e>
+    <e lm="Jožko"><i>Jožk</i><par n="Bož/o__np"/></e>
+    <e lm="Miro"><i>Mir</i><par n="Bož/o__np"/></e>
+    <e lm="Romeo"><i>Rome</i><par n="Bož/o__np"/></e>
+    <e lm="Sergio"><i>Sergi</i><par n="Bož/o__np"/></e>
+    <e lm="Slavko"><i>Slavk</i><par n="Bož/o__np"/></e>
+    <e lm="Tito"><i>Tit</i><par n="Bož/o__np"/></e>
+    <e lm="Tomo"><i>Tom</i><par n="Bož/o__np"/></e>
+    <e lm="Vinko"><i>Vink</i><par n="Bož/o__np"/></e>
+    <e lm="Vojko"><i>Vojk</i><par n="Bož/o__np"/></e>
+    <e lm="Brane"><i>Bran</i><par n="Ant/e__np"/></e>
+    <e lm="France"><i>Franc</i><par n="Ant/e__np"/></e>
+    <e lm="Jože"><i>Jož</i><par n="Ant/e__np"/></e>
+    <e lm="Jure"><i>Jur</i><par n="Ant/e__np"/></e>
+    <e lm="Pavle"><i>Pavl</i><par n="Ant/e__np"/></e>
+    <e lm="Polde"><i>Pold</i><par n="Ant/e__np"/></e>
+    <e lm="Stane"><i>Stan</i><par n="Ant/e__np"/></e>
+    <e lm="Tine"><i>Tin</i><par n="Ant/e__np"/></e>
+    <e lm="Tone"><i>Ton</i><par n="Ant/e__np"/></e>
     <e lm="Nikola"><i>Nikol</i><par n="Nikol/a__np"/></e>
+    <e lm="Joža"><i>Jož</i><par n="Nikol/a__np"/></e>
     <e lm="Pavao"><i>Pav</i><par n="Pav/ao__np"/></e>
     <e lm="Ivica"><i>Ivic</i><par n="Nikol/a__np"/></e>
     <e lm="Dragiša"><i>Dragiš</i><par n="Nikol/a__np"/></e>
     <e lm="Nemanja"><i>Nemanj</i><par n="Nikol/a__np"/></e>
+    <e lm="Grega"><i>Greg</i><par n="Nikol/a__np"/></e>
+    <e lm="Juda"><i>Jud</i><par n="Nikol/a__np"/></e>
+    <e lm="Luka"><i>Luk</i><par n="Nikol/a__np"/></e>
+    <e lm="Matija"><i>Matij</i><par n="Nikol/a__np"/></e>
+    <e lm="Mitja"><i>Mitj</i><par n="Nikol/a__np"/></e>
+    <e lm="Pitagora"><i>Pitagor</i><par n="Nikol/a__np"/></e>
     <e lm="Aleksandar"><i>Aleksand</i><par n="Pet/ar__np"/></e>
     <e lm="Bajram"><i>Bajram</i><par n="Mislav__np"/></e>
     <e lm="Fatlum"><i>Fatlum</i><par n="Mislav__np"/></e>
     <e lm="Hasan"><i>Hasan</i><par n="Mislav__np"/></e>
+    <e lm="David"><i>David</i><par n="Mislav__np"/></e>
     <!--end Antroponyms-->
     <!--end Masculine nouns-->
     <!--Feminine nouns -->
@@ -48660,6 +48986,7 @@
 
     <!--Toponyms and proper nouns-->
     <e lm="Hrvatska"><i>Hrvat</i><par n="Hrvat/ska__np"/></e>
+    <e lm="Danska"><i>Dan</i><par n="Hrvat/ska__np"/></e>
     <e lm="Turska"><i>Tur</i><par n="Hrvat/ska__np"/></e>
     <e lm="Bugarska"><i>Bugar</i><par n="Hrvat/ska__np"/></e>
     <e lm="Finska"><i>Fin</i><par n="Hrvat/ska__np"/></e>
@@ -48765,6 +49092,80 @@
     <e lm="Marica"><i>Maric</i><par n="An/a__np"/></e>
     <e lm="Anja"><i>Anj</i><par n="Anj/a__np"/></e>
     <e lm="Sandra"><i>Sandr</i><par n="Anj/a__np"/></e>
+
+    <e lm="Katja"><i>Katj</i><par n="Anj/a__np"/></e>
+    <e lm="Joža"><i>Jož</i><par n="Anj/a__np"/></e>
+    <e lm="Ana"><i>An</i><par n="Anj/a__np"/></e>
+    <e lm="Angela"><i>Angel</i><par n="Anj/a__np"/></e>
+    <e lm="Angelca"><i>Angelc</i><par n="Anj/a__np"/></e>
+    <e lm="Barbara"><i>Barbar</i><par n="Anj/a__np"/></e>
+    <e lm="Elizabeta"><i>Elizabet</i><par n="Anj/a__np"/></e>
+    <e lm="Emmanuela"><i>Emmanuel</i><par n="Anj/a__np"/></e>
+    <e lm="Eva"><i>Ev</i><par n="Anj/a__np"/></e>
+    <e lm="Gabrijela"><i>Gabrijel</i><par n="Anj/a__np"/></e>
+    <e lm="Helena"><i>Helen</i><par n="Anj/a__np"/></e>
+    <e lm="Ivana"><i>Ivan</i><par n="Anj/a__np"/></e>
+    <e lm="Lucija"><i>Lucij</i><par n="Anj/a__np"/></e>
+    <e lm="Marija"><i>Marij</i><par n="Anj/a__np"/></e>
+    <e lm="Matilda"><i>Matild</i><par n="Anj/a__np"/></e>
+    <e lm="Milena"><i>Milen</i><par n="Anj/a__np"/></e>
+    <e lm="Minerva"><i>Minerv</i><par n="Anj/a__np"/></e>
+    <e lm="Natalija"><i>Natalij</i><par n="Anj/a__np"/></e>
+    <e lm="Nataša"><i>Nataš</i><par n="Anj/a__np"/></e>
+    <e lm="Nina"><i>Nin</i><par n="Anj/a__np"/></e>
+    <e lm="Olga"><i>Olg</i><par n="Anj/a__np"/></e>
+    <e lm="Pandora"><i>Pandor</i><par n="Anj/a__np"/></e>
+    <e lm="Pavla"><i>Pavl</i><par n="Anj/a__np"/></e>
+    <e lm="Simona"><i>Simon</i><par n="Anj/a__np"/></e>
+    <e lm="Štefanija"><i>Štefanij</i><par n="Anj/a__np"/></e>
+    <e lm="Tanja"><i>Tanj</i><par n="Anj/a__np"/></e>
+    <e lm="Tina"><i>Tin</i><par n="Anj/a__np"/></e>
+    <e lm="Viktorija"><i>Viktorij</i><par n="Anj/a__np"/></e>
+    <e lm="Albina"><i>Albin</i><par n="Anj/a__np"/></e>
+    <e lm="Alenka"><i>Alenk</i><par n="Anj/a__np"/></e>
+    <e lm="Bernarda"><i>Bernard</i><par n="Anj/a__np"/></e>
+    <e lm="Branka"><i>Brank</i><par n="Anj/a__np"/></e>
+    <e lm="Breda"><i>Bred</i><par n="Anj/a__np"/></e>
+    <e lm="Cirila"><i>Ciril</i><par n="Anj/a__np"/></e>
+    <e lm="Cveta"><i>Cvet</i><par n="Anj/a__np"/></e>
+    <e lm="Danica"><i>Danic</i><par n="Anj/a__np"/></e>
+    <e lm="Darinka"><i>Darink</i><par n="Anj/a__np"/></e>
+    <e lm="Doroteja"><i>Dorotej</i><par n="Anj/a__np"/></e>
+    <e lm="Ida"><i>Id</i><par n="Anj/a__np"/></e>
+    <e lm="Iva"><i>Iv</i><par n="Anj/a__np"/></e>
+    <e lm="Ivanka"><i>Ivank</i><par n="Anj/a__np"/></e>
+    <e lm="Jadranka"><i>Jadrank</i><par n="Anj/a__np"/></e>
+    <e lm="Janja"><i>Janj</i><par n="Anj/a__np"/></e>
+    <e lm="Jožica"><i>Jožic</i><par n="Anj/a__np"/></e>
+    <e lm="Julija"><i>Julij</i><par n="Anj/a__np"/></e>
+    <e lm="Katarina"><i>Katarin</i><par n="Anj/a__np"/></e>
+    <e lm="Klara"><i>Klar</i><par n="Anj/a__np"/></e>
+    <e lm="Klementina"><i>Klementin</i><par n="Anj/a__np"/></e>
+    <e lm="Majda"><i>Majd</i><par n="Anj/a__np"/></e>
+    <e lm="Margareta"><i>Margaret</i><par n="Anj/a__np"/></e>
+    <e lm="Marjeta"><i>Marjet</i><par n="Anj/a__np"/></e>
+    <e lm="Mateja"><i>Matej</i><par n="Anj/a__np"/></e>
+    <e lm="Metka"><i>Metk</i><par n="Anj/a__np"/></e>
+    <e lm="Micka"><i>Mick</i><par n="Anj/a__np"/></e>
+    <e lm="Milka"><i>Milk</i><par n="Anj/a__np"/></e>
+    <e lm="Mojca"><i>Mojc</i><par n="Anj/a__np"/></e>
+    <e lm="Nada"><i>Nad</i><par n="Anj/a__np"/></e>
+    <e lm="Neža"><i>Než</i><par n="Anj/a__np"/></e>
+    <e lm="Pivka"><i>Pivk</i><par n="Anj/a__np"/></e>
+    <e lm="Polonca"><i>Polonc</i><par n="Anj/a__np"/></e>
+    <e lm="Rafaela"><i>Rafael</i><par n="Anj/a__np"/></e>
+    <e lm="Rahela"><i>Rahel</i><par n="Anj/a__np"/></e>
+    <e lm="Romana"><i>Roman</i><par n="Anj/a__np"/></e>
+    <e lm="Štefka"><i>Štefk</i><par n="Anj/a__np"/></e>
+    <e lm="Urša"><i>Urš</i><par n="Anj/a__np"/></e>
+    <e lm="Vanja"><i>Vanj</i><par n="Anj/a__np"/></e>
+    <e lm="Vida"><i>Vid</i><par n="Anj/a__np"/></e>
+    <e lm="Vika"><i>Vik</i><par n="Anj/a__np"/></e>
+    <e lm="Jasna"><i>Jasn</i><par n="Anj/a__np"/></e>
+    <e lm="Aleksandra"><i>Aleksandr</i><par n="Anj/a__np"/></e>
+    <e lm="Petra"><i>Petr</i><par n="Anj/a__np"/></e>
+    <e lm="Andreja"><i>Andrej</i><par n="Anj/a__np"/></e>
+
     <!--end Feminine nouns-->
     <!--Other proper nouns-->
     <e lm="Gazela"><i>Gazel</i><par n="Gazel/a__np"/></e>

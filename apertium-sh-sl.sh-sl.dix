@@ -197,11 +197,13 @@
     <pardef n="pl_sgpl">
       <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
       <e r="RL"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="pl"/></l><r><s n="du"/></r></p></e>
     </pardef>
 
     <pardef n="sg_sgpl">
       <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><s n="sg"/></l><r><s n="du"/></r></p></e>
     </pardef>
     
     <pardef n="gen_id">
@@ -1034,7 +1036,7 @@
     <e><p><l>djelujući<s n="adv"/></l><r>delujoč<s n="adv"/></r></p></e>
     <e><p><l>bujno<s n="adv"/></l><r>deroče<s n="adv"/></r></p></e>
     <e><p><l>bujan<s n="adv"/></l><r>deroč<s n="adv"/></r></p></e>
-    <e><p><l>deset puta<s n="adv"/></l><r>desetkrat<s n="adv"/></r></p></e>
+    <e><p><l>deset<b/>puta<s n="adv"/></l><r>desetkrat<s n="adv"/></r></p></e>
     <e><p><l>dječaški<s n="adv"/></l><r>deško<s n="adv"/></r></p></e>
     <e><p><l>devet puta<s n="adv"/></l><r>devetkrat<s n="adv"/></r></p></e>
     <e><p><l>kišovit<s n="adv"/></l><r>deževno<s n="adv"/></r></p></e>
@@ -13291,7 +13293,207 @@
     <!-- Proper nouns -->
     <e><p><l>Ivica<s n="np"/><s n="ant"/></l><r>Janez<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Marica<s n="np"/><s n="ant"/></l><r>Marija<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Pavao<s n="np"/><s n="ant"/></l><r>Pavel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Pavao<s n="np"/><s n="ant"/></l><r>Pavel<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>David<s n="np"/><s n="ant"/></l><r>David<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Aljaž<s n="np"/><s n="ant"/></l><r>Aljaž<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Ambrož<s n="np"/><s n="ant"/></l><r>Ambrož<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Blaž<s n="np"/><s n="ant"/></l><r>Blaž<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Judež<s n="np"/><s n="ant"/></l><r>Judež<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Matjaž<s n="np"/><s n="ant"/></l><r>Matjaž<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Primož<s n="np"/><s n="ant"/></l><r>Primož<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Tomaž<s n="np"/><s n="ant"/></l><r>Tomaž<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Uroš<s n="np"/><s n="ant"/></l><r>Uroš<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+
+    <e><p><l>Katja<s n="np"/><s n="ant"/></l><r>Katja<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Joža<s n="np"/><s n="ant"/></l><r>Joža<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ana<s n="np"/><s n="ant"/></l><r>Ana<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Angela<s n="np"/><s n="ant"/></l><r>Angela<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Angelca<s n="np"/><s n="ant"/></l><r>Angelca<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Barbara<s n="np"/><s n="ant"/></l><r>Barbara<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Elizabeta<s n="np"/><s n="ant"/></l><r>Elizabeta<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Emmanuela<s n="np"/><s n="ant"/></l><r>Emmanuela<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Eva<s n="np"/><s n="ant"/></l><r>Eva<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Gabrijela<s n="np"/><s n="ant"/></l><r>Gabrijela<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Helena<s n="np"/><s n="ant"/></l><r>Helena<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ivana<s n="np"/><s n="ant"/></l><r>Ivana<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lucija<s n="np"/><s n="ant"/></l><r>Lucija<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Marija<s n="np"/><s n="ant"/></l><r>Marija<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Matilda<s n="np"/><s n="ant"/></l><r>Matilda<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Milena<s n="np"/><s n="ant"/></l><r>Milena<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Minerva<s n="np"/><s n="ant"/></l><r>Minerva<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Natalija<s n="np"/><s n="ant"/></l><r>Natalija<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nataša<s n="np"/><s n="ant"/></l><r>Nataša<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nina<s n="np"/><s n="ant"/></l><r>Nina<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Olga<s n="np"/><s n="ant"/></l><r>Olga<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Pandora<s n="np"/><s n="ant"/></l><r>Pandora<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Pavla<s n="np"/><s n="ant"/></l><r>Pavla<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Simona<s n="np"/><s n="ant"/></l><r>Simona<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Štefanija<s n="np"/><s n="ant"/></l><r>Štefanija<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Tanja<s n="np"/><s n="ant"/></l><r>Tanja<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Tina<s n="np"/><s n="ant"/></l><r>Tina<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Viktorija<s n="np"/><s n="ant"/></l><r>Viktorija<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Albina<s n="np"/><s n="ant"/></l><r>Albina<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Alenka<s n="np"/><s n="ant"/></l><r>Alenka<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Bernarda<s n="np"/><s n="ant"/></l><r>Bernarda<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Branka<s n="np"/><s n="ant"/></l><r>Branka<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Breda<s n="np"/><s n="ant"/></l><r>Breda<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Cirila<s n="np"/><s n="ant"/></l><r>Cirila<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Cveta<s n="np"/><s n="ant"/></l><r>Cveta<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Danica<s n="np"/><s n="ant"/></l><r>Danica<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Darinka<s n="np"/><s n="ant"/></l><r>Darinka<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Doroteja<s n="np"/><s n="ant"/></l><r>Doroteja<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ida<s n="np"/><s n="ant"/></l><r>Ida<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Iva<s n="np"/><s n="ant"/></l><r>Iva<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ivanka<s n="np"/><s n="ant"/></l><r>Ivanka<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jadranka<s n="np"/><s n="ant"/></l><r>Jadranka<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Janja<s n="np"/><s n="ant"/></l><r>Janja<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jožica<s n="np"/><s n="ant"/></l><r>Jožica<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Julija<s n="np"/><s n="ant"/></l><r>Julija<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Katarina<s n="np"/><s n="ant"/></l><r>Katarina<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Klara<s n="np"/><s n="ant"/></l><r>Klara<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Klementina<s n="np"/><s n="ant"/></l><r>Klementina<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Majda<s n="np"/><s n="ant"/></l><r>Majda<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Margareta<s n="np"/><s n="ant"/></l><r>Margareta<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Marjeta<s n="np"/><s n="ant"/></l><r>Marjeta<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Mateja<s n="np"/><s n="ant"/></l><r>Mateja<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Metka<s n="np"/><s n="ant"/></l><r>Metka<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Micka<s n="np"/><s n="ant"/></l><r>Micka<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Milka<s n="np"/><s n="ant"/></l><r>Milka<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Mojca<s n="np"/><s n="ant"/></l><r>Mojca<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nada<s n="np"/><s n="ant"/></l><r>Nada<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Neža<s n="np"/><s n="ant"/></l><r>Neža<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Pivka<s n="np"/><s n="ant"/></l><r>Pivka<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Polonca<s n="np"/><s n="ant"/></l><r>Polonca<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rafaela<s n="np"/><s n="ant"/></l><r>Rafaela<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rahela<s n="np"/><s n="ant"/></l><r>Rahela<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Romana<s n="np"/><s n="ant"/></l><r>Romana<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Štefka<s n="np"/><s n="ant"/></l><r>Štefka<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Urša<s n="np"/><s n="ant"/></l><r>Urša<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Vanja<s n="np"/><s n="ant"/></l><r>Vanja<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Vida<s n="np"/><s n="ant"/></l><r>Vida<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Vika<s n="np"/><s n="ant"/></l><r>Vika<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jasna<s n="np"/><s n="ant"/></l><r>Jasna<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Aleksandra<s n="np"/><s n="ant"/></l><r>Aleksandra<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Petra<s n="np"/><s n="ant"/></l><r>Petra<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Andreja<s n="np"/><s n="ant"/></l><r>Andreja<s n="np"/><s n="ant"/></r></p></e>
+
+    <e><p><l>Abraham<s n="np"/><s n="ant"/></l><r>Abraham<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Adam<s n="np"/><s n="ant"/></l><r>Adam<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Albert<s n="np"/><s n="ant"/></l><r>Albert<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Albin<s n="np"/><s n="ant"/></l><r>Albin<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Aleksander<s n="np"/><s n="ant"/></l><r>Aleksander<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Alfred<s n="np"/><s n="ant"/></l><r>Alfred<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Andrej<s n="np"/><s n="ant"/></l><r>Andrej<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Anton<s n="np"/><s n="ant"/></l><r>Anton<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Baal<s n="np"/><s n="ant"/></l><r>Baal<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Baltazar<s n="np"/><s n="ant"/></l><r>Baltazar<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Benjamin<s n="np"/><s n="ant"/></l><r>Benjamin<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Bernard<s n="np"/><s n="ant"/></l><r>Bernard<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Bob<s n="np"/><s n="ant"/></l><r>Bob<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Bogdan<s n="np"/><s n="ant"/></l><r>Bogdan<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Bogo<s n="np"/><s n="ant"/></l><r>Bogo<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Bojan<s n="np"/><s n="ant"/></l><r>Bojan<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Boris<s n="np"/><s n="ant"/></l><r>Boris<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Boštjan<s n="np"/><s n="ant"/></l><r>Boštjan<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Božo<s n="np"/><s n="ant"/></l><r>Božo<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Brane<s n="np"/><s n="ant"/></l><r>Brane<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Branko<s n="np"/><s n="ant"/></l><r>Branko<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Ciril<s n="np"/><s n="ant"/></l><r>Ciril<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Damjan<s n="np"/><s n="ant"/></l><r>Damjan<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Darko<s n="np"/><s n="ant"/></l><r>Darko<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Dragan<s n="np"/><s n="ant"/></l><r>Dragan<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Drago<s n="np"/><s n="ant"/></l><r>Drago<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Dušan<s n="np"/><s n="ant"/></l><r>Dušan<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Edvard<s n="np"/><s n="ant"/></l><r>Edvard<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Emil<s n="np"/><s n="ant"/></l><r>Emil<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Emmanuel<s n="np"/><s n="ant"/></l><r>Emmanuel<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Filip<s n="np"/><s n="ant"/></l><r>Filip<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Fran<s n="np"/><s n="ant"/></l><r>Fran<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Franc<s n="np"/><s n="ant"/></l><r>Franc<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>France<s n="np"/><s n="ant"/></l><r>France<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Gabrijel<s n="np"/><s n="ant"/></l><r>Gabrijel<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Grega<s n="np"/><s n="ant"/></l><r>Grega<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Gregor<s n="np"/><s n="ant"/></l><r>Gregor<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Gregorij<s n="np"/><s n="ant"/></l><r>Gregorij<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Hamlet<s n="np"/><s n="ant"/></l><r>Hamlet<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Henrik<s n="np"/><s n="ant"/></l><r>Henrik<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Hipokrat<s n="np"/><s n="ant"/></l><r>Hipokrat<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Hubert<s n="np"/><s n="ant"/></l><r>Hubert<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Ignacij<s n="np"/><s n="ant"/></l><r>Ignacij<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Igor<s n="np"/><s n="ant"/></l><r>Igor<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Ivan<s n="np"/><s n="ant"/></l><r>Ivan<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Izak<s n="np"/><s n="ant"/></l><r>Izak<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Iztok<s n="np"/><s n="ant"/></l><r>Iztok<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Jakob<s n="np"/><s n="ant"/></l><r>Jakob<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>James<s n="np"/><s n="ant"/></l><r>James<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Janko<s n="np"/><s n="ant"/></l><r>Janko<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Isus<s n="np"/><s n="ant"/></l><r>Jezus<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>John<s n="np"/><s n="ant"/></l><r>John<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Josip<s n="np"/><s n="ant"/></l><r>Josip<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Jože<s n="np"/><s n="ant"/></l><r>Jože<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Jožef<s n="np"/><s n="ant"/></l><r>Jožef<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Jožko<s n="np"/><s n="ant"/></l><r>Jožko<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Juda<s n="np"/><s n="ant"/></l><r>Juda<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Jure<s n="np"/><s n="ant"/></l><r>Jure<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Jurij<s n="np"/><s n="ant"/></l><r>Jurij<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Kajn<s n="np"/><s n="ant"/></l><r>Kajn<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Karel<s n="np"/><s n="ant"/></l><r>Karel<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Klementin<s n="np"/><s n="ant"/></l><r>Klementin<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Konstantin<s n="np"/><s n="ant"/></l><r>Konstantin<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Krištof<s n="np"/><s n="ant"/></l><r>Krištof<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Krist<s n="np"/><s n="ant"/></l><r>Kristus<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Leopold<s n="np"/><s n="ant"/></l><r>Leopold<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Lovrenc<s n="np"/><s n="ant"/></l><r>Lovrenc<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Ludvik<s n="np"/><s n="ant"/></l><r>Ludvik<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Luka<s n="np"/><s n="ant"/></l><r>Luka<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Marcel<s n="np"/><s n="ant"/></l><r>Marcel<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Marijan<s n="np"/><s n="ant"/></l><r>Marijan<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Martin<s n="np"/><s n="ant"/></l><r>Martin<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Matej<s n="np"/><s n="ant"/></l><r>Matej<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Matija<s n="np"/><s n="ant"/></l><r>Matija<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Metod<s n="np"/><s n="ant"/></l><r>Metod<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Mihael<s n="np"/><s n="ant"/></l><r>Mihael<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Milan<s n="np"/><s n="ant"/></l><r>Milan<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Miro<s n="np"/><s n="ant"/></l><r>Miro<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Mitja<s n="np"/><s n="ant"/></l><r>Mitja<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Oliver<s n="np"/><s n="ant"/></l><r>Oliver<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Oskar<s n="np"/><s n="ant"/></l><r>Oskar<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Oton<s n="np"/><s n="ant"/></l><r>Oton<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Oziris<s n="np"/><s n="ant"/></l><r>Oziris<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Pankracij<s n="np"/><s n="ant"/></l><r>Pankracij<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Pavle<s n="np"/><s n="ant"/></l><r>Pavle<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Peter<s n="np"/><s n="ant"/></l><r>Peter<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Pitagora<s n="np"/><s n="ant"/></l><r>Pitagora<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Polde<s n="np"/><s n="ant"/></l><r>Polde<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Rafael<s n="np"/><s n="ant"/></l><r>Rafael<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Robert<s n="np"/><s n="ant"/></l><r>Robert<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Roman<s n="np"/><s n="ant"/></l><r>Roman<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Romeo<s n="np"/><s n="ant"/></l><r>Romeo<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Samuel<s n="np"/><s n="ant"/></l><r>Samuel<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Sergio<s n="np"/><s n="ant"/></l><r>Sergio<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Simon<s n="np"/><s n="ant"/></l><r>Simon<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Slavko<s n="np"/><s n="ant"/></l><r>Slavko<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Sokrat<s n="np"/><s n="ant"/></l><r>Sokrat<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Stalin<s n="np"/><s n="ant"/></l><r>Stalin<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Stane<s n="np"/><s n="ant"/></l><r>Stane<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Tadej<s n="np"/><s n="ant"/></l><r>Tadej<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Tarzan<s n="np"/><s n="ant"/></l><r>Tarzan<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Tine<s n="np"/><s n="ant"/></l><r>Tine<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Tito<s n="np"/><s n="ant"/></l><r>Tito<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Tom<s n="np"/><s n="ant"/></l><r>Tom<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Tomo<s n="np"/><s n="ant"/></l><r>Tomo<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Tone<s n="np"/><s n="ant"/></l><r>Tone<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Urban<s n="np"/><s n="ant"/></l><r>Urban<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Vid<s n="np"/><s n="ant"/></l><r>Vid<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Viljem<s n="np"/><s n="ant"/></l><r>Viljem<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Vinko<s n="np"/><s n="ant"/></l><r>Vinko<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Vitodrag<s n="np"/><s n="ant"/></l><r>Vitodrag<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Vladimir<s n="np"/><s n="ant"/></l><r>Vladimir<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Vojko<s n="np"/><s n="ant"/></l><r>Vojko<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>William<s n="np"/><s n="ant"/></l><r>William<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Winston<s n="np"/><s n="ant"/></l><r>Winston<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+    <e><p><l>Zoran<s n="np"/><s n="ant"/></l><r>Zoran<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl"/></e>
+
 
     <!-- Toponyms -->
     <e><p><l>Lucija<s n="np"/><s n="ant"/></l><r>Lucija<s n="np"/><s n="top"/></r></p></e>
@@ -13331,6 +13533,7 @@
     <e><p><l>Skandinavija<s n="np"/><s n="top"/></l><r>Skandinavija<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Slovenija<s n="np"/><s n="top"/></l><r>Slovenija<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Srbija<s n="np"/><s n="top"/></l><r>Srbija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Danska<s n="np"/><s n="top"/><s n="f"/></l><r>Dansko<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 
 
     <!-- Cognames -->
@@ -13630,6 +13833,107 @@
     <e><p><l>Stanišev<s n="np"/><s n="cog"/></l><r>Stanišev<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Velčev<s n="np"/><s n="cog"/></l><r>Velčev<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Žečev<s n="np"/><s n="cog"/></l><r>Žečev<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+
+<e><p><l>Aaronson<s n="np"/><s n="cog"/></l><r>Aaronson<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Albreht<s n="np"/><s n="cog"/></l><r>Albreht<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Aljaž<s n="np"/><s n="cog"/></l><r>Aljaž<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Ambrož<s n="np"/><s n="cog"/></l><r>Ambrož<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Armstrong<s n="np"/><s n="cog"/></l><r>Armstrong<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Bach<s n="np"/><s n="cog"/></l><r>Bach<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Bailey<s n="np"/><s n="cog"/></l><r>Bailey<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Bavčar<s n="np"/><s n="cog"/></l><r>Bavčar<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Bizjak<s n="np"/><s n="cog"/></l><r>Bizjak<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Borštner<s n="np"/><s n="cog"/></l><r>Borštner<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Borštnik<s n="np"/><s n="cog"/></l><r>Borštnik<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Byron<s n="np"/><s n="cog"/></l><r>Byron<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Cankar<s n="np"/><s n="cog"/></l><r>Cankar<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Cezar<s n="np"/><s n="cog"/></l><r>Cezar<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Chaucer<s n="np"/><s n="cog"/></l><r>Chaucer<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Churchill<s n="np"/><s n="cog"/></l><r>Churchill<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Clinton<s n="np"/><s n="cog"/></l><r>Clinton<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Cromwell<s n="np"/><s n="cog"/></l><r>Cromwell<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Darwin<s n="np"/><s n="cog"/></l><r>Darwin<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Debelak<s n="np"/><s n="cog"/></l><r>Debelak<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Demšar<s n="np"/><s n="cog"/></l><r>Demšar<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Dickens<s n="np"/><s n="cog"/></l><r>Dickens<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Dobrajc<s n="np"/><s n="cog"/></l><r>Dobrajc<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Dostojevski<s n="np"/><s n="cog"/></l><r>Dostojevski<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Dragan<s n="np"/><s n="cog"/></l><r>Dragan<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Drnovšek<s n="np"/><s n="cog"/></l><r>Drnovšek<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Edison<s n="np"/><s n="cog"/></l><r>Edison<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Einstein<s n="np"/><s n="cog"/></l><r>Einstein<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Francaa<s n="np"/><s n="cog"/></l><r>Francaa<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Freud<s n="np"/><s n="cog"/></l><r>Freud<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Gaspari<s n="np"/><s n="cog"/></l><r>Gaspari<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Geržina<s n="np"/><s n="cog"/></l><r>Geržina<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Goldstein<s n="np"/><s n="cog"/></l><r>Goldstein<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Grant<s n="np"/><s n="cog"/></l><r>Grant<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Hafner<s n="np"/><s n="cog"/></l><r>Hafner<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Hitler<s n="np"/><s n="cog"/></l><r>Hitler<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Hočevar<s n="np"/><s n="cog"/></l><r>Hočevar<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Janko<s n="np"/><s n="cog"/></l><r>Janko<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Janša<s n="np"/><s n="cog"/></l><r>Janša<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Jefferson<s n="np"/><s n="cog"/></l><r>Jefferson<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Jelinčič<s n="np"/><s n="cog"/></l><r>Jelinčič<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Jones<s n="np"/><s n="cog"/></l><r>Jones<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Kant<s n="np"/><s n="cog"/></l><r>Kant<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Kavčič<s n="np"/><s n="cog"/></l><r>Kavčič<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Kocjan<s n="np"/><s n="cog"/></l><r>Kocjan<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Kolumb<s n="np"/><s n="cog"/></l><r>Kolumb<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Krek<s n="np"/><s n="cog"/></l><r>Krek<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Kučan<s n="np"/><s n="cog"/></l><r>Kučan<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Lah<s n="np"/><s n="cog"/></l><r>Lah<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Ludvik<s n="np"/><s n="cog"/></l><r>Ludvik<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Magellan<s n="np"/><s n="cog"/></l><r>Magellan<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Marko<s n="np"/><s n="cog"/></l><r>Marko<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Marx<s n="np"/><s n="cog"/></l><r>Marx<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Matuš<s n="np"/><s n="cog"/></l><r>Matuš<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Maver<s n="np"/><s n="cog"/></l><r>Maver<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Milton<s n="np"/><s n="cog"/></l><r>Milton<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Miro<s n="np"/><s n="cog"/></l><r>Miro<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Mlakar<s n="np"/><s n="cog"/></l><r>Mlakar<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Nobel<s n="np"/><s n="cog"/></l><r>Nobel<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Novak<s n="np"/><s n="cog"/></l><r>Novak<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>O'Brien<s n="np"/><s n="cog"/></l><r>O'Brien<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Parsons<s n="np"/><s n="cog"/></l><r>Parsons<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Pečan<s n="np"/><s n="cog"/></l><r>Pečan<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Pilat<s n="np"/><s n="cog"/></l><r>Pilat<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Plečnik<s n="np"/><s n="cog"/></l><r>Plečnik<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Plut<s n="np"/><s n="cog"/></l><r>Plut<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Poljšak<s n="np"/><s n="cog"/></l><r>Poljšak<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Požarnik<s n="np"/><s n="cog"/></l><r>Požarnik<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Prešeren<s n="np"/><s n="cog"/></l><r>Prešeren<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Pretnar<s n="np"/><s n="cog"/></l><r>Pretnar<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Pukl<s n="np"/><s n="cog"/></l><r>Pukl<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Puškin<s n="np"/><s n="cog"/></l><r>Puškin<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Ravnikar<s n="np"/><s n="cog"/></l><r>Ravnikar<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Rejc<s n="np"/><s n="cog"/></l><r>Rejc<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Romih<s n="np"/><s n="cog"/></l><r>Romih<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Rus<s n="np"/><s n="cog"/></l><r>Rus<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Rusjan<s n="np"/><s n="cog"/></l><r>Rusjan<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Rutherford<s n="np"/><s n="cog"/></l><r>Rutherford<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Shakespeare<s n="np"/><s n="cog"/></l><r>Shakespeare<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Sisinger<s n="np"/><s n="cog"/></l><r>Sisinger<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Sitar<s n="np"/><s n="cog"/></l><r>Sitar<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Smith<s n="np"/><s n="cog"/></l><r>Smith<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Swift<s n="np"/><s n="cog"/></l><r>Swift<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Tancig<s n="np"/><s n="cog"/></l><r>Tancig<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Tillotson<s n="np"/><s n="cog"/></l><r>Tillotson<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Tolstoj<s n="np"/><s n="cog"/></l><r>Tolstoj<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Tomšič<s n="np"/><s n="cog"/></l><r>Tomšič<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Urban<s n="np"/><s n="cog"/></l><r>Urban<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Valvasor<s n="np"/><s n="cog"/></l><r>Valvasor<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Vidmar<s n="np"/><s n="cog"/></l><r>Vidmar<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Vilfan<s n="np"/><s n="cog"/></l><r>Vilfan<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Voltaire<s n="np"/><s n="cog"/></l><r>Voltaire<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Washington<s n="np"/><s n="cog"/></l><r>Washington<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Watson<s n="np"/><s n="cog"/></l><r>Watson<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Williams<s n="np"/><s n="cog"/></l><r>Williams<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Wilsher<s n="np"/><s n="cog"/></l><r>Wilsher<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Wilson<s n="np"/><s n="cog"/></l><r>Wilson<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Wright<s n="np"/><s n="cog"/></l><r>Wright<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Zdovc<s n="np"/><s n="cog"/></l><r>Zdovc<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+<e><p><l>Zupan<s n="np"/><s n="cog"/></l><r>Zupan<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
 
     <e><p><l>Abazović<s n="np"/><s n="cog"/></l><r>Abazović<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Abramović<s n="np"/><s n="cog"/></l><r>Abramović<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
@@ -16284,7 +16588,6 @@
     
     <e><p><l>da<s n="part"/></l><r>da<s n="part"/></r></p></e>
     <e><p><l>evo<s n="part"/></l><r>evo<s n="part"/></r></p></e>
-    <e><p><l>da</l><r>da</r></p></e>
     <e><p><l>ne<s n="part"/><s n="neg"/></l><r>ne<s n="part"/></r></p></e>
     <e><p><l>ne<s n="part"/><s n="neg"/></l><r>ne<s n="cnjcoo"/></r></p></e><!--?-->
 
