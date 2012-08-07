@@ -978,19 +978,13 @@
 			<choose>
 				<when>
 					<test>
-					<or>
 						<equal>
 							<clip pos="1" side="sl" part="tns"/>
 							<lit-tag v="lp"/>
 						</equal>
-						<equal>
-							<clip pos="1" side="sl" part="tns"/>
-							<lit-tag v="pii"/>
-						</equal>
-					</or>
-				</test>	
+					</test>	
 				<out>
-					<chunk name="BitiVbser_LP_PII" case="caseFirstWord">
+					<chunk name="BitiVbser_LP" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1004,9 +998,45 @@
 					</chunk>
 				</out>
 				</when>
+				<when>
+					<test>
+						<or>
+							<equal>
+								<clip pos="1" side="sl" part="tns"/>
+								<lit-tag v="pii"/>
+							</equal>
+							<equal>
+								<clip pos="1" side="sl" part="tns"/>
+								<lit-tag v="aor"/>
+							</equal>
+						</or>
+					</test>	
+				<out>
+					<chunk name="BitiVbser_PII_AOR" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+							<lit v="biti"/>
+							<lit-tag v="vbser.pres"/>
+							<clip pos="1" side="tl" part="prs"/>
+							<clip pos="1" side="tl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<clip pos="1" side="tl" part="lemh"/>
+							<clip pos="1" side="tl" part="a_vrb"/>
+							<lit-tag v="past"/>
+							<clip pos="1" side="tl" part="gen"/>
+							<clip pos="1" side="tl" part="nbr"/>
+						</lu>
+					</chunk>
+				</out>
+				</when>
 			</choose>
 		</action>
 	</rule>
+
     
 
     <rule comment="pr">
