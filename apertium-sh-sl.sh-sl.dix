@@ -6871,6 +6871,10 @@
     <e r="LR"><p><l>biti<s n="vbser"/><s n="clt"/><s n="aor"/></l><r>biti<s n="vbser"/><s n="cni"/></r></p><par n="prs2null"/><par n="nbr2null"/></e>
     <e r="RL"><p><l>biti<s n="vbser"/><s n="clt"/><s n="aor"/><s n="p3"/><s n="sg"/></l><r>biti<s n="vbser"/><s n="cni"/></r></p></e><!--Temporary, will be matched in transfer-->
 
+	<!-- BITI vblex -> BITI vblex --> <!-- Krvoje? Bo v redu? -->
+    <e><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e>
+	
+
     <!-- vbhaver -> vblex ==> Added rule -->
     <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>imetak<s n="n"/><s n="mi"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="ger"/><s n="nt"/></r></p></e>
