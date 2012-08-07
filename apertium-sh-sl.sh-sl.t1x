@@ -221,6 +221,9 @@
     <def-cat n="biti_vbser">
       <cat-item lemma="biti" tags="vbser.*"/>
     </def-cat>
+    <def-cat n="imati_vbhaver">
+      <cat-item lemma="imati" tags="vbhaver.*"/>
+    </def-cat>
     <def-cat n="biti_clt">
       <cat-item lemma="biti" tags="vbser.clt.*"/>
     </def-cat>
@@ -1049,6 +1052,72 @@
 						<lu>
 							<clip pos="1" side="tl" part="lemh"/>
 							<clip pos="1" side="tl" part="a_vrb"/>
+							<lit-tag v="past.m"/> <!-- no gender on SH side -->
+							<clip pos="1" side="tl" part="nbr"/>
+						</lu>
+					</chunk>
+				</out>
+				</when>
+			</choose>
+		</action>
+	</rule>
+	
+	<rule comment="Imati vbhaver">
+      <pattern>
+	<pattern-item n="imati_vbhaver"/>
+      </pattern>
+		<action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+			<choose>
+				<when>
+					<test>
+						<equal>
+							<clip pos="1" side="sl" part="tns"/>
+							<lit-tag v="lp"/>
+						</equal>
+					</test>	
+				<out>
+					<chunk name="ImatiVbhaver_lp" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+							<clip pos="1" side="tl" part="lemh"/>
+							<clip pos="1" side="tl" part="a_vrb"/>
+							<clip pos="1" side="tl" part="asp"/>
+							<clip pos="1" side="tl" part="trn"/>
+							<lit-tag v="past"/>
+							<clip pos="1" side="sl" part="gen"/>
+							<clip pos="1" side="tl" part="nbr"/>
+						</lu>
+					</chunk>
+				</out>
+				</when>
+				<when>
+					<test>
+						<equal>
+							<clip pos="1" side="sl" part="tns"/>
+							<lit-tag v="pii"/>
+						</equal>
+					</test>	
+				<out>
+					<chunk name="ImatiVbhaver_PII" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+							<lit v="biti"/>
+							<lit-tag v="vbser.pres"/>
+							<clip pos="1" side="tl" part="prs"/>
+							<clip pos="1" side="tl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<clip pos="1" side="tl" part="lemh"/>
+							<clip pos="1" side="tl" part="a_vrb"/>
+							<clip pos="1" side="tl" part="asp"/>
+							<clip pos="1" side="tl" part="trn"/>
 							<lit-tag v="past.m"/> <!-- no gender on SH side -->
 							<clip pos="1" side="tl" part="nbr"/>
 						</lu>
