@@ -992,7 +992,7 @@
 							<clip pos="1" side="tl" part="lemh"/>
 							<clip pos="1" side="tl" part="a_vrb"/>
 							<lit-tag v="past"/>
-							<clip pos="1" side="tl" part="gen"/>
+							<clip pos="1" side="sl" part="gen"/>
 							<clip pos="1" side="tl" part="nbr"/>
 						</lu>
 					</chunk>
@@ -1000,19 +1000,13 @@
 				</when>
 				<when>
 					<test>
-						<or>
-							<equal>
-								<clip pos="1" side="sl" part="tns"/>
-								<lit-tag v="pii"/>
-							</equal>
-							<equal>
-								<clip pos="1" side="sl" part="tns"/>
-								<lit-tag v="aor"/>
-							</equal>
-						</or>
+						<equal>
+							<clip pos="1" side="sl" part="tns"/>
+							<lit-tag v="aor"/>
+						</equal>
 					</test>	
 				<out>
-					<chunk name="BitiVbser_PII_AOR" case="caseFirstWord">
+					<chunk name="BitiVbser_AOR" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1028,6 +1022,34 @@
 							<clip pos="1" side="tl" part="a_vrb"/>
 							<lit-tag v="past"/>
 							<clip pos="1" side="tl" part="gen"/>
+							<clip pos="1" side="tl" part="nbr"/>
+						</lu>
+					</chunk>
+				</out>
+				</when>
+				<when>
+					<test>
+						<equal>
+							<clip pos="1" side="sl" part="tns"/>
+							<lit-tag v="pii"/>
+						</equal>
+					</test>	
+				<out>
+					<chunk name="BitiVbser_PII" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+							<lit v="biti"/>
+							<lit-tag v="vbser.pres"/>
+							<clip pos="1" side="tl" part="prs"/>
+							<clip pos="1" side="tl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<clip pos="1" side="tl" part="lemh"/>
+							<clip pos="1" side="tl" part="a_vrb"/>
+							<lit-tag v="past.m"/> <!-- no gender on SH side -->
 							<clip pos="1" side="tl" part="nbr"/>
 						</lu>
 					</chunk>
