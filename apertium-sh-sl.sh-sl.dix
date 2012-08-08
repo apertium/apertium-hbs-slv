@@ -486,6 +486,7 @@
     <e><p><l>nešto<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>nekaj<s n="prn"/><s n="ind"/><s n="sg"/></r></p></e>
     <e><p><l>ništa<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/></l><r>nič<s n="prn"/><s n="neg"/><s n="sg"/></r></p></e>
 
+
     
     <e r="LR"><p><l>koješta<s n="prn"/><s n="ind"/></l><r>katerikoli<s n="prn"/><s n="ind"/></r></p><par n="mfnsp2gen_sg"/></e>
     <e><p><l>ikakav<s n="prn"/><s n="ind"/></l><r>kakršenkoli<s n="prn"/><s n="ind"/></r></p></e>
@@ -495,17 +496,26 @@
     <e><p><l>ovolik<s n="prn"/><s n="dem"/></l><r>tolik<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>svačiji<s n="prn"/><s n="tot"/></l><r>vsak<s n="prn"/><s n="tot"/></r></p></e>
     <e><p><l>drugačiji<s n="adj"/><s n="pst"/></l><r>drugačen<s n="prn"/><s n="ind"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
+
+    <e><p><l>nitko<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/></l><r>nihče<s n="prn"/><s n="neg"/></r></p></e>
+    <e><p><l>nijedan<s n="adj"/></l><r>noben<s n="prn"/><s n="ind"/><s n="neg"/></r></p></e>
+
+    <!--Stranger entries-->
     
     <!-- Transfer rule needed for these entries -->
     <e r="LR"><p><l>gdjekoji<s n="prn"/><s n="ind"/></l><r>katerikoli<s n="prn"/><s n="ind"/></r></p></e>
     
     <e><p><l>nečiji<s n="prn"/><s n="ind"/></l><r>od<b/>nekoga<s n="prn"/><s n="ind"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e> 
-    <!-- od nekoga => "Našao sam nečiji mobitel" - "I found someone's cellphone" - "Našel sem od nekoga mobitel" -->
-    
+    <!-- od nekoga => "Našao sam nečiji mobitel" - "I found someone's cellphone" - "Našel sem od nekoga mobitel" -->    
     <e><p><l>ničiji<s n="prn"/><s n="neg"/></l><r>od<b/>nobenega<s n="prn"/><s n="neg"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e> 
     <!-- od nobenega => "Ovaj automobil nije ničiji" - "This is nobody's car" - "Ta avtomobil ni od nobenega" OR "Ničiji automobil nije crven" - "Nobody's car is red" - "Od nobenega avtomobil ni rdeč"; -->
-    <e><p><l>nitko<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/></l><r>nihče<s n="prn"/><s n="neg"/></r></p></e>
-    <e><p><l>nijedan<s n="adj"/></l><r>noben<s n="prn"/><s n="ind"/><s n="neg"/></r></p></e>
+
+
+    <!--This two entries don't have a straightforward translation to sh-->
+    <e r="RL"><p><l>mnogi<s n="adj"/><s n="pst"/></l><r>marsikateri<s n="prn"/><s n="ind"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
+    <e r="RL"><p><l>mnogi<s n="adj"/><s n="pst"/><s n="mi"/><s n="pl"/></l><r>marsikdo<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/></r></p><par n="cas_id"/><par n="def2null"/></e>
+
+    <!--end Stranger entries-->
 
 
     <!--Adverbs-->
