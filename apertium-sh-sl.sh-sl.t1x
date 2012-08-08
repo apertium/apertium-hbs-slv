@@ -1085,10 +1085,16 @@
 			<choose>
 				<when>
 					<test>
-						<equal>
-							<clip pos="1" side="sl" part="tns"/>
-							<lit-tag v="lp"/>
-						</equal>
+						<or>
+							<equal>
+								<clip pos="1" side="sl" part="tns"/>
+								<lit-tag v="ref.lp"/>
+							</equal>
+							<equal>
+								<clip pos="1" side="sl" part="tns"/>
+								<lit-tag v="lp"/>
+							</equal>
+						</or>
 					</test>	
 				<out>
 					<chunk name="ImatiVbhaver_lp" case="caseFirstWord">
