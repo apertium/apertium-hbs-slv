@@ -6886,8 +6886,8 @@
     <e r="LR"><p><l>biti<s n="vbser"/><s n="clt"/><s n="aor"/></l><r>biti<s n="vbser"/><s n="cni"/></r></p><par n="prs2null"/><par n="nbr2null"/></e>
     <e r="RL"><p><l>biti<s n="vbser"/><s n="clt"/><s n="aor"/><s n="p3"/><s n="sg"/></l><r>biti<s n="vbser"/><s n="cni"/></r></p></e><!--Temporary, will be matched in transfer-->
 
-	<!-- BITI vblex -> BITI vblex --> <!-- Krvoje? Bo v redu? -->
-    <e><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e>
+    <!-- BITI vblex -> BITI vblex --> <!-- Krvoje? Bo v redu? --><!--Krvoje: Mislim da ne, trebali bi ili maknuti skroz ili dodati biti<vblex> u slo-->
+    <!-- <e><p><l>biti<s n="vblex"/></l><r>biti<s n="vbser"/></r></p></e> -->
 	
 
     <!-- vbhaver -> vblex ==> Added rule -->
