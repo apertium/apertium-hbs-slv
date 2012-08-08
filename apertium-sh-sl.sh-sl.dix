@@ -312,7 +312,7 @@
       <e><i><s n="gen"/></i></e>
       <e><i><s n="dat"/></i></e>
       <e><i><s n="acc"/></i></e>
-      <e><i><s n="voc"/></i></e>
+      <e><p><l><s n="voc"/></l><r><s n="nom"/></r></p></e>
       <e><i><s n="loc"/></i></e>
       <e><i><s n="ins"/></i></e>
     </pardef>
@@ -404,7 +404,7 @@
     <e><p><l>sav<s n="prn"/><s n="tot"/></l><r>ves<s n="prn"/><s n="ind"/></r></p></e><!--TODO: Check-->
     <e r="RL"><p><l>sav<s n="prn"/><s n="tot"/></l><r>vse<s n="prn"/><s n="ind"/></r></p></e><!--TODO: Check-->
     <e><p><l>sav<s n="prn"/><s n="tot"/></l><r>vse<s n="prn"/><s n="tot"/></r></p><par n="gen_id"/></e><!--TODO: Check-->
-    <e><p><l>sve<s n="prn"/><s n="tot"/><s n="mfn"/></l><r>ves<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e><!--TODO: Check-->
+    <e><p><l>sve<s n="prn"/><s n="tot"/><s n="mfn"/></l><r>ves<s n="prn"/><s n="ind"/><s n="nt"/></r></p><par n="pl_sgpl"/></e><!--TODO: Check-->
     <e r="RL"><p><l>sve<s n="prn"/><s n="tot"/><s n="mfn"/><s n="pl"/></l><r>vse<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/></r></p></e><!--TODO: Check-->
     <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>njen<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
 
@@ -442,8 +442,7 @@
     <e><p><l>koji<s n="prn"/><s n="itg"/></l><r>kateri<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>koji<s n="prn"/><s n="rel"/></l><r>kateri<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>kakav<s n="prn"/><s n="rel"/></l><r>kakšen<s n="prn"/><s n="itg"/></r></p></e>
-    <e><p><l>kakav<s n="prn"/><s n="itg"/></l><r>kakšen<s n="prn"/><s n="itg"/></r></p></e>
-    <e r="RL"><p><l>kakav<s n="prn"/><s n="rel"/></l><r>kakršen<s n="prn"/><s n="rel"/></r></p></e>
+    <e><p><l>kakav<s n="prn"/><s n="rel"/></l><r>kakršen<s n="prn"/><s n="rel"/></r></p></e>
     <e r="RL"><p><l>kakav<s n="prn"/><s n="itg"/></l><r>kak<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>čiji<s n="prn"/><s n="itg"/></l><r>čigav<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>čiji<s n="prn"/><s n="rel"/></l><r>čigar<s n="prn"/><s n="rel"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e>
