@@ -38,6 +38,7 @@
     <sdef n="aor" c="Aorist"/>
     <sdef n="fti" c="Future indicative"/>
     <sdef n="imp" c="Imperative"/>
+    <sdef n="fut" c="Future SL"/>
     <sdef n="futI" c="Future I"/>
     <sdef n="futII" c="Future II"/>
 
@@ -6897,68 +6898,41 @@
     <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pres"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pres"/></r></p></e>
     <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pres"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="neg"/></r></p></e>
 
+	<!-- HTJETI -->
+    <e><p><l>htjeti<s n="vbmod"/><s n="clt"/></l><r>biti<s n="vbser"/><s n="fut"/></r></p></e>
+
+    <e><p><l>htjeti<s n="vbmod"/><s n="pres"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pres"/></r></p></e>
+    <e><p><l>htjeti<s n="vbmod"/><s n="pii"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="past"/></r></p></e>
+    <e><p><l>htjeti<s n="vbmod"/><s n="lp"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="past"/></r></p></e>
+
     
-    <!-- ADD TAGS TO THIS SET OF ENTRIES -->
+    <!-- Moći, morati, trebati (vbmod, vblex) -->
     <e><p><l>moći<s n="vbmod"/></l><r>moči<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>moći<s n="vblex"/></l><r>moči<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>gledati<s n="vblex"/></l><r>gledati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>govoriti<s n="vblex"/></l><r>govoriti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>govoriti<s n="vblex"/></l><r>govoriti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>obožavati<s n="vblex"/></l><r>oboževati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>igrati<s n="vblex"/></l><r>igrati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>igrati<s n="vblex"/></l><r>igrati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-    <e><p><l>dobiti<s n="vblex"/></l><r>dobiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>dobivati<s n="vblex"/></l><r>dobivati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>dolaziti<s n="vblex"/></l><r>prihajati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>držati<s n="vblex"/></l><r>držati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>držati<s n="vblex"/></l><r>držati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>vidjeti<s n="vblex"/></l><r>videti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>vidjeti<s n="vblex"/></l><r>videti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-    <e><p><l>znati<s n="vblex"/></l><r>vedeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>voljeti<s n="vblex"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e><!--by Krvoje: @Shraier; daj ako se sjetiš javi mi se na IRC, da prodiskutiramo razliku ove dve riječi sh/sl-->
-    <e><p><l>spavati<s n="vblex"/></l><r>spati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>potrčavati<s n="vblex"/></l><r>teči<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>skrivati<s n="vblex"/></l><r>skrivati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>sjediti<s n="vblex"/></l><r>sedeti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>odbrojavati<s n="vblex"/></l><r>šteti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-    <e><p><l>završavati<s n="vblex"/><s n="imperf"/></l><r>prenehati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>pogledavati<s n="vblex"/></l><r>pogledati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>pogledavati<s n="vblex"/></l><r>pogledati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-    <e><p><l>tražiti<s n="vblex"/></l><r>iskati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>pitati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>vprašati<s n="vblex"/><s n="perf"/><s n="ref"/></r></p></e>
-    <e><p><l>pitati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>vprašati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-    <e r="RL"><p><l>pitati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>vprašati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-    <e><p><l>razgovarati<s n="vblex"/></l><r>govoriti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>razgovarati<s n="vblex"/></l><r>govoriti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>smijati<s n="vblex"/></l><r>smejati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>misliti<s n="vblex"/></l><r>misliti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>reći<s n="vblex"/></l><r>povedati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>kazati<s n="vblex"/></l><r>reči<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-    <e><p><l>odgovarati<s n="vblex"/></l><r>odgovoriti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>željeti<s n="vblex"/></l><r>želeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>šetati<s n="vblex"/></l><r>hoditi<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>pokušavati<s n="vblex"/></l><r>poskušati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>naći<s n="vblex"/></l><r>najti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>čuti<s n="vblex"/></l><r>slišati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-    <e><p><l>slušati<s n="vblex"/></l><r>poslušati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>prići<s n="vblex"/></l><r>stopiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>pronaći<s n="vblex"/></l><r>najti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>odlaziti<s n="vblex"/></l><r>oditi<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-    <e><p><l>pojesti<s n="vblex"/></l><r>pojesti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>popiti<s n="vblex"/></l><r>popiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>raditi<s n="vblex"/><s n="imperf"/></l><r>delati<s n="vblex"/><s n="imperf"/></r></p></e>
-    <e><p><l>otići<s n="vblex"/></l><r>iti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-
+    <e><p><l>morati<s n="vbmod"/></l><r>morati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>trebati<s n="vbmod"/></l><r>morati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
 
 
     <!-- Properly tagged VERBS -->
+    <e><p><l>otići<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>iti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>popiti<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>popiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>odlaziti<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>oditi<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>prići<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>stopiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>pokušavati<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>poskušati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>šetati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>hoditi<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>željeti<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>želeti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>odgovarati<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>odgovoriti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>misliti<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>misliti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>smijati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>smejati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>spavati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>spati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>potrčavati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>teči<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>skrivati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>skrivati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>sjediti<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>sedeti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>obožavati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>oboževati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>dobiti<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>dobiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>dolaziti<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>prihajati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+
+	<!-- More forms to one / one form to more -->
     <e><p><l>bivati<s n="vblex"/><s n="imperf"/></l><r>bivati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>odvijati<s n="vblex"/><s n="imperf"/></l><r>odvijati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>otpuštati<s n="vblex"/><s n="imperf"/></l><r>oprostiti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
@@ -7631,6 +7605,21 @@
     <e><p><l>stići<s n="vblex"/><s n="perf"/></l><r>prispeti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>odnijeti<s n="vblex"/><s n="perf"/></l><r>odnesti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>spakirati<s n="vblex"/><s n="perf"/></l><r>spakirati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>reći<s n="vblex"/><s n="perf"/></l><r>povedati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>kazati<s n="vblex"/><s n="perf"/></l><r>reči<s n="vblex"/><s n="perf"/></r></p><par n="allforms2iv"/></e>
+    <e><p><l>naći<s n="vblex"/><s n="perf"/></l><r>najti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>slušati<s n="vblex"/><s n="imperf"/></l><r>poslušati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>pronaći<s n="vblex"/><s n="perf"/></l><r>najti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>dobivati<s n="vblex"/><s n="imperf"/></l><r>dobivati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>znati<s n="vblex"/><s n="imperf"/></l><r>vedeti<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>voljeti<s n="vblex"/><s n="imperf"/></l><r>hoteti<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>završavati<s n="vblex"/><s n="imperf"/></l><r>prenehati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>tražiti<s n="vblex"/><s n="imperf"/></l><r>iskati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>gledati<s n="vblex"/><s n="imperf"/></l><r>gledati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>čuti<s n="vblex"/><s n="imperf"/></l><r>slišati<s n="vblex"/><s n="imperf"/></r></p><par n="tv2allforms"/></e>
+    <e><p><l>pitati<s n="vblex"/><s n="imperf"/></l><r>vprašati<s n="vblex"/><s n="perf"/></r></p><par n="tv2allforms"/></e>
+    <e><p><l>razgovarati<s n="vblex"/><s n="imperf"/></l><r>govoriti<s n="vblex"/><s n="imperf"/></r></p><par n="tv2allforms"/></e>
+
 
     <e><p><l>otjecati<s n="vblex"/><s n="imperf"/></l><r>otekati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>izračunati<s n="vblex"/><s n="perf"/></l><r>izračunati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
@@ -8034,7 +8023,9 @@
     <e><p><l>pljuvati<s n="vblex"/><s n="imperf"/></l><r>pljuvati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>mesti<s n="vblex"/><s n="imperf"/></l><r>mesti<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>baštiniti<s n="vblex"/><s n="imperf"/></l><r>dedovati<s n="vblex"/><s n="imperf"/></r></p><par n="tv2allforms"/></e>
-
+    <e><p><l>vidjeti<s n="vblex"/><s n="perf"/></l><r>videti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>pogledavati<s n="vblex"/><s n="perf"/></l><r>pogledati<s n="vblex"/><s n="perf"/></r></p><par n="tv2allforms"/></e>
+    <e><p><l>odbrojavati<s n="vblex"/><s n="imperf"/></l><r>šteti<s n="vblex"/><s n="imperf"/></r></p><par n="tv2allforms"/></e>
 
 	
 	<!-- one to one -->
@@ -8346,7 +8337,17 @@
     <e><p><l>plaćati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>plačati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>odigrati<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>igrati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>odigrati<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>igrati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-
+    <e><p><l>raditi<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>delati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>raditi<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>delati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>čuti<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>slišati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>čuti<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>slišati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+    <e><p><l>govoriti<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>govoriti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>govoriti<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>govoriti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>igrati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>igrati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>igrati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>igrati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>čuti<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>slišati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>čuti<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>slišati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+	
 
     <!-- all forms to all forms -->
     <e><p><l>pasti<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>pasti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
@@ -8487,8 +8488,9 @@
     <e><p><l>oporavljati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>popravljati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>načekati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>načakati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>suočavati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>soočiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-
-    
+    <e><p><l>pojesti<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>pojesti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>vidjeti<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>videti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>pitati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>vprašati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 
 
     <!--Nouns-->
@@ -17287,9 +17289,7 @@
     <e><p><l>devedeset<b/>i<b/>devet<s n="num"/></l><r>devetindevetdeset<s n="num"/></r></p></e>    
 
     <e><p><l>sto<s n="num"/></l><r>sto<s n="num"/></r></p></e>    
-    <!-- SECTION: Verbs -->
 
-    <e r="LR"><p><l>htjeti<s n="vbmod"/></l><r></r></p></e>
     
 
   </section>

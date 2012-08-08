@@ -353,6 +353,7 @@
       <attr-item tags="pii"/>
       <attr-item tags="pprs"/>
       <attr-item tags="clt.futI"/>
+      <attr-item tags="fut"/>
       <attr-item tags="futI"/>
       <attr-item tags="futII"/>
       <attr-item tags="fti"/>
@@ -1160,8 +1161,187 @@
 			</choose>
 		</action>
 	</rule>
-
-    
+	
+	<rule comment="Htjeti vbmod.clt.futI + vblex.*.inf">
+      <pattern>
+		<pattern-item n="vbfutI"/>
+		<pattern-item n="vbinf"/>
+      </pattern>
+		<action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+		<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
+			<out>
+				<chunk name="HtjetiFut_vblex" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+						<clip pos="1" side="tl" part="lemh"/>
+						<clip pos="1" side="tl" part="a_vrb"/>
+						<clip pos="1" side="tl" part="tns"/>
+						<clip pos="1" side="tl" part="prs"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="2" side="tl" part="lemh"/>
+						<clip pos="2" side="tl" part="a_vrb"/>
+						<clip pos="2" side="tl" part="asp"/>
+						<clip pos="2" side="tl" part="trn"/> 
+						<lit-tag v="past.m"/> <!-- TO DO: check patterns for X ću gledati (gender of this vblex) -->
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+				</chunk>
+			</out>
+		</action>
+	</rule>
+	
+	<rule comment="vblex.*.inf + Htjeti vbmod.clt.futI ">
+      <pattern>	
+		<pattern-item n="vbinf"/>
+		<pattern-item n="vbfutI"/>
+      </pattern>
+		<action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+		<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
+			<out>
+				<chunk name="HtjetiFut_vblex" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+						<clip pos="1" side="tl" part="lemh"/>
+						<clip pos="1" side="tl" part="a_vrb"/>
+						<clip pos="1" side="tl" part="asp"/>
+						<clip pos="1" side="tl" part="trn"/> 
+						<lit-tag v="past.m"/> <!-- TO DO: check patterns for X ću gledati (gender of this vblex) -->
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="2" side="tl" part="lemh"/>
+						<clip pos="2" side="tl" part="a_vrb"/>
+						<clip pos="2" side="tl" part="tns"/>
+						<clip pos="2" side="tl" part="prs"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+				</chunk>
+			</out>
+		</action>
+	</rule>
+	
+	<rule comment="Htjeti vbmod.pres.* in pii.*">
+      <pattern>
+		<pattern-item n="vbhtjeti"/>
+      </pattern>
+		<action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+			<out>
+				<chunk name="HtjetiPresPii" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+						<clip pos="1" side="tl" part="lemh"/>
+						<clip pos="1" side="tl" part="a_vrb"/>
+						<clip pos="1" side="tl" part="asp"/>
+						<clip pos="1" side="tl" part="trn"/>
+						<clip pos="1" side="tl" part="tns"/>
+						<lit-tag v="m"/> <!-- TO DO: add gender -->
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+				</chunk>
+			</out>
+		</action>
+	</rule>
+	
+	<rule comment="vbmod rule (example: moći)">
+      <pattern>
+		<pattern-item n="vbmod"/>
+      </pattern>
+		<action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" side="sl" part="tns"/>
+						<lit-tag v="lp"/>
+					</equal>
+				</test>	
+			<out>
+				<chunk name="vbmod_lp" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+						<clip pos="1" side="tl" part="lemh"/>
+						<clip pos="1" side="tl" part="a_vrb"/>
+						<clip pos="1" side="tl" part="asp"/>
+						<clip pos="1" side="tl" part="trn"/>
+						<lit-tag v="past"/>
+						<clip pos="1" side="sl" part="gen"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+				</chunk>
+			</out>
+			</when>
+			<when>
+				<test>
+					<or>
+						<equal>
+							<clip pos="1" side="sl" part="tns"/>
+							<lit-tag v="pii"/>
+						</equal>
+						<equal>
+							<clip pos="1" side="sl" part="tns"/>
+							<lit-tag v="pii"/>
+						</equal>
+					</or>
+				</test>	
+			<out>
+				<chunk name="vbmod_pii_aor" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+						<lit v="biti"/>
+						<lit-tag v="vbser.pres"/>
+						<clip pos="1" side="tl" part="prs"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="1" side="tl" part="lemh"/>
+						<clip pos="1" side="tl" part="a_vrb"/>
+						<clip pos="1" side="tl" part="asp"/>
+						<clip pos="1" side="tl" part="trn"/>
+						<lit-tag v="past.m"/> <!-- no gender on SH side -->
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+				</chunk>
+			</out>
+			</when>
+			<otherwise>
+		    <out>
+		      <chunk name="vbmod_othws" case="caseFirstWord">
+			<tags>
+			  <tag><lit-tag v="VB"/></tag>
+			</tags>
+			<lu>
+			  <clip pos="1" side="tl" part="whole"/>
+			</lu>
+		      </chunk>
+		    </out>
+		  </otherwise>
+		</choose>
+		</action>
+	</rule>
+	
 
     <rule comment="pr">
       <pattern>
