@@ -43950,6 +43950,7 @@
     <!--Cognames ending in a consonant-->
     <e lm="Erdogan"><i>Erdogan</i><par n="Prezime__cog__np"/></e>
     <e lm="Sadik"><i>Sadik</i><par n="Prezime__cog__np"/></e>
+    <e lm="Washington"><i>Washington</i><par n="Prezime__cog__np"/></e>
     <!--Cognames ending in -a-->
     <e lm="Krneta"><i>Krnet</i><par n="Krnet/a__cog__np"/></e>
     <e lm="Janša"><i>Janš</i><par n="Krnet/a__cog__np"/></e>
