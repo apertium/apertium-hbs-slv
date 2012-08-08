@@ -5138,9 +5138,6 @@
       <e><par n="takav__dem__prn"/></e>
       <e><par n="tolik__dem__prn"/></e>
 
-      <!-- For to Slovene: -->
-      <e><p><l>samo<b/></l><r>samo<s n="adv"/><b/></r></p><par n="taj__dem__prn"/></e>
-
       <e><par n="onaj__dem__prn"/></e>
       <e><par n="onakav__dem__prn"/></e>
       <e><par n="onolik__dem__prn"/></e>
@@ -32857,6 +32854,8 @@
     <e lm="ondje"><i>ond</i><par n="e_je__yat"/><par n="danas__adv"/></e>
 
     <e lm="kako"><i>kako</i><par n="danas__adv"/></e>
+    <e lm="kako god"><i>kako<b/>god</i><par n="danas__adv"/></e>
+    <e lm="kako god"><i>bilo<b/>kako</i><par n="danas__adv"/></e>
     <e lm="otkako"><i>otkako</i><par n="danas__adv"/></e>
     <e lm="nekako"><i>nekako</i><par n="danas__adv"/></e>
     <e lm="nikako"><i>nikako</i><par n="danas__adv"/></e>
