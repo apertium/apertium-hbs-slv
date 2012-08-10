@@ -5425,6 +5425,8 @@
 
 
     <!-- Vblex.*.ADV -> Adverbs -->
+    <e><p><l>htjeti<s n="vbmod"/><s n="pprs"/><s n="adv"/></l><r>hoteč<s n="adv"/></r></p></e>
+
     <e><p><l>svađajući<s n="vblex"/><s n="adv"/></l><r>kregajoč<s n="adv"/></r></p></e>
     <e><p><l>hodajući<s n="vblex"/><s n="adv"/></l><r>hodeč<s n="adv"/></r></p></e>
     <e><p><l>izdvajajući<s n="vblex"/><s n="adv"/></l><r>izdvajajoč<s n="adv"/></r></p></e>
@@ -8800,7 +8802,17 @@
 	<e><p><l>realizirati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>realizirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
 	<e><p><l>bazirati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>bazirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
 	<e><p><l>savjetovati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>svetovati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-
+	
+	<e><p><l>masirati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>masirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>trljati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>masirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e r="LR"><p><l>harmonizirati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>harmonizirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>dezinformirati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>dezinformirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e r="LR"><p><l>dezinformirati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>dezinformirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>inicirati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>inicirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+	<e><p><l>nominirati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>imenovati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>parkirati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>parkirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>dezinformisati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>dezinformirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e r="LR"><p><l>dezinformisati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>dezinformirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 
 
     <!--Nouns-->
