@@ -6904,6 +6904,7 @@
     <e><p><l>htjeti<s n="vbmod"/><s n="pii"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="past"/></r></p></e>
     <e><p><l>htjeti<s n="vbmod"/><s n="lp"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="past"/></r></p></e>
     <e><p><l>htjeti<s n="vbmod"/><s n="imp"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="imp"/></r></p></e>
+    <e><p><l>htjeti<s n="vbmod"/><s n="inf"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
 
     
     <!-- Moći, morati, trebati (vbmod, vblex) -->
