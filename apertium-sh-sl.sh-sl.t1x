@@ -1232,7 +1232,7 @@
 		</action>
 	</rule>
 	
-	<rule comment="Htjeti vbmod.pres.* in pii.*">
+	<rule comment="Htjeti vbmod.pres.* (without rule) in pii.*">
       <pattern>
 		<pattern-item n="vbhtjeti"/>
       </pattern>
@@ -1299,7 +1299,7 @@
 						</equal>
 						<equal>
 							<clip pos="1" side="sl" part="tns"/>
-							<lit-tag v="pii"/>
+							<lit-tag v="aor"/>
 						</equal>
 					</or>
 				</test>	
@@ -1321,6 +1321,30 @@
 						<clip pos="1" side="tl" part="asp"/>
 						<clip pos="1" side="tl" part="trn"/>
 						<lit-tag v="past.m"/> <!-- no gender on SH side -->
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+				</chunk>
+			</out>
+			</when>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" side="sl" part="tns"/>
+						<lit-tag v="imp"/>
+					</equal>
+				</test>	
+			<out>
+				<chunk name="vbmod_imp" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+						<clip pos="1" side="tl" part="lemh"/>
+						<clip pos="1" side="tl" part="a_vrb"/>
+						<clip pos="1" side="tl" part="asp"/>
+						<clip pos="1" side="tl" part="trn"/>
+						<clip pos="1" side="tl" part="tns"/>
+						<clip pos="1" side="sl" part="prs"/>
 						<clip pos="1" side="tl" part="nbr"/>
 					</lu>
 				</chunk>
