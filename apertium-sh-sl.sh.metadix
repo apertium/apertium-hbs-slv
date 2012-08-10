@@ -6476,24 +6476,39 @@
     </pardef>
     <!--end Modal verbs morati and trebati-->
     <!--Verb to have-->
-    <pardef n="i/mati__vbhaver">
+    <pardef n="imati__vbhaver">
       <!--Infinitive-->
-      <e><p><l>ma</l><r>ma</r></p><par n="inf_ti+fiiI__sfx__tv__vbhaver__imperf"/></e>
-      <!-- <e><p><l>ma</l><r>ma</r></p><par n="inf_ti+fiiI__sfx__ref__vbhaver__imperf"/></e> -->
+      <e><p><l>ima</l><r>ima</r></p><par n="inf_ti+fiiI__sfx__tv__vbhaver__imperf"/></e>
+      <!-- <e><p><l>ima</l><r>ima</r></p><par n="inf_ti+fiiI__sfx__ref__vbhaver__imperf"/></e> -->
       <!--Imperative-->
-      <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
-      <!-- <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imp__sfx__j__vblex"/></e> -->
+      <e><p><l>ima</l><r>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
+      <!-- <e><p><l>ima</l><r>imati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imp__sfx__j__vblex"/></e> -->
       <!--Present-->
-      <e><p><l>m</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e>
-      <!-- <e><p><l>m</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__am__vblex"/></e> -->
+      <e><p><l>im</l><r>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+      <!-- <e><p><l>im</l><r>imati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__am__vblex"/></e> -->
       <!--Imperfect-->
-      <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
-      <!-- <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e> -->
+      <e><p><l>ima</l><r>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
+      <!-- <e><p><l>ima</l><r>imati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e> -->
       <!--Participles-->
-      <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
-      <e><p><l>ma</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e>
-      <e><p><l>majući</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
-      <e><p><l>majući</l><r>mati<s n="vbhaver"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
+      <e><p><l>ima</l><r>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
+      <e><p><l>imajući</l><r>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+
+      <!--The negative vbhaver--><!--Identicle save for the future-->
+      <!--Infinitive--><!--Future tense makes no sence for the negative-->
+      <e><p><l>nemati</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
+      <!-- <e><p><l>nema</l><r>nema</r></p><par n="inf_ti+fiiI__sfx__ref__vbhaver__imperf"/></e> -->
+      <!--Imperative-->
+      <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
+      <!-- <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imp__sfx__j__vblex"/></e> -->
+      <!--Present-->
+      <e><p><l>nem</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+      <!-- <e><p><l>nem</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__am__vblex"/></e> -->
+      <!--Imperfect-->
+      <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
+      <!-- <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e> -->
+      <!--Participles-->
+      <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
+      <e><p><l>nemajući</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
     </pardef>
     <!--end Verb to have-->
     <!--Defective verb paradigms-->
@@ -33105,9 +33120,8 @@
     <!--Verbs -->
     <!--Verb to be-->
     <e lm="biti"><i/><par n="biti__vbser"/></e>
-    <!--Verb to be-->
-    <e lm="imati"><i>i</i><par n="i/mati__vbhaver"/></e>
-    <e lm="nemati"><i>ne</i><par n="i/mati__vbhaver"/></e>
+    <!--Verb to have--><!--Also the negative version-->
+    <e lm="imati"><par n="imati__vbhaver"/></e>
 
     <!--Modal verbs-->
     <e lm="ću_modal"><i/><par n="ću__clt"/></e>
