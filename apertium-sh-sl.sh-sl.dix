@@ -5425,7 +5425,7 @@
 
 
     <!-- Vblex.*.ADV -> Adverbs -->
-    <e><p><l>htjeti<s n="vbmod"/><s n="pprs"/><s n="adv"/></l><r>hoteč<s n="adv"/></r></p></e>
+    <e><p><l>htjeti<s n="vbmod"/><s n="pprs"/><s n="adv"/></l><r>hoteč<s n="adv"/><s n="sint"/></r></p></e>
 
     <e><p><l>svađajući<s n="vblex"/><s n="adv"/></l><r>kregajoč<s n="adv"/></r></p></e>
     <e><p><l>hodajući<s n="vblex"/><s n="adv"/></l><r>hodeč<s n="adv"/></r></p></e>
@@ -6879,6 +6879,7 @@
     
     <!-- The verb to be -->
     <e><p><l>biti<s n="vbser"/></l><r>biti<s n="vbser"/></r></p></e>
+    <e><p><l>biti<s n="vbser"/><s n="futII"/></l><r>biti<s n="vbser"/><s n="fut"/></r></p></e>
     <e><p><l>biti<s n="vbser"/><s n="inf"/></l><r>biti<s n="vbser"/><s n="inf"/></r></p></e>
     <e r="RL"><p><l>biti<s n="vbser"/><s n="inf"/></l><r>biti<s n="vbser"/><s n="supn"/></r></p></e>
     <e><p><l>biti<s n="vbser"/><s n="clt"/><s n="pres"/></l><r>biti<s n="vbser"/><s n="pres"/></r></p></e>

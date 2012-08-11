@@ -6491,9 +6491,10 @@
       <!-- <e><p><l>ima</l><r>imati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e> -->
       <!--Participles-->
       <e><p><l>ima</l><r>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
+      <!-- <e><p><l>ima</l><r>imati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e> -->
       <e><p><l>imajući</l><r>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 
-      <!--The negative vbhaver--><!--Identicle save for the future-->
+      <!--The negative vbhaver--><!--Identicle save for the future. Identicool.-->
       <!--Infinitive--><!--Future tense makes no sence for the negative-->
       <e><p><l>nemati</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
       <!-- <e><p><l>nema</l><r>nema</r></p><par n="inf_ti+fiiI__sfx__ref__vbhaver__imperf"/></e> -->
