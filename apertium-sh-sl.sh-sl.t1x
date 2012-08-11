@@ -1173,6 +1173,21 @@
 		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
 		<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
 			<choose>
+			  <when>
+			    <test>
+			      <equal><clip pos="2" side="sl" part="a_vrb"/><lit-tag v="vbser"/></equal>
+			    </test>
+			    <out>
+			      <chunk name="vbserfut" case="caseFirstWord">
+				<tags>
+				  <tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+				  <clip pos="1" side="tl" part="whole"/>
+				</lu>					
+			      </chunk>
+			    </out>
+			  </when>
 				<when>
 					<test>
 						<equal>
@@ -1242,6 +1257,21 @@
 		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
 		<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
 		<choose>
+		  <when>
+		    <test>
+		      <equal><clip pos="1" side="sl" part="a_vrb"/><lit-tag v="vbser"/></equal>
+		    </test>
+		    <out>
+		      <chunk name="vbserfut" case="caseFirstWord">
+			<tags>
+			  <tag><lit-tag v="VB"/></tag>
+			</tags>
+			<lu>
+			  <clip pos="2" side="tl" part="whole"/>
+			</lu>					
+		      </chunk>
+		    </out>
+		  </when>
 			<when>
 				<test>
 					<equal>

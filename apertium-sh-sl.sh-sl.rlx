@@ -204,7 +204,8 @@ SELECT:PrnNumberFromVerb $$NUMBER (0C Pron) ((1C* V + $$NUMBER BARRIER EOS) OR (
     ## Ona, međutim, priznaje...
 
 # This is a heuristic:
-REMOVE:vbserORvblex ("biti"i vblex) IF (NOT -1* Nomen + Acc LINK 1 VBSer + Clt BARRIER V-FIN OR BOS) (NOT 1* Nomen + Acc LINK 1 VBSer + Clt BARRIER V-FIN OR EOS)
+SELECT:vbserORvblex VBLex IF (0 VBSer OR VBLex) (1* Nomen + Acc BARRIER V - Clt)
+REMOVE:vbserORvblex VBLex IF (0 VBSer OR VBLex) (NEGATE -1* Nomen + Acc LINK 1 VBSer + Clt BARRIER V-FIN OR BOS) (NEGATE 1* Nomen + Acc LINK 1 VBSer + Clt BARRIER V-FIN OR EOS)
 
 SELECT VBSer IF (-1* Lp );
 SELECT VBSer IF (1* Lp BARRIER V - Lp - PresParticiple );

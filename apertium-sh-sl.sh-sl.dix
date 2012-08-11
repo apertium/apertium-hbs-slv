@@ -6881,6 +6881,10 @@
     
     <!-- The verb to be -->
     <e><p><l>biti<s n="vbser"/></l><r>biti<s n="vbser"/></r></p></e>
+
+    <!--Duda, Duda, Duda vrag ti mater zemil, ak' me zoves bil bum tvoj-->
+    <e><p><l>biti<s n="vbser"/><s n="inf"/><j/>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/></l><r>biti<s n="vbser"/><s n="fut"/></r></p><par n="pers_id"/><par n="num_id"/></e>
+
     <e><p><l>biti<s n="vbser"/><s n="futII"/></l><r>biti<s n="vbser"/><s n="fut"/></r></p></e>
     <e><p><l>biti<s n="vbser"/><s n="inf"/></l><r>biti<s n="vbser"/><s n="inf"/></r></p></e>
     <e r="RL"><p><l>biti<s n="vbser"/><s n="inf"/></l><r>biti<s n="vbser"/><s n="supn"/></r></p></e>
