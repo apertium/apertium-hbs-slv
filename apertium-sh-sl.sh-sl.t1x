@@ -422,6 +422,7 @@
       <attr-item tags="vblex.adv"/>
     </def-attr>
 
+
   </section-def-attrs>
 
   <section-def-vars>
@@ -1299,33 +1300,8 @@
 		</action>
 	</rule>
 	
-	<rule comment="Htjeti vbmod.pres.* (without rule) in pii.*">
-      <pattern>
-		<pattern-item n="vbhtjeti"/>
-      </pattern>
-		<action>
-		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
-		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
-			<out>
-				<chunk name="HtjetiPresPii" case="caseFirstWord">
-					<tags>
-						<tag><lit-tag v="VB"/></tag>
-					</tags>
-					<lu>
-						<clip pos="1" side="tl" part="lemh"/>
-						<clip pos="1" side="tl" part="a_vrb"/>
-						<clip pos="1" side="tl" part="asp"/>
-						<clip pos="1" side="tl" part="trn"/>
-						<clip pos="1" side="tl" part="tns"/>
-						<lit-tag v="m"/> <!-- TO DO: add gender -->
-						<clip pos="1" side="tl" part="nbr"/>
-					</lu>
-				</chunk>
-			</out>
-		</action>
-	</rule>
 	
-	<rule comment="vbmod rule (example: moći)">
+	<rule comment="vbmod rule">
       <pattern>
 		<pattern-item n="vbmod"/>
       </pattern>
@@ -1333,6 +1309,70 @@
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
 		<choose>
+			<when>
+				<test>
+					<and>
+						<or>
+						<equal>
+							<clip pos="1" side="tl" part="lemh"/>
+							<lit v="moči"/>
+						</equal>
+						<equal>
+							<clip pos="1" side="tl" part="lemh"/>
+							<lit v="morati"/>
+						</equal>
+						</or>
+						<equal>
+							<clip pos="1" side="sl" part="tns"/>
+							<lit-tag v="imp"/>
+						</equal>
+					</and>
+				</test>	
+				<out>
+					<chunk name="morati_moči_imp" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+							<clip pos="1" side="tl" part="lemh"/>
+							<clip pos="1" side="tl" part="a_vrb"/>
+							<clip pos="1" side="tl" part="asp"/>
+							<clip pos="1" side="tl" part="trn"/>
+							<lit-tag v="pres"/>
+							<clip pos="1" side="sl" part="prs"/>
+							<clip pos="1" side="tl" part="nbr"/>
+						</lu>
+					</chunk>
+				</out>
+			</when>
+			<when> <!-- not good, does not exist .pprs.adv for MORATI, tmp solution -->
+				<test>
+					<and>
+						<equal>
+							<clip pos="1" side="tl" part="lemh"/>
+							<lit-tag v="morati"/>
+						</equal>
+						<equal>
+							<clip pos="1" side="sl" part="a_adv"/>
+							<lit-tag v="adv"/>
+						</equal>
+					</and>
+				</test>	
+				<out>
+					<chunk name="morati_pprsAdv" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+							<clip pos="1" side="tl" part="lemh"/>
+							<clip pos="1" side="tl" part="a_vrb"/>
+							<clip pos="1" side="tl" part="asp"/>
+							<clip pos="1" side="tl" part="trn"/>
+							<lit-tag v="pres.p3.sg"/>
+						</lu>
+					</chunk>
+				</out>
+			</when>
 			<when>
 				<test>
 					<equal>
@@ -1411,8 +1451,28 @@
 						<clip pos="1" side="tl" part="asp"/>
 						<clip pos="1" side="tl" part="trn"/>
 						<clip pos="1" side="tl" part="tns"/>
-						<clip pos="1" side="sl" part="prs"/>
+						<clip pos="1" side="tl" part="prs"/>
 						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+				</chunk>
+			</out>
+			</when>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" side="sl" part="a_adv"/>
+						<lit-tag v="adv"/>
+					</equal>
+				</test>	
+			<out>
+				<chunk name="vbmod_pprsAdv" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+						<clip pos="1" side="tl" part="lemh"/>
+						<clip pos="1" side="tl" part="a_adv"/>
+						<lit-tag v="sint"/>
 					</lu>
 				</chunk>
 			</out>
@@ -1424,7 +1484,13 @@
 			  <tag><lit-tag v="VB"/></tag>
 			</tags>
 			<lu>
-			  <clip pos="1" side="tl" part="whole"/>
+				<clip pos="1" side="tl" part="lemh"/>
+				<clip pos="1" side="tl" part="a_vrb"/>
+				<clip pos="1" side="tl" part="asp"/>
+				<clip pos="1" side="tl" part="trn"/>
+				<clip pos="1" side="tl" part="tns"/>
+				<clip pos="1" side="tl" part="prs"/>
+				<clip pos="1" side="tl" part="nbr"/>
 			</lu>
 		      </chunk>
 		    </out>
