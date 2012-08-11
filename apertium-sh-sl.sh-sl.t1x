@@ -1380,7 +1380,7 @@
 					<and>
 						<equal>
 							<clip pos="1" side="tl" part="lemh"/>
-							<lit-tag v="morati"/>
+							<lit v="morati"/>
 						</equal>
 						<equal>
 							<clip pos="1" side="sl" part="a_adv"/>

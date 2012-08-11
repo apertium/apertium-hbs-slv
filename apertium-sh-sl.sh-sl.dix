@@ -6896,7 +6896,7 @@
     <e r="RL"><p><l>biti<s n="vbser"/><s n="clt"/><s n="aor"/><s n="p3"/><s n="sg"/></l><r>biti<s n="vbser"/><s n="cni"/></r></p></e><!--Temporary, will be matched in transfer-->
 
     <!-- Biti.vblex to Biti.vblex (bijem, biješ,...) -->
-    <e><p><l>biti<s n="vblex"/><s n="imperf"/></l><r>biti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>biti<s n="vblex"/><s n="imperf"/></l><r>biti<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
 	
 
     <!-- vbhaver -> vblex ==> Added rule -->
