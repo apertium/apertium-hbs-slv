@@ -17632,5 +17632,73 @@
 
   <!-- TODO: Generation modes-->
 
+<section id="tobechecked" type="standard"><!--Generated stuff, needs more manual checking-->
+  <e><p><l>pripomoći<s n="vblex"/></l><r>pripomoči<s n="vblex"/></r></p></e>
+  <e><p><l>tući<s n="vblex"/></l><r>tepsti<s n="vblex"/></r></p></e>
+  <e><p><l>istući<s n="vblex"/></l><r>pretepsti<s n="vblex"/></r></p></e>
+  <e><p><l>oteći<s n="vblex"/></l><r>oteči<s n="vblex"/></r></p></e>
+  <e><p><l>isteći<s n="vblex"/></l><r>poteči<s n="vblex"/></r></p></e>
+  <e><p><l>priteći<s n="vblex"/></l><r>priteči<s n="vblex"/></r></p></e>
+  <e><p><l>steći<s n="vblex"/></l><r>steči<s n="vblex"/></r></p></e>
+  <e><p><l>odsjeći<s n="vblex"/></l><r>odsekati<s n="vblex"/></r></p></e>
+  <e><p><l>posjeći<s n="vblex"/></l><r>posekati<s n="vblex"/></r></p></e>
+  <e><p><l>izaći<s n="vblex"/></l><r>iziti<s n="vblex"/></r></p></e>
+  <e><p><l>zaobići<s n="vblex"/></l><r>obiti<s n="vblex"/></r></p></e>
+  <e><p><l>razići<s n="vblex"/></l><r>raziti<s n="vblex"/></r></p></e>
+  <e><p><l>pobjeći<s n="vblex"/></l><r>uiti<s n="vblex"/></r></p></e>
+  <e><p><l>priteći<s n="vblex"/></l><r>pritekati<s n="vblex"/></r></p></e>
+  <e><p><l>privući<s n="vblex"/></l><r>privabljati<s n="vblex"/></r></p></e>
+  <e><p><l>sjeći<s n="vblex"/></l><r>sekati<s n="vblex"/></r></p></e>
+  <e><p><l>pobjeći<s n="vblex"/></l><r>uhajati<s n="vblex"/></r></p></e>
+  <e><p><l>ući<s n="vblex"/></l><r>vstopati<s n="vblex"/></r></p></e>
+  <e><p><l>privući<s n="vblex"/></l><r>privabiti<s n="vblex"/></r></p></e>
+  <e><p><l>razvući<s n="vblex"/></l><r>razpotegniti<s n="vblex"/></r></p></e>
+  <e><p><l>razvući<s n="vblex"/></l><r>raztegniti<s n="vblex"/></r></p></e>
+  <e><p><l>snaći<s n="vblex"/></l><r>znajti<s n="vblex"/></r></p></e>
+  <e><p><l>poreći<s n="vblex"/></l><r>poreči<s n="vblex"/></r></p></e>
+  <e><p><l>peći<s n="vblex"/></l><r>skeleti<s n="vblex"/></r></p></e>
+  <e><p><l>pobjeći<s n="vblex"/></l><r>ubežati<s n="vblex"/></r></p></e>
+  <e><p><l>poreći<s n="vblex"/></l><r>zanikovati<s n="vblex"/></r></p></e>
+  <e><p><l>izbjeći<s n="vblex"/></l><r>izogibati<s n="vblex"/></r></p></e>
+  <e><p><l>steći<s n="vblex"/></l><r>pridobiti<s n="vblex"/></r></p></e>
+  <e><p><l>smoći<s n="vblex"/></l><r>zmoči<s n="vblex"/></r></p></e>
+  <e><p><l>izvući<s n="vblex"/></l><r>izpuliti<s n="vblex"/></r></p></e>
+  <e><p><l>izleći<s n="vblex"/></l><r>zvaliti<s n="vblex"/></r></p></e>
+  <e><p><l>dotući<s n="vblex"/></l><r>dotolči<s n="vblex"/></r></p></e>
+  <e><p><l>izreći<s n="vblex"/></l><r>izreči<s n="vblex"/></r></p></e>
+  <e><p><l>isteći<s n="vblex"/></l><r>izteči<s n="vblex"/></r></p></e>
+  <e><p><l>izvući<s n="vblex"/></l><r>izvleči<s n="vblex"/></r></p></e>
+  <e><p><l>napeći<s n="vblex"/></l><r>napeči<s n="vblex"/></r></p></e>
+  <e><p><l>obući<s n="vblex"/></l><r>obleči<s n="vblex"/></r></p></e>
+  <e><p><l>otući<s n="vblex"/></l><r>obtolči<s n="vblex"/></r></p></e>
+  <e><p><l>odvući<s n="vblex"/></l><r>odvleči<s n="vblex"/></r></p></e>
+  <e><p><l>opeći<s n="vblex"/></l><r>opeči<s n="vblex"/></r></p></e>
+  <e><p><l>potući<s n="vblex"/></l><r>potolči<s n="vblex"/></r></p></e>
+  <e><p><l>preobući<s n="vblex"/></l><r>preobleči<s n="vblex"/></r></p></e>
+  <e><p><l>privući<s n="vblex"/></l><r>privleči<s n="vblex"/></r></p></e>
+  <e><p><l>svući<s n="vblex"/></l><r>sleči<s n="vblex"/></r></p></e>
+  <e><p><l>speći<s n="vblex"/></l><r>speči<s n="vblex"/></r></p></e>
+  <e><p><l>istući<s n="vblex"/></l><r>stolči<s n="vblex"/></r></p></e>
+  <e><p><l>uteći<s n="vblex"/></l><r>uteči<s n="vblex"/></r></p></e>
+  <e><p><l>zateći<s n="vblex"/></l><r>zateči<s n="vblex"/></r></p></e>
+  <e><p><l>zavući<s n="vblex"/></l><r>zavleči<s n="vblex"/></r></p></e>
+  <e><p><l>dovući<s n="vblex"/></l><r>zvleči<s n="vblex"/></r></p></e>
+  <e><p><l>peći<s n="vblex"/></l><r>peči<s n="vblex"/></r></p></e>
+  <e><p><l>pobjeći<s n="vblex"/></l><r>izmuzniti<s n="vblex"/></r></p></e>
+  <e><p><l>pobjeći<s n="vblex"/></l><r>pobegniti<s n="vblex"/></r></p></e>
+  <e><p><l>pronaći<s n="vblex"/></l><r>zaslediti<s n="vblex"/></r></p></e>
+  <e><p><l>potući<s n="vblex"/></l><r>potepsti<s n="vblex"/></r></p></e>
+  <e><p><l>pretući<s n="vblex"/></l><r>stepsti<s n="vblex"/></r></p></e>
+  <e><p><l>usjeći<s n="vblex"/></l><r>usekati<s n="vblex"/></r></p></e>
+  <e><p><l>zasjeći<s n="vblex"/></l><r>zasekati<s n="vblex"/></r></p></e>
+  <e><p><l>pripeći<s n="vblex"/></l><r>pripekati<s n="vblex"/></r></p></e>
+  <e><p><l>prijeći<s n="vblex"/></l><r>prekoračevati<s n="vblex"/></r></p></e>
+  <e><p><l>proći<s n="vblex"/></l><r>prešiniti<s n="vblex"/></r></p></e>
+  <e><p><l>navući<s n="vblex"/></l><r>navleči<s n="vblex"/></r></p></e>
+  <e><p><l>pretući<s n="vblex"/></l><r>pretolči<s n="vblex"/></r></p></e>
+  <e><p><l>stići<s n="vblex"/></l><r>utegniti<s n="vblex"/></r></p></e>
+
+</section>
+
 
 </dictionary>
