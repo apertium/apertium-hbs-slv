@@ -24398,6 +24398,29 @@
       <e r="LR"><p><l>ševima</l><r>s<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
       <e r="LR"><p><l>ševima</l><r>s<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
+    <pardef n="or/ao__n"><!--Long and short plural-->
+      <e><p><l>ao</l><r>ao<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>la</l><r>ao<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>lu</l><r>ao<s n="n"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>l</l><r>ao<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>lu</l><r>ao<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>lu</l><r>ao<s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>lom</l><r>ao<s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>lovi</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>lova</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>lima</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>love</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>lovi</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>lovima</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>lovima</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>li</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>ala</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>lima</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>lie</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e r="LR"><p><l>li</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e r="LR"><p><l>lima</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>lima</l><r>ao<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+    </pardef>
     <pardef n="pos/ao__n"><!--Long and short plural-->
       <e><p><l>ao</l><r>ao<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>la</l><r>ao<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -26107,21 +26130,21 @@
       <e><p><l>ocima</l><r>lac<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
     <pardef n="polju/bac__n">
-      <e><p><l>bac</l><r>bac<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>pca</l><r>bac<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>pcu</l><r>bac<s n="n"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>pca</l><r>bac<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>bče</l><r>bac<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e><p><l>pcu</l><r>bac<s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>pcem</l><r>bac<s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>pci</l><r>bac<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>baca</l><r>bac<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>bacâ</l><r>bac<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>pcima</l><r>bac<s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>pce</l><r>bac<s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l>pci</l><r>bac<s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
-      <e><p><l>pcima</l><r>bac<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
-      <e><p><l>pcima</l><r>bac<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>bac</l><r>bac<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>pca</l><r>bac<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>pcu</l><r>bac<s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>pca</l><r>bac<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>bče</l><r>bac<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>pcu</l><r>bac<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>pcem</l><r>bac<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>pci</l><r>bac<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>baca</l><r>bac<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>bacâ</l><r>bac<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>pcima</l><r>bac<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>pce</l><r>bac<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>pci</l><r>bac<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>pcima</l><r>bac<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>pcima</l><r>bac<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
     <pardef n="život__n">
       <e><p><l></l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -46117,7 +46140,7 @@
     <e lm="pas"><i>p</i><par n="p/as__n"/></e><!--The animal-->
     <e lm="posao"><i>pos</i><par n="pos/ao__n"/></e>
     <e lm="čavao"><i>čav</i><par n="pos/ao__n"/></e>
-    <e lm="orao"><i>or</i><par n="pos/ao__n"/></e>
+    <e lm="orao"><i>or</i><par n="or/ao__n"/></e>
     <e lm="ugao"><i>ug</i><par n="pos/ao__n"/></e>
     <e lm="smisao"><i>smis</i><par n="pos/ao__n"/></e>
     <e lm="dio"><i></i><par n="dio__n"/></e>
@@ -46343,7 +46366,7 @@
     <e lm="sumišljenik"><i>sumišljeni</i><par n="učeni/k__n"/></e>
     <e lm="suputnik"><i>suputni</i><par n="učeni/k__n"/></e>
     <e lm="svećenik"><i>svećeni</i><par n="učeni/k__n"/></e>
-    <e lm="tematik"><i>temati</i><par n="učeni/k__n"/></e>
+    <e lm="tematika"><i>tematik</i><par n="žen/a__n"/></e>
     <e lm="umjetnik"><i>umjetni</i><par n="učeni/k__n"/></e>
     <e lm="urotnik"><i>urotni</i><par n="učeni/k__n"/></e>
     <e lm="uzročnik"><i>uzročni</i><par n="učeni/k__n"/></e>
@@ -46587,7 +46610,7 @@
     <e lm="svetac"><i>sve</i><par n="sve/tac__n"/></e>
     <e lm="poljubac"><i>polju</i><par n="polju/bac__n"/></e>
     <e lm="hljebac"><i>hl</i><par n="e_je__yat"/><par n="polju/bac__n"/></e>
-    <e lm="lebac"><i>le</i><par n="e_je__yat"/><par n="polju/bac__n"/></e>
+    <e lm="lebac"><i>le</i><par n="polju/bac__n"/></e>
     <e lm="mrtvac"><i>mrtva</i><par n="mudra/c__n"/></e>
     <e lm="stric"><i>stri</i><par n="stri/c__n"/></e>
     <e lm="muškarac"><i>muškar</i><par n="muškar/ac__n"/></e>
@@ -46732,7 +46755,7 @@
     <e lm="travnjak"><i>travnja</i><par n="čajni/k__n"/></e>
     <e lm="zvuk" a="slasher"><i>zvu</i><par n="čajni/k__n"/></e>
     <e lm="naputak"><i>naput</i><par n="sastan/ak__n"/></e>
-    <e lm="naglasak"><i>naglas</i><par n="nagla/sak__n"/></e>
+    <e lm="naglasak"><i>nagla</i><par n="nagla/sak__n"/></e>
     <e lm="bljesak"><i>blje</i><par n="pi/sak__n"/></e>
     <e lm="časak"><i>ča</i><par n="nagla/sak__n"/></e>
     <e lm="odbljesak"><i>odblje</i><par n="nagla/sak__n"/></e>
@@ -47139,6 +47162,7 @@
     <e lm="budala"><i>budal</i><par n="žen/a__n"/></e>
     <e lm="upala pluća"><i>upal</i><par n="žen/a__n"/><p><l><b/>pluća</l><r><g><b/>pluća</g></r></p></e>
     <e lm="ćela"><i>ćel</i><par n="žen/a__n"/></e>
+    <e lm="upala"><i>upal</i><par n="žen/a__n"/></e>
     <e lm="ilegala"><i>ilegal</i><par n="žen/a__n"/></e>
     <e lm="katedrala"><i>katedral</i><par n="žen/a__n"/></e>
     <e lm="kola"><i>kol</i><par n="žen/a__n"/></e>
@@ -48710,7 +48734,7 @@
     <e lm="jezgra"><i>jezg</i><par n="sest/ra__n"/></e>
     <e lm="šifra"><i>šif</i><par n="sest/ra__n"/></e>
     <e lm="naredba"><i>nared</i><par n="nared/ba__n"/></e>
-    <e lm="kadetkinja"><i>kadetki</i><par n="žen/a__n"/></e>
+    <e lm="kadetkinja"><i>kadetkinj</i><par n="žen/a__n"/></e>
     <e lm="knjiga"><i>knji</i><par n="knji/ga__n"/></e>
     <e lm="žalba"><i>žal</i><par n="dvoj/ba__n"/></e>
     <e lm="bomba"><i>bom</i><par n="dvoj/ba__n"/></e>

@@ -8830,6 +8830,58 @@
 
 
     <!--Nouns-->
+
+    <e><p><l>blažilo<s n="n"/><s n="nt"/></l><r>blažilo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>čistač<s n="n"/><s n="mi"/></l><r>čistilo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>kreda<s n="n"/><s n="f"/></l><r>črtalo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>dišni<b/>organ<s n="n"/><s n="mi"/></l><r>dihalo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>pokretač<s n="n"/><s n="mi"/></l><r>gibalo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>govorni<b/>organ<s n="n"/><s n="mi"/></l><r>govorilo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>kormilo<s n="n"/><s n="nt"/></l><r>krmilo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>nosila<s n="n"/><s n="f"/></l><r>nosilo<s n="n"/><s n="nt"/></r></p><par n="pl_sgpl"/></e>
+    <e><p><l>onostrano<s n="n"/><s n="nt"/></l><r>onostranstvo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>slovenstvo<s n="n"/><s n="nt"/></l><r>slovenstvo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>birokratija<s n="n"/><s n="f"/></l><r>birokracija<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>birokracija<s n="n"/><s n="f"/></l><r>birokracija<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>buva<s n="n"/><s n="f"/></l><r>bolha<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>buha<s n="n"/><s n="f"/></l><r>bolha<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>porez<s n="n"/><s n="mi"/></l><r>davščina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>novčarka<s n="n"/><s n="f"/></l><r>denarnica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lisnica<s n="n"/><s n="f"/></l><r>denarnica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>diplomacija<s n="n"/><s n="f"/></l><r>diplomacija<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>diplomatija<s n="n"/><s n="f"/></l><r>diplomacija<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gesta<s n="n"/><s n="f"/></l><r>gesta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kućanica<s n="n"/><s n="f"/></l><r>gopspodinja<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kralješnica<s n="n"/><s n="f"/></l><r>hrbtenica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kralješnica<s n="n"/><s n="f"/></l><r>hrbtenica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>leđna<b/>moždina<s n="n"/><s n="f"/></l><r>hrbtenjača<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kičmena<b/>moždina<s n="n"/><s n="f"/></l><r>hrbtenjača<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>žitnica<s n="n"/><s n="f"/></l><r>kašča<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kavana<s n="n"/><s n="f"/></l><r>kavarna<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kafana<s n="n"/><s n="f"/></l><r>kavarna<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pravednik<s n="n"/><s n="ma"/></l><r>pravičnik<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>rukavica<s n="n"/><s n="f"/></l><r>rokavica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tematika<s n="n"/><s n="f"/></l><r>tematika<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>večer<s n="n"/><s n="f"/></l><r>večer<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pokretač<s n="n"/><s n="ma"/></l><r>pobudnik<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>izrod<s n="n"/><s n="mi"/></l><r>zaploditev<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>jarac<s n="n"/><s n="ma"/></l><r>kozel<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>orao<s n="n"/><s n="ma"/></l><r>orel<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>magarac<s n="n"/><s n="ma"/></l><r>osel<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>glasnik<s n="n"/><s n="ma"/></l><r>sel<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>lebac<s n="n"/><s n="mi"/></l><r>hlebec<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>brojač<s n="n"/><s n="mi"/></l><r>števec<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>kanta<s n="n"/><s n="f"/></l><r>zaboj<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>kanta<s n="n"/><s n="f"/></l><r>škaf<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>orao<s n="n"/><s n="ma"/></l><r>oral<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>porez<s n="n"/><s n="mi"/></l><r>davek<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>izrod<s n="n"/><s n="mi"/></l><r>izrodek<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>naglasak<s n="n"/><s n="mi"/></l><r>poudarek<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>upala<s n="n"/><s n="f"/></l><r>vnetje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>nebriga<s n="n"/><s n="f"/></l><r>brezskrbnost<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kreda<s n="n"/><s n="f"/></l><r>kreda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>glasnik<s n="n"/><s n="ma"/></l><r>glasnik<s n="n"/><s n="ma"/></r></p></e>
+
     <e><p><l>glava<s n="n"/><s n="f"/></l><r>glava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>godina<s n="n"/><s n="f"/></l><r>leto<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dijete<s n="n"/><s n="nt"/></l><r>otrok<s n="n"/><s n="ma"/></r></p></e>
@@ -13335,7 +13387,7 @@
     <e><p><l>bob<s n="n"/><s n="mi"/></l><r>bob<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>pokret<s n="n"/><s n="mi"/></l><r>gib<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>kretnja<s n="n"/><s n="f"/></l><r>gib<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>poljubac<s n="n"/><s n="ma"/></l><r>poljub<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>poljubac<s n="n"/><s n="mi"/></l><r>poljub<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>pregib<s n="n"/><s n="mi"/></l><r>pregib<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>naklon<s n="n"/><s n="mi"/></l><r>vzgib<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>badem<s n="n"/><s n="mi"/></l><r>mandelj<s n="n"/><s n="mi"/></r></p></e>
@@ -17697,6 +17749,7 @@
   <e><p><l>navući<s n="vblex"/></l><r>navleči<s n="vblex"/></r></p></e>
   <e><p><l>pretući<s n="vblex"/></l><r>pretolči<s n="vblex"/></r></p></e>
   <e><p><l>stići<s n="vblex"/></l><r>utegniti<s n="vblex"/></r></p></e>
+
 
 </section>
 
