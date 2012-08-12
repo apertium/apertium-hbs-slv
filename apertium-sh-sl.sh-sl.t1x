@@ -350,6 +350,7 @@
       <attr-item tags="opt"/>
       <attr-item tags="imp"/>
       <attr-item tags="aor"/>
+      <attr-item tags="clt.aor"/>
       <attr-item tags="pii"/>
       <attr-item tags="pprs"/>
       <attr-item tags="clt.futI"/>
@@ -982,6 +983,94 @@
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
 			<choose>
+				<when> <!-- biti vbser.pprs.adv (perf) = goes to: KO JE BIL -->
+					<test>
+						<and>
+							<equal>
+								<clip pos="1" side="sl" part="lemh"/>
+								<lit v="biti"/>
+							</equal>
+							<equal>
+								<clip pos="1" side="sl" part="a_adv"/>
+								<lit-tag v="adv"/>
+							</equal>
+							<equal>
+								<clip pos="1" side="sl" part="asp"/>
+								<lit-tag v="perf"/>
+							</equal>
+						</and>
+					</test>	
+				<out>
+					<chunk name="BitiVbser_pprsAdvPerf" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+							<lit v="ko"/>
+							<lit-tag v="cnjsub"/>
+						</lu>
+						<b/>
+						<lu>
+							<lit v="biti"/>
+							<lit-tag v="vbser.pres.p3.sg"/>
+						</lu>
+						<b/>
+						<lu>
+							<lit v="biti"/>
+							<lit-tag v="vbser.past.m.sg"/>
+						</lu>
+					</chunk>
+				</out>
+				</when>
+				<when> <!-- biti vbser.pprs.adv (imperf) = goes to: MEDTEM, KO JE BIL -->
+					<test>
+						<and>
+							<equal>
+								<clip pos="1" side="sl" part="lemh"/>
+								<lit v="biti"/>
+							</equal>
+							<equal>
+								<clip pos="1" side="sl" part="a_adv"/>
+								<lit-tag v="adv"/>
+							</equal>
+							<equal>
+								<clip pos="1" side="sl" part="asp"/>
+								<lit-tag v="imperf"/>
+							</equal>
+						</and>
+					</test>	
+				<out>
+					<chunk name="BitiVbser_pprsAdvImperf" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+							<lit v="medtem"/>
+							<lit-tag v="adv.sint"/>
+						</lu>
+						<b/>
+						<lu>
+							<lit v=","/>
+							<lit-tag v="cm"/>
+						</lu>
+						<b/>
+						<lu>
+							<lit v="ko"/>
+							<lit-tag v="cnjsub"/>
+						</lu>
+						<b/>
+						<lu>
+							<lit v="biti"/>
+							<lit-tag v="vbser.pres.p3.sg"/>
+						</lu>
+						<b/>
+						<lu>
+							<lit v="biti"/>
+							<lit-tag v="vbser.past.m.sg"/>
+						</lu>
+					</chunk>
+				</out>
+				</when>
 				<when>
 					<test>
 						<equal>
@@ -1000,6 +1089,25 @@
 							<lit-tag v="past"/>
 							<clip pos="1" side="sl" part="gen"/>
 							<clip pos="1" side="tl" part="nbr"/>
+						</lu>
+					</chunk>
+				</out>
+				</when>
+				<when>
+					<test>
+						<equal>
+							<clip pos="1" side="sl" part="tns"/>
+							<lit-tag v="clt.aor"/>
+						</equal>
+					</test>	
+				<out>
+					<chunk name="BitiVbser_CltAor" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+							<lit v="biti"/>
+							<lit-tag v="vbser.cni"/>
 						</lu>
 					</chunk>
 				</out>

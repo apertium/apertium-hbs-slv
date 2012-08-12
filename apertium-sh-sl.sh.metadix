@@ -35163,8 +35163,6 @@
     <e lm="dezorganizirati"><i>dezorganizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
     <e lm="dezorganizirati"><i>dezorganizir</i><par n="perf_tv_bir/ati__vblex"/></e>
     <e lm="dezorganizirati"><i>dezorganizir</i><par n="perf_ref_bir/ati__vblex"/></e>
-    <e lm="samofinancirati"><i>samofinancir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-    <e lm="samofinancirati"><i>samofinancir</i><par n="perf_ref_bir/ati__vblex"/></e>
     <e lm="kontrolirati"><i>kontrolir</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="kontrolirati"><i>kontrolir</i><par n="imperf_ref_bir/ati__vblex"/></e>
     <e lm="kontrolirati"><i>kontrolir</i><par n="perf_tv_bir/ati__vblex"/></e>
@@ -50824,6 +50822,8 @@
     <e lm="kofinancirati"><i>kofinancir</i><par n="perf_tv_bir/ati__vblex"/></e>
     <e lm="reinvestirati"><i>reinvestir</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="reinvestirati"><i>reinvestir</i><par n="perf_iv_bir/ati__vblex"/></e>
+    <e lm="samofinancirati"><i>samofinancir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+    <e lm="samofinancirati"><i>samofinancir</i><par n="perf_ref_bir/ati__vblex"/></e>
     <e lm="samofinancirati"><i>samofinancir</i><par n="imperf_ref_bir/ati__vblex"/></e>
     <e lm="samofinancirati"><i>samofinancir</i><par n="perf_ref_bir/ati__vblex"/></e>
     <e lm="pretskazati"><i>pretska</i><par n="perf_tv_di/zati__vblex"/></e>
