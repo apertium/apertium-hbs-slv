@@ -1194,6 +1194,51 @@
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
 			<choose>
+				<when> <!-- imeti vbser.pprs.adv (imperf) = goes to: MEDTEM, KO JE IMEL -->
+					<test>
+						<and>
+							<equal>
+								<clip pos="1" side="sl" part="a_adv"/>
+								<lit-tag v="adv"/>
+							</equal>
+							<equal>
+								<clip pos="1" side="sl" part="asp"/>
+								<lit-tag v="imperf"/>
+							</equal>
+						</and>
+					</test>	
+				<out>
+					<chunk name="ImetiVbser_pprsAdvImperf" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+							<lit v="medtem"/>
+							<lit-tag v="adv.sint"/>
+						</lu>
+						<b/>
+						<lu>
+							<lit v=","/>
+							<lit-tag v="cm"/>
+						</lu>
+						<b/>
+						<lu>
+							<lit v="ko"/>
+							<lit-tag v="cnjsub"/>
+						</lu>
+						<b/>
+						<lu>
+							<lit v="biti"/>
+							<lit-tag v="vbser.pres.p3.sg"/>
+						</lu>
+						<b/>
+						<lu>
+							<lit v="imeti"/>
+							<lit-tag v="vblex.past.m.sg"/>
+						</lu>
+					</chunk>
+				</out>
+				</when>
 				<when>
 					<test>
 						<or>

@@ -11225,7 +11225,7 @@
     <!--Translations by Krvoje--><!--TODO: they are sorted by most common translations, make duplicates r="LR"-->
     <e><p><l>pristojba<g><b/>za<b/>parkiranje</g><s n="n"/><s n="f"/></l><r>parkirnina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pristojba<g><b/>za<b/>smeće</g><s n="n"/><s n="f"/></l><r>smetnjak<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>duhan<g><b/>za<b/>šmrkanje</g><s n="n"/><s n="mi"/></l><r>njuhanec<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>duhan<g><b/>za<b/>šmrkanje</g><s n="n"/><s n="mi"/></l><r>njuhanec<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>rukavica<s n="n"/><s n="f"/><g><b/>samo<b/>s<b/>palcem</g></l><r>palčnik<s n="n"/><s n="mi"/></r></p></e>
     <e r="LR"><p><l>rukavica<s n="n"/><s n="f"/><g><b/>bez<b/>prstiju</g></l><r>palčnik<s n="n"/><s n="mi"/></r></p></e>
 
