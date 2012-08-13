@@ -9928,7 +9928,7 @@
       <!--Participles-->
       <e><i>d</i><par n="e_i__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
       <!--    <e><p><l>deći</l><r>d</r></p><par n="e_i_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>--><!--verbose adverbs-->
-      <e><p><l>deći</l><r>d</r></p><par n="e_i_right__yat"/><p><l></l><r><s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
+      <e><p><l>deći</l><r>d</r></p><par n="e_i_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
     </pardef>
 
     <pardef n="imperf_iv_/slati__vblex">
@@ -33085,6 +33085,7 @@
     <e lm="danju"><i>danju</i><par n="danas__adv"/></e>
     <e lm="danas"><i>danas</i><par n="danas__adv"/></e>
     <e lm="tek"><i>tek</i><par n="danas__adv"/></e>
+    <e lm="tik"><i>tik</i><par n="danas__adv"/></e>
     <e lm="kasno"><i>kasno</i><par n="danas__adv"/></e>
     <e lm="lani"><i>lani</i><par n="danas__adv"/></e>
     <e lm="nevoljko"><i>nevoljko</i><par n="danas__adv"/></e>
@@ -51685,6 +51686,9 @@
     <e lm="mnogokad"><i>mnogokad</i><par n="danas__adv"/></e>
     <e lm="mnogogdje"><i>mnogogdje</i><par n="danas__adv"/></e>
     <e lm="greškom"><i>greškom</i><par n="danas__adv"/></e>
+
+    <e lm="na koncu"><i>na<b/>koncu</i><par n="gen__pr"/></e>
+    <e lm="na kraju"><i>na<b/>kraju</i><par n="gen__pr"/></e>
 
   </section>
 
