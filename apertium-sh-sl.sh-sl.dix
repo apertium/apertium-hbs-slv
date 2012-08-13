@@ -813,7 +813,7 @@
     <e><p><l>ohrabrujuće<s n="adv"/></l><r>vzpodbudno<s n="adv"/></r></p></e>
     <e><p><l>zadovoljno<s n="adv"/></l><r>zadovoljno<s n="adv"/></r></p></e>
     <e><p><l>podmuklo<s n="adv"/></l><r>zahrbtno<s n="adv"/></r></p></e>
-    <e><p><l>jedinstven<s n="adv"/></l><r>enotno<s n="adv"/></r></p></e>
+    <e><p><l>jedinstveno<s n="adv"/></l><r>enotno<s n="adv"/></r></p></e>
     <e><p><l>hladno<s n="adv"/></l><r>hladno<s n="adv"/></r></p></e>
     <e><p><l>obilno<s n="adv"/></l><r>izdatno<s n="adv"/></r></p></e>
     <e><p><l>čisto<s n="adv"/></l><r>čisto<s n="adv"/></r></p></e>
@@ -5959,6 +5959,7 @@
     <e><p><l>dozvoliti<s n="vblex"/><s n="perf"/></l><r>dovoliti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>poručiti<s n="vblex"/><s n="perf"/></l><r>poročati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>potražiti<s n="vblex"/><s n="perf"/></l><r>poiskati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>zabuljiti<s n="vblex"/><s n="perf"/></l><r>zabuljiti<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>preporučiti<s n="vblex"/><s n="perf"/></l><r>priporočiti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>nadmašiti<s n="vblex"/><s n="perf"/></l><r>premagati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>važiti<s n="vblex"/><s n="imperf"/></l><r>veljati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
@@ -7227,7 +7228,7 @@
 
 
     <!--Nouns-->
-
+    <e><p><l>rulja<s n="n"/><s n="f"/></l><r>truma<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>blažilo<s n="n"/><s n="nt"/></l><r>blažilo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>čistač<s n="n"/><s n="mi"/></l><r>čistilo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kreda<s n="n"/><s n="f"/></l><r>črtalo<s n="n"/><s n="nt"/></r></p></e>
@@ -7267,6 +7268,7 @@
     <e><p><l>magarac<s n="n"/><s n="ma"/></l><r>osel<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>glasnik<s n="n"/><s n="ma"/></l><r>sel<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>lebac<s n="n"/><s n="mi"/></l><r>hlebec<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>hljebac<s n="n"/><s n="mi"/></l><r>hlebec<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>brojač<s n="n"/><s n="mi"/></l><r>števec<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>kanta<s n="n"/><s n="f"/></l><r>zaboj<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>kanta<s n="n"/><s n="f"/></l><r>škaf<s n="n"/><s n="mi"/></r></p></e>
@@ -7278,6 +7280,7 @@
     <e><p><l>nebriga<s n="n"/><s n="f"/></l><r>brezskrbnost<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kreda<s n="n"/><s n="f"/></l><r>kreda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>glasnik<s n="n"/><s n="ma"/></l><r>glasnik<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>glasnik<s n="n"/><s n="mi"/></l><r>glasnik<s n="n"/><s n="ma"/></r></p></e>
 
     <e><p><l>glava<s n="n"/><s n="f"/></l><r>glava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>godina<s n="n"/><s n="f"/></l><r>leto<s n="n"/><s n="nt"/></r></p></e>
@@ -9339,6 +9342,7 @@
     <e><p><l>proturječnost<s n="n"/><s n="f"/></l><r>neskladje<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ulaganje<s n="n"/><s n="nt"/></l><r>naložba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vođenje<s n="n"/><s n="nt"/></l><r>navodilo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>vodilica<s n="n"/><s n="f"/></l><r>vodilo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bratoubojstvo<s n="n"/><s n="nt"/></l><r>bratomor<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>medij<s n="n"/><s n="ma"/></l><r>medij<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>stihotvorstvo<s n="n"/><s n="nt"/></l><r>rimar<s n="n"/><s n="ma"/></r></p></e>
@@ -9533,9 +9537,9 @@
 
 
     <!-- Razlicna števila -->
-    <e><p><l>oko<s n="n"/><s n="f"/><s n="pl"/></l><r>oko<s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="sgpl_pl"/></e>
-    <e><p><l>oko<s n="n"/><s n="nt"/><s n="sg"/></l><r>oko<s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="sgpl_pl"/></e>
-    <e><p><l>oko<s n="n"/><s n="nt"/><s n="sg"/></l><r>oko<s n="n"/><s n="nt"/><s n="du"/></r></p><par n="sgpl_pl"/></e>
+    <e><p><l>oko<s n="n"/><s n="f"/><s n="pl"/></l><r>oko<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+    <e><p><l>oko<s n="n"/><s n="nt"/><s n="sg"/></l><r>oko<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>oko<s n="n"/><s n="nt"/><s n="sg"/></l><r>oko<s n="n"/><s n="nt"/><s n="du"/></r></p></e>
     <e><p><l>zločin<s n="n"/><s n="mi"/></l><r>kriminal<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>snijeg<s n="n"/><s n="mi"/></l><r>sneg<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>odmor<s n="n"/><s n="mi"/></l><r>počitnice<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e>
@@ -9714,6 +9718,7 @@
     <e><p><l>ispit<s n="n"/><s n="mi"/></l><r>izpit<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>subjekt<s n="n"/><s n="ma"/></l><r>subjekt<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>subjekt<s n="n"/><s n="mi"/></l><r>subjekt<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>subjekat<s n="n"/><s n="mi"/></l><r>subjekt<s n="n"/><s n="mi"/></r></p></e>
 
     <e><p><l>glas<s n="n"/><s n="mi"/></l><r>glas<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>instruktorica<s n="n"/><s n="f"/></l><r>inštruktorica<s n="n"/><s n="f"/></r></p></e>
@@ -11072,7 +11077,7 @@
     <e><p><l>baskijski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>baskovščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
     <e><p><l>berba<s n="n"/><s n="f"/></l><r>bera<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>bura<s n="n"/><s n="f"/></l><r>burja<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>iznutrice<s n="n"/><s n="f"/></l><r>drobovina<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e>
+    <e><p><l>iznutrica<s n="n"/><s n="f"/></l><r>drobovina<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>elektrika<s n="n"/><s n="f"/></l><r>elektrika<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>početnica<s n="n"/><s n="f"/></l><r>abecednik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>rječnik<s n="n"/><s n="mi"/></l><r>besednjak<s n="n"/><s n="mi"/></r></p></e>
@@ -11438,6 +11443,8 @@
     <e><p><l>buna<s n="n"/><s n="f"/></l><r>upor<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>provala<s n="n"/><s n="f"/></l><r>vdor<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>večer<s n="n"/><s n="f"/></l><r>večer<s n="n"/><s n="mi"/></r></p></e>
+    <e r="LR"><p><l>večer<s n="n"/><s n="nt"/></l><r>večer<s n="n"/><s n="mi"/></r></p></e>
+    <e r="LR"><p><l>večer<s n="n"/><s n="m"/></l><r>večer<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>uzor<s n="n"/><s n="mi"/></l><r>vzor<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>pogovor<s n="n"/><s n="mi"/></l><r>zagovor<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>zatvor<s n="n"/><s n="mi"/></l><r>zapor<s n="n"/><s n="mi"/></r></p></e>
@@ -12023,6 +12030,7 @@
     <e><p><l>nokat<s n="n"/><s n="mi"/></l><r>noht<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>obećanje<s n="n"/><s n="nt"/></l><r>obet<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>objekt<s n="n"/><s n="mi"/></l><r>objekt<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>objekat<s n="n"/><s n="mi"/></l><r>objekt<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>otpust<s n="n"/><s n="mi"/></l><r>odpust<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>otkaz<s n="n"/><s n="mi"/></l><r>odpust<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>žbuka<s n="n"/><s n="f"/></l><r>omet<s n="n"/><s n="mi"/></r></p></e>
@@ -14659,6 +14667,7 @@
     <e><p><l>lažan<s n="adj"/></l><r>lažniv<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>zarazan<s n="adj"/></l><r>nalezljiv<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>neumoran<s n="adj"/></l><r>neutrudljiv<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>zamoran<s n="adj"/></l><r>utrudljiv<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>oštar<s n="adj"/></l><r>predirljiv<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>riješen<s n="adj"/></l><r>rešljiv<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>siv<s n="adj"/></l><r>siv<s n="adj"/></r></p><par n="pst2null"/></e>
@@ -15844,7 +15853,7 @@
     <e><p><l>mijau<s n="ij"/></l><r>mijav<s n="ij"/></r></p></e>
     <e><p><l>vau-vau<s n="ij"/></l><r>vau-vau<s n="ij"/></r></p></e>
     <e><p><l>vauvau<s n="ij"/></l><r>vauvau<s n="ij"/></r></p></e>
-    <e><p><l>vau vau<s n="ij"/></l><r>vau vau<s n="ij"/></r></p></e>
+    <e><p><l>vau<b/>vau<s n="ij"/></l><r>vau<b/>vau<s n="ij"/></r></p></e>
     <e><p><l>kukuriku<s n="ij"/></l><r>kukuriku<s n="ij"/></r></p></e>
     <e><p><l>kokodak<s n="ij"/></l><r>kokodak<s n="ij"/></r></p></e>
 
@@ -16534,7 +16543,7 @@
     <e><p><l>kako<s n="adv"/></l><r>kako<s n="adv"/></r></p></e>
     <e><p><l>nekako<s n="adv"/></l><r>nekako<s n="adv"/></r></p></e>
     <e><p><l>svakad<s n="adv"/></l><r>vedno<s n="adv"/></r></p></e>
-    <e><p><l>u<b/>prosjeku<s n="adv"/></l><r>povprečno<s n="adv"/></r></p></e>
+    <e><p><l>prosječno<s n="adv"/></l><r>povprečno<s n="adv"/></r></p></e>
     <e><p><l>nego<s n="adv"/></l><r>kakor<s n="adv"/></r></p></e>
     <e><p><l>toliko<s n="adv"/></l><r>toliko<s n="adv"/></r></p></e>
     <e><p><l>isto<b/>tako<s n="adv"/></l><r>prav<b/>tako<s n="adv"/></r></p></e>
@@ -16633,7 +16642,7 @@
     <e><p><l>djelujuči<s n="adv"/></l><r>delujoče<s n="adv"/></r></p></e>
     <e><p><l>djelujući<s n="adv"/></l><r>delujoč<s n="adv"/></r></p></e>
     <e><p><l>bujno<s n="adv"/></l><r>deroče<s n="adv"/></r></p></e>
-    <e><p><l>bujan<s n="adv"/></l><r>deroč<s n="adv"/></r></p></e>
+    <e><p><l>bujajući<s n="adv"/></l><r>deroč<s n="adv"/></r></p></e>
     <e><p><l>deset<b/>puta<s n="adv"/></l><r>desetkrat<s n="adv"/></r></p></e>
     <e><p><l>dječaški<s n="adv"/></l><r>deško<s n="adv"/></r></p></e>
     <e><p><l>devet puta<s n="adv"/></l><r>devetkrat<s n="adv"/></r></p></e>
@@ -16643,7 +16652,7 @@
     <e><p><l>digitalno<s n="adv"/></l><r>digitalno<s n="adv"/></r></p></e>
     <e><p><l>mirisno<s n="adv"/></l><r>dišeče<s n="adv"/></r></p></e>
     <e><p><l>mirisno<s n="adv"/></l><r>dišeč<s n="adv"/></r></p></e>
-    <e><p><l>disidentstvo<s n="adv"/></l><r>disidentsko<s n="adv"/></r></p></e>
+    <e><p><l>disidentski<s n="adv"/></l><r>disidentsko<s n="adv"/></r></p></e>
     <e><p><l>diskretno<s n="adv"/></l><r>diskretno<s n="adv"/></r></p></e>
     <e><p><l>divljački<s n="adv"/></l><r>divjaško<s n="adv"/></r></p></e>
     <e><p><l>doslovno<s n="adv"/></l><r>dobesedno<s n="adv"/></r></p></e>
@@ -16657,7 +16666,7 @@
     <e><p><l>kuči<s n="adv"/></l><r>domov<s n="adv"/></r></p></e>
     <e><p><l>dopustivo<s n="adv"/></l><r>dopustno<s n="adv"/></r></p></e>
     <e><p><l>ostvarivo<s n="adv"/></l><r>dosegljivo<s n="adv"/></r></p></e>
-    <e><p><l>dostojanstvo<s n="adv"/></l><r>dostojanstveno<s n="adv"/></r></p></e>
+    <e><p><l>dostojanstveno<s n="adv"/></l><r>dostojanstveno<s n="adv"/></r></p></e>
     <e><p><l>osjetljivo<s n="adv"/></l><r>dovzetno<s n="adv"/></r></p></e>
     <e><p><l>prividno<s n="adv"/></l><r>dozdevno<s n="adv"/></r></p></e>
     <e><p><l>sitan<s n="adv"/></l><r>drobe<s n="adv"/></r></p></e>
@@ -16667,7 +16676,7 @@
     <e><p><l>inače<s n="adv"/></l><r>drugače<s n="adv"/></r></p></e>
     <e><p><l>drukčije<s n="adv"/></l><r>drugačno<s n="adv"/></r></p></e>
     <e><p><l>drugdje<s n="adv"/></l><r>drugam<s n="adv"/></r></p></e>
-    <e><p><l>drugi put<s n="adv"/></l><r>drugič<s n="adv"/></r></p></e>
+    <e><p><l>drugi<b/>put<s n="adv"/></l><r>drugič<s n="adv"/></r></p></e>
     <e><p><l>drugdje<s n="adv"/></l><r>drugje<s n="adv"/></r></p></e>
     <e><p><l>drugdje<s n="adv"/></l><r>drugod<s n="adv"/></r></p></e>
     <e><p><l>sekundaran<s n="adv"/></l><r>drugotno<s n="adv"/></r></p></e>
@@ -16679,18 +16688,20 @@
     <e><p><l>zadušljiv<s n="adv"/></l><r>dušeče<s n="adv"/></r></p></e>
     <e><p><l>zadušljiv<s n="adv"/></l><r>dušeč<s n="adv"/></r></p></e>
     <e><p><l>mentalni<s n="adv"/></l><r>duševno<s n="adv"/></r></p></e>
-    <e><p><l>dizanje<s n="adv"/></l><r>dvigajoč<s n="adv"/></r></p></e>
-    <e><p><l>dva<s n="adv"/></l><r>dvoje<s n="adv"/></r></p></e>
+    <e><p><l>dižući<s n="adv"/></l><r>dvigajoč<s n="adv"/></r></p></e>
+    <e><p><l>dvoje<s n="num"/></l><r>dvoje<s n="adv"/></r></p></e>
     <e><p><l>sumnjičavo<s n="adv"/></l><r>dvomljivo<s n="adv"/></r></p></e>
     <e><p><l>dvosjekli<s n="adv"/></l><r>dvorezno<s n="adv"/></r></p></e>
     <e><p><l>uljudno<s n="adv"/></l><r>dvorno<s n="adv"/></r></p></e>
     <e><p><l>dvosmisleno<s n="adv"/></l><r>dvoumno<s n="adv"/></r></p></e>
     <e><p><l>ekonomičan<s n="adv"/></l><r>ekonomično<s n="adv"/></r></p></e>
-    <e><p><l>eksperimentalan<s n="adv"/></l><r>eksperimentalno<s n="adv"/></r></p></e>
+    <e><p><l>eksperimentalno<s n="adv"/></l><r>eksperimentalno<s n="adv"/></r></p></e>
     <e><p><l>emotivno<s n="adv"/></l><r>emocionalno<s n="adv"/></r></p></e>
     <e><p><l>empirijski<s n="adv"/></l><r>empirično<s n="adv"/></r></p></e>
     <e><p><l>ekvivalentno<s n="adv"/></l><r>enakovredno<s n="adv"/></r></p></e>
-    <e><p><l>tri<b/>puta<s n="adv"/></l><r>trikrat<s n="adv"/></r></p></e>
+    <e><p><l>jednom<s n="adv"/></l><r>enkrat<s n="adv"/></r></p></e>
+    <e><p><l>dvaput<s n="adv"/></l><r>dvakrat<s n="adv"/></r></p></e>
+    <e><p><l>triput<s n="adv"/></l><r>trikrat<s n="adv"/></r></p></e>
     <e><p><l>četiri<b/>puta<s n="adv"/></l><r>štirikrat<s n="adv"/></r></p></e>
     <e><p><l>pet<b/>puta<s n="adv"/></l><r>petkrat<s n="adv"/></r></p></e>
     <e><p><l>šest<b/>puta<s n="adv"/></l><r>šestkrat<s n="adv"/></r></p></e>
@@ -16704,14 +16715,14 @@
     <e><p><l>fizički<s n="adv"/></l><r>fizično<s n="adv"/></r></p></e>
     <e><p><l>folklorni<s n="adv"/></l><r>folklorno<s n="adv"/></r></p></e>
     <e><p><l>fonetski<s n="adv"/></l><r>fonetično<s n="adv"/></r></p></e>
-    <e><p><l>formalan<s n="adv"/></l><r>formalno<s n="adv"/></r></p></e>
-    <e><p><l>fragmentaran<s n="adv"/></l><r>fragmentarno<s n="adv"/></r></p></e>
-    <e><p><l>funkcionalan<s n="adv"/></l><r>funkcionalno<s n="adv"/></r></p></e>
+    <e><p><l>formalno<s n="adv"/></l><r>formalno<s n="adv"/></r></p></e>
+    <e><p><l>fragmentarno<s n="adv"/></l><r>fragmentarno<s n="adv"/></r></p></e>
+    <e><p><l>funkcionalno<s n="adv"/></l><r>funkcionalno<s n="adv"/></r></p></e>
     <e><p><l>furlanski<s n="adv"/></l><r>furlansko<s n="adv"/></r></p></e>
     <e><p><l>dirljivo<s n="adv"/></l><r>ganljivo<s n="adv"/></r></p></e>
     <e><p><l>elektronički<s n="adv"/></l><r>elektronsko<s n="adv"/></r></p></e>
     <e><p><l>formulirano<s n="adv"/></l><r>formulirano<s n="adv"/></r></p></e>
-    <e><p><l>gledanost<s n="adv"/></l><r>gledano<s n="adv"/></r></p></e>
+    <e><p><l>gledano<s n="adv"/></l><r>gledano<s n="adv"/></r></p></e>
     <e><p><l>truljenje<s n="adv"/></l><r>gnije<s n="adv"/></r></p></e>
     <e><p><l>pokvareno<s n="adv"/></l><r>gnilo<s n="adv"/></r></p></e>
     <e><p><l>opći<s n="adv"/></l><r>generično<s n="adv"/></r></p></e>
@@ -16724,14 +16735,14 @@
     <e><p><l>gluho<s n="adv"/></l><r>gluho<s n="adv"/></r></p></e>
     <e><p><l>gore<s n="adv"/></l><r>gor<s n="adv"/></r></p></e>
     <e><p><l>gore<s n="adv"/></l><r>gori<s n="adv"/></r></p></e>
-    <e><p><l>gost<s n="adv"/></l><r>goste<s n="adv"/></r></p></e>
+    <e><p><l>gosteći<s n="vblex"/><s n="adv"/></l><r>goste<s n="adv"/></r></p></e>
     <e><p><l>govordžija<s n="adv"/></l><r>gostobesedno<s n="adv"/></r></p></e>
     <e><p><l>gostovati<s n="adv"/></l><r>gostujoče<s n="adv"/></r></p></e>
     <e><p><l>svršeno<s n="adv"/></l><r>gotovo<s n="adv"/></r></p></e>
     <e><p><l>pričati<s n="adv"/></l><r>govoreče<s n="adv"/></r></p></e>
-    <e><p><l>govori<s n="adv"/></l><r>govoreč<s n="adv"/></r></p></e>
+    <e><p><l>govoreći<s n="vblex"/><s n="adv"/></l><r>govoreč<s n="adv"/></r></p></e>
     <e><p><l>pričati<s n="adv"/></l><r>govore<s n="adv"/></r></p></e>
-    <e><p><l>govoriti<s n="adv"/></l><r>govore<s n="adv"/></r></p></e>
+    <e><p><l>govoreći<s n="vblex"/><s n="adv"/></l><r>govore<s n="adv"/></r></p></e>
     <e><p><l>kvrgav<s n="adv"/></l><r>grče<s n="adv"/></r></p></e>
     <e><p><l>ružan<s n="adv"/></l><r>grd<s n="adv"/></r></p></e>
     <e><p><l>gromovit<s n="adv"/></l><r>grme<s n="adv"/></r></p></e>
@@ -16746,16 +16757,15 @@
     <e><p><l>heretički<s n="adv"/></l><r>heretično<s n="adv"/></r></p></e>
     <e><p><l>herojski<s n="adv"/></l><r>herojsko<s n="adv"/></r></p></e>
     <e><p><l>hidrografski<s n="adv"/></l><r>hidrografsko<s n="adv"/></r></p></e>
-    <e><p><l>čist<s n="adv"/></l><r>higiensko<s n="adv"/></r></p></e>
+    <e><p><l>higijenski<s n="adv"/></l><r>higiensko<s n="adv"/></r></p></e>
     <e><p><l>licemjerno<s n="adv"/></l><r>hinavsko<s n="adv"/></r></p></e>
-    <e><p><l>u<b/>trenutku<s n="adv"/></l><r>hipno<s n="adv"/></r></p></e>
-    <e><p><l>za<b/>tren<s n="adv"/></l><r>hipno<s n="adv"/></r></p></e>
-    <e><p><l>na brzu ruku<s n="adv"/></l><r>hite<s n="adv"/></r></p></e>
+    <e><p><l>trenutno<s n="adv"/></l><r>hipno<s n="adv"/></r></p></e>
+    <e><p><l>nabrzinu<s n="adv"/></l><r>hite<s n="adv"/></r></p></e>
     <e><p><l>hladovit<s n="adv"/></l><r>hlade<s n="adv"/></r></p></e>
     <e><p><l>hladnokrvno<s n="adv"/></l><r>hladnokrvno<s n="adv"/></r></p></e>
     <e><p><l>isparivanje<s n="adv"/></l><r>hlapeč<s n="adv"/></r></p></e>
     <e><p><l>para<s n="adv"/></l><r>hlape<s n="adv"/></r></p></e>
-    <e><p><l>hodati<s n="adv"/></l><r>hodeč<s n="adv"/></r></p></e>
+    <e><p><l>hodajući<s n="vblex"/><s n="adv"/></l><r>hodeč<s n="adv"/></r></p></e>
     <e><p><l>hormonski<s n="adv"/></l><r>hormonsko<s n="adv"/></r></p></e>
     <e><p><l>rado<s n="adv"/></l><r>hote<s n="adv"/></r></p></e>
     <e><p><l>prehrambeni<s n="adv"/></l><r>hranilno<s n="adv"/></r></p></e>
@@ -16783,17 +16793,17 @@
     <e><p><l>izbirljivo<s n="adv"/></l><r>izbirno<s n="adv"/></r></p></e>
     <e><p><l>odabrano<s n="adv"/></l><r>izbrano<s n="adv"/></r></p></e>
     <e><p><l>izgubljeno<s n="adv"/></l><r>izgubljeno<s n="adv"/></r></p></e>
-    <e><p><l>izlaziti<s n="adv"/></l><r>izhajajoče<s n="adv"/></r></p></e>
-    <e><p><l>izlaziti<s n="adv"/></l><r>izhajajoč<s n="adv"/></r></p></e>
+    <e><p><l>izlazeći<s n="vblex"/><s n="adv"/></l><r>izhajajoče<s n="adv"/></r></p></e>
+    <e><p><l>izlazeći<s n="vblex"/><s n="adv"/></l><r>izhajajoč<s n="adv"/></r></p></e>
     <e><p><l>iznimno<s n="adv"/></l><r>izjemno<s n="adv"/></r></p></e>
     <e><p><l>izuzetno<s n="adv"/></l><r>izjemno<s n="adv"/></r></p></e>
-    <e><p><l>izuzimati<s n="adv"/></l><r>izključujoč<s n="adv"/></r></p></e>
+    <e><p><l>isključujući<s n="vblex"/><s n="adv"/></l><r>izključujoč<s n="adv"/></r></p></e>
     <e><p><l>iskorištavati<s n="adv"/></l><r>izkoriščajoč<s n="adv"/></r></p></e>
     <e><p><l>naizmjenično<s n="adv"/></l><r>izmenično<s n="adv"/></r></p></e>
     <e><p><l>alternacija<s n="adv"/></l><r>izmenično<s n="adv"/></r></p></e>
     <e><p><l>izmjenice<s n="adv"/></l><r>izmenoma<s n="adv"/></r></p></e>
     <e><p><l>nedostižan<s n="adv"/></l><r>izmikajoče<s n="adv"/></r></p></e>
-    <e><p><l>ispunjavati<s n="adv"/></l><r>izpolnjujoč<s n="adv"/></r></p></e>
+    <e><p><l>ispunjavajući<s n="vblex"/><s n="adv"/></l><r>izpolnjujoč<s n="adv"/></r></p></e>
     <e><p><l>osipanje<s n="adv"/></l><r>izpuščaje<s n="adv"/></r></p></e>
     <e><p><l>ispušni<s n="adv"/></l><r>izpušno<s n="adv"/></r></p></e>
     <e><p><l>izvanredno<s n="adv"/></l><r>izredno<s n="adv"/></r></p></e>
@@ -16802,11 +16812,10 @@
     <e><p><l>izvrstan<s n="adv"/></l><r>izvrstno<s n="adv"/></r></p></e>
     <e><p><l>neplodno<s n="adv"/></l><r>jalovo<s n="adv"/></r></p></e>
     <e><p><l>jantarnI<s n="adv"/></l><r>jantarno<s n="adv"/></r></p></e>
-    <e><p><l>javni<s n="adv"/></l><r>javno<s n="adv"/></r></p></e>
+    <e><p><l>javno<s n="adv"/></l><r>javno<s n="adv"/></r></p></e>
     <e><p><l>jetko<s n="adv"/></l><r>jedko<s n="adv"/></r></p></e>
     <e><p><l>sažeto<s n="adv"/></l><r>jedrnato<s n="adv"/></r></p></e>
     <e><p><l>čelino<s n="adv"/></l><r>jekleno<s n="adv"/></r></p></e>
-    <e><p><l>jesen<s n="adv"/></l><r>jeseni<s n="adv"/></r></p></e>
     <e><p><l>plakati<s n="adv"/></l><r>jokaje<s n="adv"/></r></p></e>
     <e><p><l>plakati<s n="adv"/></l><r>jokajoč<s n="adv"/></r></p></e>
     <e><p><l>jubilej<s n="adv"/></l><r>jubilejno<s n="adv"/></r></p></e>
@@ -16822,7 +16831,7 @@
     <e><p><l>kazneno<s n="adv"/></l><r>kaznivo<s n="adv"/></r></p></e>
     <e><p><l>bilokada<s n="adv"/></l><r>kdajkoli<s n="adv"/></r></p></e>
     <e><p><l>keltski<s n="adv"/></l><r>keltsko<s n="adv"/></r></p></e>
-    <e><p><l>kipovi<s n="adv"/></l><r>kipe<s n="adv"/></r></p></e>
+    <e><p><l>kipeći<s n="vblex"/><s n="adv"/></l><r>kipe<s n="adv"/></r></p></e>
     <e><p><l>nakiselo<s n="adv"/></l><r>kiselkasto<s n="adv"/></r></p></e>
     <e><p><l>bilogdje<s n="adv"/></l><r>kjerkoli<s n="adv"/></r></p></e>
     <e><p><l>klasično<s n="adv"/></l><r>klasično<s n="adv"/></r></p></e>
@@ -16833,12 +16842,12 @@
     <e><p><l>prkosno<s n="adv"/></l><r>kljubovalno<s n="adv"/></r></p></e>
     <e><p><l>poljoprivrednički<s n="adv"/></l><r>kmetovo<s n="adv"/></r></p></e>
     <e><p><l>knjižni<s n="adv"/></l><r>knjižno<s n="adv"/></r></p></e>
-    <e><p><l>koliko puta<s n="adv"/></l><r>kolikokrat<s n="adv"/></r></p></e>
+    <e><p><l>koliko<b/>puta<s n="adv"/></l><r>kolikokrat<s n="adv"/></r></p></e>
     <e><p><l>jedva<s n="adv"/></l><r>komajda<s n="adv"/></r></p></e>
     <e><p><l>komandni<s n="adv"/></l><r>komandno<s n="adv"/></r></p></e>
     <e><p><l>komplicirano,složeno<s n="adv"/></l><r>komplicirano<s n="adv"/></r></p></e>
     <e><p><l>komunalan<s n="adv"/></l><r>komunalno<s n="adv"/></r></p></e>
-    <e><p><l>konačan<s n="adv"/></l><r>končno<s n="adv"/></r></p></e>
+    <e><p><l>konačno<s n="adv"/></l><r>končno<s n="adv"/></r></p></e>
     <e><p><l>stalno<s n="adv"/></l><r>konstantno<s n="adv"/></r></p></e>
     <e><p><l>kontinentalan<s n="adv"/></l><r>kontinentalno<s n="adv"/></r></p></e>
     <e><p><l>kopneni<s n="adv"/></l><r>kopensko<s n="adv"/></r></p></e>
@@ -16866,8 +16875,8 @@
     <e><p><l>kultni<s n="adv"/></l><r>kultno<s n="adv"/></r></p></e>
     <e><p><l>četverokutan<s n="adv"/></l><r>kvadratno<s n="adv"/></r></p></e>
     <e><p><l>nagore<s n="adv"/></l><r>kvišku<s n="adv"/></r></p></e>
-    <e><p><l>blag<s n="adv"/></l><r>lahno<s n="adv"/></r></p></e>
-    <e><p><l>prošle<b/>godine<s n="adv"/></l><r>lani<s n="adv"/></r></p></e>
+    <e><p><l>blago<s n="adv"/></l><r>lahno<s n="adv"/></r></p></e>
+    <e><p><l>lani<s n="adv"/></l><r>lani<s n="adv"/></r></p></e>
     <e><p><l>laskavo<s n="adv"/></l><r>laskavo<s n="adv"/></r></p></e>
     <e><p><l>lebdjeti<s n="adv"/></l><r>lebdeč<s n="adv"/></r></p></e>
     <e><p><l>ledeno<s n="adv"/></l><r>ledeno<s n="adv"/></r></p></e>
@@ -16886,8 +16895,8 @@
     <e><p><l>ležeći<s n="adv"/></l><r>leže<s n="adv"/></r></p></e>
     <e><p><l>lirski<s n="adv"/></l><r>lirsko<s n="adv"/></r></p></e>
     <e><p><l>književno<s n="adv"/></l><r>literarno<s n="adv"/></r></p></e>
-    <e><p><l>ljubiti<s n="adv"/></l><r>ljubeče<s n="adv"/></r></p></e>
-    <e><p><l>ljubiti<s n="adv"/></l><r>ljubeč<s n="adv"/></r></p></e>
+    <e><p><l>ljubeći<s n="adv"/></l><r>ljubeče<s n="adv"/></r></p></e>
+    <e><p><l>ljubeći<s n="adv"/></l><r>ljubeč<s n="adv"/></r></p></e>
     <e><p><l>lijepo<s n="adv"/></l><r>ljubko<s n="adv"/></r></p></e>
     <e><p><l>ljubomorno<s n="adv"/></l><r>ljubosumno<s n="adv"/></r></p></e>
     <e><p><l>odvojeno<s n="adv"/></l><r>ločeno<s n="adv"/></r></p></e>
@@ -16901,8 +16910,8 @@
     <e><p><l>odsutan<s n="adv"/></l><r>manjkajoč<s n="adv"/></r></p></e>
     <e><p><l>inferioran<s n="adv"/></l><r>manjvredno<s n="adv"/></r></p></e>
     <e><p><l>marokanac<s n="adv"/></l><r>maroško<s n="adv"/></r></p></e>
-    <e><p><l>bilo<b/>što<s n="adv"/></l><r>marsikdaj<s n="adv"/></r></p></e>
-    <e><p><l>bilo<b/>gdje<s n="adv"/></l><r>marsikje<s n="adv"/></r></p></e>
+    <e><p><l>mnogokad<s n="adv"/></l><r>marsikdaj<s n="adv"/></r></p></e>
+    <e><p><l>mnogogdje<s n="adv"/></l><r>marsikje<s n="adv"/></r></p></e>
     <e><p><l>matematički<s n="adv"/></l><r>matematično<s n="adv"/></r></p></e>
     <e><p><l>šaren<s n="adv"/></l><r>mavrično<s n="adv"/></r></p></e>
     <e><p><l>dok<s n="adv"/></l><r>medtem<s n="adv"/></r></p></e>
@@ -16910,8 +16919,8 @@
     <e><p><l>maglovito<s n="adv"/></l><r>megleno<s n="adv"/></r></p></e>
     <e><p><l>mehanički<s n="adv"/></l><r>mehanično<s n="adv"/></r></p></e>
     <e><p><l>mjehurast<s n="adv"/></l><r>mehurjasto<s n="adv"/></r></p></e>
-    <e><p><l>granica<s n="adv"/></l><r>meje<s n="adv"/></r></p></e>
-    <e><p><l>s<b/>obzirom<s n="adv"/></l><r>meneč<s n="adv"/></r></p></e>
+    <e><p><l>granično<s n="adv"/></l><r>meje<s n="adv"/></r></p></e>
+    <e><p><l>s<b/>obzirom<b/>na<s n="adv"/></l><r>meneč<s n="adv"/></r></p></e>
     <e><p><l>promjenjivati<s n="adv"/></l><r>menjaje<s n="adv"/></r></p></e>
     <e><p><l>mentalni<s n="adv"/></l><r>mentalno<s n="adv"/></r></p></e>
     <e><p><l>miješati<s n="adv"/></l><r>mešajoč<s n="adv"/></r></p></e>
@@ -16937,7 +16946,6 @@
     <e><p><l>moguć<s n="adv"/></l><r>morebitno<s n="adv"/></r></p></e>
     <e><p><l>zamoriti<s n="adv"/></l><r>moreče<s n="adv"/></r></p></e>
     <e><p><l>zamoren<s n="adv"/></l><r>moreč<s n="adv"/></r></p></e>
-    <e><p><l>dosadan<s n="adv"/></l><r>moteč<s n="adv"/></r></p></e>
     <e><p><l>mrtvački<s n="adv"/></l><r>mrliško<s n="adv"/></r></p></e>
     <e><p><l>mrtvo<s n="adv"/></l><r>mrtvo<s n="adv"/></r></p></e>
     <e><p><l>grozničavo<s n="adv"/></l><r>mrzlično<s n="adv"/></r></p></e>
@@ -16945,7 +16953,7 @@
     <e><p><l>nastavljati<s n="adv"/></l><r>nadaljujoč<s n="adv"/></r></p></e>
     <e><p><l>darovito<s n="adv"/></l><r>nadarjeno<s n="adv"/></r></p></e>
     <e><p><l>nadnaravno<s n="adv"/></l><r>nadnaravno<s n="adv"/></r></p></e>
-    <e><p><l>iznad prosjeka<s n="adv"/></l><r>nadpovprečno<s n="adv"/></r></p></e>
+    <e><p><l>natprosječno<s n="adv"/></l><r>nadpovprečno<s n="adv"/></r></p></e>
     <e><p><l>nadstranački<s n="adv"/></l><r>nadstrankarsko<s n="adv"/></r></p></e>
     <e><p><l>od<b/>jednom<s n="adv"/></l><r>naenkrat<s n="adv"/></r></p></e>
     <e><p><l>zadirkivati<s n="adv"/></l><r>nagajivo<s n="adv"/></r></p></e>
@@ -16970,7 +16978,7 @@
     <e><p><l>naraštaj<s n="adv"/></l><r>naraščaje<s n="adv"/></r></p></e>
     <e><p><l>naraštajni<s n="adv"/></l><r>naraščajoč<s n="adv"/></r></p></e>
     <e><p><l>odvojeno<s n="adv"/></l><r>narazen<s n="adv"/></r></p></e>
-    <e><p><l>citirati<s n="adv"/></l><r>narekovaje<s n="adv"/></r></p></e>
+    <e><p><l>citirajući<s n="vblex"/><s n="adv"/></l><r>narekovaje<s n="adv"/></r></p></e>
     <e><p><l>protiv<s n="adv"/></l><r>nasproti<s n="adv"/></r></p></e>
     <e><p><l>suprotno<s n="adv"/></l><r>nasprotno<s n="adv"/></r></p></e>
     <e><p><l>kontradiktoran<s n="adv"/></l><r>nasprotujoče<s n="adv"/></r></p></e>
@@ -16978,7 +16986,7 @@
     <e><p><l>nastajati<s n="adv"/></l><r>nastajajoč<s n="adv"/></r></p></e>
     <e><p><l>oduševljeno<s n="adv"/></l><r>navdušeno<s n="adv"/></r></p></e>
     <e><p><l>prividno<s n="adv"/></l><r>navidezno<s n="adv"/></r></p></e>
-    <e><p><l>bez<b/>obzira<b/>na<s n="adv"/></l><r>navkljub<s n="adv"/></r></p></e>
+    <e><p><l>protivno<s n="adv"/></l><r>navkljub<s n="adv"/></r></p></e>
     <e><p><l>vertikalan<s n="adv"/></l><r>navpično<s n="adv"/></r></p></e>
     <e><p><l>uostalom<s n="adv"/></l><r>navsezadnje<s n="adv"/></r></p></e>
     <e><p><l>ujutro<s n="adv"/></l><r>navsezgodaj<s n="adv"/></r></p></e>
@@ -17008,9 +17016,8 @@
     <e><p><l>neosporno<s n="adv"/></l><r>neizpodbitno<s n="adv"/></r></p></e>
     <e><p><l>neumoljivo<s n="adv"/></l><r>neizprosno<s n="adv"/></r></p></e>
     <e><p><l>neopisivo<s n="adv"/></l><r>neizrekljivo<s n="adv"/></r></p></e>
-    <e><p><l>preko<b/>volje<s n="adv"/></l><r>nejevoljno<s n="adv"/></r></p></e>
+    <e><p><l>nevoljko<s n="adv"/></l><r>nejevoljno<s n="adv"/></r></p></e>
     <e><p><l>nekoliko<b/>puta<s n="adv"/></l><r>nekajkrat<s n="adv"/></r></p></e>
-    <e><p><l>u<b/>svakom<b/>slučaju<s n="adv"/></l><r>nekako<s n="adv"/></r></p></e>
     <e><p><l>nekažnjeno<s n="adv"/></l><r>nekaznovano<s n="adv"/></r></p></e>
     <e><p><l>nekontrolirano<s n="adv"/></l><r>nekontrolirano<s n="adv"/></r></p></e>
     <e><p><l>nepravilano<s n="adv"/></l><r>nekorektno<s n="adv"/></r></p></e>
@@ -17021,7 +17028,7 @@
     <e><p><l>bespomoćno<s n="adv"/></l><r>nemočno<s n="adv"/></r></p></e>
     <e><p><l>nemoguće<s n="adv"/></l><r>nemogoče<s n="adv"/></r></p></e>
     <e><p><l>nemoralano<s n="adv"/></l><r>nemoralno<s n="adv"/></r></p></e>
-    <e><p><l>glatka<s n="adv"/></l><r>nemoteno<s n="adv"/></r></p></e>
+    <e><p><l>glatko<s n="adv"/></l><r>nemoteno<s n="adv"/></r></p></e>
     <e><p><l>odmah<s n="adv"/></l><r>nemudoma<s n="adv"/></r></p></e>
     <e><p><l>neočekivano<s n="adv"/></l><r>nenadejano<s n="adv"/></r></p></e>
     <e><p><l>naglo<s n="adv"/></l><r>nenadno<s n="adv"/></r></p></e>
@@ -17129,7 +17136,8 @@
     <e><p><l>odobravati<s n="adv"/></l><r>odobravajoč<s n="adv"/></r></p></e>
     <e><p><l>od<b/>sada<s n="adv"/></l><r>odslej<s n="adv"/></r></p></e>
     <e><p><l>odsutan<s n="adv"/></l><r>odsotno<s n="adv"/></r></p></e>
-    <e><p><l>poslije toga<s n="adv"/></l><r>odtlej<s n="adv"/></r></p></e>
+    <e><p><l>otad<s n="adv"/></l><r>odtlej<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>otada<s n="adv"/></l><r>odtlej<s n="adv"/></r></p></e>
     <e><p><l>suvišan<s n="adv"/></l><r>odveč<s n="adv"/></r></p></e>
     <e><p><l>u<b/>tijeku<s n="adv"/></l><r>odvijajoč<s n="adv"/></r></p></e>
     <e><p><l>ovisno<s n="adv"/></l><r>odvisno<s n="adv"/></r></p></e>
@@ -17154,7 +17162,7 @@
     <e><p><l>osam puta<s n="adv"/></l><r>osemkrat<s n="adv"/></r></p></e>
     <e><p><l>oslobađati<s n="adv"/></l><r>osvobajajoč<s n="adv"/></r></p></e>
     <e><p><l>opipljiv<s n="adv"/></l><r>otipljivo<s n="adv"/></r></p></e>
-    <e><p><l>djeca<s n="adv"/></l><r>otroško<s n="adv"/></r></p></e>
+    <e><p><l>dječje<s n="adv"/></l><r>otroško<s n="adv"/></r></p></e>
     <e><p><l>izlječiv<s n="adv"/></l><r>ozdravljivo<s n="adv"/></r></p></e>
     <e><p><l>okretati<s n="adv"/></l><r>oziraje<s n="adv"/></r></p></e>
     <e><p><l>okretati<s n="adv"/></l><r>ozirajoč<s n="adv"/></r></p></e>
@@ -17248,7 +17256,7 @@
     <e><p><l>prašan<s n="adv"/></l><r>prašno<s n="adv"/></r></p></e>
     <e><p><l>upravo<s n="adv"/></l><r>pravkar<s n="adv"/></r></p></e>
     <e><p><l>bajno<s n="adv"/></l><r>pravljično<s n="adv"/></r></p></e>
-    <e><p><l>na<b/>vrijeme<s n="adv"/></l><r>pravočasno<s n="adv"/></r></p></e>
+    <e><p><l>pravovremeno<s n="adv"/></l><r>pravočasno<s n="adv"/></r></p></e>
     <e><p><l>okomito<s n="adv"/></l><r>pravokotno<s n="adv"/></r></p></e>
     <e><p><l>pravovjerno<s n="adv"/></l><r>pravoverno<s n="adv"/></r></p></e>
     <e><p><l>pretpovijesni<s n="adv"/></l><r>prazgodovinsko<s n="adv"/></r></p></e>
@@ -17261,7 +17269,7 @@
     <e><p><l>obrađeno<s n="adv"/></l><r>predelano<s n="adv"/></r></p></e>
     <e><p><l>predstavizi<s n="adv"/></l><r>predlagajoč<s n="adv"/></r></p></e>
     <e><p><l>sofisticirano<s n="adv"/></l><r>prefinjeno<s n="adv"/></r></p></e>
-    <e><p><l>grešan<s n="adv"/></l><r>pregrešno<s n="adv"/></r></p></e>
+    <e><p><l>grešno<s n="adv"/></l><r>pregrešno<s n="adv"/></r></p></e>
     <e><p><l>prehladni<s n="adv"/></l><r>prehladno<s n="adv"/></r></p></e>
     <e><p><l>test<s n="adv"/></l><r>preizkusno<s n="adv"/></r></p></e>
     <e><p><l>prije<s n="adv"/></l><r>prej<s n="adv"/></r></p></e>
@@ -17285,15 +17293,15 @@
     <e><p><l>pretjerano<s n="adv"/></l><r>pretirano<s n="adv"/></r></p></e>
     <e><p><l>šokantan<s n="adv"/></l><r>pretresljivo<s n="adv"/></r></p></e>
     <e><p><l>prisebno<s n="adv"/></l><r>preudarno<s n="adv"/></r></p></e>
-    <e><p><l>dominantan<s n="adv"/></l><r>prevladujoče<s n="adv"/></r></p></e>
-    <e><p><l>dominantan<s n="adv"/></l><r>prevladujoč<s n="adv"/></r></p></e>
+    <e><p><l>dominantno<s n="adv"/></l><r>prevladujoče<s n="adv"/></r></p></e>
+    <e><p><l>dominantno<s n="adv"/></l><r>prevladujoč<s n="adv"/></r></p></e>
     <e><p><l>prevratništvo<s n="adv"/></l><r>prevratniško<s n="adv"/></r></p></e>
     <e><p><l>približno<s n="adv"/></l><r>približno<s n="adv"/></r></p></e>
     <e><p><l>očekivati<s n="adv"/></l><r>pričakujoč<s n="adv"/></r></p></e>
     <e><p><l>marljivo<s n="adv"/></l><r>pridno<s n="adv"/></r></p></e>
     <e><p><l>nadolaziti<s n="adv"/></l><r>prihajajoče<s n="adv"/></r></p></e>
     <e><p><l>dolazati<s n="adv"/></l><r>prihajajoč<s n="adv"/></r></p></e>
-    <e><p><l>budućnost<s n="adv"/></l><r>prihodnje<s n="adv"/></r></p></e>
+    <e><p><l>buduće<s n="adv"/></l><r>prihodnje<s n="adv"/></r></p></e>
     <e><p><l>sljedeći<s n="adv"/></l><r>prihodnjič<s n="adv"/></r></p></e>
     <e><p><l>pokazivati<s n="adv"/></l><r>prikazujoč<s n="adv"/></r></p></e>
     <e><p><l>prilagoditi<s n="adv"/></l><r>prilagodljivo<s n="adv"/></r></p></e>
@@ -17303,7 +17311,7 @@
     <e><p><l>odgovarajući<s n="adv"/></l><r>pripadajoč<s n="adv"/></r></p></e>
     <e><p><l>prirediti<s n="adv"/></l><r>prireditveno<s n="adv"/></r></p></e>
     <e><p><l>pristrano<s n="adv"/></l><r>pristransko<s n="adv"/></r></p></e>
-    <e><p><l>biti<s n="adv"/></l><r>pritrdilno<s n="adv"/></r></p></e>
+    <e><p><l>potvrdno<s n="adv"/></l><r>pritrdilno<s n="adv"/></r></p></e>
     <e><p><l>odbaciti<s n="adv"/></l><r>proč<s n="adv"/></r></p></e>
     <e><p><l>stručno<s n="adv"/></l><r>profesionalno<s n="adv"/></r></p></e>
     <e><p><l>propaganda<s n="adv"/></l><r>propagandno<s n="adv"/></r></p></e>
@@ -17333,16 +17341,16 @@
     <e><p><l>ravan<s n="adv"/></l><r>ravno<s n="adv"/></r></p></e>
     <e><p><l>upravo<s n="adv"/></l><r>ravnokar<s n="adv"/></r></p></e>
     <e><p><l>nadražljiv<s n="adv"/></l><r>razdražljivo<s n="adv"/></r></p></e>
-    <e><p><l>istraživanje<s n="adv"/></l><r>raziskovalno<s n="adv"/></r></p></e>
+    <e><p><l>istraživački<s n="adv"/></l><r>raziskovalno<s n="adv"/></r></p></e>
     <e><p><l>srazmjer<s n="adv"/></l><r>razmeroma<s n="adv"/></r></p></e>
     <e><p><l>zamišljeno<s n="adv"/></l><r>razmišljajoče<s n="adv"/></r></p></e>
-    <e><p><l>koješta<s n="adv"/></l><r>razno<s n="adv"/></r></p></e>
+    <e><p><l>razno<s n="adv"/></l><r>razno<s n="adv"/></r></p></e>
     <e><p><l>raspasti<s n="adv"/></l><r>razpadajoče<s n="adv"/></r></p></e>
     <e><p><l>raspasti<s n="adv"/></l><r>razpadajoč<s n="adv"/></r></p></e>
     <e><p><l>dostupno<s n="adv"/></l><r>razpoložljivo<s n="adv"/></r></p></e>
     <e><p><l>nestašno<s n="adv"/></l><r>razposajeno<s n="adv"/></r></p></e>
-    <e><p><l>identifikacija<s n="adv"/></l><r>razpoznavno<s n="adv"/></r></p></e>
-    <e><p><l>klasa<s n="adv"/></l><r>razredno<s n="adv"/></r></p></e>
+    <e><p><l>prepoznatljivo<s n="adv"/></l><r>razpoznavno<s n="adv"/></r></p></e>
+    <e><p><l>razredno<s n="adv"/></l><r>razredno<s n="adv"/></r></p></e>
     <e><p><l>razbacti<s n="adv"/></l><r>raztreseno<s n="adv"/></r></p></e>
     <e><p><l>osjetljivost<s n="adv"/></l><r>razumevajoče<s n="adv"/></r></p></e>
     <e><p><l>razumijevati<s n="adv"/></l><r>razumevajoč<s n="adv"/></r></p></e>
@@ -17351,7 +17359,7 @@
     <e><p><l>razvoj<s n="adv"/></l><r>razvijajoče<s n="adv"/></r></p></e>
     <e><p><l>razvij<s n="adv"/></l><r>razvijajoč<s n="adv"/></r></p></e>
     <e><p><l>razvoj<s n="adv"/></l><r>razvojno<s n="adv"/></r></p></e>
-    <e><p><l>crven<s n="adv"/></l><r>rdeč<s n="adv"/></r></p></e>
+    <e><p><l>crveno<s n="adv"/></l><r>rdeč<s n="adv"/></r></p></e>
     <e><p><l>crvenkasto<s n="adv"/></l><r>rdečkasto<s n="adv"/></r></p></e>
     <e><p><l>reaktivno<s n="adv"/></l><r>reaktivno<s n="adv"/></r></p></e>
     <e><p><l>reči<s n="adv"/></l><r>rečeno<s n="adv"/></r></p></e>
@@ -17425,7 +17433,7 @@
     <e><p><l>čuven<s n="adv"/></l><r>sloveč<s n="adv"/></r></p></e>
     <e><p><l>gramatički<s n="adv"/></l><r>slovnično<s n="adv"/></r></p></e>
     <e><p><l>slučajno<s n="adv"/></l><r>slučajno<s n="adv"/></r></p></e>
-    <e><p><l>smijati<b/>se<s n="adv"/></l><r>smeje<s n="adv"/></r></p></e>
+    <e><p><l>kroz<b/>smijeh<s n="adv"/></l><r>smeje<s n="adv"/></r></p></e>
     <e><p><l>smisleno<s n="adv"/></l><r>smiselno<s n="adv"/></r></p></e>
     <e><p><l>smola<s n="adv"/></l><r>smolnato<s n="adv"/></r></p></e>
     <e><p><l>smrdljiv<s n="adv"/></l><r>smrdeče<s n="adv"/></r></p></e>
@@ -17434,14 +17442,14 @@
     <e><p><l>sažalno<s n="adv"/></l><r>sočutno<s n="adv"/></r></p></e>
     <e><p><l>suditi<s n="adv"/></l><r>sodeč<s n="adv"/></r></p></e>
     <e><p><l>sunčano<s n="adv"/></l><r>sončno<s n="adv"/></r></p></e>
-    <e><p><l>disati<s n="adv"/></l><r>sope<s n="adv"/></r></p></e>
-    <e><p><l>disati<s n="adv"/></l><r>sopihajoč<s n="adv"/></r></p></e>
+    <e><p><l>dahćući<s n="vblex"/><s n="adv"/></l><r>sope<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>dahćući<s n="vblex"/><s n="adv"/></l><r>sopihajoč<s n="adv"/></r></p></e>
     <e><p><l>sovjetski<s n="adv"/></l><r>sovjetsko<s n="adv"/></r></p></e>
     <e><p><l>spavanje<s n="adv"/></l><r>speče<s n="adv"/></r></p></e>
     <e><p><l>spavati<s n="adv"/></l><r>speč<s n="adv"/></r></p></e>
     <e><p><l>spekulativnost<s n="adv"/></l><r>spekulativno<s n="adv"/></r></p></e>
     <e><p><l>spiralno<s n="adv"/></l><r>spiralno<s n="adv"/></r></p></e>
-    <e><p><l>duhovni<s n="adv"/></l><r>spiritualno<s n="adv"/></r></p></e>
+    <e><p><l>spiritualno<s n="adv"/></l><r>spiritualno<s n="adv"/></r></p></e>
     <e><p><l>spočetka<s n="adv"/></l><r>spočetka<s n="adv"/></r></p></e>
     <e><p><l>ispod<s n="adv"/></l><r>spodaj<s n="adv"/></r></p></e>
     <e><p><l>motivacija<s n="adv"/></l><r>spodbujajoč<s n="adv"/></r></p></e>
@@ -17487,7 +17495,7 @@
     <e><p><l>projekcije<s n="adv"/></l><r>štrleče<s n="adv"/></r></p></e>
     <e><p><l>izbočen<s n="adv"/></l><r>štrleč<s n="adv"/></r></p></e>
     <e><p><l>ukočeno<s n="adv"/></l><r>strme<s n="adv"/></r></p></e>
-    <e><p><l>buka<s n="adv"/></l><r>šume<s n="adv"/></r></p></e>
+    <e><p><l>šumno<s n="adv"/></l><r>šume<s n="adv"/></r></p></e>
     <e><p><l>udar<s n="adv"/></l><r>sunkoma<s n="adv"/></r></p></e>
     <e><p><l>suvereno<s n="adv"/></l><r>suvereno<s n="adv"/></r></p></e>
     <e><p><l>sjajan<s n="adv"/></l><r>svetleče<s n="adv"/></r></p></e>
@@ -17518,7 +17526,7 @@
     <e><p><l>tipičan<s n="adv"/></l><r>tipično<s n="adv"/></r></p></e>
     <e><p><l>hiljadu<s n="adv"/></l><r>tisočkrat<s n="adv"/></r></p></e>
     <e><p><l>spaljivati<s n="adv"/></l><r>tleče<s n="adv"/></r></p></e>
-    <e><p><l>ovaj put<s n="adv"/></l><r>tokrat<s n="adv"/></r></p></e>
+    <e><p><l>ovaj<b/>put<s n="adv"/></l><r>tokrat<s n="adv"/></r></p></e>
     <e><p><l>onoliko<s n="adv"/></l><r>tolikanj<s n="adv"/></r></p></e>
     <e><p><l>ovoliko<s n="adv"/></l><r>toliko<s n="adv"/></r></p></e>
     <e><p><l>toliko puta<s n="adv"/></l><r>tolikokrat<s n="adv"/></r></p></e>
@@ -17534,13 +17542,13 @@
     <e><p><l>tri<s n="adv"/></l><r>troje<s n="adv"/></r></p></e>
     <e><p><l>patnja<s n="adv"/></l><r>trpeče<s n="adv"/></r></p></e>
     <e><p><l>gorko<s n="adv"/></l><r>trpko<s n="adv"/></r></p></e>
-    <e><p><l>grupa<s n="adv"/></l><r>trumoma<s n="adv"/></r></p></e>
+    <e><p><l>grupno<s n="adv"/></l><r>trumoma<s n="adv"/></r></p></e>
     <e><p><l>marketing<s n="adv"/></l><r>tržno<s n="adv"/></r></p></e>
-    <e><p><l>inozemni<s n="adv"/></l><r>tuje<s n="adv"/></r></p></e>
+    <e><p><l>tuđe<s n="adv"/></l><r>tuje<s n="adv"/></r></p></e>
     <e><p><l>rizik<s n="adv"/></l><r>tvegaje<s n="adv"/></r></p></e>
     <e><p><l>siromašan<s n="adv"/></l><r>ubogo<s n="adv"/></r></p></e>
     <e><p><l>učenje<s n="adv"/></l><r>učeč<s n="adv"/></r></p></e>
-    <e><p><l>bijeg<s n="adv"/></l><r>uhajajoč<s n="adv"/></r></p></e>
+    <e><p><l>bježeći<s n="adv"/></l><r>uhajajoč<s n="adv"/></r></p></e>
     <e><p><l>odgovarajući<s n="adv"/></l><r>ujemajoč<s n="adv"/></r></p></e>
     <e><p><l>vješto<s n="adv"/></l><r>umetelno<s n="adv"/></r></p></e>
     <e><p><l>umjetno<s n="adv"/></l><r>umetniško<s n="adv"/></r></p></e>
@@ -17569,20 +17577,20 @@
     <e><p><l>stvarati<s n="adv"/></l><r>ustvarjajoč<s n="adv"/></r></p></e>
     <e><p><l>treperi<s n="adv"/></l><r>utripajoče<s n="adv"/></r></p></e>
     <e><p><l>žmigav<s n="adv"/></l><r>utripajoč<s n="adv"/></r></p></e>
-    <e><p><l>ubiti<b/>noge<s n="adv"/></l><r>utrudljivo<s n="adv"/></r></p></e>
+    <e><p><l>zamorno<s n="adv"/></l><r>utrudljivo<s n="adv"/></r></p></e>
     <e><p><l>jestivo<s n="adv"/></l><r>užitno<s n="adv"/></r></p></e>
     <e><p><l>zavodnički<s n="adv"/></l><r>vabljivo<s n="adv"/></r></p></e>
     <e><p><l>valovito<s n="adv"/></l><r>valovito<s n="adv"/></r></p></e>
     <e><p><l>valovito<s n="adv"/></l><r>valujoče<s n="adv"/></r></p></e>
-    <e><p><l>čuvati<s n="adv"/></l><r>varovaje<s n="adv"/></r></p></e>
-    <e><p><l>čuvati<s n="adv"/></l><r>varstveno<s n="adv"/></r></p></e>
+    <e><p><l>čuvajući<s n="vblex"/><s n="adv"/></l><r>varovaje<s n="adv"/></r></p></e>
+    <e><p><l>štiteći<s n="vblex"/><s n="adv"/></l><r>varstveno<s n="adv"/></r></p></e>
     <e><p><l>večerašnji<s n="adv"/></l><r>večerno<s n="adv"/></r></p></e>
     <e><p><l>veči<b/>deo<s n="adv"/></l><r>večidel<s n="adv"/></r></p></e>
     <e><p><l>zauvijek<s n="adv"/></l><r>večno<s n="adv"/></r></p></e>
     <e><p><l>ponašati se<s n="adv"/></l><r>vedenjsko<s n="adv"/></r></p></e>
     <e><p><l>važeći<s n="adv"/></l><r>veljavno<s n="adv"/></r></p></e>
     <e><p><l>beneški<s n="adv"/></l><r>venetsko<s n="adv"/></r></p></e>
-    <e><p><l>glagolski<s n="adv"/></l><r>verbalno<s n="adv"/></r></p></e>
+    <e><p><l>verbalno<s n="adv"/></l><r>verbalno<s n="adv"/></r></p></e>
     <e><p><l>lančano<s n="adv"/></l><r>verižno<s n="adv"/></r></p></e>
     <e><p><l>vjerno<s n="adv"/></l><r>verno<s n="adv"/></r></p></e>
     <e><p><l>vjerovati<s n="adv"/></l><r>verujoč<s n="adv"/></r></p></e>
@@ -17601,7 +17609,7 @@
     <e><p><l>uključno<s n="adv"/></l><r>vključno<s n="adv"/></r></p></e>
     <e><p><l>vladajući<s n="adv"/></l><r>vladajoče<s n="adv"/></r></p></e>
     <e><p><l>vlada<s n="adv"/></l><r>vladno<s n="adv"/></r></p></e>
-    <e><p><l>između<s n="adv"/></l><r>vmes<s n="adv"/></r></p></e>
+    <e><p><l>između<s n="pr"/><s n="gen"/></l><r>vmes<s n="adv"/></r></p></e>
     <e><p><l>unaprijed<s n="adv"/></l><r>vnaprej<s n="adv"/></r></p></e>
     <e><p><l>unositi<s n="adv"/></l><r>vnašaje<s n="adv"/></r></p></e>
     <e><p><l>vodeči<s n="adv"/></l><r>vodeče<s n="adv"/></r></p></e>
@@ -17647,7 +17655,7 @@
     <e><p><l>pokretati<s n="adv"/></l><r>začenši<s n="adv"/></r></p></e>
     <e><p><l>unatrag<s n="adv"/></l><r>zadaj<s n="adv"/></r></p></e>
     <e><p><l>zadnji<s n="adv"/></l><r>zadnjič<s n="adv"/></r></p></e>
-    <e><p><l>dovoljan<s n="adv"/></l><r>zadostno<s n="adv"/></r></p></e>
+    <e><p><l>dovoljno<s n="adv"/></l><r>zadostno<s n="adv"/></r></p></e>
     <e><p><l>zadovoljavajuće<s n="adv"/></l><r>zadovoljivo<s n="adv"/></r></p></e>
     <e><p><l>zagušljivo<s n="adv"/></l><r>zadušljivo<s n="adv"/></r></p></e>
     <e><p><l>pod<b/>uvjetom<s n="adv"/></l><r>zagotavljajoč<s n="adv"/></r></p></e>
@@ -17665,14 +17673,14 @@
     <e><p><l>užaren<s n="adv"/></l><r>žareče<s n="adv"/></r></p></e>
     <e><p><l>užaren<s n="adv"/></l><r>žareč<s n="adv"/></r></p></e>
     <e><p><l>zavjerenički<s n="adv"/></l><r>zarotniško<s n="adv"/></r></p></e>
-    <e><p><l>briga<s n="adv"/></l><r>zaskrbljujoče<s n="adv"/></r></p></e>
+    <e><p><l>brižno<s n="adv"/></l><r>zaskrbljujoče<s n="adv"/></r></p></e>
     <e><p><l>zaslužiti<s n="adv"/></l><r>zasluženo<s n="adv"/></r></p></e>
     <e><p><l>pospano<s n="adv"/></l><r>zaspano<s n="adv"/></r></p></e>
     <e><p><l>besplatno<s n="adv"/></l><r>zastonj<s n="adv"/></r></p></e>
     <e><p><l>zastupnik<s n="adv"/></l><r>zastopajoč<s n="adv"/></r></p></e>
     <e><p><l>obeshrabriti<s n="adv"/></l><r>zastrašujoče<s n="adv"/></r></p></e>
     <e><p><l>iz<b/>tog<b/>razloga<s n="adv"/></l><r>zategadelj<s n="adv"/></r></p></e>
-    <e><p><l>nakon<s n="adv"/></l><r>zatem<s n="adv"/></r></p></e>
+    <e><p><l>zatim<s n="adv"/></l><r>zatem<s n="adv"/></r></p></e>
     <e><p><l>stoga<s n="adv"/></l><r>zatorej<s n="adv"/></r></p></e>
     <e><p><l>zabluda<s n="adv"/></l><r>zavajajoče<s n="adv"/></r></p></e>
     <e><p><l>zabluda<s n="adv"/></l><r>zavajajoč<s n="adv"/></r></p></e>
@@ -17681,11 +17689,11 @@
     <e><p><l>vezati<s n="adv"/></l><r>zavezujoč<s n="adv"/></r></p></e>
     <e><p><l>zavidno<s n="adv"/></l><r>zavidljivo<s n="adv"/></r></p></e>
     <e><p><l>bockati<s n="adv"/></l><r>zbadajoč<s n="adv"/></r></p></e>
-    <e><p><l>izvanredan<s n="adv"/></l><r>zbujajoč<s n="adv"/></r></p></e>
+    <e><p><l>izvanredno<s n="adv"/></l><r>zbujajoč<s n="adv"/></r></p></e>
     <e><p><l>daleko<s n="adv"/></l><r>zdaleč<s n="adv"/></r></p></e>
     <e><p><l>daleko<b/>od<b/>kuće<s n="adv"/></l><r>zdoma<s n="adv"/></r></p></e>
-    <e><p><l>zdravstveni<s n="adv"/></l><r>zdravstveno<s n="adv"/></r></p></e>
-    <e><p><l>kontinuirana<s n="adv"/></l><r>zdržema<s n="adv"/></r></p></e>
+    <e><p><l>zdravstveno<s n="adv"/></l><r>zdravstveno<s n="adv"/></r></p></e>
+    <e><p><l>kontinuirano<s n="adv"/></l><r>zdržema<s n="adv"/></r></p></e>
     <e><p><l>zelenkasto<s n="adv"/></l><r>zelenkasto<s n="adv"/></r></p></e>
     <e><p><l>željezo<s n="adv"/></l><r>železno<s n="adv"/></r></p></e>
     <e><p><l>zemlja<s n="adv"/></l><r>zemeljsko<s n="adv"/></r></p></e>
@@ -17701,7 +17709,7 @@
     <e><p><l>ujutro<s n="adv"/></l><r>zjutraj<s n="adv"/></r></p></e>
     <e><p><l>postepeno<s n="adv"/></l><r>zlagoma<s n="adv"/></r></p></e>
     <e><p><l>naročito<s n="adv"/></l><r>zlasti<s n="adv"/></r></p></e>
-    <e><p><l>na<b/>lepi<b/>način<s n="adv"/></l><r>zlepa<s n="adv"/></r></p></e>
+    <e><p><l>na<b/>lijep<b/>način<s n="adv"/></l><r>zlepa<s n="adv"/></r></p></e>
     <e><p><l>kazneno<s n="adv"/></l><r>zločinsko<s n="adv"/></r></p></e>
     <e><p><l>zlokoban<s n="adv"/></l><r>zlovešče<s n="adv"/></r></p></e>
     <e><p><l>preklopni<s n="adv"/></l><r>zložljivo<s n="adv"/></r></p></e>
@@ -17709,9 +17717,9 @@
     <e><p><l>unutar<s n="adv"/></l><r>znotraj<s n="adv"/></r></p></e>
     <e><p><l>zora<s n="adv"/></l><r>zore<s n="adv"/></r></p></e>
     <e><p><l>usto<s n="adv"/></l><r>zraven<s n="adv"/></r></p></e>
-    <e><p><l>gledati<s n="adv"/></l><r>zreč<s n="adv"/></r></p></e>
+    <e><p><l>gledajući<s n="vblex"/><s n="adv"/></l><r>zreč<s n="adv"/></r></p></e>
     <e><p><l>navečer<s n="adv"/></l><r>zvečer<s n="adv"/></r></p></e>
-    <e><p><l>u<b/>velikoj<b/>mjeri<s n="adv"/></l><r>zvečine<s n="adv"/></r></p></e>
+    <e><p><l>većinom<s n="adv"/></l><r>zvečine<s n="adv"/></r></p></e>
     <e><p><l>zvučan<s n="adv"/></l><r>zveneč<s n="adv"/></r></p></e>
     <e><p><l>vjerno<s n="adv"/></l><r>zvesto<s n="adv"/></r></p></e>
     <e><p><l>zvjezdan<s n="adv"/></l><r>zvezdniško<s n="adv"/></r></p></e>
