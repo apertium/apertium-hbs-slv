@@ -1234,7 +1234,7 @@
 						<b/>
 						<lu>
 							<lit v="imeti"/>
-							<lit-tag v="vblex.past.m.sg"/>
+							<lit-tag v="vblex.imperf.tv.past.m.sg"/>
 						</lu>
 					</chunk>
 				</out>
