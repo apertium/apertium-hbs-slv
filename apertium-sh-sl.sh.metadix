@@ -33483,6 +33483,7 @@
     <e lm="potrajati"><i>potr</i><par n="perf_iv__nast/ajati__vblex"/></e>
     <e lm="trajati"><i>tr</i><par n="imperf_iv__nast/ajati__vblex"/></e>
 
+    <e lm="derati"><i>der</i><par n="imperf_tv_opominj/ati__vblex"/></e>
     <e lm="opominjati"><i>opominj</i><par n="imperf_tv_opominj/ati__vblex"/></e>
     <e lm="opominjati"><i>opominj</i><par n="imperf_ref_opominj/ati__vblex"/></e>
     <e lm="otpočinjati"><i>otpočinj</i><par n="imperf_iv_opominj/ati__vblex"/></e>
@@ -51665,7 +51666,7 @@
 
     <!--Compound verbal phrases-->
     <e lm="biti svjestan"><i/><par n="biti__vbser"/><p><l><b/>svjestan</l><r><g><b/>svjestan</g></r></p></e>
-    <e lm="baviti se poljoprivredom"><i>bav</i><par n="imperf_tv_plov/iti__vblex"/><p><l><b/>se<b/>poljoprivredom</l><r><g><b/>se<b/>poljoprivredom</g></r></p></e>
+    <e lm="baviti se poljoprivredom"><i>bav</i><par n="imperf_ref_plov/iti__vblex"/><p><l><b/>se<b/>poljoprivredom</l><r><g><b/>se<b/>poljoprivredom</g></r></p></e>
 
 
     <!--Compound adverbs-->

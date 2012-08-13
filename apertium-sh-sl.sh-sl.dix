@@ -397,7 +397,7 @@
     <e><p><l>free<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/><s n="emph"/></r></p><par n="pers_id"/></e>
 
     <!--For contractions-->
-    <e><p><l>clitic<s n="prn"/><s n="pers"/><s n="clt"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_id"/><p><l><s n="mfn"/></l><r><s n="mf"/></r></p></e>
+    <e><p><l>clitic<s n="prn"/><s n="pers"/><s n="clt"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_id"/><p><l></l><r></r></p></e>
 
 
     <e><p><l>svoj<s n="prn"/><s n="ref"/><s n="pos"/></l><r>svoj<s n="prn"/><s n="ref"/></r></p></e>
@@ -5253,6 +5253,9 @@
     <e><p><l>dobiti<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>dobiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>dolaziti<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>prihajati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
 
+	<e><p><l>naelektrizirati<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>naelektriti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+	<e><p><l>naelektrizirati<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>naelektriti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p></e>
+	<e><p><l>izvirati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>izvirati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
 	<e><p><l>krenuti<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>startati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 	<e><p><l>ukinuti<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>startati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 	<e><p><l>pokupiti<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>pobrati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
@@ -5892,7 +5895,9 @@
     <e><p><l>istaći<s n="vblex"/><s n="perf"/></l><r>pohvaliti<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>postići<s n="vblex"/><s n="perf"/></l><r>dosegati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>odbjeći<s n="vblex"/><s n="perf"/></l><r>zbežati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2iv"/></e>
+    <e><p><l>bježati<s n="vblex"/><s n="imperf"/></l><r>bežati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>iznaći<s n="vblex"/><s n="perf"/></l><r>izumiti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>dirati<s n="vblex"/><s n="imperf"/></l><r>vtikati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>podići<s n="vblex"/><s n="perf"/></l><r>dvigniti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>presjeći<s n="vblex"/><s n="perf"/></l><r>presekati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>potresati<s n="vblex"/><s n="imperf"/></l><r>pretresati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
@@ -16642,7 +16647,7 @@
     <e><p><l>djelujuči<s n="adv"/></l><r>delujoče<s n="adv"/></r></p></e>
     <e><p><l>djelujući<s n="adv"/></l><r>delujoč<s n="adv"/></r></p></e>
     <e><p><l>bujno<s n="adv"/></l><r>deroče<s n="adv"/></r></p></e>
-    <e><p><l>bujajući<s n="adv"/></l><r>deroč<s n="adv"/></r></p></e>
+    <e><p><l>derući<s n="vblex"/><s n="adv"/></l><r>deroč<s n="adv"/></r></p></e>
     <e><p><l>deset<b/>puta<s n="adv"/></l><r>desetkrat<s n="adv"/></r></p></e>
     <e><p><l>dječaški<s n="adv"/></l><r>deško<s n="adv"/></r></p></e>
     <e><p><l>devet puta<s n="adv"/></l><r>devetkrat<s n="adv"/></r></p></e>
@@ -17901,6 +17906,8 @@
     <e><p><l>malo<s n="adv"/></l><r>malo<s n="adv"/></r></p></e>
     <e><p><l>strogo<s n="adv"/></l><r>strogo<s n="adv"/></r></p></e>
     <e><p><l>odista<s n="adv"/></l><r>stvarno<s n="adv"/></r></p></e>
+
+    <e><p><l>baviti<s n="vblex"/><s n="imperf"/><s n="ref"/><g><b/>se<b/>poljoprivredom</g></l><r>kmetovati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p></e>
 
 
 
