@@ -7253,7 +7253,7 @@
       <!--Participles-->
       <e><p><l>t</l><r>t</r></p><par n="e_i_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e>
       <!--  <e><p><l>teći</l><r>t</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>--><!--verbose adverbs-->
-      <e><p><l>teći</l><r>t</r></p><par n="e_je_right__yat"/><p><l></l><r><s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
+      <e><p><l>teći</l><r>teći<s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
     </pardef>
     <pardef n="imperf_iv_vr/tjeti__vblex">
       <!--Infinitive-->
@@ -7267,7 +7267,7 @@
       <!--Participles-->
       <e><p><l>t</l><r>t</r></p><par n="e_i_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
       <!--  <e><p><l>teći</l><r>t</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>--><!--verbose adverbs-->
-      <e><p><l>teći</l><r>t</r></p><par n="e_je_right__yat"/><p><l></l><r><s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
+      <e><p><l>teći</l><r>teći<s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
     </pardef>
 
     <pardef n="imperf_ref_vu/ći__vblex">
@@ -8559,8 +8559,8 @@
       <e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
       <!--Participles-->
       <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_iti__sfx"/></e>
-      <!--    <e><par n="e_e_left__yat"/><par n="e_je_right__yat"/><p><l>ći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>--><!--verbose adverbs-->
-      <e><par n="e_e_left__yat"/><par n="e_je_right__yat"/><p><l>ći</l><r>ći<s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
+      <!--    <e><par n="e_e_left__yat"/><par n="e_e_right__yat"/><p><l>ći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>--><!--verbose adverbs-->
+      <e><par n="e_e_left__yat"/><par n="e_e_right__yat"/><p><l>ći</l><r>ći<s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
     </pardef>
     <pardef n="imperf_ref_žel/jeti__vblex">
       <!--Infinitive-->
@@ -8575,8 +8575,8 @@
       <e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="aor__sfx__vblex"/></e>
       <!--Participles-->
       <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="lp_iti__sfx"/></e>
-      <!--    <e><par n="e_e_left__yat"/><par n="e_je_right__yat"/><p><l>ći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>--><!--verbose adverbs-->
-      <e><par n="e_e_left__yat"/><par n="e_je_right__yat"/><p><l>ći</l><r>ći<s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
+      <!--    <e><par n="e_e_left__yat"/><par n="e_e_right__yat"/><p><l>ći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>--><!--verbose adverbs-->
+      <e><par n="e_e_left__yat"/><par n="e_e_right__yat"/><p><l>ći</l><r>ći<s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
     </pardef>
     <pardef n="imperf_tv_žel/jeti__vblex">
       <!--Infinitive-->
@@ -8708,7 +8708,7 @@
       <e><p><l>t</l><r>t</r></p><par n="e_i_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
       <e><p><l>ćen</l><r>t</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp_sfx_extra__vblex"/></e>
       <!--  <e><p><l>teći</l><r>t</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>--><!--verbose adverbs-->
-      <e><p><l>teći</l><r>t</r></p><par n="e_je_right__yat"/><p><l></l><r><s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
+      <e><p><l>teći</l><r>teći<s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
     </pardef>
 
     <pardef n="perf_tv_izvr/tjeti__vblex">
@@ -33032,7 +33032,6 @@
     <e lm="do sad"><i>do<b/>sad</i><par n="danas__adv"/></e>
     <e lm="do sada"><i>do<b/>sada</i><par n="danas__adv"/></e>
     <e lm="još uvijek"><i>još<b/>uv</i><par n="e_ije__yat"/><i>k</i><par n="danas__adv"/></e>
-    <e lm="u prosjeku"><i>u<b/>pros</i><par n="e_je__yat"/><i>ku</i><par n="danas__adv"/></e>
     <e lm="podjednako"><i>podjednako</i><par n="danas__adv"/></e>
     <e lm="nego"><i>nego</i><par n="danas__adv"/></e>
     <e lm="ako"><i>ako</i><par n="danas__adv"/></e>
@@ -40123,6 +40122,7 @@
     <e lm="udarni"><i>udarn</i><par n="garantn/i__adj"/></e>
     <e lm="ulični"><i>uličn</i><par n="garantn/i__adj"/></e>
     <e lm="upravni"><i>upravn</i><par n="garantn/i__adj"/></e>
+    <e lm="žarki"><i>žark</i><par n="garantn/i__adj"/></e>
     <e lm="finalni"><i>finaln</i><par n="garantn/i__adj"/></e>
     <e lm="fiskalni"><i>fiskaln</i><par n="garantn/i__adj"/></e>
     <e lm="cvjetni"><i>cvjetn</i><par n="garantn/i__adj"/></e>
@@ -40176,11 +40176,6 @@
     <e lm="disidentski"><p><l>disidents</l><r>disidents</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="disidentski"><p><l>najdisidents</l><r>disidents</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="disidentski"><p><l>predisidents</l><r>disidents</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="žarki"><i>žar</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="žarki"><p><l>žar</l><r>žar</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="žarki"><p><l>najžar</l><r>žar</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="žarki"><p><l>prežar</l><r>žar</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="investicijski"><i>investicijs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="investicijski"><p><l>investicijs</l><r>investicijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -51686,9 +51681,14 @@
     <e lm="mnogokad"><i>mnogokad</i><par n="danas__adv"/></e>
     <e lm="mnogogdje"><i>mnogogdje</i><par n="danas__adv"/></e>
     <e lm="greškom"><i>greškom</i><par n="danas__adv"/></e>
+    <e lm="treći put"><i>treći<b/>put</i><par n="danas__adv"/></e>
+    <e lm="na putu"><i>na<b/>putu</i><par n="danas__adv"/></e>
+    <e lm="prema"><i>prema</i><par n="danas__adv"/></e>
+    <e lm="ususret"><i>ususret</i><par n="danas__adv"/></e>
 
     <e lm="na koncu"><i>na<b/>koncu</i><par n="gen__pr"/></e>
     <e lm="na kraju"><i>na<b/>kraju</i><par n="gen__pr"/></e>
+
 
   </section>
 
