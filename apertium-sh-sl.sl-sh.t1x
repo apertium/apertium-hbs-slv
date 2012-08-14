@@ -539,6 +539,20 @@
 	  </let>
 	</when>
       </choose>
+	  <let><!--For multiwords verbs-->
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vrb"/>
+	      <clip pos="1" side="tl" part="asp"/>
+	      <clip pos="1" side="tl" part="trn"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="prs"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
     </def-macro>
 
     <def-macro n="num_adapter" npar="1">

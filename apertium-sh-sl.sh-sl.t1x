@@ -460,6 +460,33 @@
 	  </let>
 	</when>
       </choose>
+      <let><!--For multiwords verbs-->
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_vrb"/>
+	  <clip pos="1" side="tl" part="asp"/>
+	  <clip pos="1" side="tl" part="trn"/>
+	  <clip pos="1" side="tl" part="tns"/>
+	  <clip pos="1" side="tl" part="gen"/>
+	  <clip pos="1" side="tl" part="prs"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	</concat>
+      </let>
+    </def-macro>
+
+    <def-macro n="nom_adapter" npar="1">
+      <let><clip pos="1" side="tl" part="whole"/>
+      <concat>
+	<clip pos="1" side="tl" part="lemh"/>
+	<clip pos="1" side="tl" part="a_nom"/>
+	<clip pos="1" side="tl" part="gen"/>
+	<clip pos="1" side="tl" part="nbr"/>
+	<clip pos="1" side="tl" part="cas"/>
+	<clip pos="1" side="tl" part="lemq"/>
+      </concat>
+      </let>
     </def-macro>
 
     <!--The macro maps tags from the sh tagset to their equivalent in sl-->
@@ -2511,6 +2538,7 @@
       <action>
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
 	<out>
 	  <chunk name="Nom" case="caseFirstWord">
 	    <tags>
@@ -2533,6 +2561,7 @@
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="voc_adapter"><with-param pos="2"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
 	<out>
 	  <chunk name="Nom_pr" case="caseFirstWord">
 	    <tags>
@@ -2712,6 +2741,7 @@
       <action>
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<call-macro n="verb_adapter"><with-param pos="3"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
 	<out>
 	  <chunk name="Rule" case="caseFirstWord">
 	    <tags>
@@ -2848,6 +2878,7 @@
       <action>
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<call-macro n="voc_adapter"><with-param pos="2"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
 	<out>
 	  <chunk name="CM_Nom_Biti_Vblex-CM_Biti_Nom_Vblex" case="caseFirstWord">
 	    <tags>
