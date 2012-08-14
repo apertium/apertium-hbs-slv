@@ -10509,7 +10509,7 @@
     <e><p><l>plesačica<s n="n"/><s n="f"/></l><r>plesalka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ćela<s n="n"/><s n="f"/></l><r>pleša<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>plima<s n="n"/><s n="f"/></l><r>plima<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>upala<s n="n"/><s n="f"/></l><r>pljučnica<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><p><l><g><b/>pluća</g></l><r></r></p></e>
+    <e><p><l>upala<g><b/>pluća</g><s n="n"/><s n="f"/></l><r>pljučnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lim<s n="n"/><s n="mi"/></l><r>pločevina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pleh<s n="n"/><s n="mi"/></l><r>pločevina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>limenka<s n="n"/><s n="f"/></l><r>pločevinka<s n="n"/><s n="f"/></r></p></e>
