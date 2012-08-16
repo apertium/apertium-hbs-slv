@@ -14389,580 +14389,577 @@
     <!--Adjectives-->	
 
     <!-- ski -->
-    <e><p><l>opozicijski<s n="adj"/></l><r>opozicijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>investicijski<s n="adj"/></l><r>investicijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>tužiteljski<s n="adj"/></l><r>tožilski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kolovoški<s n="adj"/></l><r>avgustovski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>američki<s n="adj"/></l><r>ameriški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>atenski<s n="adj"/></l><r>atenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>bagdadski<s n="adj"/></l><r>bagdadski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>beogradski<s n="adj"/></l><r>beograjski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>bitolski<s n="adj"/></l><r>bitolski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>bolonjski<s n="adj"/></l><r>bolonjski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>vandalski<s n="adj"/></l><r>vandalski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>varšavski<s n="adj"/></l><r>varšavsko<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>vašingtonski<s n="adj"/></l><r>washingtonski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>venezuelanski<s n="adj"/></l><r>venezuelski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>bečki<s n="adj"/></l><r>dunajski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>zagrebački<s n="adj"/></l><r>zagrebški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>zatvorski<s n="adj"/></l><r>zaporski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>zemunski<s n="adj"/></l><r>zemunski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>ilindenski<s n="adj"/></l><r>ilindenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>irački<s n="adj"/></l><r>iraški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>islamski<s n="adj"/></l><r>islamski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>istanbulski<s n="adj"/></l><r>istanbulski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>katarski<s n="adj"/></l><r>katarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>ciparski<s n="adj"/></l><r>ciprski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kiparski<s n="adj"/></l><r>ciprski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>manjinski<s n="adj"/></l><r>manjšinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>maratonski<s n="adj"/></l><r>maratonski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>martovski<s n="adj"/></l><r>marčevski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>ožujski<s n="adj"/></l><r>marčevski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>meksički<s n="adj"/></l><r>mehiški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>moldavski<s n="adj"/></l><r>moldavski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>novosadski<s n="adj"/></l><r>novosadski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>ohridski<s n="adj"/></l><r>ohridski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>pregovarački<s n="adj"/></l><r>pogajalski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>premijerski<s n="adj"/></l><r>premierski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>predstavnički<s n="adj"/></l><r>predstavniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>republikanski<s n="adj"/></l><r>republikanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>roditeljski<s n="adj"/></l><r>starševski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>sarajevski<s n="adj"/></l><r>sarajevski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>skopski<s n="adj"/></l><r>skopski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>solunski<s n="adj"/></l><r>solunski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>sofijski<s n="adj"/></l><r>sofijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>socijaldemokratski<s n="adj"/></l><r>socialdemokratski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>splitski<s n="adj"/></l><r>splitski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>talibanski<s n="adj"/></l><r>talibanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>tatarski<s n="adj"/></l><r>tatarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>tetovski<s n="adj"/></l><r>tetovski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>februarski<s n="adj"/></l><r>februarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>veljački<s n="adj"/></l><r>februarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>frankfurtski<s n="adj"/></l><r>frankfurtski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>haški<s n="adj"/></l><r>haaški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>holandski<s n="adj"/></l><r>nizozemski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>carigradski<s n="adj"/></l><r>carigrajski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>šijitski<s n="adj"/></l><r>šiitski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>advokatski<s n="adj"/></l><r>odvetniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>banatski<s n="adj"/></l><r>banatski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>barcelonski<s n="adj"/></l><r>barcelonski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>bernski<s n="adj"/></l><r>bernski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>bostonski<s n="adj"/></l><r>bostonski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>brokerski<s n="adj"/></l><r>posredniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>bizantinski<s n="adj"/></l><r>bizantinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>generalski<s n="adj"/></l><r>generalski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>golanski<s n="adj"/></l><r>golanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>dunavski<s n="adj"/></l><r>donavski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>euroazijski<s n="adj"/></l><r>evrazijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>evroazijski<s n="adj"/></l><r>evrazijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>etnografski<s n="adj"/></l><r>etnografski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>zatvorenički<s n="adj"/></l><r>zaporniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>zetski<s n="adj"/></l><r>zetski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>imigrantski<s n="adj"/></l><r>priseljenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>imigracijski<s n="adj"/></l><r>priseljenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>imperatorski<s n="adj"/></l><r>imperijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>investitorski<s n="adj"/></l><r>investitorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>karipski<s n="adj"/></l><r>karibski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kongoanski<s n="adj"/></l><r>kongovski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>lihtenštajnski<s n="adj"/></l><r>liechtensteinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>magistarski<s n="adj"/></l><r>magistrski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>operatorski<s n="adj"/></l><r>operaterski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>otomanski<s n="adj"/></l><r>otomanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>panamski<s n="adj"/></l><r>panamski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>peloponeški<s n="adj"/></l><r>peloponeški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>podgorički<s n="adj"/></l><r>podgoriški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>predrimski<s n="adj"/></l><r>predrimski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>producentski<s n="adj"/></l><r>producentski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>ribarski<s n="adj"/></l><r>ribolovski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>rilski<s n="adj"/></l><r>rilski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>samurajski<s n="adj"/></l><r>samurajski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>singapurski<s n="adj"/></l><r>singapurski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>sirijski<s n="adj"/></l><r>sirski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>slastičarski<s n="adj"/></l><r>slaščičarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>sponzorski<s n="adj"/></l><r>sponzorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>staroslavenski<s n="adj"/></l><r>staroslovenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>staroslovenski<s n="adj"/></l><r>staroslovenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>franjevački<s n="adj"/></l><r>frančiškanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>hercegovački<s n="adj"/></l><r>hercegovski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>avnojski<s n="adj"/></l><r>avnojski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>australski<s n="adj"/></l><r>avstralski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>autobiografski<s n="adj"/></l><r>autobiografski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>automobilski<s n="adj"/></l><r>avtomobilski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>administratorski<s n="adj"/></l><r>administratorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>akcionerski<s n="adj"/></l><r>delniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>dioničarski<s n="adj"/></l><r>delničarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>akcionerski<s n="adj"/></l><r>delničarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>aluminijski<s n="adj"/></l><r>aluminijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>ambasadorski<s n="adj"/></l><r>ambasadorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>antikorupcijski<s n="adj"/></l><r>protikorupcijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>antisemitski<s n="adj"/></l><r>antisemitski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>arhivski<s n="adj"/></l><r>arhivski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>bibliotekarski<s n="adj"/></l><r>knjižničarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>biokemijski<s n="adj"/></l><r>biokemijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>biohemijski<s n="adj"/></l><r>biokemijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>veteranski<s n="adj"/></l><r>veteranski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>bizantijski<s n="adj"/></l><r>bizantinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>violinski<s n="adj"/></l><r>violinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>garancijski<s n="adj"/></l><r>garancijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kuharski<s n="adj"/></l><r>kuharski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>guvernerski<s n="adj"/></l><r>guvernerski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>dublinski<s n="adj"/></l><r>dublinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>dablinski<s n="adj"/></l><r>dublinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>debitantski<s n="adj"/></l><r>debitantski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>demonstracijski<s n="adj"/></l><r>demonstracijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>demokršćanski<s n="adj"/></l><r>demokrščanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>demohrišćanski<s n="adj"/></l><r>krščanskodemokratska<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>direktorski<s n="adj"/></l><r>režijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>distribucijski<s n="adj"/></l><r>distribucijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>donatorski<s n="adj"/></l><r>donatorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>emigracijski<s n="adj"/></l><r>izseljeniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>trubadurski<s n="adj"/></l><r>trubadurski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>žandarmerijski<s n="adj"/></l><r>žandarmerijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>inženjerski<s n="adj"/></l><r>inženirski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>inovacijski<s n="adj"/></l><r>inovacijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>inspektorski<s n="adj"/></l><r>inšpektorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>inzulinski<s n="adj"/></l><r>inzulinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>insulinski<s n="adj"/></l><r>inzulinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>integracijski<s n="adj"/></l><r>integracijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kabelski<s n="adj"/></l><r>kabelski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kanalizacijski<s n="adj"/></l><r>kanalizacijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kanalizacijski<s n="adj"/></l><r>kanalizacijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kvalifikacijski<s n="adj"/></l><r>kvalifikacijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kilometarski<s n="adj"/></l><r>kilometerski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kontejnerski<s n="adj"/></l><r>kontejnerski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>korupcijski<s n="adj"/></l><r>korupcijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>mandarinski<s n="adj"/></l><r>mandarinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>mentorski<s n="adj"/></l><r>mentorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>međustranački<s n="adj"/></l><r>medstrankarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>međureligijski<s n="adj"/></l><r>medverski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>migracijski<s n="adj"/></l><r>migracijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>mikroklimatski<s n="adj"/></l><r>mikroklimatski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>milimetarski<s n="adj"/></l><r>milimetrski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>većinski<s n="adj"/></l><r>večinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>muzejski<s n="adj"/></l><r>muzejski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>nordijski<s n="adj"/></l><r>nordijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>odbojkaški<s n="adj"/></l><r>odbojkarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>okupatorski<s n="adj"/></l><r>okupatorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>paleolitski<s n="adj"/></l><r>paleolitski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>mirovinski<s n="adj"/></l><r>pokojninski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>penzijski<s n="adj"/></l><r>pokojninski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>petrokemijski<s n="adj"/></l><r>petrokemijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>petrohemijski<s n="adj"/></l><r>petrokemijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>prekooceanski<s n="adj"/></l><r>prekooceanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>prekookeanski<s n="adj"/></l><r>prekomorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>prištinski<s n="adj"/></l><r>prištinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>provincijski<s n="adj"/></l><r>pokrajinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>radiotelevizijski<s n="adj"/></l><r>radiotelevizijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>revizorski<s n="adj"/></l><r>revizorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>registarski<s n="adj"/></l><r>registrski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>restauracijski<s n="adj"/></l><r>restavracijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>referendumski<s n="adj"/></l><r>referendumski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>rudarski<s n="adj"/></l><r>rudarstvo<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>satelitski<s n="adj"/></l><r>satelitski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>saudijski<s n="adj"/></l><r>savdski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>sezonski<s n="adj"/></l><r>sezonski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>serijski<s n="adj"/></l><r>serijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>simulacijski<s n="adj"/></l><r>simulacijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>simfonijski<s n="adj"/></l><r>simfonični<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>sirijski<s n="adj"/></l><r>sirski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>slalomski<s n="adj"/></l><r>slalomski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>starateljski<s n="adj"/></l><r>skrbniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>studijski<s n="adj"/></l><r>študijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>tandemski<s n="adj"/></l><r>tandemski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>tektonski<s n="adj"/></l><r>tektonski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>telekomski<s n="adj"/></l><r>poštarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>tinejdžerski<s n="adj"/></l><r>najstniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>trakijski<s n="adj"/></l><r>trakijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>transatlantski<s n="adj"/></l><r>čezatlantski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>transatlanski<s n="adj"/></l><r>čezatlantski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>transmiterski<s n="adj"/></l><r>oddajniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>odašiljački<s n="adj"/></l><r>oddajniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>turkmenistanski<s n="adj"/></l><r>turkmenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>farmaceutski<s n="adj"/></l><r>farmacevtski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>hemijski<s n="adj"/></l><r>kemijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kemoterapijski<s n="adj"/></l><r>kemoterapevtski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>hemoterapijski<s n="adj"/></l><r>kemoterapevtski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>zborski<s n="adj"/></l><r>zborovski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>crnomorski<s n="adj"/></l><r>črnomorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>čileanski<s n="adj"/></l><r>čilski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>članski<s n="adj"/></l><r>članski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>švercerski<s n="adj"/></l><r>tihotapski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>šerijatski<s n="adj"/></l><r>šeriatski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>špediterski<s n="adj"/></l><r>špediterski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>januarski<s n="adj"/></l><r>januarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>jonski<s n="adj"/></l><r>ionski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>juniorski<s n="adj"/></l><r>juniorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>dejtonski<s n="adj"/></l><r>daytonski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>komunistički<s n="adj"/></l><r>komunistični<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>islamistički<s n="adj"/></l><r>islamski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>optužilački<s n="adj"/></l><r>tožilski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>alžirski<s n="adj"/></l><r>alžirski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kubanski<s n="adj"/></l><r>kubanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kuvajtski<s n="adj"/></l><r>kuvajtski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>libanonski<s n="adj"/></l><r>libanonski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>pakistanski<s n="adj"/></l><r>pakistanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>palestinski<s n="adj"/></l><r>palestinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>pionirski<s n="adj"/></l><r>pionirski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>tiranski<s n="adj"/></l><r>tiranski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>bibliografski<s n="adj"/></l><r>bibliografski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>dalmatinski<s n="adj"/></l><r>diktatorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>diktatorski<s n="adj"/></l><r>diktatorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>kanarski<s n="adj"/></l><r>kanarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>topografski<s n="adj"/></l><r>topografski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>akcijski<s n="adj"/></l><r>akcijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>biografski<s n="adj"/></l><r>biografski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>panoramski<s n="adj"/></l><r>panoramski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>protutenkovski<s n="adj"/></l><r>protitankovski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>rotacijski<s n="adj"/></l><r>rotacijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>farmakoterapeutski<s n="adj"/></l><r>zdravilski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>funkcionerski<s n="adj"/></l><r>funkcionarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>jordanski<s n="adj"/></l><r>jordanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>južnokorejski<s n="adj"/></l><r>južnokorejski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>horski<s n="adj"/></l><r>zborovski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>snajperski<s n="adj"/></l><r>ostrostrelski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>protuavionski<s n="adj"/></l><r>protiletalski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>psihosomatski<s n="adj"/></l><r>psihosomatski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>veterinarski<s n="adj"/></l><r>veterinarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>svečenički<s n="adj"/></l><r>duhovniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-    <e><p><l>berlinski<s n="adj"/></l><r>berlinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-
-	<e><p><l>sam<s n="adj"/></l><r>sam<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>zao<s n="adj"/></l><r>zloben<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>fer<s n="adj"/></l><r>pošten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>obmanut<s n="adj"/></l><r>zaveden<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>svet<s n="adj"/></l><r>svečan<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>preuzet<s n="adj"/></l><r>prevzet<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>spor<s n="adj"/></l><r>počasen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>trojak<s n="adj"/></l><r>trivrsten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>pripravan<s n="adj"/></l><r>pripravljen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>uslovan<s n="adj"/></l><r>pogojen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sustavan<s n="adj"/></l><r>sistematičen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nominovan<s n="adj"/></l><r>nominiran<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>kružan<s n="adj"/></l><r>krožen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>autonoman<s n="adj"/></l><r>samostojen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>bolan<s n="adj"/></l><r>bolan<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>ukupan<s n="adj"/></l><r>skupen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>grandiozan<s n="adj"/></l><r>veličasten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>izravan<s n="adj"/></l><r>direkten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>drevan<s n="adj"/></l><r>starodaven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>duhovan<s n="adj"/></l><r>duhoven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>električan<s n="adj"/></l><r>električen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>emocionalan<s n="adj"/></l><r>čustven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>individualan<s n="adj"/></l><r>posamezen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>internacionalan<s n="adj"/></l><r>mednaroden<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>izniman<s n="adj"/></l><r>izjemen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>kriminalan<s n="adj"/></l><r>kazenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>kristalan<s n="adj"/></l><r>kristalen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>krupan<s n="adj"/></l><r>krepek<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>legalan<s n="adj"/></l><r>praven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>legitiman<s n="adj"/></l><r>zakonit<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>ličan<s n="adj"/></l><r>oseben<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>misteriozan<s n="adj"/></l><r>skrivnosten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>momentalan<s n="adj"/></l><r>trenuten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>moralan<s n="adj"/></l><r>moralen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>mračan<s n="adj"/></l><r>temen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nacionalan<s n="adj"/></l><r>nacionalen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>neodložan<s n="adj"/></l><r>nujen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>personalan<s n="adj"/></l><r>oseben<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>pobjedonosan<s n="adj"/></l><r>zmagovit<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>prostoran<s n="adj"/></l><r>prostoren<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>religiozan<s n="adj"/></l><r>veren<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>specijalan<s n="adj"/></l><r>poseben<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sporan<s n="adj"/></l><r>sporen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sraman<s n="adj"/></l><r>sramoten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>užasan<s n="adj"/></l><r>grozen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>hroničan<s n="adj"/></l><r>kroničen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>cjelokupan<s n="adj"/></l><r>celoten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>javan<s n="adj"/></l><r>javen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>obziran<s n="adj"/></l><r>obziren<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>djelimičan<s n="adj"/></l><r>delen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>dobrovoljan<s n="adj"/></l><r>prostovoljen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>efikasan<s n="adj"/></l><r>učinkovit<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>samostalan<s n="adj"/></l><r>samostojen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>ekstradiran<s n="adj"/></l><r>izročen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>zakazan<s n="adj"/></l><r>naročen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>zakazan<s n="adj"/></l><r>naročen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>kontinuiran<s n="adj"/></l><r>neprekinjen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>organiziran<s n="adj"/></l><r>organiziran<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>penzionisan<s n="adj"/></l><r>upokojen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>postojan<s n="adj"/></l><r>enakomeren<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>registriran<s n="adj"/></l><r>registriran<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>registrovan<s n="adj"/></l><r>registriran<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sponzoriran<s n="adj"/></l><r>sponzoriran<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sponzorisan<s n="adj"/></l><r>sponzoriran<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>žestok<s n="adj"/></l><r>hud<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>gust<s n="adj"/></l><r>gost<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>motiviran<s n="adj"/></l><r>motiviran<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>motivisan<s n="adj"/></l><r>motiviran<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>krasan<s n="adj"/></l><r>krasen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>mek<s n="adj"/></l><r>mehek<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>lak<s n="adj"/></l><r>lahek<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>gnjio<s n="adj"/></l><r>gnil<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>bijeo<s n="adj"/></l><r>bel<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>blagoslovljen<s n="adj"/></l><r>blagoslovljen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sjedinjen<s n="adj"/></l><r>združen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>završen<s n="adj"/></l><r>končan<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>zagušen<s n="adj"/></l><r>zadavljen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>zdravstven<s n="adj"/></l><r>zdravstven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>naznačen<s n="adj"/></l><r>določen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>upućen<s n="adj"/></l><r>obveščen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>odložen<s n="adj"/></l><r>odložen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>opredijeljen<s n="adj"/></l><r>opredeljen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>pobjeđen<s n="adj"/></l><r>poražen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>povrijeđen<s n="adj"/></l><r>ranjen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>preminuo<s n="adj"/></l><r>umrl<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>predvođen<s n="adj"/></l><r>vodilen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>predložen<s n="adj"/></l><r>predložen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>prenesen<s n="adj"/></l><r>prenesen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>proslavljen<s n="adj"/></l><r>proslavljen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>raspoređen<s n="adj"/></l><r>razporejen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sproveden<s n="adj"/></l><r>izpeljan<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>uhapšen<s n="adj"/></l><r>aretiran<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>namijenjen<s n="adj"/></l><r>namenjen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>ispunjen<s n="adj"/></l><r>izpolnjen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>podnesen<s n="adj"/></l><r>predložen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>predstavljen<s n="adj"/></l><r>predstavljen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>mjeren<s n="adj"/></l><r>merjen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>odijeljen<s n="adj"/></l><r>ločen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>voden<s n="adj"/></l><r>voden<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>žalostan<s n="adj"/></l><r>žalosten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>neusmjeren<s n="adj"/></l><r>neusmerjen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>prirođen<s n="adj"/></l><r>prirojen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>krivo<s n="adj"/></l><r>zvit<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nadgledan<s n="adj"/></l><r>nadzorovan<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>vanredan<s n="adj"/></l><r>izreden<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>elitan<s n="adj"/></l><r>eliten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>eliten<s n="adj"/></l><r>eliten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>hitan<s n="adj"/></l><r>nujen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>korpulentan<s n="adj"/></l><r>krepek<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>maloljetan<s n="adj"/></l><r>mladoleten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>pomodan<s n="adj"/></l><r>moden<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nekorektan<s n="adj"/></l><r>nekorekten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sitan<s n="adj"/></l><r>majhen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>vjerovatan<s n="adj"/></l><r>verjeten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>znatan<s n="adj"/></l><r>znaten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>bezbjedan<s n="adj"/></l><r>varen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>doživotan<s n="adj"/></l><r>doživljenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>relevantan<s n="adj"/></l><r>pomemben<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>smrtan<s n="adj"/></l><r>smrten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>indirektan<s n="adj"/></l><r>posreden<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>mudar<s n="adj"/></l><r>moder<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>inozemni<s n="adj"/></l><r>tuj<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>inostrani<s n="adj"/></l><r>tuj<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nestali<s n="adj"/></l><r>izginul<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>garantni<s n="adj"/></l><r>garanten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>ratni<s n="adj"/></l><r>vojen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>prijemni<s n="adj"/></l><r>sprejemen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>ostali<s n="adj"/></l><r>ostal<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>posljednji<s n="adj"/></l><r>zadnji<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>uskršnji<s n="adj"/></l><r>velikonočen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sveučilišni<s n="adj"/></l><r>univerziteten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>jutarnji<s n="adj"/></l><r>jutranji<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nogometni<s n="adj"/></l><r>nogometen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>dobrovoljni<s n="adj"/></l><r>prostovoljen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>frankofoni<s n="adj"/></l><r>frankofonski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>baletni<s n="adj"/></l><r>baleten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>ekspertni<s n="adj"/></l><r>strokoven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>okružni<s n="adj"/></l><r>okrožen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>strojni<s n="adj"/></l><r>strojen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>višedesetljetni<s n="adj"/></l><r>desetleten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>operni<s n="adj"/></l><r>operen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>prapovijesni<s n="adj"/></l><r>prazgodovinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>protupožarni<s n="adj"/></l><r>gasilski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>renesansni<s n="adj"/></l><r>renesančen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sredozemni<s n="adj"/></l><r>sredozemski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>trajektni<s n="adj"/></l><r>trajekten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>zemni<s n="adj"/></l><r>naraven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>minuli<s n="adj"/></l><r>pretekel<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>rani<s n="adj"/></l><r>ran<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>paravojni<s n="adj"/></l><r>paravojaški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sigurnosni<s n="adj"/></l><r>varnosten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>bračni<s n="adj"/></l><r>poročen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>unutarnji<s n="adj"/></l><r>notranjski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>vrhovni<s n="adj"/></l><r>vrhoven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>porezni<s n="adj"/></l><r>davčen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>dvodnevni<s n="adj"/></l><r>dvodneven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>dnevni<s n="adj"/></l><r>dneven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>dojučerašnji<s n="adj"/></l><r>včerajšnji<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>dosadašnji<s n="adj"/></l><r>dosedanji<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>zakonodavni<s n="adj"/></l><r>zakonodajen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>izborni<s n="adj"/></l><r>izbiren<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>kontrolni<s n="adj"/></l><r>nadzoren<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>krivični<s n="adj"/></l><r>kazenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>međunarodni<s n="adj"/></l><r>mednaroden<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>mirovni<s n="adj"/></l><r>miren<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>modni<s n="adj"/></l><r>moden<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>živčani<s n="adj"/></l><r>živčen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nervni<s n="adj"/></l><r>živčen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>osiguravajući<s n="adj"/></l><r>zavarovalen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>novčani<s n="adj"/></l><r>denaren<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>daljnji<s n="adj"/></l><r>naslednji<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>predizborni<s n="adj"/></l><r>predvolilen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>prethodni<s n="adj"/></l><r>prejšnji<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>proljetni<s n="adj"/></l><r>pomladen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>propagandni<s n="adj"/></l><r>propaganden<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>radni<s n="adj"/></l><r>deloven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>rezervni<s n="adj"/></l><r>rezerven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>potonji<s n="adj"/></l><r>poslednji<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>odgovarajući<s n="adj"/></l><r>ustrezen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>savezni<s n="adj"/></l><r>zvezen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>srednji<s n="adj"/></l><r>srednji<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>tekući<s n="adj"/></l><r>tekoč<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>tjelesni<s n="adj"/></l><r>fizičen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>tranzitni<s n="adj"/></l><r>tranziten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>trodnevni<s n="adj"/></l><r>tridneven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>centralni<s n="adj"/></l><r>osrednji<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>civilni<s n="adj"/></l><r>civilen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>jugoistočni<s n="adj"/></l><r>jugovzhoden<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>tripartitni<s n="adj"/></l><r>tristranski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>bezbjedonosni<s n="adj"/></l><r>varnosten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>kvadratni<s n="adj"/></l><r>kvadraten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>infrastrukturni<s n="adj"/></l><r>infrastrukturen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>jednodnevni<s n="adj"/></l><r>enodneven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>opozicioni<s n="adj"/></l><r>nasproten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>krajnji<s n="adj"/></l><r>končen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>brojni<s n="adj"/></l><r>številen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>razni<s n="adj"/></l><r>razen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>svjetski<s n="adj"/></l><r>svetoven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>oslobodilački<s n="adj"/></l><r>osvobodilen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>dopunski<s n="adj"/></l><r>dodaten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>poreski<s n="adj"/></l><r>davčen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>građevinski<s n="adj"/></l><r>stavben<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>armijski<s n="adj"/></l><r>vojen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>bombaški<s n="adj"/></l><r>bomben<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>proračunski<s n="adj"/></l><r>proračunski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>istinski<s n="adj"/></l><r>resničen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>džinovski<s n="adj"/></l><r>velikanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>glasački<s n="adj"/></l><r>volilen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>gradski<s n="adj"/></l><r>mesten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>evropski<s n="adj"/></l><r>evropski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>ekonomski<s n="adj"/></l><r>gospodarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>istorijski<s n="adj"/></l><r>zgodovinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>italijanski<s n="adj"/></l><r>italijanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>manastirski<s n="adj"/></l><r>samostanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>marokanski<s n="adj"/></l><r>maroški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>opštinski<s n="adj"/></l><r>občinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>planinarski<s n="adj"/></l><r>planinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>slovenački<s n="adj"/></l><r>slovenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>slavenski<s n="adj"/></l><r>slovanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sportski<s n="adj"/></l><r>športen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>srbijanski<s n="adj"/></l><r>srbski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>studentski<s n="adj"/></l><r>študentski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>suštinski<s n="adj"/></l><r>bistven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>univerzitetski<s n="adj"/></l><r>univerziteten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>finansijski<s n="adj"/></l><r>finančen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>fudbalski<s n="adj"/></l><r>nogometen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>holivudski<s n="adj"/></l><r>hollywoodski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>šengenski<s n="adj"/></l><r>schengenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>jugoslovenski<s n="adj"/></l><r>jugoslovanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>protuturski<s n="adj"/></l><r>protiturški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>biometrijski<s n="adj"/></l><r>biometričen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>brodvejski<s n="adj"/></l><r>broadwayski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>vavilonski<s n="adj"/></l><r>babilonski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>vinarski<s n="adj"/></l><r>vinarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>gorski<s n="adj"/></l><r>gorski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>dobrovoljački<s n="adj"/></l><r>prostovoljen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>konzultantski<s n="adj"/></l><r>svetovalen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>konsultantski<s n="adj"/></l><r>svetovalen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>korintski<s n="adj"/></l><r>korintski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>latinoamerički<s n="adj"/></l><r>latinskoameriški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nomadski<s n="adj"/></l><r>nomadski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>oceanski<s n="adj"/></l><r>oceanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>panarapski<s n="adj"/></l><r>panarabski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>pečatarski<s n="adj"/></l><r>pečaten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>piratski<s n="adj"/></l><r>piratski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sveštenički<s n="adj"/></l><r>administrativen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>senatski<s n="adj"/></l><r>senatski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>avijacijski<s n="adj"/></l><r>letalski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>austrijski<s n="adj"/></l><r>avstrijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>autobuski<s n="adj"/></l><r>avtobusen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>akterski<s n="adj"/></l><r>igralski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>amandmanski<s n="adj"/></l><r>amandmajski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>amfiteatarski<s n="adj"/></l><r>amfiteatrski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>antidemokratski<s n="adj"/></l><r>nedemokratičen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>antieuropski<s n="adj"/></l><r>protievropski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>antitenkovski<s n="adj"/></l><r>protitankovski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>atlanski<s n="adj"/></l><r>atlantski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>boksački<s n="adj"/></l><r>boksarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>varvarski<s n="adj"/></l><r>barbarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>venecijanski<s n="adj"/></l><r>beneški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>dvopartijski<s n="adj"/></l><r>dvostrankarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>depresijski<s n="adj"/></l><r>depresiven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>diverzantski<s n="adj"/></l><r>sabotažen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>ekspertski<s n="adj"/></l><r>strokoven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>jesenski<s n="adj"/></l><r>jesenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>zapadnoeuropski<s n="adj"/></l><r>zahodnoevropski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>zapadnoevropski<s n="adj"/></l><r>zahodnoevropski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>indijanski<s n="adj"/></l><r>indijanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>istočnoeuropski<s n="adj"/></l><r>vzhodnoevropski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>istočnoevropski<s n="adj"/></l><r>vzhodnoevropski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>uredski<s n="adj"/></l><r>pisarniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>kancelarijski<s n="adj"/></l><r>pisarniški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>konferencijski<s n="adj"/></l><r>konferenčen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>konferencijski<s n="adj"/></l><r>konferenčen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>malokalibarski<s n="adj"/></l><r>malokalibrski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>mašinski<s n="adj"/></l><r>strojen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>majski<s n="adj"/></l><r>majski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>metropolski<s n="adj"/></l><r>velemesten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>monopolski<s n="adj"/></l><r>monopolen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nedemokratski<s n="adj"/></l><r>nedemokratičen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nestranački<s n="adj"/></l><r>nestrankarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>oligarhijski<s n="adj"/></l><r>oligarhičen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>pedijatrijski<s n="adj"/></l><r>pediatričen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>spisateljski<s n="adj"/></l><r>pisateljski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>postdiplomski<s n="adj"/></l><r>podiplomski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>posttraumatski<s n="adj"/></l><r>posttravmatski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>poštenski<s n="adj"/></l><r>poštarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>praistorijski<s n="adj"/></l><r>prazgodovinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>prahistorijski<s n="adj"/></l><r>prazgodovinski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>psihijatrijski<s n="adj"/></l><r>psihiatričen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>rentgenski<s n="adj"/></l><r>rentgenski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>rivalski<s n="adj"/></l><r>rivalski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>septembarski<s n="adj"/></l><r>septembrski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>rujanski<s n="adj"/></l><r>septembrski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sindikatski<s n="adj"/></l><r>sindikalen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sitematski<s n="adj"/></l><r>sistematičen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>strategijski<s n="adj"/></l><r>strateški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>telekomunikacijski<s n="adj"/></l><r>telekomunikacijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>tenderski<s n="adj"/></l><r>razpisen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>tenkovski<s n="adj"/></l><r>tankovski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>duhanski<s n="adj"/></l><r>tobačen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>filharmonijski<s n="adj"/></l><r>filharmoničen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>finansijski<s n="adj"/></l><r>finančen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>fondacijski<s n="adj"/></l><r>temeljen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>kršćanski<s n="adj"/></l><r>krščanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>hrišćanski<s n="adj"/></l><r>krščanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>srednjeazijski<s n="adj"/></l><r>srednjeazijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>centralnoevropski<s n="adj"/></l><r>srednjeevropski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>srednjeevropski<s n="adj"/></l><r>srednjeevropski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>srednjeeuropski<s n="adj"/></l><r>srednjeevropski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>švajcarski<s n="adj"/></l><r>švicarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>siječanjski<s n="adj"/></l><r>januarski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>južnoslavenski<s n="adj"/></l><r>jugoslovanski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>junski<s n="adj"/></l><r>junijski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>muzički<s n="adj"/></l><r>glasben<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>patnički<s n="adj"/></l><r>trpeč<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>vjekovan<s n="adj"/></l><r>stoleten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>vazdušan<s n="adj"/></l><r>zračen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>mogućan<s n="adj"/></l><r>mogočen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>oficijalan<s n="adj"/></l><r>uraden<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>prenosan<s n="adj"/></l><r>prenosen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nominiran<s n="adj"/></l><r>imenovan<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>zagrižen<s n="adj"/></l><r>zagrizen<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>prosvjećen<s n="adj"/></l><r>prosveten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>prosvjetan<s n="adj"/></l><r>prosveten<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>strani<s n="adj"/></l><r>čuden<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>maturalni<s n="adj"/></l><r>naraven<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nadzorni<s n="adj"/></l><r>nadzoren<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>kavgadžijski<s n="adj"/></l><r>pretepaški<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>kinematografski<s n="adj"/></l><r>filmski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>oficerski<s n="adj"/></l><r>oficirski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>četirmetarski<s n="adj"/></l><r>štirimetrski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
-	<e><p><l>španski<s n="adj"/></l><r>španski<s n="adj"/><s n="ind"/></r></p><par n="pst2null"/></e>
+    <e><p><l>opozicijski<s n="adj"/></l><r>opozicijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>investicijski<s n="adj"/></l><r>investicijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>tužiteljski<s n="adj"/></l><r>tožilski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kolovoški<s n="adj"/></l><r>avgustovski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>američki<s n="adj"/></l><r>ameriški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>atenski<s n="adj"/></l><r>atenski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>bagdadski<s n="adj"/></l><r>bagdadski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>beogradski<s n="adj"/></l><r>beograjski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>bitolski<s n="adj"/></l><r>bitolski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>bolonjski<s n="adj"/></l><r>bolonjski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>vandalski<s n="adj"/></l><r>vandalski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>varšavski<s n="adj"/></l><r>varšavsko<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>vašingtonski<s n="adj"/></l><r>washingtonski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>venezuelanski<s n="adj"/></l><r>venezuelski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>bečki<s n="adj"/></l><r>dunajski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>zagrebački<s n="adj"/></l><r>zagrebški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>zatvorski<s n="adj"/></l><r>zaporski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>zemunski<s n="adj"/></l><r>zemunski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>ilindenski<s n="adj"/></l><r>ilindenski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>irački<s n="adj"/></l><r>iraški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>islamski<s n="adj"/></l><r>islamski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>istanbulski<s n="adj"/></l><r>istanbulski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>katarski<s n="adj"/></l><r>katarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>ciparski<s n="adj"/></l><r>ciprski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kiparski<s n="adj"/></l><r>ciprski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>manjinski<s n="adj"/></l><r>manjšinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>maratonski<s n="adj"/></l><r>maratonski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>martovski<s n="adj"/></l><r>marčevski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>ožujski<s n="adj"/></l><r>marčevski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>meksički<s n="adj"/></l><r>mehiški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>moldavski<s n="adj"/></l><r>moldavski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>novosadski<s n="adj"/></l><r>novosadski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>ohridski<s n="adj"/></l><r>ohridski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>pregovarački<s n="adj"/></l><r>pogajalski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>premijerski<s n="adj"/></l><r>premierski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>predstavnički<s n="adj"/></l><r>predstavniški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>republikanski<s n="adj"/></l><r>republikanski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>roditeljski<s n="adj"/></l><r>starševski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>sarajevski<s n="adj"/></l><r>sarajevski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>skopski<s n="adj"/></l><r>skopski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>solunski<s n="adj"/></l><r>solunski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>sofijski<s n="adj"/></l><r>sofijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>socijaldemokratski<s n="adj"/></l><r>socialdemokratski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>splitski<s n="adj"/></l><r>splitski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>talibanski<s n="adj"/></l><r>talibanski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>tatarski<s n="adj"/></l><r>tatarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>tetovski<s n="adj"/></l><r>tetovski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>februarski<s n="adj"/></l><r>februarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>veljački<s n="adj"/></l><r>februarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>frankfurtski<s n="adj"/></l><r>frankfurtski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>haški<s n="adj"/></l><r>haaški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>holandski<s n="adj"/></l><r>nizozemski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>carigradski<s n="adj"/></l><r>carigrajski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>šijitski<s n="adj"/></l><r>šiitski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>advokatski<s n="adj"/></l><r>odvetniški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>banatski<s n="adj"/></l><r>banatski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>barcelonski<s n="adj"/></l><r>barcelonski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>bernski<s n="adj"/></l><r>bernski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>bostonski<s n="adj"/></l><r>bostonski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>brokerski<s n="adj"/></l><r>posredniški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>bizantinski<s n="adj"/></l><r>bizantinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>generalski<s n="adj"/></l><r>generalski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>golanski<s n="adj"/></l><r>golanski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>dunavski<s n="adj"/></l><r>donavski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>euroazijski<s n="adj"/></l><r>evrazijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>evroazijski<s n="adj"/></l><r>evrazijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>etnografski<s n="adj"/></l><r>etnografski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>zatvorenički<s n="adj"/></l><r>zaporniški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>zetski<s n="adj"/></l><r>zetski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>imigrantski<s n="adj"/></l><r>priseljenski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>imigracijski<s n="adj"/></l><r>priseljenski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>imperatorski<s n="adj"/></l><r>imperijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>investitorski<s n="adj"/></l><r>investitorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>karipski<s n="adj"/></l><r>karibski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kongoanski<s n="adj"/></l><r>kongovski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>lihtenštajnski<s n="adj"/></l><r>liechtensteinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>magistarski<s n="adj"/></l><r>magistrski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>operatorski<s n="adj"/></l><r>operaterski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>otomanski<s n="adj"/></l><r>otomanski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>panamski<s n="adj"/></l><r>panamski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>peloponeški<s n="adj"/></l><r>peloponeški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>podgorički<s n="adj"/></l><r>podgoriški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>predrimski<s n="adj"/></l><r>predrimski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>producentski<s n="adj"/></l><r>producentski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>ribarski<s n="adj"/></l><r>ribolovski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>rilski<s n="adj"/></l><r>rilski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>samurajski<s n="adj"/></l><r>samurajski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>singapurski<s n="adj"/></l><r>singapurski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>sirijski<s n="adj"/></l><r>sirski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>slastičarski<s n="adj"/></l><r>slaščičarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>sponzorski<s n="adj"/></l><r>sponzorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>staroslavenski<s n="adj"/></l><r>staroslovenski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>staroslovenski<s n="adj"/></l><r>staroslovenski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>franjevački<s n="adj"/></l><r>frančiškanski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>hercegovački<s n="adj"/></l><r>hercegovski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>avnojski<s n="adj"/></l><r>avnojski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>australski<s n="adj"/></l><r>avstralski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>autobiografski<s n="adj"/></l><r>autobiografski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>automobilski<s n="adj"/></l><r>avtomobilski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>administratorski<s n="adj"/></l><r>administratorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>akcionerski<s n="adj"/></l><r>delniški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>dioničarski<s n="adj"/></l><r>delničarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>akcionerski<s n="adj"/></l><r>delničarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>aluminijski<s n="adj"/></l><r>aluminijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>ambasadorski<s n="adj"/></l><r>ambasadorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>antikorupcijski<s n="adj"/></l><r>protikorupcijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>antisemitski<s n="adj"/></l><r>antisemitski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>arhivski<s n="adj"/></l><r>arhivski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>bibliotekarski<s n="adj"/></l><r>knjižničarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>biokemijski<s n="adj"/></l><r>biokemijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>biohemijski<s n="adj"/></l><r>biokemijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>veteranski<s n="adj"/></l><r>veteranski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>bizantijski<s n="adj"/></l><r>bizantinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>violinski<s n="adj"/></l><r>violinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>garancijski<s n="adj"/></l><r>garancijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kuharski<s n="adj"/></l><r>kuharski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>guvernerski<s n="adj"/></l><r>guvernerski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>dublinski<s n="adj"/></l><r>dublinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>dablinski<s n="adj"/></l><r>dublinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>debitantski<s n="adj"/></l><r>debitantski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>demonstracijski<s n="adj"/></l><r>demonstracijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>demokršćanski<s n="adj"/></l><r>demokrščanski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>demohrišćanski<s n="adj"/></l><r>krščanskodemokratska<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>direktorski<s n="adj"/></l><r>režijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>distribucijski<s n="adj"/></l><r>distribucijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>donatorski<s n="adj"/></l><r>donatorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>emigracijski<s n="adj"/></l><r>izseljeniški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>trubadurski<s n="adj"/></l><r>trubadurski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>žandarmerijski<s n="adj"/></l><r>žandarmerijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>inženjerski<s n="adj"/></l><r>inženirski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>inovacijski<s n="adj"/></l><r>inovacijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>inspektorski<s n="adj"/></l><r>inšpektorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>inzulinski<s n="adj"/></l><r>inzulinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>insulinski<s n="adj"/></l><r>inzulinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>integracijski<s n="adj"/></l><r>integracijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kabelski<s n="adj"/></l><r>kabelski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kanalizacijski<s n="adj"/></l><r>kanalizacijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kanalizacijski<s n="adj"/></l><r>kanalizacijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kvalifikacijski<s n="adj"/></l><r>kvalifikacijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kilometarski<s n="adj"/></l><r>kilometerski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kontejnerski<s n="adj"/></l><r>kontejnerski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>korupcijski<s n="adj"/></l><r>korupcijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>mandarinski<s n="adj"/></l><r>mandarinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>mentorski<s n="adj"/></l><r>mentorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>međustranački<s n="adj"/></l><r>medstrankarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>međureligijski<s n="adj"/></l><r>medverski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>migracijski<s n="adj"/></l><r>migracijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>mikroklimatski<s n="adj"/></l><r>mikroklimatski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>milimetarski<s n="adj"/></l><r>milimetrski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>većinski<s n="adj"/></l><r>večinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>muzejski<s n="adj"/></l><r>muzejski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>nordijski<s n="adj"/></l><r>nordijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>odbojkaški<s n="adj"/></l><r>odbojkarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>okupatorski<s n="adj"/></l><r>okupatorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>paleolitski<s n="adj"/></l><r>paleolitski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>mirovinski<s n="adj"/></l><r>pokojninski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>penzijski<s n="adj"/></l><r>pokojninski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>petrokemijski<s n="adj"/></l><r>petrokemijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>petrohemijski<s n="adj"/></l><r>petrokemijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>prekooceanski<s n="adj"/></l><r>prekooceanski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>prekookeanski<s n="adj"/></l><r>prekomorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>prištinski<s n="adj"/></l><r>prištinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>provincijski<s n="adj"/></l><r>pokrajinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>radiotelevizijski<s n="adj"/></l><r>radiotelevizijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>revizorski<s n="adj"/></l><r>revizorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>registarski<s n="adj"/></l><r>registrski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>restauracijski<s n="adj"/></l><r>restavracijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>referendumski<s n="adj"/></l><r>referendumski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>rudarski<s n="adj"/></l><r>rudarstvo<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>satelitski<s n="adj"/></l><r>satelitski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>saudijski<s n="adj"/></l><r>savdski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>sezonski<s n="adj"/></l><r>sezonski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>serijski<s n="adj"/></l><r>serijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>simulacijski<s n="adj"/></l><r>simulacijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>simfonijski<s n="adj"/></l><r>simfonični<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>sirijski<s n="adj"/></l><r>sirski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>slalomski<s n="adj"/></l><r>slalomski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>starateljski<s n="adj"/></l><r>skrbniški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>studijski<s n="adj"/></l><r>študijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>tandemski<s n="adj"/></l><r>tandemski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>tektonski<s n="adj"/></l><r>tektonski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>telekomski<s n="adj"/></l><r>poštarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>tinejdžerski<s n="adj"/></l><r>najstniški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>trakijski<s n="adj"/></l><r>trakijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>transatlantski<s n="adj"/></l><r>čezatlantski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>transatlanski<s n="adj"/></l><r>čezatlantski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>transmiterski<s n="adj"/></l><r>oddajniški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>odašiljački<s n="adj"/></l><r>oddajniški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>turkmenistanski<s n="adj"/></l><r>turkmenski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>farmaceutski<s n="adj"/></l><r>farmacevtski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>hemijski<s n="adj"/></l><r>kemijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kemoterapijski<s n="adj"/></l><r>kemoterapevtski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>hemoterapijski<s n="adj"/></l><r>kemoterapevtski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>zborski<s n="adj"/></l><r>zborovski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>crnomorski<s n="adj"/></l><r>črnomorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>čileanski<s n="adj"/></l><r>čilski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>članski<s n="adj"/></l><r>članski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>švercerski<s n="adj"/></l><r>tihotapski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>šerijatski<s n="adj"/></l><r>šeriatski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>špediterski<s n="adj"/></l><r>špediterski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>januarski<s n="adj"/></l><r>januarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>jonski<s n="adj"/></l><r>ionski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>juniorski<s n="adj"/></l><r>juniorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>dejtonski<s n="adj"/></l><r>daytonski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>komunistički<s n="adj"/></l><r>komunistični<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>islamistički<s n="adj"/></l><r>islamski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>optužilački<s n="adj"/></l><r>tožilski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>alžirski<s n="adj"/></l><r>alžirski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kubanski<s n="adj"/></l><r>kubanski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kuvajtski<s n="adj"/></l><r>kuvajtski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>libanonski<s n="adj"/></l><r>libanonski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>pakistanski<s n="adj"/></l><r>pakistanski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>palestinski<s n="adj"/></l><r>palestinski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>pionirski<s n="adj"/></l><r>pionirski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>tiranski<s n="adj"/></l><r>tiranski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>bibliografski<s n="adj"/></l><r>bibliografski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>dalmatinski<s n="adj"/></l><r>diktatorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>diktatorski<s n="adj"/></l><r>diktatorski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kanarski<s n="adj"/></l><r>kanarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>topografski<s n="adj"/></l><r>topografski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>akcijski<s n="adj"/></l><r>akcijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>biografski<s n="adj"/></l><r>biografski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>panoramski<s n="adj"/></l><r>panoramski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>protutenkovski<s n="adj"/></l><r>protitankovski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>rotacijski<s n="adj"/></l><r>rotacijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>farmakoterapeutski<s n="adj"/></l><r>zdravilski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>funkcionerski<s n="adj"/></l><r>funkcionarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>jordanski<s n="adj"/></l><r>jordanski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>južnokorejski<s n="adj"/></l><r>južnokorejski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>horski<s n="adj"/></l><r>zborovski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>snajperski<s n="adj"/></l><r>ostrostrelski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>protuavionski<s n="adj"/></l><r>protiletalski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>psihosomatski<s n="adj"/></l><r>psihosomatski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>veterinarski<s n="adj"/></l><r>veterinarski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>svečenički<s n="adj"/></l><r>duhovniški<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>berlinski<s n="adj"/></l><r>berlinski<s n="adj"/></r></p><par n="pst2null"/></e>
 
 
+	<!-- Normal (not ski) => DO WE NEED IND TAG?-->
+	<e><p><l>sam<s n="adj"/></l><r>sam<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>zao<s n="adj"/></l><r>zloben<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>fer<s n="adj"/></l><r>pošten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>obmanut<s n="adj"/></l><r>zaveden<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>svet<s n="adj"/></l><r>svečan<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>preuzet<s n="adj"/></l><r>prevzet<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>spor<s n="adj"/></l><r>počasen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>trojak<s n="adj"/></l><r>trivrsten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>pripravan<s n="adj"/></l><r>pripravljen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>uslovan<s n="adj"/></l><r>pogojen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sustavan<s n="adj"/></l><r>sistematičen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nominovan<s n="adj"/></l><r>nominiran<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>kružan<s n="adj"/></l><r>krožen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>autonoman<s n="adj"/></l><r>samostojen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>bolan<s n="adj"/></l><r>bolan<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>ukupan<s n="adj"/></l><r>skupen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>grandiozan<s n="adj"/></l><r>veličasten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>izravan<s n="adj"/></l><r>direkten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>drevan<s n="adj"/></l><r>starodaven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>duhovan<s n="adj"/></l><r>duhoven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>električan<s n="adj"/></l><r>električen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>emocionalan<s n="adj"/></l><r>čustven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>individualan<s n="adj"/></l><r>posamezen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>internacionalan<s n="adj"/></l><r>mednaroden<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>izniman<s n="adj"/></l><r>izjemen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>kriminalan<s n="adj"/></l><r>kazenski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>kristalan<s n="adj"/></l><r>kristalen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>krupan<s n="adj"/></l><r>krepek<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>legalan<s n="adj"/></l><r>praven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>legitiman<s n="adj"/></l><r>zakonit<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>ličan<s n="adj"/></l><r>oseben<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>misteriozan<s n="adj"/></l><r>skrivnosten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>momentalan<s n="adj"/></l><r>trenuten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>moralan<s n="adj"/></l><r>moralen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>mračan<s n="adj"/></l><r>temen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nacionalan<s n="adj"/></l><r>nacionalen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>neodložan<s n="adj"/></l><r>nujen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>personalan<s n="adj"/></l><r>oseben<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>pobjedonosan<s n="adj"/></l><r>zmagovit<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>prostoran<s n="adj"/></l><r>prostoren<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>religiozan<s n="adj"/></l><r>veren<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>specijalan<s n="adj"/></l><r>poseben<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sporan<s n="adj"/></l><r>sporen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sraman<s n="adj"/></l><r>sramoten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>užasan<s n="adj"/></l><r>grozen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>hroničan<s n="adj"/></l><r>kroničen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>cjelokupan<s n="adj"/></l><r>celoten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>javan<s n="adj"/></l><r>javen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>obziran<s n="adj"/></l><r>obziren<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>djelimičan<s n="adj"/></l><r>delen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>dobrovoljan<s n="adj"/></l><r>prostovoljen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>efikasan<s n="adj"/></l><r>učinkovit<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>samostalan<s n="adj"/></l><r>samostojen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>ekstradiran<s n="adj"/></l><r>izročen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>zakazan<s n="adj"/></l><r>naročen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>kontinuiran<s n="adj"/></l><r>neprekinjen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>organiziran<s n="adj"/></l><r>organiziran<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>penzionisan<s n="adj"/></l><r>upokojen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>postojan<s n="adj"/></l><r>enakomeren<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>registriran<s n="adj"/></l><r>registriran<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>registrovan<s n="adj"/></l><r>registriran<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sponzoriran<s n="adj"/></l><r>sponzoriran<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sponzorisan<s n="adj"/></l><r>sponzoriran<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>žestok<s n="adj"/></l><r>hud<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>gust<s n="adj"/></l><r>gost<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>motiviran<s n="adj"/></l><r>motiviran<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>motivisan<s n="adj"/></l><r>motiviran<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>krasan<s n="adj"/></l><r>krasen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>mek<s n="adj"/></l><r>mehek<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>lak<s n="adj"/></l><r>lahek<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>gnjio<s n="adj"/></l><r>gnil<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>bijeo<s n="adj"/></l><r>bel<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>blagoslovljen<s n="adj"/></l><r>blagoslovljen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sjedinjen<s n="adj"/></l><r>združen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>završen<s n="adj"/></l><r>končan<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>zagušen<s n="adj"/></l><r>zadavljen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>zdravstven<s n="adj"/></l><r>zdravstven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>naznačen<s n="adj"/></l><r>določen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>upućen<s n="adj"/></l><r>obveščen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>odložen<s n="adj"/></l><r>odložen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>opredijeljen<s n="adj"/></l><r>opredeljen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>pobjeđen<s n="adj"/></l><r>poražen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>povrijeđen<s n="adj"/></l><r>ranjen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>preminuo<s n="adj"/></l><r>umrl<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>predvođen<s n="adj"/></l><r>vodilen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>predložen<s n="adj"/></l><r>predložen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>prenesen<s n="adj"/></l><r>prenesen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>proslavljen<s n="adj"/></l><r>proslavljen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>raspoređen<s n="adj"/></l><r>razporejen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sproveden<s n="adj"/></l><r>izpeljan<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>uhapšen<s n="adj"/></l><r>aretiran<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>namijenjen<s n="adj"/></l><r>namenjen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>ispunjen<s n="adj"/></l><r>izpolnjen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>podnesen<s n="adj"/></l><r>predložen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>predstavljen<s n="adj"/></l><r>predstavljen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>mjeren<s n="adj"/></l><r>merjen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>odijeljen<s n="adj"/></l><r>ločen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>voden<s n="adj"/></l><r>voden<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>žalostan<s n="adj"/></l><r>žalosten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>neusmjeren<s n="adj"/></l><r>neusmerjen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>prirođen<s n="adj"/></l><r>prirojen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>krivo<s n="adj"/></l><r>zvit<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nadgledan<s n="adj"/></l><r>nadzorovan<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>vanredan<s n="adj"/></l><r>izreden<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>elitan<s n="adj"/></l><r>eliten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>eliten<s n="adj"/></l><r>eliten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>hitan<s n="adj"/></l><r>nujen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>korpulentan<s n="adj"/></l><r>krepek<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>maloljetan<s n="adj"/></l><r>mladoleten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>pomodan<s n="adj"/></l><r>moden<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nekorektan<s n="adj"/></l><r>nekorekten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sitan<s n="adj"/></l><r>majhen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>vjerovatan<s n="adj"/></l><r>verjeten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>znatan<s n="adj"/></l><r>znaten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>bezbjedan<s n="adj"/></l><r>varen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>doživotan<s n="adj"/></l><r>doživljenski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>relevantan<s n="adj"/></l><r>pomemben<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>smrtan<s n="adj"/></l><r>smrten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>indirektan<s n="adj"/></l><r>posreden<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>mudar<s n="adj"/></l><r>moder<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>inozemni<s n="adj"/></l><r>tuj<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>inostrani<s n="adj"/></l><r>tuj<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nestali<s n="adj"/></l><r>izginul<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>garantni<s n="adj"/></l><r>garanten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>ratni<s n="adj"/></l><r>vojen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>prijemni<s n="adj"/></l><r>sprejemen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>ostali<s n="adj"/></l><r>ostal<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>posljednji<s n="adj"/></l><r>zadnji<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>uskršnji<s n="adj"/></l><r>velikonočen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sveučilišni<s n="adj"/></l><r>univerziteten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>jutarnji<s n="adj"/></l><r>jutranji<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nogometni<s n="adj"/></l><r>nogometen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>dobrovoljni<s n="adj"/></l><r>prostovoljen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>frankofoni<s n="adj"/></l><r>frankofonski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>baletni<s n="adj"/></l><r>baleten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>ekspertni<s n="adj"/></l><r>strokoven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>okružni<s n="adj"/></l><r>okrožen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>strojni<s n="adj"/></l><r>strojen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>višedesetljetni<s n="adj"/></l><r>desetleten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>operni<s n="adj"/></l><r>operen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>prapovijesni<s n="adj"/></l><r>prazgodovinski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>protupožarni<s n="adj"/></l><r>gasilski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>renesansni<s n="adj"/></l><r>renesančen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sredozemni<s n="adj"/></l><r>sredozemski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>trajektni<s n="adj"/></l><r>trajekten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>zemni<s n="adj"/></l><r>naraven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>minuli<s n="adj"/></l><r>pretekel<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>rani<s n="adj"/></l><r>ran<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>paravojni<s n="adj"/></l><r>paravojaški<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sigurnosni<s n="adj"/></l><r>varnosten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>bračni<s n="adj"/></l><r>poročen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>unutarnji<s n="adj"/></l><r>notranjski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>vrhovni<s n="adj"/></l><r>vrhoven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>porezni<s n="adj"/></l><r>davčen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>dvodnevni<s n="adj"/></l><r>dvodneven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>dnevni<s n="adj"/></l><r>dneven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>dojučerašnji<s n="adj"/></l><r>včerajšnji<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>dosadašnji<s n="adj"/></l><r>dosedanji<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>zakonodavni<s n="adj"/></l><r>zakonodajen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>izborni<s n="adj"/></l><r>izbiren<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>kontrolni<s n="adj"/></l><r>nadzoren<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>krivični<s n="adj"/></l><r>kazenski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>međunarodni<s n="adj"/></l><r>mednaroden<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>mirovni<s n="adj"/></l><r>miren<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>modni<s n="adj"/></l><r>moden<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>živčani<s n="adj"/></l><r>živčen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nervni<s n="adj"/></l><r>živčen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>osiguravajući<s n="adj"/></l><r>zavarovalen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>novčani<s n="adj"/></l><r>denaren<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>daljnji<s n="adj"/></l><r>naslednji<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>predizborni<s n="adj"/></l><r>predvolilen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>prethodni<s n="adj"/></l><r>prejšnji<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>proljetni<s n="adj"/></l><r>pomladen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>propagandni<s n="adj"/></l><r>propaganden<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>radni<s n="adj"/></l><r>deloven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>rezervni<s n="adj"/></l><r>rezerven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>potonji<s n="adj"/></l><r>poslednji<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>odgovarajući<s n="adj"/></l><r>ustrezen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>savezni<s n="adj"/></l><r>zvezen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>srednji<s n="adj"/></l><r>srednji<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>tekući<s n="adj"/></l><r>tekoč<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>tjelesni<s n="adj"/></l><r>fizičen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>tranzitni<s n="adj"/></l><r>tranziten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>trodnevni<s n="adj"/></l><r>tridneven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>centralni<s n="adj"/></l><r>osrednji<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>civilni<s n="adj"/></l><r>civilen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>jugoistočni<s n="adj"/></l><r>jugovzhoden<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>tripartitni<s n="adj"/></l><r>tristranski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>bezbjedonosni<s n="adj"/></l><r>varnosten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>kvadratni<s n="adj"/></l><r>kvadraten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>infrastrukturni<s n="adj"/></l><r>infrastrukturen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>jednodnevni<s n="adj"/></l><r>enodneven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>opozicioni<s n="adj"/></l><r>nasproten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>krajnji<s n="adj"/></l><r>končen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>brojni<s n="adj"/></l><r>številen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>razni<s n="adj"/></l><r>razen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>svjetski<s n="adj"/></l><r>svetoven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>oslobodilački<s n="adj"/></l><r>osvobodilen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>dopunski<s n="adj"/></l><r>dodaten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>poreski<s n="adj"/></l><r>davčen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>građevinski<s n="adj"/></l><r>stavben<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>armijski<s n="adj"/></l><r>vojen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>bombaški<s n="adj"/></l><r>bomben<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>proračunski<s n="adj"/></l><r>proračunski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>istinski<s n="adj"/></l><r>resničen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>džinovski<s n="adj"/></l><r>velikanski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>glasački<s n="adj"/></l><r>volilen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>gradski<s n="adj"/></l><r>mesten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>evropski<s n="adj"/></l><r>evropski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>ekonomski<s n="adj"/></l><r>gospodarski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>istorijski<s n="adj"/></l><r>zgodovinski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>italijanski<s n="adj"/></l><r>italijanski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>manastirski<s n="adj"/></l><r>samostanski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>marokanski<s n="adj"/></l><r>maroški<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>opštinski<s n="adj"/></l><r>občinski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>planinarski<s n="adj"/></l><r>planinski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>slovenački<s n="adj"/></l><r>slovenski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>slavenski<s n="adj"/></l><r>slovanski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sportski<s n="adj"/></l><r>športen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>srbijanski<s n="adj"/></l><r>srbski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>studentski<s n="adj"/></l><r>študentski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>suštinski<s n="adj"/></l><r>bistven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>univerzitetski<s n="adj"/></l><r>univerziteten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>finansijski<s n="adj"/></l><r>finančen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>fudbalski<s n="adj"/></l><r>nogometen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>holivudski<s n="adj"/></l><r>hollywoodski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>šengenski<s n="adj"/></l><r>schengenski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>jugoslovenski<s n="adj"/></l><r>jugoslovanski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>protuturski<s n="adj"/></l><r>protiturški<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>biometrijski<s n="adj"/></l><r>biometričen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>brodvejski<s n="adj"/></l><r>broadwayski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>vavilonski<s n="adj"/></l><r>babilonski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>vinarski<s n="adj"/></l><r>vinarski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>gorski<s n="adj"/></l><r>gorski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>dobrovoljački<s n="adj"/></l><r>prostovoljen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>konzultantski<s n="adj"/></l><r>svetovalen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>konsultantski<s n="adj"/></l><r>svetovalen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>korintski<s n="adj"/></l><r>korintski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>latinoamerički<s n="adj"/></l><r>latinskoameriški<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nomadski<s n="adj"/></l><r>nomadski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>oceanski<s n="adj"/></l><r>oceanski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>panarapski<s n="adj"/></l><r>panarabski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>pečatarski<s n="adj"/></l><r>pečaten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>piratski<s n="adj"/></l><r>piratski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sveštenički<s n="adj"/></l><r>administrativen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>senatski<s n="adj"/></l><r>senatski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>avijacijski<s n="adj"/></l><r>letalski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>austrijski<s n="adj"/></l><r>avstrijski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>autobuski<s n="adj"/></l><r>avtobusen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>akterski<s n="adj"/></l><r>igralski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>amandmanski<s n="adj"/></l><r>amandmajski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>amfiteatarski<s n="adj"/></l><r>amfiteatrski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>antidemokratski<s n="adj"/></l><r>nedemokratičen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>antieuropski<s n="adj"/></l><r>protievropski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>antitenkovski<s n="adj"/></l><r>protitankovski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>atlanski<s n="adj"/></l><r>atlantski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>boksački<s n="adj"/></l><r>boksarski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>varvarski<s n="adj"/></l><r>barbarski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>venecijanski<s n="adj"/></l><r>beneški<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>dvopartijski<s n="adj"/></l><r>dvostrankarski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>depresijski<s n="adj"/></l><r>depresiven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>diverzantski<s n="adj"/></l><r>sabotažen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>ekspertski<s n="adj"/></l><r>strokoven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>jesenski<s n="adj"/></l><r>jesenski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>zapadnoeuropski<s n="adj"/></l><r>zahodnoevropski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>zapadnoevropski<s n="adj"/></l><r>zahodnoevropski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>indijanski<s n="adj"/></l><r>indijanski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>istočnoeuropski<s n="adj"/></l><r>vzhodnoevropski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>istočnoevropski<s n="adj"/></l><r>vzhodnoevropski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>uredski<s n="adj"/></l><r>pisarniški<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>kancelarijski<s n="adj"/></l><r>pisarniški<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>konferencijski<s n="adj"/></l><r>konferenčen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>malokalibarski<s n="adj"/></l><r>malokalibrski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>mašinski<s n="adj"/></l><r>strojen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>majski<s n="adj"/></l><r>majski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>metropolski<s n="adj"/></l><r>velemesten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>monopolski<s n="adj"/></l><r>monopolen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nedemokratski<s n="adj"/></l><r>nedemokratičen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nestranački<s n="adj"/></l><r>nestrankarski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>oligarhijski<s n="adj"/></l><r>oligarhičen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>pedijatrijski<s n="adj"/></l><r>pediatričen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>spisateljski<s n="adj"/></l><r>pisateljski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>postdiplomski<s n="adj"/></l><r>podiplomski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>posttraumatski<s n="adj"/></l><r>posttravmatski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>poštenski<s n="adj"/></l><r>poštarski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>praistorijski<s n="adj"/></l><r>prazgodovinski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>prahistorijski<s n="adj"/></l><r>prazgodovinski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>psihijatrijski<s n="adj"/></l><r>psihiatričen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>rentgenski<s n="adj"/></l><r>rentgenski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>rivalski<s n="adj"/></l><r>rivalski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>septembarski<s n="adj"/></l><r>septembrski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>rujanski<s n="adj"/></l><r>septembrski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sindikatski<s n="adj"/></l><r>sindikalen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>sitematski<s n="adj"/></l><r>sistematičen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>strategijski<s n="adj"/></l><r>strateški<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>telekomunikacijski<s n="adj"/></l><r>telekomunikacijski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>tenderski<s n="adj"/></l><r>razpisen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>tenkovski<s n="adj"/></l><r>tankovski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>duhanski<s n="adj"/></l><r>tobačen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>filharmonijski<s n="adj"/></l><r>filharmoničen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>fondacijski<s n="adj"/></l><r>temeljen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>kršćanski<s n="adj"/></l><r>krščanski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>hrišćanski<s n="adj"/></l><r>krščanski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>srednjeazijski<s n="adj"/></l><r>srednjeazijski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>centralnoevropski<s n="adj"/></l><r>srednjeevropski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>srednjeevropski<s n="adj"/></l><r>srednjeevropski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>srednjeeuropski<s n="adj"/></l><r>srednjeevropski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>švajcarski<s n="adj"/></l><r>švicarski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>siječanjski<s n="adj"/></l><r>januarski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>južnoslavenski<s n="adj"/></l><r>jugoslovanski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>junski<s n="adj"/></l><r>junijski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>muzički<s n="adj"/></l><r>glasben<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>patnički<s n="adj"/></l><r>trpeč<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>vjekovan<s n="adj"/></l><r>stoleten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>vazdušan<s n="adj"/></l><r>zračen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>mogućan<s n="adj"/></l><r>mogočen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>oficijalan<s n="adj"/></l><r>uraden<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>prenosan<s n="adj"/></l><r>prenosen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nominiran<s n="adj"/></l><r>imenovan<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>zagrižen<s n="adj"/></l><r>zagrizen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>prosvjećen<s n="adj"/></l><r>prosveten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>prosvjetan<s n="adj"/></l><r>prosveten<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>strani<s n="adj"/></l><r>čuden<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>maturalni<s n="adj"/></l><r>naraven<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nadzorni<s n="adj"/></l><r>nadzoren<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>kavgadžijski<s n="adj"/></l><r>pretepaški<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>kinematografski<s n="adj"/></l><r>filmski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>oficerski<s n="adj"/></l><r>oficirski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>četirmetarski<s n="adj"/></l><r>štirimetrski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>španski<s n="adj"/></l><r>španski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>preminuo<s n="adj"/></l><r>umrl<s n="adj"/></r></p><par n="pst2null"/></e>
 
-    
 
     <!-- Others -->
     
