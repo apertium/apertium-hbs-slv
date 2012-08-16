@@ -7245,7 +7245,7 @@
     <e><p><l>govorni<b/>organ<s n="n"/><s n="mi"/></l><r>govorilo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kormilo<s n="n"/><s n="nt"/></l><r>krmilo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>nosila<s n="n"/><s n="f"/></l><r>nosilo<s n="n"/><s n="nt"/></r></p><par n="pl_sgpl"/></e>
-    <e><p><l>onostrano<s n="n"/><s n="nt"/></l><r>onostranstvo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>onostrano<s n="n"/><s n="nt"/></l><r>onostranstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>slovenstvo<s n="n"/><s n="nt"/></l><r>slovenstvo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>birokratija<s n="n"/><s n="f"/></l><r>birokracija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>birokracija<s n="n"/><s n="f"/></l><r>birokracija<s n="n"/><s n="f"/></r></p></e>
@@ -7257,7 +7257,7 @@
     <e><p><l>diplomacija<s n="n"/><s n="f"/></l><r>diplomacija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>diplomatija<s n="n"/><s n="f"/></l><r>diplomacija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gesta<s n="n"/><s n="f"/></l><r>gesta<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>kućanica<s n="n"/><s n="f"/></l><r>gopspodinja<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kućanica<s n="n"/><s n="f"/></l><r>gospodinja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kralješnica<s n="n"/><s n="f"/></l><r>hrbtenica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kralješnica<s n="n"/><s n="f"/></l><r>hrbtenica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>leđna<b/>moždina<s n="n"/><s n="f"/></l><r>hrbtenjača<s n="n"/><s n="f"/></r></p></e>
@@ -7268,7 +7268,6 @@
     <e><p><l>pravednik<s n="n"/><s n="ma"/></l><r>pravičnik<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>rukavica<s n="n"/><s n="f"/></l><r>rokavica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tematika<s n="n"/><s n="f"/></l><r>tematika<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>večer<s n="n"/><s n="f"/></l><r>večer<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pokretač<s n="n"/><s n="ma"/></l><r>pobudnik<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>izrod<s n="n"/><s n="mi"/></l><r>zaploditev<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>jarac<s n="n"/><s n="ma"/></l><r>kozel<s n="n"/><s n="ma"/></r></p></e>
@@ -18388,7 +18387,7 @@
     <e><p><l>baviti<s n="vblex"/><s n="imperf"/><s n="ref"/><g><b/>se<b/>poljoprivredom</g></l><r>kmetovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>baviti<s n="vblex"/><s n="imperf"/><s n="ref"/><g><b/>se<b/>poljoprivredom</g></l><r>kmetovati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p></e>
 
-
+    <e r="RL"><p><l>biti<s n="vbser"/><s n="clt"/><g><b/>svjestan</g></l><r>zavedati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
 
 </section>
 

@@ -267,6 +267,8 @@
       <attr-item tags="vbmod"/>
       <attr-item tags="vbser"/>
       <attr-item tags="vbhaver"/>
+      <attr-item tags="vbmod.clt"/>
+      <attr-item tags="vbser.clt"/>
     </def-attr>
 
     <def-attr n="a_adj">
@@ -309,6 +311,7 @@
       <attr-item tags="aor"/>
       <attr-item tags="fti"/>
       <attr-item tags="pres"/>
+      <attr-item tags="pres.neg"/>
       <attr-item tags="pp"/>
       <attr-item tags="lp"/>
       <attr-item tags="supn"/>
@@ -452,6 +455,8 @@
 		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbhaver"/></equal> 
 		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbaux"/></equal> 
 		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbser"/></equal> 
+		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbser.clt"/></equal> 
+		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbmod.clt"/></equal> 
 		</or>
 	      </test>
 	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
@@ -539,7 +544,15 @@
 	  </let>
 	</when>
       </choose>
-	  <let><!--For multiwords verbs-->
+      <choose>
+	<when><!-- For the negative vbser, which is ne+vbser-->
+	  <test>
+	    <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pres.neg"/></equal>
+	  </test>
+	  <!--Do nothing, it's all done in the bidix-->
+	</when>
+	<otherwise>
+	  <let><!--For "normal" verbs-->
 	    <clip pos="1" side="tl" part="whole"/>
 	    <concat>
 	      <clip pos="1" side="tl" part="lemh"/>
@@ -553,6 +566,8 @@
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </concat>
 	  </let>
+	</otherwise>
+      </choose>
     </def-macro>
 
     <def-macro n="num_adapter" npar="1">

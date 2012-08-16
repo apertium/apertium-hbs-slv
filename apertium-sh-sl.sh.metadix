@@ -51662,7 +51662,7 @@
     <!--/osiguravajuća kuća-->
 
     <!--Compound verbal phrases-->
-    <e lm="biti svjestan"><i/><par n="biti__vbser"/><p><l><b/>svjestan</l><r><g><b/>svjestan</g></r></p></e>
+    <e r="RL" lm="biti svjestan"><par n="biti__vbser"/><p><l><b/>svjestan</l><r><g><b/>svjestan</g></r></p></e>
     <e lm="baviti se poljoprivredom"><i>bav</i><par n="imperf_ref_plov/iti__vblex"/><p><l><b/>se<b/>poljoprivredom</l><r><g><b/>se<b/>poljoprivredom</g></r></p></e>
 
 

@@ -361,6 +361,7 @@
       <attr-item tags="past"/>
       <attr-item tags="pp"/>
       <attr-item tags="ref.lp"/>
+      <attr-item tags="adv.sint"/><!--This is not quite a tense, but it's here for the pprs.adv -> adv.sint-->
     </def-attr>
 
     <def-attr n="gen">
@@ -576,7 +577,7 @@
 	    </and>
 	  </test>          
 	  <out>
-	    <chunk name="Adv" case="caseFirstWord">
+	    <chunk name="adv" case="caseFirstWord">
 	      <tags>
 		<tag><lit-tag v="VB"/></tag>
 	      </tags>
@@ -598,7 +599,7 @@
 	    <equal caseless="yes"><clip pos="1" side="sl" part="a_adv_form_SH"/><lit-tag v="ssup"/></equal>
 	  </test>          
 	  <out>
-	    <chunk name="Adv" case="caseFirstWord">
+	    <chunk name="adv" case="caseFirstWord">
 	      <tags>
 		<tag><lit-tag v="VB"/></tag>
 	      </tags>
@@ -618,7 +619,7 @@
 	    </and>
 	  </test>          
 	  <out>
-	    <chunk name="Adv" case="caseFirstWord">
+	    <chunk name="adv" case="caseFirstWord">
 	      <tags>
 		<tag><lit-tag v="VB"/></tag>
 	      </tags>
@@ -640,7 +641,7 @@
 	    <equal caseless="yes"><clip pos="1" side="sl" part="a_adv_form_SH"/><lit-tag v="sup"/></equal>
 	  </test>          
 	  <out>
-	    <chunk name="Adv" case="caseFirstWord">
+	    <chunk name="adv" case="caseFirstWord">
 	      <tags>
 		<tag><lit-tag v="VB"/></tag>
 	      </tags>
@@ -660,7 +661,7 @@
 	    </and>
 	  </test>          
 	  <out>
-	    <chunk name="Adv" case="caseFirstWord">
+	    <chunk name="adv" case="caseFirstWord">
 	      <tags>
 		<tag><lit-tag v="VB"/></tag>
 	      </tags>
@@ -682,7 +683,7 @@
 	    <equal caseless="yes"><clip pos="1" side="sl" part="a_adv_form_SH"/><lit-tag v="comp"/></equal>
 	  </test>          
 	  <out>
-	    <chunk name="Adv" case="caseFirstWord">
+	    <chunk name="adv" case="caseFirstWord">
 	      <tags>
 		<tag><lit-tag v="VB"/></tag>
 	      </tags>
@@ -696,7 +697,7 @@
 	</when>	
 	<otherwise> <!-- Else: adv -> adv.sint -->
 	  <out>
-	    <chunk name="Adv" case="caseFirstWord">
+	    <chunk name="adv" case="caseFirstWord">
 	      <tags>
 		<tag><lit-tag v="VB"/></tag>
 	      </tags>
@@ -724,7 +725,7 @@
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
 		<out>
-		  <chunk name="VerbImerfPprsAdv_to_VblexPP" case="caseFirstWord">
+		  <chunk name="verbImerfPprsAdv_to_VblexPP" case="caseFirstWord">
 		    <tags>
 	          <tag><lit-tag v="VB"/></tag>
 		    </tags>
@@ -756,7 +757,7 @@
 		      </equal>
 		    </test>	
 		    <out>
-		      <chunk name="VerbPerfPprsAdv_to_VblexRefPast" case="caseFirstWord">
+		      <chunk name="verbPerfPprsAdv_to_VblexRefPast" case="caseFirstWord">
 			<tags>
 			  <tag><lit-tag v="VB"/></tag>
 			</tags>
@@ -787,7 +788,7 @@
 		  </when>
 		  <otherwise>
 			<out>
-			  <chunk name="VerbPerfPprsAdv_to_VblexPast" case="caseFirstWord">
+			  <chunk name="verbPerfPprsAdv_to_VblexPast" case="caseFirstWord">
 			    <tags>
 		          <tag><lit-tag v="VB"/></tag>
 			    </tags>
@@ -837,7 +838,7 @@
 	      </and>
 	    </test>
 	    <out>
-	      <chunk name="Vrb_Adj_m_sg_nom" case="caseFirstWord">
+	      <chunk name="vrb_Adj_m_sg_nom" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -856,7 +857,7 @@
 	      </equal>
 	    </test>
 	    <out>
-	      <chunk name="Vrb_Adv" case="caseFirstWord">
+	      <chunk name="vrb_Adv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -876,7 +877,7 @@
 	      </equal>
 	    </test>
 	    <out>
-	      <chunk name="VerbPP" case="caseFirstWord">
+	      <chunk name="verbPP" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -905,7 +906,7 @@
 				</or>
 			</test>
 			<out>
-				<chunk name="VerbAOR_PII" case="caseFirstWord">
+				<chunk name="verbAOR_PII" case="caseFirstWord">
 					<tags>
 						<tag><lit-tag v="VB"/></tag>
 					</tags>
@@ -941,7 +942,7 @@
 	      </or>
 	    </test>
 	    <out>
-	      <chunk name="Verb_ref_lp" case="caseFirstWord">
+	      <chunk name="verb_ref_lp" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -971,7 +972,7 @@
 	      </and>
 	    </test>
 	    <out>
-	      <chunk name="Vblex-to-Vbser" case="caseFirstWord">
+	      <chunk name="vblex-to-Vbser" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -987,7 +988,7 @@
 	  </when>
 	  <otherwise>
 	    <out>
-	      <chunk name="Verb" case="caseFirstWord">
+	      <chunk name="verb" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		  <tag><clip pos="1" side="tl" part="a_vrb"/></tag>
@@ -1028,7 +1029,7 @@
 						</and>
 					</test>	
 				<out>
-					<chunk name="BitiVbser_pprsAdvPerf" case="caseFirstWord">
+					<chunk name="bitiVbser_pprsAdvPerf" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1067,7 +1068,7 @@
 						</and>
 					</test>	
 				<out>
-					<chunk name="BitiVbser_pprsAdvImperf" case="caseFirstWord">
+					<chunk name="bitiVbser_pprsAdvImperf" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1106,7 +1107,7 @@
 						</equal>
 					</test>	
 				<out>
-					<chunk name="BitiVbser_LP" case="caseFirstWord">
+					<chunk name="bitiVbser_LP" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1128,7 +1129,7 @@
 						</equal>
 					</test>	
 				<out>
-					<chunk name="BitiVbser_CltAor" case="caseFirstWord">
+					<chunk name="bitiVbser_CltAor" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1147,7 +1148,7 @@
 						</equal>
 					</test>	
 				<out>
-					<chunk name="BitiVbser_AOR" case="caseFirstWord">
+					<chunk name="bitiVbser_AOR" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1176,7 +1177,7 @@
 						</equal>
 					</test>	
 				<out>
-					<chunk name="BitiVbser_PII" case="caseFirstWord">
+					<chunk name="bitiVbser_PII" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1198,7 +1199,7 @@
 				</when>
 				<otherwise>
 			    <out>
-			      <chunk name="Verb" case="caseFirstWord">
+			      <chunk name="verb" case="caseFirstWord">
 				<tags>
 				  <tag><lit-tag v="VB"/></tag>
 				  <tag><clip pos="1" side="tl" part="a_vrb"/></tag>
@@ -1235,7 +1236,7 @@
 						</and>
 					</test>	
 				<out>
-					<chunk name="ImetiVbser_pprsAdvImperf" case="caseFirstWord">
+					<chunk name="imetiVbser_pprsAdvImperf" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1280,7 +1281,7 @@
 						</or>
 					</test>	
 				<out>
-					<chunk name="ImatiVbhaver_lp" case="caseFirstWord">
+					<chunk name="imatiVbhaver_lp" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1304,7 +1305,7 @@
 						</equal>
 					</test>	
 				<out>
-					<chunk name="ImatiVbhaver_PII" case="caseFirstWord">
+					<chunk name="imatiVbhaver_PII" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1328,7 +1329,7 @@
 				</when>
 				<otherwise>
 			    <out>
-			      <chunk name="Verb" case="caseFirstWord">
+			      <chunk name="verb" case="caseFirstWord">
 				<tags>
 				  <tag><lit-tag v="VB"/></tag>
 				  <tag><clip pos="1" side="tl" part="a_vrb"/></tag>
@@ -1376,7 +1377,7 @@
 						</equal>
 					</test>	
 				<out>
-					<chunk name="HtjetiInf_HtjetiFut" case="caseFirstWord">
+					<chunk name="htjetiInf_HtjetiFut" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1400,7 +1401,7 @@
 				</when>
 				<otherwise>
 					<out>
-						<chunk name="HtjetiFut_vblex" case="caseFirstWord">
+						<chunk name="htjetiFut_vblex" case="caseFirstWord">
 							<tags>
 								<tag><lit-tag v="VB"/></tag>
 							</tags>
@@ -1460,7 +1461,7 @@
 					</equal>
 				</test>	
 			<out>
-				<chunk name="HtjetiInf_HtjetiFut" case="caseFirstWord">
+				<chunk name="htjetiInf_HtjetiFut" case="caseFirstWord">
 					<tags>
 						<tag><lit-tag v="VB"/></tag>
 					</tags>
@@ -1483,7 +1484,7 @@
 			</when>
 			<otherwise>
 				<out>
-					<chunk name="HtjetiFut_vblex" case="caseFirstWord">
+					<chunk name="htjetiFut_vblex" case="caseFirstWord">
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
@@ -1718,7 +1719,7 @@
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
 	<out>
-	  <chunk name="Preposition" case="caseFirstWord">
+	  <chunk name="preposition" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="PR"/></tag>
 	      <tag><clip pos="1" side="tl" part="a_prp"/></tag>
@@ -1749,7 +1750,7 @@
 	      </equal>
 	    </test>	
 	    <out>
-	      <chunk name="VerbVbser" case="caseFirstWord">
+	      <chunk name="verbVbser" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -1774,7 +1775,7 @@
 	  </when>
 	  <otherwise>
 	    <out>
-	      <chunk name="VerbVbser" case="caseFirstWord">
+	      <chunk name="verbVbser" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -1825,7 +1826,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="AdjToAdv" case="caseFirstWord">
+	      <chunk name="adjToAdv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -1839,7 +1840,7 @@
 	  </when>
 	  <otherwise>
 	    <out>
-	      <chunk name="Adj(adverb)" case="caseFirstWord">
+	      <chunk name="adjAdverb" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -1868,7 +1869,7 @@
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
 	<out>
-	  <chunk name="Verb" case="caseFirstWord">
+	  <chunk name="verb" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	      <tag><clip pos="2" side="tl" part="a_vrb"/></tag>
@@ -1918,7 +1919,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="AdjToAdv2" case="caseFirstWord">
+	      <chunk name="adjToAdv2" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -1950,7 +1951,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="AdjToPrn" case="caseFirstWord">
+	      <chunk name="adjToPrn" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -1966,7 +1967,7 @@
           </when>
 	  <otherwise>
 	    <out>
-	      <chunk name="Adj" case="caseFirstWord">
+	      <chunk name="adj" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -1994,7 +1995,7 @@
       <action>
 	<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
 	<out>
-	  <chunk name="NumCliticBiti" case="caseFirstWord">
+	  <chunk name="numCliticBiti" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2022,7 +2023,7 @@
       <action>
 	<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
 	<out>
-	  <chunk name="CliticAndVblex" case="caseFirstWord">
+	  <chunk name="cliticAndVblex" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2073,7 +2074,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="Adv-to-Adj_addEla" case="caseFirstWord">
+	      <chunk name="adv-to-Adj_addEla" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2115,7 +2116,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="Adv-to-Adj_addSup" case="caseFirstWord">
+	      <chunk name="adv-to-Adj_addSup" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2157,7 +2158,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="Adv-to-Adj_addComp" case="caseFirstWord">
+	      <chunk name="adv-to-Adj_addComp" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2193,7 +2194,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="Adv-to-Adj" case="caseFirstWord">
+	      <chunk name="adv-to-Adj" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2222,7 +2223,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="Adv-to-Part" case="caseFirstWord">
+	      <chunk name="adv-to-Part" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2247,7 +2248,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="Adv-to-Pr" case="caseFirstWord">
+	      <chunk name="adv-to-Pr" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2283,7 +2284,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="Adv-to-Cnj" case="caseFirstWord">
+	      <chunk name="adv-to-Cnj" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2310,7 +2311,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="Adv" case="caseFirstWord">
+	      <chunk name="adv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2335,7 +2336,7 @@
 	      </equal>
 	    </test>	
 	    <out>
-	      <chunk name="Adv" case="caseFirstWord">
+	      <chunk name="adv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2361,7 +2362,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="Adv" case="caseFirstWord">
+	      <chunk name="adv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2386,7 +2387,7 @@
 	      </equal>
 	    </test>	
 	    <out>
-	      <chunk name="Adv" case="caseFirstWord">
+	      <chunk name="adv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2412,7 +2413,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="Adv" case="caseFirstWord">
+	      <chunk name="adv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2437,7 +2438,7 @@
 	      </equal>
 	    </test>	
 	    <out>
-	      <chunk name="Adv" case="caseFirstWord">
+	      <chunk name="adv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2451,7 +2452,7 @@
 	  </when>
 	  <otherwise> <!-- Else: adv -> adv.sint -->
 	    <out>
-	      <chunk name="Adv" case="caseFirstWord">
+	      <chunk name="adv" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2475,7 +2476,7 @@
       <action>
 	<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
 	<out>
-	  <chunk name="ChunkName" case="caseFirstWord">
+	  <chunk name="chunkName" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2509,7 +2510,7 @@
 	      </and>
 	    </test>	
 	    <out>
-	      <chunk name="VbhaverToVblex" case="caseFirstWord">
+	      <chunk name="vbhaverToVblex" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2540,7 +2541,7 @@
 	<call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
 	<out>
-	  <chunk name="Nom" case="caseFirstWord">
+	  <chunk name="nom" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2563,7 +2564,7 @@
 	<call-macro n="voc_adapter"><with-param pos="2"/></call-macro>
 	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
 	<out>
-	  <chunk name="Nom_pr" case="caseFirstWord">
+	  <chunk name="nom_pr" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2601,7 +2602,7 @@
 	      </and>
 	    </test>
 	    <out>
-	      <chunk name="CliticRule" case="caseFirstWord">
+	      <chunk name="cliticRule" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2618,7 +2619,7 @@
 	  </when>
 	  <otherwise>	
 	    <out>
-	      <chunk name="Prn" case="caseFirstWord">
+	      <chunk name="prn" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
@@ -2640,7 +2641,7 @@
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
 	<out>
-	  <chunk name="Adj" case="caseFirstWord">
+	  <chunk name="adj" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2679,7 +2680,7 @@
 	  </when>
 	</choose>
 	<out>
-	  <chunk name="Li_Clitic_Vrb" case="caseFirstWord">
+	  <chunk name="li_Clitic_Vrb" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2714,7 +2715,7 @@
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
 	<out>
-	  <chunk name="LiVBlp" case="caseFirstWord">
+	  <chunk name="liVBlp" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2743,7 +2744,7 @@
 	<call-macro n="verb_adapter"><with-param pos="3"/></call-macro>
 	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
 	<out>
-	  <chunk name="Rule" case="caseFirstWord">
+	  <chunk name="rule" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2771,7 +2772,7 @@
       <action>
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<out>
-	  <chunk name="BitiLi_Je" case="caseFirstWord">
+	  <chunk name="bitiLi_Je" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2795,7 +2796,7 @@
       <action>
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<out>
-	  <chunk name="MoćiBiti-Mogoče" case="caseFirstWord">
+	  <chunk name="moćiBiti-Mogoče" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2816,7 +2817,7 @@
       <action>
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<out>
-	  <chunk name="NeBiti-BitiNeg" case="caseFirstWord">
+	  <chunk name="neBiti-BitiNeg" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2842,7 +2843,7 @@
       <action>
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
 	<out>
-	  <chunk name="CM-VBlexBiti-BitiVblex" case="caseFirstWord">
+	  <chunk name="cM-VBlexBiti-BitiVblex" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2880,7 +2881,7 @@
 	<call-macro n="voc_adapter"><with-param pos="2"/></call-macro>
 	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
 	<out>
-	  <chunk name="CM_Nom_Biti_Vblex-CM_Biti_Nom_Vblex" case="caseFirstWord">
+	  <chunk name="cM_Nom_Biti_Vblex-CM_Biti_Nom_Vblex" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
@@ -2922,7 +2923,7 @@
 	<call-macro n="voc_adapter"><with-param pos="2"/></call-macro>
 	<call-macro n="adverb_adapter"><with-param pos="3"/></call-macro>
 	<out>
-	  <chunk name="LiAdjAdv-AdvAdj" case="caseFirstWord">
+	  <chunk name="liAdjAdv-AdvAdj" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="VB"/></tag>
 	    </tags>
