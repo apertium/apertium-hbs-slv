@@ -47395,7 +47395,7 @@
     <e lm="tribina"><i>tribin</i><par n="žen/a__n"/></e>
     <e lm="vatra"><i>vatr</i><par n="žen/a__n"/></e>
     <e lm="pristojba"><i>pristoj</i><par n="nared/ba__n"/><p><l><b/>za<b/>parkiranje</l><r><g><b/>za<b/>parkiranje</g></r></p></e>
-    <e lm="pristojba"><i>pristoj</i><par n="nared/ba__n"/><p><l><b/>za<b/>smeće</l><r><g><b/>za<b/>smeće</g></r></p></e>
+    <!-- <e lm="pristojba"><i>pristoj</i><par n="nared/ba__n"/><p><l><b/>za<b/>smeće</l><r><g><b/>za<b/>smeće</g></r></p></e> -->
     <e lm="jednadžba"><i>jednadž</i><par n="nared/ba__n"/></e>
     <e lm="nagodba"><i>nagod</i><par n="nared/ba__n"/></e>
     <e lm="plovidba"><i>plovid</i><par n="nared/ba__n"/></e>

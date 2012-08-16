@@ -252,6 +252,13 @@
       <attr-item tags="np.top"/>
       <attr-item tags="np.cog"/>
       <attr-item tags="np.al"/>
+      <!--For gerundive: -->
+      <attr-item tags="vblex.imperf.tv.ger"/>
+      <attr-item tags="vblex.perf.tv.ger"/>
+      <attr-item tags="vblex.imperf.iv.ger"/>
+      <attr-item tags="vblex.perf.iv.ger"/>
+      <attr-item tags="vblex.imperf.ref.ger"/>
+      <attr-item tags="vblex.perf.ref.ger"/>
     </def-attr>
 
     <def-attr n="a_num">
