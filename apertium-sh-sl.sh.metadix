@@ -35477,6 +35477,7 @@
     <e lm="izostaviti"><i>izostav</i><par n="perf_tv_isplov/iti__vblex"/></e>
     <e lm="pretpostaviti"><i>pretpostav</i><par n="perf_tv_isplov/iti__vblex"/></e>
     <e lm="staviti"><i>stav</i><par n="perf_tv_isplov/iti__vblex"/></e>
+    <e lm="baviti"><i>bavi</i><par n="imperf_ref_plov/iti__vblex"/></e>
     <e lm="zabaviti"><i>zabav</i><par n="perf_tv_isplov/iti__vblex"/></e>
     <e lm="zabaviti"><i>zabav</i><par n="perf_ref_isplov/iti__vblex"/></e>
     <e lm="praviti"><i>prav</i><par n="imperf_tv_plov/iti__vblex"/></e>
@@ -39637,10 +39638,10 @@
     <e lm="prosvjećen"><p><l>najprosvjećen</l><r>prosvjećen</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="prosvjećen"><p><l>preprosvjećen</l><r>prosvjećen</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="krivo"><i>kriv</i><par n="zre/o__pst__adj"/></e>
-    <e lm="krivo"><i>kriv</i><par n="zre/o__comp__adj"/></e>
-    <e lm="krivo"><p><l>najkriv</l><r>kriv</r></p><par n="zre/o__sup__adj"/></e>
-    <e lm="krivo"><p><l>prekriv</l><r>kriv</r></p><par n="zre/o__ssup__adj"/></e>
+    <e lm="kriv"><i>kriv</i><par n="tup__pst__adj"/></e>
+    <e lm="kriv"><i>kriv</i><par n="tup__comp__adj"/></e>
+    <e lm="kriv"><p><l>najkriv</l><r>kriv</r></p><par n="tup__sup__adj"/></e>
+    <e lm="kriv"><p><l>prekriv</l><r>kriv</r></p><par n="tup__ssup__adj"/></e>
 
     <e lm="sumnjiv"><i>sumnjiv</i><par n="zdrav__pst__adj"/></e>
     <e lm="sumnjiv"><i>sumnjiv</i><par n="zdrav__comp__adj"/></e>
@@ -51661,11 +51662,6 @@
     <e lm="osiguravajuća kuća"><p><l>osiguravajućim<b/>kućama</l><r>osiguravajuća<b/>kuća<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
     <!--/osiguravajuća kuća-->
 
-    <!--Compound verbal phrases-->
-    <e r="RL" lm="biti svjestan"><par n="biti__vbser"/><p><l><b/>svjestan</l><r><g><b/>svjestan</g></r></p></e>
-    <e lm="baviti se poljoprivredom"><i>bav</i><par n="imperf_ref_plov/iti__vblex"/><p><l><b/>se<b/>poljoprivredom</l><r><g><b/>se<b/>poljoprivredom</g></r></p></e>
-
-
     <!--Compound adverbs-->
     <e lm="koliko puta"><i>koliko<b/>puta</i><par n="danas__adv"/></e>
     <e lm="nekoliko puta"><i>nekoliko<b/>puta</i><par n="danas__adv"/></e>
@@ -51689,6 +51685,9 @@
     <e lm="na koncu"><i>na<b/>koncu</i><par n="gen__pr"/></e>
     <e lm="na kraju"><i>na<b/>kraju</i><par n="gen__pr"/></e>
 
+    <!--Compound verbal phrases-->
+    <e lm="biti svjestan"><par n="biti__vbser"/><p><l><b/>svjestan</l><r><g><b/>svjestan</g></r></p></e>
+    <e r="RL" lm="baviti se poljoprivredom"><i>bav</i><par n="imperf_ref_plov/iti__vblex"/><p><l><b/>se<b/>poljoprivredom</l><r><g><b/>se<b/>poljoprivredom</g></r></p></e>
 
   </section>
 

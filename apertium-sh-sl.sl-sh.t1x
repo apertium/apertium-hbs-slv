@@ -188,6 +188,12 @@
     <def-cat n="adj_ins">
       <cat-item tags="adj.*.*.*.ins.*"/>
     </def-cat>
+    <def-cat n="nominal"><!--All with gender, number and case-->
+      <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
+      <cat-item tags="adj.*"/>
+      <cat-item tags="prn.*"/>
+    </def-cat>
     <def-cat n="pr">
       <cat-item tags="pr"/>
       <cat-item tags="pr.*"/>
@@ -198,6 +204,10 @@
     </def-cat>
     <def-cat n="exp">
       <cat-item tags="part.exp"/>
+    </def-cat>
+    <def-cat n="od_prn">
+      <cat-item lemma="od nekoga" tags="prn.ind"/>
+      <cat-item lemma="od nobenega" tags="prn.neg"/>
     </def-cat>
     <def-cat n="ne_part">
       <cat-item lemma ="ne" tags="part.neg"/>
@@ -287,6 +297,8 @@
       <attr-item tags="prn"/>
       <attr-item tags="prn.dem"/>
       <attr-item tags="prn.enc"/>
+      <attr-item tags="prn.neg"/>
+      <attr-item tags="prn.ind"/>
       <attr-item tags="prn.itg"/>
       <attr-item tags="prn.emph"/>
       <attr-item tags="prn.ref.pers"/>
@@ -798,6 +810,26 @@
 	  <call-macro n="m2mima"><with-param pos="1"/></call-macro>
 	</when>
       </choose>
+      <choose>
+	<when><!-- Default genders and numbers and cases For 'od nekoga' 'od nobenega' -->
+	  <test>
+	    <or>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="od nekoga"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="od nobenega"/></equal>
+	    </or>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lem"/>
+	      <clip pos="1" side="tl" part="a_prn"/>
+	      <lit-tag v="mi"/>
+	      <lit-tag v="sg"/>
+	      <lit-tag v="nom"/>
+	    </concat>
+	  </let>
+	</when>
+      </choose>
     </def-macro>
 
     <def-macro n="adj_adapter" npar="1">
@@ -824,6 +856,29 @@
 	    </concat>
 	  </let>
 	</when>	
+      </choose>
+    </def-macro>
+
+    <def-macro n="nominal_adapter" npar="1">
+      <!--Pick which type of a nominal word it is and call the corresponding adapter macro-->
+      <choose>
+	<when><!-- Noun -->
+	  <test>
+	    <or>
+	      <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="n"/></equal>
+	      <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></equal>
+	    </or>
+	  </test>
+	  <call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+	</when>
+	<when><!-- Pronoun -->
+	  <test><equal><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn"/></equal></test>
+	  <call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
+	</when>
+	<when><!-- Adjective -->
+	  <test><equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></equal></test>
+	  <call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
+	</when>
       </choose>
     </def-macro>
 
@@ -1086,6 +1141,64 @@
 	    </tags>
 	    <lu>
 	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="od_prn nominal">
+      <pattern>
+	<pattern-item n="od_prn"/>
+	<pattern-item n="nominal"/>
+      </pattern>
+      <action>
+	<call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="nominal_adapter"><with-param pos="2"/></call-macro>
+	<out>
+	  <chunk name="prn_nominal" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="Prn"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
+	      <clip pos="1" side="tl" part="a_prn"/>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <clip pos="2" side="tl" part="cas"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="nominal od_prn">
+      <pattern>
+	<pattern-item n="nominal"/>
+	<pattern-item n="od_prn"/>
+      </pattern>
+      <action>
+	<call-macro n="nominal_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="prn_adapter"><with-param pos="2"/></call-macro>
+	<out>
+	  <chunk name="prn_nominal" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="Prn"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="2" side="tl" part="lem"/>
+	      <clip pos="2" side="tl" part="a_prn"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="cas"/>
 	    </lu>
 	  </chunk>
 	</out>

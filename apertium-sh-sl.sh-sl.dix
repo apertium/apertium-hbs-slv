@@ -18386,10 +18386,15 @@
     <e><p><l>strogo<s n="adv"/></l><r>strogo<s n="adv"/></r></p></e>
     <e><p><l>odista<s n="adv"/></l><r>stvarno<s n="adv"/></r></p></e>
 
+    <e><p><l>baviti<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>iti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p></e>
+    <e><p><l>baviti<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>iti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+
     <e><p><l>baviti<s n="vblex"/><s n="imperf"/><s n="ref"/><g><b/>se<b/>poljoprivredom</g></l><r>kmetovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>baviti<s n="vblex"/><s n="imperf"/><s n="ref"/><g><b/>se<b/>poljoprivredom</g></l><r>kmetovati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p></e>
 
-    <e r="RL"><p><l>biti<s n="vbser"/><s n="clt"/><g><b/>svjestan</g></l><r>zavedati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e r="RL"><p><l>biti<s n="vbser"/><s n="clt"/><s n="pres"/><g><b/>svjestan</g></l><r>zavedati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pres"/></r></p></e>
+    <e r="RL"><p><l>biti<s n="vbser"/><g><b/>svjestan</g></l><r>zavedati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+
 
 </section>
 
