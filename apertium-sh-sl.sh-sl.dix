@@ -317,6 +317,25 @@
       <e><i><s n="ins"/></i></e>
     </pardef>
 
+    <pardef n="emph_cas">
+      <e><i><s n="gen"/></i></e>
+      <e><i><s n="dat"/></i></e>
+      <e><i><s n="acc"/></i></e>
+    </pardef>
+
+    <pardef n="non_emph_cas">
+      <e><i><s n="loc"/></i></e>
+      <e><i><s n="ins"/></i></e>
+    </pardef>
+
+    <pardef n="strange_case_pair">
+      <e><p><l><s n="acc"/></l><r><s n="acc"/></r></p></e>
+      <e><p><l><s n="dat"/></l><r><s n="dat"/></r></p></e>
+      <e r="RL"><p><l><s n="acc"/></l><r><s n="gen"/></r></p></e>
+      <e r="RL"><p><l><s n="acc"/></l><r><s n="loc"/></r></p></e>
+      <e r="RL"><p><l><s n="acc"/></l><r><s n="ins"/></r></p></e>
+    </pardef>
+
     <pardef n="null2cas">
       <e><p><l/><r><s n="nom"/></r></p></e>
       <e><p><l/><r><s n="gen"/></r></p></e>
@@ -395,7 +414,18 @@
 
     <!--Pronouns-->
     <e><p><l>free<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_id"/></e>
-    <e><p><l>free<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/><s n="emph"/></r></p><par n="pers_id"/></e>
+    <e><p><l>free<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_id"/><p><l><s n="mfn"/><s n="pl"/><s n="nom"/></l><r><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+
+    <e r="LR"><p><l>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="emph"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p><par n="emph_cas"/></e>
+    <e r="RL"><p><l>free<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/><s n="emph"/></r></p><par n="pers_id"/><par n="gen_id"/><par n="num_id"/></e>
+
+    <e><p><l>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="pl"/></r></p><par n="non_emph_cas"/></e>
+
+    <!--Sebe, sebi, se, si ...-->
+    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/></l><r>sebe<s n="prn"/><s n="ref"/><s n="mfn"/><s n="sp"/></r></p></e>
+    <e><p><l>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/></l><r>sebe<s n="prn"/><s n="ref"/><s n="enc"/><s n="mfn"/><s n="sp"/></r></p><par n="strange_case_pair"/></e>
+
+    <e><p><l>clitic<s n="prn"/><s n="pers"/><s n="clt"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_id"/><p><l></l><r></r></p></e>
 
     <!--For contractions-->
     <e><p><l>clitic<s n="prn"/><s n="pers"/><s n="clt"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_id"/><p><l></l><r></r></p></e>
@@ -412,7 +442,6 @@
     <e><p><l>oba<s n="num"/></l><r>oba<s n="prn"/><s n="ind"/></r></p><par n="gen_id_noanimacy"/><p><l></l><r><s n="du"/></r></p><par n="cas_id"/></e>
 
     <!-- Matches of tags -->
-    <e><p><l>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/></l><r>se<s n="prn"/><s n="ref"/><s n="mf"/></r></p></e>
     <e><p><l>njegov<s n="prn"/><s n="pos"/></l><r>njegov<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
     <e><p><l>njihov<s n="prn"/><s n="pos"/></l><r>njihov<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
     <e r="RL"><p><l>njihov<s n="prn"/><s n="pos"/></l><r>njun<s n="prn"/><s n="pos"/><s n="p3"/></r></p></e>
@@ -9544,6 +9573,7 @@
     <e><p><l>sinoubistvo<s n="n"/><s n="nt"/></l><r>umor<b/>sina<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>sinoubojstvo<s n="n"/><s n="nt"/></l><r>umor<b/>sina<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>studija<g><b/>izvedivosti</g><s n="n"/><s n="f"/></l><r>študija<g><b/>izvedljivosti</g><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>porez<g><b/>na<b/>dohodak</g><s n="n"/><s n="mi"/></l><r>davek<g><b/>na<b/>dohodek</g><s n="n"/><s n="mi"/></r></p></e>
 
 
     <!-- Razlicna števila -->
@@ -15958,7 +15988,7 @@
 	<e><p><l>artiljerijski<s n="adj"/></l><r>artilerijski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>arhitektonski<s n="adj"/></l><r>arhitektonski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>atletski<s n="adj"/></l><r>atletski<s n="adj"/></r></p><par n="pst2null"/></e>
-	<e><p><l>vegetarijanski<s n="adj"/></l><r>vegetarijanskii<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>vegetarijanski<s n="adj"/></l><r>vegetarijanski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>alandski<s n="adj"/></l><r>alandski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>aleksandrovski<s n="adj"/></l><r>aleksandrovski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>anatolijski<s n="adj"/></l><r>anatolijski<s n="adj"/></r></p><par n="pst2null"/></e>
@@ -16155,7 +16185,6 @@
 
 
     <!-- Adjective to Adverb -> rule added -->
-    <e><p><l>jak<s n="adj"/></l><r>zelo<s n="adv"/><s n="sint"/></r></p></e>
 
     <!-- Adjective to Pronoun -> rule added -->
     <e><p><l>drugi<s n="adj"/><s n="pst"/></l><r>drug<s n="prn"/><s n="ind"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
@@ -17359,7 +17388,7 @@
     <e><p><l>osipanje<s n="adv"/></l><r>izpuščaje<s n="adv"/></r></p></e>
     <e><p><l>ispušno<s n="adv"/></l><r>izpušno<s n="adv"/></r></p></e>
     <e><p><l>izvanredno<s n="adv"/></l><r>izredno<s n="adv"/></r></p></e>
-    <e><p><l>vrijedan<b/>pažnje<s n="adv"/></l><r>izstopajoč<s n="adv"/></r></p></e>
+    <e><p><l>izlazeći<s n="vblex"/><s n="adv"/></l><r>izstopajoč<s n="adv"/></r></p></e>
     <e><p><l>izvirujući<s n="vblex"/><s n="adv"/></l><r>izvirajoč<s n="adv"/></r></p></e>
     <e><p><l>izvrsno<s n="adv"/></l><r>izvrstno<s n="adv"/></r></p></e>
     <e><p><l>neplodno<s n="adv"/></l><r>jalovo<s n="adv"/></r></p></e>
@@ -17412,7 +17441,7 @@
     <e><p><l>kremast<s n="adv"/></l><r>kremasto<s n="adv"/></r></p></e>
     <e><p><l>vrišteći<s n="vblex"/><s n="adv"/></l><r>kriče<s n="adv"/></r></p></e>
     <e><p><l>kristalno<s n="adv"/></l><r>kristalno<s n="adv"/></r></p></e>
-    <e><p><l>kriv<s n="adv"/></l><r>krivo<s n="adv"/></r></p></e>
+    <e><p><l>krivo<s n="adv"/></l><r>krivo<s n="adv"/></r></p></e>
     <e><p><l>krivovjerstvo<s n="adv"/></l><r>krivoversko<s n="adv"/></r></p></e>
     <e><p><l>širom<s n="adv"/></l><r>križem<s n="adv"/></r></p></e>
     <e><p><l>unakrsno<s n="adv"/></l><r>križno<s n="adv"/></r></p></e>
@@ -17450,6 +17479,7 @@
     <e><p><l>ljubeći<s n="vblex"/><s n="adv"/></l><r>ljubeče<s n="adv"/></r></p></e>
     <e><p><l>ljubeći<s n="vblex"/><s n="adv"/></l><r>ljubeč<s n="adv"/></r></p></e>
     <e><p><l>lijepo<s n="adv"/></l><r>ljubko<s n="adv"/></r></p></e>
+    <e><p><l>jako<s n="adv"/></l><r>zelo<s n="adv"/><s n="sint"/></r></p></e>
     <e><p><l>ljubomorno<s n="adv"/></l><r>ljubosumno<s n="adv"/></r></p></e>
     <e><p><l>odvojeno<s n="adv"/></l><r>ločeno<s n="adv"/></r></p></e>
     <e><p><l>logično<s n="adv"/></l><r>logično<s n="adv"/></r></p></e>
@@ -17726,7 +17756,7 @@
     <e><p><l>patogeno<s n="adv"/></l><r>patogeno<s n="adv"/></r></p></e>
     <e><p><l>patološki<s n="adv"/></l><r>patološko<s n="adv"/></r></p></e>
     <e><p><l>pedagoški<s n="adv"/></l><r>pedagoško<s n="adv"/></r></p></e>
-    <e><p><l>ljut<s n="adv"/></l><r>pekoč<s n="adv"/></r></p></e>
+    <e><p><l>ljuto<s n="adv"/></l><r>pekoč<s n="adv"/></r></p></e>
     <e><p><l>petorica<s n="adv"/></l><r>petero<s n="adv"/></r></p></e>
     <e><p><l>pet<b/>puta<s n="adv"/></l><r>petkrat<s n="adv"/></r></p></e>
     <e><p><l>pedantno<s n="adv"/></l><r>pikolovsko<s n="adv"/></r></p></e>
@@ -17887,7 +17917,6 @@
     <e><p><l>igrivo<s n="adv"/></l><r>radoživo<s n="adv"/></r></p></e>
     <e><p><l>tankočutno<s n="adv"/></l><r>rahločutno<s n="adv"/></r></p></e>
     <e><p><l>raketno<s n="adv"/></l><r>raketno<s n="adv"/></r></p></e>
-    <e><p><l>rana<s n="adv"/></l><r>rano<s n="adv"/></r></p></e>
     <e><p><l>hrapavost<s n="adv"/></l><r>raskavo<s n="adv"/></r></p></e>
     <e><p><l>rastući<s n="vblex"/><s n="adv"/></l><r>rastoč<s n="adv"/></r></p></e>
     <e><p><l>ravnodušno<s n="adv"/></l><r>ravnodušno<s n="adv"/></r></p></e>
@@ -17970,7 +17999,7 @@
     <e><p><l>potajno<s n="adv"/></l><r>skrivoma<s n="adv"/></r></p></e>
     <e><p><l>ljubičast<s n="adv"/></l><r>škrlatno<s n="adv"/></r></p></e>
     <e><p><l>grupno<s n="adv"/></l><r>skupinsko<s n="adv"/></r></p></e>
-    <e><p><l>skup<s n="adv"/></l><r>skup<s n="adv"/></r></p></e>
+    <e><p><l>skupa<s n="adv"/></l><r>skup<s n="adv"/></r></p></e>
     <e><p><l>ukupno<s n="adv"/></l><r>skupno<s n="adv"/></r></p></e>
     <e><p><l>dijabetes<s n="adv"/></l><r>sladkorno<s n="adv"/></r></p></e>
     <e><p><l>slama<s n="adv"/></l><r>slamnato<s n="adv"/></r></p></e>
@@ -18014,7 +18043,7 @@
     <e><p><l>proljećno<s n="adv"/></l><r>spomladansko<s n="adv"/></r></p></e>
     <e><p><l>proljeće<s n="adv"/></l><r>spomladi<s n="adv"/></r></p></e>
     <e><p><l>mimohod<s n="adv"/></l><r>spotoma<s n="adv"/></r></p></e>
-    <e><p><l>prednji<s n="adv"/></l><r>spredaj<s n="adv"/></r></p></e>
+    <e><p><l>sprijeda<s n="adv"/></l><r>spredaj<s n="adv"/></r></p></e>
     <e><p><l>promjenjiv<s n="adv"/></l><r>spremenljivo<s n="adv"/></r></p></e>
     <e><p><l>promjena<s n="adv"/></l><r>spreminjajoče<s n="adv"/></r></p></e>
     <e><p><l>promjena<s n="adv"/></l><r>spreminjajoč<s n="adv"/></r></p></e>
@@ -18027,7 +18056,7 @@
     <e><p><l>svrbeći<s n="vblex"/><s n="adv"/></l><r>srbeč<s n="adv"/></r></p></e>
     <e><p><l>srebrno<s n="adv"/></l><r>srebrno<s n="adv"/></r></p></e>
     <e><p><l>središnji<s n="adv"/></l><r>srednjeevropsko<s n="adv"/></r></p></e>
-    <e><p><l>srednji<s n="adv"/></l><r>srednje<s n="adv"/></r></p></e>
+    <e><p><l>srednje<s n="adv"/></l><r>srednje<s n="adv"/></r></p></e>
     <e><p><l>stanarski<s n="adv"/></l><r>stanovanjsko<s n="adv"/></r></p></e>
     <e><p><l>stanar<s n="adv"/></l><r>stanujoč<s n="adv"/></r></p></e>
     <e><p><l>stanar<s n="adv"/></l><r>starajoče<s n="adv"/></r></p></e>
@@ -18085,8 +18114,8 @@
     <e><p><l>toliko puta<s n="adv"/></l><r>tolikokrat<s n="adv"/></r></p></e>
     <e><p><l>totalitarno<s n="adv"/></l><r>totalitarno<s n="adv"/></r></p></e>
     <e><p><l>u<b/>tijeku<s n="adv"/></l><r>trajajoč<s n="adv"/></r></p></e>
-    <e><p><l>travnjak<s n="adv"/></l><r>trate<s n="adv"/></r></p></e>
-    <e><p><l>travnjak<s n="adv"/></l><r>travnato<s n="adv"/></r></p></e>
+    <e><p><l>travnato<s n="adv"/></l><r>trate<s n="adv"/></r></p></e>
+    <e><p><l>travnato<s n="adv"/></l><r>travnato<s n="adv"/></r></p></e>
     <e><p><l>mora<s n="adv"/></l><r>treba<s n="adv"/></r></p></e>
     <e><p><l>trepet<s n="adv"/></l><r>trepetajoče<s n="adv"/></r></p></e>
     <e><p><l>treći<b/>put<s n="adv"/></l><r>tretjič<s n="adv"/></r></p></e>
@@ -18207,7 +18236,7 @@
     <e><p><l>privremeno<s n="adv"/></l><r>začasno<s n="adv"/></r></p></e>
     <e><p><l>pokretajući<s n="vblex"/><s n="adv"/></l><r>začenši<s n="adv"/></r></p></e>
     <e><p><l>unatrag<s n="adv"/></l><r>zadaj<s n="adv"/></r></p></e>
-    <e><p><l>zadnji<s n="adv"/></l><r>zadnjič<s n="adv"/></r></p></e>
+    <e><p><l>zadnji<b/>put<s n="adv"/></l><r>zadnjič<s n="adv"/></r></p></e>
     <e><p><l>dovoljno<s n="adv"/></l><r>zadostno<s n="adv"/></r></p></e>
     <e><p><l>zadovoljavajuće<s n="adv"/></l><r>zadovoljivo<s n="adv"/></r></p></e>
     <e><p><l>zagušljivo<s n="adv"/></l><r>zadušljivo<s n="adv"/></r></p></e>
@@ -18251,7 +18280,7 @@
     <e><p><l>željezo<s n="adv"/></l><r>železno<s n="adv"/></r></p></e>
     <e><p><l>zemlja<s n="adv"/></l><r>zemeljsko<s n="adv"/></r></p></e>
     <e><p><l>zemno<s n="adv"/></l><r>zemeljsko<s n="adv"/></r></p></e>
-    <e><p><l>žensko<s n="adv"/></l><r>žensko<s n="adv"/></r></p></e>
+    <e><p><l>ženski<s n="adv"/></l><r>žensko<s n="adv"/></r></p></e>
     <e><p><l>primjerno<s n="adv"/></l><r>zgledno<s n="adv"/></r></p></e>
     <e><p><l>spaljujući<s n="vblex"/><s n="adv"/></l><r>žgoče<s n="adv"/></r></p></e>
     <e><p><l>gore<s n="adv"/></l><r>zgoraj<s n="adv"/></r></p></e>

@@ -32919,6 +32919,7 @@
     <e lm="nadalje"><i>nadalje</i><par n="danas__adv"/></e>
     <e lm="uglavnom"><i>uglavnom</i><par n="danas__adv"/></e>
     <e lm="baš"><i>baš</i><par n="danas__adv"/></e>
+    <e lm="sprijeda"><i>sprijeda</i><par n="danas__adv"/></e>
     <e lm="naprijed"><i>napr</i><par n="e_ije__yat"/><i>d</i><par n="danas__adv"/></e>
     <e lm="objeručke"><i>ob</i><par n="e_je__yat"/><i>ručke</i><par n="danas__adv"/></e>
     <e lm="prvi put"><i>prvi<b/>put</i><par n="danas__adv"/></e>
@@ -36288,7 +36289,7 @@
     <e lm="pun"><p><l>najpun</l><r>pun</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="pun"><p><l>prepun</l><r>pun</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="nemoguć"><i>nemoguć</i><par n="zdrav__pst__adj"/></e>
+    <e lm="nemoguć"><i>nemoguć</i><par n="loš__pst__adj"/></e>
 
     <e lm="dvostruk"><i>dvostruk</i><par n="zdrav__pst__adj"/></e>
     <e lm="dvostruk"><i>dvostruk</i><par n="zdrav__comp__adj"/></e>
@@ -51678,9 +51679,12 @@
     <e lm="mnogogdje"><i>mnogogdje</i><par n="danas__adv"/></e>
     <e lm="greškom"><i>greškom</i><par n="danas__adv"/></e>
     <e lm="treći put"><i>treći<b/>put</i><par n="danas__adv"/></e>
+    <e lm="zadnji put"><i>zadnji<b/>put</i><par n="danas__adv"/></e>
     <e lm="na putu"><i>na<b/>putu</i><par n="danas__adv"/></e>
     <e lm="prema"><i>prema</i><par n="danas__adv"/></e>
     <e lm="ususret"><i>ususret</i><par n="danas__adv"/></e>
+    <e lm="širom"><i>širom</i><par n="danas__adv"/></e>
+    <e lm="skupa"><i>skupa</i><par n="danas__adv"/></e>
 
     <e lm="na koncu"><i>na<b/>koncu</i><par n="gen__pr"/></e>
     <e lm="na kraju"><i>na<b/>kraju</i><par n="gen__pr"/></e>
