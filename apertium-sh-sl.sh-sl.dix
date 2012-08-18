@@ -7249,7 +7249,7 @@
     <e><p><l>kormilo<s n="n"/><s n="nt"/></l><r>krmilo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>nosila<s n="n"/><s n="f"/></l><r>nosilo<s n="n"/><s n="nt"/></r></p><par n="pl_sgpl"/></e>
     <e><p><l>onostrano<s n="n"/><s n="nt"/></l><r>onostranstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>slovenstvo<s n="n"/><s n="nt"/></l><r>slovenstvo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>slovenstvo<s n="n"/><s n="nt"/></l><r>slovenstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>birokratija<s n="n"/><s n="f"/></l><r>birokracija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>birokracija<s n="n"/><s n="f"/></l><r>birokracija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>buva<s n="n"/><s n="f"/></l><r>bolha<s n="n"/><s n="f"/></r></p></e>
@@ -9548,8 +9548,7 @@
 
     <!-- Razlicna števila -->
     <e><p><l>oko<s n="n"/><s n="f"/><s n="pl"/></l><r>oko<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
-    <e><p><l>oko<s n="n"/><s n="nt"/><s n="sg"/></l><r>oko<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e><p><l>oko<s n="n"/><s n="nt"/><s n="sg"/></l><r>oko<s n="n"/><s n="nt"/><s n="du"/></r></p></e>
+    <e><p><l>oko<s n="n"/><s n="nt"/></l><r>oko<s n="n"/><s n="nt"/></r></p><par n="sgpl_pl"/></e> <!-- needs a fix? -->
     <e><p><l>zločin<s n="n"/><s n="mi"/></l><r>kriminal<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>snijeg<s n="n"/><s n="mi"/></l><r>sneg<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>odmor<s n="n"/><s n="mi"/></l><r>počitnice<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e>
@@ -9941,6 +9940,8 @@
     <e><p><l>bljedoća<s n="n"/><s n="f"/></l><r>bledica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>blještavilo<s n="n"/><s n="nt"/></l><r>bleščava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>prečac<s n="n"/><s n="mi"/></l><r>bližnjica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>čistač<s n="n"/><s n="ma"/></l><r>čistilec<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>brojač<s n="n"/><s n="ma"/></l><r>preprečevanje<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>zabluda<s n="n"/><s n="f"/></l><r>blodnjava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bradica<s n="n"/><s n="f"/></l><r>bradica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>brana<s n="n"/><s n="f"/></l><r>brana<s n="n"/><s n="f"/></r></p></e>
