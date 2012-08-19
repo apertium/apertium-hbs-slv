@@ -188,6 +188,11 @@
       <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
     </pardef>
+
+    <pardef n="pl_dupl">
+      <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><s n="pl"/></l><r><s n="du"/></r></p></e>
+    </pardef>
     
     <pardef n="sgpl_pl">
       <e r="LR"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
@@ -413,22 +418,20 @@
   <section id="main" type="standard">
 
     <!--Pronouns-->
-    <e><p><l>free<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_id"/></e>
-    <e><p><l>free<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_id"/><p><l><s n="mfn"/><s n="pl"/><s n="nom"/></l><r><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>clitic<s n="prn"/><s n="pers"/><s n="clt"/></l><r>prpers<s n="prn"/><s n="emph"/></r></p></e>
 
-    <e r="LR"><p><l>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="emph"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p><par n="emph_cas"/></e>
-    <e r="RL"><p><l>free<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/><s n="emph"/></r></p><par n="pers_id"/><par n="gen_id"/><par n="num_id"/></e>
+    <!--The sh->sl problematic-->
+    <e r="LR"><p><l>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mfn"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="emph"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p><par n="emph_cas"/></e>
 
-    <e><p><l>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="pl"/></r></p><par n="non_emph_cas"/></e>
+
 
     <!--Sebe, sebi, se, si ...-->
     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/></l><r>sebe<s n="prn"/><s n="ref"/><s n="mfn"/><s n="sp"/></r></p></e>
     <e><p><l>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/></l><r>sebe<s n="prn"/><s n="ref"/><s n="enc"/><s n="mfn"/><s n="sp"/></r></p><par n="strange_case_pair"/></e>
 
-    <e><p><l>clitic<s n="prn"/><s n="pers"/><s n="clt"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_id"/><p><l></l><r></r></p></e>
 
     <!--For contractions-->
-    <e><p><l>clitic<s n="prn"/><s n="pers"/><s n="clt"/></l><r>prpers<s n="prn"/><s n="pers"/></r></p><par n="pers_id"/><p><l></l><r></r></p></e>
 
 
     <e><p><l>svoj<s n="prn"/><s n="ref"/><s n="pos"/></l><r>svoj<s n="prn"/><s n="ref"/></r></p></e>
