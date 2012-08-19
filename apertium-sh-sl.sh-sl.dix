@@ -384,32 +384,32 @@
 
     <pardef n="tv2allforms">
       <e><p><l><s n="tv"/></l><r><s n="tv"/></r></p></e>
-      <e><p><l><s n="tv"/></l><r><s n="iv"/></r></p></e>
-      <e><p><l><s n="tv"/></l><r><s n="ref"/></r></p></e>
+      <e r="RL"><p><l><s n="tv"/></l><r><s n="iv"/></r></p></e>
+      <e r="RL"><p><l><s n="tv"/></l><r><s n="ref"/></r></p></e>
     </pardef>
 
     <pardef n="iv2allforms">
-      <e><p><l><s n="iv"/></l><r><s n="tv"/></r></p></e>
+      <e r="RL"><p><l><s n="iv"/></l><r><s n="tv"/></r></p></e>
       <e><p><l><s n="iv"/></l><r><s n="iv"/></r></p></e>
-      <e><p><l><s n="iv"/></l><r><s n="ref"/></r></p></e>
+      <e r="RL"><p><l><s n="iv"/></l><r><s n="ref"/></r></p></e>
     </pardef>
 
     <pardef n="ref2allforms">
-      <e><p><l><s n="iv"/></l><r><s n="tv"/></r></p></e>
-      <e><p><l><s n="iv"/></l><r><s n="iv"/></r></p></e>
-      <e><p><l><s n="iv"/></l><r><s n="ref"/></r></p></e>
+      <e r="RL"><p><l><s n="ref"/></l><r><s n="tv"/></r></p></e>
+      <e r="RL"><p><l><s n="ref"/></l><r><s n="iv"/></r></p></e>
+      <e><p><l><s n="ref"/></l><r><s n="ref"/></r></p></e>
     </pardef>
 
     <pardef n="allforms2tv">
       <e><p><l><s n="tv"/></l><r><s n="tv"/></r></p></e>
-      <e><p><l><s n="iv"/></l><r><s n="tv"/></r></p></e>
-      <e><p><l><s n="ref"/></l><r><s n="tv"/></r></p></e>
+      <e r="LR"><p><l><s n="iv"/></l><r><s n="tv"/></r></p></e>
+      <e r="LR"><p><l><s n="ref"/></l><r><s n="tv"/></r></p></e>
     </pardef>
 
     <pardef n="allforms2iv">
-      <e><p><l><s n="tv"/></l><r><s n="iv"/></r></p></e>
+      <e r="LR"><p><l><s n="tv"/></l><r><s n="iv"/></r></p></e>
       <e><p><l><s n="iv"/></l><r><s n="iv"/></r></p></e>
-      <e><p><l><s n="ref"/></l><r><s n="iv"/></r></p></e>
+      <e r="LR"><p><l><s n="ref"/></l><r><s n="iv"/></r></p></e>
     </pardef>
 
   </pardefs>
