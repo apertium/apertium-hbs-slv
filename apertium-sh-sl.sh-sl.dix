@@ -5283,7 +5283,7 @@
     <!-- vbhaver -> vblex ==> Added rule -->
     <e><p><l>imati<s n="vbhaver"/><s n="imperf"/></l><r>imeti<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
 
-    <e><p><l>imetak<s n="n"/><s n="mi"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="ger"/><s n="nt"/></r></p></e>
+    <!--<e><p><l>imetak<s n="n"/><s n="mi"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="ger"/><s n="nt"/></r></p></e> -->
     <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pres"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pres"/></r></p></e>
     <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pres"/></l><r>imeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="neg"/></r></p></e>
 
@@ -5321,6 +5321,7 @@
     <e><p><l>obožavati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>oboževati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>dobiti<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>dobiti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>dolaziti<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>prihajati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>slijetati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>pristajati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
 
 	<e><p><l>naelektrizirati<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>naelektriti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 	<e><p><l>izvirati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>izvirati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
@@ -5399,6 +5400,7 @@
 	<e><p><l>dahtati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>sopihati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
 	<e><p><l>derati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>dreti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
 	<e><p><l>dizati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>vzdigovati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>veli<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>povedati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 
 
 	<!-- More forms to one / one form to more -->
@@ -5676,6 +5678,7 @@
     <e><p><l>zavezivati<s n="vblex"/><s n="imperf"/></l><r>zavezati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>pokazivati<s n="vblex"/><s n="imperf"/></l><r>pokazati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>otkrivati<s n="vblex"/><s n="imperf"/></l><r>odkrivati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>veli<s n="vblex"/><s n="imperf"/></l><r>govoriti<s n="vblex"/><s n="imperf"/></r></p><par n="iv2allforms"/></e>
     <e><p><l>baratati<s n="vblex"/><s n="imperf"/></l><r>barantati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>dočekati<s n="vblex"/><s n="perf"/></l><r>dočakati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>očekivati<s n="vblex"/><s n="imperf"/></l><r>pričakovati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
@@ -6453,6 +6456,7 @@
     <e><p><l>ukazivati<s n="vblex"/><s n="imperf"/></l><r>ukazovati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>ukazivati<s n="vblex"/><s n="imperf"/></l><r>ukazovati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>uživati<s n="vblex"/><s n="imperf"/></l><r>uživati<s n="vblex"/><s n="imperf"/></r></p><par n="tv2allforms"/></e>
+    <e><p><l>bujati<s n="vblex"/><s n="imperf"/></l><r>uživati<s n="vblex"/><s n="imperf"/></r></p><par n="iv2allforms"/></e>
     <e><p><l>snivati<s n="vblex"/><s n="imperf"/></l><r>snovati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>ozdravljivati<s n="vblex"/><s n="imperf"/></l><r>ozdraviti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>oslabljivati<s n="vblex"/><s n="imperf"/></l><r>oslabiti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2iv"/></e>
