@@ -45,9 +45,6 @@
       <program name="cg-proc -w -1">
         <file name="sl-sh.rlx.bin"/>
       </program>
-      <!-- <program name="apertium-tagger -g $2"> -->
-      <!--   <file name="sl-sh.prob"/> -->
-      <!-- </program> --> 
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="sl-sh.autobil.bin"/>
@@ -67,9 +64,6 @@
       <program name="lt-proc -g">
         <file name="sl-sh_HR.autogen.bin"/>
       </program>
-      <!--program name="lt-proc -p">
-        <file name="sl-sh.autopgen.bin"/>
-      </program-->
     </pipeline>
   </mode>
 
@@ -105,8 +99,8 @@
         <file name="sl-sh_SR.autogen.bin"/>
       </program>
       <!--<program name="lt-proc -p">
-        <file name="sl-sh.autopgen.bin"/>
-      </program>-->
+	  <file name="sl-sh.autopgen.bin"/>
+	  </program>-->
     </pipeline>
   </mode>
 
@@ -410,11 +404,11 @@
       <program name="cg-proc -w -1 -n">
         <file name="sl-sh.rlx.bin"/>
       </program>
-<!--
-      <program name="cg-proc -w">
-        <file name="sl-sh.lex.bin"/>
-      </program>
--->
+      <!--
+	  <program name="cg-proc -w">
+	  <file name="sl-sh.lex.bin"/>
+	  </program>
+      -->
     </pipeline>
   </mode>
 
