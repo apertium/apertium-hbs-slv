@@ -34834,7 +34834,7 @@
     <e lm="izmučivati"><i>izmuč</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
     <e lm="ushićivati"><i>ushić</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
     <e lm="ushićivati"><i>ushić</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-    <e lm="glasovovati"><i>glasov</i><par n="imperf_iv_tr/ovati__vblex"/></e>
+    <e lm="glasovati"><i>glas</i><par n="imperf_iv_tr/ovati__vblex"/></e>
     <e lm="diskutovati"><i>diskut</i><par n="imperf_tv_tr/ovati__vblex"/></e>
     <e lm="diskutovati"><i>diskut</i><par n="imperf_iv_tr/ovati__vblex"/></e>
     <e lm="kritikovati"><i>kritik</i><par n="imperf_tv_tr/ovati__vblex"/></e>
@@ -35485,7 +35485,7 @@
     <e lm="izostaviti"><i>izostav</i><par n="perf_tv_isplov/iti__vblex"/></e>
     <e lm="pretpostaviti"><i>pretpostav</i><par n="perf_tv_isplov/iti__vblex"/></e>
     <e lm="staviti"><i>stav</i><par n="perf_tv_isplov/iti__vblex"/></e>
-    <e lm="baviti"><i>bavi</i><par n="imperf_ref_plov/iti__vblex"/></e>
+    <e lm="baviti"><i>bav</i><par n="imperf_ref_plov/iti__vblex"/></e>
     <e lm="zabaviti"><i>zabav</i><par n="perf_tv_isplov/iti__vblex"/></e>
     <e lm="zabaviti"><i>zabav</i><par n="perf_ref_isplov/iti__vblex"/></e>
     <e lm="praviti"><i>prav</i><par n="imperf_tv_plov/iti__vblex"/></e>
