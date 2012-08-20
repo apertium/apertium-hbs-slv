@@ -46715,7 +46715,6 @@
     <e lm="jezik"><i>jezi</i><par n="čajni/k__n"/></e>
     <e lm="udžbenik"><i>udžbeni</i><par n="čajni/k__n"/></e>
     <e lm="članak"><i>član</i><par n="sastan/ak__n"/></e>
-    <e lm="imetak"><i>imet</i><par n="sastan/ak__n"/></e>
     <e lm="boravak"><i>borav</i><par n="sastan/ak__n"/></e>
     <e lm="lijevak"><i>l</i><par n="e_ije__yat"/><i>v</i><par n="sastan/ak__n"/></e>
     <e lm="kapak"><i>kap</i><par n="sastan/ak__n"/></e>
@@ -51051,6 +51050,8 @@
 	<e lm="eurointegracija"><i>eurointegracij</i><par n="žen/a__n"/></e>
 	<e lm="demistifikacija"><i>demistifikacij</i><par n="žen/a__n"/></e>
 	<e lm="shodnost"><i>shodno</i><par n="ma/st__n"/></e>
+	
+	<e lm="imetak"><i>imet</i><par n="sastan/ak__n"/></e>
 	
 	Verbs
     <e lm="bogoslužiti"><i>bogosluž</i><par n="perf_tv_istraž/iti__vblex"/></e>

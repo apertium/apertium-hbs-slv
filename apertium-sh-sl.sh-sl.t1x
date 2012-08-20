@@ -870,8 +870,7 @@
 		</tags>
 		<lu>
 		  <clip pos="1" side="tl" part="lemh"/>
-		  <clip pos="1" side="tl" part="a_adv"/>
-		  <lit-tag v="sint"/> <!-- because the verb adapter removes the adv tag -->
+		  <lit-tag v="adv.sint"/> <!-- because the verb adapter removes the adv tag -->
 		</lu>
 	      </chunk>
 	    </out>
