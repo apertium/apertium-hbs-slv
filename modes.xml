@@ -6,9 +6,12 @@
       <program name="lt-proc">
         <file name="sl-sh.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="sl-sh.prob"/>
-      </program> 
+      <program name="cg-proc -w">
+        <file name="sl-sh.rlx.bin"/>
+      </program>
+      <!-- <program name="apertium-tagger -g $2"> -->
+      <!--   <file name="sl-sh.prob"/> -->
+      <!-- </program>  -->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="sl-sh.autobil.bin"/>
@@ -39,9 +42,12 @@
       <program name="lt-proc">
         <file name="sl-sh.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="sl-sh.prob"/>
-      </program> 
+      <program name="cg-proc -w">
+        <file name="sl-sh.rlx.bin"/>
+      </program>
+      <!-- <program name="apertium-tagger -g $2"> -->
+      <!--   <file name="sl-sh.prob"/> -->
+      <!-- </program> --> 
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="sl-sh.autobil.bin"/>
@@ -73,9 +79,12 @@
       <program name="lt-proc">
         <file name="sl-sh.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="sl-sh.prob"/>
-      </program> 
+      <program name="cg-proc -w">
+        <file name="sl-sh.rlx.bin"/>
+      </program>
+      <!-- <program name="apertium-tagger -g $2"> -->
+      <!--   <file name="sl-sh.prob"/> -->
+      <!-- </program>  -->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="sl-sh.autobil.bin"/>
@@ -198,6 +207,16 @@
     </pipeline>
   </mode>
 
+  <mode name="sl-sh-constraints" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sl-sh.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sl-sh.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
   <mode name="sh-sl-tagger" install="no">
     <pipeline>

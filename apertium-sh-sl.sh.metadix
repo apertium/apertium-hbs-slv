@@ -34020,6 +34020,7 @@
     <e lm="izgubiti"><i>izgub</i><par n="perf_tv_isplov/iti__vblex"/></e>
     <e lm="izgubiti"><i>izgub</i><par n="perf_iv_isplov/iti__vblex"/></e>
     <e lm="pokupiti"><i>pokup</i><par n="perf_tv_isplov/iti__vblex"/></e>
+    <e lm="sastaviti"><i>sastav</i><par n="perf_tv_isplov/iti__vblex"/></e>
     <e lm="pokupiti"><i>pokup</i><par n="perf_ref_isplov/iti__vblex"/></e>
     <e lm="ploviti"><i>plov</i><par n="imperf_iv_plov/iti__vblex"/></e>
     <e lm="loviti"><i>lov</i><par n="imperf_tv_plov/iti__vblex"/></e>

@@ -1,0 +1,184 @@
+# Authors: Hrvoje Peradin, Aleš Horvat
+# email: hperadin@gmail.com
+
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+
+SOFT-DELIMITERS = "<,>" ;
+
+# =========================================================================== #
+
+SETS
+
+LIST BOS = (>>>) ;
+LIST EOS = (<<<) ;
+
+LIST N = n np;
+LIST Noun = N;
+LIST NProp = np;
+LIST NComm = n;
+LIST A = adj ; 
+LIST V = vblex vbser vbhaver vbmod ; 
+LIST VBSer = vbser ;
+LIST VBHaver = vbhaver ;
+LIST VBMod = vbmod ;
+LIST VBLex = vblex ;
+LIST Adv = adv ; 
+LIST Num = num ;
+LIST Ord = ord ; 
+LIST Det = det ; 
+LIST Prop = np ;
+LIST Pron = prn ; 
+LIST DemPron = (prn dem) ;
+LIST PersPron = (prn pers) ;
+LIST PosPron = (prn pos) ;
+LIST IndPron = (prn ind) ;
+LIST RefPron = (prn ref) ;
+SET MeTeSePron = ("<me>" prn pers acc) | ("<te>" prn pers acc) | ("<se>" prn pers ref);
+LIST Particle = part ;
+LIST Pr = pr ; 
+LIST CS = cnjsub ;
+LIST CC = cnjcoo ;
+LIST CNJ = cnjcoo cnjsub ;
+LIST Interr = itg ;
+LIST Interjection = ij ;
+LIST Cm = (",") (cm) ;
+
+# =========================================================================== #
+
+LIST Clt = clt "clitic"; 
+LIST Lp = lp ; 
+LIST FutureI = futI ; 
+LIST FutureII = futII ; 
+LIST Infinitive = inf ; 
+LIST PassiveParticiple = pp ;
+LIST PresParticiple = pprs ;
+LIST Participle = lp opt pprs pp ;
+LIST Aorist = aor ;
+LIST Optative = opt ; 
+LIST Imperative = imp ;
+LIST Intransitive = iv ;
+LIST Transitive = tv ;
+LIST Reflexive = ref ;
+LIST Relative = rel ;
+LIST Totalising = tot ;
+LIST Imperative = imp ;
+LIST Interrogative = itg ;
+LIST Definite = def ;
+LIST Indefinite = ind ;
+
+LIST Ordinal = ord;
+
+LIST Masculine = m ma mi ;
+LIST Feminine = f ; 
+LIST Neuter = nt ; 
+
+LIST MFN = mfn ; 
+
+LIST Singular = sg ;
+LIST Plural = pl ;
+
+LIST Ant = ant ; 
+LIST Cog = cog ; 
+LIST ProperNoun = np ;
+
+# Words that have gender, number and case:
+LIST Nomen = top al ant cog n np prn adj; 
+
+# Animacy
+LIST Animate = ma ; 
+LIST Inanimate = mi ; 
+
+# Cases:
+LIST Nom = nom ; 
+LIST Gen = gen ; 
+LIST Dat = dat ; 
+LIST Acc = acc ; 
+LIST Voc = voc ;
+LIST Loc = loc ; 
+LIST Ins = ins ;
+
+# =========================================================================== #
+
+LIST GEN-PREP = "bez"i "blizu"i "čelo"i "do"i "duž"i "ispred"i "ispod"i "iz"i "iza"i "između"i "iznad"i "izvan"i "kod"i "kraj"i "mjesto"i "nakon"i "nakraj"i "nasred"i "navrh"i "niže"i "od"i "oko"i "osim"i "pokraj"i "ponad"i "poput"i "pozadi"i "pored"i "poslije"i "poviše"i "preko"i "prije"i "kasnije"i "protiv"i "put"i "radi"i "sred"i "ukraj"i "umjesto"i "uoči"i "uvrh"i "uzduž"i "van"i "više"i "vrh"i "zarad"i "zaradi"i "zbog"i "u"i "za"i "s"i "mimo"i ;
+LIST ACC-PREP = "kroz"i "niz"i "uz"i "na"i "o"i "po"i "u"i "među"i "nad"i "pod"i "pred"i "za"i; 
+LIST DAT-PREP = "k"i ;
+LIST LOC-PREP = "u"i "na"i "o"i "po"i "prema"i "pri"i;
+LIST INS-PREP = "s"i "pred"i "za"i "nad"i "pod"i "među"i;
+
+SET ACC-OR-LOC-PREP = ACC-PREP | LOC-PREP ;
+
+LIST V-COP = "biti"i ; 
+
+LIST DualNum = "dva"i "tri"i "četiri"i ; # TODO: Needs to be expanded, since every number ending in those [2,3,4 except 12,13,14] is in this class)
+SET PluralNum = Num - DualNum;
+# =========================================================================== #
+
+LIST GENDER = ma mi f nt mf mfn ;
+LIST NUMBER = sg pl sp ;
+LIST CASE = nom gen dat acc ins loc voc ;
+LIST FIN-TEMPS = pres aor pii; 
+
+# =========================================================================== #
+
+SET NOT-ACC-LOC = CASE - Acc - Loc ; 
+SET PRON-CLT = Pron + Clt ; 
+SET V-FIN = FIN-TEMPS + V ;
+
+# Common ambiguities 
+SET A-OR-ADV = A | Adv ;
+SET Gen-OR-Nom = Gen | Nom ;
+SET DemPron-OR-PersPron = DemPron | PersPron ;  
+SET ANIM-OR-INANIM = Animate | Inanimate ; 
+SET Genitive-SingularOrPlural = Gen + Singular | Gen + Plural ; 
+SET Ind-OR-Def = Definite | Indefinite ; 
+SET Num-Ord = Num - Ord ;
+
+# All possible word categories
+SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interjection | Num | ("\?") ;
+
+# Skippable stuff
+LIST Skippable = ("clitic"i) clt adv cnjcoo cnjsub cm ;
+
+# Categories that can come before the head noun in an ProperNoun 
+SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC | DemPron; 
+SET Modifier = A | Num | DemPron | PosPron | IndPron; # Words that agree in case, number, gender with the following word.
+    # (differs from PRE-N in that it always agrees with the headword)
+SET NOT-Modifier = WORD - Modifier ;
+
+SET MARK =  Cm | ("\\") | ("\;") ;
+
+SET WORDMARK = WORD | MARK ;
+
+# Categories which cannot be part of a noun phrase 
+SET NPNH = WORDMARK - PRE-N ;
+SET NPNHA = WORDMARK - PRE-N - Adv ;
+SET NOT-ADV = WORDMARK - Adv ;
+
+# Phrase member sets, and complements
+SET NP-MEMBER = PRE-N | N | Pron ;
+SET PP-MEMBER = NP-MEMBER | Pr ; 
+
+SET NOT-NP-MEMBER = WORDMARK - NP-MEMBER ; 
+SET NOT-PP-MEMBER = WORDMARK - PP-MEMBER ; 
+
+# Categories which can be the head of a noun phrase
+SET NP-HEAD = N | Pron | Prop ; 
+
+SET S-BOUNDARY = CS | Interr | (n voc) | EOS; 
+
+# =========================================================================== #
+
+SECTION
+
+# Prepositions govern cases of their phrases (probably less useful than in S-H)
+REMOVE:PrepositionCase Nomen + $$CASE (-1 Pr - $$CASE)
+
+# Modifier gender/number/case cleaning from the modified word
+REMOVE:ModifierCase Modifier + $$CASE (1 Nomen - $$CASE) # rdeči.(f.loc)/(mi.nom) avto -> rdeči.mi.nom avto
+REMOVE:ModifierCase Modifier + $$GENDER (1 Nomen - $$GENDER) # rdeči.f/mi avto -> rdeči.mi avto
+REMOVE:ModifierCase Modifier + $$NUMBER (1 Nomen - $$NUMBER) # rdeči.sg/pl avto -> rdeči.sg
+
+# Modified word gender/number/case cleaning from the modifier
+REMOVE:ModifierCase Nomen + $$CASE (-1 Modifier - $$CASE)
+REMOVE:ModifierCase Nomen + $$GENDER (-1 Modifier - $$GENDER)
+REMOVE:ModifierCase Nomen + $$NUMBER (-1 Modifier - $$NUMBER)
