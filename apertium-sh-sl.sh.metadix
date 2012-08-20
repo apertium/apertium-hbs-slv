@@ -34009,7 +34009,6 @@
     <e lm="dijeliti"><i>d</i><par n="e_ije__yat"/><i>l</i><par n="imperf_tv_gul/iti__vblex"/></e>
     <e lm="dijeliti"><i>d</i><par n="e_ije__yat"/><i>l</i><par n="imperf_iv_gul/iti__vblex"/></e>
     <e lm="opredijeliti"><i>opred</i><par n="e_ije__yat"/><i>l</i><par n="perf_ref_ogul/iti__vblex"/></e>
-    <e lm="kipiti"><i>kip</i><par n="perf_iv_isplov/iti__vblex"/></e>
     <e lm="kupiti"><i>kup</i><par n="perf_tv_isplov/iti__vblex"/></e>
     <e lm="začepiti"><i>začep</i><par n="perf_tv_isplov/iti__vblex"/></e>
     <e lm="začepiti"><i>začep</i><par n="perf_ref_isplov/iti__vblex"/></e>
@@ -34139,7 +34138,7 @@
     <e lm="povlačiti"><i>povlač</i><par n="imperf_tv_traž/iti__vblex"/></e>
     <e lm="povlačiti"><i>povlač</i><par n="imperf_ref_traž/iti__vblex"/></e>
     <e lm="živjeti"><i>živ</i><par n="imperf_iv_živ/jeti__vblex"/></e>
-
+    <e lm="kipjeti"><i>kip</i><par n="imperf_iv_živ/jeti__vblex"/></e>
     <e lm="doživjeti"><i>doživ</i><par n="perf_iv_proživ/jeti__vblex"/></e>
     <e lm="preživjeti"><i>preživ</i><par n="perf_iv_proživ/jeti__vblex"/></e>
     <e lm="ćutjeti"><i>ću</i><par n="imperf_tv_vr/tjeti__vblex"/></e>
