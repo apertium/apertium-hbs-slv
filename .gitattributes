@@ -45,7 +45,6 @@ dev/story_Pavao2_HR_original.txt -text
 dev/testvoc-summary.sh-sl.txt -text
 dev/testvoc-summary.sl-sh.txt -text
 dev/testvoc.sh -text
-/install-sh -text
 /k.sh -text
 /modes.xml -text
 /paradigm-test.sh -text

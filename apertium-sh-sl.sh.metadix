@@ -6588,9 +6588,9 @@
       <!--Aorist-->
       <e><par n="e_ije__yat"/><p><l>đ</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx_oh__vblex"/></e>
       <!--Participles-->
-      <e><par n="e_e__yat"/><par n="e_ije_right__yat"/><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ao__sfx"/></e>
+      <e><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ao__sfx"/></e>
       <e><par n="e_ije__yat"/><p><l>đen</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pp_sfx_extra__vblex"/></e>
-      <e><par n="e_e__yat"/><par n="e_ije_right__yat"/><p><l>šavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
+      <e><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>šavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
     </pardef>
     <pardef n="perf_tv_pr/ijeći__vblex"><!--Shortening of yat in lp--><!--Consonant shifts ć->đ,š-->
       <!--Infinitive-->
@@ -6602,9 +6602,9 @@
       <!--Aorist-->
       <e><par n="e_ije__yat"/><p><l>đ</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx_oh__vblex"/></e>
       <!--Participles-->
-      <e><par n="e_e__yat"/><par n="e_ije_right__yat"/><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ao__sfx"/></e>
+      <e><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ao__sfx"/></e>
       <e><par n="e_ije__yat"/><p><l>đen</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp_sfx_extra__vblex"/></e>
-      <e><par n="e_e__yat"/><par n="e_ije_right__yat"/><p><l>šavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e> <!--verbose adverbs-->
+      <e><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>šavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e> <!--verbose adverbs-->
     </pardef>
     <pardef n="perf_ref_pr/ijeći__vblex"><!--Shortening of yat in lp--><!--Consonant shifts ć->đ,š-->
       <!--Infinitive-->
@@ -6616,9 +6616,9 @@
       <!--Aorist-->
       <e><par n="e_ije__yat"/><p><l>đ</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="aor__sfx_oh__vblex"/></e>
       <!--Participles-->
-      <e><par n="e_e__yat"/><par n="e_ije_right__yat"/><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="lp_ao__sfx"/></e>
+      <e><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="lp_ao__sfx"/></e>
       <e><par n="e_ije__yat"/><p><l>đen</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="pp_sfx_extra__vblex"/></e>
-      <e><par n="e_e__yat"/><par n="e_ije_right__yat"/><p><l>šavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
+      <e><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>šavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
     </pardef>
 
     <pardef n="imperf_ref_z/vati__vblex">
