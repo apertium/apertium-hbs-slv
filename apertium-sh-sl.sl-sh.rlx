@@ -171,14 +171,15 @@ SET S-BOUNDARY = CS | Interr | (n voc) | EOS;
 SECTION
 
 # Prepositions govern cases of their phrases (probably less useful than in S-H)
-REMOVE:PrepositionCase Nomen + $$CASE (-1 Pr - $$CASE)
+REMOVE:PrepositionCase Nomen + $$CASE (-1 Pr - $$CASE) ;
 
 # Modifier gender/number/case cleaning from the modified word
-REMOVE:ModifierCase Modifier + $$CASE (1 Nomen - $$CASE) # rdeči.(f.loc)/(mi.nom) avto -> rdeči.mi.nom avto
-REMOVE:ModifierCase Modifier + $$GENDER (1 Nomen - $$GENDER) # rdeči.f/mi avto -> rdeči.mi avto
-REMOVE:ModifierCase Modifier + $$NUMBER (1 Nomen - $$NUMBER) # rdeči.sg/pl avto -> rdeči.sg
+REMOVE:ModifierCase Modifier + $$CASE (1 Nomen - $$CASE) ;# rdeči.(f.loc)/(mi.nom) avto -> rdeči.mi.nom avto
+REMOVE:ModifierCase Modifier + $$GENDER (1 Nomen - $$GENDER) ;# rdeči.f/mi avto -> rdeči.mi avto
+REMOVE:ModifierCase Modifier + $$NUMBER (1 Nomen - $$NUMBER) ;# rdeči.sg/pl avto -> rdeči.sg
 
 # Modified word gender/number/case cleaning from the modifier
-REMOVE:ModifierCase Nomen + $$CASE (-1 Modifier - $$CASE)
-REMOVE:ModifierCase Nomen + $$GENDER (-1 Modifier - $$GENDER)
-REMOVE:ModifierCase Nomen + $$NUMBER (-1 Modifier - $$NUMBER)
+REMOVE:ModifierCase Nomen + $$CASE (-1 Modifier - $$CASE) ;
+REMOVE:ModifierCase Nomen + $$GENDER (-1 Modifier - $$GENDER) ;
+REMOVE:ModifierCase Nomen + $$NUMBER (-1 Modifier - $$NUMBER) ;
+

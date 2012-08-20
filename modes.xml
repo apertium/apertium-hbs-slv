@@ -6,7 +6,7 @@
       <program name="lt-proc">
         <file name="sl-sh.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -1">
         <file name="sl-sh.rlx.bin"/>
       </program>
       <!-- <program name="apertium-tagger -g $2"> -->
@@ -42,7 +42,7 @@
       <program name="lt-proc">
         <file name="sl-sh.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -1">
         <file name="sl-sh.rlx.bin"/>
       </program>
       <!-- <program name="apertium-tagger -g $2"> -->
@@ -79,7 +79,7 @@
       <program name="lt-proc">
         <file name="sl-sh.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -1">
         <file name="sl-sh.rlx.bin"/>
       </program>
       <!-- <program name="apertium-tagger -g $2"> -->
