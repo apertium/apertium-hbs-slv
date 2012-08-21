@@ -33346,7 +33346,7 @@
     <e lm="preračunati"><i>preračun</i><par n="perf_tv_bir/ati__vblex"/></e>
     <e lm="preračunati"><i>preračun</i><par n="perf_ref_bir/ati__vblex"/></e>
     <e lm="pretpostavljati"><i>pretpostavlj</i><par n="imperf_tv_bir/ati__vblex"/></e>
-    <e lm="smješkati"><i>sm</i><par n="e_je__yat"/><i></i><par n="imperf_ref_bir/ati__vblex"/></e>
+    <e lm="smješkati"><i>sm</i><par n="e_je__yat"/><i>šk</i><par n="imperf_ref_bir/ati__vblex"/></e>
     <e lm="pričekati"><i>priček</i><par n="perf_tv_bir/ati__vblex"/></e>
     <e lm="pričinjati"><i>pričinj</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="pričinjati"><i>pričinj</i><par n="imperf_ref_bir/ati__vblex"/></e>
@@ -33928,7 +33928,7 @@
     <e lm="izbiti"><i>izbi</i><par n="imperf_tv_pi/ti__vblex"/></e>
     <e lm="odbiti"><i>odbi</i><par n="imperf_tv_pi/ti__vblex"/></e>
     <e lm="odbiti"><i>odbi</i><par n="imperf_ref_pi/ti__vblex"/></e>
-    <e lm="dobiti"><i>dobi</i><par n="imperf_tv_pi/ti__vblex"/></e>
+    <e lm="dobiti"><i>dob</i><par n="perf_tv_saš/iti__vblex"/></e>
     <e lm="kriti"><i>kr</i><par n="imperf_tv_š/iti__vblex"/></e>
     <e lm="kriti"><i>kr</i><par n="imperf_ref_š/iti__vblex"/></e>
     <e lm="otkriti"><i>otkr</i><par n="perf_ref_saš/iti__vblex"/></e>
@@ -34195,7 +34195,8 @@
     <e lm="jesti"><i>je</i><par n="imperf_tv_je/sti__vblex"/></e>
     <e lm="jesti"><i>je</i><par n="imperf_iv_je/sti__vblex"/></e>
     <e lm="jesti"><i>je</i><par n="imperf_ref_je/sti__vblex"/></e>
-    <e lm="pojesti" a="slasher"><i>poje</i><par n="imperf_ref_je/sti__vblex"/></e>
+    <e lm="pojesti"><i>poje</i><par n="perf_tv_poje/sti__vblex"/></e>
+    <e lm="pojesti"><i>poje</i><par n="perf_ref_poje/sti__vblex"/></e>
     <e lm="navesti"><i>nave</i><par n="perf_tv_poje/sti__vblex"/></e>
     <e lm="navesti"><i>nave</i><par n="perf_ref_poje/sti__vblex"/></e>
     <e lm="sprovesti"><i>sprove</i><par n="perf_tv_poje/sti__vblex"/></e>
@@ -35435,9 +35436,9 @@
     <e lm="slijediti"><i>slije</i><par n="imperf_tv_ra/diti__vblex"/></e>
     <e lm="vrijediti"><i>vrije</i><par n="imperf_iv_ra/diti__vblex"/></e>
     <e lm="dogoditi"><i>dogo</i><par n="imperf_ref_ra/diti__vblex"/></e>
-    <e lm="narediti"><i>nare</i><par n="imperf_tv_ra/diti__vblex"/></e>
+    <e lm="narediti"><i>nare</i><par n="perf_tv_izra/diti__vblex"/></e>
     <e lm="predvoditi"><i>predvo</i><par n="imperf_tv_ra/diti__vblex"/></e>
-    <e lm="presuditi"><i>presu</i><par n="imperf_iv_ra/diti__vblex"/></e>
+    <e lm="presuditi"><i>presu</i><par n="perf_iv_izra/diti__vblex"/></e>
     <e lm="potvrditi"><i>potvr</i><par n="imperf_tv_ra/diti__vblex"/></e>
     <e lm="svoditi"><i>svo</i><par n="imperf_ref_ra/diti__vblex"/></e>
     <e lm="svoditi"><i>svo</i><par n="imperf_tv_ra/diti__vblex"/></e>
@@ -35539,8 +35540,6 @@
     <e lm="zaobilaziti"><i>zaobila</i><par n="imperf_tv_vo/ziti__vblex"/></e>
     <e lm="ugroziti"><i>ugro</i><par n="imperf_tv_vo/ziti__vblex"/></e>
     <e lm="ugroziti"><i>ugro</i><par n="imperf_ref_vo/ziti__vblex"/></e>
-    <e lm="izraziti"><i>izra</i><par n="imperf_tv_vo/ziti__vblex"/></e>
-    <e lm="izraziti"><i>izra</i><par n="imperf_ref_vo/ziti__vblex"/></e>
     <e lm="sniziti"><i>sni</i><par n="perf_tv_izra/ziti__vblex"/></e>
     <e lm="sniziti"><i>sni</i><par n="perf_ref_izra/ziti__vblex"/></e>
     <e lm="pronalaziti"><i>pronala</i><par n="imperf_tv_vo/ziti__vblex"/></e>
