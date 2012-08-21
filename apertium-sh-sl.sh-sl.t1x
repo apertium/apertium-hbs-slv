@@ -1832,6 +1832,8 @@
       </pattern>
       <action>
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+	<call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
+	<call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
 	<choose>
 	  <when>
 	    <test>
