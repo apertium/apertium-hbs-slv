@@ -324,6 +324,7 @@
     <def-attr n="a_prn">
       <attr-item tags="prn"/>
       <attr-item tags="prn.neg"/>
+      <attr-item tags="prn.emph"/>
       <attr-item tags="prn.pos"/>
       <attr-item tags="prn.ind"/>
       <attr-item tags="prn.ind.neg"/>
@@ -445,7 +446,67 @@
 
   <section-def-macros>
     <!--The macro maps tags from the sh tagset to their equivalent in sl-->
+
+    <def-macro n="prn_adapter" npar="1">
+      <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
+      <call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
+      <call-macro n="clitic_m_to_mfn"><with-param pos="1"/></call-macro>
+
+      <!--Juju required for the weird pronoun differences-->
+      <choose>
+	<when>
+	  <test>
+	    <equal><clip pos="1" side ="sl" part="lem"/><lit v="free"/></equal>
+	  </test>
+	  <choose>
+	    <when>
+	      <test>
+		<and>
+		  <equal><clip pos="1" side ="sl" part="nbr"/><lit-tag v="pl"/></equal>
+		  <or>
+		    <and>
+		      <or>
+			<equal><clip pos="1" side ="sl" part="prs"/><lit-tag v="p1"/></equal>
+			<equal><clip pos="1" side ="sl" part="prs"/><lit-tag v="p2"/></equal>
+		      </or>
+		      <equal><clip pos="1" side ="sl" part="cas"/><lit-tag v="nom"/></equal>
+		    </and>
+		      <equal><clip pos="1" side ="sl" part="prs"/><lit-tag v="p3"/></equal>
+		  </or>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="1" side ="tl" part="gen"/><lit-tag v="m"/>
+	      </let>
+	    </when>
+	  </choose>
+	</when>
+	<when>
+	  <test>
+	    <equal><clip pos="1" side ="sl" part="lem"/><lit v="clitic"/></equal>
+	  </test>
+	  <choose>
+	    <when>
+	      <test>
+	      <and>
+		<equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>
+		<equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+		<equal><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.emph"/></equal>
+	      </and>
+	      </test>
+	    <let>
+	      <clip pos="1" side="tl" part="a_prn"/>
+	      <lit-tag v="prn.emph.p3"/>
+	    </let>
+	    </when>
+	  </choose>
+	</when>
+      </choose>
+      
+    </def-macro>
+
     <def-macro n="verb_adapter" npar="1">
+
       <choose>
 	<when>
 	  <test>
@@ -2610,9 +2671,7 @@
       </pattern>
       <action>
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
-	<call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
-	<call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
-	<call-macro n="clitic_m_to_mfn"><with-param pos="1"/></call-macro>
+	<call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -2630,12 +2689,13 @@
 		  <tag><lit-tag v="VB"/></tag>
 		</tags>
 		<lu>
-		  <clip pos="1" side="tl" part="lemh"/>
-		  <lit-tag v="prn.emph"/>
-		  <clip pos="1" side="tl" part="prs"/>
-		  <clip pos="1" side="tl" part="gen"/>
-		  <clip pos="1" side="tl" part="nbr"/>
-		  <clip pos="1" side="tl" part="cas"/>
+		  <clip pos="1" side="tl" part="whole"/>
+		  <!-- <clip pos="1" side="tl" part="lemh"/> -->
+		  <!-- <lit-tag v="prn.emph"/> -->
+		  <!-- <clip pos="1" side="tl" part="prs"/> -->
+		  <!-- <clip pos="1" side="tl" part="gen"/> -->
+		  <!-- <clip pos="1" side="tl" part="nbr"/> -->
+		  <!-- <clip pos="1" side="tl" part="cas"/> -->
 		</lu>
 	      </chunk>
 	    </out>
