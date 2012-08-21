@@ -7857,7 +7857,7 @@
       <!--Infinitive-->
       <e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__iv__vblex__perf"/></e>
       <!--Imperative-->
-      <e><p><l>z</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
+      <!--><e><p><l>z</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e> Commented out because SL does not have IMP form-->
       <!--Present-->
       <e><p><l>gn</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
       <!--Aorist-->
@@ -32915,7 +32915,6 @@
     <e lm="usporedo"><i>usporedo</i><par n="danas__adv"/></e>
     <e lm="uporedo"><i>uporedo</i><par n="danas__adv"/></e>
     <e lm="kasnije"><i>kasnije</i><par n="danas__adv"/></e>
-    <e lm="ubuduće"><i>ubuduće</i><par n="danas__adv"/></e>
     <e lm="nadalje"><i>nadalje</i><par n="danas__adv"/></e>
     <e lm="uglavnom"><i>uglavnom</i><par n="danas__adv"/></e>
     <e lm="baš"><i>baš</i><par n="danas__adv"/></e>
@@ -32927,7 +32926,6 @@
     <e lm="također"><i>također</i><par n="danas__adv"/></e>
     <e lm="također"><p><l>takođe</l><r>također</r></p><par n="danas__adv"/></e>
     <e lm="naravno"><i>naravno</i><par n="danas__adv"/></e>
-    <e lm="tokom"><i>tokom</i><par n="danas__adv"/></e>
     <e lm="tijekom"><i>tijekom</i><par n="danas__adv"/></e>
     <e lm="kamo"><i>kamo</i><par n="danas__adv"/></e>
     <e lm="nekamo"><i>nekamo</i><par n="danas__adv"/></e>
@@ -33036,14 +33034,11 @@
     <e lm="podjednako"><i>podjednako</i><par n="danas__adv"/></e>
     <e lm="nego"><i>nego</i><par n="danas__adv"/></e>
     <e lm="ako"><i>ako</i><par n="danas__adv"/></e>
-    <e lm="ukoliko"><i>ukoliko</i><par n="danas__adv"/></e>
     <e lm="nekoliko"><i>nekoliko</i><par n="danas__adv"/></e>
     <e lm="ponovno"><i>ponovno</i><par n="danas__adv"/></e>
     <e lm="ponovo"><i>ponovo</i><par n="danas__adv"/></e>
     <e lm="tako"><i>tako</i><par n="danas__adv"/></e>
     <e lm="godišnje"><i>godišnje</i><par n="danas__adv"/></e>
-    <e lm="izgleda"><i>izgleda</i><par n="danas__adv"/></e>
-    <e lm="po redu"><i>po<b/>redu</i><par n="danas__adv"/></e>
     <e lm="toliko"><i>toliko</i><par n="danas__adv"/></e>
     <e lm="još"><i>još</i><par n="danas__adv"/></e>
     <e lm="čak"><i>čak</i><par n="danas__adv"/></e>
@@ -33064,10 +33059,6 @@
     <e lm="trenutačno"><i>trenutačno</i><par n="danas__adv"/></e>
     <e lm="momentalno"><i>momentalno</i><par n="danas__adv"/></e>
     <e lm="odnosno"><i>odnosno</i><par n="danas__adv"/></e>
-    <e lm="online"><i>online</i><par n="danas__adv"/></e>
-    <e lm="onlajn"><i>onlajn</i><par n="danas__adv"/></e>
-    <e lm="odsto"><i>odsto</i><par n="danas__adv"/></e>
-    <e lm="posto"><i>posto</i><par n="danas__adv"/></e>
     <e lm="dokasna"><i>dokasna</i><par n="danas__adv"/></e>
     <e lm="ipak"><i>ipak</i><par n="danas__adv"/></e>
     <e lm="potpuno"><i>potpuno</i><par n="danas__adv"/></e>
@@ -33079,7 +33070,6 @@
     <e lm="između"><i>između</i><par n="danas__adv"/></e>
     <e lm="odmah"><i>odmah</i><par n="danas__adv"/></e>
     <e lm="večeras"><i>večeras</i><par n="danas__adv"/></e>
-    <e lm="uključujući"><i>uključujući</i><par n="danas__adv"/></e>
     <e lm="zapravo"><i>zapravo</i><par n="danas__adv"/></e>
     <e lm="večeras"><i>večeras</i><par n="danas__adv"/></e>
     <e lm="danju"><i>danju</i><par n="danas__adv"/></e>
@@ -33111,7 +33101,6 @@
     <e lm="koliko god"><i>koliko<b/>god</i><par n="danas__adv"/></e>
     <e lm="gdjegod"><i>gd</i><par n="e_je__yat"/><i>god</i><par n="danas__adv"/></e>
     <e lm="gdje god"><i>gd</i><par n="e_je__yat"/><i><b/>god</i><par n="danas__adv"/></e>
-    <e lm="malo-pomalo"><i>malo-pomalo</i><par n="danas__adv"/></e>
     <e lm="možda"><i>možda</i><par n="danas__adv"/></e>
     <e lm="valjda"><i>valjda</i><par n="danas__adv"/></e>
     <e lm="vrlo"><i>vrlo</i><par n="danas__adv"/></e>
@@ -33122,12 +33111,10 @@
     <e lm="uistinu"><i>uistinu</i><par n="danas__adv"/></e>
     <e lm="vaistinu"><i>vaistinu</i><par n="danas__adv"/></e>
     <e lm="odista"><i>odista</i><par n="danas__adv"/></e>
-    <e lm="nadvoje-natroje"><i>nadvoje-natroje</i><par n="danas__adv"/></e>
     <e lm="napolje"><i>napolje</i><par n="danas__adv"/></e>
     <e lm="pozadi"><i>pozadi</i><par n="danas__adv"/></e>
     <e lm="van"><i>van</i><par n="danas__adv"/></e>
     <e lm="ujedno"><i>ujedno</i><par n="danas__adv"/></e>
-    <e lm="namjesto"><i>nam</i><par n="e_je__yat"/><i>sto</i><par n="danas__adv"/></e>
     <e lm="umjesto"><i>um</i><par n="e_je__yat"/><i>sto</i><par n="danas__adv"/></e>
     <e lm="nasilu"><i>nasilu</i><par n="danas__adv"/></e>
     <e lm="uskoro"><i>uskoro</i><par n="danas__adv"/></e>
@@ -33147,7 +33134,6 @@
     <e lm="odonda"><i>odonda</i><par n="danas__adv"/></e>
     <e lm="otad"><i>otad</i><par n="danas__adv"/></e>
     <e lm="otada"><i>otada</i><par n="danas__adv"/></e>
-    <e lm="pak"><i>pak</i><par n="danas__adv"/></e>
     <e lm="pa"><i>pa</i><par n="danas__adv"/></e>
     <e lm="pješice"><i>p</i><par n="e_je__yat"/><i>šice</i><par n="danas__adv"/></e>
     <e lm="pješke"><i>p</i><par n="e_je__yat"/><i>ške</i><par n="danas__adv"/></e>
@@ -33190,7 +33176,6 @@
     <e lm="triput"><i>triput</i><par n="danas__adv"/></e>
     <e lm="tu"><i>tu</i><par n="danas__adv"/></e>
     <e lm="sutra"><i>sutra</i><par n="danas__adv"/></e>
-    <e lm="sutradan"><i>sutradan</i><par n="danas__adv"/></e>
     <e lm="često"><i>često</i><par n="danas__adv"/></e>
     <e lm="ovdje"><i>ovd</i><par n="e_je__yat"/><i/><par n="danas__adv"/></e>
     <e lm="međutim"><i>međutim</i><par n="danas__adv"/></e>
@@ -33205,7 +33190,6 @@
     <e lm="u međuvremenu"><i>u<b/>međuvremenu</i><par n="danas__adv"/></e>
     <e lm="većinom"><i>većinom</i><par n="danas__adv"/></e>
     <e lm="većim dijelom"><i>većim<b/>d</i><par n="e_ije__yat"/><i>lom</i><par n="danas__adv"/></e>
-    <e lm="više njih"><i>više<b/>njih</i><par n="danas__adv"/></e>
     <e lm="namjerno"><i>nam</i><par n="e_je__yat"/><i>rno</i><par n="danas__adv"/></e>
     <e lm="hotimično"><i>hotimično</i><par n="danas__adv"/></e>
     <e lm="inače"><i>inače</i><par n="danas__adv"/></e>
@@ -40960,11 +40944,6 @@
     <e lm="radnički"><p><l>najradnič</l><r>radnič</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="radnički"><p><l>preradnič</l><r>radnič</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="razuznavački"><i>razuznavač</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="razuznavački"><p><l>razuznavač</l><r>razuznavač</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="razuznavački"><p><l>najrazuznavač</l><r>razuznavač</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="razuznavački"><p><l>prerazuznavač</l><r>razuznavač</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="republikanski"><i>republikans</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="republikanski"><p><l>republikans</l><r>republikans</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="republikanski"><p><l>najrepublikans</l><r>republikans</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -41372,35 +41351,15 @@
     <e lm="anglikanski"><p><l>najanglikans</l><r>anglikans</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="anglikanski"><p><l>preanglikans</l><r>anglikans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="antialbanski"><i>antialbans</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="antialbanski"><p><l>antialbans</l><r>antialbans</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="antialbanski"><p><l>najantialbans</l><r>antialbans</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="antialbanski"><p><l>preantialbans</l><r>antialbans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="antiamerički"><i>antiamerič</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="antiamerički"><p><l>antiamerič</l><r>antiamerič</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="antiamerički"><p><l>najantiamerič</l><r>antiamerič</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="antiamerički"><p><l>preantiamerič</l><r>antiamerič</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="antiestonski"><i>antiestons</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="antiestonski"><p><l>antiestons</l><r>antiestons</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="antiestonski"><p><l>najantiestons</l><r>antiestons</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="antiestonski"><p><l>preantiestons</l><r>antiestons</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="antiizraelski"><i>antiizraels</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="antiizraelski"><p><l>antiizraels</l><r>antiizraels</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="antiizraelski"><p><l>najantiizraels</l><r>antiizraels</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="antiizraelski"><p><l>preantiizraels</l><r>antiizraels</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="antiimigrantski"><i>antiimigrants</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="antiimigrantski"><p><l>antiimigrants</l><r>antiimigrants</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="antiimigrantski"><p><l>najantiimigrants</l><r>antiimigrants</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="antiimigrantski"><p><l>preantiimigrants</l><r>antiimigrants</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="protuuseljenički"><i>protuuseljenič</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="protuuseljenički"><p><l>protuuseljenič</l><r>protuuseljenič</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="protuuseljenički"><p><l>najprotuuseljenič</l><r>protuuseljenič</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="protuuseljenički"><p><l>preprotuuseljenič</l><r>protuuseljenič</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="antiturski"><i>antiturs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="antiturski"><p><l>antiturs</l><r>antiturs</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -41496,16 +41455,6 @@
     <e lm="vinarski"><p><l>vinars</l><r>vinars</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="vinarski"><p><l>najvinars</l><r>vinars</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="vinarski"><p><l>previnars</l><r>vinars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="vicepremijerski"><i>vicepremijers</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="vicepremijerski"><p><l>vicepremijers</l><r>vicepremijers</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="vicepremijerski"><p><l>najvicepremijers</l><r>vicepremijers</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="vicepremijerski"><p><l>previcepremijers</l><r>vicepremijers</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="potpremijerski"><i>potpremijers</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="potpremijerski"><p><l>potpremijers</l><r>potpremijers</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="potpremijerski"><p><l>najpotpremijers</l><r>potpremijers</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="potpremijerski"><p><l>prepotpremijers</l><r>potpremijers</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="višegradski"><i>višegrads</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="višegradski"><p><l>višegrads</l><r>višegrads</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -41713,11 +41662,6 @@
     <e lm="mikenski"><p><l>najmikens</l><r>mikens</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="mikenski"><p><l>premikens</l><r>mikens</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="minejski"><i>minejs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="minejski"><p><l>minejs</l><r>minejs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="minejski"><p><l>najminejs</l><r>minejs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="minejski"><p><l>preminejs</l><r>minejs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="mongolski"><i>mongols</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="mongolski"><p><l>mongols</l><r>mongols</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="mongolski"><p><l>najmongols</l><r>mongols</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -41798,11 +41742,6 @@
     <e lm="operatorski"><p><l>najoperators</l><r>operators</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="operatorski"><p><l>preoperators</l><r>operators</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="osogovski"><i>osogovs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="osogovski"><p><l>osogovs</l><r>osogovs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="osogovski"><p><l>najosogovs</l><r>osogovs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="osogovski"><p><l>preosogovs</l><r>osogovs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="otomanski"><i>otomans</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="otomanski"><p><l>otomans</l><r>otomans</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="otomanski"><p><l>najotomans</l><r>otomans</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -41817,16 +41756,6 @@
     <e lm="panarapski"><p><l>panaraps</l><r>panaraps</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="panarapski"><p><l>najpanaraps</l><r>panaraps</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="panarapski"><p><l>prepanaraps</l><r>panaraps</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="pankiparski"><i>pankipars</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="pankiparski"><p><l>pankipars</l><r>pankipars</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="pankiparski"><p><l>najpankipars</l><r>pankipars</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="pankiparski"><p><l>prepankipars</l><r>pankipars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="panciparski"><i>pancipars</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="panciparski"><p><l>pancipars</l><r>pancipars</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="panciparski"><p><l>najpancipars</l><r>pancipars</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="panciparski"><p><l>prepancipars</l><r>pancipars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="paraolimpijski"><i>paraolimpijs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="paraolimpijski"><p><l>paraolimpijs</l><r>paraolimpijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -41893,21 +41822,10 @@
     <e lm="prokurdski"><p><l>najprokurds</l><r>prokurds</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="prokurdski"><p><l>preprokurds</l><r>prokurds</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="promakedonski"><i>promakedons</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="promakedonski"><p><l>promakedons</l><r>promakedons</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="promakedonski"><p><l>najpromakedons</l><r>promakedons</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="promakedonski"><p><l>prepromakedons</l><r>promakedons</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="radiografski"><i>radiografs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="radiografski"><p><l>radiografs</l><r>radiografs</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="radiografski"><p><l>najradiografs</l><r>radiografs</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="radiografski"><p><l>preradiografs</l><r>radiografs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-
-    <e lm="ramadanski"><i>ramadans</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="ramadanski"><p><l>ramadans</l><r>ramadans</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="ramadanski"><p><l>najramadans</l><r>ramadans</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="ramadanski"><p><l>preramadans</l><r>ramadans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="ranokršćanski"><i>ranokršćans</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="ranokršćanski"><p><l>ranokršćans</l><r>ranokršćans</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -41918,11 +41836,6 @@
     <e lm="ranohrišćanski"><p><l>ranohrišćans</l><r>ranohrišćans</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="ranohrišćanski"><p><l>najranohrišćans</l><r>ranohrišćans</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="ranohrišćanski"><p><l>preranohrišćans</l><r>ranohrišćans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="rezovski"><i>rezovs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="rezovski"><p><l>rezovs</l><r>rezovs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="rezovski"><p><l>najrezovs</l><r>rezovs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="rezovski"><p><l>prerezovs</l><r>rezovs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="ribarski"><i>ribars</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="ribarski"><p><l>ribars</l><r>ribars</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -42000,16 +41913,6 @@
     <e lm="staroslovenski"><p><l>najstaroslovens</l><r>staroslovens</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="staroslovenski"><p><l>prestaroslovens</l><r>staroslovens</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="nadministarski"><i>nadministars</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="nadministarski"><p><l>nadministars</l><r>nadministars</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="nadministarski"><p><l>najnadministars</l><r>nadministars</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="nadministarski"><p><l>prenadministars</l><r>nadministars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="telemedicinski"><i>telemedicins</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="telemedicinski"><p><l>telemedicins</l><r>telemedicins</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="telemedicinski"><p><l>najtelemedicins</l><r>telemedicins</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="telemedicinski"><p><l>pretelemedicins</l><r>telemedicins</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="tibetski"><i>tibets</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="tibetski"><p><l>tibets</l><r>tibets</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="tibetski"><p><l>najtibets</l><r>tibets</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -42030,16 +41933,6 @@
     <e lm="trakijski"><p><l>najtrakijs</l><r>trakijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="trakijski"><p><l>pretrakijs</l><r>trakijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="transilvanijski"><i>transilvanijs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="transilvanijski"><p><l>transilvanijs</l><r>transilvanijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="transilvanijski"><p><l>najtransilvanijs</l><r>transilvanijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="transilvanijski"><p><l>pretransilvanijs</l><r>transilvanijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="ultranacionalistički"><i>ultranacionalistič</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="ultranacionalistički"><p><l>ultranacionalistič</l><r>ultranacionalistič</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="ultranacionalistički"><p><l>najultranacionalistič</l><r>ultranacionalistič</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="ultranacionalistički"><p><l>preultranacionalistič</l><r>ultranacionalistič</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="fotografski"><i>fotografs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="fotografski"><p><l>fotografs</l><r>fotografs</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="fotografski"><p><l>najfotografs</l><r>fotografs</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -42049,11 +41942,6 @@
     <e lm="franjevački"><p><l>franjevač</l><r>franjevač</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="franjevački"><p><l>najfranjevač</l><r>franjevač</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="franjevački"><p><l>prefranjevač</l><r>franjevač</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="haskovski"><i>haskovs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="haskovski"><p><l>haskovs</l><r>haskovs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="haskovski"><p><l>najhaskovs</l><r>haskovs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="haskovski"><p><l>prehaskovs</l><r>haskovs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="hercegovački"><i>hercegovač</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="hercegovački"><p><l>hercegovač</l><r>hercegovač</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -42227,11 +42115,6 @@
     <e lm="antidemokratski"><p><l>najantidemokrats</l><r>antidemokrats</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="antidemokratski"><p><l>preantidemokrats</l><r>antidemokrats</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="antidiskriminacijski"><i>antidiskriminacijs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="antidiskriminacijski"><p><l>antidiskriminacijs</l><r>antidiskriminacijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="antidiskriminacijski"><p><l>najantidiskriminacijs</l><r>antidiskriminacijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="antidiskriminacijski"><p><l>preantidiskriminacijs</l><r>antidiskriminacijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="antieuropski"><i>antieurops</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="antieuropski"><p><l>antieurops</l><r>antieurops</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="antieuropski"><p><l>najantieurops</l><r>antieurops</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -42247,32 +42130,12 @@
     <e lm="antikorupcijski"><p><l>najantikorupcijs</l><r>antikorupcijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="antikorupcijski"><p><l>preantikorupcijs</l><r>antikorupcijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="antimonopolistički"><i>antimonopolistič</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="antimonopolistički"><p><l>antimonopolistič</l><r>antimonopolistič</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="antimonopolistički"><p><l>najantimonopolistič</l><r>antimonopolistič</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="antimonopolistički"><p><l>preantimonopolistič</l><r>antimonopolistič</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="antiromski"><i>antiroms</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="antiromski"><p><l>antiroms</l><r>antiroms</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="antiromski"><p><l>najantiroms</l><r>antiroms</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="antiromski"><p><l>preantiroms</l><r>antiroms</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="antisemitski"><i>antisemits</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="antisemitski"><p><l>antisemits</l><r>antisemits</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="antisemitski"><p><l>najantisemits</l><r>antisemits</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="antisemitski"><p><l>preantisemits</l><r>antisemits</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="antisrpski"><i>antisrps</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="antisrpski"><p><l>antisrps</l><r>antisrps</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="antisrpski"><p><l>najantisrps</l><r>antisrps</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="antisrpski"><p><l>preantisrps</l><r>antisrps</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="antitenkovski"><i>antitenkovs</i><par n="pridjevs/ki__pst__adj"/></e>
-
-    <e lm="anticrnogorski"><i>anticrnogors</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="anticrnogorski"><p><l>anticrnogors</l><r>anticrnogors</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="anticrnogorski"><p><l>najanticrnogors</l><r>anticrnogors</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="anticrnogorski"><p><l>preanticrnogors</l><r>anticrnogors</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="argentinski"><i>argentins</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="argentinski"><p><l>argentins</l><r>argentins</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -42319,12 +42182,6 @@
     <e lm="bankarski"><p><l>najbankars</l><r>bankars</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="bankarski"><p><l>prebankars</l><r>bankars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-
-    <e lm="bezgarancijski"><i>bezgarancijs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="bezgarancijski"><p><l>bezgarancijs</l><r>bezgarancijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="bezgarancijski"><p><l>najbezgarancijs</l><r>bezgarancijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="bezgarancijski"><p><l>prebezgarancijs</l><r>bezgarancijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="belgijski"><i>belgijs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="belgijski"><p><l>belgijs</l><r>belgijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="belgijski"><p><l>najbelgijs</l><r>belgijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -42362,11 +42219,6 @@
     <e lm="birokratski"><p><l>najbirokrats</l><r>birokrats</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="birokratski"><p><l>prebirokrats</l><r>birokrats</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="blogerski"><i>blogers</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="blogerski"><p><l>blogers</l><r>blogers</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="blogerski"><p><l>najblogers</l><r>blogers</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="blogerski"><p><l>preblogers</l><r>blogers</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="boksački"><i>boksač</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="boksački"><p><l>boksač</l><r>boksač</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="boksački"><p><l>najboksač</l><r>boksač</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -42391,11 +42243,6 @@
     <e lm="vegetarijanski"><p><l>vegetarijans</l><r>vegetarijans</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="vegetarijanski"><p><l>najvegetarijans</l><r>vegetarijans</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="vegetarijanski"><p><l>prevegetarijans</l><r>vegetarijans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="velocipedski"><i>velocipeds</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="velocipedski"><p><l>velocipeds</l><r>velocipeds</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="velocipedski"><p><l>najvelocipeds</l><r>velocipeds</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="velocipedski"><p><l>prevelocipeds</l><r>velocipeds</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="venecijanski"><i>venecijans</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="venecijanski"><p><l>venecijans</l><r>venecijans</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -42453,11 +42300,6 @@
     <e lm="genetski"><p><l>genets</l><r>genets</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="genetski"><p><l>najgenets</l><r>genets</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="genetski"><p><l>pregenets</l><r>genets</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="geoekonomski"><i>geoekonoms</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="geoekonomski"><p><l>geoekonoms</l><r>geoekonoms</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="geoekonomski"><p><l>najgeoekonoms</l><r>geoekonoms</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="geoekonomski"><p><l>pregeoekonoms</l><r>geoekonoms</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="geomagnetski"><i>geomagnets</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="geomagnetski"><p><l>geomagnets</l><r>geomagnets</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -42553,11 +42395,6 @@
     <e lm="depresijski"><p><l>depresijs</l><r>depresijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="depresijski"><p><l>najdepresijs</l><r>depresijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="depresijski"><p><l>predepresijs</l><r>depresijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="destabilizacijski"><i>destabilizacijs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="destabilizacijski"><p><l>destabilizacijs</l><r>destabilizacijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="destabilizacijski"><p><l>najdestabilizacijs</l><r>destabilizacijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="destabilizacijski"><p><l>predestabilizacijs</l><r>destabilizacijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="diverzantski"><i>diverzants</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="diverzantski"><p><l>diverzants</l><r>diverzants</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -42929,11 +42766,6 @@
     <e lm="konjski"><p><l>najkonjs</l><r>konjs</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="konjski"><p><l>prekonjs</l><r>konjs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="kreditorski"><i>kreditors</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="kreditorski"><p><l>kreditors</l><r>kreditors</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="kreditorski"><p><l>najkreditors</l><r>kreditors</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="kreditorski"><p><l>prekreditors</l><r>kreditors</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="kulinarski"><i>kulinars</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="kulinarski"><p><l>kulinars</l><r>kulinars</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="kulinarski"><p><l>najkulinars</l><r>kulinars</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -42971,11 +42803,6 @@
     <e lm="mandarinski"><p><l>najmandarins</l><r>mandarins</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="mandarinski"><p><l>premandarins</l><r>mandarins</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="maturski"><i>maturs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="maturski"><p><l>maturs</l><r>maturs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="maturski"><p><l>najmaturs</l><r>maturs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="maturski"><p><l>prematurs</l><r>maturs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="mašinski"><i>mašins</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="mašinski"><p><l>mašins</l><r>mašins</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="mašinski"><p><l>najmašins</l><r>mašins</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -43000,11 +42827,6 @@
     <e lm="mediteranski"><p><l>mediterans</l><r>mediterans</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="mediteranski"><p><l>najmediterans</l><r>mediterans</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="mediteranski"><p><l>premediterans</l><r>mediterans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="mezolitski"><i>mezolits</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="mezolitski"><p><l>mezolits</l><r>mezolits</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="mezolitski"><p><l>najmezolits</l><r>mezolits</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="mezolitski"><p><l>premezolits</l><r>mezolits</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="menadžerski"><i>menadžers</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="menadžerski"><p><l>menadžers</l><r>menadžers</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -43031,31 +42853,12 @@
     <e lm="metropolski"><p><l>najmetropols</l><r>metropols</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="metropolski"><p><l>premetropols</l><r>metropols</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-
-    <e lm="međuministerski"><i>međuministers</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="međuministerski"><p><l>međuministers</l><r>međuministers</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="međuministerski"><p><l>najmeđuministers</l><r>međuministers</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="međuministerski"><p><l>premeđuministers</l><r>međuministers</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="međustranački"><i>međustranač</i><par n="pridjevs/ki__pst__adj"/></e>
-
-    <e lm="međupartijski"><i>međupartijs</i><par n="pridjevs/ki__pst__adj"/></e>
 
     <e lm="međureligijski"><i>međureligijs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="međureligijski"><p><l>međureligijs</l><r>međureligijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="međureligijski"><p><l>najmeđureligijs</l><r>međureligijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="međureligijski"><p><l>premeđureligijs</l><r>međureligijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-
-    <e lm="međuuniverzitetski"><i>međuuniverzitets</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="međuuniverzitetski"><p><l>međuuniverzitets</l><r>međuuniverzitets</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="međuuniverzitetski"><p><l>najmeđuuniverzitets</l><r>međuuniverzitets</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="međuuniverzitetski"><p><l>premeđuuniverzitets</l><r>međuuniverzitets</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="međucivilizacijski"><i>međucivilizacijs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="međucivilizacijski"><p><l>međucivilizacijs</l><r>međucivilizacijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="međucivilizacijski"><p><l>najmeđucivilizacijs</l><r>međucivilizacijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="međucivilizacijski"><p><l>premeđucivilizacijs</l><r>međucivilizacijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="migracijski"><i>migracijs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="migracijski"><p><l>migracijs</l><r>migracijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -43067,20 +42870,10 @@
     <e lm="mikroklimatski"><p><l>najmikroklimats</l><r>mikroklimats</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="mikroklimatski"><p><l>premikroklimats</l><r>mikroklimats</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="mikrofinancijski"><i>mikrofinancijs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="mikrofinancijski"><p><l>mikrofinancijs</l><r>mikrofinancijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="mikrofinancijski"><p><l>najmikrofinancijs</l><r>mikrofinancijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="mikrofinancijski"><p><l>premikrofinancijs</l><r>mikrofinancijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="milimetarski"><i>milimetars</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="milimetarski"><p><l>milimetars</l><r>milimetars</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="milimetarski"><p><l>najmilimetars</l><r>milimetars</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="milimetarski"><p><l>premilimetars</l><r>milimetars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="miokenski"><i>miokens</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="miokenski"><p><l>miokens</l><r>miokens</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="miokenski"><p><l>najmiokens</l><r>miokens</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="miokenski"><p><l>premiokens</l><r>miokens</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="mladeški"><i>mladeš</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="mladeški"><p><l>mladeš</l><r>mladeš</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -43101,11 +42894,6 @@
     <e lm="muzejski"><p><l>muzejs</l><r>muzejs</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="muzejski"><p><l>najmuzejs</l><r>muzejs</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="muzejski"><p><l>premuzejs</l><r>muzejs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="mudžahedinski"><i>mudžahedins</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="mudžahedinski"><p><l>mudžahedins</l><r>mudžahedins</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="mudžahedinski"><p><l>najmudžahedins</l><r>mudžahedins</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="mudžahedinski"><p><l>premudžahedins</l><r>mudžahedins</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="navigacijski"><i>navigacijs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="navigacijski"><p><l>navigacijs</l><r>navigacijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -43137,16 +42925,6 @@
     <e lm="nezakonski"><p><l>najnezakons</l><r>nezakons</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="nezakonski"><p><l>prenezakons</l><r>nezakons</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="neinflatorski"><i>neinflators</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="neinflatorski"><p><l>neinflators</l><r>neinflators</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="neinflatorski"><p><l>najneinflators</l><r>neinflators</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="neinflatorski"><p><l>preneinflators</l><r>neinflators</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="neolimpijski"><i>neolimpijs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="neolimpijski"><p><l>neolimpijs</l><r>neolimpijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="neolimpijski"><p><l>najneolimpijs</l><r>neolimpijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="neolimpijski"><p><l>preneolimpijs</l><r>neolimpijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="neolitski"><i>neolits</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="neolitski"><p><l>neolits</l><r>neolits</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="neolitski"><p><l>najneolits</l><r>neolits</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -43155,11 +42933,6 @@
     <e lm="nepartijski"><i>nepartijs</i><par n="pridjevs/ki__pst__adj"/></e>
 
     <e lm="nestranački"><i>nestranač</i><par n="pridjevs/ki__pst__adj"/></e>
-
-    <e lm="nepatriotski"><i>nepatriots</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="nepatriotski"><p><l>nepatriots</l><r>nepatriots</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="nepatriotski"><p><l>najnepatriots</l><r>nepatriots</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="nepatriotski"><p><l>prenepatriots</l><r>nepatriots</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="neprijateljski"><i>neprijateljs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="neprijateljski"><p><l>neprijateljs</l><r>neprijateljs</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -43170,11 +42943,6 @@
     <e lm="nesportski"><p><l>nesports</l><r>nesports</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="nesportski"><p><l>najnesports</l><r>nesports</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="nesportski"><p><l>prenesports</l><r>nesports</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="nesrpski"><i>nesrps</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="nesrpski"><p><l>nesrps</l><r>nesrps</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="nesrpski"><p><l>najnesrps</l><r>nesrps</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="nesrpski"><p><l>prenesrps</l><r>nesrps</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="nesuštinski"><i>nesuštins</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="nesuštinski"><p><l>nesuštins</l><r>nesuštins</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -43195,11 +42963,6 @@
     <e lm="nordijski"><p><l>nordijs</l><r>nordijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="nordijski"><p><l>najnordijs</l><r>nordijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="nordijski"><p><l>prenordijs</l><r>nordijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="obvintelski"><i>obvintels</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="obvintelski"><p><l>obvintels</l><r>obvintels</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="obvintelski"><p><l>najobvintels</l><r>obvintels</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="obvintelski"><p><l>preobvintels</l><r>obvintels</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="odbojkaški"><i>odbojkaš</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="odbojkaški"><p><l>odbojkaš</l><r>odbojkaš</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -43245,16 +43008,6 @@
     <e lm="paleolitski"><p><l>paleolits</l><r>paleolits</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="paleolitski"><p><l>najpaleolits</l><r>paleolits</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="paleolitski"><p><l>prepaleolits</l><r>paleolits</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="panalbanski"><i>panalbans</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="panalbanski"><p><l>panalbans</l><r>panalbans</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="panalbanski"><p><l>najpanalbans</l><r>panalbans</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="panalbanski"><p><l>prepanalbans</l><r>panalbans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="paneuropski"><i>paneurops</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="paneuropski"><p><l>paneurops</l><r>paneurops</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="paneuropski"><p><l>najpaneurops</l><r>paneurops</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="paneuropski"><p><l>prepaneurops</l><r>paneurops</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="panevropski"><i>panevrops</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="panevropski"><p><l>panevrops</l><r>panevrops</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -43332,11 +43085,6 @@
     <e lm="poluavtomatski"><p><l>najpoluavtomats</l><r>poluavtomats</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="poluavtomatski"><p><l>prepoluavtomats</l><r>poluavtomats</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="postbizantski"><i>postbizants</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="postbizantski"><p><l>postbizants</l><r>postbizants</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="postbizantski"><p><l>najpostbizants</l><r>postbizants</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="postbizantski"><p><l>prepostbizants</l><r>postbizants</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="postdiplomski"><i>postdiploms</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="postdiplomski"><p><l>postdiploms</l><r>postdiploms</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="postdiplomski"><p><l>najpostdiploms</l><r>postdiploms</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -43347,11 +43095,6 @@
     <e lm="posttraumatski"><p><l>najposttraumats</l><r>posttraumats</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="posttraumatski"><p><l>preposttraumats</l><r>posttraumats</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="poštenski"><i>poštens</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="poštenski"><p><l>poštens</l><r>poštens</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="poštenski"><p><l>najpoštens</l><r>poštens</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="poštenski"><p><l>prepoštens</l><r>poštens</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="praistorijski"><i>praistorijs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="praistorijski"><p><l>praistorijs</l><r>praistorijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="praistorijski"><p><l>najpraistorijs</l><r>praistorijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -43361,11 +43104,6 @@
     <e lm="prahistorijski"><p><l>prahistorijs</l><r>prahistorijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="prahistorijski"><p><l>najprahistorijs</l><r>prahistorijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="prahistorijski"><p><l>preprahistorijs</l><r>prahistorijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="predkoalicijski"><i>predkoalicijs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="predkoalicijski"><p><l>predkoalicijs</l><r>predkoalicijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="predkoalicijski"><p><l>najpredkoalicijs</l><r>predkoalicijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="predkoalicijski"><p><l>prepredkoalicijs</l><r>predkoalicijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
 
     <e lm="prekooceanski"><i>prekooceans</i><par n="pridjevs/ki__pst__adj"/></e>
@@ -43423,16 +43161,6 @@
     <e lm="proevropski"><p><l>najproevrops</l><r>proevrops</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="proevropski"><p><l>preproevrops</l><r>proevrops</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="prokosovski"><i>prokosovs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="prokosovski"><p><l>prokosovs</l><r>prokosovs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="prokosovski"><p><l>najprokosovs</l><r>prokosovs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="prokosovski"><p><l>preprokosovs</l><r>prokosovs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="prokurdistanski"><i>prokurdistans</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="prokurdistanski"><p><l>prokurdistans</l><r>prokurdistans</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="prokurdistanski"><p><l>najprokurdistans</l><r>prokurdistans</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="prokurdistanski"><p><l>preprokurdistans</l><r>prokurdistans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="proreformski"><i>proreforms</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="proreformski"><p><l>proreforms</l><r>proreforms</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="proreformski"><p><l>najproreforms</l><r>proreforms</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -43460,11 +43188,6 @@
     <e lm="psihosomatski"><p><l>psihosomats</l><r>psihosomats</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="psihosomatski"><p><l>najpsihosomats</l><r>psihosomats</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="psihosomatski"><p><l>prepsihosomats</l><r>psihosomats</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="psihotronski"><i>psihotrons</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="psihotronski"><p><l>psihotrons</l><r>psihotrons</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="psihotronski"><p><l>najpsihotrons</l><r>psihotrons</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="psihotronski"><p><l>prepsihotrons</l><r>psihotrons</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="radarski"><i>radars</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="radarski"><p><l>radars</l><r>radars</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -43741,11 +43464,6 @@
     <e lm="transatlanski"><p><l>najtransatlans</l><r>transatlans</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="transatlanski"><p><l>pretransatlans</l><r>transatlans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="transilvanijski"><i>transilvanijs</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="transilvanijski"><p><l>transilvanijs</l><r>transilvanijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="transilvanijski"><p><l>najtransilvanijs</l><r>transilvanijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="transilvanijski"><p><l>pretransilvanijs</l><r>transilvanijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
     <e lm="transmiterski"><i>transmiters</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="transmiterski"><p><l>transmiters</l><r>transmiters</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="transmiterski"><p><l>najtransmiters</l><r>transmiters</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -43755,8 +43473,6 @@
     <e lm="odašiljački"><p><l>odašiljač</l><r>odašiljač</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="odašiljački"><p><l>najodašiljač</l><r>odašiljač</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="odašiljački"><p><l>preodašiljač</l><r>odašiljač</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="tropartijski"><i>tropartijs</i><par n="pridjevs/ki__pst__adj"/></e>
 
     <e lm="trostranački"><i>trostranač</i><par n="pridjevs/ki__pst__adj"/></e>
 
@@ -43901,16 +43617,6 @@
     <e lm="srednjeazijski"><p><l>srednjeazijs</l><r>srednjeazijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="srednjeazijski"><p><l>najsrednjeazijs</l><r>srednjeazijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="srednjeazijski"><p><l>presrednjeazijs</l><r>srednjeazijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="centralnodesničarski"><i>centralnodesničars</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="centralnodesničarski"><p><l>centralnodesničars</l><r>centralnodesničars</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="centralnodesničarski"><p><l>najcentralnodesničars</l><r>centralnodesničars</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="centralnodesničarski"><p><l>precentralnodesničars</l><r>centralnodesničars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
-
-    <e lm="srednjedesničarski"><i>srednjedesničars</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="srednjedesničarski"><p><l>srednjedesničars</l><r>srednjedesničars</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="srednjedesničarski"><p><l>najsrednjedesničars</l><r>srednjedesničars</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="srednjedesničarski"><p><l>presrednjedesničars</l><r>srednjedesničars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="centralnoevropski"><i>centralnoevrops</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="centralnoevropski"><p><l>centralnoevrops</l><r>centralnoevrops</r></p><par n="pridjevs/ki__comp__adj"/></e>
@@ -51170,6 +50876,305 @@
     <e lm="odgledati"><i>odgled</i><par n="perf_tv_bir/ati__vblex"/></e>
     <e lm="obuhvatati"><i>obuhvat</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="isposlovati"><i>isposl</i><par n="perf_tv_tr/ovati__vblex"/></e>
+
+
+	Adverbs	
+    <e lm="odsto"><i>odsto</i><par n="danas__adv"/></e>
+    <e lm="posto"><i>posto</i><par n="danas__adv"/></e>
+    <e lm="onlajn"><i>onlajn</i><par n="danas__adv"/></e>
+    <e lm="online"><i>online</i><par n="danas__adv"/></e>
+    <e lm="izgleda"><i>izgleda</i><par n="danas__adv"/></e>
+    <e lm="po redu"><i>po<b/>redu</i><par n="danas__adv"/></e>
+    <e lm="ukoliko"><i>ukoliko</i><par n="danas__adv"/></e>
+    <e lm="tokom"><i>tokom</i><par n="danas__adv"/></e>
+    <e lm="ubuduće"><i>ubuduće</i><par n="danas__adv"/></e>
+    <e lm="uključujući"><i>uključujući</i><par n="danas__adv"/></e>
+    <e lm="malo-pomalo"><i>malo-pomalo</i><par n="danas__adv"/></e>
+    <e lm="nadvoje-natroje"><i>nadvoje-natroje</i><par n="danas__adv"/></e>
+    <e lm="namjesto"><i>nam</i><par n="e_je__yat"/><i>sto</i><par n="danas__adv"/></e>
+    <e lm="pak"><i>pak</i><par n="danas__adv"/></e>
+    <e lm="sutradan"><i>sutradan</i><par n="danas__adv"/></e>
+    <e lm="više njih"><i>više<b/>njih</i><par n="danas__adv"/></e>
+
+
+	Adjectives
+	<e lm="srednjedesničarski"><i>srednjedesničars</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="srednjedesničarski"><p><l>srednjedesničars</l><r>srednjedesničars</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="srednjedesničarski"><p><l>najsrednjedesničars</l><r>srednjedesničars</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="srednjedesničarski"><p><l>presrednjedesničars</l><r>srednjedesničars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+	
+    <e lm="centralnodesničarski"><i>centralnodesničars</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="centralnodesničarski"><p><l>centralnodesničars</l><r>centralnodesničars</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="centralnodesničarski"><p><l>najcentralnodesničars</l><r>centralnodesničars</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="centralnodesničarski"><p><l>precentralnodesničars</l><r>centralnodesničars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="tropartijski"><i>tropartijs</i><par n="pridjevs/ki__pst__adj"/></e>
+
+    <e lm="transilvanijski"><i>transilvanijs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="transilvanijski"><p><l>transilvanijs</l><r>transilvanijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="transilvanijski"><p><l>najtransilvanijs</l><r>transilvanijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="transilvanijski"><p><l>pretransilvanijs</l><r>transilvanijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="psihotronski"><i>psihotrons</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="psihotronski"><p><l>psihotrons</l><r>psihotrons</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="psihotronski"><p><l>najpsihotrons</l><r>psihotrons</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="psihotronski"><p><l>prepsihotrons</l><r>psihotrons</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="prokurdistanski"><i>prokurdistans</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="prokurdistanski"><p><l>prokurdistans</l><r>prokurdistans</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="prokurdistanski"><p><l>najprokurdistans</l><r>prokurdistans</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="prokurdistanski"><p><l>preprokurdistans</l><r>prokurdistans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="prokosovski"><i>prokosovs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="prokosovski"><p><l>prokosovs</l><r>prokosovs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="prokosovski"><p><l>najprokosovs</l><r>prokosovs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="prokosovski"><p><l>preprokosovs</l><r>prokosovs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="predkoalicijski"><i>predkoalicijs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="predkoalicijski"><p><l>predkoalicijs</l><r>predkoalicijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="predkoalicijski"><p><l>najpredkoalicijs</l><r>predkoalicijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="predkoalicijski"><p><l>prepredkoalicijs</l><r>predkoalicijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="poštenski"><i>poštens</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="poštenski"><p><l>poštens</l><r>poštens</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="poštenski"><p><l>najpoštens</l><r>poštens</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="poštenski"><p><l>prepoštens</l><r>poštens</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="postbizantski"><i>postbizants</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="postbizantski"><p><l>postbizants</l><r>postbizants</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="postbizantski"><p><l>najpostbizants</l><r>postbizants</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="postbizantski"><p><l>prepostbizants</l><r>postbizants</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="paneuropski"><i>paneurops</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="paneuropski"><p><l>paneurops</l><r>paneurops</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="paneuropski"><p><l>najpaneurops</l><r>paneurops</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="paneuropski"><p><l>prepaneurops</l><r>paneurops</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="panalbanski"><i>panalbans</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="panalbanski"><p><l>panalbans</l><r>panalbans</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="panalbanski"><p><l>najpanalbans</l><r>panalbans</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="panalbanski"><p><l>prepanalbans</l><r>panalbans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="obvintelski"><i>obvintels</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="obvintelski"><p><l>obvintels</l><r>obvintels</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="obvintelski"><p><l>najobvintels</l><r>obvintels</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="obvintelski"><p><l>preobvintels</l><r>obvintels</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="nesrpski"><i>nesrps</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="nesrpski"><p><l>nesrps</l><r>nesrps</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="nesrpski"><p><l>najnesrps</l><r>nesrps</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="nesrpski"><p><l>prenesrps</l><r>nesrps</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="nepatriotski"><i>nepatriots</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="nepatriotski"><p><l>nepatriots</l><r>nepatriots</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="nepatriotski"><p><l>najnepatriots</l><r>nepatriots</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="nepatriotski"><p><l>prenepatriots</l><r>nepatriots</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="neolimpijski"><i>neolimpijs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="neolimpijski"><p><l>neolimpijs</l><r>neolimpijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="neolimpijski"><p><l>najneolimpijs</l><r>neolimpijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="neolimpijski"><p><l>preneolimpijs</l><r>neolimpijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="neinflatorski"><i>neinflators</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="neinflatorski"><p><l>neinflators</l><r>neinflators</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="neinflatorski"><p><l>najneinflators</l><r>neinflators</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="neinflatorski"><p><l>preneinflators</l><r>neinflators</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="mudžahedinski"><i>mudžahedins</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="mudžahedinski"><p><l>mudžahedins</l><r>mudžahedins</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="mudžahedinski"><p><l>najmudžahedins</l><r>mudžahedins</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="mudžahedinski"><p><l>premudžahedins</l><r>mudžahedins</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="miokenski"><i>miokens</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="miokenski"><p><l>miokens</l><r>miokens</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="miokenski"><p><l>najmiokens</l><r>miokens</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="miokenski"><p><l>premiokens</l><r>miokens</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="mikrofinancijski"><i>mikrofinancijs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="mikrofinancijski"><p><l>mikrofinancijs</l><r>mikrofinancijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="mikrofinancijski"><p><l>najmikrofinancijs</l><r>mikrofinancijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="mikrofinancijski"><p><l>premikrofinancijs</l><r>mikrofinancijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="međucivilizacijski"><i>međucivilizacijs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="međucivilizacijski"><p><l>međucivilizacijs</l><r>međucivilizacijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="međucivilizacijski"><p><l>najmeđucivilizacijs</l><r>međucivilizacijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="međucivilizacijski"><p><l>premeđucivilizacijs</l><r>međucivilizacijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="međuuniverzitetski"><i>međuuniverzitets</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="međuuniverzitetski"><p><l>međuuniverzitets</l><r>međuuniverzitets</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="međuuniverzitetski"><p><l>najmeđuuniverzitets</l><r>međuuniverzitets</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="međuuniverzitetski"><p><l>premeđuuniverzitets</l><r>međuuniverzitets</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="međupartijski"><i>međupartijs</i><par n="pridjevs/ki__pst__adj"/></e>
+
+    <e lm="međuministerski"><i>međuministers</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="međuministerski"><p><l>međuministers</l><r>međuministers</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="međuministerski"><p><l>najmeđuministers</l><r>međuministers</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="međuministerski"><p><l>premeđuministers</l><r>međuministers</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="mezolitski"><i>mezolits</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="mezolitski"><p><l>mezolits</l><r>mezolits</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="mezolitski"><p><l>najmezolits</l><r>mezolits</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="mezolitski"><p><l>premezolits</l><r>mezolits</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="maturski"><i>maturs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="maturski"><p><l>maturs</l><r>maturs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="maturski"><p><l>najmaturs</l><r>maturs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="maturski"><p><l>prematurs</l><r>maturs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="kreditorski"><i>kreditors</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="kreditorski"><p><l>kreditors</l><r>kreditors</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="kreditorski"><p><l>najkreditors</l><r>kreditors</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="kreditorski"><p><l>prekreditors</l><r>kreditors</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="destabilizacijski"><i>destabilizacijs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="destabilizacijski"><p><l>destabilizacijs</l><r>destabilizacijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="destabilizacijski"><p><l>najdestabilizacijs</l><r>destabilizacijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="destabilizacijski"><p><l>predestabilizacijs</l><r>destabilizacijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="geoekonomski"><i>geoekonoms</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="geoekonomski"><p><l>geoekonoms</l><r>geoekonoms</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="geoekonomski"><p><l>najgeoekonoms</l><r>geoekonoms</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="geoekonomski"><p><l>pregeoekonoms</l><r>geoekonoms</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="velocipedski"><i>velocipeds</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="velocipedski"><p><l>velocipeds</l><r>velocipeds</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="velocipedski"><p><l>najvelocipeds</l><r>velocipeds</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="velocipedski"><p><l>prevelocipeds</l><r>velocipeds</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="blogerski"><i>blogers</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="blogerski"><p><l>blogers</l><r>blogers</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="blogerski"><p><l>najblogers</l><r>blogers</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="blogerski"><p><l>preblogers</l><r>blogers</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="bezgarancijski"><i>bezgarancijs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="bezgarancijski"><p><l>bezgarancijs</l><r>bezgarancijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="bezgarancijski"><p><l>najbezgarancijs</l><r>bezgarancijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="bezgarancijski"><p><l>prebezgarancijs</l><r>bezgarancijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="anticrnogorski"><i>anticrnogors</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="anticrnogorski"><p><l>anticrnogors</l><r>anticrnogors</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="anticrnogorski"><p><l>najanticrnogors</l><r>anticrnogors</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="anticrnogorski"><p><l>preanticrnogors</l><r>anticrnogors</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="antisrpski"><i>antisrps</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="antisrpski"><p><l>antisrps</l><r>antisrps</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="antisrpski"><p><l>najantisrps</l><r>antisrps</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="antisrpski"><p><l>preantisrps</l><r>antisrps</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="antiromski"><i>antiroms</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="antiromski"><p><l>antiroms</l><r>antiroms</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="antiromski"><p><l>najantiroms</l><r>antiroms</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="antiromski"><p><l>preantiroms</l><r>antiroms</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="antimonopolistički"><i>antimonopolistič</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="antimonopolistički"><p><l>antimonopolistič</l><r>antimonopolistič</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="antimonopolistički"><p><l>najantimonopolistič</l><r>antimonopolistič</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="antimonopolistički"><p><l>preantimonopolistič</l><r>antimonopolistič</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="antidiskriminacijski"><i>antidiskriminacijs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="antidiskriminacijski"><p><l>antidiskriminacijs</l><r>antidiskriminacijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="antidiskriminacijski"><p><l>najantidiskriminacijs</l><r>antidiskriminacijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="antidiskriminacijski"><p><l>preantidiskriminacijs</l><r>antidiskriminacijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="haskovski"><i>haskovs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="haskovski"><p><l>haskovs</l><r>haskovs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="haskovski"><p><l>najhaskovs</l><r>haskovs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="haskovski"><p><l>prehaskovs</l><r>haskovs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="ultranacionalistički"><i>ultranacionalistič</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="ultranacionalistički"><p><l>ultranacionalistič</l><r>ultranacionalistič</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="ultranacionalistički"><p><l>najultranacionalistič</l><r>ultranacionalistič</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="ultranacionalistički"><p><l>preultranacionalistič</l><r>ultranacionalistič</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="transilvanijski"><i>transilvanijs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="transilvanijski"><p><l>transilvanijs</l><r>transilvanijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="transilvanijski"><p><l>najtransilvanijs</l><r>transilvanijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="transilvanijski"><p><l>pretransilvanijs</l><r>transilvanijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="telemedicinski"><i>telemedicins</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="telemedicinski"><p><l>telemedicins</l><r>telemedicins</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="telemedicinski"><p><l>najtelemedicins</l><r>telemedicins</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="telemedicinski"><p><l>pretelemedicins</l><r>telemedicins</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="nadministarski"><i>nadministars</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="nadministarski"><p><l>nadministars</l><r>nadministars</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="nadministarski"><p><l>najnadministars</l><r>nadministars</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="nadministarski"><p><l>prenadministars</l><r>nadministars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="rezovski"><i>rezovs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="rezovski"><p><l>rezovs</l><r>rezovs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="rezovski"><p><l>najrezovs</l><r>rezovs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="rezovski"><p><l>prerezovs</l><r>rezovs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="ramadanski"><i>ramadans</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="ramadanski"><p><l>ramadans</l><r>ramadans</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="ramadanski"><p><l>najramadans</l><r>ramadans</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="ramadanski"><p><l>preramadans</l><r>ramadans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="promakedonski"><i>promakedons</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="promakedonski"><p><l>promakedons</l><r>promakedons</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="promakedonski"><p><l>najpromakedons</l><r>promakedons</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="promakedonski"><p><l>prepromakedons</l><r>promakedons</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="panciparski"><i>pancipars</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="panciparski"><p><l>pancipars</l><r>pancipars</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="panciparski"><p><l>najpancipars</l><r>pancipars</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="panciparski"><p><l>prepancipars</l><r>pancipars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="pankiparski"><i>pankipars</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="pankiparski"><p><l>pankipars</l><r>pankipars</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="pankiparski"><p><l>najpankipars</l><r>pankipars</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="pankiparski"><p><l>prepankipars</l><r>pankipars</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="osogovski"><i>osogovs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="osogovski"><p><l>osogovs</l><r>osogovs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="osogovski"><p><l>najosogovs</l><r>osogovs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="osogovski"><p><l>preosogovs</l><r>osogovs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="minejski"><i>minejs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="minejski"><p><l>minejs</l><r>minejs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="minejski"><p><l>najminejs</l><r>minejs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="minejski"><p><l>preminejs</l><r>minejs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="potpremijerski"><i>potpremijers</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="potpremijerski"><p><l>potpremijers</l><r>potpremijers</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="potpremijerski"><p><l>najpotpremijers</l><r>potpremijers</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="potpremijerski"><p><l>prepotpremijers</l><r>potpremijers</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="vicepremijerski"><i>vicepremijers</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="vicepremijerski"><p><l>vicepremijers</l><r>vicepremijers</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="vicepremijerski"><p><l>najvicepremijers</l><r>vicepremijers</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="vicepremijerski"><p><l>previcepremijers</l><r>vicepremijers</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="protuuseljenički"><i>protuuseljenič</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="protuuseljenički"><p><l>protuuseljenič</l><r>protuuseljenič</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="protuuseljenički"><p><l>najprotuuseljenič</l><r>protuuseljenič</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="protuuseljenički"><p><l>preprotuuseljenič</l><r>protuuseljenič</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="antiimigrantski"><i>antiimigrants</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="antiimigrantski"><p><l>antiimigrants</l><r>antiimigrants</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="antiimigrantski"><p><l>najantiimigrants</l><r>antiimigrants</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="antiimigrantski"><p><l>preantiimigrants</l><r>antiimigrants</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="antiestonski"><i>antiestons</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="antiestonski"><p><l>antiestons</l><r>antiestons</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="antiestonski"><p><l>najantiestons</l><r>antiestons</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="antiestonski"><p><l>preantiestons</l><r>antiestons</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="antialbanski"><i>antialbans</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="antialbanski"><p><l>antialbans</l><r>antialbans</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="antialbanski"><p><l>najantialbans</l><r>antialbans</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="antialbanski"><p><l>preantialbans</l><r>antialbans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+    <e lm="razuznavački"><i>razuznavač</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="razuznavački"><p><l>razuznavač</l><r>razuznavač</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="razuznavački"><p><l>najrazuznavač</l><r>razuznavač</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="razuznavački"><p><l>prerazuznavač</l><r>razuznavač</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+
+
+
 
     -->
   </section>

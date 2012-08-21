@@ -467,7 +467,20 @@
 	  </concat>
 	  </let>
 	</when>
-      </choose>
+	<when>
+	  <test>
+	      <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></equal>
+	  </test>          
+	  <let><clip pos="1" side="tl" part="whole"/><concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_adj"/>
+	  <clip pos="1" side="tl" part="gen"/>
+	  <clip pos="1" side="tl" part="num"/>
+	  <clip pos="1" side="tl" part="cas"/>
+	  <clip pos="1" side="tl" part="def"/>
+	</concat></let>
+	</when>
+    <otherwise>
       <let><!--For multiwords verbs-->
 	<clip pos="1" side="tl" part="whole"/>
 	<concat>
@@ -482,7 +495,9 @@
 	  <clip pos="1" side="tl" part="lemq"/>
 	</concat>
       </let>
-    </def-macro>
+	</otherwise>
+	</choose>
+	</def-macro>
 
     <def-macro n="nom_adapter" npar="1">
       <let><clip pos="1" side="tl" part="whole"/>
