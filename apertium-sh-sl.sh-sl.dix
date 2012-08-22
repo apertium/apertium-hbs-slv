@@ -187,6 +187,7 @@
     <pardef n="sgpl_sg">
       <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="pl"/></l><r><s n="du"/></r></p></e>
     </pardef>
 
     <pardef n="pl_dupl">
@@ -198,6 +199,7 @@
       <e r="LR"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
       <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
       <e r="RL"><p><l><s n="ND"/></l><r><s n="pl"/></r></p></e>
+
     </pardef>
 
     <pardef n="pl_sgpl">
@@ -7563,7 +7565,7 @@
     <e><p><l>rukavica<s n="n"/><s n="f"/></l><r>rokavica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tematika<s n="n"/><s n="f"/></l><r>tematika<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pokretač<s n="n"/><s n="ma"/></l><r>pobudnik<s n="n"/><s n="ma"/></r></p></e>
-    <e><p><l>izrod<s n="n"/><s n="mi"/></l><r>zaploditev<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>izrod<s n="n"/><s n="mi"/></l><r>zaploditev<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>jarac<s n="n"/><s n="ma"/></l><r>kozel<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>orao<s n="n"/><s n="ma"/></l><r>orel<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>magarac<s n="n"/><s n="ma"/></l><r>osel<s n="n"/><s n="ma"/></r></p></e>
@@ -7573,7 +7575,7 @@
     <e><p><l>brojač<s n="n"/><s n="mi"/></l><r>števec<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>kanta<s n="n"/><s n="f"/></l><r>zaboj<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>kanta<s n="n"/><s n="f"/></l><r>škaf<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>orao<s n="n"/><s n="ma"/></l><r>oral<s n="n"/><s n="ma"/></r></p></e>
+    <!-- <e><p><l>orao<s n="n"/><s n="ma"/></l><r>orel<s n="n"/><s n="ma"/></r></p></e> -->
     <e><p><l>porez<s n="n"/><s n="mi"/></l><r>davek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>izrod<s n="n"/><s n="mi"/></l><r>izrodek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>naglasak<s n="n"/><s n="mi"/></l><r>poudarek<s n="n"/><s n="mi"/></r></p></e>
@@ -7731,6 +7733,7 @@
     <e><p><l>fakultet<s n="n"/><s n="mi"/></l><r>šola<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>muškarac<s n="n"/><s n="ma"/></l><r>moški<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>prosinac<s n="n"/><s n="mi"/></l><r>december<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>slovenac<s n="n"/><s n="ma"/></l><r>slovenec<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>novac<s n="n"/><s n="mi"/></l><r>denar<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>talac<s n="n"/><s n="ma"/></l><r>talec<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>život<s n="n"/><s n="mi"/></l><r>življenje<s n="n"/><s n="nt"/></r></p></e>
@@ -8105,7 +8108,8 @@
     <e><p><l>azbuka<s n="n"/><s n="f"/></l><r>abeceda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>brojka<s n="n"/><s n="f"/></l><r>številka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>buka<s n="n"/><s n="f"/></l><r>hrup<s n="n"/><s n="mi"/></r></p></e>
-    <e r="LR"><p><l>kandidatkinja<s n="n"/><s n="f"/></l><r>kandidat<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>kandidat<s n="n"/><s n="ma"/></l><r>kandidat<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>kandidatkinja<s n="n"/><s n="f"/></l><r>kandidat<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ministrica<s n="n"/><s n="f"/></l><r>minister<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>muzika<s n="n"/><s n="f"/></l><r>glasba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>glazba<s n="n"/><s n="f"/></l><r>glasba<s n="n"/><s n="f"/></r></p></e>
@@ -8148,7 +8152,6 @@
     <e><p><l>kutija<s n="n"/><s n="f"/></l><r>škatla<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>naprava<s n="n"/><s n="f"/></l><r>naprava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cjelina<s n="n"/><s n="f"/></l><r>celota<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>pilotkinja<s n="n"/><s n="f"/></l><r>pilot<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>klasa<s n="n"/><s n="f"/></l><r>razred<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>brzina<s n="n"/><s n="f"/></l><r>hitrost<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>kadetkinja<s n="n"/><s n="f"/></l><r>kadet<s n="n"/><s n="ma"/></r></p></e>
@@ -8705,6 +8708,7 @@
     <e><p><l>admiral<s n="n"/><s n="ma"/></l><r>admiral<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>partner<s n="n"/><s n="ma"/></l><r>partner<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>pilot<s n="n"/><s n="ma"/></l><r>pilot<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>pilotkinja<s n="n"/><s n="f"/></l><r>pilot<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>brat<s n="n"/><s n="ma"/></l><r>brat<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>demokrat<s n="n"/><s n="ma"/></l><r>demokrat<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>kandidat<s n="n"/><s n="ma"/></l><r>kandidat<s n="n"/><s n="ma"/></r></p></e>
@@ -8939,6 +8943,7 @@
     <e><p><l>sistem<s n="n"/><s n="mi"/></l><r>sistem<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>rep<s n="n"/><s n="mi"/></l><r>rep<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>duh<s n="n"/><s n="ma"/></l><r>duh<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>duh<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></l><r>duh<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
     <e><p><l>akropola<s n="n"/><s n="f"/></l><r>akropola<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tane<s n="n"/><s n="nt"/></l><r>krogla<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dno<s n="n"/><s n="nt"/></l><r>dno<s n="n"/><s n="nt"/></r></p></e>
@@ -9577,8 +9582,11 @@
     <e><p><l>smještaj<s n="n"/><s n="mi"/></l><r>nastanitev<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>utjecaj<s n="n"/><s n="mi"/></l><r>vpliv<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>protumjera<s n="n"/><s n="f"/></l><r>protiukrep<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>restartovanje<s n="n"/><s n="nt"/></l><r>vžig<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>vikend<s n="n"/><s n="mi"/></l><r>vikend<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>protumjera<s n="n"/><s n="f"/></l><r>protiukrep<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>restartovanje<s n="n"/><s n="nt"/></l><r>vžig<s n="n"/><s n="mi"/></r></p></e>
+    <e r="RL"><p><l>restartovanje<s n="n"/><s n="nt"/></l><r>vžig<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vikend<s n="n"/><s n="mi"/></l><r>vikend<s n="n"/><s n="mi"/></r></p></e>
+    <e r="RL"><p><l>vikend<s n="n"/><s n="mi"/></l><r>vikend<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bataljon<s n="n"/><s n="mi"/></l><r>bataljon<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kontekst<s n="n"/><s n="mi"/></l><r>kontekst<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>koridor<s n="n"/><s n="mi"/></l><r>koridor<s n="n"/><s n="mi"/></r></p></e>
@@ -9890,13 +9898,13 @@
     <e><p><l>vunarstvo<s n="n"/><s n="nt"/></l><r>volna<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>zlato<s n="n"/><s n="nt"/></l><r>zlato<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>konzorcijum<s n="n"/><s n="mi"/></l><r>konzorcij<s n="n"/><s n="mi"/></r></p><par n="sgpl_pl"/></e>
-    <e><p><l>konzorcijum<s n="n"/><s n="mi"/></l><r>konzorcij<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
+    <e r="RL"><p><l>konzorcijum<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>konzorcij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p><par n="sgpl_pl"/></e>
     <e><p><l>obzir<s n="n"/><s n="mi"/></l><r>obzir<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>amaterizam<s n="n"/><s n="mi"/></l><r>amaterstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>mormonizam<s n="n"/><s n="mi"/></l><r>mormonizem<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>protestantizam<s n="n"/><s n="mi"/></l><r>protestantizem<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>scenario<s n="n"/><s n="mi"/></l><r>scenarij<s n="n"/><s n="mi"/></r></p><par n="sgpl_pl"/></e>
-    <e><p><l>scenario<s n="n"/><s n="mi"/></l><r>scenarij<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>scenario<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>scenarij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>sida<s n="n"/><s n="f"/></l><r>aids<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>ebanovina<s n="n"/><s n="f"/></l><r>ebenovina<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>kora<s n="n"/><s n="f"/></l><r>lubje<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
@@ -10005,7 +10013,7 @@
     <e><p><l>pomrčina<s n="n"/><s n="f"/></l><r>mrk<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>pomrčina<s n="n"/><s n="f"/></l><r>mrk<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>tek<s n="n"/><s n="mi"/></l><r>tek<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>trag<s n="n"/><s n="mi"/></l><r>sled<s n="n"/><s n="ma"/><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trag<s n="n"/><s n="mi"/></l><r>sled<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>trag<s n="n"/><s n="mi"/></l><r>sled<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pokretač<s n="n"/><s n="ma"/></l><r>pobudnik<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>pojedinac<s n="n"/><s n="ma"/></l><r>posameznik<s n="n"/><s n="ma"/></r></p></e>
@@ -11541,6 +11549,7 @@
     <e><p><l>vinjak<s n="n"/><s n="mi"/></l><r>vinjak<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>bunar<s n="n"/><s n="mi"/></l><r>vodnjak<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>vrisak<s n="n"/><s n="mi"/></l><r>vrisk<s n="n"/><s n="mi"/></r></p></e>
+    <e r="RL"><p><l>vrisak<s n="n"/><s n="mi"/></l><r>vrišč<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>običan<b/>dan<s n="n"/><s n="mi"/></l><r>vsakdanjik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>usklik<s n="n"/><s n="mi"/></l><r>vzklik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>iznicanje<s n="n"/><s n="nt"/></l><r>vznik<s n="n"/><s n="mi"/></r></p></e>
@@ -11762,6 +11771,7 @@
     <e><p><l>sabor<s n="n"/><s n="mi"/></l><r>zbor<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>jelo<s n="n"/><s n="nt"/></l><r>jed<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>student<s n="n"/><s n="ma"/></l><r>študent<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>studentica<s n="n"/><s n="f"/></l><r>študent<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>alkoholičar<s n="n"/><s n="ma"/></l><r>alkoholik<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>analitičar<s n="n"/><s n="ma"/></l><r>analitik<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>astmatičar<s n="n"/><s n="ma"/></l><r>astmatik<s n="n"/><s n="ma"/></r></p></e>

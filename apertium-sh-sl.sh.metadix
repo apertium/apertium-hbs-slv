@@ -46442,7 +46442,7 @@
     <e lm="stric"><i>stri</i><par n="stri/c__n"/></e>
     <e lm="muškarac"><i>muškar</i><par n="muškar/ac__n"/></e>
     <e lm="bjegunac"><i>b</i><par n="e_je__yat"/><i>gun</i><par n="muškar/ac__n"/></e>
-    <e lm="pojedinac"><i>pojedin</i><par n="muškar/ac__n"/></e>
+    <e lm="slovenac"><i>sloven</i><par n="muškar/ac__n"/></e>
     <e lm="jarac"><i>jar</i><par n="muškar/ac__n"/></e>
     <e lm="moljac"><i>molj</i><par n="muškar/ac__n"/></e>
     <e lm="pilac"><i>pil</i><par n="muškar/ac__n"/></e>
@@ -46888,6 +46888,7 @@
     <e lm="staza"><i>staz</i><par n="žen/a__n"/></e>
     <e lm="torba"><i>torb</i><par n="žen/a__n"/></e>
     <e lm="majica"><i>majic</i><par n="žen/a__n"/></e>
+    <e lm="studentica"><i>studentic</i><par n="žen/a__n"/></e>
     <e lm="drugarica"><i>drugaric</i><par n="žen/a__n"/></e>
     <e lm="trudnica"><i>trudnic</i><par n="žen/a__n"/></e>
     <e lm="petorica"><i>petoric</i><par n="žen/a__n"/></e>
