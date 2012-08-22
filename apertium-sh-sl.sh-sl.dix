@@ -9897,14 +9897,14 @@
     <e><p><l>vojaštvo<s n="n"/><s n="nt"/></l><r>vojaštvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>vunarstvo<s n="n"/><s n="nt"/></l><r>volna<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>zlato<s n="n"/><s n="nt"/></l><r>zlato<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>konzorcijum<s n="n"/><s n="mi"/></l><r>konzorcij<s n="n"/><s n="mi"/></r></p><par n="sgpl_pl"/></e>
+    <e><p><l>konzorcijum<s n="n"/><s n="mi"/></l><r>konzorcij<s n="n"/><s n="mi"/></r></p></e>
     <e r="RL"><p><l>konzorcijum<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>konzorcij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
     <e><p><l>obzir<s n="n"/><s n="mi"/></l><r>obzir<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>amaterizam<s n="n"/><s n="mi"/></l><r>amaterstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>mormonizam<s n="n"/><s n="mi"/></l><r>mormonizem<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>protestantizam<s n="n"/><s n="mi"/></l><r>protestantizem<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>scenario<s n="n"/><s n="mi"/></l><r>scenarij<s n="n"/><s n="mi"/></r></p><par n="sgpl_pl"/></e>
-    <e><p><l>scenario<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>scenarij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>scenario<s n="n"/><s n="mi"/></l><r>scenarij<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>scenario<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>scenarij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
     <e><p><l>sida<s n="n"/><s n="f"/></l><r>aids<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>ebanovina<s n="n"/><s n="f"/></l><r>ebenovina<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>kora<s n="n"/><s n="f"/></l><r>lubje<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
@@ -9963,9 +9963,9 @@
     <e><p><l>ovčarstvo<s n="n"/><s n="nt"/></l><r>ovčarstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>voajerstvo<s n="n"/><s n="nt"/></l><r>voajerizem<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>kokain<s n="n"/><s n="mi"/></l><r>kokain<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>konzorcij<s n="n"/><s n="mi"/></l><r>konzorcij<s n="n"/><s n="mi"/></r></p><par n="sgpl_pl"/></e>
+    <e><p><l>konzorcij<s n="n"/><s n="mi"/></l><r>konzorcij<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>konzorcij<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>konzorcij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
-    <e><p><l>scenarij<s n="n"/><s n="mi"/></l><r>scenarij<s n="n"/><s n="mi"/></r></p><par n="sgpl_pl"/></e>
+    <e><p><l>scenarij<s n="n"/><s n="mi"/></l><r>scenarij<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>scenarij<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>scenarij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
     <e><p><l>agrarstvo<s n="n"/><s n="nt"/></l><r>zadružništvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>povrtarstvo<s n="n"/><s n="nt"/></l><r>rastlinstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
