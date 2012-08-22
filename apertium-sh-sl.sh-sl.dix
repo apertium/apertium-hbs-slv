@@ -7730,7 +7730,8 @@
     <e><p><l>novac<s n="n"/><s n="mi"/></l><r>denar<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>talac<s n="n"/><s n="ma"/></l><r>talec<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>život<s n="n"/><s n="mi"/></l><r>življenje<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>ministar<s n="n"/><s n="ma"/></l><r>minister<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>ministar<s n="n"/><s n="ma"/></l><r>minister<s n="n"/><s n="ma"/></r></p></e>
+    <e r="RL"><p><l>ministar<s n="n"/><s n="ma"/></l><r>minister<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>političar<s n="n"/><s n="ma"/></l><r>politik<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>lider<s n="n"/><s n="ma"/></l><r>vodja<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>kritičar<s n="n"/><s n="ma"/></l><r>kritik<s n="n"/><s n="ma"/></r></p></e>
@@ -7842,7 +7843,8 @@
     <e><p><l>iskaznica<s n="n"/><s n="f"/></l><r>izkaznica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>škola<s n="n"/><s n="f"/></l><r>šola<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>crta<s n="n"/><s n="f"/></l><r>linija<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>klupa<s n="n"/><s n="f"/></l><r>klop<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>krpelj<s n="n"/><s n="ma"/></l><r>klop<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>klupa<s n="n"/><s n="f"/></l><r>klop<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>poteškoća<s n="n"/><s n="f"/></l><r>težava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bludnost<s n="n"/><s n="f"/></l><r>razvrat<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>cjelost<s n="n"/><s n="f"/></l><r>celota<s n="n"/><s n="f"/></r></p></e>
@@ -8099,7 +8101,7 @@
     <e><p><l>azbuka<s n="n"/><s n="f"/></l><r>abeceda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>brojka<s n="n"/><s n="f"/></l><r>številka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>buka<s n="n"/><s n="f"/></l><r>hrup<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>kandidatkinja<s n="n"/><s n="f"/></l><r>kandidat<s n="n"/><s n="ma"/></r></p></e>
+    <e r="LR"><p><l>kandidatkinja<s n="n"/><s n="f"/></l><r>kandidat<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>ministrica<s n="n"/><s n="f"/></l><r>minister<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>muzika<s n="n"/><s n="f"/></l><r>glasba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>glazba<s n="n"/><s n="f"/></l><r>glasba<s n="n"/><s n="f"/></r></p></e>
@@ -8298,7 +8300,7 @@
     <e><p><l>gonjenje<s n="n"/><s n="nt"/></l><r>pregon<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>gospodstvo<s n="n"/><s n="nt"/></l><r>gospostvo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>govedarstvo<s n="n"/><s n="nt"/></l><r>govedo<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>građanstvo<s n="n"/><s n="nt"/></l><r>državljanstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>državljanstvo<s n="n"/><s n="nt"/></l><r>državljanstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>herojstvo<s n="n"/><s n="nt"/></l><r>junaštvo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hotelijerstvo<s n="n"/><s n="nt"/></l><r>gostoljubnost<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hrišćanstvo<s n="n"/><s n="nt"/></l><r>krščanstvo<s n="n"/><s n="nt"/></r></p></e>
@@ -8676,6 +8678,7 @@
     <e><p><l>profil<s n="n"/><s n="mi"/></l><r>profil<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>simbol<s n="n"/><s n="mi"/></l><r>simbol<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>gost<s n="n"/><s n="ma"/></l><r>gost<s n="n"/><s n="ma"/></r></p></e>
+    <e r="RL"><p><l>gost<s n="n"/><s n="ma"/></l><r>gost<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>kapetan<s n="n"/><s n="ma"/></l><r>kapetan<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>bog<s n="n"/><s n="ma"/></l><r>bog<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>rog<s n="n"/><s n="mi"/></l><r>rog<s n="n"/><s n="mi"/></r></p></e>
@@ -8940,7 +8943,8 @@
     <e><p><l>rekord<s n="n"/><s n="mi"/></l><r>rekord<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>kompleks<s n="n"/><s n="mi"/></l><r>kompleksnost<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>suverenitet<s n="n"/><s n="mi"/></l><r>suverenost<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>bataljun<s n="n"/><s n="mi"/></l><r>bataljon<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bataljun<s n="n"/><s n="mi"/></l><r>bataljon<s n="n"/><s n="mi"/></r></p></e>
+    <e r="RL"><p><l>bataljun<s n="n"/><s n="mi"/></l><r>bataljon<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>priljev<s n="n"/><s n="mi"/></l><r>pritok<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>saziv<s n="n"/><s n="mi"/></l><r>sklic<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>bijeg<s n="n"/><s n="mi"/></l><r>bežanje<s n="n"/><s n="nt"/></r></p></e>
@@ -12120,7 +12124,7 @@
     <e><p><l>publicitet<s n="n"/><s n="mi"/></l><r>publiciteta<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>vlaga<s n="n"/><s n="f"/></l><r>vlaga<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>povrće<s n="n"/><s n="nt"/></l><r>zelenjava<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>dug</l><r>dolg<s n="n"/><s n="ma"/><s n="n"/><s n="mi"/></r></p></e>
+    <!-- <e><p><l>dug<s n="n"/><s n="ma"/></l><r>dolg<s n="n"/><s n="mi"/></r></p></e> -->
     <e><p><l>zamisao<s n="n"/><s n="f"/></l><r>zamisel<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gospa<s n="n"/><s n="f"/></l><r>gospa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>strava<s n="n"/><s n="f"/></l><r>groza<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
