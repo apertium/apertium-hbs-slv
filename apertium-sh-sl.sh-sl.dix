@@ -1025,13 +1025,13 @@
     <e><p><l>kući<s n="adv"/></l><r>domov<s n="adv"/></r></p></e>
     <e><p><l>jednako<b/>tako<s n="adv"/></l><r>prav<b/>tako<s n="adv"/></r></p></e>
     <e><p><l>istodobno<s n="adv"/></l><r>istočasno<s n="adv"/></r></p></e>
-    <e><p><l>uživo<s n="adv"/></l><r>živ<s n="adv"/></r></p></e>
+    <e><p><l>uživo<s n="adv"/></l><r>živo<s n="adv"/></r></p></e>
     <e><p><l>trenutačno<s n="adv"/></l><r>trenutno<s n="adv"/></r></p></e>
     <e><p><l>momentalno<s n="adv"/></l><r>trenutno<s n="adv"/></r></p></e>
     <e><p><l>dokasna<s n="adv"/></l><r>pozno<s n="adv"/></r></p></e>
     <e><p><l>odjednom<s n="adv"/></l><r>naenkrat<s n="adv"/></r></p></e>
     <e><p><l>zasad<s n="adv"/></l><r>zdaj<s n="adv"/></r></p></e>
-    <e><p><l>zasada<s n="adv"/></l><r>za zdaj<s n="adv"/></r></p></e>
+    <e><p><l>zasada<s n="adv"/></l><r>za<b/>zdaj<s n="adv"/></r></p></e>
     <e><p><l>izjutra<s n="adv"/></l><r>zjutraj<s n="adv"/></r></p></e>
     <e><p><l>kadgod<s n="adv"/></l><r>kadarkoli<s n="adv"/></r></p></e>
     <e><p><l>kad<b/>god<s n="adv"/></l><r>kadarkoli<s n="adv"/></r></p></e>
@@ -1056,8 +1056,8 @@
     <e><p><l>pa<s n="adv"/></l><r>tako<s n="adv"/></r></p></e>
     <e><p><l>pješke<s n="adv"/></l><r>peš<s n="adv"/></r></p></e>
     <e><p><l>većinom<s n="adv"/></l><r>večinoma<s n="adv"/></r></p></e>
-    <e><p><l>previše<s n="adv"/></l><r>preveč<s n="adv"/></r></p></e>
-    <e><p><l>suviše<s n="adv"/></l><r>preveč<s n="adv"/></r></p></e>
+    <e><p><l>previše<s n="adv"/></l><r>veliko<s n="adv"/><s n="sint"/><s n="ela"/></r></p></e>
+    <e><p><l>suviše<s n="adv"/></l><r>veliko<s n="adv"/><s n="sint"/><s n="ela"/></r></p></e>
     <e><p><l>svud<s n="adv"/></l><r>povsod<s n="adv"/></r></p></e>
     <e><p><l>svagda<s n="adv"/></l><r>povsod<s n="adv"/></r></p></e>
     <e><p><l>vječito<s n="adv"/></l><r>večno<s n="adv"/></r></p></e>
@@ -3215,6 +3215,7 @@
     <e><p><l>anti<s n="adv"/><s n="ssup"/></l><r>proti<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
     <e><p><l>kiselo<s n="adv"/><s n="comp"/></l><r>kislo<s n="adv"/><s n="sint"/><s n="comp"/><s n="add_comp"/></r></p></e>
     <e><p><l>kiselo<s n="adv"/><s n="sup"/></l><r>kislo<s n="adv"/><s n="sint"/><s n="sup"/><s n="add_sup"/></r></p></e>
+    <e><p><l>kiselo<s n="adv"/><s n="ssup"/></l><r>kislo<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
     <e><p><l>neveselo<s n="adv"/><s n="ssup"/></l><r>neveselo<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
     <e><p><l>smjelo<s n="adv"/><s n="comp"/></l><r>okorelo<s n="adv"/><s n="sint"/><s n="comp"/><s n="add_comp"/></r></p></e>
     <e><p><l>smjelo<s n="adv"/><s n="sup"/></l><r>okorelo<s n="adv"/><s n="sint"/><s n="sup"/><s n="add_sup"/></r></p></e>
@@ -3785,6 +3786,9 @@
     <e><p><l>granično<s n="adv"/><s n="comp"/></l><r>meje<s n="adv"/><s n="sint"/><s n="comp"/><s n="add_comp"/></r></p></e>
     <e><p><l>granično<s n="adv"/><s n="sup"/></l><r>meje<s n="adv"/><s n="sint"/><s n="sup"/><s n="add_sup"/></r></p></e>
     <e><p><l>granično<s n="adv"/><s n="ssup"/></l><r>meje<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
+    <e><p><l>krivo<s n="adv"/><s n="comp"/></l><r>krivo<s n="adv"/><s n="sint"/><s n="comp"/><s n="add_comp"/></r></p></e>
+    <e><p><l>krivo<s n="adv"/><s n="sup"/></l><r>krivo<s n="adv"/><s n="sint"/><s n="sup"/><s n="add_sup"/></r></p></e>
+    <e><p><l>krivo<s n="adv"/><s n="ssup"/></l><r>krivo<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
 	
     <e><p><l>hladno<s n="adv"/><s n="ssup"/></l><r>hladno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
     <e><p><l>ljubazno<s n="adv"/><s n="ssup"/></l><r>prisrčno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
@@ -16469,7 +16473,7 @@
     <e><p><l>ne<s n="part"/><s n="neg"/></l><r>ne<s n="cnjcoo"/></r></p></e><!--?-->
 
 
-    <e><p><l>dvoje<s n="num"/></l><r>dvoje<s n="adv"/><s n="sint"/></r></p></e> <!-- CHECK IF NUMS UBIJE TO -->
+    <!--><e><p><l>dvoje<s n="num"/></l><r>dvoje<s n="adv"/><s n="sint"/></r></p></e> -->
 
     <!-- SECTION: Prepositions -->
     <e><p><l>blizu<s n="pr"/></l><r>blizu<s n="pr"/></r></p></e>
@@ -17467,7 +17471,6 @@
     <e><p><l>zadušljiv<s n="adv"/></l><r>dušeč<s n="adv"/></r></p></e>
     <e><p><l>mentalno<s n="adv"/></l><r>duševno<s n="adv"/></r></p></e>
     <e><p><l>dižući<s n="vblex"/><s n="adv"/></l><r>dvigajoč<s n="adv"/></r></p></e>
-    <e><p><l>dvoje<s n="num"/></l><r>dvoje<s n="adv"/></r></p></e>
     <e><p><l>sumnjičavo<s n="adv"/></l><r>dvomljivo<s n="adv"/></r></p></e>
     <e><p><l>dvosjekli<s n="adv"/></l><r>dvorezno<s n="adv"/></r></p></e>
     <e><p><l>uljudno<s n="adv"/></l><r>dvorno<s n="adv"/></r></p></e>
