@@ -46443,6 +46443,7 @@
     <e lm="muškarac"><i>muškar</i><par n="muškar/ac__n"/></e>
     <e lm="bjegunac"><i>b</i><par n="e_je__yat"/><i>gun</i><par n="muškar/ac__n"/></e>
     <e lm="slovenac"><i>sloven</i><par n="muškar/ac__n"/></e>
+    <e lm="pojedinac"><i>pojedin</i><par n="muškar/ac__n"/></e>
     <e lm="jarac"><i>jar</i><par n="muškar/ac__n"/></e>
     <e lm="moljac"><i>molj</i><par n="muškar/ac__n"/></e>
     <e lm="pilac"><i>pil</i><par n="muškar/ac__n"/></e>
@@ -46625,7 +46626,7 @@
     <e lm="dosje"><i>dosj</i><par n="dosj/e__n"/></e>
 
     <!--Feminine like -->
-    <e lm="tata"><i>tata</i><par n="koleg/a__n"/></e>
+    <e lm="tata"><i>tat</i><par n="koleg/a__n"/></e>
     <e lm="kolega"><i>koleg</i><par n="koleg/a__n"/></e>
     <e lm="baraba"><i>barab</i><par n="koleg/a__n"/></e>
     <e lm="stjegonoša"><i>stjegonoš</i><par n="koleg/a__n"/></e>
