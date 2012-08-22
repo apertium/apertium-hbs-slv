@@ -35994,6 +35994,7 @@
     <e lm="širok"><p><l>najšir</l><r>šir</r></p><par n="šir/ok__sup__adj"/></e>
     <e lm="širok"><p><l>prešir</l><r>šir</r></p><par n="šir/ok__ssup__adj"/></e>
 
+    <e lm="nemoguć"><i>nemoguć</i><par n="vruć__pst__adj"/></e>
 
     <e lm="vruć"><i>vruć</i><par n="vruć__pst__adj"/></e>
     <e lm="vruć"><i>vruć</i><par n="vruć__comp__adj"/></e>
@@ -36279,8 +36280,6 @@
     <e lm="pun"><p><l>najpun</l><r>pun</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="pun"><p><l>prepun</l><r>pun</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="nemoguć"><i>nemoguć</i><par n="loš__pst__adj"/></e>
-
     <e lm="dvostruk"><i>dvostruk</i><par n="zdrav__pst__adj"/></e>
     <e lm="dvostruk"><i>dvostruk</i><par n="zdrav__comp__adj"/></e>
     <e lm="dvostruk"><p><l>najdvostruk</l><r>dvostruk</r></p><par n="zdrav__sup__adj"/></e>
@@ -36347,10 +36346,10 @@
     <e lm="sustavan"><p><l>najsustav</l><r>sustav</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="sustavan"><p><l>presustav</l><r>sustav</r></p><par n="ruž/an__ssup__adj"/></e>
 
-    <e lm="nominovan"><i>nominov</i><par n="ruž/an__pst__adj"/></e>
-    <e lm="nominovan"><i>nominov</i><par n="ruž/an__comp__adj"/></e>
-    <e lm="nominovan"><p><l>najnominov</l><r>nominov</r></p><par n="ruž/an__sup__adj"/></e>
-    <e lm="nominovan"><p><l>prenominov</l><r>nominov</r></p><par n="ruž/an__ssup__adj"/></e>
+    <e lm="nominovan"><i>nominovan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="nominovan"><i>nominovan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="nominovan"><p><l>najnominovan</l><r>nominovan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="nominovan"><p><l>prenominovan</l><r>nominovan</r></p><par n="zdrav__ssup__adj"/></e>
 
     <e lm="kružan"><i>kruž</i><par n="ruž/an__pst__adj"/></e>
     <e lm="kružan"><i>kruž</i><par n="ruž/an__comp__adj"/></e>
@@ -38186,9 +38185,9 @@
     <e lm="fragmentaran"><p><l>najfragmentar</l><r>fragmentar</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="fragmentaran"><p><l>prefragmentar</l><r>fragmentar</r></p><par n="ruž/an__ssup__adj"/></e>
 
-    <e lm="gledan"><i>gled</i><par n="ruž/an__pst__adj"/></e>
-    <e lm="gledan"><i>gled</i><par n="ruž/an__comp__adj"/></e>
-    <e lm="gledan"><p><l>najgled</l><r>gled</r></p><par n="ruž/an__sup__adj"/></e>
+    <e lm="gledan"><i>gledan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="gledan"><i>gledan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="gledan"><p><l>najgledan</l><r>gledan</r></p><par n="zdrav__sup__adj"/></e>
 
     <e lm="kroničan"><i>kronič</i><par n="ruž/an__pst__adj"/></e>
     <e lm="kroničan"><i>kronič</i><par n="ruž/an__comp__adj"/></e>
@@ -39207,10 +39206,10 @@
     <e lm="podmukao"><p><l>najpodmuk</l><r>podmuk</r></p><par n="top/ao__sup__adj"/></e>
     <e lm="podmukao"><p><l>prepodmuk</l><r>podmuk</r></p><par n="top/ao__ssup__adj"/></e>
 
-    <e lm="radoznao"><i>radozn</i><par n="top/ao__pst__adj"/></e>
-    <e lm="radoznao"><i>radozn</i><par n="top/ao__comp__adj"/></e>
-    <e lm="radoznao"><p><l>najradozn</l><r>radozn</r></p><par n="top/ao__sup__adj"/></e>
-    <e lm="radoznao"><p><l>preradozn</l><r>radozn</r></p><par n="top/ao__ssup__adj"/></e>
+    <e lm="radoznao"><i>radozna</i><par n="zre/o__pst__adj"/></e>
+    <e lm="radoznao"><i>radozna</i><par n="zre/o__comp__adj"/></e>
+    <e lm="radoznao"><p><l>najradozna</l><r>radozna</r></p><par n="zre/o__sup__adj"/></e>
+    <e lm="radoznao"><p><l>preradozna</l><r>radozna</r></p><par n="zre/o__ssup__adj"/></e>
 
     <e lm="kamen"><i>kamen</i><par n="zdrav__pst__adj"/></e>
     <e lm="kamen"><i>kamen</i><par n="zdrav__comp__adj"/></e>
@@ -39686,12 +39685,12 @@
     <e lm="hladan"><p><l>najhlad</l><r>hlad</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="hladan"><p><l>prehlad</l><r>hlad</r></p><par n="ruž/an__ssup__adj"/></e>
 
-    <e lm="dan"><i>d</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="dan"><i>dan</i><par n="zdrav__pst__adj"/></e>
 
-    <e lm="izdan"><i>izd</i><par n="ruž/an__pst__adj"/></e>
-    <e lm="izdan"><i>izd</i><par n="ruž/an__comp__adj"/></e>
-    <e lm="izdan"><p><l>najizd</l><r>izd</r></p><par n="ruž/an__sup__adj"/></e>
-    <e lm="izdan"><p><l>preizd</l><r>izd</r></p><par n="ruž/an__ssup__adj"/></e>
+    <e lm="izdan"><i>izdan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="izdan"><i>izdan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="izdan"><p><l>najizdan</l><r>izdan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="izdan"><p><l>preizdan</l><r>izdan</r></p><par n="zdrav__ssup__adj"/></e>
 
     <e lm="predan"><i>pred</i><par n="ruž/an__pst__adj"/></e>
     <e lm="predan"><i>pred</i><par n="ruž/an__comp__adj"/></e>
@@ -40149,8 +40148,6 @@
     <e lm="brojčani"><i>brojčan</i><par n="garantn/i__adj"/></e>
     <e lm="ptičji"><i>ptičj</i><par n="odlučujuć/i__adj"/></e>
     <e lm="razni"><i>razn</i><par n="garantn/i__adj"/></e>
-    <e lm="anti"><i>ant</i><par n="garantn/i__adj"/></e>
-
 
     <!--adjectives ending in -ski-->
 
