@@ -7933,7 +7933,7 @@
     <e><p><l>mina<s n="n"/><s n="f"/></l><r>mina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>namjera<s n="n"/><s n="f"/></l><r>namen<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>naredba<s n="n"/><s n="f"/></l><r>ukaz<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>nafta<s n="n"/><s n="f"/></l><r>olje<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>nafta<s n="n"/><s n="f"/></l><r>olje<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>nedjelja<s n="n"/><s n="f"/></l><r>nedelja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>srijeda<s n="n"/><s n="f"/></l><r>sreda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nesreća<s n="n"/><s n="f"/></l><r>nesreča<s n="n"/><s n="f"/></r></p></e>
@@ -8307,7 +8307,7 @@
     <e><p><l>gonjenje<s n="n"/><s n="nt"/></l><r>pregon<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>gospodstvo<s n="n"/><s n="nt"/></l><r>gospostvo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>govedarstvo<s n="n"/><s n="nt"/></l><r>govedo<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>državljanstvo<s n="n"/><s n="nt"/></l><r>državljanstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>državljanstvo<s n="n"/><s n="nt"/></l><r>državljanstvo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>herojstvo<s n="n"/><s n="nt"/></l><r>junaštvo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hotelijerstvo<s n="n"/><s n="nt"/></l><r>gostoljubnost<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hrišćanstvo<s n="n"/><s n="nt"/></l><r>krščanstvo<s n="n"/><s n="nt"/></r></p></e>
@@ -9851,8 +9851,6 @@
 
 
     <!-- Razlicna števila -->
-    <e><p><l>oko<s n="n"/><s n="f"/><s n="pl"/></l><r>oko<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
-    <e><p><l>oko<s n="n"/><s n="nt"/></l><r>oko<s n="n"/><s n="nt"/></r></p><par n="sgpl_pl"/></e> <!-- needs a fix? -->
     <e><p><l>zločin<s n="n"/><s n="mi"/></l><r>kriminal<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>snijeg<s n="n"/><s n="mi"/></l><r>sneg<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>odmor<s n="n"/><s n="mi"/></l><r>počitnice<s n="n"/><s n="f"/></r></p><par n="sgpl_pl"/></e>
@@ -9879,7 +9877,9 @@
     <e><p><l>vinogradarstvo<s n="n"/><s n="nt"/></l><r>vinogradništvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>voće<s n="n"/><s n="nt"/></l><r>sadje<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>zdravlje<s n="n"/><s n="nt"/></l><r>zdravje<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>oko<s n="n"/><s n="f"/></l><r>oči<s n="n"/><s n="ma"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>oko<s n="n"/><s n="f"/></l><r>oči<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oko<s n="n"/><s n="nt"/></l><r>oko<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>tata<s n="n"/><s n="ma"/></l><r>oči<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>pluća<s n="n"/><s n="nt"/></l><r>pljuča<s n="n"/><s n="nt"/></r></p><par n="sgpl_pl"/></e>
     <e><p><l>poštenje<s n="n"/><s n="nt"/></l><r>poštenje<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>siromaštvo<s n="n"/><s n="nt"/></l><r>revščina<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
@@ -9898,7 +9898,7 @@
     <e><p><l>vunarstvo<s n="n"/><s n="nt"/></l><r>volna<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>zlato<s n="n"/><s n="nt"/></l><r>zlato<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>konzorcijum<s n="n"/><s n="mi"/></l><r>konzorcij<s n="n"/><s n="mi"/></r></p><par n="sgpl_pl"/></e>
-    <e r="RL"><p><l>konzorcijum<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>konzorcij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p><par n="sgpl_pl"/></e>
+    <e r="RL"><p><l>konzorcijum<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>konzorcij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
     <e><p><l>obzir<s n="n"/><s n="mi"/></l><r>obzir<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>amaterizam<s n="n"/><s n="mi"/></l><r>amaterstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>mormonizam<s n="n"/><s n="mi"/></l><r>mormonizem<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
@@ -9964,9 +9964,9 @@
     <e><p><l>voajerstvo<s n="n"/><s n="nt"/></l><r>voajerizem<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>kokain<s n="n"/><s n="mi"/></l><r>kokain<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>konzorcij<s n="n"/><s n="mi"/></l><r>konzorcij<s n="n"/><s n="mi"/></r></p><par n="sgpl_pl"/></e>
-    <e><p><l>konzorcij<s n="n"/><s n="mi"/></l><r>konzorcij<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>konzorcij<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>konzorcij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
     <e><p><l>scenarij<s n="n"/><s n="mi"/></l><r>scenarij<s n="n"/><s n="mi"/></r></p><par n="sgpl_pl"/></e>
-    <e><p><l>scenarij<s n="n"/><s n="mi"/></l><r>scenarij<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>scenarij<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>scenarij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
     <e><p><l>agrarstvo<s n="n"/><s n="nt"/></l><r>zadružništvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>povrtarstvo<s n="n"/><s n="nt"/></l><r>rastlinstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>povrtlarstvo<s n="n"/><s n="nt"/></l><r>zelenjava<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
@@ -12202,7 +12202,7 @@
     <e><p><l>slutnja<s n="n"/><s n="f"/></l><r>slutnja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ropkinja<s n="n"/><s n="f"/></l><r>sužnja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>narav<s n="n"/><s n="f"/></l><r>nrav<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>seks<s n="n"/><s n="mi"/></l><r>seks<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>seks<s n="n"/><s n="mi"/></l><r>seks<s n="n"/><s n="mi"/></r></p><par n="sg_sgpl"/></e>
     <e><p><l>grof<s n="n"/><s n="ma"/></l><r>grof<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>bližnji<s n="adj"/><s n="pst"/><s n="ma"/></l><r>sočlovek<s n="n"/><s n="ma"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
     <e><p><l>seljak<s n="n"/><s n="ma"/></l><r>kmet<s n="n"/><s n="ma"/></r></p></e>
