@@ -469,7 +469,10 @@
 			<equal><clip pos="1" side ="sl" part="prs"/><lit-tag v="p1"/></equal>
 			<equal><clip pos="1" side ="sl" part="prs"/><lit-tag v="p2"/></equal>
 		      </or>
-		      <equal><clip pos="1" side ="sl" part="cas"/><lit-tag v="nom"/></equal>
+		      <or>
+			<equal><clip pos="1" side ="sl" part="cas"/><lit-tag v="nom"/></equal>
+			<equal><clip pos="1" side ="sl" part="cas"/><lit-tag v="voc"/></equal>
+		      </or>
 		    </and>
 		      <equal><clip pos="1" side ="sl" part="prs"/><lit-tag v="p3"/></equal>
 		  </or>

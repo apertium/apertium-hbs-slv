@@ -38679,10 +38679,10 @@
     <e lm="nizak"><p><l>najni</l><r>ni</r></p><par n="u/zak__sup__adj"/></e>
     <e lm="nizak"><p><l>preni</l><r>ni</r></p><par n="u/zak__ssup__adj"/></e>
 
-    <e lm="mrzak"><i>mrz</i><par n="u/zak__pst__adj"/></e>
-    <e lm="mrzak"><i>mrz</i><par n="u/zak__comp__adj"/></e>
-    <e lm="mrzak"><p><l>najmrz</l><r>mrz</r></p><par n="u/zak__sup__adj"/></e>
-    <e lm="mrzak"><p><l>premrz</l><r>mrz</r></p><par n="u/zak__ssup__adj"/></e>
+    <e lm="mrzak"><i>mr</i><par n="u/zak__pst__adj"/></e>
+    <e lm="mrzak"><i>mr</i><par n="u/zak__comp__adj"/></e>
+    <e lm="mrzak"><p><l>najmr</l><r>mr</r></p><par n="u/zak__sup__adj"/></e>
+    <e lm="mrzak"><p><l>premr</l><r>mr</r></p><par n="u/zak__ssup__adj"/></e>
 
     <e lm="težak"><i>te</i><par n="te/žak__pst__adj"/></e>
     <e lm="težak"><i>te</i><par n="te/žak__comp__adj"/></e>
