@@ -8942,7 +8942,9 @@
     <e><p><l>pismo<s n="n"/><s n="nt"/></l><r>pismo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sistem<s n="n"/><s n="mi"/></l><r>sistem<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>rep<s n="n"/><s n="mi"/></l><r>rep<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>duh<s n="n"/><s n="ma"/></l><r>duh<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>duh<s n="n"/><s n="ma"/><s n="sg"/></l><r>duh<s n="n"/><s n="mi"/><s n="sg"/></r></p></e>
+    <e><p><l>duh<s n="n"/><s n="ma"/><s n="pl"/></l><r>duh<s n="n"/><s n="mi"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>duh<s n="n"/><s n="ma"/><s n="pl"/></l><r>duh<s n="n"/><s n="mi"/><s n="du"/></r></p></e>
     <e><p><l>duh<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></l><r>duh<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
     <e><p><l>akropola<s n="n"/><s n="f"/></l><r>akropola<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tane<s n="n"/><s n="nt"/></l><r>krogla<s n="n"/><s n="f"/></r></p></e>
@@ -9963,9 +9965,13 @@
     <e><p><l>ovčarstvo<s n="n"/><s n="nt"/></l><r>ovčarstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>voajerstvo<s n="n"/><s n="nt"/></l><r>voajerizem<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>kokain<s n="n"/><s n="mi"/></l><r>kokain<s n="n"/><s n="mi"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>konzorcij<s n="n"/><s n="mi"/></l><r>konzorcij<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>konzorcij<s n="n"/><s n="mi"/><s n="sg"/></l><r>konzorcij<s n="n"/><s n="mi"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>konzorcij<s n="n"/><s n="mi"/><s n="pl"/></l><r>konzorcij<s n="n"/><s n="mi"/><s n="du"/></r></p></e>
+    <e><p><l>konzorcij<s n="n"/><s n="mi"/><s n="pl"/></l><r>konzorcij<s n="n"/><s n="mi"/><s n="pl"/></r></p></e>
     <e><p><l>konzorcij<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>konzorcij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
-    <e><p><l>scenarij<s n="n"/><s n="mi"/></l><r>scenarij<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>scenarij<s n="n"/><s n="mi"/><s n="sg"/></l><r>scenarij<s n="n"/><s n="mi"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>scenarij<s n="n"/><s n="mi"/><s n="pl"/></l><r>scenarij<s n="n"/><s n="mi"/><s n="du"/></r></p></e>
+    <e><p><l>scenarij<s n="n"/><s n="mi"/><s n="pl"/></l><r>scenarij<s n="n"/><s n="mi"/><s n="pl"/></r></p></e>
     <e><p><l>scenarij<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></l><r>scenarij<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
     <e><p><l>agrarstvo<s n="n"/><s n="nt"/></l><r>zadružništvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>povrtarstvo<s n="n"/><s n="nt"/></l><r>rastlinstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
@@ -10181,7 +10187,7 @@
     <e><p><l>licemjerje<s n="n"/><s n="nt"/></l><r>hinavstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>brodogradnja<s n="n"/><s n="f"/></l><r>ladjedelništvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>maslac<s n="n"/><s n="mi"/></l><r>maslo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>građanstvo<s n="n"/><s n="nt"/></l><r>meščanstvo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>građanstvo<s n="n"/><s n="nt"/></l><r>meščanstvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>mlijeko<s n="n"/><s n="nt"/></l><r>mleko<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>mrtvilo<s n="n"/><s n="nt"/></l><r>mrtvilo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>otpadništvo<s n="n"/><s n="nt"/></l><r>odpadništvo<s n="n"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
@@ -12131,7 +12137,7 @@
     <e><p><l>ilegala<s n="n"/><s n="f"/></l><r>ilegala<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>kukuruz<s n="n"/><s n="mi"/></l><r>koruza<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>kuhanje<s n="n"/><s n="nt"/></l><r>kuha<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>nafta<s n="n"/><s n="f"/></l><r>nafta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nafta<s n="n"/><s n="f"/></l><r>nafta<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>krama<s n="n"/><s n="f"/></l><r>navlaka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nevjera<s n="n"/><s n="f"/></l><r>nevera<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>portugalski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>portugalščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
