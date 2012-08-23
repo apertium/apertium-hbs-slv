@@ -16856,7 +16856,7 @@
 
 
     <!-- Num -> Num -->
-    <!-- TO DO: Need to add gen.nbr.cas -->
+	<!-- Cardinal-->
     <e><p><l>jedan<s n="num"/></l><r>en<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
     <e><p><l>dva<s n="num"/></l><r>dva<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
     <e><p><l>tri<s n="num"/></l><r>tri<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="null2cas"/></e>
@@ -16967,7 +16967,29 @@
 
     <e><p><l>sto<s n="num"/></l><r>sto<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="cas_id"/></e>    
 
-    
+    <!-- Ordinal -->
+	<e><p><l>prvi<s n="num"/><s n="ord"/></l><r>prvi<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>drugi<s n="num"/><s n="ord"/></l><r>drugi<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>treći<s n="num"/><s n="ord"/></l><r>tretji<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>četvrti<s n="num"/><s n="ord"/></l><r>četrti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>peti<s n="num"/><s n="ord"/></l><r>peti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>šesti<s n="num"/><s n="ord"/></l><r>šesti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>sedmi<s n="num"/><s n="ord"/></l><r>sedmi<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>osmi<s n="num"/><s n="ord"/></l><r>osmi<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>deveti<s n="num"/><s n="ord"/></l><r>deveti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>deseti<s n="num"/><s n="ord"/></l><r>deseti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>jedanaesti<s n="num"/><s n="ord"/></l><r>enajsti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>dvanaesti<s n="num"/><s n="ord"/></l><r>dvanajsti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>trinaesti<s n="num"/><s n="ord"/></l><r>trinajsti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>četrnaesti<s n="num"/><s n="ord"/></l><r>štirinajsti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>petnaesti<s n="num"/><s n="ord"/></l><r>petnajsti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>šesnaesti<s n="num"/><s n="ord"/></l><r>šestnajsti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>sedamnaesti<s n="num"/><s n="ord"/></l><r>sedemnajsti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>osamnaesti<s n="num"/><s n="ord"/></l><r>osemnajsti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>devetnaesti<s n="num"/><s n="ord"/></l><r>devetnajsti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+	<e><p><l>dvadeseti<s n="num"/><s n="ord"/></l><r>dvajseti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+
+
 
   </section>
 
