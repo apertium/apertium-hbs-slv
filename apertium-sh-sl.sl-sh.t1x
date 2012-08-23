@@ -1130,6 +1130,32 @@
       </action>
     </rule>
 
+    <rule comment="np+pos">
+      <pattern>
+	<pattern-item n="np"/>
+	<pattern-item n="adj_pss_sfx"/>
+      </pattern>
+      <action>
+	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="adj_adapter"><with-param pos="2"/></call-macro>
+	<out>
+	  <chunk name="np_adj" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="A"/></tag>
+	    </tags>
+	    <mlu>
+	      <lu>
+		<clip pos="1" side="tl" part="whole"/>
+	      </lu>
+	      <lu>
+		<clip pos="2" side="tl" part="whole"/>
+	      </lu>
+	    </mlu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
     <rule comment="adj">
       <pattern>
 	<pattern-item n="adj"/>
