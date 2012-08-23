@@ -33510,6 +33510,7 @@
     <e lm="upravljati"><i>upravlj</i><par n="imperf_ref_bir/ati__vblex"/></e>
 
     <e lm="putovati"><i>put</i><par n="imperf_iv_tr/ovati__vblex"/></e>
+    <e lm="isposlovati"><i>isposl</i><par n="perf_tv_tr/ovati__vblex"/></e>
     <e lm="proputovati"><i>proput</i><par n="perf_iv_tr/ovati__vblex"/></e>
     <e lm="dugovati"><i>dug</i><par n="imperf_iv_tr/ovati__vblex"/></e>
     <e lm="prezentovati"><i>prezent</i><par n="imperf_tv_tr/ovati__vblex"/></e>
@@ -34790,6 +34791,7 @@
     <e lm="ushićivati"><i>ushić</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
     <e lm="ushićivati"><i>ushić</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
     <e lm="glasovati"><i>glas</i><par n="imperf_iv_tr/ovati__vblex"/></e>
+    <e lm="glasovati"><i>glas</i><par n="perf_iv_tr/ovati__vblex"/></e>
     <e lm="diskutovati"><i>diskut</i><par n="imperf_tv_tr/ovati__vblex"/></e>
     <e lm="diskutovati"><i>diskut</i><par n="imperf_iv_tr/ovati__vblex"/></e>
     <e lm="kritikovati"><i>kritik</i><par n="imperf_tv_tr/ovati__vblex"/></e>
@@ -50847,7 +50849,6 @@
     <e lm="posuvraćati"><i>posuvrać</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="odgledati"><i>odgled</i><par n="perf_tv_bir/ati__vblex"/></e>
     <e lm="obuhvatati"><i>obuhvat</i><par n="imperf_tv_bir/ati__vblex"/></e>
-    <e lm="isposlovati"><i>isposl</i><par n="perf_tv_tr/ovati__vblex"/></e>
 
 
 	Adverbs	
