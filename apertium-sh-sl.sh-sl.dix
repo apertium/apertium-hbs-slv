@@ -17017,7 +17017,107 @@
 	<e><p><l>devetnaesti<s n="num"/><s n="ord"/></l><r>devetnajsti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
 	<e><p><l>dvadeseti<s n="num"/><s n="ord"/></l><r>dvajseti<s n="num"/><s n="ord"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
 
+	<!-- Collective -->
+    <e><p><l>dvoje<s n="num"/><s n="coll"/></l><r>dvoj<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>troje<s n="num"/><s n="coll"/></l><r>troj<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>četvero<s n="num"/><s n="coll"/></l><r>četver<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>petero<s n="num"/><s n="coll"/></l><r>peter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>šestero<s n="num"/><s n="coll"/></l><r>šester<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>sedmero<s n="num"/><s n="coll"/></l><r>sedmer<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>osmero<s n="num"/><s n="coll"/></l><r>osmer<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>devetero<s n="num"/><s n="coll"/></l><r>deveter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>desetero<s n="num"/><s n="coll"/></l><r>deseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>jedanaestero<s n="num"/><s n="coll"/></l><r>enajster<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>dvanaestero<s n="num"/><s n="coll"/></l><r>dvanajster<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>trinaestero<s n="num"/><s n="coll"/></l><r>trinajster<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>četrnaestero<s n="num"/><s n="coll"/></l><r>štirinajster<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>petnaestero<s n="num"/><s n="coll"/></l><r>petnajster<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>šesnaestero<s n="num"/><s n="coll"/></l><r>šestnajster<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>sedamnaestero<s n="num"/><s n="coll"/></l><r>sedemnajster<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>osamnaestero<s n="num"/><s n="coll"/></l><r>osemnajster<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>devetnaestero<s n="num"/><s n="coll"/></l><r>devetnajster<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
 
+    <e><p><l>dvadesetero<s n="num"/><s n="coll"/></l><r>dvajseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>dvadeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>dvaindvajseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>dvadeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>triindvajseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>dvadeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>štiriindvajseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>dvadeset<b/>i<b/>peteroero<s n="num"/><s n="coll"/></l><r>petindvajseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>dvadeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>šestindvajseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>dvadeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>sedemindvajseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>dvadeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>osemindvajseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>dvadeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>devetindvajseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+
+    <e><p><l>tridesetero<s n="num"/><s n="coll"/></l><r>trideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>trideset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>dvaintrideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>trideset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>triintrideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>trideset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>štiriintrideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>trideset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>petintrideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>trideset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>šestintrideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>trideset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>sedemintrideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>trideset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>osemintrideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>trideset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>devetintrideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+
+    <e><p><l>četrdesetero<s n="num"/><s n="coll"/></l><r>štirideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>četrdeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>dvainštirideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>četrdeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>triinštirideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>četrdeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>štiriinštirideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>četrdeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>petinštirideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>četrdeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>šestinštirideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>četrdeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>sedeminštirideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>četrdeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>oseminštirideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>četrdeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>devetinštirideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+
+    <e><p><l>pedesetero<s n="num"/><s n="coll"/></l><r>petdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>pedeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>dvainpetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>pedeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>triinpetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>pedeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>štiriinpetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>pedeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>petinpetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>pedeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>šestinpetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>pedeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>sedeminpetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>pedeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>oseminpetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>pedeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>devetinpetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>    
+
+    <e><p><l>šezdesetero<s n="num"/><s n="coll"/></l><r>šestdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>šezdeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>dvainšestdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>šezdeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>triinšestdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>šezdeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>štiriinšestdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>šezdeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>petinšestdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>šezdeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>šestinšestdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>šezdeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>sedeminšestdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>šezdeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>oseminšestdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>šezdeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>devetinšestdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>    
+
+    <e><p><l>sedamdesetero<s n="num"/><s n="coll"/></l><r>sedemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>sedamdeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>dvainsedemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>sedamdeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>triinsedemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>sedamdeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>štiriinsedemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>sedamdeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>petinsedemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>sedamdeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>šestinsedemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>sedamdeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>sedeminsedemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>sedamdeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>oseminsedemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>sedamdeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>devetinsedemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>    
+
+    <e><p><l>osamdesetero<s n="num"/><s n="coll"/></l><r>osemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>osamdeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>dvainosemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>osamdeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>triinosemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>osamdeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>štiriinosemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>osamdeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>petinosemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>osamdeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>šestinosemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>osamdeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>sedeminosemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>osamdeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>oseminosemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>osamdeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>devetinosemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>    
+
+    <e><p><l>devedesetero<s n="num"/><s n="coll"/></l><r>devetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>devedeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>dvaindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>devedeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>triindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>devedeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>štiriindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>devedeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>petindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>devedeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>šestindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>devedeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>sedemindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>devedeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>osemindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>devedeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>devetindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>    
+
+    <e><p><l>sto<s n="num"/><s n="coll"/></l><r>sto<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
 
   </section>
 
