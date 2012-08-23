@@ -30004,7 +30004,6 @@
 
       <!--TODO: add a paradigm for these collectives-->
       <e><i>dvoje</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>oboje</i><par n="numeros_sin_inflexion"/></e>
 
       <e><i>četv</i><par n="collective_numerals"/></e>
       <e><i>pet</i><par n="collective_numerals"/></e>
@@ -30263,6 +30262,15 @@
       <e><i>ob</i><par n="e_je_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="voc"/></r></p></e>
       <e><i>ob</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="loc"/></r></p></e>
       <e><i>ob</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="ins"/></r></p></e>
+
+      <!--The both, oboje<nt>-->
+      <e><p><l>oboje</l><r>oboje<s n="prn"/><s n="tot"/><s n="nt"/><s n="nom"/></r></p></e>
+      <e><p><l>oboga</l><r>oboje<s n="prn"/><s n="tot"/><s n="nt"/><s n="gen"/></r></p></e>
+      <e><p><l>oboma</l><r>oboje<s n="prn"/><s n="tot"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e><p><l>oboje</l><r>oboje<s n="prn"/><s n="tot"/><s n="nt"/><s n="acc"/></r></p></e>
+      <e><p><l>oboje</l><r>oboje<s n="prn"/><s n="tot"/><s n="nt"/><s n="voc"/></r></p></e>
+      <e><p><l>oboma</l><r>oboje<s n="prn"/><s n="tot"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e><p><l>oboma</l><r>oboje<s n="prn"/><s n="tot"/><s n="nt"/><s n="ins"/></r></p></e>
 
       <e><p><l>milion</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>miliona</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -43804,14 +43812,24 @@
     <e lm="Erdogan"><i>Erdogan</i><par n="Prezime__cog__np"/></e>
     <e lm="Sadik"><i>Sadik</i><par n="Prezime__cog__np"/></e>
     <e lm="Washington"><i>Washington</i><par n="Prezime__cog__np"/></e>
+
+    <e lm="Čeh"><i>Čeh</i><par n="Prezime__cog__np"/></e>
+    <e lm="Česen"><i>Česen</i><par n="Prezime__cog__np"/></e>
+    <e lm="Šešok"><i>Šešok</i><par n="Prezime__cog__np"/></e>
+    <e lm="Šetinc"><i>Šetinc</i><par n="Tolstoj__cog__np"/></e>
+    <e lm="Školč"><i>Školč</i><par n="Tolstoj__cog__np"/></e>
+    <e lm="Štefan"><i>Štefan</i><par n="Prezime__cog__np"/></e>
+    <e lm="Šturm"><i>Šturm</i><par n="Prezime__cog__np"/></e>
+    <e lm="Franc"><i>Franc</i><par n="Prezime__cog__np"/></e>
     <!--Cognames ending in -a-->
     <e lm="Krneta"><i>Krnet</i><par n="Krnet/a__cog__np"/></e>
     <e lm="Janša"><i>Janš</i><par n="Krnet/a__cog__np"/></e>
-    <e lm="Francaa"><i>Franca</i><par n="Krnet/a__cog__np"/></e>
+    <e lm="Franca"><i>Franc</i><par n="Krnet/a__cog__np"/></e>
     <e lm="Geržina"><i>Geržin</i><par n="Krnet/a__cog__np"/></e>
     <e lm="Berisha"><i>Berish</i><par n="Krnet/a__cog__np"/></e>
     <!--Cognames ending in -ič TODO by Krvoje: Aleš, da l' transkribirate štokavska prezimena -ić=>ič?-->
     <e lm="Tomšič"><i>Tomš</i><par n="Tomš/ič__cog__np"/></e>
+    <e lm="Župančič"><i>Županč</i><par n="Tomš/ič__cog__np"/></e>
     <e lm="Jelinčič"><i>Jelinč</i><par n="Tomš/ič__cog__np"/></e>
     <e lm="Kavčič"><i>Kavč</i><par n="Tomš/ič__cog__np"/></e>
     <!--Cognames ending in -ić-->
@@ -46609,6 +46627,7 @@
     <e lm="kolumnista"><i>kolumnist</i><par n="koleg/a__n"/></e>
     <!--Antroponyms-->
     <e lm="Abraham"><i>Abraham</i><par n="Mislav__np"/></e>
+    <e lm="Štefan"><i>Štefan</i><par n="Mislav__np"/></e>
     <e lm="Adam"><i>Adam</i><par n="Mislav__np"/></e>
     <e lm="Albert"><i>Albert</i><par n="Mislav__np"/></e>
     <e lm="Albin"><i>Albin</i><par n="Mislav__np"/></e>
@@ -46727,6 +46746,7 @@
     <e lm="Tine"><i>Tin</i><par n="Ant/e__np"/></e>
     <e lm="Tone"><i>Ton</i><par n="Ant/e__np"/></e>
     <e lm="Nikola"><i>Nikol</i><par n="Nikol/a__np"/></e>
+    <e lm="žiga"><i>žig</i><par n="Nikol/a__np"/></e>
     <e lm="Joža"><i>Jož</i><par n="Nikol/a__np"/></e>
     <e lm="Pavao"><i>Pav</i><par n="Pav/ao__np"/></e>
     <e lm="Ivica"><i>Ivic</i><par n="Nikol/a__np"/></e>
