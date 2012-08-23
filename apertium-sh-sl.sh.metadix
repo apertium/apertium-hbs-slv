@@ -29723,34 +29723,13 @@
       <e><p><l/><r><s n="num"/></r></p></e>
     </pardef>
     <pardef n="numeros_con_inflexion">
-      <e><p><l></l><r><s n="num"/><s n="f"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="f"/><s n="acc"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="f"/><s n="voc"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="f"/><s n="dat"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="f"/><s n="loc"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="f"/><s n="ins"/></r></p></e>
-      <e><p><l>ju</l><r><s n="num"/><s n="f"/><s n="gen"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="nt"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="nt"/><s n="acc"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="nt"/><s n="voc"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="nt"/><s n="dat"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="nt"/><s n="loc"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="nt"/><s n="ins"/></r></p></e>
-      <e><p><l>ju</l><r><s n="num"/><s n="nt"/><s n="gen"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="mi"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="mi"/><s n="acc"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="mi"/><s n="voc"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="mi"/><s n="dat"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="mi"/><s n="loc"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="mi"/><s n="ins"/></r></p></e>
-      <e><p><l>ju</l><r><s n="num"/><s n="mi"/><s n="gen"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="ma"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="ma"/><s n="acc"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="ma"/><s n="voc"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="ma"/><s n="dat"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="ma"/><s n="loc"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="ma"/><s n="ins"/></r></p></e>
-      <e><p><l>ju</l><r><s n="num"/><s n="ma"/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="num"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="num"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r><s n="num"/><s n="voc"/></r></p></e>
+      <e><p><l>ma</l><r><s n="num"/><s n="dat"/></r></p></e>
+      <e><p><l>ma</l><r><s n="num"/><s n="loc"/></r></p></e>
+      <e><p><l>ma</l><r><s n="num"/><s n="ins"/></r></p></e>
+      <e><p><l>ju</l><r><s n="num"/><s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="collective_numerals">
@@ -29901,22 +29880,14 @@
       <e><i>tri</i><par n="numeros_con_inflexion"/></e>
       <e><i>četiri</i><par n="numeros_sin_inflexion"/></e>
       <e><i>četiri</i><par n="numeros_con_inflexion"/></e>
-      <e><i>pet</i><par n="numeros_con_inflexion"/></e>
-      <e><i>šest</i><par n="numeros_con_inflexion"/></e>
-      <e><i>sedam</i><par n="numeros_con_inflexion"/></e>
-      <e><i>osam</i><par n="numeros_con_inflexion"/></e>
-      <e><i>devet</i><par n="numeros_con_inflexion"/></e>
 
       <e><i>tri</i><par n="numeros_sin_inflexion"/></e>
-      <e><i>četiri</i><par n="numeros_sin_inflexion"/></e>
       <e><i>četiri</i><par n="numeros_sin_inflexion"/></e>
       <e><i>pet</i><par n="numeros_sin_inflexion"/></e>
       <e><i>šest</i><par n="numeros_sin_inflexion"/></e>
       <e><i>sedam</i><par n="numeros_sin_inflexion"/></e>
       <e><i>osam</i><par n="numeros_sin_inflexion"/></e>
       <e><i>devet</i><par n="numeros_sin_inflexion"/></e>
-
-
 
       <e><i>četv</i><par n="collective_numerals"/></e>
       <e><i>pet</i><par n="collective_numerals"/></e>
@@ -30030,7 +30001,6 @@
       <e><i>sedamdeset<b/>i<b/></i><par n="base_numerals"/></e>
       <e><i>osamdeset<b/>i<b/></i><par n="base_numerals"/></e>
       <e><i>devedeset<b/>i<b/></i><par n="base_numerals"/></e>
-
 
       <!--TODO: add a paradigm for these collectives-->
       <e><i>dvoje</i><par n="numeros_sin_inflexion"/></e>
