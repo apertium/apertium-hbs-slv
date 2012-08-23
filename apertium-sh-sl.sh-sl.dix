@@ -16897,6 +16897,9 @@
 
 
     <!-- Num -> Num -->
+	<!--extra -->
+    <e><p><l>dvoje<s n="num"/></l><r>dvoje<s n="num"/></r></p></e>
+
 	<!-- Cardinal-->
     <e><p><l>jedan<s n="num"/></l><r>en<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
     <e><p><l>dva<s n="num"/></l><r>dva<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/></e>
@@ -17007,6 +17010,7 @@
     <e><p><l>devedeset<b/>i<b/>devet<s n="num"/></l><r>devetindevetdeset<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="cas_id"/></e>    
 
     <e><p><l>sto<s n="num"/></l><r>sto<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="cas_id"/></e>    
+    <e><p><l>milion<s n="num"/><s n="mfn"/></l><r>milion<s n="num"/><s n="mfn"/></r></p><par n="num_id"/><par n="cas_id"/></e>
 
 	<!-- Cardinal - only .num -->
     <e><p><l>jedan<s n="num"/></l><r>en<s n="num"/></r></p></e>
