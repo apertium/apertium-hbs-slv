@@ -17311,7 +17311,7 @@
     <e><p><l>devedeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>osemindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
     <e><p><l>devedeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>devetindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>    
 
-    <e><p><l>stotina<s n="n"/></l><r>stoter<s n="num"/><s n="coll"/></r></p><par n="f2gens"/><par n="num_id"/><par n="cas_id"/></e>
+    <e r="RL"><p><l>stotina<s n="n"/></l><r>stoter<s n="num"/><s n="coll"/></r></p><par n="f2gens"/><par n="num_id"/><par n="cas_id"/></e>
 
   </section>
 
