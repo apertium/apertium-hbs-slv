@@ -16950,7 +16950,7 @@
     <e><p><l>jedan<s n="num"/></l><r>en<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
     <e><p><l>dva<s n="num"/></l><r>dva<s n="num"/></r></p><par n="gen_id"/><par n="null2num_du"/><par n="cas_id"/></e>
     <e><p><l>tri<s n="num"/></l><r>tri<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="cas_id"/></e>
-    <e><p><l>četiri<s n="num"/></l><r>štiri<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="null2cas"/></e>
+    <e><p><l>četiri<s n="num"/></l><r>štiri<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="cas_id"/></e>
     <e><p><l>pet<s n="num"/></l><r>pet<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="null2cas"/></e>
     <e><p><l>šest<s n="num"/></l><r>šest<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="null2cas"/></e>
     <e><p><l>sedam<s n="num"/></l><r>sedem<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="null2cas"/></e>
