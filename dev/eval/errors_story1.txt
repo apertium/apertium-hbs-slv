@@ -1,80 +1,3 @@
-SL pravilo za s/z
-
-značajan pomemben
-hrvati default, ne hrvatje
-činiti tvoriti
-nacionalni narodni
-manje NAPAKA manj (male)
-kopnen kopenski DODAJ
-iznosi predstavlja
-što ki (zdaj je kateri)
-svrstava uvršča
-među medjo NAPAKA med
-grad mesto
-gospodarski gospodarski DODAJ
-središte središče DODAJ
-prema po (zdaj nasproti)
-ustroj (ni v sh) 
-demokracija (ni v sh)
-PRAVILO: n vbser --> vbser n (pa še kaj prej, ne takšno pravilo)  po političnem prepričanju hrvaška je, pravilno bi bilo je hrvaška
-*Ujedinjenih manjka v sh
-naroda v sl je moški spol
-*Vijeće svet
-trgovinski (manjka v sh)
-konac konec (namesto cvirn)
-sveti sveti (adj) verjetno svet svet
-doba (manjka v sh)
-*nalazište (manjka v sh)
-*pećina pečina
-pronađeni su so najdeni
-predmet predmet
-najstariji se prevaja v stari, POGLEJ
-*obrađeni obdelan
-*okresivanjem PUSTI
-važan pomemben
-*spilji votlina
-brdo hrib
-ostatak (manjka v sh)
-neandertalski manjka v sh
-oruđe manjka v sh
-*Nalazište 
-*krapinskog 
-*pračovjeka
-najvažnijih najpomembnejših
-važan pomemben
-*Živio
-*tisuća
-prije pred
-Kristusa prevede v Kristusa namesto Kristusom (napačna disambiguacija)
-@plodan
-nizina 
-*nalazište
-*prostirala razprostirati
-*nositelji nosilec
-*ratari poljedelec
-stočarov nima zvezdicem je pa napačen prevod stočar živinorejec
-*sojenicama
-*bojali barvati
-uz ob (zdaj s)
-@južan
-diktatorskimi to je prevedel iz dalmatinski!!!
-*smeđe rjava
-*ukrašenima okrašen
-*otiscima odtisek
-*puževa polž
-*Metalno kovinski
-*doba doba
-*golubica golobica
-kraj adv je ob
-*pravokutnog  pravokoten
-*oblika oblika
-*glačanog glajenega
-te in
-*kalupi kalup
-*lijevanje vlivanje
-*bakrenih bakrenih
-*Glasovit viden
-*nalaz najdba
 *obliku oblika
 poznan/poznanega poznan
 rani zgodnji
@@ -117,16 +40,19 @@ kamen (adj) kamnit
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+manje NAPAKA manj (male)
+što ki (zdaj je kateri)
+među medjo NAPAKA med
+prema po (zdaj nasproti)
+PRAVILO: n vbser --> vbser n (pa še kaj prej, ne takšno pravilo)  po političnem prepričanju hrvaška je, pravilno bi bilo je hrvaška
+*Ujedinjenih manjka v sh
+SL pravilo za s/z
+pronađeni su so najdeni
+*okresivanjem PUSTI
+*Živio
+Kristusa prevede v Kristusa namesto Kristusom (napačna disambiguacija)
+stočarov nima zvezdicem je pa napačen prevod stočar živinorejec
+uz ob (zdaj s)
+@južan
+kraj adv je ob
+te in
