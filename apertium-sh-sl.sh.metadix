@@ -47407,7 +47407,6 @@
     <e lm="sida"><i>sid</i><par n="žen/a__n"/></e>
     <e lm="usporedba"><i>uspored</i><par n="nared/ba__n"/></e>
     <e lm="stotina"><i>stotin</i><par n="žen/a__n"/></e>
-    <e lm="tisuća"><i>tisuć</i><par n="žen/a__n"/></e>
     <e lm="trava"><i>trav</i><par n="žen/a__n"/></e>
     <e lm="mačka" a="slasher"><i>mačk</i><par n="žen/a__n"/></e>
     <e lm="zvijezda"><i>zv</i><par n="e_ije__yat"/><i>zd</i><par n="žen/a__n"/></e>
@@ -51930,13 +51929,13 @@
     <!--/Velika Gorica-->
 
     <!--Ujedinjeni narodi--><!--Pluralia tantum-->
-    <e lm="Ujedinjeni narodi"><p><l>Ujedinjeni<b/>narodi</l><r>Ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e lm="Ujedinjeni narodi"><p><l>Ujedinjenih<b/>naroda</l><r>Ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
-    <e lm="Ujedinjeni narodi"><p><l>Ujedinjenim<b/>narodima</l><r>Ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
-    <e lm="Ujedinjeni narodi"><p><l>Ujedinjene<b/>narode</l><r>Ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
-    <e lm="Ujedinjeni narodi"><p><l>Ujedinjeni<b/>narodi</l><r>Ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e lm="Ujedinjeni narodi"><p><l>Ujedinjenim<b/>narodima</l><r>Ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
-    <e lm="Ujedinjeni narodi"><p><l>Ujedinjenim<b/>narodima</l><r>Ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e lm="ujedinjeni narodi"><p><l>ujedinjeni<b/>narodi</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e lm="ujedinjeni narodi"><p><l>ujedinjenih<b/>naroda</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e lm="ujedinjeni narodi"><p><l>ujedinjenim<b/>narodima</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+    <e lm="ujedinjeni narodi"><p><l>ujedinjene<b/>narode</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e lm="ujedinjeni narodi"><p><l>ujedinjeni<b/>narodi</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e lm="ujedinjeni narodi"><p><l>ujedinjenim<b/>narodima</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e lm="ujedinjeni narodi"><p><l>ujedinjenim<b/>narodima</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
     <!--/Ujedinjeni narodi-->
 
     <!--Compound adverbs-->
