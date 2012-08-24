@@ -267,6 +267,9 @@
 
     <def-attr n="a_num">
       <attr-item tags="num"/>
+      <attr-item tags="num.coll"/>
+      <attr-item tags="num.ord"/>
+      <attr-item tags="num.*"/>
     </def-attr>
 
     <def-attr n="a_prp">
@@ -682,6 +685,18 @@
 	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enainsedemdeset"/></equal>
 	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enainosemdeset"/></equal>
 	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enaindevetdeset"/></equal>
+	      <!--The collectives-->
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enaindvajseter"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enaintrideseter"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enainštirideseter"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enainpetdeseter"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enainšestdeseter"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enainsedemdeseter"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enainosemdeseter"/></equal>
+	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enaindevetdeseter"/></equal>
+	      <ends-with><clip pos="1" side="tl" part="lem"/><lit v="*jedan"/></ends-with>
+	      <equal><clip pos="1" side="sl" part="a_num"/><lit-tag v="num.ord"/></equal>
+	      <equal><clip pos="1" side="tl" part="lem"/><lit v="milion"/></equal>
 	    </or>
 	  </test>
 	  <let>
@@ -694,6 +709,21 @@
 	      <clip pos="1" side="tl" part="cas"/>
 	    </concat>
 	  </let>
+	</when>
+	<when><!-- For when the target is a noun (stotero<num> -> stotina<n>, tisuća...) -->
+	  <test>
+	    <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="n"/></equal>
+	  </test>
+	  <!-- Do nothing, i.e. output the noun as it's in the bidix -->
+	</when>
+	<when><!--Collectives are always <nt> -->
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_num"/><lit-tag v="num.coll"/></equal>
+	      <equal><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.coll"/></equal>
+	    </and>
+	  </test>
+	  <let><clip pos="1" side="tl" part="gen"/><lit-tag v="nt"/></let>
 	</when>
 	<otherwise><!--For now just normalises to the caseless version, though the collective case should be covered-->
 	  <let>

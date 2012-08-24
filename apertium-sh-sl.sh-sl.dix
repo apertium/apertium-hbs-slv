@@ -220,7 +220,15 @@
       <e r="RL"><p><l><s n="sg"/></l><r><s n="du"/></r></p></e>
       <e><p><l></l><r></r></p></e>
     </pardef>
-    
+
+    <pardef n="f2gens">
+      <e r="RL"><p><l><s n="f"/></l><r><s n="m"/></r></p></e>
+      <e r="RL"><p><l><s n="f"/></l><r><s n="ma"/></r></p></e>
+      <e r="RL"><p><l><s n="f"/></l><r><s n="mi"/></r></p></e>
+      <e><p><l><s n="f"/></l><r><s n="f"/></r></p></e>
+      <e r="RL"><p><l><s n="f"/></l><r><s n="nt"/></r></p></e>
+    </pardef>    
+
     <pardef n="gen_id">
       <e><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
       <e><p><l><s n="ma"/></l><r><s n="ma"/></r></p></e>
@@ -16962,6 +16970,15 @@
     <e><p><l>osamnaest<s n="num"/></l><r>osemnajst<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="null2cas"/></e>
     <e><p><l>devetnaest<s n="num"/></l><r>devetnajst<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="null2cas"/></e>
 
+    <e r="RL"><p><l>dvadeset<b/>i<b/>jedan<s n="num"/></l><r>enaindvajseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+    <e r="RL"><p><l>trideset<b/>i<b/>jedan<s n="num"/></l><r>enaintrideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+    <e r="RL"><p><l>četrdeset<b/>i<b/>jedan<s n="num"/></l><r>enainštirideseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+    <e r="RL"><p><l>pedeset<b/>i<b/>jedan<s n="num"/></l><r>enainpetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+    <e r="RL"><p><l>šezdeset<b/>i<b/>jedan<s n="num"/></l><r>enainšestdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+    <e r="RL"><p><l>sedamdeset<b/>i<b/>jedan<s n="num"/></l><r>enainsedemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+    <e r="RL"><p><l>osamdeset<b/>i<b/>jedan<s n="num"/></l><r>enainosemdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+    <e r="RL"><p><l>devedeset<b/>i<b/>jedan<s n="num"/></l><r>enaindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
+
     <e><p><l>dvadeset<s n="num"/></l><r>dvajset<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="null2cas"/></e>
     <e><p><l>dvadeset<b/>i<b/>jedan<s n="num"/></l><r>enaindvajset<s n="num"/></r></p><par n="gen_id"/><par n="num_id_pl"/><par n="cas_id"/></e>
     <e><p><l>dvadeset<b/>i<b/>dva<s n="num"/></l><r>dvaindvajset<s n="num"/></r></p><par n="gen_id"/><par n="null2num_pl"/><par n="cas_id"/></e>
@@ -17277,7 +17294,7 @@
     <e><p><l>devedeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>osemindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
     <e><p><l>devedeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>devetindevetdeseter<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>    
 
-    <e><p><l>sto<s n="num"/><s n="coll"/></l><r>sto<s n="num"/><s n="coll"/></r></p><par n="gen_id"/><par n="null2num"/><par n="cas_id"/></e>
+    <e><p><l>stotina<s n="n"/></l><r>stoter<s n="num"/><s n="coll"/></r></p><par n="f2gens"/><par n="num_id"/><par n="cas_id"/></e>
 
   </section>
 
