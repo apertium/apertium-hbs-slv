@@ -531,11 +531,11 @@
 	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="supn"/></equal></test>
 	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="inf"/></let>
 	</when>
-	<when>
-	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pp"/></equal></test>
-	  <call-macro n="m2mima"><with-param pos="1"/></call-macro>
-	  <let><clip pos="1" side="tl" part="trn"/><lit-tag v="tv"/></let><!--This is evil, but intransitive verbs have no <pp> -->
-	</when>
+	<!-- <when> -->
+	<!--   <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pp"/></equal></test> -->
+	<!--   <call-macro n="m2mima"><with-param pos="1"/></call-macro> -->
+	<!--   <let><clip pos="1" side="tl" part="trn"/><lit-tag v="tv"/></let>--><!--This is evil, but intransitive verbs have no <pp> -->
+	<!-- </when> -->
 	<when><!-- Past to lp -->
 	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="past"/></equal></test>
 	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp"/></let>

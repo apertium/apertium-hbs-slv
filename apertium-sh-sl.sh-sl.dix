@@ -7222,21 +7222,17 @@
     <e><p><l>pasti<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>pasti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 
     <e><p><l>rizikovati<s n="vblex"/><s n="perf"/></l><r>riskirati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2iv"/></e>
-    <e r="LR"><p><l>rizikovati<s n="vblex"/><s n="imperf"/></l><r>riskirati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2iv"/></e>
+    <e><p><l>rizikovati<s n="vblex"/><s n="imperf"/></l><r>riskirati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
 
     <e><p><l>riskirati<s n="vblex"/><s n="perf"/></l><r>riskirati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2iv"/></e>
-    <e r="LR"><p><l>riskirati<s n="vblex"/><s n="imperf"/></l><r>riskirati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
+    <e><p><l>riskirati<s n="vblex"/><s n="imperf"/></l><r>riskirati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
 
     <e><p><l>dezinformisati<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>dezinformirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e r="LR"><p><l>dezinformisati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>dezinformirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>dezinformisati<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>dezinformirati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e r="LR"><p><l>dezinformisati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>dezinformirati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
 
-    <e><p><l>parkirati<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>parkirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e r="LR"><p><l>parkirati<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>parkirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
-    <e><p><l>parkirati<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>parkirati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-    <e r="LR"><p><l>parkirati<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>parkirati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-
+    <e><p><l>parkirati<s n="vblex"/></l><r>parkirati<s n="vblex"/></r></p></e>
 
     
     <!-- both to both + x2allforms/allforms2x -->
@@ -7573,7 +7569,6 @@
 	<e r="LR"><p><l>dezinformirati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>dezinformirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 	<e><p><l>inicirati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>inicirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
 	<e><p><l>nominirati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>imenovati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-	<e><p><l>parkirati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>parkirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 	<e><p><l>dezinformisati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>dezinformirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 	<e r="LR"><p><l>dezinformisati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>dezinformirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 	<e><p><l>razići<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>raziti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
