@@ -29819,7 +29819,7 @@
     </pardef>
 
     <pardef n="base_numerals">
-
+      <e><p><l>jedan</l><r>jedan<s n="num"/></r></p></e>
       <e><p><l>jedan</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>jednog</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
       <e r="LR"><p><l>jednoga</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -30084,6 +30084,7 @@
       <e><i>devetnaest</i><par n="collective_numerals"/></e>
       <e><i>dvadeset</i><par n="collective_numerals"/></e>
 
+      <e><p><l>jedan</l><r>jedan<s n="num"/></r></p></e>
       <e><p><l>jedan</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>jednog</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
       <e r="LR"><p><l>jednoga</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>

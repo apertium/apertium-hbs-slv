@@ -16965,6 +16965,7 @@
     <!-- Num -> Num -->
 	<!--extra -->
     <e><p><l>dvoje<s n="num"/></l><r>dvoje<s n="num"/></r></p></e>
+    <!-- <e r="LR"><p><l>jedan<s n="num"/></l><r>en<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e> -->
 
 	<!-- Cardinal-->
     <e><p><l>jedan<s n="num"/></l><r>en<s n="num"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/></e>
