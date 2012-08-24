@@ -28344,14 +28344,14 @@
       <e><p><l>ama</l><r>e<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
     <pardef n="Havaj/i__np"><!--Pluralia tantum-->
-      <e><p><l>e</l><r>i<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>a</l><r>i<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>â</l><r>i<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>e</l><r>i<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l>ima</l><r>i<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>ima</l><r>i<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
-      <e><p><l>e</l><r>i<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
-      <e><p><l>ima</l><r>i<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>i</l><r>i<s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>a</l><r>i<s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>â</l><r>i<s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>e</l><r>i<s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ima</l><r>i<s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ima</l><r>i<s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>e</l><r>i<s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>ima</l><r>i<s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
     <pardef n="Bosn/a__np">
       <e><p><l>a</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -32620,10 +32620,10 @@
     <e lm="UN"><i>UN</i><par n="NATO__abbr"/></e>
     <e lm="SAD"><i>SAD</i><par n="NATO__abbr"/></e>
     <e lm="UNMIK"><i>UNMIK</i><par n="NATO__abbr"/></e>
-    <e lm="Sjedinjene Američke Države"><i></i><par n="SAD__np"/></e>
-    <e lm="Southeast European Times"><i>Southeast<b/>European<b/>Times</i><par n="SETimes__np"/></e>
-    <e lm="SETimes"><i>SETimes</i><par n="SETimes__np"/></e>
-    <e lm="Unilang"><i>Unilang</i><par n="SETimes__np"/></e>
+    <!-- <e lm="Sjedinjene Američke Države"><i></i><par n="SAD__np"/></e> -->
+    <!-- <e lm="Southeast European Times"><i>Southeast<b/>European<b/>Times</i><par n="SETimes__np"/></e> -->
+    <!-- <e lm="SETimes"><i>SETimes</i><par n="SETimes__np"/></e> -->
+    <!-- <e lm="Unilang"><i>Unilang</i><par n="SETimes__np"/></e> -->
 
     <!-- SL abbreviations --> 
     <e lm="al"><p><l>al</l><r>al<s n="abbr"/></r></p></e>
@@ -43820,7 +43820,6 @@
     <e lm="Školč"><i>Školč</i><par n="Tolstoj__cog__np"/></e>
     <e lm="Štefan"><i>Štefan</i><par n="Prezime__cog__np"/></e>
     <e lm="Šturm"><i>Šturm</i><par n="Prezime__cog__np"/></e>
-    <e lm="Franc"><i>Franc</i><par n="Prezime__cog__np"/></e>
     <!--Cognames ending in -a-->
     <e lm="Krneta"><i>Krnet</i><par n="Krnet/a__cog__np"/></e>
     <e lm="Janša"><i>Janš</i><par n="Krnet/a__cog__np"/></e>
@@ -45336,7 +45335,7 @@
     <e lm="Ivanov"><i>Ivano</i><par n="Bulgako/v__cog__np"/></e>
     <e lm="Petkov"><i>Petko</i><par n="Bulgako/v__cog__np"/></e>
     <e lm="Petrov"><i>Petro</i><par n="Bulgako/v__cog__np"/></e>
-    <e lm="Goce Delčev"><i></i><par n="GoceDelčev__np"/></e>
+    <!-- <e lm="Goce Delčev"><i></i><par n="GoceDelčev__np"/></e> -->
     <e lm="Velčev"><i>Velče</i><par n="Bulgako/v__cog__np"/></e>
     <e lm="Stanišev"><i>Staniše</i><par n="Bulgako/v__cog__np"/></e>
     <e lm="Botev"><i>Bote</i><par n="Bulgako/v__cog__np"/></e>
@@ -46758,7 +46757,7 @@
     <e lm="Matija"><i>Matij</i><par n="Nikol/a__np"/></e>
     <e lm="Mitja"><i>Mitj</i><par n="Nikol/a__np"/></e>
     <e lm="Pitagora"><i>Pitagor</i><par n="Nikol/a__np"/></e>
-    <e lm="Aleksandar"><i>Aleksand</i><par n="Pet/ar__np"/></e>
+    <!-- <e lm="Aleksandar"><i>Aleksand</i><par n="Pet/ar__np"/></e> -->
     <e lm="Bajram"><i>Bajram</i><par n="Mislav__np"/></e>
     <e lm="Fatlum"><i>Fatlum</i><par n="Mislav__np"/></e>
     <e lm="Hasan"><i>Hasan</i><par n="Mislav__np"/></e>
@@ -48912,18 +48911,21 @@
 
     <!--Toponyms and proper nouns-->
     <e lm="Hrvatska"><i>Hrvats</i><par n="Hrvats/ka__np"/></e>
+    <e lm="Češka"><i>Češ</i><par n="Hrvats/ka__np"/></e>
     <e lm="Danska"><i>Dans</i><par n="Hrvats/ka__np"/></e>
+    <e lm="Štajerska"><i>Štajers</i><par n="Hrvats/ka__np"/></e>
+    <e lm="Škotska"><i>Škots</i><par n="Hrvats/ka__np"/></e>
     <e lm="Irska"><i>Irs</i><par n="Hrvats/ka__np"/></e>
     <e lm="Moravska"><i>Moravs</i><par n="Hrvats/ka__np"/></e>
     <e lm="Koruška"><i>Koruš</i><par n="Hrvats/ka__np"/></e>
     <e lm="Turska"><i>Turs</i><par n="Hrvats/ka__np"/></e>
     <e lm="Bugarska"><i>Bugars</i><par n="Hrvats/ka__np"/></e>
-    <e lm="Finska"><i>Fins</i><par n="Hrvats/ka__np"/></e>
+    <!-- <e lm="Finska"><i>Fins</i><par n="Hrvats/ka__np"/></e> -->
     <e lm="Francuska"><i>Francus</i><par n="Hrvats/ka__np"/></e>
     <e lm="Švicarska"><i>Švicars</i><par n="Hrvats/ka__np"/></e>
     <e lm="Švicarska"><i>Švajcars</i><par n="Hrvats/ka__np"/></e>
     <e lm="Švedska"><i>Šveds</i><par n="Hrvats/ka__np"/></e>
-    <e lm="Rumunjska"><i>Rumunjs</i><par n="Hrvats/ka__np"/></e>
+    <!-- <e lm="Rumunjska"><i>Rumunjs</i><par n="Hrvats/ka__np"/></e> -->
     <e lm="Španjolska"><i>Španjols</i><par n="Hrvats/ka__np"/></e>
     <e lm="Španija"><i>Špan</i><par n="Srb/ija__np"/></e>
     <e lm="Srbija"><i>Srb</i><par n="Srb/ija__np"/></e>
@@ -48963,18 +48965,19 @@
     <e lm="Skandinavija"><i>Skandinav</i><par n="Srb/ija__np"/></e>
     <e lm="Slovenija"><i>Sloven</i><par n="Srb/ija__np"/></e>
     <e lm="Srbija"><i>Srb</i><par n="Srb/ija__np"/></e>
-    <e lm="Rumunija"><i>Rumun</i><par n="Srb/ija__np"/></e>
+    <!-- <e lm="Rumunija"><i>Rumun</i><par n="Srb/ija__np"/></e> -->
     <e lm="Bosna"><i>Bosn</i><par n="Bosn/a__np"/></e>
-    <e lm="Kamenica"><i>Kamenic</i><par n="Bosn/a__np"/></e>
+    <e lm="Ženeva"><i>Ženev</i><par n="Bosn/a__np"/></e>
+    <!-- <e lm="Kamenica"><i>Kamenic</i><par n="Bosn/a__np"/></e> -->
     <e lm="Pivka"><i>Pivk</i><par n="Bosn/a__np"/></e>
     <e lm="Mojstrovka"><i>Mojstrovk</i><par n="Bosn/a__np"/></e>
     <e lm="Ida"><i>Id</i><par n="Bosn/a__np"/></e>
     <e lm="Marjeta"><i>Marjet</i><par n="Bosn/a__np"/></e>
     <e lm="Helena"><i>Helen</i><par n="Bosn/a__np"/></e>
-    <e lm="Mitrovica"><i>Mitrovic</i><par n="Bosn/a__np"/></e>
-    <e lm="Priština"><i>Prištin</i><par n="Bosn/a__np"/></e>
-    <e lm="Ankara"><i>Ankar</i><par n="Bosn/a__np"/></e>
-    <e lm="Tirana"><i>Tiran</i><par n="Bosn/a__np"/></e>
+    <!-- <e lm="Mitrovica"><i>Mitrovic</i><par n="Bosn/a__np"/></e> -->
+    <!-- <e lm="Priština"><i>Prištin</i><par n="Bosn/a__np"/></e> -->
+    <!-- <e lm="Ankara"><i>Ankar</i><par n="Bosn/a__np"/></e> -->
+    <!-- <e lm="Tirana"><i>Tiran</i><par n="Bosn/a__np"/></e> -->
     <e lm="Europa"><i>Europ</i><par n="Bosn/a__np"/></e>
     <e lm="Evropa"><i>Evrop</i><par n="Bosn/a__np"/></e>
     <e lm="Drava"><i>Drav</i><par n="Bosn/a__np"/></e>
@@ -49051,16 +49054,16 @@
     <e lm="Kosovo"><i>Kosov</i><par n="Sarajev/o__np"/></e>
     <e lm="Meksiko"><i>Meksik</i><par n="Meksik/o__np"/></e>
     <e lm="Veneto"><i>Venet</i><par n="Meksik/o__np"/></e>
-    <e lm="Podujevo"><i>Podujev</i><par n="Sarajev/o__np"/></e>
-    <e lm="Skopje"><i>Skopj</i><par n="Skopj/e__np"/></e>
-    <e lm="Skoplje"><p><l>Skoplj</l><r>Skopj</r></p><par n="Skopj/e__np"/></e>
+    <!-- <e lm="Podujevo"><i>Podujev</i><par n="Sarajev/o__np"/></e> -->
+    <!-- <e lm="Skopje"><i>Skopj</i><par n="Skopj/e__np"/></e> -->
+    <!-- <e lm="Skoplje"><p><l>Skoplj</l><r>Skopj</r></p><par n="Skopj/e__np"/></e> -->
     <e lm="Dovje"><i>Dovj</i><par n="Skopj/e__np"/></e>
     <e lm="Grosuplje"><i>Grosuplj</i><par n="Skopj/e__np"/></e>
     <e lm="Celje"><i>Celj</i><par n="Skopj/e__np"/></e>
     <e lm="Pohorje"><i>Pohorj</i><par n="Skopj/e__np"/></e>
     <e lm="Sredozemlje"><i>Sredozemlj</i><par n="Skopj/e__np"/></e>
     <e lm="Velenje"><i>Velenj</i><par n="Skopj/e__np"/></e>
-    <e lm="Hercegovina"><i>Hercegovin</i><par n="Bosn/a__np"/></e>
+    <!-- <e lm="Hercegovina"><i>Hercegovin</i><par n="Bosn/a__np"/></e> -->
     <e lm="Jugoslavija"><i>Jugoslav</i><par n="Srb/ija__np"/></e>
     <e lm="Albanija"><i>Alban</i><par n="Srb/ija__np"/></e>
     <e lm="Makedonija"><i>Makedon</i><par n="Srb/ija__np"/></e>
@@ -49092,25 +49095,25 @@
     <e lm="Austrija"><i>Austr</i><par n="Srb/ija__np"/></e>
     <e lm="Sofija"><i>Sof</i><par n="Srb/ija__np"/></e>
     <e lm="Libija"><i>Lib</i><par n="Srb/ija__np"/></e>
-    <e lm="Moldavija"><i>Moldav</i><par n="Srb/ija__np"/></e>
+    <!-- <e lm="Moldavija"><i>Moldav</i><par n="Srb/ija__np"/></e> -->
     <e lm="Estonija"><i>Eston</i><par n="Srb/ija__np"/></e>
     <e lm="Australija"><i>Austral</i><par n="Srb/ija__np"/></e>
     <e lm="Litva"><i>Litv</i><par n="Bosn/a__np"/></e>
     <e lm="Litvanija"><i>Litvan</i><par n="Srb/ija__np"/></e>
     <e lm="Dalmacija"><i>Dalmac</i><par n="Srb/ija__np"/></e>
-    <e lm="Nikozija"><i>Nikoz</i><par n="Srb/ija__np"/></e>
+    <!-- <e lm="Nikozija"><i>Nikoz</i><par n="Srb/ija__np"/></e> -->
     <e lm="Indija"><i>Ind</i><par n="Srb/ija__np"/></e>
     <e lm="Sirija"><i>Sir</i><par n="Srb/ija__np"/></e>
     <e lm="Kolumbija"><i>Kolumb</i><par n="Srb/ija__np"/></e>
     <e lm="Nigerija"><i>Niger</i><par n="Srb/ija__np"/></e>
-    <e lm="Bjelorusija"><i>B</i><par n="e_je__yat"/><i>lorus</i><par n="Srb/ija__np"/></e>
+    <!-- <e lm="Bjelorusija"><i>B</i><par n="e_je__yat"/><i>lorus</i><par n="Srb/ija__np"/></e> -->
     <e lm="Portugalija"><i>Portugal</i><par n="Srb/ija__np"/></e>
     <e lm="Ambrož"><i>Ambrož</i><par n="Križ__np"/></e>
     <e lm="Andrej"><i>Andrej</i><par n="Križ__np"/></e>
     <e lm="Bohinj"><i>Bohinj</i><par n="Križ__np"/></e>
     <e lm="Broadway"><i>Broadway</i><par n="Križ__np"/></e>
     <e lm="Bruselj"><i>Bruselj</i><par n="Križ__np"/></e>
-    <e lm="Jurij"><i>Jurij</i><par n="Križ__np"/></e>
+    <!-- <e lm="Jurij"><i>Jurij</i><par n="Križ__np"/></e> -->
     <e lm="Križ"><i>Križ</i><par n="Križ__np"/></e>
     <e lm="Oglej"><i>Oglej</i><par n="Križ__np"/></e>
     <e lm="Ormož"><i>Ormož</i><par n="Križ__np"/></e>
@@ -49141,14 +49144,12 @@
     <e lm="Grant"><i>Grant</i><par n="Zagreb__np"/></e>
     <e lm="Haag"><i>Haag</i><par n="Zagreb__np"/></e>
     <e lm="Hamburg"><i>Hamburg</i><par n="Zagreb__np"/></e>
-    <e lm="Havaji"><i>Havaji</i><par n="Zagreb__np"/></e>
     <e lm="Hongkong"><i>Hongkong</i><par n="Zagreb__np"/></e>
     <e lm="Hrib"><i>Hrib</i><par n="Zagreb__np"/></e>
     <e lm="Jadran"><i>Jadran</i><par n="Zagreb__np"/></e>
     <e lm="Jakob"><i>Jakob</i><par n="Zagreb__np"/></e>
     <e lm="Jeruzalem"><i>Jeruzalem</i><par n="Zagreb__np"/></e>
     <e lm="Kairo"><i>Kairo</i><par n="Zagreb__np"/></e>
-    <e lm="Karpati"><i>Karpati</i><par n="Zagreb__np"/></e>
     <e lm="Kent"><i>Kent</i><par n="Zagreb__np"/></e>
     <e lm="Kongo"><i>Kongo</i><par n="Zagreb__np"/></e>
     <e lm="Koper"><i>Koper</i><par n="Zagreb__np"/></e>
@@ -49165,7 +49166,6 @@
     <e lm="Pad"><i>Pad</i><par n="Zagreb__np"/></e>
     <e lm="Pariz"><i>Pariz</i><par n="Zagreb__np"/></e>
     <e lm="Piran"><i>Piran</i><par n="Zagreb__np"/></e>
-    <e lm="Pireneji"><i>Pireneji</i><par n="Zagreb__np"/></e>
     <e lm="Rab"><i>Rab</i><par n="Zagreb__np"/></e>
     <e lm="Ren"><i>Ren</i><par n="Zagreb__np"/></e>
     <e lm="Rim"><i>Rim</i><par n="Zagreb__np"/></e>
@@ -49192,7 +49192,7 @@
     <e lm="Beograd"><i>Beograd</i><par n="Zagreb__np"/></e>
     <e lm="Prag"><i>Prag</i><par n="Zagreb__np"/></e>
     <e lm="Zagreb"><i>Zagreb</i><par n="Zagreb__np"/></e>
-    <e lm="Irak"><i>Irak</i><par n="Zagreb__np"/></e>
+    <!-- <e lm="Irak"><i>Irak</i><par n="Zagreb__np"/></e> -->
     <e lm="Dunav"><i>Dunav</i><par n="Zagreb__np"/></e>
     <e lm="Japan"><i>Japan</i><par n="Zagreb__np"/></e>
     <e lm="Lisabon"><i>Lisabon</i><par n="Zagreb__np"/></e>
@@ -49200,15 +49200,15 @@
     <e lm="Sibir"><i>Sibir</i><par n="Zagreb__np"/></e>
     <e lm="Zeland"><i>Zeland</i><par n="Zagreb__np"/></e>
 
-    <e lm="Samokov"><i>Samoko</i><par n="Samoko/v__top__np"/></e>
-    <e lm="Svištov"><i>Svišto</i><par n="Samoko/v__top__np"/></e>
+    <!-- <e lm="Samokov"><i>Samoko</i><par n="Samoko/v__top__np"/></e> -->
+    <!-- <e lm="Svištov"><i>Svišto</i><par n="Samoko/v__top__np"/></e> -->
 
     <e lm="Afrika"><i>Afri</i><par n="Rije/ka__n"/></e>
     <e lm="Antarktika"><i>Antarkti</i><par n="Rije/ka__n"/></e>
     <e lm="Amerika"><i>Ameri</i><par n="Rije/ka__n"/></e>
     <e lm="Korzika"><i>Korzi</i><par n="Rije/ka__n"/></e>
     <e lm="Vrhnika"><i>Vrhni</i><par n="Rije/ka__n"/></e>
-    <e lm="Banja Luka"><i>Rije</i><par n="Rije/ka__n"/></e><!--Perhaps a multiword-->
+    <!-- <e lm="Rijeka"><i>Rije</i><par n="Rije/ka__n"/></e> -->
     <!--Antroponyms-->
     <e lm="Jasenka"><i>Jasen</i><par n="Jasen/ka__n"/></e>
     <e lm="Lucija"><i>Lucij</i><par n="An/a__np"/></e>
@@ -49292,7 +49292,7 @@
 
     <!--end Feminine nouns-->
     <!--Other proper nouns-->
-    <e lm="Gazela"><i>Gazel</i><par n="Gazel/a__np"/></e>
+    <!-- <e lm="Gazela"><i>Gazel</i><par n="Gazel/a__np"/></e> -->
     <e lm="Mura"><i>Mur</i><par n="Gazel/a__np"/></e>
     <e lm="Kominterna"><i>Komintern</i><par n="Gazel/a__np"/></e>
     <!--end Other proper nouns-->
@@ -51174,9 +51174,9 @@
 
   <section id="multiwords" type="standard">
     <!--Instead of spawning paradigms, will be done here-->
-    <e lm="Super Galeb"><i>Super<b/>Galeb</i><par n="SuperGaleb__np"/></e>
-    <e lm="Vojska Srbije"><i>Vojs</i><par n="Vojs/ka__np"/><p><l><b/>Srbije</l><r><g><b/>Srbije</g></r></p></e>
-    <e lm="Vojna akademija"><i/><par n="VojnaAkademija__np"/></e>
+    <!-- <e lm="Super Galeb"><i>Super<b/>Galeb</i><par n="SuperGaleb__np"/></e> -->
+    <!-- <e lm="Vojska Srbije"><i>Vojs</i><par n="Vojs/ka__np"/><p><l><b/>Srbije</l><r><g><b/>Srbije</g></r></p></e> -->
+    <!-- <e lm="Vojna akademija"><i/><par n="VojnaAkademija__np"/></e> -->
 
     <!--Raw multiword entries-->
 

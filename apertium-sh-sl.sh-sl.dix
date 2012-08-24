@@ -12494,6 +12494,18 @@
     <e><p><l>žiga<s n="np"/><s n="ant"/></l><r>žiga<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl_pos"/></e>
     <e><p><l>Štefan<s n="np"/><s n="ant"/></l><r>Štefan<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl_pos"/></e>
 
+    <e><p><l>Nikola<s n="np"/><s n="ant"/></l><r>Nikola<s n="np"/><s n="ant"/></r></p><par n="gen_id"/></e>
+    <e><p><l>Dragiša<s n="np"/><s n="ant"/></l><r>Dragiša<s n="np"/><s n="ant"/></r></p><par n="gen_id"/></e>
+    <e><p><l>Nemanja<s n="np"/><s n="ant"/></l><r>Nemanja<s n="np"/><s n="ant"/></r></p><par n="gen_id"/></e>
+    <!-- <e><p><l>Aleksandar<s n="np"/><s n="ant"/></l><r>Aleksandar<s n="np"/><s n="ant"/></r></p><par n="gen_id"/></e> -->
+    <e><p><l>Bajram<s n="np"/><s n="ant"/></l><r>Bajram<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl_pos"/></e>
+    <e><p><l>Fatlum<s n="np"/><s n="ant"/></l><r>Fatlum<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl_pos"/></e>
+    <e><p><l>Hasan<s n="np"/><s n="ant"/></l><r>Hasan<s n="np"/><s n="ant"/></r></p><par n="gen_id"/><par n="sg_sgpl_pos"/></e>
+
+    <e><p><l>Jasenka<s n="np"/><s n="ant"/></l><r>Jasenka<s n="np"/><s n="ant"/></r></p><par n="gen_id"/></e>
+    <e><p><l>Anja<s n="np"/><s n="ant"/></l><r>Anja<s n="np"/><s n="ant"/></r></p><par n="gen_id"/></e>
+    <e><p><l>Sandra<s n="np"/><s n="ant"/></l><r>Sandra<s n="np"/><s n="ant"/></r></p><par n="gen_id"/></e>
+
     <e><p><l>Katja<s n="np"/><s n="ant"/></l><r>Katja<s n="np"/><s n="ant"/></r></p><par n="gen_id"/></e>
     <e><p><l>Joža<s n="np"/><s n="ant"/></l><r>Joža<s n="np"/><s n="ant"/></r></p><par n="gen_id"/></e>
     <e><p><l>Ana<s n="np"/><s n="ant"/></l><r>Ana<s n="np"/><s n="ant"/></r></p><par n="gen_id"/></e>
@@ -12686,63 +12698,228 @@
 
 
     <!-- Toponyms -->
+
+    <e><p><l>Viktorija<s n="np"/><s n="top"/></l><r>Viktorija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Polinezija<s n="np"/><s n="top"/></l><r>Polinezija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Idrija<s n="np"/><s n="top"/></l><r>Idrija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Mandžurija<s n="np"/><s n="top"/></l><r>Mandžurija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Rezija<s n="np"/><s n="top"/></l><r>Rezija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Italija<s n="np"/><s n="top"/></l><r>Italija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Albanija<s n="np"/><s n="top"/></l><r>Albanija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Andaluzija<s n="np"/><s n="top"/></l><r>Andaluzija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Azija<s n="np"/><s n="top"/></l><r>Azija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Belgija<s n="np"/><s n="top"/></l><r>Belgija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Brazilija<s n="np"/><s n="top"/></l><r>Brazilija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Britanija<s n="np"/><s n="top"/></l><r>Britanija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Dalmacija<s n="np"/><s n="top"/></l><r>Dalmacija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Estonija<s n="np"/><s n="top"/></l><r>Estonija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Francija<s n="np"/><s n="top"/></l><r>Francija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Galicija<s n="np"/><s n="top"/></l><r>Galicija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Indija<s n="np"/><s n="top"/></l><r>Indija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Jugoslavija<s n="np"/><s n="top"/></l><r>Jugoslavija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Kalabrija<s n="np"/><s n="top"/></l><r>Kalabrija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Kaledonija<s n="np"/><s n="top"/></l><r>Kaledonija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Katalonija<s n="np"/><s n="top"/></l><r>Katalonija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Libija<s n="np"/><s n="top"/></l><r>Libija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Lombardija<s n="np"/><s n="top"/></l><r>Lombardija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Makedonija<s n="np"/><s n="top"/></l><r>Makedonija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Mongolija<s n="np"/><s n="top"/></l><r>Mongolija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Normandija<s n="np"/><s n="top"/></l><r>Normandija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Oceanija<s n="np"/><s n="top"/></l><r>Oceanija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Perzija<s n="np"/><s n="top"/></l><r>Perzija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Rusija<s n="np"/><s n="top"/></l><r>Rusija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Sardinija<s n="np"/><s n="top"/></l><r>Sardinija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Skandinavija<s n="np"/><s n="top"/></l><r>Skandinavija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Slovenija<s n="np"/><s n="top"/></l><r>Slovenija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Srbija<s n="np"/><s n="top"/></l><r>Srbija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Sirija<s n="np"/><s n="top"/></l><r>Sirija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Kolumbija<s n="np"/><s n="top"/></l><r>Kolumbija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Nigerija<s n="np"/><s n="top"/></l><r>Nigerija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Dovje<s n="np"/><s n="top"/></l><r>Dovje<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Grosuplje<s n="np"/><s n="top"/></l><r>Grosuplje<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Dolska<s n="np"/><s n="top"/><s n="f"/></l><r>Dolsko<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Grahovo<s n="np"/><s n="top"/></l><r>Grahovo<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Krško<s n="np"/><s n="top"/></l><r>Krško<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Laško<s n="np"/><s n="top"/></l><r>Laško<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Moravska<s n="np"/><s n="top"/><s n="f"/></l><r>Moravsko<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Notranjska<s n="np"/><s n="top"/><s n="f"/></l><r>Notranjsko<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Celje<s n="np"/><s n="top"/></l><r>Celje<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Pohorje<s n="np"/><s n="top"/></l><r>Pohorje<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Sredozemlje<s n="np"/><s n="top"/></l><r>Sredozemlje<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Velenje<s n="np"/><s n="top"/></l><r>Velenje<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Brno<s n="np"/><s n="top"/></l><r>Brno<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Kosovo<s n="np"/><s n="top"/></l><r>Kosovo<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Sarajevo<s n="np"/><s n="top"/></l><r>Sarajevo<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Atlantik<s n="np"/><s n="top"/></l><r>Atlantik<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Balkan<s n="np"/><s n="top"/></l><r>Balkan<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Baltik<s n="np"/><s n="top"/></l><r>Baltik<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Beograd<s n="np"/><s n="top"/></l><r>Beograd<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Berlin<s n="np"/><s n="top"/></l><r>Berlin<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Bled<s n="np"/><s n="top"/></l><r>Bled<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Bogo<s n="np"/><s n="top"/></l><r>Bogo<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Bovec<s n="np"/><s n="top"/></l><r>Bovec<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Brnik<s n="np"/><s n="top"/></l><r>Brnik<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Cejlon<s n="np"/><s n="top"/></l><r>Cejlon<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Ciper<s n="np"/><s n="top"/></l><r>Ciper<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Egipt<s n="np"/><s n="top"/></l><r>Egipt<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Gibraltar<s n="np"/><s n="top"/></l><r>Gibraltar<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Golovec<s n="np"/><s n="top"/></l><r>Golovec<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Gradec<s n="np"/><s n="top"/></l><r>Gradec<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Grant<s n="np"/><s n="top"/></l><r>Grant<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Haag<s n="np"/><s n="top"/></l><r>Haag<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Hamburg<s n="np"/><s n="top"/></l><r>Hamburg<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Hongkong<s n="np"/><s n="top"/></l><r>Hongkong<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Hrib<s n="np"/><s n="top"/></l><r>Hrib<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Jadran<s n="np"/><s n="top"/></l><r>Jadran<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Jakob<s n="np"/><s n="top"/></l><r>Jakob<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Jeruzalem<s n="np"/><s n="top"/></l><r>Jeruzalem<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Kairo<s n="np"/><s n="top"/></l><r>Kairo<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Kent<s n="np"/><s n="top"/></l><r>Kent<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Kongo<s n="np"/><s n="top"/></l><r>Kongo<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Koper<s n="np"/><s n="top"/></l><r>Koper<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>London<s n="np"/><s n="top"/></l><r>London<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Lovrenc<s n="np"/><s n="top"/></l><r>Lovrenc<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Madrid<s n="np"/><s n="top"/></l><r>Madrid<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Maribor<s n="np"/><s n="top"/></l><r>Maribor<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Maroko<s n="np"/><s n="top"/></l><r>Maroko<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Mozambik<s n="np"/><s n="top"/></l><r>Mozambik<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Olimp<s n="np"/><s n="top"/></l><r>Olimp<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Oslo<s n="np"/><s n="top"/></l><r>Oslo<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Pacifik<s n="np"/><s n="top"/></l><r>Pacifik<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Pad<s n="np"/><s n="top"/></l><r>Pad<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Pariz<s n="np"/><s n="top"/></l><r>Pariz<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Piran<s n="np"/><s n="top"/></l><r>Piran<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Rab<s n="np"/><s n="top"/></l><r>Rab<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Ren<s n="np"/><s n="top"/></l><r>Ren<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Rim<s n="np"/><s n="top"/></l><r>Rim<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Split<s n="np"/><s n="top"/></l><r>Split<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Tacen<s n="np"/><s n="top"/></l><r>Tacen<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Tahiti<s n="np"/><s n="top"/></l><r>Tahiti<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Tanger<s n="np"/><s n="top"/></l><r>Tanger<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Teheran<s n="np"/><s n="top"/></l><r>Teheran<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Tibet<s n="np"/><s n="top"/></l><r>Tibet<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Tivoli<s n="np"/><s n="top"/></l><r>Tivoli<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Tolmin<s n="np"/><s n="top"/></l><r>Tolmin<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Torino<s n="np"/><s n="top"/></l><r>Torino<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Triglav<s n="np"/><s n="top"/></l><r>Triglav<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Trst<s n="np"/><s n="top"/></l><r>Trst<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Velebit<s n="np"/><s n="top"/></l><r>Velebit<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Vid<s n="np"/><s n="top"/></l><r>Vid<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Washington<s n="np"/><s n="top"/></l><r>Washington<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>York<s n="np"/><s n="top"/></l><r>York<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Zagreb<s n="np"/><s n="top"/></l><r>Zagreb<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Zalog<s n="np"/><s n="top"/></l><r>Zalog<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Dunav<s n="np"/><s n="top"/><s n="mi"/></l><r>Donava<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Drava<s n="np"/><s n="top"/><s n="f"/></l><r>Drava<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Drina<s n="np"/><s n="top"/><s n="f"/></l><r>Drina<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Kokra<s n="np"/><s n="top"/><s n="f"/></l><r>Kokra<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Bistrica<s n="np"/><s n="top"/><s n="f"/></l><r>Bistrica<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Mura<s n="np"/><s n="top"/><s n="f"/></l><r>Mura<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Neretva<s n="np"/><s n="top"/><s n="f"/></l><r>Neretva<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Pivka<s n="np"/><s n="top"/><s n="f"/></l><r>Pivka<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Sava<s n="np"/><s n="top"/><s n="f"/></l><r>Sava<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Soča<s n="np"/><s n="top"/><s n="f"/></l><r>Soča<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Sotla<s n="np"/><s n="top"/><s n="f"/></l><r>Sotla<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Visla<s n="np"/><s n="top"/><s n="f"/></l><r>Visla<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Helena<s n="np"/><s n="top"/><s n="f"/></l><r>Helena<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Antarktika<s n="np"/><s n="top"/><s n="f"/></l><r>Antarktika<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Argentina<s n="np"/><s n="top"/><s n="f"/></l><r>Argentina<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Arizona<s n="np"/><s n="top"/><s n="f"/></l><r>Arizona<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Barcelona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcelona<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Danska<s n="np"/><s n="top"/><s n="f"/></l><r>Danska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Ženeva<s n="np"/><s n="top"/><s n="f"/></l><r>Ženeva<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Hrvatska<s n="np"/><s n="top"/><s n="f"/></l><r>Hrvaška<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Češka<s n="np"/><s n="top"/><s n="f"/></l><r>Češka<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Škotska<s n="np"/><s n="top"/><s n="f"/></l><r>Škotsko<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="sgpl_sg"/></e><!--TODO: check-->
+    <e><p><l>Štajerska<s n="np"/><s n="top"/><s n="f"/></l><r>Štajerska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Francuska<s n="np"/><s n="top"/><s n="f"/></l><r>Francija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Švicarska<s n="np"/><s n="top"/><s n="f"/></l><r>Švica<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e><!--HR-->
+    <e><p><l>Švajcarska<s n="np"/><s n="top"/><s n="f"/></l><r>Švica<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e><!--BS--><!--SR-->
+    <e><p><l>Španjolska<s n="np"/><s n="top"/><s n="f"/></l><r>Španija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e><!--HR-->
+    <e><p><l>Španija<s n="np"/><s n="top"/><s n="f"/></l><r>Španija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e><!--BS--><!--SR-->
+    <e><p><l>Švedska<s n="np"/><s n="top"/><s n="f"/></l><r>Švedska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Etna<s n="np"/><s n="top"/><s n="f"/></l><r>Etna<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Europa<s n="np"/><s n="top"/><s n="f"/></l><r>Evropa<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Evropa<s n="np"/><s n="top"/><s n="f"/></l><r>Evropa<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Hirošima<s n="np"/><s n="top"/><s n="f"/></l><r>Hirošima<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Irska<s n="np"/><s n="top"/><s n="f"/></l><r>Irska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Japan<s n="np"/><s n="top"/><s n="mi"/></l><r>Japonska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Koreja<s n="np"/><s n="top"/><s n="f"/></l><r>Koreja<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Korzika<s n="np"/><s n="top"/><s n="f"/></l><r>Korzika<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Kuba<s n="np"/><s n="top"/><s n="f"/></l><r>Kuba<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Litva<s n="np"/><s n="top"/><s n="f"/></l><r>Litva<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Litvanija<s n="np"/><s n="top"/><s n="f"/></l><r>Litva<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Lisabon<s n="np"/><s n="top"/><s n="mi"/></l><r>Lizbona<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Ljubljana<s n="np"/><s n="top"/><s n="f"/></l><r>Ljubljana<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Moskva<s n="np"/><s n="top"/><s n="f"/></l><r>Moskva<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Nizozemska<s n="np"/><s n="top"/><s n="f"/></l><r>Nizozemska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e><!--HR-->
+    <e><p><l>Holandija<s n="np"/><s n="top"/><s n="f"/></l><r>Nizozemska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e><!--BS--><!--SR-->
+    <e><p><l>Norveška<s n="np"/><s n="top"/><s n="f"/></l><r>Norveška<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Sofija<s n="np"/><s n="top"/><s n="f"/></l><r>Sofija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Poljska<s n="np"/><s n="top"/><s n="f"/></l><r>Poljska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Portugal<s n="np"/><s n="top"/><s n="mi"/></l><r>Portugalska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Portugalija<s n="np"/><s n="top"/><s n="f"/></l><r>Portugalska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e><!--SR-->
+    <e><p><l>Prag<s n="np"/><s n="top"/><s n="mi"/></l><r>Praga<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Slovačka<s n="np"/><s n="top"/><s n="f"/></l><r>Slovaška<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Sodoma<s n="np"/><s n="top"/><s n="f"/></l><r>Sodoma<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Srebrenica<s n="np"/><s n="top"/><s n="f"/></l><r>Srebrenica<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Turska<s n="np"/><s n="top"/><s n="f"/></l><r>Turčija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Varšava<s n="np"/><s n="top"/><s n="f"/></l><r>Varšava<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Venezuela<s n="np"/><s n="top"/><s n="f"/></l><r>Venezuela<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Vinica<s n="np"/><s n="top"/><s n="f"/></l><r>Vinica<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Dolenjska<s n="np"/><s n="top"/><s n="f"/></l><r>Dolenjska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Emona<s n="np"/><s n="top"/><s n="f"/></l><r>Emona<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Gomora<s n="np"/><s n="top"/><s n="f"/></l><r>Gomora<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Gorenjska<s n="np"/><s n="top"/><s n="f"/></l><r>Gorenjska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Ida<s n="np"/><s n="top"/><s n="f"/></l><r>Ida<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Istra<s n="np"/><s n="top"/><s n="f"/></l><r>Istra<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Izola<s n="np"/><s n="top"/><s n="f"/></l><r>Izola<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Java<s n="np"/><s n="top"/><s n="f"/></l><r>Java<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Kanada<s n="np"/><s n="top"/><s n="f"/></l><r>Kanada<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Kina<s n="np"/><s n="top"/><s n="f"/></l><r>Kitajska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Kokra<s n="np"/><s n="top"/><s n="f"/></l><r>Kokra<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Bistrica<s n="np"/><s n="top"/><s n="f"/></l><r>Bistrica<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Koruška<s n="np"/><s n="top"/><s n="f"/></l><r>Koroška<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Kredarica<s n="np"/><s n="top"/><s n="f"/></l><r>Kredarica<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Marjeta<s n="np"/><s n="top"/><s n="f"/></l><r>Marjeta<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Mojstrana<s n="np"/><s n="top"/><s n="f"/></l><r>Mojstrana<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Mojstrovka<s n="np"/><s n="top"/><s n="f"/></l><r>Mojstrovka<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Njemačka<s n="np"/><s n="top"/><s n="f"/></l><r>Nemčija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Pivka<s n="np"/><s n="top"/><s n="f"/></l><r>Pivka<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Polzela<s n="np"/><s n="top"/><s n="f"/></l><r>Polzela<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Postojna<s n="np"/><s n="top"/><s n="f"/></l><r>Postojna<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Primorska<s n="np"/><s n="top"/><s n="f"/></l><r>Primorska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Radovljica<s n="np"/><s n="top"/><s n="f"/></l><r>Radovljica<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Sava<s n="np"/><s n="top"/><s n="f"/></l><r>Sava<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Soča<s n="np"/><s n="top"/><s n="f"/></l><r>Soča<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Tirolska<s n="np"/><s n="top"/><s n="f"/></l><r>Tirolska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Trenta<s n="np"/><s n="top"/><s n="f"/></l><r>Trenta<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Tuzla<s n="np"/><s n="top"/><s n="f"/></l><r>Tuzla<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Vojvodina<s n="np"/><s n="top"/><s n="f"/></l><r>Vojvodina<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Vrhnika<s n="np"/><s n="top"/><s n="f"/></l><r>Vrhnika<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Afrika<s n="np"/><s n="top"/><s n="f"/></l><r>Afrika<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Engleska<s n="np"/><s n="top"/><s n="f"/></l><r>Anglija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Australija<s n="np"/><s n="top"/><s n="f"/></l><r>Avstralija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Austrija<s n="np"/><s n="top"/><s n="f"/></l><r>Avstrija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Bugarska<s n="np"/><s n="top"/><s n="f"/></l><r>Bolgarija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Bosna<s n="np"/><s n="top"/><s n="f"/></l><r>Bosna<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Euroazija<s n="np"/><s n="top"/><s n="f"/></l><r>Evrazija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Grčka<s n="np"/><s n="top"/><s n="f"/></l><r>Grčija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Island<s n="np"/><s n="top"/><s n="mi"/></l><r>Islandija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Sibir<s n="np"/><s n="top"/><s n="mi"/></l><r>Sibirija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Zeland<s n="np"/><s n="top"/><s n="mi"/></l><r>Zelandija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Gora<s n="np"/><s n="top"/><s n="f"/></l><r>Gora<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+
     <e><p><l>Lucija<s n="np"/><s n="ant"/></l><r>Lucija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Viktorija<s n="np"/><s n="top"/></l><r>Viktorija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Polinezija<s n="np"/><s n="top"/></l><r>Polinezija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Idrija<s n="np"/><s n="top"/></l><r>Idrija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Mandžurija<s n="np"/><s n="top"/></l><r>Mandžurija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Rezija<s n="np"/><s n="top"/></l><r>Rezija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Italija<s n="np"/><s n="top"/></l><r>Italija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Albanija<s n="np"/><s n="top"/></l><r>Albanija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Andaluzija<s n="np"/><s n="top"/></l><r>Andaluzija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Australija<s n="np"/><s n="top"/></l><r>Australija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Austrija<s n="np"/><s n="top"/></l><r>Austrija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Azija<s n="np"/><s n="top"/></l><r>Azija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Belgija<s n="np"/><s n="top"/></l><r>Belgija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Brazilija<s n="np"/><s n="top"/></l><r>Brazilija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Britanija<s n="np"/><s n="top"/></l><r>Britanija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Dalmacija<s n="np"/><s n="top"/></l><r>Dalmacija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Estonija<s n="np"/><s n="top"/></l><r>Estonija<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Australija<s n="np"/><s n="top"/></l><r>Avstralija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Austrija<s n="np"/><s n="top"/></l><r>Avstrija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
+    <e><p><l>Azija<s n="np"/><s n="top"/></l><r>Azija<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
     <e><p><l>Euroazija<s n="np"/><s n="top"/></l><r>Euroazija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Francija<s n="np"/><s n="top"/></l><r>Francija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Galicija<s n="np"/><s n="top"/></l><r>Galicija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Indija<s n="np"/><s n="top"/></l><r>Indija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Jugoslavija<s n="np"/><s n="top"/></l><r>Jugoslavija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Kalabrija<s n="np"/><s n="top"/></l><r>Kalabrija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Kaledonija<s n="np"/><s n="top"/></l><r>Kaledonija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Katalonija<s n="np"/><s n="top"/></l><r>Katalonija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Libija<s n="np"/><s n="top"/></l><r>Libija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Lombardija<s n="np"/><s n="top"/></l><r>Lombardija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Makedonija<s n="np"/><s n="top"/></l><r>Makedonija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Mongolija<s n="np"/><s n="top"/></l><r>Mongolija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Normandija<s n="np"/><s n="top"/></l><r>Normandija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Oceanija<s n="np"/><s n="top"/></l><r>Oceanija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Perzija<s n="np"/><s n="top"/></l><r>Perzija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Rusija<s n="np"/><s n="top"/></l><r>Rusija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Sardinija<s n="np"/><s n="top"/></l><r>Sardinija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Skandinavija<s n="np"/><s n="top"/></l><r>Skandinavija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Slovenija<s n="np"/><s n="top"/></l><r>Slovenija<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Srbija<s n="np"/><s n="top"/></l><r>Srbija<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Danska<s n="np"/><s n="top"/><s n="f"/></l><r>Dansko<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 
-    <e><p><l>Dovje<s n="np"/><s n="top"/></l><r>Dovje<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Grosuplje<s n="np"/><s n="top"/></l><r>Grosuplje<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Dolska<s n="np"/><s n="top"/><s n="f"/></l><r>Dolsko<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Gorenjska<s n="np"/><s n="top"/><s n="f"/></l><r>Gorenjsko<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Grahovo<s n="np"/><s n="top"/></l><r>Grahovo<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Irska<s n="np"/><s n="top"/><s n="f"/></l><r>Irsko<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Koruška<s n="np"/><s n="top"/><s n="f"/></l><r>Koroško<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Krško<s n="np"/><s n="top"/></l><r>Krško<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Laško<s n="np"/><s n="top"/></l><r>Laško<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Moravska<s n="np"/><s n="top"/><s n="f"/></l><r>Moravsko<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Notranjska<s n="np"/><s n="top"/><s n="f"/></l><r>Notranjsko<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Celje<s n="np"/><s n="top"/></l><r>Celje<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Pohorje<s n="np"/><s n="top"/></l><r>Pohorje<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Sredozemlje<s n="np"/><s n="top"/></l><r>Sredozemlje<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Velenje<s n="np"/><s n="top"/></l><r>Velenje<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Brno<s n="np"/><s n="top"/></l><r>Brno<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Kosovo<s n="np"/><s n="top"/></l><r>Kosovo<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Sarajevo<s n="np"/><s n="top"/></l><r>Sarajevo<s n="np"/><s n="top"/></r></p></e>
 
     <!-- Cognames -->
     <e><p><l>Acevski<s n="np"/><s n="cog"/></l><r>Acevski<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
@@ -12756,7 +12933,6 @@
     <e><p><l>Školč<s n="np"/><s n="cog"/></l><r>Školč<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Štefan<s n="np"/><s n="cog"/></l><r>Štefan<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Šturm<s n="np"/><s n="cog"/></l><r>Šturm<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
-    <e><p><l>Franc<s n="np"/><s n="cog"/></l><r>Franc<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
 
     <e><p><l>Aleksovski<s n="np"/><s n="cog"/></l><r>Aleksovski<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Anatoliski<s n="np"/><s n="cog"/></l><r>Anatoliski<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
@@ -13080,7 +13256,7 @@
     <e><p><l>Drnovšek<s n="np"/><s n="cog"/></l><r>Drnovšek<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Edison<s n="np"/><s n="cog"/></l><r>Edison<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Einstein<s n="np"/><s n="cog"/></l><r>Einstein<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
-    <e><p><l>Franca<s n="np"/><s n="cog"/></l><r>Franca<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+    <e><p><l>Franca<s n="np"/><s n="cog"/></l><r>Franca<s n="np"/><s n="cog"/></r></p><par n="all2ma"/><par n="sg_sgpl_pos"/></e>
     <e><p><l>Freud<s n="np"/><s n="cog"/></l><r>Freud<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Gaspari<s n="np"/><s n="cog"/></l><r>Gaspari<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Geržina<s n="np"/><s n="cog"/></l><r>Geržina<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
@@ -13106,7 +13282,7 @@
     <e><p><l>Magellan<s n="np"/><s n="cog"/></l><r>Magellan<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Marx<s n="np"/><s n="cog"/></l><r>Marx<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Matuš<s n="np"/><s n="cog"/></l><r>Matuš<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
-    <e><p><l>Maver<s n="np"/><s n="cog"/></l><r>Maver<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
+    <e><p><l>Maver<s n="np"/><s n="cog"/></l><r>Maver<s n="np"/><s n="cog"/></r></p><par n="all2ma"/><par n="sg_sgpl_pos"/></e>
     <e><p><l>Milton<s n="np"/><s n="cog"/></l><r>Milton<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Miro<s n="np"/><s n="cog"/></l><r>Miro<s n="np"/><s n="cog"/></r></p><par n="all2ma"/><par n="sg_sgpl_pos"/></e>
     <e><p><l>Marko<s n="np"/><s n="cog"/></l><r>Marko<s n="np"/><s n="cog"/></r></p><par n="all2ma"/><par n="sg_sgpl_pos"/></e>
@@ -14560,7 +14736,7 @@
     <e><p><l>Mura<s n="np"/><s n="cog"/></l><r>Mura<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
     <e><p><l>Kominterna<s n="np"/><s n="cog"/></l><r>Kominterna<s n="np"/><s n="cog"/></r></p><par n="all2ma"/></e>
 
-    <e><p><l>Andrej<s n="np"/><s n="ant"/></l><r>Andrej<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Andrej<s n="np"/><s n="top"/></l><r>Andrej<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Anton<s n="np"/><s n="ant"/></l><r>Anton<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Boštjan<s n="np"/><s n="ant"/></l><r>Boštjan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Gregor<s n="np"/><s n="ant"/></l><r>Gregor<s n="np"/><s n="top"/></r></p></e>
@@ -14569,83 +14745,25 @@
 
 
     <e><p><l>Ambrož<s n="np"/><s n="top"/></l><r>Ambrož<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Atlantik<s n="np"/><s n="top"/></l><r>Atlantik<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Balkan<s n="np"/><s n="top"/></l><r>Balkan<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Baltik<s n="np"/><s n="top"/></l><r>Baltik<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Beograd<s n="np"/><s n="top"/></l><r>Beograd<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Berlin<s n="np"/><s n="top"/></l><r>Berlin<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Bled<s n="np"/><s n="top"/></l><r>Bled<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Bogo<s n="np"/><s n="top"/></l><r>Bogo<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Atlantik<s n="np"/><s n="top"/></l><r>Atlantik<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
     <e><p><l>Bohinj<s n="np"/><s n="top"/></l><r>Bohinj<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Bovec<s n="np"/><s n="top"/></l><r>Bovec<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Brnik<s n="np"/><s n="top"/></l><r>Brnik<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Broadway<s n="np"/><s n="top"/></l><r>Broadway<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bruselj<s n="np"/><s n="top"/></l><r>Bruselj<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Cejlon<s n="np"/><s n="top"/></l><r>Cejlon<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ciper<s n="np"/><s n="top"/></l><r>Ciper<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Egipt<s n="np"/><s n="top"/></l><r>Egipt<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Gibraltar<s n="np"/><s n="top"/></l><r>Gibraltar<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Golovec<s n="np"/><s n="top"/></l><r>Golovec<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Gradec<s n="np"/><s n="top"/></l><r>Gradec<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Grant<s n="np"/><s n="top"/></l><r>Grant<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Haag<s n="np"/><s n="top"/></l><r>Haag<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Hamburg<s n="np"/><s n="top"/></l><r>Hamburg<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Havaji<s n="np"/><s n="top"/></l><r>Havaji<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Hongkong<s n="np"/><s n="top"/></l><r>Hongkong<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Hrib<s n="np"/><s n="top"/></l><r>Hrib<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Jadran<s n="np"/><s n="top"/></l><r>Jadran<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Jakob<s n="np"/><s n="top"/></l><r>Jakob<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Jeruzalem<s n="np"/><s n="top"/></l><r>Jeruzalem<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Kairo<s n="np"/><s n="top"/></l><r>Kairo<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Karpati<s n="np"/><s n="top"/></l><r>Karpati<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Kent<s n="np"/><s n="top"/></l><r>Kent<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Kongo<s n="np"/><s n="top"/></l><r>Kongo<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Koper<s n="np"/><s n="top"/></l><r>Koper<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Križ<s n="np"/><s n="top"/></l><r>Križ<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>London<s n="np"/><s n="top"/></l><r>London<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Lovrenc<s n="np"/><s n="top"/></l><r>Lovrenc<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Madrid<s n="np"/><s n="top"/></l><r>Madrid<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Maribor<s n="np"/><s n="top"/></l><r>Maribor<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Maroko<s n="np"/><s n="top"/></l><r>Maroko<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Mozambik<s n="np"/><s n="top"/></l><r>Mozambik<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>New<b/>York<s n="np"/><s n="top"/></l><r>New<b/>York<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>New<b/>York<s n="np"/><s n="top"/></l><r>New<b/>York<s n="np"/><s n="top"/></r></p><par n="gen_id"/><par n="sgpl_sg"/></e>
     <e><p><l>Oglej<s n="np"/><s n="top"/></l><r>Oglej<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Olimp<s n="np"/><s n="top"/></l><r>Olimp<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ormož<s n="np"/><s n="top"/></l><r>Ormož<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Oslo<s n="np"/><s n="top"/></l><r>Oslo<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Pacifik<s n="np"/><s n="top"/></l><r>Pacifik<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Pad<s n="np"/><s n="top"/></l><r>Pad<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Paradiž<s n="np"/><s n="top"/></l><r>Paradiž<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Pariz<s n="np"/><s n="top"/></l><r>Pariz<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Piran<s n="np"/><s n="top"/></l><r>Piran<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Pireneji<s n="np"/><s n="top"/></l><r>Pireneji<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Portorož<s n="np"/><s n="top"/></l><r>Portorož<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Primož<s n="np"/><s n="top"/></l><r>Primož<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ptuj<s n="np"/><s n="top"/></l><r>Ptuj<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Rab<s n="np"/><s n="top"/></l><r>Rab<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ren<s n="np"/><s n="top"/></l><r>Ren<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Rim<s n="np"/><s n="top"/></l><r>Rim<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Semič<s n="np"/><s n="top"/></l><r>Semič<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Split<s n="np"/><s n="top"/></l><r>Split<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Tacen<s n="np"/><s n="top"/></l><r>Tacen<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Tahiti<s n="np"/><s n="top"/></l><r>Tahiti<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Tanger<s n="np"/><s n="top"/></l><r>Tanger<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Teheran<s n="np"/><s n="top"/></l><r>Teheran<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Tibet<s n="np"/><s n="top"/></l><r>Tibet<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Tivoli<s n="np"/><s n="top"/></l><r>Tivoli<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Tolmin<s n="np"/><s n="top"/></l><r>Tolmin<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Tomaž<s n="np"/><s n="top"/></l><r>Tomaž<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Torino<s n="np"/><s n="top"/></l><r>Torino<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Trbiž<s n="np"/><s n="top"/></l><r>Trbiž<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Triglav<s n="np"/><s n="top"/></l><r>Triglav<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Trst<s n="np"/><s n="top"/></l><r>Trst<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Velebit<s n="np"/><s n="top"/></l><r>Velebit<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Vič<s n="np"/><s n="top"/></l><r>Vič<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Vid<s n="np"/><s n="top"/></l><r>Vid<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Washington<s n="np"/><s n="top"/></l><r>Washington<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>York<s n="np"/><s n="top"/></l><r>York<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Zagreb<s n="np"/><s n="top"/></l><r>Zagreb<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Zalog<s n="np"/><s n="top"/></l><r>Zalog<s n="np"/><s n="top"/></r></p></e>
 
 
     <e><p><l>Ravne<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Ravne<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
@@ -14667,98 +14785,21 @@
 
 
     <!--Toponyms-->
-    <e><p><l>Dunav<s n="np"/><s n="top"/><s n="mi"/></l><r>Donava<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Drava<s n="np"/><s n="top"/><s n="f"/></l><r>Drava<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Drina<s n="np"/><s n="top"/><s n="f"/></l><r>Drina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Kokra<s n="np"/><s n="top"/><s n="f"/></l><r>Kokra<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Bistrica<s n="np"/><s n="top"/><s n="f"/></l><r>Bistrica<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Mura<s n="np"/><s n="top"/><s n="f"/></l><r>Mura<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Neretva<s n="np"/><s n="top"/><s n="f"/></l><r>Neretva<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Pivka<s n="np"/><s n="top"/><s n="f"/></l><r>Pivka<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Sava<s n="np"/><s n="top"/><s n="f"/></l><r>Sava<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Soča<s n="np"/><s n="top"/><s n="f"/></l><r>Soča<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Sotla<s n="np"/><s n="top"/><s n="f"/></l><r>Sotla<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Visla<s n="np"/><s n="top"/><s n="f"/></l><r>Visla<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Helena<s n="np"/><s n="top"/><s n="f"/></l><r>Helena<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Antarktika<s n="np"/><s n="top"/><s n="f"/></l><r>Antarktika<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Argentina<s n="np"/><s n="top"/><s n="f"/></l><r>Argentina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Arizona<s n="np"/><s n="top"/><s n="f"/></l><r>Arizona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Barcelona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcelona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Argentina<s n="np"/><s n="top"/><s n="f"/></l><r>Argentina<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Arizona<s n="np"/><s n="top"/><s n="f"/></l><r>Arizona<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>Veneto<s n="np"/><s n="top"/><s n="mi"/></l><r>Benečija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sg_sgpl"/></e>
-    <e><p><l>Danska<s n="np"/><s n="top"/><s n="f"/></l><r>Danska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Etna<s n="np"/><s n="top"/><s n="f"/></l><r>Etna<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Europa<s n="np"/><s n="top"/><s n="f"/></l><r>Evropa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Evropa<s n="np"/><s n="top"/><s n="f"/></l><r>Evropa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Hirošima<s n="np"/><s n="top"/><s n="f"/></l><r>Hirošima<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Irska<s n="np"/><s n="top"/><s n="f"/></l><r>Irska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Japan<s n="np"/><s n="top"/><s n="mi"/></l><r>Japonska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Koreja<s n="np"/><s n="top"/><s n="f"/></l><r>Koreja<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Korzika<s n="np"/><s n="top"/><s n="f"/></l><r>Korzika<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Kuba<s n="np"/><s n="top"/><s n="f"/></l><r>Kuba<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Litva<s n="np"/><s n="top"/><s n="f"/></l><r>Litva<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Lisabon<s n="np"/><s n="top"/><s n="mi"/></l><r>Lizbona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Ljubljana<s n="np"/><s n="top"/><s n="f"/></l><r>Ljubljana<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Moskva<s n="np"/><s n="top"/><s n="f"/></l><r>Moskva<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Nizozemska<s n="np"/><s n="top"/><s n="f"/></l><r>Nizozemska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Norveška<s n="np"/><s n="top"/><s n="f"/></l><r>Norveška<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Poljska<s n="np"/><s n="top"/><s n="f"/></l><r>Poljska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Portugal<s n="np"/><s n="top"/><s n="mi"/></l><r>Portugalska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Prag<s n="np"/><s n="top"/><s n="mi"/></l><r>Praga<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Slovačka<s n="np"/><s n="top"/><s n="f"/></l><r>Slovaška<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Sodoma<s n="np"/><s n="top"/><s n="f"/></l><r>Sodoma<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Srebrenica<s n="np"/><s n="top"/><s n="f"/></l><r>Srebrenica<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Turska<s n="np"/><s n="top"/><s n="f"/></l><r>Turčija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Varšava<s n="np"/><s n="top"/><s n="f"/></l><r>Varšava<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Venezuela<s n="np"/><s n="top"/><s n="f"/></l><r>Venezuela<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Vinica<s n="np"/><s n="top"/><s n="f"/></l><r>Vinica<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>Štajerska<s n="np"/><s n="top"/><s n="f"/></l><r>Štajersko<s n="np"/><s n="top"/><s n="nt"/></r></p></e><!--TODO: check-->
+
+    <e><p><l>Finska<s n="np"/><s n="top"/><s n="f"/></l><r>Finska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <!-- <e><p><l>Hercegovina<s n="np"/><s n="top"/><s n="f"/></l><r>Hercegovina<s n="np"/><s n="top"/><s n="f"/></r></p></e> -->
+
     <e><p><l>Amerika<s n="np"/><s n="top"/><s n="f"/></l><r>Amerika<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Dolenjska<s n="np"/><s n="top"/><s n="f"/></l><r>Dolenjska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Emona<s n="np"/><s n="top"/><s n="f"/></l><r>Emona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Gomora<s n="np"/><s n="top"/><s n="f"/></l><r>Gomora<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Gorenjska<s n="np"/><s n="top"/><s n="f"/></l><r>Gorenjska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Ida<s n="np"/><s n="top"/><s n="f"/></l><r>Ida<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Istra<s n="np"/><s n="top"/><s n="f"/></l><r>Istra<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Izola<s n="np"/><s n="top"/><s n="f"/></l><r>Izola<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Java<s n="np"/><s n="top"/><s n="f"/></l><r>Java<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Kanada<s n="np"/><s n="top"/><s n="f"/></l><r>Kanada<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Kina<s n="np"/><s n="top"/><s n="f"/></l><r>Kitajska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Kokra<s n="np"/><s n="top"/><s n="f"/></l><r>Kokra<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Bistrica<s n="np"/><s n="top"/><s n="f"/></l><r>Bistrica<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Koruška<s n="np"/><s n="top"/><s n="f"/></l><r>Koroška<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Kredarica<s n="np"/><s n="top"/><s n="f"/></l><r>Kredarica<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Marjeta<s n="np"/><s n="top"/><s n="f"/></l><r>Marjeta<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Meksiko<s n="np"/><s n="top"/><s n="mi"/></l><r>Mehika<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sg_sgpl"/></e>
-    <e><p><l>Mojstrana<s n="np"/><s n="top"/><s n="f"/></l><r>Mojstrana<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Mojstrovka<s n="np"/><s n="top"/><s n="f"/></l><r>Mojstrovka<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Njemačka<s n="np"/><s n="top"/><s n="f"/></l><r>Nemčija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Pivka<s n="np"/><s n="top"/><s n="f"/></l><r>Pivka<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Polzela<s n="np"/><s n="top"/><s n="f"/></l><r>Polzela<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Postojna<s n="np"/><s n="top"/><s n="f"/></l><r>Postojna<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Primorska<s n="np"/><s n="top"/><s n="f"/></l><r>Primorska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Radovljica<s n="np"/><s n="top"/><s n="f"/></l><r>Radovljica<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Sava<s n="np"/><s n="top"/><s n="f"/></l><r>Sava<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Soča<s n="np"/><s n="top"/><s n="f"/></l><r>Soča<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Tirolska<s n="np"/><s n="top"/><s n="f"/></l><r>Tirolska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Trenta<s n="np"/><s n="top"/><s n="f"/></l><r>Trenta<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Tuzla<s n="np"/><s n="top"/><s n="f"/></l><r>Tuzla<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Vojvodina<s n="np"/><s n="top"/><s n="f"/></l><r>Vojvodina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Vrhnika<s n="np"/><s n="top"/><s n="f"/></l><r>Vrhnika<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Afrika<s n="np"/><s n="top"/><s n="f"/></l><r>Afrika<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Engleska<s n="np"/><s n="top"/><s n="f"/></l><r>Anglija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Australija<s n="np"/><s n="top"/><s n="f"/></l><r>Avstralija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Austrija<s n="np"/><s n="top"/><s n="f"/></l><r>Avstrija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Bugarska<s n="np"/><s n="top"/><s n="f"/></l><r>Bolgarija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Bosna<s n="np"/><s n="top"/><s n="f"/></l><r>Bosna<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Euroazija<s n="np"/><s n="top"/><s n="f"/></l><r>Evrazija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Grčka<s n="np"/><s n="top"/><s n="f"/></l><r>Grčija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Island<s n="np"/><s n="top"/><s n="mi"/></l><r>Islandija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Sibir<s n="np"/><s n="top"/><s n="mi"/></l><r>Sibirija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Zeland<s n="np"/><s n="top"/><s n="mi"/></l><r>Zelandija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <e><p><l>Gora<s n="np"/><s n="top"/><s n="f"/></l><r>Gora<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Austrija<s n="np"/><s n="top"/><s n="f"/></l><r>Avstrija<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
 
     <!--Altri-->
-    <e><p><l>Mura<s n="np"/><s n="al"/><s n="f"/></l><r>Mura<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-    <e><p><l>Kominterna<s n="np"/><s n="al"/><s n="f"/></l><r>Kominterna<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e><p><l>Mura<s n="np"/><s n="al"/><s n="f"/></l><r>Mura<s n="np"/><s n="al"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Kominterna<s n="np"/><s n="al"/><s n="f"/></l><r>Kominterna<s n="np"/><s n="al"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
 
     <!--TODO: disambiguation pas<mi> == waist, pas<ma> ==dog-->
     <e><p><l>pas<s n="n"/><s n="ma"/></l><r>pes<s n="n"/><s n="ma"/></r></p></e>
