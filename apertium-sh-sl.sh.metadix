@@ -7700,6 +7700,7 @@
       <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
       <!--Participles-->
       <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
+      <e><p><l>an</l><r>ati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp_sfx_extra__vblex"/></e>
       <!--  <e><p><l>ući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>--><!--verbose adverbs-->
       <e><p><l>ući</l><r>ući<s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
     </pardef>
@@ -33919,6 +33920,7 @@
     <e lm="izvijestiti"><i>izv</i><par n="e_ije__yat"/><par n="perf_iv_pu/stiti__vblex"/></e>
     <e lm="oštetiti"><i>ošte</i><par n="perf_tv_vra/titi__vblex"/></e>
     <e lm="oštetiti"><i>ošte</i><par n="perf_ref_vra/titi__vblex"/></e>
+    <e lm="naštetiti"><i>našte</i><par n="perf_iv_vra/titi__vblex"/></e>
     <e lm="sjetiti"><i>s</i><par n="e_je__yat"/><par n="perf_iv_vra/titi__vblex"/></e>
     <e lm="sjetiti"><i>s</i><par n="e_je__yat"/><par n="perf_ref_vra/titi__vblex"/></e>
     <e lm="vratiti"><i>vra</i><par n="perf_tv_vra/titi__vblex"/></e>
@@ -33926,6 +33928,7 @@
     <e lm="zaštititi"><i>zašti</i><par n="perf_tv_vra/titi__vblex"/></e>
     <e lm="zaštititi"><i>zašti</i><par n="perf_ref_vra/titi__vblex"/></e>
     <e lm="štititi"><i>šti</i><par n="imperf_tv_pra/titi__vblex"/></e>
+    <e lm="štetiti"><i>šte</i><par n="imperf_iv_pra/titi__vblex"/></e>
     <e lm="štititi"><i>šti</i><par n="imperf_ref_pra/titi__vblex"/></e>
     <e lm="posjetiti"><i>pos</i><par n="e_je__yat"/><par n="perf_tv_vra/titi__vblex"/></e>
     <e lm="uputiti"><i>upu</i><par n="perf_tv_vra/titi__vblex"/></e>
@@ -35329,6 +35332,7 @@
     <e lm="bojkotirati"><i>bojkotir</i><par n="perf_tv_bir/ati__vblex"/></e>
     <e lm="dominirati"><i>dominir</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="dominirati"><i>dominir</i><par n="perf_iv_bir/ati__vblex"/></e>
+    <e lm="datirati"><i>datir</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="datirati"><i>datir</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="datirati"><i>datir</i><par n="perf_iv_bir/ati__vblex"/></e>
     <e lm="bazirati"><i>bazir</i><par n="imperf_tv_bir/ati__vblex"/></e>
@@ -50760,7 +50764,6 @@
     <e lm="uslužiti"><i>usluž</i><par n="perf_ref_istraž/iti__vblex"/></e>
     <e lm="nagliti"><i>nagl</i><par n="imperf_iv_gul/iti__vblex"/></e>
     <e lm="samoopredijeliti"><i>samoopredijel</i><par n="perf_ref_ogul/iti__vblex"/></e>
-    <e lm="naštetiti"><i>našte</i><par n="perf_iv_vra/titi__vblex"/></e>
     <e lm="preduprediti"><i>predupre</i><par n="imperf_tv_ra/diti__vblex"/></e>
     <e lm="moljeti"><i>mol</i><par n="imperf_iv_žel/jeti__vblex"/></e>
     <e lm="moljeti"><i>mol</i><par n="imperf_tv_žel/jeti__vblex"/></e>

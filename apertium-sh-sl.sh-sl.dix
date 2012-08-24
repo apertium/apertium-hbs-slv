@@ -5559,6 +5559,7 @@
     <e><p><l>htjeti<s n="vbmod"/><s n="lp"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="past"/></r></p></e>
     <e><p><l>htjeti<s n="vbmod"/><s n="imp"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="imp"/></r></p></e>
     <e><p><l>htjeti<s n="vbmod"/><s n="inf"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
+    <e><p><l>ne<s n="part"/><s n="neg"/><j/>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/></l><r>hoteti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="neg"/></r></p></e>
 
     
     <!-- Moći, morati, trebati (vbmod, vblex) -->
@@ -6004,7 +6005,7 @@
     <e><p><l>presretati<s n="vblex"/><s n="imperf"/></l><r>pričakati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>zagrtati<s n="vblex"/><s n="imperf"/></l><r>pokrivati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>uzletjeti<s n="vblex"/><s n="perf"/></l><r>vzleteti<s n="vblex"/><s n="perf"/></r></p><par n="iv2iv"/></e>
-    <e><p><l>čekati<s n="vblex"/><s n="imperf"/></l><r>čakati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>čekati<s n="vblex"/><s n="imperf"/></l><r>čakati<s n="vblex"/><s n="imperf"/></r></p><par n="iv2tv"/></e>
     <e><p><l>uzeti<s n="vblex"/><s n="perf"/></l><r>vzeti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>izuzeti<s n="vblex"/><s n="perf"/></l><r>izvzeti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>zauzeti<s n="vblex"/><s n="perf"/></l><r>zavzeti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
@@ -6599,7 +6600,7 @@
     <e><p><l>smijeniti<s n="vblex"/><s n="perf"/></l><r>zamenjati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>isteći<s n="vblex"/><s n="perf"/></l><r>iztekati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>prepričavati<s n="vblex"/><s n="imperf"/></l><r>prepričevati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
-    <e><p><l>prestajati<s n="vblex"/><s n="imperf"/></l><r>prenehati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>prestajati<s n="vblex"/><s n="imperf"/></l><r>prenehati<s n="vblex"/><s n="perf"/></r></p><par n="iv2tv"/></e>
     <e><p><l>iznijeti<s n="vblex"/><s n="perf"/></l><r>odnesti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>kvariti<s n="vblex"/><s n="imperf"/></l><r>kvariti<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>strujati<s n="vblex"/><s n="imperf"/></l><r>krožiti<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
@@ -6926,7 +6927,7 @@
     <e r="RL"><p><l>pretplaćivati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>abonirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e r="RL"><p><l>posluživati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>servirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e r="RL"><p><l>učvršćivati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>fiksirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e r="RL"><p><l>naštetiti<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>škodovati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>štetiti<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>škodovati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e r="RL"><p><l>potraživati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>zahtevati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e r="RL"><p><l>buniti<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>protestirati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e r="RL"><p><l>smoći<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>zmoči<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
