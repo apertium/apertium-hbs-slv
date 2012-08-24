@@ -676,24 +676,7 @@
 	<when>
 	  <test>
 	    <or>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="en"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enaindvajset"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enaintrideset"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enainštirideset"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enainpetdeset"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enainšestdeset"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enainsedemdeset"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enainosemdeset"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enaindevetdeset"/></equal>
-	      <!--The collectives-->
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enaindvajseter"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enaintrideseter"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enainštirideseter"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enainpetdeseter"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enainšestdeseter"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enainsedemdeseter"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enainosemdeseter"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="enaindevetdeseter"/></equal>
+	      <ends-with><clip pos="1" side="tl" part="lemh"/><lit v="jedan"/></ends-with> 
 	      <equal><clip pos="1" side="sl" part="a_num"/><lit-tag v="num.ord"/></equal>
 	      <equal><clip pos="1" side="tl" part="lemh"/><lit v="milion"/></equal>
 	    </or>
