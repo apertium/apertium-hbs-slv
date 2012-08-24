@@ -1,45 +1,3 @@
-*obliku oblika
-poznan/poznanega poznan
-rani zgodnji
-*brončanog bronast
-*kontinentalne kontinentalen
-@različit različen
-*obimu obseg
-*nastavljaju nastavljati nadaljevati
-*Dolina dolina
-*kasnom kasen
-*brončanom bronast
-*žarama žara
-nazvana imenovana
-*glinenim glinen
-*polagao polagal
- *pepeo pepel
-*Gorice gorica
-*željeznom železen
-prije pred
-Kupa Kolpa
-sobokm sabo
-*lončarsko
-kolo kolo (zdaj voz)
-*umijeće znanje
-*kovanja kovanje
-*plemena pleme
-spomenuti omeniti
-*gradili graditi
-utvrda utrdba
-kamen (adj) kamnit
-*priobalja obala
-*brodograditeljskom ladjedelski
-*umječe znanje
-*gusarenju gusarjenje
-*lađe ladja
-*zvale imenovati
-*lemb lemb
-*Rimljani rimljani
-*liburnskome liburnijski
-
-
-
 manje NAPAKA manj (male)
 što ki (zdaj je kateri)
 među medjo NAPAKA med
@@ -56,3 +14,10 @@ uz ob (zdaj s)
 @južan
 kraj adv je ob
 te in
+*nastavljaju nastavljati nadaljevati
+*Gorice gorica
+Kupa Kolpa
+sobokm sabo
+utvrda utrdba
+*umječe znanje
+*lemb lemb
