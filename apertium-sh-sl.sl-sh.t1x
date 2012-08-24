@@ -694,7 +694,7 @@
 	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enainsedemdeseter"/></equal>
 	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enainosemdeseter"/></equal>
 	      <equal><clip pos="1" side="sl" part="lem"/><lit v="enaindevetdeseter"/></equal>
-	      <ends-with><clip pos="1" side="tl" part="lem"/><lit v="*jedan"/></ends-with>
+	      <ends-with><clip pos="1" side="tl" part="lem"/><lit v="jedan"/></ends-with>
 	      <equal><clip pos="1" side="sl" part="a_num"/><lit-tag v="num.ord"/></equal>
 	      <equal><clip pos="1" side="tl" part="lem"/><lit v="milion"/></equal>
 	    </or>

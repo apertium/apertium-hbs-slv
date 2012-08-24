@@ -30333,6 +30333,22 @@
       <e><p><l>oboma</l><r>oboje<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
       <e><p><l>oboma</l><r>oboje<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
 
+      <e><p><l>tisuća</l><r>tisuća<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>tisuće</l><r>tisuća<s n="num"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>tisuću</l><r>tisuća<s n="num"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>tisući</l><r>tisuća<s n="num"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>tisući</l><r>tisuća<s n="num"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>tisućo</l><r>tisuća<s n="num"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>tisućom</l><r>tisuća<s n="num"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>tisuće</l><r>tisuća<s n="num"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>tisuće</l><r>tisuća<s n="num"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>tisuće</l><r>tisuća<s n="num"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>tisuća</l><r>tisuća<s n="num"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>tisućâ</l><r>tisuća<s n="num"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>tisućama</l><r>tisuća<s n="num"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>tisućama</l><r>tisuća<s n="num"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>tisućama</l><r>tisuća<s n="num"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+
       <e><p><l>milion</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>miliona</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>milion</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="acc"/></r></p></e>
