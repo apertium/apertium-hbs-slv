@@ -5601,6 +5601,7 @@
     <e><p><l>dolaziti<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>prihajati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>slijetati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>pristajati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
     <e><p><l>narediti<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>narediti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>svrstavati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>uvrščati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
 
 	<e><p><l>naelektrizirati<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>naelektriti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 	<e><p><l>izvirati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>izvirati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
@@ -6449,7 +6450,7 @@
     <e><p><l>opsluživati<s n="vblex"/><s n="imperf"/></l><r>poslužiti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>osnaživati<s n="vblex"/><s n="imperf"/></l><r>osnažiti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>izmučivati<s n="vblex"/><s n="imperf"/></l><r>namučiti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
-    <e><p><l>iznositi<s n="vblex"/><s n="imperf"/></l><r>iznesti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>iznositi<s n="vblex"/><s n="imperf"/></l><r>predstavljati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>podnijeti<s n="vblex"/><s n="perf"/></l><r>prenesti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>prenijeti<s n="vblex"/><s n="perf"/></l><r>prenesti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>raspraviti<s n="vblex"/><s n="perf"/></l><r>pretresti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
@@ -6988,7 +6989,7 @@
     <e><p><l>prakticirati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>prakticirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>inicirati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>inicirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>inzistirati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>vztrajati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
-    <e><p><l>činiti<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>delovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>činiti<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>tvoriti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>finalizirati<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>dokončati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>začuti<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>zaslišati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>koštati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>veljati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
@@ -7589,7 +7590,17 @@
     <!--Nouns-->
     <e><p><l>rulja<s n="n"/><s n="f"/></l><r>truma<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>blažilo<s n="n"/><s n="nt"/></l><r>blažilo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>pračovjek<s n="n"/><s n="ma"/></l><r>pračlovek<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>oruđe<s n="n"/><s n="nt"/></l><r>orodje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>brdo<s n="n"/><s n="nt"/></l><r>hrib<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>ostatak<s n="n"/><s n="mi"/></l><r>počitek<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>doba<s n="n"/><s n="nt"/></l><r>doba<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nalazište<s n="n"/><s n="nt"/></l><r>nahajališče<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>pećina<s n="n"/><s n="f"/></l><r>pečina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>predmet<s n="n"/><s n="mi"/></l><r>predmet<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>čistač<s n="n"/><s n="mi"/></l><r>čistilo<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>središte<s n="n"/><s n="nt"/></l><r>središče<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>ustroj<s n="n"/><s n="mi"/></l><r>ustroj<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>kreda<s n="n"/><s n="f"/></l><r>črtalo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dišni<b/>organ<s n="n"/><s n="mi"/></l><r>dihalo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>pokretač<s n="n"/><s n="mi"/></l><r>gibalo<s n="n"/><s n="nt"/></r></p></e>
@@ -8060,6 +8071,7 @@
     <e><p><l>dezintegracija<s n="n"/><s n="f"/></l><r>razpad<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>deklaracija<s n="n"/><s n="f"/></l><r>izjava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>demokratija<s n="n"/><s n="f"/></l><r>demokracija<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>demokracija<s n="n"/><s n="f"/></l><r>demokracija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>demoralizacija<s n="n"/><s n="f"/></l><r>demoralizacija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>decenija<s n="n"/><s n="f"/></l><r>desetletje<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>eksploatacija<s n="n"/><s n="f"/></l><r>izkoriščanje<s n="n"/><s n="nt"/></r></p></e>
@@ -8674,6 +8686,7 @@
     <e><p><l>rad<s n="n"/><s n="mi"/></l><r>delo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>red<s n="n"/><s n="mi"/></l><r>vrstica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>svijet<s n="n"/><s n="mi"/></l><r>svet<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>vijeće<s n="n"/><s n="nt"/></l><r>svet<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>rezultat<s n="n"/><s n="mi"/></l><r>rezultat<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>prkos<s n="n"/><s n="mi"/></l><r>trma<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>upliv<s n="n"/><s n="mi"/></l><r>vpliv<s n="n"/><s n="mi"/></r></p></e>
@@ -9741,7 +9754,7 @@
     <e><p><l>provokovanje<s n="n"/><s n="f"/></l><r>provokacija<s n="n"/><s n="f"/></r></p></e>
 
     <e><p><l>član<s n="n"/><s n="ma"/></l><r>član<s n="n"/><s n="ma"/></r></p></e>
-    <e><p><l>konac<s n="n"/><s n="mi"/></l><r>cviren<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>konac<s n="n"/><s n="mi"/></l><r>konec<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>gasifikacija<s n="n"/><s n="f"/></l><r>plin<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>certifikacija<s n="n"/><s n="f"/></l><r>certificiranje<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>potparolkinja<s n="n"/><s n="f"/></l><r>govorec<s n="n"/><s n="ma"/></r></p></e>
@@ -11239,7 +11252,6 @@
     <e><p><l>tlaka<s n="n"/><s n="f"/></l><r>tlaka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>toaleta<s n="n"/><s n="f"/></l><r>toaleta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tuča<s n="n"/><s n="f"/></l><r>toča<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>grad<s n="n"/><s n="mi"/></l><r>toča<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>točionica<s n="n"/><s n="f"/></l><r>točilnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>utjeha<s n="n"/><s n="f"/></l><r>tolažba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>banda<s n="n"/><s n="f"/></l><r>tolpa<s n="n"/><s n="f"/></r></p></e>
@@ -11343,6 +11355,7 @@
     <e><p><l>vojarna<s n="n"/><s n="f"/></l><r>vojašnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>miris<s n="n"/><s n="mi"/></l><r>vonjava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>šupljina<s n="n"/><s n="f"/></l><r>votlina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>spilja<s n="n"/><s n="f"/></l><r>votlina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>karta<s n="n"/><s n="f"/></l><r>vozovnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pristupna<b/>cesta<s n="n"/><s n="f"/></l><r>vpadnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>uvođenje<s n="n"/><s n="nt"/></l><r>vpeljava<s n="n"/><s n="f"/></r></p></e>
@@ -14817,7 +14830,12 @@
     <!--Adjectives-->	
 
     <!-- ski -->
+    <e><p><l>neandertalski<s n="adj"/></l><r>neandertalski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>obrađen<s n="adj"/></l><r>obdelan<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>krapinski<s n="adj"/></l><r>krapinski<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>opozicijski<s n="adj"/></l><r>opozicijski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>kopnen<s n="adj"/></l><r>kopenski<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>trgovinski<s n="adj"/></l><r>trgovinski<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>investicijski<s n="adj"/></l><r>investicijski<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>tužiteljski<s n="adj"/></l><r>tožilski<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>kolovoški<s n="adj"/></l><r>avgustovski<s n="adj"/></r></p><par n="pst2null"/></e>
@@ -15060,7 +15078,7 @@
 	<e><p><l>zao<s n="adj"/></l><r>zloben<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>fer<s n="adj"/></l><r>pošten<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>obmanut<s n="adj"/></l><r>zaveden<s n="adj"/></r></p><par n="pst2null"/></e>
-	<e><p><l>svet<s n="adj"/></l><r>svečan<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>svet<s n="adj"/></l><r>svet<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>preuzet<s n="adj"/></l><r>prevzet<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>spor<s n="adj"/></l><r>počasen<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>trojak<s n="adj"/></l><r>trivrsten<s n="adj"/></r></p><par n="pst2null"/></e>
@@ -15091,7 +15109,7 @@
 	<e><p><l>momentalan<s n="adj"/></l><r>trenuten<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>moralan<s n="adj"/></l><r>moralen<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>mračan<s n="adj"/></l><r>temen<s n="adj"/></r></p><par n="pst2null"/></e>
-	<e><p><l>nacionalan<s n="adj"/></l><r>nacionalen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>nacionalan<s n="adj"/></l><r>naroden<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>neodložan<s n="adj"/></l><r>nujen<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>personalan<s n="adj"/></l><r>oseben<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>pobjedonosan<s n="adj"/></l><r>zmagovit<s n="adj"/></r></p><par n="pst2null"/></e>
@@ -15266,6 +15284,7 @@
 	<e><p><l>gradski<s n="adj"/></l><r>mesten<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>evropski<s n="adj"/></l><r>evropski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>ekonomski<s n="adj"/></l><r>gospodarski<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>gospodarski<s n="adj"/></l><r>gospodarski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>istorijski<s n="adj"/></l><r>zgodovinski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>italijanski<s n="adj"/></l><r>italijanski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>manastirski<s n="adj"/></l><r>samostanski<s n="adj"/></r></p><par n="pst2null"/></e>
@@ -15430,7 +15449,7 @@
     <e><p><l>točan<s n="adj"/></l><r>točen<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>zadovoljan<s n="adj"/></l><r>zadovoljen<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>određen<s n="adj"/></l><r>določen<s n="adj"/></r></p><par n="pst2null"/></e>
-    <e><p><l>značajan<s n="adj"/></l><r>občuten<s n="adj"/></r></p><par n="pst2null"/></e>
+    <e><p><l>značajan<s n="adj"/></l><r>pomemben<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>stavljen<s n="adj"/></l><r>položen<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>sumnjiv<s n="adj"/></l><r>dvomljiv<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>lažan<s n="adj"/></l><r>lažniv<s n="adj"/></r></p><par n="pst2null"/></e>
@@ -15631,7 +15650,6 @@
     <e><p><l>opasan<s n="adj"/></l><r>preteč<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>crven<s n="adj"/></l><r>rdeč<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>sljedeći<s n="adj"/></l><r>sledeč<s n="adj"/></r></p><par n="pst2null"/></e>
-    <e><p><l>star<s n="adj"/></l><r>starajoč<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>suh<s n="adj"/></l><r>sušeč<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>vladajući<s n="adj"/></l><r>vladajoč<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>rotirajući<s n="adj"/></l><r>vrteč<s n="adj"/></r></p><par n="pst2null"/></e>
@@ -16358,7 +16376,6 @@
     <e><p><l>star<s n="adj"/></l><r>star<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>ozbiljan<s n="adj"/></l><r>resnoben<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>velik<s n="adj"/></l><r>velik<s n="adj"/></r></p><par n="pst2null"/></e>
-    <e><p><l>star<s n="adj"/></l><r>star<s n="adj"/></r></p><par n="pst2null"/></e>
     <e><p><l>sam<s n="adj"/></l><r>sam<s n="adj"/></r></p><par n="pst2null"/></e>
     
 	<e><p><l>unutarpartijski<s n="adj"/></l><r>znotrajstrankarski<s n="adj"/></r></p><par n="pst2null"/></e>
