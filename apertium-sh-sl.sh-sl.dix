@@ -7382,8 +7382,8 @@
     <e r="RL"><p><l>pomagati<s n="vblex"/><s n="imperf"/></l><r>pomagati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>trljati<s n="vblex"/><s n="imperf"/></l><r>masirati<s n="vblex"/><s n="imperf"/></r></p><par n="tv2allforms"/></e>
     <e r="RL"><p><l>trljati<s n="vblex"/><s n="imperf"/></l><r>masirati<s n="vblex"/><s n="perf"/></r></p><par n="tv2allforms"/></e>
-    <e><p><l>čestitati<s n="vblex"/><s n="imperf"/></l><r>čestitati<s n="vblex"/><s n="imperf"/></r></p><par n="iv2allforms"/></e>
-    <e r="RL"><p><l>čestitati<s n="vblex"/><s n="imperf"/></l><r>čestitati<s n="vblex"/><s n="perf"/></r></p><par n="iv2allforms"/></e>
+    <e><p><l>čestitati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>čestitati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e r="RL"><p><l>čestitati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>čestitati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>slati<s n="vblex"/><s n="imperf"/></l><r>kandidirati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
     <e r="RL"><p><l>slati<s n="vblex"/><s n="imperf"/></l><r>kandidirati<s n="vblex"/><s n="perf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>buniti<s n="vblex"/><s n="imperf"/></l><r>protestirati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
@@ -7694,6 +7694,8 @@
     <e><p><l>Japod<s n="n"/><s n="ma"/></l><r>Japod<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>Skordisk<s n="n"/><s n="ma"/></l><r>Skordisk<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>Taurisk<s n="n"/><s n="ma"/></l><r>Taurisk<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>Skordisk<s n="n"/><s n="mi"/></l><r>Skordisk<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>Taurisk<s n="n"/><s n="mi"/></l><r>Taurisk<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>Histri<s n="n"/><s n="ma"/></l><r>Histri<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>Ardijejac<s n="n"/><s n="ma"/></l><r>Ardijejac<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>Ilir<s n="n"/><s n="ma"/></l><r>Ilir<s n="n"/><s n="ma"/></r></p></e>
