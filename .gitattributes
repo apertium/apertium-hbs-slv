@@ -33,6 +33,7 @@
 dev/apertium-sh-sl.sh-sl.dix.generated -text
 dev/apertium-sl-sr.sl-sr.dix -text
 dev/eval/errors_story1.txt -text
+dev/eval/errors_story2.txt -text
 dev/eval/sh-sl/README -text
 dev/eval/sh-sl/translate.sh -text
 dev/eval/sh-sl/unknown.words.sh -text
@@ -41,6 +42,9 @@ dev/eval/sl-sh/translate.sh -text
 dev/eval/story1_hr.txt -text
 dev/eval/story1_sl.txt -text
 dev/eval/story1_sl_uncorrected.txt -text
+dev/eval/story2_hr.txt -text
+dev/eval/story2_sl.txt -text
+dev/eval/story2_sl_uncorrected.txt -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/missing-words.sh -text
