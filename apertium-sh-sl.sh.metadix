@@ -7755,7 +7755,7 @@
 
     <pardef n="perf_iv_o/tići__vblex">
       <!--Infinitive-->
-      <e><p><l></l><r>ti</r></p><par n="inf_ći+fiiI__sfx__iv__vblex__perf"/></e>
+      <e><p><l>ti</l><r>ti</r></p><par n="inf_ći+fiiI__sfx__iv__vblex__perf"/></e>
       <!--Imperative-->
       <e><p><l>d</l><r>tići<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
       <!--Present-->
