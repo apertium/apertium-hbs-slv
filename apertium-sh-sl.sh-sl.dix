@@ -575,7 +575,7 @@
     <e r="RL"><p><l>kakav<s n="prn"/><s n="itg"/></l><r>kak<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>čiji<s n="prn"/><s n="itg"/></l><r>čigav<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>čiji<s n="prn"/><s n="rel"/></l><r>čigar<s n="prn"/><s n="rel"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e>
-    <e><p><l>jedan<s n="num"/></l><r>en<s n="prn"/><s n="ind"/></r></p></e>
+    <!--<e><p><l>jedan<s n="num"/></l><r>en<s n="prn"/><s n="ind"/></r></p></e> Krvoje, what's up with this? -->
     <e><p><l>koliki<s n="prn"/><s n="itg"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
     <e r="LR"><p><l>koliki<s n="prn"/><s n="rel"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>koliki<s n="prn"/><s n="itg"/></l><r>kolik<s n="prn"/><s n="ind"/></r></p></e>
@@ -3918,6 +3918,11 @@
 
     <e><p><l>svađajući<s n="vblex"/><s n="adv"/></l><r>kregajoč<s n="adv"/></r></p></e>
     <e><p><l>hodajući<s n="vblex"/><s n="adv"/></l><r>hodeč<s n="adv"/></r></p></e>
+    <e><p><l>lijevajući<s n="vblex"/><s n="adv"/></l><r>vlivajoč<s n="adv"/></r></p></e>
+    <e><p><l>uključujući<s n="vblex"/><s n="adv"/></l><r>vključujoč<s n="adv"/></r></p></e>
+    <e><p><l>pripadajući<s n="vblex"/><s n="adv"/></l><r>pripadajoč<s n="adv"/></r></p></e>
+    <e><p><l>parkirajući<s n="vblex"/><s n="adv"/></l><r>parkirajoč<s n="adv"/></r></p></e>
+    <e><p><l>prostirući<s n="vblex"/><s n="adv"/></l><r>razprostirajoč<s n="adv"/></r></p></e>
     <e><p><l>izdvajajući<s n="vblex"/><s n="adv"/></l><r>izdvajajoč<s n="adv"/></r></p></e>
     <e><p><l>odmarajući<s n="vblex"/><s n="adv"/></l><r>počivajoč<s n="adv"/></r></p></e>
     <e><p><l>odstupajući<s n="vblex"/><s n="adv"/></l><r>odstopajoč<s n="adv"/></r></p></e>
@@ -4729,6 +4734,9 @@
     <e><p><l>potrčavajući<s n="vblex"/><s n="adv"/></l><r>odtekajoč<s n="adv"/></r></p></e>
     <e><p><l>željeći<s n="vblex"/><s n="adv"/></l><r>želeč<s n="adv"/></r></p></e>
     <e><p><l>voljeći<s n="vblex"/><s n="adv"/></l><r>ljubeč<s n="adv"/></r></p></e>
+    <e><p><l>smijući<s n="vblex"/><s n="adv"/></l><r>smejoč<s n="adv"/></r></p></e>
+    <e><p><l>gradeći<s n="vblex"/><s n="adv"/></l><r>gradeč<s n="adv"/></r></p></e>
+    <e><p><l>svrstavajući<s n="vblex"/><s n="adv"/></l><r>razvrščajoč<s n="adv"/></r></p></e>
     <e><p><l>isplivavajući<s n="vblex"/><s n="adv"/></l><r>izplavajoč<s n="adv"/></r></p></e> <!-- does not exist (SL) -->
 
 
@@ -4848,6 +4856,11 @@
     <e r="LR"><p><l>razgorujući<s n="vblex"/><s n="adv"/></l><r>razgorel<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>izmučujući<s n="vblex"/><s n="adv"/></l><r>izmučen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>pretplaćujući<s n="vblex"/><s n="adv"/></l><r>predplačniški<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e r="LR"><p><l>bojeći<s n="vblex"/><s n="adv"/></l><r>barvan<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e r="LR"><p><l>zovući<s n="vblex"/><s n="adv"/></l><r>klican<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e r="LR"><p><l>graničeći<s n="vblex"/><s n="adv"/></l><r>mejen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e r="LR"><p><l>polažući<s n="vblex"/><s n="adv"/></l><r>položen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	
 
 
 
@@ -5585,6 +5598,8 @@
     <e r="LR"><p><l>vučedolski<s n="adv"/></l><r>vučedolski<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
     <e r="LR"><p><l>vinkovački<s n="adv"/></l><r>vinkovački<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
     <e r="LR"><p><l>brodograditeljski<s n="adv"/></l><r>ladjedelski<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+    <e r="LR"><p><l>oblikovano<s n="adv"/></l><r>oblikovan<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+    <e r="LR"><p><l>srednje<b/>veliko<s n="adv"/></l><r>srednje<b/>velik<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
 
 
 
@@ -5762,6 +5777,7 @@
     <e><p><l>bolovati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>bolovati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>strahovati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>strahovati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>nadirati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>nadirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>datirati<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>datirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>datirati<s n="vblex"/><s n="perf"/><s n="iv"/></l><r>datirati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>datirati<s n="vblex"/><s n="imperf"/></l><r>datirati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>pojesti<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>pojesti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
@@ -5771,6 +5787,10 @@
     <e><p><l>polagati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>polagati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>graditi<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>graditi<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>zvati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>imenovati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>nastavljati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>nadaljevati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>lijevati<s n="vblex"/><s n="imperf"/><s n="tv"/></l><r>vlivati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>pripadati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>pripadati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p></e>
+    <e><p><l>prozvati<s n="vblex"/><s n="perf"/><s n="tv"/></l><r>imenovati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 
 
 	<!-- More forms to one / one form to more -->
@@ -7650,6 +7670,9 @@
     <e><p><l>bojati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>barvati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
     <e><p><l>spomenuti<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>omeniti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>činiti<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>tvoriti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>žrtvovati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>žrtvovati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
+    <e><p><l>žrtvovati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>žrtvovati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>činiti<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>tvoriti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
 	
 	<e><p><l>masirati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>masirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
 	<e><p><l>trljati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>masirati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
@@ -17766,9 +17789,6 @@
     <e><p><l>često<s n="adv"/></l><r>velikokrat<s n="adv"/></r></p></e>
     <e><p><l>van<s n="adv"/></l><r>ven<s n="adv"/></r></p></e>
     <e><p><l>visoko<s n="adv"/></l><r>visoko<s n="adv"/></r></p></e>
-    <e><p><l>uključujući<s n="vblex"/><s n="adv"/></l><r>vključujoč<s n="adv"/></r></p></e>
-    <e><p><l>pripadajući<s n="vblex"/><s n="adv"/></l><r>pripadajoč<s n="adv"/></r></p></e>
-    <e><p><l>parkirajući<s n="vblex"/><s n="adv"/></l><r>parkirajoč<s n="adv"/></r></p></e>
     <e><p><l>opet<s n="adv"/></l><r>vnovič<s n="adv"/></r></p></e>
     <e><p><l>vojno<s n="adv"/></l><r>vojaško<s n="adv"/></r></p></e>
     <e><p><l>dnevno<s n="adv"/></l><r>vsakodnevno<s n="adv"/></r></p></e>
