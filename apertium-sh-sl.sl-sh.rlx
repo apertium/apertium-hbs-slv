@@ -170,7 +170,15 @@ SECTION
 # Prepositions govern cases of their phrases
 REMOVE:PrepositionCase Pr + $$CASE IF (1 Nomen) (NOT 1 Nomen + $$CASE)
 REMOVE:PrepositionCase Nomen + $$CASE IF (-1 Pr) (NOT -1 Pr + $$CASE)
-REMOVE:PrepositionCase KeepOrder Adv (0 A + $$CASE) (-1 Pr + $$CASE)
+
+# Preposition or noun
+REMOVE:PrORN KeepOrder N (0 Pr + $$CASE) (1 Nomen + $$CASE)
+
+# Adverb or Adjective
+REMOVE:AdvORAdj KeepOrder Adv (0 A + $$GENDER + $$NUMBER + $$CASE) 
+	( (-1 (Pr OR Nomen) + $$GENDER + $$NUMBER + $$CASE) OR (1 Nomen + $$GENDER + $$NUMBER +  $$CASE) )
+#REMOVE:AdvORAdj KeepOrder Adv (0 A + $$CASE) (-1 Nomen + $$CASE)
+#REMOVE:AdvORAdj KeepOrder Adv (0 A + $$CASE) (1 Nomen + $$CASE)
 
 # # Modifier gender/number/case cleaning from the modified word
 REMOVE:ModifierCase Modifier + $$CASE IF (1 Nomen) (NOT 1 Nomen + $$CASE) ;# rdeči.(f.loc)/(mi.nom) avto -> rdeči.mi.nom avto
@@ -181,6 +189,9 @@ REMOVE:ModifierNumber Modifier + $$NUMBER IF (1 Nomen) (NOT 1 Nomen + $$NUMBER) 
 REMOVE:ModifiedCase Nomen + $$CASE IF (-1 Modifier) (NOT -1 Modifier + $$CASE) ;
 REMOVE:ModifiedGender Nomen + $$GENDER IF (-1 Modifier) (NOT -1 Modifier + $$GENDER) ;
 REMOVE:ModifiedNumber Nomen + $$NUMBER IF (-1 Modifier) (NOT -1 Modifier + $$NUMBER) ;
+
+# Verbs and the little valency of theirs we have (this is still possibly a heuristic)
+SELECT:vbTVAcc Nomen + Acc (-1 V + Transitive)
 
 # =========== #
 # Heuristics  #
@@ -200,7 +211,8 @@ REMOVE:CaseCmCase KeepOrder Nomen + $$CASE (0C Nomen) (-1 Cm) (-2 Nomen) (NOT -2
 REMOVE:CaseCNJCase KeepOrder Nomen + $$CASE (0C Nomen) (-1 CNJ) (-2 Nomen) (NOT -2 Nomen + $$CASE)
 
 # Very heuristic, a noun that's not otherwise unambiguously dual is plural
-SELECT:isDual N + Dual (0 Dual OR Plural) (NOT -1 Num) (NOT 1 Num) (NOT -1C Modifier + Dual)
+SELECT:isDual N + Plural (0 Dual OR Plural) (NOT -1 Num) (NOT 1 Num) (NOT -1C Modifier + Dual)
 
 # Proper noun / Adjective is Proper noun; TODO: To be expanded on corpus examples
 SELECT:NP NProp (0C NProp OR A)
+SELECT:NP NProp (0C NProp OR N) (NOT -1 BOS) (0 ("<[A-ZČĆŽŠĐŽ].*>"r))
