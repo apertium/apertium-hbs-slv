@@ -465,6 +465,14 @@
     </def-macro>
 
     <def-macro n="adj_adapter" npar="1">
+      <choose>
+	<when>
+	  <test>
+	      <ends-with caseless="yes"><clip pos="1" side="sl" part="a_adj"/><lit-tag v="i"/></ends-with>
+	  </test>
+	  <let><clip pos="1" side="tl" part="def"/><lit-tag v="ind"/></let><!--All verbs in Slovene have <ind>, so this is ok, right?; Krvoje-->
+	</when>
+      </choose>
       <call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
       <choose>
 	<when>

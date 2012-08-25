@@ -37,6 +37,7 @@
     <sdef n="unc" c="Uncountable"/>
     <!--Number -->
     <sdef n="sg" c="Singular"/>
+    <sdef n="du" c="Dual"/>
     <sdef n="sp" c="Singular/Plural"/>
     <sdef n="pl" c="Plural"/>
     <sdef n="ND" c="Number to be Determined"/>
@@ -5468,98 +5469,57 @@
     <!--Suffixes for the participle -->
     <pardef n="lp_o__sfx"><!--Note, in macedonian this is marked as aorist and as imperfect, in SC it cannot stand by itself. If it does, it's either optative, or used in a construction analogous to english "whether X, or Y ..."-->
       <e><p><l>o</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e> <!--i.e. "dva čovjeka su hodala" -->
+      <e r="RL"><p><l>la</l><r><s n="lp"/><s n="m"/><s n="du"/></r></p></e> <!--i.e. "dva čovjeka su hodala" -->
+      <e r="LR"><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e> <!--i.e. "dva čovjeka su hodala" -->
       <e><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>lo</l><r><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e> <!--i.e. "dva drveta su rasla" -->
       <e><p><l>li</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>le</l><r><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
-      <!--This is also the form for optative-->
-      <!--<e><p><l>o</l><r><s n="opt"/><s n="m"/><s n="sg"/></r></p></e>
-	  <e><p><l>la</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
-	  <e><p><l>la</l><r><s n="opt"/><s n="f"/><s n="sg"/></r></p></e>
-	  <e><p><l>lo</l><r><s n="opt"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
-	  <e><p><l>li</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
-	  <e><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
-	  <e><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>-->
     </pardef>
     <pardef n="lp_iti__sfx">
       <e><par n="e_i_left__yat"/><p><l>o</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="RL"><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="m"/><s n="du"/></r></p></e>
+      <e r="LR"><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><par n="e_je_left__yat"/><p><l>lo</l><r><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><par n="e_je_left__yat"/><p><l>li</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><par n="e_je_left__yat"/><p><l>le</l><r><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
       <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
-      <!--This is also the form for optative-->
-      <!--<e><par n="e_i_left__yat"/><p><l>o</l><r><s n="opt"/><s n="m"/><s n="sg"/></r></p></e>
-	  <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
-	  <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="f"/><s n="sg"/></r></p></e>
-	  <e><par n="e_je_left__yat"/><p><l>lo</l><r><s n="opt"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
-	  <e><par n="e_je_left__yat"/><p><l>li</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
-	  <e><par n="e_je_left__yat"/><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
-	  <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>-->
     </pardef>
     <pardef n="lp_ijeti__sfx">
       <e><par n="e_i_left__yat"/><p><l>o</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="RL"><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="m"/><s n="du"/></r></p></e>
+      <e r="LR"><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><par n="e_ije_left__yat"/><p><l>lo</l><r><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><par n="e_ije_left__yat"/><p><l>li</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><par n="e_ije_left__yat"/><p><l>le</l><r><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
       <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
-      <!--This is also the form for optative-->
-      <!--<e><par n="e_i_left__yat"/><p><l>o</l><r><s n="opt"/><s n="m"/><s n="sg"/></r></p></e>
-	  <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
-	  <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="opt"/><s n="f"/><s n="sg"/></r></p></e>
-	  <e><par n="e_ije_left__yat"/><p><l>lo</l><r><s n="opt"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
-	  <e><par n="e_ije_left__yat"/><p><l>li</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
-	  <e><par n="e_ije_left__yat"/><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
-	  <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>-->
     </pardef>
     <pardef n="lp_ao__sfx">
       <e><p><l>ao</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l>la</l><r><s n="lp"/><s n="m"/><s n="du"/></r></p></e>
+      <e r="LR"><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>lo</l><r><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>li</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>le</l><r><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
-      <!--This is also the form for optative-->
-      <!--<e><p><l>ao</l><r><s n="opt"/><s n="m"/><s n="sg"/></r></p></e>
-	  <e><p><l>la</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
-	  <e><p><l>la</l><r><s n="opt"/><s n="f"/><s n="sg"/></r></p></e>
-	  <e><p><l>lo</l><r><s n="opt"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
-	  <e><p><l>li</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
-	  <e><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
-	  <e><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>-->
     </pardef>
     <pardef n="lp_tao__sfx">
       <e><p><l>tao</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l>la</l><r><s n="lp"/><s n="m"/><s n="du"/></r></p></e>
+      <e r="LR"><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>lo</l><r><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>li</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>le</l><r><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
-      <!--This is also the form for optative-->
-      <!--<e><p><l>tao</l><r><s n="opt"/><s n="m"/><s n="sg"/></r></p></e>
-	  <e><p><l>la</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
-	  <e><p><l>la</l><r><s n="opt"/><s n="f"/><s n="sg"/></r></p></e>
-	  <e><p><l>lo</l><r><s n="opt"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
-	  <e><p><l>li</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
-	  <e><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
-	  <e><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>-->
     </pardef>
 
     <pardef n="ću__clt">
@@ -22976,9 +22936,9 @@
       <e r="LR"><p><l>kom</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>komu</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
       <e><p><l>kome</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-      <e r="LR"><p><l>kom</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>kom</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>komu</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-      <e><p><l>kome</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>kome</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>kog</l><r><s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
       <e><p><l>koga</l><r><s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
       <e><p><l>ki</l><r><s n="ma"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
@@ -22987,9 +22947,9 @@
       <e><p><l>ki</l><r><s n="mi"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>kog</l><r><s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
       <e><p><l>koga</l><r><s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
-      <e r="LR"><p><l>kom</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e><p><l>kom</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>komu</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-      <e><p><l>kome</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>kome</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>kom</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>komu</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
       <e><p><l>kome</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
@@ -29456,7 +29416,7 @@
       <e><p><l>em</l><r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>a</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>a</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>â</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>â</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l>a</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>a</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
       <e><p><l>ima</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
@@ -30334,6 +30294,8 @@
       <e><p><l>oboma</l><r>oboje<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
       <e><p><l>oboma</l><r>oboje<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
 
+      <e><p><l>tisuću</l><r>tisuća<s n="num"/></r></p></e>
+      <e><p><l>tisuća</l><r>tisuća<s n="num"/></r></p></e>
       <e><p><l>tisuća</l><r>tisuća<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>tisuće</l><r>tisuća<s n="num"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>tisuću</l><r>tisuća<s n="num"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -35997,7 +35959,7 @@
     <e lm="velik"><p><l>pre</l><r></r></p><par n="velik__ssup__adj"/></e>
 
     <!--Wtf; This is from a wiki article-->
-    <e lm="srednjevelik"><i>srednje</i><par n="velik__pst__adj"/></e>
+    <e lm="srednje velik"><i>srednje<b/></i><par n="velik__pst__adj"/></e>
 
     <!--end irregular adjectives-->
 
@@ -36132,6 +36094,8 @@
     <e lm="obrađen"><i>obrađen</i><par n="zdrav__pst__adj"/></e>
 
     <e lm="crvenokos"><i>crvenokos</i><par n="zdrav__pst__adj"/></e>
+
+    <e lm="oblikovan"><i>oblikovan</i><par n="zdrav__pst__adj"/></e>
 
     <e lm="pravovremen"><i>pravovremen</i><par n="zdrav__pst__adj"/></e>
     <e lm="smješten"><i>smješten</i><par n="zdrav__pst__adj"/></e>
@@ -48783,6 +48747,7 @@
     <e lm="žalba"><i>žal</i><par n="dvoj/ba__n"/></e>
     <e lm="bomba"><i>bom</i><par n="dvoj/ba__n"/></e>
     <e lm="pravda"><i>prav</i><par n="bun/da__n"/></e>
+    <e lm="utvrda"><i>utvr</i><par n="bun/da__n"/></e>
     <e lm="horda"><i>hor</i><par n="bun/da__n"/></e>
     <e lm="krivda"><i>kriv</i><par n="bun/da__n"/></e>
     <e lm="nepravda"><i>neprav</i><par n="bun/da__n"/></e>
@@ -49773,6 +49738,7 @@
     <e lm="gonjenje"><i>gonjenj</i><par n="polj/e__n"/></e>
     <e lm="gorenje"><i>gorenj</i><par n="polj/e__n"/></e>
     <e lm="dizalo"><i>dizal</i><par n="koljen/o__n"/></e>
+    <e lm="kolo"><i>kol</i><par n="koljen/o__n"/></e>
     <e lm="svjetlo"><i>sv</i><par n="e_je__yat"/><i>tl</i><par n="koljen/o__n"/></e>
     <e lm="bjesnilo"><i>bjesnil</i><par n="koljen/o__n"/></e>
     <e lm="pojačalo"><i>pojačal</i><par n="koljen/o__n"/></e>

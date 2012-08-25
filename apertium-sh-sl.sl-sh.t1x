@@ -344,9 +344,9 @@
     </def-attr>
 
     <def-attr n="nbr">
-      <attr-item tags="du"/>
       <attr-item tags="sp"/>
       <attr-item tags="sg"/>
+      <attr-item tags="du"/>
       <attr-item tags="pl"/>
     </def-attr>
 
@@ -431,7 +431,16 @@
       <choose>
 	<when>
 	  <test>
-	    <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="du"/></equal> 
+	    <and>
+	      <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="du"/></equal> 
+	      <not>
+		<and>
+		  <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="du"/></equal>
+		  <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></equal>
+		  <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="lp"/></equal>
+		</and>
+	      </not>
+	    </and>
 	  </test>
 	  <choose>
 	    <!-- nom/acc.dual -> gen.sg -->
@@ -464,16 +473,16 @@
 	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
 	    </when>
 	    <when><!--If we're dealing with a verb, we just do the shift to plural-->
-	      <test>
-		<or>
-		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vblex"/></equal> 
-		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbmod"/></equal> 
-		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbhaver"/></equal> 
-		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbaux"/></equal> 
-		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbser"/></equal> 
-		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbser.clt"/></equal> 
-		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbmod.clt"/></equal> 
-		</or>
+	      <test><!--Unless it's a <m> <lp>, the only case of visibly surviving dual-->
+		  <or>
+		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vblex"/></equal> 
+		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbmod"/></equal> 
+		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbhaver"/></equal> 
+		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbaux"/></equal> 
+		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbser"/></equal> 
+		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbser.clt"/></equal> 
+		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbmod.clt"/></equal> 
+		  </or>
 	      </test>
 	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
 	    </when>
@@ -889,9 +898,23 @@
       </choose>
     </def-macro>
 
+    <def-macro n="bad_juju" npar="1">
+      <!--Macro to group all the bad juju-->
+      <choose>
+	<when>
+	  <test>
+	    <ends-with caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="i"/></ends-with>
+	  </test>
+	  <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></let>
+	  <let><clip pos="1" side="tl" part="def"/><lit-tag v="def"/></let>
+	</when>
+      </choose>
+    </def-macro>
+
     <def-macro n="adj_adapter" npar="1">
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>      
-      <call-macro n="m2mima"><with-param pos="1"/></call-macro>      
+      <call-macro n="m2mima"><with-param pos="1"/></call-macro>
+      <call-macro n="bad_juju"><with-param pos="1"/></call-macro>
       <choose>
 	<when><!-- Only positive and <ssup> (elative, absolutive superlative) can be def/ind-->
 	  <test>
