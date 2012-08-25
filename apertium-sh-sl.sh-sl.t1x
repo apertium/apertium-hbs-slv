@@ -9,6 +9,8 @@
     <def-cat n="nom_gen">
       <cat-item tags="n.*.*.gen"/>
       <cat-item tags="n.*.*.gen.*"/>
+      <cat-item tags="np.*.*.*.gen"/>
+      <cat-item tags="np.*.*.*.gen.*"/>
     </def-cat>
     <def-cat n="nom_ins">
       <cat-item tags="n.*.*.ins"/>
@@ -180,6 +182,9 @@
     <def-cat n="pr">
       <cat-item tags="pr"/>
       <cat-item tags="pr.*"/>
+    </def-cat>
+    <def-cat n="pr_prije_gen">
+      <cat-item tags="pr.gen" lemma="prije"/>
     </def-cat>
     <def-cat n="det">
       <cat-item tags="det"/>
@@ -2725,6 +2730,34 @@
       </action>
     </rule>
 
+    <rule comment="prije.gen+nom.gen"><!-- Prije Krista -> Pred Kristusom ->  --><!--;Krvoje-->
+      <pattern><!--TODO: See on a corpus if this applies to all, most, or less cases-->
+	<pattern-item n="pr_prije_gen"/>
+	<pattern-item n="nom_gen"/>
+      </pattern>
+      <action>
+	<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+	<let><clip pos="1" side="tl" part="lem"/><lit v="pred"/></let>
+	<let><clip pos="1" side="tl" part="cas"/><lit-tag v="ins"/></let>
+	<let><clip pos="2" side="tl" part="cas"/><lit-tag v="ins"/></let>
+	<out>
+	  <chunk name="num" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="Num"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
     <rule comment="pr + noun.voc -> pr + noun.nom">
       <pattern>
 	<pattern-item n="pr"/>
@@ -3109,7 +3142,6 @@
 	</out>
       </action>
     </rule>
-
 
   </section-rules>
 </transfer>

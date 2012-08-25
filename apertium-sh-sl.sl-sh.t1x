@@ -13,6 +13,8 @@
     <def-cat n="nom_ins">
       <cat-item tags="n.*.*.ins"/>
       <cat-item tags="n.*.*.ins.*"/>
+      <cat-item tags="np.*.*.*.ins"/>
+      <cat-item tags="np.*.*.*.ins.*"/>
     </def-cat>
     <def-cat n="nom_loc">
       <cat-item tags="n.*.*.loc"/>
@@ -204,6 +206,9 @@
     </def-cat>
     <def-cat n="exp">
       <cat-item tags="part.exp"/>
+    </def-cat>
+    <def-cat n="pr_pred_ins">
+      <cat-item lemma="pred" tags="pr.ins"/>
     </def-cat>
     <def-cat n="od_prn">
       <cat-item lemma="od nekoga" tags="prn.ind"/>
@@ -1324,6 +1329,34 @@
 	    </tags>
 	    <lu>
 	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="pred.ins+nom.ins"><!-- Pred Kristom -> Prije Krista -->
+      <pattern><!--TODO: See on a corpus if this applies to all, most, or less cases-->
+	<pattern-item n="pr_pred_ins"/>
+	<pattern-item n="nom_ins"/>
+      </pattern>
+      <action>
+	<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+	<let><clip pos="1" side="tl" part="lem"/><lit v="prije"/></let>
+	<let><clip pos="1" side="tl" part="cas"/><lit-tag v="gen"/></let>
+	<let><clip pos="2" side="tl" part="cas"/><lit-tag v="gen"/></let>
+	<out>
+	  <chunk name="num" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="Num"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
 	</out>

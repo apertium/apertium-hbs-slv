@@ -22965,9 +22965,9 @@
       <e><p><l>kom</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>komu</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>kome</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-      <e r="LR"><p><l>kom</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>kom</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>komu</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-      <e><p><l>kome</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>kome</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
       <e><p><l>ki</l><r><s n="mi"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
       <e><p><l>ki</l><r><s n="mi"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
       <e><p><l>kim</l><r><s n="mi"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
@@ -23022,12 +23022,12 @@
       <e><p><l>ko</l><r><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>kog</l><r><s n="nt"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
       <e><p><l>koga</l><r><s n="nt"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
-      <e r="LR"><p><l>kom</l><r><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e><p><l>kom</l><r><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>komu</l><r><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-      <e><p><l>kome</l><r><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-      <e r="LR"><p><l>kom</l><r><s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>kome</l><r><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e><p><l>kom</l><r><s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>komu</l><r><s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-      <e><p><l>kome</l><r><s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>kome</l><r><s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
       <e><p><l>ko</l><r><s n="nt"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
       <e><p><l>ko</l><r><s n="nt"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
       <e><p><l>kim</l><r><s n="nt"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
