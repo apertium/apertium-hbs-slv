@@ -400,6 +400,7 @@
   <section-def-macros>
 
     <def-macro n="pr_adapter" npar="1">
+      <call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <choose>
 	<when> <!-- For the few cases u se, na se, poda se..., when the case is not marked on the preposition in analysis -->
 	  <test>
@@ -433,6 +434,7 @@
     </def-macro>
 
     <def-macro n="dual_adapter" npar="1">
+	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <choose>
 	<when>
 	  <test>
@@ -542,6 +544,7 @@
     </def-macro>
 
     <def-macro n="verb_adapter" npar="1">
+	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
       <choose>
 	<when>      <!-- Supine to infinitive -->
@@ -662,6 +665,7 @@
     </def-macro>
 
     <def-macro n="num_adapter" npar="1">
+	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <choose>
 	<when>
 	  <test>
@@ -756,6 +760,7 @@
     </def-macro>
 
     <def-macro n="nom_adapter" npar="1">
+	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
       <choose>
 	<when>
@@ -781,6 +786,7 @@
     </def-macro>
 
     <def-macro n="prn_adapter" npar="1">
+	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
       <choose>
 	<when>
@@ -917,6 +923,7 @@
     </def-macro>
 
     <def-macro n="adj_adapter" npar="1">
+	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>      
       <call-macro n="m2mima"><with-param pos="1"/></call-macro>
       <call-macro n="bad_juju"><with-param pos="1"/></call-macro>
@@ -945,6 +952,7 @@
     </def-macro>
 
     <def-macro n="nominal_adapter" npar="1">
+	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <!--Pick which type of a nominal word it is and call the corresponding adapter macro-->
       <choose>
 	<when><!-- Noun -->
