@@ -77,6 +77,7 @@ LIST Neuter = nt ;
 LIST MFN = mfn ; 
 
 LIST Singular = sg ;
+LIST Dual = du ;
 LIST Plural = pl ;
 
 LIST Ant = ant ; 
@@ -169,24 +170,37 @@ SECTION
 # Prepositions govern cases of their phrases
 REMOVE:PrepositionCase Pr + $$CASE IF (1 Nomen) (NOT 1 Nomen + $$CASE)
 REMOVE:PrepositionCase Nomen + $$CASE IF (-1 Pr) (NOT -1 Pr + $$CASE)
+REMOVE:PrepositionCase KeepOrder Adv (0 A + $$CASE) (-1 Pr + $$CASE)
 
 # # Modifier gender/number/case cleaning from the modified word
 REMOVE:ModifierCase Modifier + $$CASE IF (1 Nomen) (NOT 1 Nomen + $$CASE) ;# rdeči.(f.loc)/(mi.nom) avto -> rdeči.mi.nom avto
-REMOVE:ModifierCase Modifier + $$GENDER IF (1 Nomen) (NOT 1 Nomen + $$GENDER) ;# rdeči.f/mi avto -> rdeči.mi avto
-REMOVE:ModifierCase Modifier + $$NUMBER IF (1 Nomen) (NOT 1 Nomen + $$NUMBER) ;# rdeči.sg/pl avto -> rdeči.sg
+REMOVE:ModifierGender Modifier + $$GENDER IF (1 Nomen) (NOT 1 Nomen + $$GENDER) ;# rdeči.f/mi avto -> rdeči.mi avto
+REMOVE:ModifierNumber Modifier + $$NUMBER IF (1 Nomen) (NOT 1 Nomen + $$NUMBER) ;# rdeči.sg/pl avto -> rdeči.sg
 
 # Modified word gender/number/case cleaning from the modifier
-REMOVE:ModifierCase Nomen + $$CASE IF (-1 Modifier) (NOT -1 Modifier + $$CASE) ;
-REMOVE:ModifierCase Nomen + $$GENDER IF (-1 Modifier) (NOT -1 Modifier + $$GENDER) ;
-REMOVE:ModifierCase Nomen + $$NUMBER IF (-1 Modifier) (NOT -1 Modifier + $$NUMBER) ;
+REMOVE:ModifiedCase Nomen + $$CASE IF (-1 Modifier) (NOT -1 Modifier + $$CASE) ;
+REMOVE:ModifiedGender Nomen + $$GENDER IF (-1 Modifier) (NOT -1 Modifier + $$GENDER) ;
+REMOVE:ModifiedNumber Nomen + $$NUMBER IF (-1 Modifier) (NOT -1 Modifier + $$NUMBER) ;
 
 # =========== #
 # Heuristics  #
 # =========== #
 
 # Rdeči.vblex/adj avto
-REMOVE:vblexORadj KeepOrder V IF (0 V OR (A + $$GENDER + $$NUMBER + $$CASE) ) (1 Nomen + $$GENDER + $$NUMBER + $$CASE)
+REMOVE:vblexORadj KeepOrder V IF (0 A + $$GENDER + $$NUMBER + $$CASE) (1 Nomen + $$GENDER + $$NUMBER + $$CASE)
 
 # No transitive verb - no accusative
 REMOVE:noTvVerb Acc IF (0 Nom OR Acc) (NEGATE 0* V + Transitive BARRIER EOS OR BOS)
 
+# Noun after noun is genitive
+SELECT:Noun_Noun<gen> N + Gen IF (-1 N)
+
+# Case skips over comma
+REMOVE:CaseCmCase KeepOrder Nomen + $$CASE (0C Nomen) (-1 Cm) (-2 Nomen) (NOT -2 Nomen + $$CASE)
+REMOVE:CaseCNJCase KeepOrder Nomen + $$CASE (0C Nomen) (-1 CNJ) (-2 Nomen) (NOT -2 Nomen + $$CASE)
+
+# Very heuristic, a noun that's not otherwise unambiguously dual is plural
+SELECT:isDual N + Dual (0 Dual OR Plural) (NOT -1 Num) (NOT 1 Num) (NOT -1C Modifier + Dual)
+
+# Proper noun / Adjective is Proper noun; TODO: To be expanded on corpus examples
+SELECT:NP NProp (0C NProp OR A)

@@ -229,6 +229,10 @@
       <e r="RL"><p><l><s n="f"/></l><r><s n="nt"/></r></p></e>
     </pardef>    
 
+    <pardef n="pl_id">
+      <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="gen_id">
       <e><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
       <e><p><l><s n="ma"/></l><r><s n="ma"/></r></p></e>
@@ -6423,6 +6427,7 @@
     <e><p><l>razriješiti<s n="vblex"/><s n="perf"/></l><r>razrešiti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>zadužiti<s n="vblex"/><s n="perf"/></l><r>zadolžiti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>ograničiti<s n="vblex"/><s n="perf"/></l><r>omejiti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
+    <e><p><l>graničiti<s n="vblex"/><s n="imperf"/></l><r>mejiti<s n="vblex"/><s n="imperf"/></r></p><par n="iv2tv"/></e>
     <e><p><l>curiti<s n="vblex"/><s n="imperf"/></l><r>curljati<s n="vblex"/><s n="imperf"/></r></p><par n="allforms2iv"/></e>
     <e><p><l>stvoriti<s n="vblex"/><s n="perf"/></l><r>ustvariti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
     <e><p><l>riješiti<s n="vblex"/><s n="perf"/></l><r>rešiti<s n="vblex"/><s n="perf"/></r></p><par n="allforms2tv"/></e>
@@ -12965,6 +12970,7 @@
     <e><p><l>Danska<s n="np"/><s n="top"/><s n="f"/></l><r>Danska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>Ženeva<s n="np"/><s n="top"/><s n="f"/></l><r>Ženeva<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>Hrvatska<s n="np"/><s n="top"/><s n="f"/></l><r>Hrvaška<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
+    <e><p><l>Mađarska<s n="np"/><s n="top"/><s n="f"/></l><r>Madžarska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>Češka<s n="np"/><s n="top"/><s n="f"/></l><r>Češka<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>Škotska<s n="np"/><s n="top"/><s n="f"/></l><r>Škotsko<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="sgpl_sg"/></e><!--TODO: check-->
     <e><p><l>Štajerska<s n="np"/><s n="top"/><s n="f"/></l><r>Štajerska<s n="np"/><s n="top"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
@@ -17237,7 +17243,7 @@
     <e><p><l>devedeset<b/>i<b/>devet<s n="num"/></l><r>devetindevetdeset<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="cas_id"/></e>    
 
     <e><p><l>sto<s n="num"/></l><r>sto<s n="num"/></r></p><par n="null2gen"/><par n="null2num_pl"/><par n="cas_id"/></e>    
-    <e><p><l>tisuća<s n="num"/></l><r>tisoč<s n="num"/></r></p><par n="f2gen"/><par n="num_id"/><par n="cas_id"/></e>
+    <e><p><l>tisuća<s n="num"/></l><r>tisoč<s n="num"/></r></p><par n="f2gen"/><par n="sgpl_pl"/><par n="cas_id"/></e>
     <e><p><l>milion<s n="num"/><s n="mfn"/></l><r>milion<s n="num"/><s n="mfn"/></r></p><par n="num_id"/><par n="cas_id"/></e>
 
 	<!-- Cardinal - only .num -->
