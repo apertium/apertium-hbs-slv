@@ -19,6 +19,60 @@ poznato znano
 *htjedoše hoteti
 te tako
 načini narediti
+*orahovih oreh
+*svršio končati
+*upregni uprežti
+@Baš
+tako tako
+*ugovorili dogovoriti
+*Kočijaš kočijaž
+@još
+*bogme pri bogu(:)
+#vleči
+sedeti sedel
+*prepirali prepirati
+#evo glej
+*Lupeži lopovi
+tko kdo 
+vam -> #prpers vam 
+*dopustio dovoliti
+*orašje orehi
+*zakloca zagagati
+pa pa
+*isprsi izprsiti
+*kljunom kljun
+*navali navaliti
+ne budi @lijen ne bodi len (FRAZA)
+
+*napokon končno
+*ostrugama ostroga
+*ispara razparati
+*zamoli zaprositi
+*stade doleteti
+*jurnjava tek
+*trči teči
+*pješaka pešec
+*pribadaču zaponka
+*iglu igla
+srečno NAPAČNA PARADIGMA V SLO
+*viknu zakričati
+*pješaci pešec
+stanu stanovanju napačna disambiguacija HR (stati)
+*smrknuti znočiti
+kao kot
+dalje dalje DISAMBIGUATION adv, zdaj je našel adj
+*cesta cesta
+bi malo da sjednu --> bi se malo usedli  PRAVILO, sem ga poslal
+*krojačkoj krojaški
+#zadržati zadržati
+
+
+
+
+
+
+
+
 
 
 
