@@ -495,6 +495,116 @@
       </choose>
     </def-macro>
 
+
+	<def-macro n="vbserBiti_adapter" npar="1">
+	<choose>
+		<when>
+			<test>
+				<equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
+			</test>          
+			<out>
+				<chunk name="vbserBiti_LP" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+						<clip pos="1" side="tl" part="lemh"/>
+						<clip pos="1" side="tl" part="a_vrb"/>
+						<lit-tag v="past"/>
+						<clip pos="1" side="sl" part="gen"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+				</chunk>
+			</out>
+		</when>
+		<when>
+			<test>
+				<equal><clip pos="1" side="sl" part="tns"/><lit-tag v="aor"/></equal>
+			</test>     
+			     <out>
+					<chunk name="vbserBiti_Aor" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+						<lit v="biti"/>
+						<lit-tag v="vbser.pres"/>
+						<clip pos="1" side="tl" part="prs"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="1" side="tl" part="lemh"/>
+						<clip pos="1" side="tl" part="a_vrb"/>
+						<lit-tag v="past"/>
+						<clip pos="1" side="sl" part="gen"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					</chunk>
+				</out>
+		</when>
+		<when>
+			<test>
+				<equal><clip pos="1" side="sl" part="tns"/><lit-tag v="clt.aor"/></equal>
+			</test>          
+				<out>
+					<chunk name="vbserBiti_CltAor" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+						<lit v="biti"/>
+						<lit-tag v="vbser.cni"/>
+					</lu>
+					</chunk>
+				</out>
+		</when>
+		<when>
+			<test>
+				<equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
+			</test>      
+			    <out>
+					<chunk name="vbserBiti_Pii" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="VB"/></tag>
+					</tags>
+					<lu>
+						<lit v="biti"/>
+						<lit-tag v="vbser.pres"/>
+						<clip pos="1" side="tl" part="prs"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="1" side="tl" part="lemh"/>
+						<clip pos="1" side="tl" part="a_vrb"/>
+						<lit-tag v="past.m"/> <!-- no gender on SH side -->
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					</chunk>
+				</out>
+		</when>
+		<otherwise>
+			<out>
+				<chunk name="vbserBiti_oth" case="caseFirstWord">
+				<tags>
+					<tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+					<clip pos="1" side="tl" part="whole"/>
+				</lu>
+				</chunk>
+			</out>
+		</otherwise>
+	</choose>
+	</def-macro>
+
+
+	
+	
+	
+	
+
     <def-macro n="prn_adapter" npar="1">
       <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
       <call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
@@ -1133,23 +1243,13 @@
       </pattern>
 		<action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
-		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
 			<choose>
 				<when> <!-- biti vbser.pprs.adv (perf) = goes to: KO JE BIL -->
 					<test>
 						<and>
-							<equal>
-								<clip pos="1" side="sl" part="lemh"/>
-								<lit v="biti"/>
-							</equal>
-							<equal>
-								<clip pos="1" side="sl" part="a_adv"/>
-								<lit-tag v="adv"/>
-							</equal>
-							<equal>
-								<clip pos="1" side="sl" part="asp"/>
-								<lit-tag v="perf"/>
-							</equal>
+							<equal><clip pos="1" side="sl" part="lemh"/><lit v="biti"/></equal>
+							<equal><clip pos="1" side="sl" part="a_adv"/><lit-tag v="adv"/></equal>
+							<equal><clip pos="1" side="sl" part="asp"/><lit-tag v="perf"/></equal>
 						</and>
 					</test>	
 				<out>
@@ -1177,18 +1277,9 @@
 				<when> <!-- biti vbser.pprs.adv (imperf) = goes to: MEDTEM, KO JE BIL -->
 					<test>
 						<and>
-							<equal>
-								<clip pos="1" side="sl" part="lemh"/>
-								<lit v="biti"/>
-							</equal>
-							<equal>
-								<clip pos="1" side="sl" part="a_adv"/>
-								<lit-tag v="adv"/>
-							</equal>
-							<equal>
-								<clip pos="1" side="sl" part="asp"/>
-								<lit-tag v="imperf"/>
-							</equal>
+							<equal><clip pos="1" side="sl" part="lemh"/><lit v="biti"/></equal>
+							<equal><clip pos="1" side="sl" part="a_adv"/><lit-tag v="adv"/></equal>
+							<equal><clip pos="1" side="sl" part="asp"/><lit-tag v="imperf"/></equal>
 						</and>
 					</test>	
 				<out>
@@ -1223,117 +1314,9 @@
 					</chunk>
 				</out>
 				</when>
-				<when>
-					<test>
-						<equal>
-							<clip pos="1" side="sl" part="tns"/>
-							<lit-tag v="lp"/>
-						</equal>
-					</test>	
-				<out>
-					<chunk name="bitiVbser_LP" case="caseFirstWord">
-						<tags>
-							<tag><lit-tag v="VB"/></tag>
-						</tags>
-						<lu>
-							<clip pos="1" side="tl" part="lemh"/>
-							<clip pos="1" side="tl" part="a_vrb"/>
-							<lit-tag v="past"/>
-							<clip pos="1" side="sl" part="gen"/>
-							<clip pos="1" side="tl" part="nbr"/>
-						</lu>
-					</chunk>
-				</out>
-				</when>
-				<when>
-					<test>
-						<equal>
-							<clip pos="1" side="sl" part="tns"/>
-							<lit-tag v="clt.aor"/>
-						</equal>
-					</test>	
-				<out>
-					<chunk name="bitiVbser_CltAor" case="caseFirstWord">
-						<tags>
-							<tag><lit-tag v="VB"/></tag>
-						</tags>
-						<lu>
-							<lit v="biti"/>
-							<lit-tag v="vbser.cni"/>
-						</lu>
-					</chunk>
-				</out>
-				</when>
-				<when>
-					<test>
-						<equal>
-							<clip pos="1" side="sl" part="tns"/>
-							<lit-tag v="aor"/>
-						</equal>
-					</test>	
-				<out>
-					<chunk name="bitiVbser_AOR" case="caseFirstWord">
-						<tags>
-							<tag><lit-tag v="VB"/></tag>
-						</tags>
-						<lu>
-							<lit v="biti"/>
-							<lit-tag v="vbser.pres"/>
-							<clip pos="1" side="tl" part="prs"/>
-							<clip pos="1" side="tl" part="nbr"/>
-						</lu>
-						<b/>
-						<lu>
-							<clip pos="1" side="tl" part="lemh"/>
-							<clip pos="1" side="tl" part="a_vrb"/>
-							<lit-tag v="past"/>
-							<clip pos="1" side="tl" part="gen"/>
-							<clip pos="1" side="tl" part="nbr"/>
-						</lu>
-					</chunk>
-				</out>
-				</when>
-				<when>
-					<test>
-						<equal>
-							<clip pos="1" side="sl" part="tns"/>
-							<lit-tag v="pii"/>
-						</equal>
-					</test>	
-				<out>
-					<chunk name="bitiVbser_PII" case="caseFirstWord">
-						<tags>
-							<tag><lit-tag v="VB"/></tag>
-						</tags>
-						<lu>
-							<lit v="biti"/>
-							<lit-tag v="vbser.pres"/>
-							<clip pos="1" side="tl" part="prs"/>
-							<clip pos="1" side="tl" part="nbr"/>
-						</lu>
-						<b/>
-						<lu>
-							<clip pos="1" side="tl" part="lemh"/>
-							<clip pos="1" side="tl" part="a_vrb"/>
-							<lit-tag v="past.m"/> <!-- no gender on SH side -->
-							<clip pos="1" side="tl" part="nbr"/>
-						</lu>
-					</chunk>
-				</out>
-				</when>
 				<otherwise>
-			    <out>
-			      <chunk name="verb" case="caseFirstWord">
-				<tags>
-				  <tag><lit-tag v="VB"/></tag>
-				  <tag><clip pos="1" side="tl" part="a_vrb"/></tag>
-				</tags>
-				<lu>
-				  <clip pos="1" side="tl" part="whole"/>
-				</lu>
-			      </chunk>
-			    </out>
-			  </otherwise>
+					<call-macro n="vbserBiti_adapter"><with-param pos="1"/></call-macro>
+				</otherwise>
 			</choose>
 		</action>
 	</rule>
