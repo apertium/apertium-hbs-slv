@@ -462,7 +462,7 @@
       <choose>
         <when>
           <test>               
-	    <equal caseless="yes"><clip pos="1" side="sl" part="cas"/><lit-tag v="voc"/></equal>
+	    	<equal caseless="yes"><clip pos="1" side="sl" part="cas"/><lit-tag v="voc"/></equal>
           </test>          
           <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
         </when>
@@ -470,30 +470,95 @@
     </def-macro>
 
     <def-macro n="adj_adapter" npar="1">
-      <choose>
-	<when>
-	  <test>
-	      <ends-with caseless="yes"><clip pos="1" side="sl" part="a_adj"/><lit-tag v="i"/></ends-with>
-	  </test>
-	  <let><clip pos="1" side="tl" part="def"/><lit-tag v="ind"/></let><!--All verbs in Slovene have <ind>, so this is ok, right?; Krvoje-->
-	</when>
-      </choose>
-      <call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
-      <choose>
-	<when>
-	  <test>
-	    <and>
-	      <equal><clip pos="1" side="tl" part="lem"/><lit v="pos"/></equal>
-	      <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></equal>
-	    </and>
-	    <!-- Do absolutely nothing to the gender, needs to be left <mi> or <ma> -->
-	  </test>
-	</when>
-	<otherwise>
-	  <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
-	</otherwise>
-      </choose>
-    </def-macro>
+    <choose>
+		<when>
+			<test>
+				<ends-with caseless="yes"><clip pos="1" side="sl" part="a_adj"/><lit-tag v="i"/></ends-with>
+			</test>
+			<let><clip pos="1" side="tl" part="def"/><lit-tag v="ind"/></let><!--All verbs in Slovene have <ind>, so this is ok, right?; Krvoje-->
+		</when>
+		</choose>
+		<call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
+		<choose>
+			<when>
+				<test>
+					<and>
+						<equal><clip pos="1" side="tl" part="lem"/><lit v="pos"/></equal>
+						<equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></equal>
+					</and>
+				<!-- Do absolutely nothing to the gender, needs to be left <mi> or <ma> -->
+				</test>
+			</when>
+		<otherwise>
+			<call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
+			<choose>
+				<when> <!-- adjective to adverb transfer -->
+				    <test>
+						<and>
+							<equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="adj"/></equal>
+							<equal><clip pos="1" side="tl" part="a_adv"/><lit-tag v="adv"/></equal>
+						</and>
+				    </test>	
+				    <out>
+				      <chunk name="adjToAdv2" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="VB"/></tag>
+						</tags>
+						<lu>
+							<clip pos="1" side="tl" part="lemh"/>
+							<clip pos="1" side="tl" part="a_adv"/>
+							<lit-tag v="sint"/>
+						</lu>
+					</chunk>
+					</out>
+				</when>
+				<when> <!-- adjective to pronoun rule -->
+					<test>
+						<and>
+							<equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="adj"/></equal>
+							<or>
+								<equal><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.ind"/></equal>
+								<equal><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.ind.neg"/></equal>
+							</or>
+						</and>
+					</test>	
+					<out>
+						<chunk name="adjToPrn" case="caseFirstWord">
+							<tags>
+								<tag><lit-tag v="VB"/></tag>
+							</tags>
+							<lu>
+								<clip pos="1" side="tl" part="lemh"/>
+								<clip pos="1" side="tl" part="a_prn"/>
+								<clip pos="1" side="tl" part="gen"/>
+								<clip pos="1" side="tl" part="nbr"/>
+								<clip pos="1" side="tl" part="cas"/>
+							</lu>
+						</chunk>
+					</out>
+				</when>
+				<otherwise>
+					<out>
+						<chunk name="adj" case="caseFirstWord">
+							<tags>
+								<tag><lit-tag v="VB"/></tag>
+							</tags>
+							<lu>
+								<clip pos="1" side="tl" part="lemh"/>
+								<clip pos="1" side="tl" part="a_adj"/>
+								<clip pos="1" side="tl" part="a_adj_deg"/>
+								<clip pos="1" side="tl" part="gen"/>
+								<clip pos="1" side="tl" part="nbr"/>
+								<clip pos="1" side="tl" part="cas"/>
+								<lit-tag v="ind"/>
+							</lu>
+						</chunk>
+					</out>
+				</otherwise>
+			</choose>
+		</otherwise>
+	</choose>
+	</def-macro>
 
 
 	<def-macro n="vbserBiti_adapter" npar="1">
@@ -585,6 +650,7 @@
 				</out>
 		</when>
 		<otherwise>
+		<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
 			<out>
 				<chunk name="vbserBiti_oth" case="caseFirstWord">
 				<tags>
@@ -598,11 +664,6 @@
 		</otherwise>
 	</choose>
 	</def-macro>
-
-
-	
-	
-	
 	
 
     <def-macro n="prn_adapter" npar="1">
@@ -1321,6 +1382,66 @@
 		</action>
 	</rule>
 	
+
+	<rule comment="adj + vbser (biti) + n">
+      <pattern>
+		<pattern-item n="adj"/>
+		<pattern-item n="biti_vbser"/>
+		<pattern-item n="nom"/>
+      </pattern>
+		<action>
+		<call-macro n="firstWord"><with-param pos="2"/></call-macro>
+		<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+		<!-- outputs-->
+		<call-macro n="vbserBiti_adapter"><with-param pos="2"/></call-macro>
+		<out><b/></out>
+		<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
+		<out>
+			<chunk name="AdjVbserNoun" case="caseFirstWord">
+				<tags>
+					<tag><lit-tag v="VB"/></tag>
+				</tags>
+				<b/>
+				<lu>
+					<clip pos="3" side="tl" part="whole"/>
+				</lu>
+			</chunk>
+		</out>
+		</action>
+	</rule>
+
+	
+	<rule comment="n + vbser (biti) + n">
+      <pattern>
+		<pattern-item n="nom"/>
+		<pattern-item n="biti_vbser"/>
+		<pattern-item n="nom"/>
+      </pattern>
+		<action>
+		<call-macro n="firstWord"><with-param pos="2"/></call-macro>
+		<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+		<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+		<!-- outputs-->
+		<call-macro n="vbserBiti_adapter"><with-param pos="2"/></call-macro>
+		<out>
+			<chunk name="NounVbserNoun" case="caseFirstWord">
+				<tags>
+					<tag><lit-tag v="VB"/></tag>
+				</tags>
+				<b/>
+				<lu>
+					<clip pos="1" side="tl" part="whole"/>
+				</lu>
+				<b/>
+				<lu>
+					<clip pos="3" side="tl" part="whole"/>
+				</lu>
+			</chunk>
+		</out>
+		</action>
+	</rule>
+		
+	
 	<rule comment="Imati vbhaver">
       <pattern>
 	<pattern-item n="imati_vbhaver"/>
@@ -2011,88 +2132,7 @@
       </pattern>
       <action>
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
-	<call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
-	<call-macro n="voc_adapter"><with-param pos="1"/></call-macro>
-	<choose>
-	  <when> <!-- adjective to adverb rule -->
-	    <test>
-	      <and>
-		<equal>
-		  <clip pos="1" side="sl" part="a_adj"/>
-		  <lit-tag v="adj"/>
-		</equal>
-		<equal>
-		  <clip pos="1" side="tl" part="a_adv"/>
-		  <lit-tag v="adv"/>
-		</equal>
-	      </and>
-	    </test>	
-	    <out>
-	      <chunk name="adjToAdv2" case="caseFirstWord">
-		<tags>
-		  <tag><lit-tag v="VB"/></tag>
-		</tags>
-		<lu>
-		  <clip pos="1" side="tl" part="lemh"/>
-		  <clip pos="1" side="tl" part="a_adv"/>
-		  <lit-tag v="sint"/>
-		</lu>
-	      </chunk>
-	    </out>
-	  </when>
-	  <when> <!-- adjective to pronoun rule -->
-	    <test>
-	      <and>
-		<equal>
-		  <clip pos="1" side="sl" part="a_adj"/>
-		  <lit-tag v="adj"/>
-		</equal>
-		<or>
-		<equal>		  
-		  <clip pos="1" side="tl" part="a_prn"/>
-		  <lit-tag v="prn.ind"/>
-		</equal>
-		<equal>		  
-		  <clip pos="1" side="tl" part="a_prn"/>
-		  <lit-tag v="prn.ind.neg"/>
-		</equal>
-		</or>
-	      </and>
-	    </test>	
-	    <out>
-	      <chunk name="adjToPrn" case="caseFirstWord">
-		<tags>
-		  <tag><lit-tag v="VB"/></tag>
-		</tags>
-		<lu>
-		  <clip pos="1" side="tl" part="lemh"/>
-		  <clip pos="1" side="tl" part="a_prn"/>
-		  <clip pos="1" side="tl" part="gen"/>
-		  <clip pos="1" side="tl" part="nbr"/>
-		  <clip pos="1" side="tl" part="cas"/>
-		</lu>
-	      </chunk>
-	    </out>
-          </when>
-	  <otherwise>
-	    <out>
-	      <chunk name="adj" case="caseFirstWord">
-		<tags>
-		  <tag><lit-tag v="VB"/></tag>
-		</tags>
-		<lu>
-		  <clip pos="1" side="tl" part="lemh"/>
-		  <clip pos="1" side="tl" part="a_adj"/>
-		  <clip pos="1" side="tl" part="a_adj_deg"/>
-		  <clip pos="1" side="tl" part="gen"/>
-		  <clip pos="1" side="tl" part="nbr"/>
-		  <clip pos="1" side="tl" part="cas"/>
-		  <lit-tag v="ind"/> <!-- Add def? in SL not all forms have def -->
-		</lu>
-	      </chunk>
-	    </out>
-	  </otherwise>
-	</choose>
+	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
       </action>
     </rule>
 
