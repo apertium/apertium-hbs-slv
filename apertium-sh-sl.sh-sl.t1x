@@ -1452,6 +1452,141 @@
 		</action>
 	</rule>
 
+
+	<!-- JERNEJ -->
+	<rule comment="nom nom vbser --> nom vbser nom">
+      <pattern>
+		<pattern-item n="nom"/>
+		<pattern-item n="nom"/>
+		<pattern-item n="biti_vbser"/>
+      </pattern>
+		<action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+		<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+		<out>
+			<chunk name="test1" case="caseFirstWord">
+				<tags>
+					<tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+					<clip pos="1" side="tl" part="whole"/>
+				</lu>
+			</chunk>
+		</out>
+		<!-- outputs-->
+		<out><b/></out>
+		<call-macro n="vbserBiti_adapter"><with-param pos="3"/></call-macro>
+		<out>
+			<b/>
+			<lu>
+				<clip pos="2" side="tl" part="whole"/>
+			</lu>
+		</out>
+		</action>
+	</rule>
+	
+	<rule comment="nom adj nom vbser -->  nom vbser adj nom">
+      <pattern>
+		<pattern-item n="nom"/>
+		<pattern-item n="adj"/>
+		<pattern-item n="nom"/>
+		<pattern-item n="biti_vbser"/>
+      </pattern>
+		<action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+		<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+		<out>
+			<chunk name="test2" case="caseFirstWord">
+				<tags>
+					<tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+					<clip pos="1" side="tl" part="whole"/>
+				</lu>
+			</chunk>
+		</out>
+		<!-- outputs-->
+		<out><b/></out>
+		<call-macro n="vbserBiti_adapter"><with-param pos="4"/></call-macro>
+		<out><b/></out>
+		<call-macro n="adj_adapter"><with-param pos="2"/></call-macro>
+		<out>
+			<b/>
+			<lu>
+				<clip pos="3" side="tl" part="whole"/>
+			</lu>
+		</out>
+		</action>
+	</rule>
+	
+	<rule comment="nom adj adj nom vbser -->  nom vbser adj adj nom">
+      <pattern>
+		<pattern-item n="nom"/>
+		<pattern-item n="adj"/>
+		<pattern-item n="adj"/>
+		<pattern-item n="nom"/>
+		<pattern-item n="biti_vbser"/>
+      </pattern>
+		<action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+		<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+		<out>
+			<chunk name="test3" case="caseFirstWord">
+				<tags>
+					<tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+					<clip pos="1" side="tl" part="whole"/>
+				</lu>
+			</chunk>
+		</out>
+		<!-- outputs-->
+		<out><b/></out>
+		<call-macro n="vbserBiti_adapter"><with-param pos="5"/></call-macro>
+		<out><b/></out>
+		<call-macro n="adj_adapter"><with-param pos="2"/></call-macro>
+		<out><b/></out>
+		<call-macro n="adj_adapter"><with-param pos="3"/></call-macro>
+		<out>
+			<b/>
+			<lu>
+				<clip pos="4" side="tl" part="whole"/>
+			</lu>
+		</out>
+		</action>
+	</rule>
+	
+	<rule comment="nom vblex vbser --> nom vbser vblex">
+      <pattern>
+		<pattern-item n="nom"/>
+		<pattern-item n="vblex"/>
+		<pattern-item n="biti_vbser"/>
+      </pattern>
+		<action>
+		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+		<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+		<out>
+			<chunk name="test4" case="caseFirstWord">
+				<tags>
+					<tag><lit-tag v="VB"/></tag>
+				</tags>
+				<lu>
+					<clip pos="1" side="tl" part="whole"/>
+				</lu>
+			</chunk>
+		</out>
+		<!-- outputs-->
+		<out><b/></out>
+		<call-macro n="vbserBiti_adapter"><with-param pos="3"/></call-macro>
+		<out><b/></out>
+		<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
+		</action>
+	</rule>
+	
+	<!-- Jernej konec -->
 	
 
 		
