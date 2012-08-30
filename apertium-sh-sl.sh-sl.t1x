@@ -1586,6 +1586,13 @@
 		</action>
 	</rule>
 	
+	<!-- TO DO
+	 nom nom vbhaver - nom vbhaver nom 
+	 nom adj nom vbhaver -  nom vbhaver adj nom
+	 nom adj adj nom vbhaver -  nom vbhaver adj adj nom
+
+	 prn vblex vbser - prn vbser vblex
+	-->
 	<!-- Jernej konec -->
 	
 
