@@ -16669,10 +16669,10 @@
 	<e><p><l>hrvatski<s n="adj"/><s n="comp"/></l><r>hrvaški<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>hrvatski<s n="adj"/><s n="sup"/></l><r>hrvaški<s n="adj"/><s n="add_sup"/></r></p></e>
 	<e><p><l>hrvatski<s n="adj"/><s n="ssup"/></l><r>hrvaški<s n="adj"/><s n="add_ela"/></r></p></e>
-	<e><p><l>hrvatski<s n="adj"/></l><r>hrvatski<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<!--><e><p><l>hrvatski<s n="adj"/></l><r>hrvatski<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>hrvatski<s n="adj"/><s n="comp"/></l><r>hrvatski<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>hrvatski<s n="adj"/><s n="sup"/></l><r>hrvatski<s n="adj"/><s n="add_sup"/></r></p></e>
-	<e><p><l>hrvatski<s n="adj"/><s n="ssup"/></l><r>hrvatski<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>hrvatski<s n="adj"/><s n="ssup"/></l><r>hrvatski<s n="adj"/><s n="add_ela"/></r></p></e> -->
 	<e><p><l>indijski<s n="adj"/></l><r>indijski<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>indijski<s n="adj"/><s n="comp"/></l><r>indijski<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>indijski<s n="adj"/><s n="sup"/></l><r>indijski<s n="adj"/><s n="add_sup"/></r></p></e>
