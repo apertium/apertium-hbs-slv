@@ -839,7 +839,8 @@
 						<clip pos="1" side="tl" part="gen"/>
 						<clip pos="1" side="tl" part="nbr"/>
 						<clip pos="1" side="tl" part="cas"/>
-						<clip pos="1" side="tl" part="def"/>
+						<lit-tag v="ind"/>
+						<!--<clip pos="1" side="tl" part="def"/>-->
 					</lu>
  				</chunk>
 			</out>
@@ -1452,35 +1453,7 @@
 	</rule>
 
 	
-	<rule comment="n + vbser (biti) + n">
-      <pattern>
-		<pattern-item n="nom"/>
-		<pattern-item n="biti_vbser"/>
-		<pattern-item n="nom"/>
-      </pattern>
-		<action>
-		<call-macro n="firstWord"><with-param pos="2"/></call-macro>
-		<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
-		<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
-		<!-- outputs-->
-		<call-macro n="vbserBiti_adapter"><with-param pos="2"/></call-macro>
-		<out>
-			<chunk name="NounVbserNoun" case="caseFirstWord">
-				<tags>
-					<tag><lit-tag v="VB"/></tag>
-				</tags>
-				<b/>
-				<lu>
-					<clip pos="1" side="tl" part="whole"/>
-				</lu>
-				<b/>
-				<lu>
-					<clip pos="3" side="tl" part="whole"/>
-				</lu>
-			</chunk>
-		</out>
-		</action>
-	</rule>
+
 		
 	
 	<rule comment="Imati vbhaver">

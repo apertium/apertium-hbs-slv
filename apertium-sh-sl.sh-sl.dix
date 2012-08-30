@@ -19533,10 +19533,7 @@
 	<e><p><l>određen<s n="adj"/><s n="comp"/></l><r>določen<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>određen<s n="adj"/><s n="sup"/></l><r>določen<s n="adj"/><s n="add_sup"/></r></p></e>
 	<e><p><l>određen<s n="adj"/><s n="ssup"/></l><r>določen<s n="adj"/><s n="add_ela"/></r></p></e>
-	<e><p><l>značajan<s n="adj"/></l><r>pomemben<s n="adj"/></r></p><par n="only_pst2null"/></e>
-	<e><p><l>značajan<s n="adj"/><s n="comp"/></l><r>pomemben<s n="adj"/><s n="add_comp"/></r></p></e>
-	<e><p><l>značajan<s n="adj"/><s n="sup"/></l><r>pomemben<s n="adj"/><s n="add_sup"/></r></p></e>
-	<e><p><l>značajan<s n="adj"/><s n="ssup"/></l><r>pomemben<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>značajan<s n="adj"/></l><r>pomemben<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>stavljen<s n="adj"/></l><r>položen<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>stavljen<s n="adj"/><s n="comp"/></l><r>položen<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>stavljen<s n="adj"/><s n="sup"/></l><r>položen<s n="adj"/><s n="add_sup"/></r></p></e>
