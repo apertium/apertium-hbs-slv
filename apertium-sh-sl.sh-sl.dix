@@ -20393,10 +20393,6 @@
 	<e><p><l>gladan<s n="adj"/><s n="comp"/></l><r>sestradan<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>gladan<s n="adj"/><s n="sup"/></l><r>sestradan<s n="adj"/><s n="add_sup"/></r></p></e>
 	<e><p><l>gladan<s n="adj"/><s n="ssup"/></l><r>sestradan<s n="adj"/><s n="add_ela"/></r></p></e>
-	<e><p><l>služben<s n="adj"/></l><r>služben<s n="adj"/></r></p><par n="only_pst2null"/></e>
-	<e><p><l>služben<s n="adj"/><s n="comp"/></l><r>služben<s n="adj"/><s n="add_comp"/></r></p></e>
-	<e><p><l>služben<s n="adj"/><s n="sup"/></l><r>služben<s n="adj"/><s n="add_sup"/></r></p></e>
-	<e><p><l>služben<s n="adj"/><s n="ssup"/></l><r>služben<s n="adj"/><s n="add_ela"/></r></p></e>
 	<e><p><l>prazan<s n="adj"/></l><r>spraznjen<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>prazan<s n="adj"/><s n="comp"/></l><r>spraznjen<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>prazan<s n="adj"/><s n="sup"/></l><r>spraznjen<s n="adj"/><s n="add_sup"/></r></p></e>
