@@ -7724,6 +7724,7 @@
     <e><p><l>pepeo<s n="n"/><s n="mi"/></l><r>pepel<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>obim<s n="n"/><s n="mi"/></l><r>obseg<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>nalaz<s n="n"/><s n="mi"/></l><r>najdba<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tvrđenje<s n="n"/><s n="nt"/></l><r>strjevanje<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lijevanje<s n="n"/><s n="nt"/></l><r>vlivanje<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kalup<s n="n"/><s n="mi"/></l><r>kalup<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>golubica<s n="n"/><s n="f"/></l><r>golobica<s n="n"/><s n="f"/></r></p></e>
@@ -11615,8 +11616,6 @@
     <e><p><l>lopta<s n="n"/><s n="f"/></l><r>žoga<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>akrobacija<s n="n"/><s n="f"/></l><r>akrobatika<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>alkemija<s n="n"/><s n="f"/></l><r>alkimija<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>engleski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>angleščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
-    <e><p><l>baskijski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>baskovščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
     <e><p><l>berba<s n="n"/><s n="f"/></l><r>bera<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>bura<s n="n"/><s n="f"/></l><r>burja<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>iznutrica<s n="n"/><s n="f"/></l><r>drobovina<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
@@ -12360,7 +12359,6 @@
     <e><p><l>nafta<s n="n"/><s n="f"/></l><r>nafta<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>krama<s n="n"/><s n="f"/></l><r>navlaka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nevjera<s n="n"/><s n="f"/></l><r>nevera<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
-    <e><p><l>portugalski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>portugalščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
     <e><p><l>publicitet<s n="n"/><s n="mi"/></l><r>publiciteta<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>vlaga<s n="n"/><s n="f"/></l><r>vlaga<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
     <e><p><l>povrće<s n="n"/><s n="nt"/></l><r>zelenjava<s n="n"/><s n="f"/></r></p><par n="sgpl_sg"/></e>
@@ -12431,7 +12429,6 @@
     <e><p><l>narav<s n="n"/><s n="f"/></l><r>nrav<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>seks<s n="n"/><s n="mi"/></l><r>seks<s n="n"/><s n="mi"/></r></p><par n="sg_sgpl"/></e>
     <e><p><l>grof<s n="n"/><s n="ma"/></l><r>grof<s n="n"/><s n="ma"/></r></p></e>
-    <e><p><l>bližnji<s n="adj"/><s n="pst"/><s n="ma"/></l><r>sočlovek<s n="n"/><s n="ma"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
     <e><p><l>seljak<s n="n"/><s n="ma"/></l><r>kmet<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>poljoprivrednik<s n="n"/><s n="ma"/></l><r>kmet<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>tlo<s n="n"/><s n="nt"/></l><r>tla<s n="n"/><s n="nt"/></r></p><par n="sgpl_pl"/></e>
@@ -14993,7 +14990,6 @@
 
     <!-- Adjective to Pronoun -> rule added -->
     <e><p><l>drugi<s n="adj"/><s n="pst"/></l><r>drug<s n="prn"/><s n="ind"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
-    <e><p><l>jednak<s n="adj"/><s n="pst"/></l><r>enak<s n="prn"/><s n="ind"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/><par n="ind2null"/></e>
     <e><p><l>isti<s n="adj"/><s n="pst"/></l><r>isti<s n="prn"/><s n="ind"/></r></p><par n="gen_id"/><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
 
 	<!-- Adjectives -->
@@ -15008,7 +15004,7 @@
 	<e><p><l>lončarski<s n="adj"/></l><r>lončarski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>neandertalski<s n="adj"/></l><r>neandertalski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>panonski<s n="adj"/></l><r>panonski<s n="adj"/></r></p><par n="pst2null"/></e>
-	<e><p><l>sjevernoatlanski<s n="adj"/></l><r>severnoatlansk<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>sjevernoatlanski<s n="adj"/></l><r>severnoatlanski<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>sopotski<s n="adj"/></l><r>sopotski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>srednjoeuropski<s n="adj"/></l><r>srednjeevropski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>trgovinski<s n="adj"/></l><r>trgovinski<s n="adj"/></r></p><par n="pst2null"/></e>
