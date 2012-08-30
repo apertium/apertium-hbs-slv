@@ -538,12 +538,26 @@
 					</out>
 				</when>
 				<otherwise>
-					<out>
-						<chunk name="adj" case="caseFirstWord">
-							<tags>
-								<tag><lit-tag v="VB"/></tag>
-							</tags>
-							<lu>
+					<!-- check if needed to adde bolj, najbolj, preveč -->
+					<choose>
+						<when>
+						  <test>    
+						    <and>
+						      <equal caseless="yes"><clip pos="1" side="sl" part="a_adv_form_SH"/><lit-tag v="ssup"/></equal>
+						      <equal caseless="yes"><clip pos="1" side="tl" part="a_adv_addWord"/><lit-tag v="add_ela"/></equal>
+						    </and>
+						  </test>          
+						  <out>
+						    <chunk name="Preveč_adj" case="caseFirstWord">
+						      <tags>
+							<tag><lit-tag v="VB"/></tag>
+						      </tags>
+						      <lu>
+							<lit v="veliko"/>	
+							<lit-tag v="adv.sint.ela"/>
+						      </lu>
+						      <b/>
+						      <lu>
 								<clip pos="1" side="tl" part="lemh"/>
 								<clip pos="1" side="tl" part="a_adj"/>
 								<clip pos="1" side="tl" part="a_adj_deg"/>
@@ -551,9 +565,87 @@
 								<clip pos="1" side="tl" part="nbr"/>
 								<clip pos="1" side="tl" part="cas"/>
 								<lit-tag v="ind"/>
-							</lu>
-						</chunk>
-					</out>
+						      </lu>
+						    </chunk>
+						  </out>
+						</when>
+						<when>
+						  <test>    
+						    <and>
+						      <equal caseless="yes"><clip pos="1" side="sl" part="a_adv_form_SH"/><lit-tag v="sup"/></equal>
+						      <equal caseless="yes"><clip pos="1" side="tl" part="a_adv_addWord"/><lit-tag v="add_sup"/></equal>
+						    </and>
+						  </test>          
+						  <out>
+						    <chunk name="Najbolj_adj" case="caseFirstWord">
+						      <tags>
+							<tag><lit-tag v="VB"/></tag>
+						      </tags>
+						      <lu>
+							<lit v="najbolj"/>	
+							<lit-tag v="adv.sint.sup"/>
+						      </lu>
+						      <b/>
+						      <lu>
+								<clip pos="1" side="tl" part="lemh"/>
+								<clip pos="1" side="tl" part="a_adj"/>
+								<clip pos="1" side="tl" part="a_adj_deg"/>
+								<clip pos="1" side="tl" part="gen"/>
+								<clip pos="1" side="tl" part="nbr"/>
+								<clip pos="1" side="tl" part="cas"/>
+								<lit-tag v="ind"/>
+						      </lu>
+						    </chunk>
+						  </out>
+						</when>	
+						<when>
+						  <test>    
+						    <and>
+						      <equal caseless="yes"><clip pos="1" side="sl" part="a_adv_form_SH"/><lit-tag v="comp"/></equal>
+						      <equal caseless="yes"><clip pos="1" side="tl" part="a_adv_addWord"/><lit-tag v="add_comp"/></equal>
+						    </and>
+						  </test>          
+						  <out>
+						    <chunk name="Bolj_adj" case="caseFirstWord">
+						      <tags>
+							<tag><lit-tag v="VB"/></tag>
+						      </tags>
+						      <lu>
+							<lit v="bolj"/>	
+							<lit-tag v="adv.sint"/>
+						      </lu>
+						      <b/>
+						      <lu>
+								<clip pos="1" side="tl" part="lemh"/>
+								<clip pos="1" side="tl" part="a_adj"/>
+								<clip pos="1" side="tl" part="a_adj_deg"/>
+								<clip pos="1" side="tl" part="gen"/>
+								<clip pos="1" side="tl" part="nbr"/>
+								<clip pos="1" side="tl" part="cas"/>
+								<lit-tag v="ind"/>
+						      </lu>
+						    </chunk>
+						  </out>
+						</when>	
+						<otherwise> <!-- Else: adj v adj -->
+						  <out>
+						    <chunk name="adj" case="caseFirstWord">
+						      <tags>
+							<tag><lit-tag v="VB"/></tag>
+						      </tags>
+						      <lu>
+								<clip pos="1" side="tl" part="lemh"/>
+								<clip pos="1" side="tl" part="a_adj"/>
+								<clip pos="1" side="tl" part="a_adj_deg"/>
+								<clip pos="1" side="tl" part="gen"/>
+								<clip pos="1" side="tl" part="nbr"/>
+								<clip pos="1" side="tl" part="cas"/>
+								<lit-tag v="ind"/>
+						      </lu>
+						    </chunk>
+						  </out>
+						</otherwise>
+					</choose>
 				</otherwise>
 			</choose>
 		</otherwise>
@@ -728,7 +820,6 @@
     </def-macro>
 
     <def-macro n="verb_adapter" npar="1">
-
       <choose>
 	<when>
 	  <test>
@@ -2069,21 +2160,7 @@
 	    </out>
 	  </when>
 	  <otherwise>
-	    <out>
-	      <chunk name="adjAdverb" case="caseFirstWord">
-		<tags>
-		  <tag><lit-tag v="VB"/></tag>
-		</tags>
-		<lu>
-		  <clip pos="1" side="tl" part="lemh"/>
-		  <clip pos="1" side="tl" part="a_adj"/>
-		  <clip pos="1" side="tl" part="gen"/>
-		  <clip pos="1" side="tl" part="nbr"/>
-		  <clip pos="1" side="tl" part="cas"/>
-		  <clip pos="1" side="tl" part="def"/>
-		</lu>
-	      </chunk>
-	    </out>
+		<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
 	  </otherwise>
 	</choose>
       </action>
@@ -2858,7 +2935,7 @@
 	</choose>
       </action>
     </rule>
-
+<!--
     <rule comment="Adjectives (.pst -> normal)">
       <pattern>
 	<pattern-item n="adj_pst"/>
@@ -2882,7 +2959,7 @@
 	  </chunk>
 	</out>
       </action>
-    </rule>
+    </rule> -->
 
     <rule comment="li + clitic + verb -> clitic + verb">
       <pattern>
