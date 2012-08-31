@@ -38871,7 +38871,7 @@
     <e lm="suh"><i>su</i><par n="su/h__comp__adj"/></e>
     <e lm="suh"><i>suh</i><par n="zdrav__comp__adj"/></e>
     <e lm="suh"><p><l>najsu</l><r>su</r></p><par n="su/h__sup__adj"/></e>
-    <e lm="suh"><p><l>najsu</l><r>su</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="suh"><p><l>najsu</l><r>suh</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="suh"><p><l>presu</l><r>su</r></p><par n="su/h__ssup__adj"/></e>
 
     <e lm="tih"><i>ti</i><par n="su/h__pst__adj"/></e>
