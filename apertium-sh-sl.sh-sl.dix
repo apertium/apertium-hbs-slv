@@ -15026,7 +15026,6 @@
 	<e><p><l>opozicijski<s n="adj"/><s n="comp"/></l><r>opozicijski<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>opozicijski<s n="adj"/><s n="sup"/></l><r>opozicijski<s n="adj"/><s n="add_sup"/></r></p></e>
 	<e><p><l>opozicijski<s n="adj"/><s n="ssup"/></l><r>opozicijski<s n="adj"/><s n="add_ela"/></r></p></e>
-	<e><p><l>trgovinski<s n="adj"/></l><r>trgovinski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>investicijski<s n="adj"/></l><r>investicijski<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>investicijski<s n="adj"/><s n="comp"/></l><r>investicijski<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>investicijski<s n="adj"/><s n="sup"/></l><r>investicijski<s n="adj"/><s n="add_sup"/></r></p></e>
@@ -23115,6 +23114,118 @@
 	<e><p><l>svemirski<s n="adj"/><s n="comp"/></l><r>vesoljski<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>svemirski<s n="adj"/><s n="sup"/></l><r>vesoljski<s n="adj"/><s n="add_sup"/></r></p></e>
 	<e><p><l>svemirski<s n="adj"/><s n="ssup"/></l><r>vesoljski<s n="adj"/><s n="add_ela"/></r></p></e>
+	
+	<e><p><l>smjeo<s n="adj"/></l><r>hraber<s n="adj"/></r></p><par n="pst2null"/></e>
+	
+	<e><p><l>super<s n="adj"/></l><r>super<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>super<s n="adj"/><s n="comp"/></l><r>super<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>super<s n="adj"/><s n="sup"/></l><r>super<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>super<s n="adj"/><s n="ssup"/></l><r>super<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>neto<s n="adj"/></l><r>neto<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>neto<s n="adj"/><s n="comp"/></l><r>neto<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>neto<s n="adj"/><s n="sup"/></l><r>neto<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>neto<s n="adj"/><s n="ssup"/></l><r>neto<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>izdržljiv<s n="adj"/></l><r>zdržljiv<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>izdržljiv<s n="adj"/><s n="comp"/></l><r>zdržljiv<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>izdržljiv<s n="adj"/><s n="sup"/></l><r>zdržljiv<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>izdržljiv<s n="adj"/><s n="ssup"/></l><r>zdržljiv<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>šuman<s n="adj"/></l><r>šumeč<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>šuman<s n="adj"/><s n="comp"/></l><r>šumeč<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>šuman<s n="adj"/><s n="sup"/></l><r>šumeč<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>šuman<s n="adj"/><s n="ssup"/></l><r>šumeč<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>barokan<s n="adj"/></l><r>volnen<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>barokan<s n="adj"/><s n="comp"/></l><r>volnen<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>barokan<s n="adj"/><s n="sup"/></l><r>volnen<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>barokan<s n="adj"/><s n="ssup"/></l><r>volnen<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>nedostatan<s n="adj"/></l><r>manjkajoč<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>nedostatan<s n="adj"/><s n="comp"/></l><r>manjkajoč<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>nedostatan<s n="adj"/><s n="sup"/></l><r>manjkajoč<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>nedostatan<s n="adj"/><s n="ssup"/></l><r>manjkajoč<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>ratoboran<s n="adj"/></l><r>borben<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>ratoboran<s n="adj"/><s n="comp"/></l><r>borben<s n="adj"/><s n="comp"/></r></p></e>
+	<e><p><l>ratoboran<s n="adj"/><s n="sup"/></l><r>borben<s n="adj"/><s n="sup"/></r></p></e>
+	<e><p><l>ratoboran<s n="adj"/><s n="ssup"/></l><r>borben<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>borben<s n="adj"/></l><r>borben<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>borben<s n="adj"/><s n="comp"/></l><r>borben<s n="adj"/><s n="comp"/></r></p></e>
+	<e><p><l>borben<s n="adj"/><s n="sup"/></l><r>borben<s n="adj"/><s n="sup"/></r></p></e>
+	<e><p><l>borben<s n="adj"/><s n="ssup"/></l><r>borben<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>održan<s n="adj"/></l><r>očuvan<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>održan<s n="adj"/><s n="comp"/></l><r>očuvan<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>održan<s n="adj"/><s n="sup"/></l><r>očuvan<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>održan<s n="adj"/><s n="ssup"/></l><r>očuvan<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>izvjestan<s n="adj"/></l><r>stanovit<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>izvjestan<s n="adj"/><s n="comp"/></l><r>stanovit<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>izvjestan<s n="adj"/><s n="sup"/></l><r>stanovit<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>izvjestan<s n="adj"/><s n="ssup"/></l><r>stanovit<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>ohol<s n="adj"/></l><r>ohol<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>ohol<s n="adj"/><s n="comp"/></l><r>ohol<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>ohol<s n="adj"/><s n="sup"/></l><r>ohol<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>ohol<s n="adj"/><s n="ssup"/></l><r>ohol<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>škrt<s n="adj"/></l><r>škrt<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>škrt<s n="adj"/><s n="comp"/></l><r>škrt<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>škrt<s n="adj"/><s n="sup"/></l><r>škrt<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>škrt<s n="adj"/><s n="ssup"/></l><r>škrt<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>izvoran<s n="adj"/></l><r>izvoren<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>izvoran<s n="adj"/><s n="comp"/></l><r>izvoren<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>izvoran<s n="adj"/><s n="sup"/></l><r>izvoren<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>izvoran<s n="adj"/><s n="ssup"/></l><r>izvoren<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>radoznao<s n="adj"/></l><r>radoznal<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>radoznao<s n="adj"/><s n="comp"/></l><r>radoznal<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>radoznao<s n="adj"/><s n="sup"/></l><r>radoznal<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>radoznao<s n="adj"/><s n="ssup"/></l><r>radoznal<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>životan<s n="adj"/></l><r>življenjski<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>životan<s n="adj"/><s n="comp"/></l><r>življenjski<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>životan<s n="adj"/><s n="sup"/></l><r>življenjski<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>životan<s n="adj"/><s n="ssup"/></l><r>življenjski<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>predivan<s n="adj"/></l><r>lep<s n="adj"/><s n="sup"/></r></p></e>
+	<e><p><l>cvjetni<s n="adj"/></l><r>cveten<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>djelomičan<s n="adj"/></l><r>parcialen<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>djelomičan<s n="adj"/><s n="comp"/></l><r>parcialen<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>djelomičan<s n="adj"/><s n="sup"/></l><r>parcialen<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>djelomičan<s n="adj"/><s n="ssup"/></l><r>parcialen<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>neprofesionalan<s n="adj"/></l><r>neprofesionalen<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>neprofesionalan<s n="adj"/><s n="comp"/></l><r>neprofesionalen<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>neprofesionalan<s n="adj"/><s n="sup"/></l><r>neprofesionalen<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>neprofesionalan<s n="adj"/><s n="ssup"/></l><r>neprofesionalen<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>autoritativan<s n="adj"/></l><r>avtoriteten<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>autoritativan<s n="adj"/><s n="comp"/></l><r>avtoriteten<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>autoritativan<s n="adj"/><s n="sup"/></l><r>avtoriteten<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>autoritativan<s n="adj"/><s n="ssup"/></l><r>avtoriteten<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>trostruk<s n="adj"/></l><r>trikraten<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>trostruk<s n="adj"/><s n="comp"/></l><r>trikraten<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>trostruk<s n="adj"/><s n="sup"/></l><r>trikraten<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>trostruk<s n="adj"/><s n="ssup"/></l><r>trikraten<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>dvostruk<s n="adj"/></l><r>dvakraten<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>dvostruk<s n="adj"/><s n="comp"/></l><r>dvakraten<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>dvostruk<s n="adj"/><s n="sup"/></l><r>dvakraten<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>dvostruk<s n="adj"/><s n="ssup"/></l><r>dvakraten<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>tajan<s n="adj"/></l><r>tajen<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>tajan<s n="adj"/><s n="comp"/></l><r>tajen<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>tajan<s n="adj"/><s n="sup"/></l><r>tajen<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>tajan<s n="adj"/><s n="ssup"/></l><r>tajen<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>razredni<s n="adj"/></l><r>razreden<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>jedini<s n="adj"/></l><r>edin<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>prošli<s n="adj"/></l><r>pretekel<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>budući<s n="adj"/></l><r>bodoč<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	
+	<e><p><l>brižan<s n="adj"/></l><r>brižen<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>mrzak<s n="adj"/></l><r>odvraten<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>mrzak<s n="adj"/><s n="comp"/></l><r>odvraten<s n="adj"/><s n="comp"/></r></p></e>
+	<e><p><l>mrzak<s n="adj"/><s n="sup"/></l><r>odvraten<s n="adj"/><s n="sup"/></r></p></e>
+	<e><p><l>mrzak<s n="adj"/><s n="ssup"/></l><r>odvraten<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>nevažan<s n="adj"/></l><r>nepomemben<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>nevažan<s n="adj"/><s n="comp"/></l><r>nepomemben<s n="adj"/><s n="comp"/></r></p></e>
+	<e><p><l>nevažan<s n="adj"/><s n="sup"/></l><r>nepomemben<s n="adj"/><s n="sup"/></r></p></e>
+	<e><p><l>nevažan<s n="adj"/><s n="ssup"/></l><r>nepomemben<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>nestvaran<s n="adj"/></l><r>nestvaren<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>nestvaran<s n="adj"/><s n="comp"/></l><r>nestvaren<s n="adj"/><s n="comp"/></r></p></e>
+	<e><p><l>nestvaran<s n="adj"/><s n="sup"/></l><r>nestvaren<s n="adj"/><s n="sup"/></r></p></e>
+	<e><p><l>nestvaran<s n="adj"/><s n="ssup"/></l><r>nestvaren<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>nepravedan<s n="adj"/></l><r>nepravičen<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>nepravedan<s n="adj"/><s n="comp"/></l><r>nepravičen<s n="adj"/><s n="comp"/></r></p></e>
+	<e><p><l>nepravedan<s n="adj"/><s n="sup"/></l><r>nepravičen<s n="adj"/><s n="sup"/></r></p></e>
+	<e><p><l>nepravedan<s n="adj"/><s n="ssup"/></l><r>nepravičen<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>trostranački<s n="adj"/></l><r>tristranski<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	
 	
     
