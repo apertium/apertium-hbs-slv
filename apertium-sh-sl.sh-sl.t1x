@@ -1735,8 +1735,6 @@
       </pattern>
 		<action>
 		<call-macro n="firstWord"><with-param pos="1"/></call-macro>
-		<!--><call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
-		<call-macro n="verb_adapter"><with-param pos="2"/></call-macro>-->
 			<choose>
 			  <when>
 			    <test>
@@ -1748,7 +1746,11 @@
 				  <tag><lit-tag v="VB"/></tag>
 				</tags>
 				<lu>
-				  <clip pos="1" side="tl" part="whole"/>
+					<clip pos="1" side="tl" part="lemh"/>
+					<clip pos="1" side="tl" part="a_vrb"/>
+					<clip pos="1" side="tl" part="tns"/>
+					<clip pos="1" side="tl" part="prs"/>
+					<clip pos="1" side="tl" part="nbr"/>
 				</lu>					
 			      </chunk>
 			    </out>
@@ -1765,7 +1767,6 @@
 						<tags>
 							<tag><lit-tag v="VB"/></tag>
 						</tags>
-						
 						<lu>
 							<clip pos="1" side="tl" part="lemh"/>
 							<clip pos="1" side="tl" part="a_vrb"/>
@@ -1832,7 +1833,11 @@
 			  <tag><lit-tag v="VB"/></tag>
 			</tags>
 			<lu>
-			  <clip pos="2" side="tl" part="whole"/>
+				<clip pos="2" side="tl" part="lemh"/>
+				<clip pos="2" side="tl" part="a_vrb"/>
+				<clip pos="2" side="tl" part="tns"/>
+				<clip pos="2" side="tl" part="prs"/>
+				<clip pos="2" side="tl" part="nbr"/>
 			</lu>					
 		      </chunk>
 		    </out>
