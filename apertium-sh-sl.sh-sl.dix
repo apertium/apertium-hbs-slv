@@ -7708,11 +7708,11 @@
     <e><p><l>impresso<s n="n"/><s n="mi"/></l><r>impresso<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>gradina<s n="n"/><s n="f"/></l><r>gradina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lemb<s n="n"/><s n="ma"/></l><r>lemb<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>lembkinja<s n="n"/><s n="f"/></l><r>lemb<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>liburn<s n="n"/><s n="ma"/></l><r>liburn<s n="n"/><s n="ma"/></r></p></e>
-    <e><p><l>Velika<b/>Gorica<s n="n"/><s n="f"/></l><r>Velika<b/>Gorica<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/></l><r>združen<b/>narod<s n="n"/><s n="mi"/></r></p></e>
-
-
+    <e><p><l>liburnkinja<s n="n"/><s n="f"/></l><r>liburn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Velika<b/>Gorica<s n="n"/><s n="f"/></l><r>Velika<b/>Gorica<s n="n"/><s n="f"/></r></p><par n="sg_sgpl"/></e>
+    <e><p><l>Ujedinjeni<b/>narodi<s n="np"/><s n="al"/><s n="mi"/></l><r>Združen<b/>narod<s n="np"/><s n="al"/><s n="mi"/></r></p><!--par n="pl_sgpl"/--></e>
 
     <e><p><l>lađa<s n="n"/><s n="f"/></l><r>ladja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>popis<s n="n"/><s n="mi"/></l><r>popis<s n="n"/><s n="mi"/></r></p></e>
@@ -8927,6 +8927,8 @@
     <e><p><l>admiral<s n="n"/><s n="ma"/></l><r>admiral<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>partner<s n="n"/><s n="ma"/></l><r>partner<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>pilot<s n="n"/><s n="ma"/></l><r>pilot<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>liburn<s n="n"/><s n="ma"/></l><r>liburn<s n="n"/><s n="ma"/></r></p></e>
+    <e><p><l>liburn<s n="n"/><s n="ma"/></l><r>liburn<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>pilotkinja<s n="n"/><s n="f"/></l><r>pilot<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>brat<s n="n"/><s n="ma"/></l><r>brat<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>demokrat<s n="n"/><s n="ma"/></l><r>demokrat<s n="n"/><s n="ma"/></r></p></e>
@@ -9147,8 +9149,9 @@
     <e><p><l>življenje<s n="n"/><s n="nt"/></l><r>življenje<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>znanje<s n="n"/><s n="nt"/></l><r>znanje<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>jutro<s n="n"/><s n="nt"/></l><r>jutro<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>uho<s n="n"/><s n="nt"/></l><r>uho<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>uho<s n="n"/><s n="f"/></l><r>uho<s n="n"/><s n="nt"/></r></p></e> <!-- uho F? -->
+    <e><p><l>uho<s n="n"/><s n="nt"/><s n="sg"/></l><r>uho<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>uho<s n="n"/><s n="nt"/><s n="pl"/></l><r>uho<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+    <e><p><l>uho<s n="n"/><s n="f"/><s n="pl"/></l><r>uho<s n="n"/><s n="nt"/><s n="pl"/></r></p></e> <!-- uho F? --><!-- Da. uho<nt> => uši<f>; Krvoje -->
     <e><p><l>nebo<s n="n"/><s n="nt"/></l><r>nebo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>čelo<s n="n"/><s n="nt"/></l><r>čelo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>polje<s n="n"/><s n="nt"/></l><r>polje<s n="n"/><s n="nt"/></r></p></e>
@@ -12513,6 +12516,7 @@
     <e><p><l>strmac<s n="n"/><s n="mi"/></l><r>strmec<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>studenac<s n="n"/><s n="mi"/></l><r>studenec<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>konac<s n="n"/><s n="mi"/></l><r>sukanec<s n="n"/><s n="mi"/></r></p></e>
+    <e r="RL"><p><l>konac<s n="n"/><s n="mi"/></l><r>cviren<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>šampanjac<s n="n"/><s n="mi"/></l><r>šampanjec<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>prstohvat<s n="n"/><s n="mi"/></l><r>ščepec<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>kolotur<s n="n"/><s n="mi"/></l><r>škripec<s n="n"/><s n="mi"/></r></p></e>
@@ -25702,6 +25706,13 @@
 
     <!-- <e r="RL"><p><l>biti<s n="vbser"/><s n="clt"/><s n="pres"/><g><b/>svjestan</g></l><r>zavedati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pres"/></r></p></e> -->
     <!-- <e r="RL"><p><l>biti<s n="vbser"/><g><b/>svjestan</g></l><r>zavedati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e> -->
+
+    <!--Adjective to noun-->
+    <e r="RL"><p><l>engleski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>angleščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
+    <e r="RL"><p><l>baskijski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>baskovščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
+    <e r="RL"><p><l>portugalski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>portugalščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
+    <e r="RL"><p><l>španjolski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>španščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
+    <e r="RL"><p><l>bližnji<s n="adj"/><s n="pst"/><s n="ma"/></l><r>sočlovek<s n="n"/><s n="ma"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
 
 	
 

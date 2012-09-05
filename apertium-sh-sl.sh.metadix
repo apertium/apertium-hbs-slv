@@ -23073,7 +23073,7 @@
       <e><p><l>emu</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>em</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
       <e><p><l>emu</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-      <e><p><l>eg</l><r><s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>eg</l><r><s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
       <e><p><l>ega</l><r><s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
       <e><p><l>i</l><r><s n="ma"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
       <e><p><l>im</l><r><s n="ma"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
@@ -29693,18 +29693,18 @@
       <e><p><l>ši</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ši</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>ši</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
-      <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>šesâ</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>šesâ</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
       <e><p><l>šiju</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l>šima</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>šima</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>šima</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
-      <e r="LR"><p><l>šesima</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e r="LR"><p><l>šesima</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
-      <e r="LR"><p><l>šesima</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>šesima</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>šesima</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>šesima</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
     <!--A weird one večer/veče == evening. 'večer' can be masculine (i think only in Croatian), feminine (in all 3 std's), and veče is neuter.
 	However, veče is used only in Nominative, Accusative and Vocative. The rest of the noun is feminine-->
@@ -46408,7 +46408,9 @@
     <e lm="Japod"><i>Japod</i><par n="pilot__n"/></e>
     <e lm="kadet"><i>kadet</i><par n="pilot__n"/></e>
     <e lm="lemb"><i>lemb</i><par n="pilot__n"/></e>
+    <e lm="lembkinja"><i>lembkinj</i><par n="žen/a__n"/></e>
     <e lm="liburn"><i>liburn</i><par n="pilot__n"/></e>
+    <e lm="liburnkinja"><i>liburnkinj</i><par n="žen/a__n"/></e>
     <e lm="brat"><i>brat</i><par n="pilot__n"/></e>
     <e lm="efekt"><i>efekt</i><par n="pilot__n"/></e>
     <e lm="ekstremist"><i>ekstremist</i><par n="pilot__n"/></e>
@@ -51906,23 +51908,23 @@
     <!--/osiguravajuća kuća-->
 
     <!--Velika Gorica--><!--Singularia tantum-->
-    <e lm="Velika Gorica"><p><l>Velika<b/>Gorica</l><r>Velika<b/>Gorica<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e lm="Velika Gorica"><p><l>Velike<b/>Gorice</l><r>Velika<b/>Gorica<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-    <e lm="Velika Gorica"><p><l>Velikoj<b/>Gorici</l><r>Velika<b/>Gorica<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-    <e lm="Velika Gorica"><p><l>Veliku<b/>Goricu</l><r>Velika<b/>Gorica<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-    <e lm="Velika Gorica"><p><l>Velika<b/>Gorico</l><r>Velika<b/>Gorica<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
-    <e lm="Velika Gorica"><p><l>Velikoj<b/>Goric</l><r>Velika<b/>Gorica<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-    <e lm="Velika Gorica"><p><l>Velikom<b/>Goricom</l><r>Velika<b/>Gorica<s n="n"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e lm="Velika Gorica"><p><l>Velika<b/>Gorica</l><r>Velika<b/>Gorica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e lm="Velika Gorica"><p><l>Velike<b/>Gorice</l><r>Velika<b/>Gorica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e lm="Velika Gorica"><p><l>Velikoj<b/>Gorici</l><r>Velika<b/>Gorica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e lm="Velika Gorica"><p><l>Veliku<b/>Goricu</l><r>Velika<b/>Gorica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e lm="Velika Gorica"><p><l>Velika<b/>Gorico</l><r>Velika<b/>Gorica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e lm="Velika Gorica"><p><l>Velikoj<b/>Goric</l><r>Velika<b/>Gorica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e lm="Velika Gorica"><p><l>Velikom<b/>Goricom</l><r>Velika<b/>Gorica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
     <!--/Velika Gorica-->
 
     <!--Ujedinjeni narodi--><!--Pluralia tantum-->
-    <e lm="ujedinjeni narodi"><p><l>ujedinjeni<b/>narodi</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e lm="ujedinjeni narodi"><p><l>ujedinjenih<b/>naroda</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
-    <e lm="ujedinjeni narodi"><p><l>ujedinjenim<b/>narodima</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
-    <e lm="ujedinjeni narodi"><p><l>ujedinjene<b/>narode</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
-    <e lm="ujedinjeni narodi"><p><l>ujedinjeni<b/>narodi</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e lm="ujedinjeni narodi"><p><l>ujedinjenim<b/>narodima</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
-    <e lm="ujedinjeni narodi"><p><l>ujedinjenim<b/>narodima</l><r>ujedinjeni<b/>narodi<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e lm="Ujedinjeni narodi"><p><l>Ujedinjeni<b/>narodi</l><r>Ujedinjeni<b/>narodi<s n="np"/><s n="al"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e lm="Ujedinjeni narodi"><p><l>Ujedinjenih<b/>naroda</l><r>Ujedinjeni<b/>narodi<s n="np"/><s n="al"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e lm="Ujedinjeni narodi"><p><l>Ujedinjenim<b/>narodima</l><r>Ujedinjeni<b/>narodi<s n="np"/><s n="al"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+    <e lm="Ujedinjeni narodi"><p><l>Ujedinjene<b/>narode</l><r>Ujedinjeni<b/>narodi<s n="np"/><s n="al"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e lm="Ujedinjeni narodi"><p><l>Ujedinjeni<b/>narodi</l><r>Ujedinjeni<b/>narodi<s n="np"/><s n="al"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e lm="Ujedinjeni narodi"><p><l>Ujedinjenim<b/>narodima</l><r>Ujedinjeni<b/>narodi<s n="np"/><s n="al"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e lm="Ujedinjeni narodi"><p><l>Ujedinjenim<b/>narodima</l><r>Ujedinjeni<b/>narodi<s n="np"/><s n="al"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
     <!--/Ujedinjeni narodi-->
 
     <!--Compound adverbs-->

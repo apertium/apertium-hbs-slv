@@ -402,7 +402,7 @@ SELECT:Cog+Ant $$NUMBER + $$GENDER + $$CASE IF (1 Ant + $$NUMBER + $$GENDER + $$
 REMOVE:Ant=>noPlural Plural IF (0 Ant + Plural) (NOT -1 Modifier + Plural);
 REMOVE:Cog=>noPlural Plural IF (0 Cog + Plural + Feminine ) (NOT -1 Modifier + Plural);
     ## A proper name is rarely in plural, if so probably there would be an adjective or a pronoun in plural before it
-SELECT:FeminineCognameAloneIsNominative Nom IF 
+SELECT:FeminineCognameAloneIsNominative Nom IF # This rule is really analyser specific
     (0 Cog + Feminine) 
     (NOT -1 Ant + ($$CASE - Nom))
     (NOT 1 Ant + ($$CASE - Nom));
