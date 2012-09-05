@@ -7711,7 +7711,7 @@
     <e><p><l>lembkinja<s n="n"/><s n="f"/></l><r>lemb<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>liburn<s n="n"/><s n="ma"/></l><r>liburn<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>liburnkinja<s n="n"/><s n="f"/></l><r>liburn<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>Velika<b/>Gorica<s n="n"/><s n="f"/></l><r>Velika<b/>Gorica<s n="n"/><s n="f"/></r></p><par n="sg_sgpl"/></e>
+    <e><p><l>Velika<b/>Gorica<s n="np"/><s n="top"/><s n="f"/></l><r>Velika<b/>Gorica<s n="n"/><s n="f"/></r></p><par n="sg_sgpl"/></e>
     <e><p><l>Ujedinjeni<b/>narodi<s n="np"/><s n="al"/><s n="mi"/></l><r>Združen<b/>narod<s n="np"/><s n="al"/><s n="mi"/></r></p><!--par n="pl_sgpl"/--></e>
 
     <e><p><l>lađa<s n="n"/><s n="f"/></l><r>ladja<s n="n"/><s n="f"/></r></p></e>
