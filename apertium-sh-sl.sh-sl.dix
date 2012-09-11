@@ -579,7 +579,7 @@
     <e r="RL"><p><l>kakav<s n="prn"/><s n="itg"/></l><r>kak<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>čiji<s n="prn"/><s n="itg"/></l><r>čigav<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>čiji<s n="prn"/><s n="rel"/></l><r>čigar<s n="prn"/><s n="rel"/></r></p><par n="gen_nogen"/><par n="nbr_nonbr"/><par n="cas_nocas"/></e>
-    <!--<e><p><l>jedan<s n="num"/></l><r>en<s n="prn"/><s n="ind"/></r></p></e> Krvoje, what's up with this? -->
+    <e r="RL"><p><l>jedan<s n="num"/></l><r>en<s n="prn"/><s n="ind"/></r></p></e><!--Krvoje, what's up with this?--><!--SerboCroatian is not Spanish, the pronoun 'un' is the number one in SerboCroatian ; Krvoje-->
     <e><p><l>koliki<s n="prn"/><s n="itg"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
     <e r="LR"><p><l>koliki<s n="prn"/><s n="rel"/></l><r>kolikšen<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>koliki<s n="prn"/><s n="itg"/></l><r>kolik<s n="prn"/><s n="ind"/></r></p></e>
@@ -18712,7 +18712,7 @@
 	<e><p><l>južnoevropski<s n="adj"/><s n="sup"/></l><r>južnoevropski<s n="adj"/><s n="add_sup"/></r></p></e>
 	<e><p><l>južnoevropski<s n="adj"/><s n="ssup"/></l><r>južnoevropski<s n="adj"/><s n="add_ela"/></r></p></e>
 	<e><p><l>reformni<s n="adj"/></l><r>reformiran<s n="adj"/></r></p><par n="pst2null"/></e>
-	<e><p><l>isti<s n="adj"/></l><r>enak<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>jednak<s n="adj"/></l><r>enak<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>investicioni<s n="adj"/></l><r>naložben<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>računalni<s n="adj"/></l><r>računalen<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>pripremni<s n="adj"/></l><r>pripravljalen<s n="adj"/></r></p><par n="pst2null"/></e>
@@ -23558,6 +23558,7 @@
     <e><p><l>pošto<s n="cnjsub"/></l><r>potem<b/>ko<s n="cnjsub"/></r></p></e>
     <e><p><l>budući<b/>da<s n="cnjsub"/></l><r>od<s n="cnjsub"/></r></p></e>
     <e><p><l>što<s n="cnjsub"/></l><r>kar<s n="cnjsub"/></r></p></e>
+    <e r="RL"><p><l>što<s n="cnjsub"/></l><r>kaj<s n="cnjsub"/></r></p></e><!--TODO: see if correct;Krvoje-->
     <e><p><l>iako<s n="cnjsub"/></l><r>čeprav<s n="cnjsub"/></r></p></e>
     <e><p><l>čim<s n="cnjsub"/></l><r>kot<s n="cnjsub"/></r></p></e>
     <e><p><l>makar<s n="cnjsub"/></l><r>vsaj<s n="cnjsub"/></r></p></e>
@@ -23570,7 +23571,7 @@
     <e><p><l>stoga<s n="cnjsub"/></l><r>torej<s n="cnjsub"/></r></p></e>
     <e><p><l>mada<s n="cnjsub"/></l><r>čeprav<s n="cnjsub"/></r></p></e>
     <e><p><l>mada<s n="cnjsub"/></l><r>vendar<s n="cnjsub"/></r></p></e>
-    <e><p><l>neka<s n="cnjsub"/></l><r>ker<s n="cnjsub"/></r></p></e> <!-- wrong -->
+    <e><p><l>neka<s n="cnjsub"/></l><r>naj<s n="cnjsub"/></r></p></e>
     
     
     <!-- Adverb (SH) to Conjunctions (SL) - rule added -->
@@ -24770,7 +24771,8 @@
     <e><p><l>napeto<s n="adv"/></l><r>napeto<s n="adv"/></r></p></e>
     <e><p><l>napo<s n="adv"/></l><r>napol<s n="adv"/></r></p></e>
     <e><p><l>na<b/>putu<s n="adv"/></l><r>napoti<s n="adv"/></r></p></e>
-    <e><p><l>prema<s n="adv"/></l><r>naproti<s n="adv"/></r></p></e>
+    <e><p><l>ususret<s n="adv"/></l><r>naproti<s n="adv"/></r></p></e>
+    <e><p><l>prema<s n="pr"/></l><r>naproti<s n="pr"/></r></p></e>
     <e r="LR"><p><l>ususret<s n="adv"/></l><r>naproti<s n="adv"/></r></p></e>
     <e><p><l>labavo<s n="adv"/></l><r>narahlo<s n="adv"/></r></p></e>
     <e><p><l>naraštaj<s n="adv"/></l><r>naraščaje<s n="adv"/></r></p></e>
