@@ -33,7 +33,6 @@
 dev/apertium-sh-sl.sh-sl.dix.generated -text
 dev/apertium-sl-sr.sl-sr.dix -text
 dev/eval/corpora/Makefile -text
-dev/eval/corpora/corp.morph -text
 dev/eval/corpora/rezultat -text
 dev/eval/errors_story1.txt -text
 dev/eval/errors_story2.txt -text
