@@ -35049,8 +35049,8 @@
     <e lm="pronaći"><i>prona</i><par n="perf_tv_do/ći__vblex"/></e>
     <e lm="pronaći"><i>prona</i><par n="perf_ref_do/ći__vblex"/></e>
     <e lm="odbjeći"><i>odb</i><par n="e_je__yat"/><par n="perf_iv_le/ći__vblex"/></e>
-    <e lm="doreći"><i>dore</i><par n="perf_tv_povu/ći__vblex"/></e>
-    <e lm="doreći"><i>dore</i><par n="perf_ref_povu/ći__vblex"/></e>
+    <!--e lm="doreći"><i>dore</i><par n="perf_tv_povu/ći__vblex"/></e>
+    <e lm="doreći"><i>dore</i><par n="perf_ref_povu/ći__vblex"/></e-->
     <e lm="izreći"><i>izre</i><par n="perf_tv_povu/ći__vblex"/></e>
     <e lm="izreći"><i>izre</i><par n="perf_ref_povu/ći__vblex"/></e>
     <e lm="odreći"><i>odre</i><par n="perf_ref_povu/ći__vblex"/></e>
@@ -35386,6 +35386,8 @@
     <e lm="kontrolirati"><i>kontrolir</i><par n="imperf_ref_bir/ati__vblex"/></e>
     <e lm="kontrolirati"><i>kontrolir</i><par n="perf_tv_bir/ati__vblex"/></e>
     <e lm="kontrolirati"><i>kontrolir</i><par n="perf_ref_bir/ati__vblex"/></e>
+    <e lm="formulirati"><i>formulir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+    <e lm="formulirati"><i>formulir</i><par n="perf_tv_bir/ati__vblex"/></e>
     <e lm="eliminirati"><i>eliminir</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="eliminirati"><i>eliminir</i><par n="perf_tv_bir/ati__vblex"/></e>
     <e lm="regulirati"><i>regulir</i><par n="imperf_tv_bir/ati__vblex"/></e>

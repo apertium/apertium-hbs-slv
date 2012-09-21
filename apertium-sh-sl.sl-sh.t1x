@@ -434,7 +434,7 @@
     </def-macro>
 
     <def-macro n="dual_adapter" npar="1">
-	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+      <call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <choose>
 	<when>
 	  <test>
@@ -481,15 +481,15 @@
 	    </when>
 	    <when><!--If we're dealing with a verb, we just do the shift to plural-->
 	      <test><!--Unless it's a <m> <lp>, the only case of visibly surviving dual-->
-		  <or>
-		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vblex"/></equal> 
-		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbmod"/></equal> 
-		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbhaver"/></equal> 
-		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbaux"/></equal> 
-		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbser"/></equal> 
-		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbser.clt"/></equal> 
-		    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbmod.clt"/></equal> 
-		  </or>
+		<or>
+		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vblex"/></equal> 
+		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbmod"/></equal> 
+		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbhaver"/></equal> 
+		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbaux"/></equal> 
+		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbser"/></equal> 
+		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbser.clt"/></equal> 
+		  <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbmod.clt"/></equal> 
+		</or>
 	      </test>
 	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
 	    </when>
@@ -517,12 +517,23 @@
     </def-macro>
     
     <def-macro n="m2mima" npar="1">
-      <choose><!--temporary, changes the <m> gender to <mi>-->
+      <choose>
+	<!--Since in sl monodix some adjectives (including <pp> participles) don't have animacy marked in masculine (both animate and animate forms are marked <m>), we do some guessing-->
 	<when>
 	  <test>
 	    <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal> 
 	  </test>
-	  <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mi"/></let>
+	  <choose>
+	    <when>
+	      <test>
+		<ends-with><clip pos="1" side="sl" part="gen"/><lit v="a"/></ends-with>
+	      </test>
+	      <let><clip pos="1" side="tl" part="gen"/><lit-tag v="ma"/></let>
+	    </when>
+	    <otherwise>
+	      <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mi"/></let>
+	    </otherwise>
+	  </choose>	  
 	</when>
       </choose>
     </def-macro>
@@ -544,7 +555,7 @@
     </def-macro>
 
     <def-macro n="verb_adapter" npar="1">
-	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+      <call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
       <choose>
 	<when>      <!-- Supine to infinitive -->
@@ -604,6 +615,7 @@
 	  <test><!-- For the pp -->
 	    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pp"/></equal>
 	  </test>
+	  <call-macro n="m2mima"><with-param pos="1"/></call-macro>	  
 	  <choose>
 	    <when> <!-- If it's a pp translating tv->iv --><!--<iv> don't have a <pp>-->
 	      <test>
@@ -665,7 +677,7 @@
     </def-macro>
 
     <def-macro n="num_adapter" npar="1">
-	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+      <call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <choose>
 	<when>
 	  <test>
@@ -760,7 +772,7 @@
     </def-macro>
 
     <def-macro n="nom_adapter" npar="1">
-	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+      <call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
       <choose>
 	<when>
@@ -786,7 +798,7 @@
     </def-macro>
 
     <def-macro n="prn_adapter" npar="1">
-	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+      <call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>
       <choose>
 	<when>
@@ -923,7 +935,7 @@
     </def-macro>
 
     <def-macro n="adj_adapter" npar="1">
-	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+      <call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>      
       <call-macro n="m2mima"><with-param pos="1"/></call-macro>
       <call-macro n="bad_juju"><with-param pos="1"/></call-macro>
@@ -952,7 +964,7 @@
     </def-macro>
 
     <def-macro n="nominal_adapter" npar="1">
-	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
+      <call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <!--Pick which type of a nominal word it is and call the corresponding adapter macro-->
       <choose>
 	<when><!-- Noun -->
