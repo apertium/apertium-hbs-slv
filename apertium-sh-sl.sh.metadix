@@ -36820,6 +36820,11 @@
     <e lm="nedostatan"><p><l>najnedostat</l><r>nedostat</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="nedostatan"><p><l>prenedostat</l><r>nedostat</r></p><par n="ruž/an__ssup__adj"/></e>
 
+    <e lm="iscrpan"><i>iscrp</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="iscrpan"><i>iscrp</i><par n="ruž/an__comp__adj"/></e>
+    <e lm="iscrpan"><p><l>najiscrp</l><r>iscrp</r></p><par n="ruž/an__sup__adj"/></e>
+    <e lm="iscrpan"><p><l>preiscrp</l><r>iscrp</r></p><par n="ruž/an__ssup__adj"/></e>
+
     <e lm="neiscrpan"><i>neiscrp</i><par n="ruž/an__pst__adj"/></e>
     <e lm="neiscrpan"><i>neiscrp</i><par n="ruž/an__comp__adj"/></e>
     <e lm="neiscrpan"><p><l>najneiscrp</l><r>neiscrp</r></p><par n="ruž/an__sup__adj"/></e>

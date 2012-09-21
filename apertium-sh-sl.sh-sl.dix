@@ -825,6 +825,8 @@
     <e><p><l>nedosljedno<s n="adv"/></l><r>nedosledno<s n="adv"/></r></p></e>
     <e><p><l>neravnomjerno<s n="adv"/></l><r>neenakomerno<s n="adv"/></r></p></e>
     <e><p><l>neiscrpno<s n="adv"/></l><r>neizčrpno<s n="adv"/></r></p></e>
+    <e><p><l>iscrpno<s n="adv"/></l><r>izčrpno<s n="adv"/></r></p></e>
+    <e><p><l>iscrpno<s n="adv"/><s n="ssup"/></l><r>izčrpno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
     <e><p><l>nejasno<s n="adv"/></l><r>nejasno<s n="adv"/></r></p></e>
     <e><p><l>nekorisno<s n="adv"/></l><r>nekoristno<s n="adv"/></r></p></e>
     <e><p><l>nenormalno<s n="adv"/></l><r>nenormalno<s n="adv"/></r></p></e>
@@ -1264,7 +1266,7 @@
     <e><p><l>rodno<s n="adv"/></l><r>rodno<s n="adv"/></r></p></e>
     <e><p><l>obrambeno<s n="adv"/></l><r>obrambno<s n="adv"/></r></p></e>
     <e><p><l>unutarnje<s n="adv"/></l><r>notranje<s n="adv"/></r></p></e>
-    <e><p><l>donje<s n="adv"/></l><r>nizko<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>donje<s n="adv"/></l><r>nizko<s n="adv"/></r></p></e>
     <e><p><l>krivično<s n="adv"/></l><r>kazensko<s n="adv"/></r></p></e>
     <e><p><l>međunarodno<s n="adv"/></l><r>mednarodno<s n="adv"/></r></p></e>
     <e><p><l>daljnje<s n="adv"/></l><r>naprej<s n="adv"/></r></p></e>
@@ -21805,6 +21807,10 @@
 	<e><p><l>neiscrpan<s n="adj"/><s n="comp"/></l><r>neizčrpen<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>neiscrpan<s n="adj"/><s n="sup"/></l><r>neizčrpen<s n="adj"/><s n="add_sup"/></r></p></e>
 	<e><p><l>neiscrpan<s n="adj"/><s n="ssup"/></l><r>neizčrpen<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>iscrpan<s n="adj"/></l><r>izčrpen<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>iscrpan<s n="adj"/><s n="comp"/></l><r>izčrpen<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>iscrpan<s n="adj"/><s n="sup"/></l><r>izčrpen<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>iscrpan<s n="adj"/><s n="ssup"/></l><r>izčrpen<s n="adj"/><s n="add_ela"/></r></p></e>
 	<e><p><l>nejasan<s n="adj"/></l><r>nejasen<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>nejasan<s n="adj"/><s n="comp"/></l><r>nejasen<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>nejasan<s n="adj"/><s n="sup"/></l><r>nejasen<s n="adj"/><s n="add_sup"/></r></p></e>
