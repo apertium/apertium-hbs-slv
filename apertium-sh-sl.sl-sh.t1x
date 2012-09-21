@@ -519,6 +519,7 @@
     <def-macro n="m2mima" npar="1">
       <choose>
 	<!--Since in sl monodix some adjectives (including <pp> participles) don't have animacy marked in masculine (both animate and animate forms are marked <m>), we do some guessing-->
+	<!--TODO: To be tested, maybe doesn't cover all cases correctly. Will work for testvoc, though.-->
 	<when>
 	  <test>
 	    <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal> 
