@@ -401,6 +401,7 @@
     </def-attr>
 
     <def-attr n="nbr">
+      <attr-item tags="du"/>
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
@@ -932,7 +933,7 @@
 					  <clip pos="1" side="tl" part="asp"/>
 					  <clip pos="1" side="tl" part="trn"/>
 					  <lit-tag v="past"/>
-					  <clip pos="1" side="sl" part="gen"/>
+					  <clip pos="1" side="tl" part="gen"/>
 					  <clip pos="1" side="tl" part="nbr"/>
 					</lu>
  				</chunk>

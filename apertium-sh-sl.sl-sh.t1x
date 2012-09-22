@@ -563,11 +563,6 @@
 	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="supn"/></equal></test>
 	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="inf"/></let>
 	</when>
-	<!-- <when> -->
-	<!--   <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pp"/></equal></test> -->
-	<!--   <call-macro n="m2mima"><with-param pos="1"/></call-macro> -->
-	<!--   <let><clip pos="1" side="tl" part="trn"/><lit-tag v="tv"/></let>--><!--This is evil, but intransitive verbs have no <pp> -->
-	<!-- </when> -->
 	<when><!-- Past to lp -->
 	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="past"/></equal></test>
 	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp"/></let>
@@ -614,13 +609,23 @@
 	</when>
 	<when>
 	  <test><!-- For the pp -->
-	    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pp"/></equal>
-	  </test>
-	  <call-macro n="m2mima"><with-param pos="1"/></call-macro>	  
+	      <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pp"/></equal>
+	  </test>	  
 	  <choose>
 	    <when> <!-- If it's a pp translating tv->iv --><!--<iv> don't have a <pp>-->
 	      <test>
-		<equal><clip pos="1" side="tl" part="trn"/><lit-tag v="iv"/></equal>
+		<or>
+		  <equal><clip pos="1" side="tl" part="trn"/><lit-tag v="iv"/></equal>
+		  <equal><clip pos="1" side="tl" part="trn"/><lit-tag v="ref"/></equal>
+		    <!--Or if it's one of the <tv> verbs not having a <pp>-->
+		    <or>
+		      <and>
+			<equal><clip pos="1" side="tl" part="lem"/><lit v="razumjeti"/></equal>
+			<equal><clip pos="1" side="tl" part="trn"/><lit-tag v="tv"/></equal>
+		      </and>
+		      <equal><clip pos="1" side="tl" part="lem"/><lit v="moći"/></equal>
+		    </or>		  
+		</or>
 	      </test>
 	      <!-- Translate it as the <lp>, which is awful, but close enough -->
 	      <let>
@@ -637,8 +642,9 @@
 		  <clip pos="1" side="tl" part="lemq"/>
 		</concat>
 	      </let>
-	    </when>
+	    </when>	    
 	    <otherwise> <!-- If it's a normal pp -->
+	      <call-macro n="m2mima"><with-param pos="1"/></call-macro>
 	      <let>
 		<clip pos="1" side="tl" part="whole"/>
 		<concat>

@@ -7884,6 +7884,7 @@
       <e><p><l>goše</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
       <!--Participles-->
       <e><p><l>g</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ao__sfx"/></e>
+      <e><p><l>gnut</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp_sfx_extra__vblex"/></e>
       <e><p><l>gavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
     </pardef>
 
@@ -33760,7 +33761,6 @@
     <e lm="nastati"><i>nast</i><par n="perf_iv_st/ati__vblex"/></e>
     <e lm="izostati"><i>izost</i><par n="perf_iv_st/ati__vblex"/></e>
     <e lm="prestati"><i>prest</i><par n="perf_iv_st/ati__vblex"/></e>
-    <e lm="prestati"><i>prest</i><par n="perf_tv_st/ati__vblex"/></e>
     <e lm="pristati"><i>prist</i><par n="perf_iv_st/ati__vblex"/></e>
     <e lm="sastati"><i>sast</i><par n="perf_ref_st/ati__vblex"/></e>
     <e lm="zvati"><i>z</i><par n="imperf_ref_z/vati__vblex"/></e>
@@ -35669,6 +35669,8 @@
     <e lm="posjetiti"><i>posje</i><par n="perf_tv_vra/titi__vblex"/></e>
     <e lm="uputiti"><i>upu</i><par n="perf_tv_vra/titi__vblex"/></e>
     <e lm="uputiti"><i>upu</i><par n="perf_ref_vra/titi__vblex"/></e>
+    <e lm="svaliti"><i>sval</i><par n="perf_tv_ogul/iti__vblex"/></e>
+    <e lm="svaliti"><i>sval</i><par n="perf_ref_ogul/iti__vblex"/></e>
     <e lm="zahvaliti"><i>zahval</i><par n="perf_tv_ogul/iti__vblex"/></e>
     <e lm="zahvaliti"><i>zahval</i><par n="perf_ref_ogul/iti__vblex"/></e>
     <e lm="pohvaliti"><i>pohval</i><par n="perf_tv_ogul/iti__vblex"/></e>
@@ -35894,6 +35896,8 @@
     <e lm="umaknuti"><i>umakn</i><par n="perf_iv_ukin/uti__vblex"/></e>
     <e lm="primaknuti"><i>primakn</i><par n="perf_tv_ukin/uti__vblex"/></e>
     <e lm="primaknuti"><i>primakn</i><par n="perf_ref_ukin/uti__vblex"/></e>
+    <e lm="izmaknuti"><i>izmakn</i><par n="perf_tv_ukin/uti__vblex"/></e>
+    <e lm="izmaknuti"><i>izmakn</i><par n="perf_ref_ukin/uti__vblex"/></e>
     <e lm="minuti"><i>min</i><par n="perf_iv_ukin/uti__vblex"/></e>
     <e lm="jurnuti"><i>jurn</i><par n="perf_iv_ukin/uti__vblex"/></e>
     <e lm="okrznuti"><i>okrzn</i><par n="perf_tv_ukin/uti__vblex"/></e>
