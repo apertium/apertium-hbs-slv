@@ -4845,6 +4845,7 @@
     <e r="LR"><p><l>presuđujući<s n="vblex"/><s n="adv"/></l><r>presojen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>tumačeći<s n="vblex"/><s n="adv"/></l><r>tolmačen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>zaslužujući<s n="vblex"/><s n="adv"/></l><r>zaslužen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e r="LR"><p><l>formulirajući<s n="vblex"/><s n="adv"/></l><r>formuliran<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>prebacujući<s n="vblex"/><s n="adv"/></l><r>premeščen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>zarađujući<s n="vblex"/><s n="adv"/></l><r>zaslužen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>oporezujući<s n="vblex"/><s n="adv"/></l><r>obdavčen<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -15002,8 +15003,9 @@
 
 	<!-- Adjectives -->
 	
-	<e><p><l>starčevački<s n="adj"/></l><r>starčevaški<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>starčevački<s n="adj"/></l><r>starčevaški<s n="adj"/></r></p><par n="pst2null"/></e><!--starčevački?-->
 	<e><p><l>kulturološki<s n="adj"/></l><r>kulturološki<s n="adj"/></r></p><par n="pst2null"/></e>
+	<e><p><l>formuliran<s n="adj"/></l><r>formuliran<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>cetinski<s n="adj"/></l><r>cetinski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>danilski<s n="adj"/></l><r>danilski<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>hvarski<s n="adj"/></l><r>hvarski<s n="adj"/></r></p><par n="pst2null"/></e>

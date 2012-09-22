@@ -33693,8 +33693,8 @@
     <e lm="povući"><i>povu</i><par n="perf_tv_povu/ći__vblex"/></e>
     <e lm="povući"><i>povu</i><par n="perf_ref_povu/ći__vblex"/></e>
     <e lm="uleći"><i>ule</i><par n="perf_iv_le/ći__vblex"/></e>
-    <e lm="izleći"><i>izle</i><par n="perf_tv_le/ći__vblex"/></e>
-    <e lm="izleći"><i>izle</i><par n="perf_ref_le/ći__vblex"/></e>
+    <!-- <e lm="izleći"><i>izle</i><par n="perf_tv_le/ći__vblex"/></e> -->
+    <!-- <e lm="izleći"><i>izle</i><par n="perf_ref_le/ći__vblex"/></e> -->
     <e lm="pomoći"><i>pomo</i><par n="perf_iv_sti/ći__vblex"/></e>
     <e lm="pomoći"><i>pomo</i><par n="perf_ref_sti/ći__vblex"/></e>
     <e lm="ući"><i>u</i><par n="perf_iv_do/ći__vblex"/></e>
@@ -36107,6 +36107,8 @@
 
     <e lm="čuven"><i>čuven</i><par n="zdrav__pst__adj"/></e>
     <e lm="obrađen"><i>obrađen</i><par n="zdrav__pst__adj"/></e>
+
+    <e lm="formuliran"><i>formuliran</i><par n="zdrav__pst__adj"/></e>
 
     <e lm="crvenokos"><i>crvenokos</i><par n="zdrav__pst__adj"/></e>
 
