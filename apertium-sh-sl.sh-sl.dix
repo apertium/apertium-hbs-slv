@@ -167,10 +167,14 @@
 
   <pardefs>
 
-    <pardef n="analytic_comparision">
-      <e><p><l><s n="pst"/></l><r></r></p></e>
+    <pardef n="analytic_comparision_adv">
+      <e><p><l></l><r></r></p></e>
       <e><p><l><s n="comp"/></l><r><s n="comp"/><s n="add_comp"/></r></p></e>
       <e><p><l><s n="sup"/></l><r><s n="sup"/><s n="add_sup"/></r></p></e>
+      <e><p><l><s n="ssup"/></l><r><s n="ela"/><s n="add_ela"/></r></p></e>
+    </pardef>
+
+    <pardef n="analytic_comparision_adv_elative">
       <e><p><l><s n="ssup"/></l><r><s n="ela"/><s n="add_ela"/></r></p></e>
     </pardef>
 
@@ -711,8 +715,8 @@
     <e><p><l>sad<s n="adv"/></l><r>sedaj<s n="adv"/></r></p></e>
     <e><p><l>još<b/>uvijek<s n="adv"/></l><r>še<b/>vedno<s n="adv"/></r></p></e>
 
-    <e><p><l>rano<s n="adv"/></l><r>rano<s n="adv"/></r></p><par n="analytic_comparision"/></e> <!-- FIXME: Check -->
-
+    <e><p><l>rano<s n="adv"/></l><r>rano<s n="adv"/></r></p><par n="analytic_comparision_adv_elative"/></e> <!-- FIXME: Check -->
+    <e><p><l>rodno<s n="adv"/></l><r>rodno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
 
     <!--ne_ski (Se vedno SH: adj lemma, adv TAG;; --><!--by Krvoje: converted from adjective lemmas to adverb lemmas -->
     <e><p><l>čudnovato<s n="adv"/></l><r>čudaško<s n="adv"/></r></p></e>
@@ -1278,7 +1282,6 @@
     <e><p><l>divlje<s n="adv"/></l><r>divje<s n="adv"/></r></p></e>
     <e r="RL"><p><l>divlje<s n="adv"/></l><r>divjo<s n="adv"/></r></p></e>
     <e r="RL"><p><l>divlje<s n="adv"/></l><r>divji<s n="adv"/></r></p></e>
-    <e><p><l>rodno<s n="adv"/></l><r>rodno<s n="adv"/></r></p><par n="analytic_comparision"/></e>
     <e><p><l>obrambeno<s n="adv"/></l><r>obrambno<s n="adv"/></r></p></e>
     <e><p><l>unutarnje<s n="adv"/></l><r>notranje<s n="adv"/></r></p></e>
     <e r="LR"><p><l>donje<s n="adv"/></l><r>nizko<s n="adv"/></r></p></e>
