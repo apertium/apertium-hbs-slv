@@ -16467,7 +16467,7 @@
       <!-- Masculine-->
       <!--Animate-->
       <!--Singular-->
-      <e><par n="e_i__yat"/><p><l>o</l><r><s n="ma"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><par n="e_i_left__yat"/><p><l>o</l><r><s n="ma"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
       <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="ma"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
       <e><par n="e_je_left__yat"/><p><l>lu</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
       <e><par n="e_je_left__yat"/><p><l>lu</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
@@ -32766,6 +32766,7 @@
     <!-- with Genitive only -->
     <e lm="bez"><i>bez</i><par n="gen__pr"/></e>
     <e lm="blizu"><i>blizu</i><par n="gen__pr"/></e>
+    <e lm="blizu"><i>blizu</i><par n="dat__pr"/></e>
     <e lm="do"><i>do</i><par n="gen__pr"/></e>
     <e lm="duž"><i>duž</i><par n="gen__pr"/></e>
     <e lm="ispred"><i>ispred</i><par n="gen__pr"/></e>
@@ -36478,10 +36479,10 @@
     <e lm="stručan"><p><l>najstruč</l><r>struč</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="stručan"><p><l>prestruč</l><r>struč</r></p><par n="ruž/an__ssup__adj"/></e>
 
-    <e lm="finalan"><i>final</i><par n="ruž/an__pst__adj"/></e>
-    <e lm="finalan"><i>final</i><par n="ruž/an__comp__adj"/></e>
-    <e lm="finalan"><p><l>najfinal</l><r>final</r></p><par n="ruž/an__sup__adj"/></e>
-    <e lm="finalan"><p><l>prefinal</l><r>final</r></p><par n="ruž/an__ssup__adj"/></e>
+    <!-- <e lm="finalan"><i>final</i><par n="ruž/an__pst__adj"/></e> -->
+    <!-- <e lm="finalan"><i>final</i><par n="ruž/an__comp__adj"/></e> -->
+    <!-- <e lm="finalan"><p><l>najfinal</l><r>final</r></p><par n="ruž/an__sup__adj"/></e> -->
+    <!-- <e lm="finalan"><p><l>prefinal</l><r>final</r></p><par n="ruž/an__ssup__adj"/></e> -->
 
     <e lm="pravokutan"><i>pravokut</i><par n="ruž/an__pst__adj"/></e>
     <e lm="pravokutan"><i>pravokut</i><par n="ruž/an__comp__adj"/></e>
@@ -40133,12 +40134,12 @@
     <e lm="autobusni"><i>autobusn</i><par n="garantn/i__adj"/></e>
     <e lm="baletni"><i>baletn</i><par n="garantn/i__adj"/></e>
     <e lm="garantni"><i>garantn</i><par n="garantn/i__adj"/></e>
-    <e lm="ekspertni"><i>ekspertn</i><par n="garantn/i__adj"/></e>
+    <!-- <e lm="ekspertni"><i>ekspertn</i><par n="garantn/i__adj"/></e> -->
     <e lm="okružni"><i>okružn</i><par n="garantn/i__adj"/></e>
     <e lm="poljoprivredni"><i>poljoprivredn</i><par n="garantn/i__adj"/></e>
     <e lm="računalni"><i>računaln</i><par n="garantn/i__adj"/></e>
     <e lm="računalni"><i>računaln</i><par n="garantn/i__adj"/></e>
-    <e lm="maturalni"><i>maturaln</i><par n="garantn/i__adj"/></e>
+    <!-- <e lm="maturalni"><i>maturaln</i><par n="garantn/i__adj"/></e> -->
     <e lm="strojni"><i>strojn</i><par n="garantn/i__adj"/></e>
     <e lm="višedesetljetni"><i>višedesetljetn</i><par n="garantn/i__adj"/></e>
     <e lm="operni"><i>opern</i><par n="garantn/i__adj"/></e>
@@ -40154,7 +40155,7 @@
     <e lm="divlji"><i>divlj</i><par n="odlučujuć/i__adj"/></e>
     <e lm="divlji"><p><l>predivlj</l><r>divlji<s n="adj"/><s n="ssup"/></r></p><par n="odlučujuć/i__pst__sfx"/></e>
     <e lm="divlje"><p><l>predivlje</l><r>divlje<s n="adv"/><s n="ssup"/></r></p></e>
-    <e lm="zemni"><i>zemn</i><par n="garantn/i__adj"/></e>
+    <!-- <e lm="zemni"><i>zemn</i><par n="garantn/i__adj"/></e> -->
     <e lm="minuli"><i>minul</i><par n="garantn/i__adj"/></e>
     <e lm="isti"><i>ist</i><par n="garantn/i__adj"/></e>
     <e lm="lijevi"><i>lijev</i><par n="garantn/i__adj"/></e>
@@ -42250,10 +42251,10 @@
     <e lm="antieuropski"><p><l>najantieurops</l><r>antieurops</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="antieuropski"><p><l>preantieurops</l><r>antieurops</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <e lm="antievropski"><i>antievrops</i><par n="pridjevs/ki__pst__adj"/></e>
-    <e lm="antievropski"><p><l>antievrops</l><r>antievrops</r></p><par n="pridjevs/ki__comp__adj"/></e>
-    <e lm="antievropski"><p><l>najantievrops</l><r>antievrops</r></p><par n="pridjevs/ki__sup__adj"/></e>
-    <e lm="antievropski"><p><l>preantievrops</l><r>antievrops</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+    <!-- <e lm="antievropski"><i>antievrops</i><par n="pridjevs/ki__pst__adj"/></e> -->
+    <!-- <e lm="antievropski"><p><l>antievrops</l><r>antievrops</r></p><par n="pridjevs/ki__comp__adj"/></e> -->
+    <!-- <e lm="antievropski"><p><l>najantievrops</l><r>antievrops</r></p><par n="pridjevs/ki__sup__adj"/></e> -->
+    <!-- <e lm="antievropski"><p><l>preantievrops</l><r>antievrops</r></p><par n="pridjevs/ki__ssup__adj"/></e> -->
 
     <e lm="antikorupcijski"><i>antikorupcijs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="antikorupcijski"><p><l>antikorupcijs</l><r>antikorupcijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
