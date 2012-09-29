@@ -285,6 +285,10 @@
       <attr-item tags="vbmod"/>
       <attr-item tags="vbser"/>
       <attr-item tags="vbhaver"/>
+      <attr-item tags="vblex.adv"/>
+      <attr-item tags="vbmod.adv"/>
+      <attr-item tags="vbser.adv"/>
+      <attr-item tags="vbhaver.adv"/>
       <attr-item tags="vbmod.clt"/>
       <attr-item tags="vbser.clt"/>
     </def-attr>
@@ -299,6 +303,12 @@
       <attr-item tags="sup"/>     
       <attr-item tags="ssup"/>
       <attr-item tags="ela"/>
+    </def-attr>
+
+    <def-attr n="deg_pst">
+      <attr-item tags="comp"/>     
+      <attr-item tags="sup"/>     
+      <attr-item tags="ssup"/>
     </def-attr>
 
     <def-attr n="a_prn">
@@ -396,6 +406,61 @@
     <def-var n="caseFirstWord"/>	
     <def-var n="EOS" v="true"/>
   </section-def-vars>
+
+  <section-def-lists><!-- Slovene adjectives with analytic comparision translation -->
+    <def-list n="analytic_lemmas">
+      <list-item v="nečist"/>
+      <list-item v="nezanesljiv"/>
+      <list-item v="odločilen"/>
+      <list-item v="odmeven"/>
+      <list-item v="okorel"/>
+      <list-item v="pristen"/>
+      <list-item v="severen"/>
+      <list-item v="splošen"/>
+      <list-item v="spodbuden"/>
+      <list-item v="udaren"/>
+      <list-item v="vzhoden"/>
+      <list-item v="vzpodbuden"/>
+      <list-item v="zahoden"/>
+
+      <list-item v="nečisto"/>
+      <list-item v="nezanesljivo"/>
+      <list-item v="odločilno"/>
+      <list-item v="odmevno"/>
+      <list-item v="okorelo"/>
+      <list-item v="pristno"/>
+      <list-item v="severno"/>
+      <list-item v="splošno"/>
+      <list-item v="spodbudno"/>
+      <list-item v="udarno"/>
+      <list-item v="vzhodno"/>
+      <list-item v="vzpodbudno"/>
+      <list-item v="zahodno"/>
+      <list-item v="desno"/>
+      <list-item v="domače"/>
+      <list-item v="enakomerno"/>
+      <list-item v="kmalu"/>
+      <list-item v="konkurenčno"/>
+      <list-item v="levo"/>
+      <list-item v="naravno"/>
+      <list-item v="negospodarno"/>
+      <list-item v="obetavno"/>
+      <list-item v="pazljivo"/>
+      <list-item v="pokončno"/>
+      <list-item v="položno"/>
+      <list-item v="pozorno"/>
+      <list-item v="previdno"/>
+      <list-item v="resnično"/>
+      <list-item v="srdito"/>
+      <list-item v="tematsko"/>
+      <list-item v="urno"/>
+      <list-item v="resno"/>
+      <list-item v="skrbno"/>
+      <list-item v="počasi"/>
+      <list-item v="površno"/>
+      <list-item v="skrajno"/>
+    </def-list>
+  </section-def-lists>
 
   <section-def-macros>
 
@@ -609,7 +674,7 @@
 	</when>
 	<when>
 	  <test><!-- For the pp -->
-	      <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pp"/></equal>
+	    <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pp"/></equal>
 	  </test>	  
 	  <choose>
 	    <when> <!-- If it's a pp translating tv->iv --><!--<iv> don't have a <pp>-->
@@ -617,14 +682,14 @@
 		<or>
 		  <equal><clip pos="1" side="tl" part="trn"/><lit-tag v="iv"/></equal>
 		  <equal><clip pos="1" side="tl" part="trn"/><lit-tag v="ref"/></equal>
-		    <!--Or if it's one of the <tv> verbs not having a <pp>-->
-		    <or>
-		      <and>
-			<equal><clip pos="1" side="tl" part="lem"/><lit v="razumjeti"/></equal>
-			<equal><clip pos="1" side="tl" part="trn"/><lit-tag v="tv"/></equal>
-		      </and>
-		      <equal><clip pos="1" side="tl" part="lem"/><lit v="moći"/></equal>
-		    </or>		  
+		  <!--Or if it's one of the <tv> verbs not having a <pp>-->
+		  <or>
+		    <and>
+		      <equal><clip pos="1" side="tl" part="lem"/><lit v="razumjeti"/></equal>
+		      <equal><clip pos="1" side="tl" part="trn"/><lit-tag v="tv"/></equal>
+		    </and>
+		    <equal><clip pos="1" side="tl" part="lem"/><lit v="moći"/></equal>
+		  </or>		  
 		</or>
 	      </test>
 	      <!-- Translate it as the <lp>, which is awful, but close enough -->
@@ -928,11 +993,11 @@
       </choose>
     </def-macro>
 
-    <def-macro n="bad_juju" npar="1">
-      <!--Macro to group all the bad juju-->
+    <def-macro n="guess_definiteness" npar="1">
+      <!-- -ski adjectives in Serbo-Croatian are by default definite, while in slovene they are marked both definite and indefinite-->
       <choose>
 	<when>
-	  <test>
+	  <test><!--The adjective with lemmas ending in -i are exclusively definite-->
 	    <ends-with caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="i"/></ends-with>
 	  </test>
 	  <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></let>
@@ -941,12 +1006,192 @@
       </choose>
     </def-macro>
 
+    <def-macro n="ela2sup" npar="1">
+      <choose>
+	<when>      <!-- elative to ssup -->
+	  <test>
+	    <equal><clip pos="1" side="sl" part="deg"/><lit-tag v="ela"/></equal>
+	  </test>
+	  <let><clip pos="1" side="tl" part="deg"/><lit-tag v="ssup"/></let>
+	</when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="adv_adapter" npar="1">
+      <call-macro n="ela2sup"><with-param pos="1"/></call-macro>
+      <choose>
+      <when> <!-- For lahko -->
+	<test>
+	  <equal><clip pos="1" side="sl" part="lemh"/><lit v="lahko"/></equal>
+	</test>
+	<let>
+	  <clip pos="1" side="tl" part="whole"/>
+	  <concat>
+	    <lit v="lako"/>
+	    <lit-tag v="adv"/>
+	    <clip pos="1" side="tl" part="deg"/>
+	  </concat>
+	</let>
+      </when>
+      <when> <!-- For the adverb->verbal adverb-->
+	<test>
+	  <or>
+	    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vblex.adv"/></equal>
+	    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbmod.adv"/></equal>
+	    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbser.adv"/></equal>
+	    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbhaver.adv"/></equal>
+	  </or>
+	</test>
+	<let>
+	  <clip pos="1" side="tl" part="whole"/>
+	  <concat>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_vrb"/>
+	  </concat>
+	</let>	
+      </when>
+      <when> <!-- For the analytic declining adjectives --><!-- For comparative and superlative-->
+	<test>
+	  <and>
+	    <in caseless="yes">
+	      <clip pos="1" side="sl" part="lem"/>
+	      <list n="analytic_lemmas"/>
+	    </in>
+	    <or>
+	      <equal><clip pos="1" side="sl" part="deg"/><lit-tag v="comp"/></equal>
+	      <equal><clip pos="1" side="sl" part="deg"/><lit-tag v="sup"/></equal>
+	    </or>
+	  </and>
+	</test>
+	<let>
+	  <clip pos="1" side="tl" part="whole"/>
+	  <concat>
+	    <lit v="visoko"/><lit-tag v="adv"/><clip pos="1" side="sl" part="deg"/>
+	    <lit v="$"/>
+	    <b/>
+	    <lit v="^"/>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_adv"/>
+	  </concat>
+	</let>
+      </when>
+      <when> <!-- For the analytic declining adjectives --><!-- For elative-->
+	<test>
+	  <and>
+	    <in caseless="yes">
+	      <clip pos="1" side="sl" part="lem"/>
+	      <list n="analytic_lemmas"/>
+	    </in>
+	    <equal><clip pos="1" side="sl" part="deg"/><lit-tag v="ela"/></equal>
+	  </and>
+	</test>
+	<let>
+	  <clip pos="1" side="tl" part="whole"/>
+	  <concat>
+	    <lit v="previše"/><lit-tag v="adv"/>
+	    <lit v="$"/>
+	    <b/>
+	    <lit v="^"/>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_adv"/>
+	  </concat>
+	</let>
+      </when>
+      <otherwise>
+	<let>
+	  <clip pos="1" side="tl" part="whole"/>
+	  <concat>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_adv"/>
+	    <clip pos="1" side="tl" part="deg"/>
+	  </concat>
+	</let>	
+      </otherwise>
+      </choose>
+    </def-macro>
+
     <def-macro n="adj_adapter" npar="1">
       <call-macro n="firstWord"><with-param pos="1"/></call-macro>
       <call-macro n="dual_adapter"><with-param pos="1"/></call-macro>      
       <call-macro n="m2mima"><with-param pos="1"/></call-macro>
-      <call-macro n="bad_juju"><with-param pos="1"/></call-macro>
+      <call-macro n="ela2sup"><with-param pos="1"/></call-macro>
+      <call-macro n="guess_definiteness"><with-param pos="1"/></call-macro>      
       <choose>
+	<when> <!-- For the analytic declining adjectives --><!-- For comparative and superlative-->
+	  <test>
+	    <and>
+	      <in caseless="yes">
+		<clip pos="1" side="sl" part="lem"/>
+		<list n="analytic_lemmas"/>
+	      </in>
+	      <or>
+		<equal><clip pos="1" side="sl" part="deg"/><lit-tag v="comp"/></equal>
+		<equal><clip pos="1" side="sl" part="deg"/><lit-tag v="sup"/></equal>
+	      </or>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <lit v="visoko"/><lit-tag v="adv"/><clip pos="1" side="sl" part="deg"/>
+	      <lit v="$"/>
+	      <b/>
+	      <lit v="^"/>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adj"/>
+	      <lit-tag v="pst"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="cas"/>
+	      <clip pos="1" side="tl" part="def"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>
+	<when> <!-- For the analytic declining adjectives --><!-- For elative-->
+	  <test>
+	    <and>
+	      <in caseless="yes">
+		<clip pos="1" side="sl" part="lem"/>
+		<list n="analytic_lemmas"/>
+	      </in>
+	      <equal><clip pos="1" side="sl" part="deg"/><lit-tag v="ela"/></equal>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <lit v="previše"/><lit-tag v="adv"/>
+	      <lit v="$"/>
+	      <b/>
+	      <lit v="^"/>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adj"/>
+	      <lit-tag v="pst"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="cas"/>
+	      <clip pos="1" side="tl" part="def"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>
+	<when>      <!-- For the adjective to adverb -->
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="adj"/></equal>
+	      <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vblex.adv"/></equal>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vrb"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>
 	<when><!-- Only positive and <ssup> (elative, absolutive superlative) can be def/ind-->
 	  <test>
 	    <or>
@@ -959,7 +1204,7 @@
 	    <concat>
 	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_adj"/>
-	      <clip pos="1" side="tl" part="deg"/>
+	      <clip pos="1" side="sl" part="deg"/>
 	      <clip pos="1" side="tl" part="gen"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	      <clip pos="1" side="tl" part="cas"/>
@@ -967,6 +1212,39 @@
 	    </concat>
 	  </let>
 	</when>	
+	<when><!-- Positive is not marked in Slovene-->
+	  <test>
+	    <equal><clip pos="1" side="tl" part="deg"/><lit-tag v="pst"/></equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adj"/>
+	      <clip pos="1" side="tl" part="deg"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="cas"/>
+	      <clip pos="1" side="tl" part="def"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>	
+	<otherwise>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adj"/>
+	      <clip pos="1" side="tl" part="deg"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="cas"/>
+	      <clip pos="1" side="tl" part="def"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>	  
+	</otherwise>
       </choose>
     </def-macro>
 
@@ -1090,88 +1368,23 @@
       </action>
     </rule>
 
-    <!-- Added by Aleš -->
-    <rule comment="adverbs">
+    <rule comment="adv">
       <pattern>
 	<pattern-item n="adv"/>
       </pattern>
       <action>
 	<call-macro n="firstWord"><with-param pos="1"/></call-macro>
-	<choose>
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="1" side="sl" part="a_adv_form_SL"/> <!-- SL = adv.sint.ela -> SH = adv.ssup -->
-		<lit-tag v="sint.ela"/>
-	      </equal>
-	    </test>	
-	    <out>
-	      <chunk name="adv" case="caseFirstWord">
-		<tags>
-		  <tag><lit-tag v="V"/></tag>
-		</tags>
-		<lu>
-		  <clip pos="1" side="tl" part="lemh"/>
-		  <clip pos="1" side="tl" part="a_adv"/>
-		  <lit-tag v="ssup"/>
-		</lu>
-	      </chunk>
-	    </out>
-	  </when>
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="1" side="sl" part="a_adv_form_SL"/> <!-- SL = adv.sint.sup -> SH = adv.sup -->
-		<lit-tag v="sint.sup"/>
-	      </equal>
-	    </test>	
-	    <out>
-	      <chunk name="adv" case="caseFirstWord">
-		<tags>
-		  <tag><lit-tag v="V"/></tag>
-		</tags>
-		<lu>
-		  <clip pos="1" side="tl" part="lemh"/>
-		  <clip pos="1" side="tl" part="a_adv"/>
-		  <lit-tag v="sup"/>
-		</lu>
-	      </chunk>
-	    </out>
-	  </when>
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="1" side="sl" part="a_adv_form_SL"/> <!-- SL = adv.sint.comp -> SH = adv.comp -->
-		<lit-tag v="sint.comp"/>
-	      </equal>
-	    </test>	
-	    <out>
-	      <chunk name="adv" case="caseFirstWord">
-		<tags>
-		  <tag><lit-tag v="V"/></tag>
-		</tags>
-		<lu>
-		  <clip pos="1" side="tl" part="lemh"/>
-		  <clip pos="1" side="tl" part="a_adv"/>
-		  <lit-tag v="comp"/>
-		</lu>
-	      </chunk>
-	    </out>
-	  </when>
-	  <otherwise> <!-- Else: adv.sint -> adv -->
-	    <out>
-	      <chunk name="adv" case="caseFirstWord">
-		<tags>
-		  <tag><lit-tag v="V"/></tag>
-		</tags>
-		<lu>
-		  <clip pos="1" side="tl" part="lemh"/>
-		  <clip pos="1" side="tl" part="a_adv"/>
-		</lu>
-	      </chunk>
-	    </out>
-	  </otherwise>
-	</choose>
+	<call-macro n="adv_adapter"><with-param pos="1"/></call-macro>
+	<out>
+	  <chunk name="adv" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="Adv"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
       </action>
     </rule>
 
