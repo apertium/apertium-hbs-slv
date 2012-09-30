@@ -1405,7 +1405,8 @@
     <e><p><l>vazduhoplovno<s n="adv"/></l><r>letalsko<s n="adv"/></r></p></e>
     <e><p><l>prekogranično<s n="adv"/></l><r>čezmejno<s n="adv"/></r></p></e>
     <e><p><l>tržišno<s n="adv"/></l><r>tržno<s n="adv"/></r></p></e>
-    <e><p><l>finalno<s n="adv"/></l><r>končno<s n="adv"/></r></p></e>
+    <e><p><l>konačno<s n="adv"/></l><r>končno<s n="adv"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>finalno<s n="adv"/></l><r>finalno<s n="adv"/></r></p><par n="analytic_comparision_adv"/></e>
     <e><p><l>tekuće<s n="adv"/></l><r>tekoč<s n="adv"/></r></p></e>
     <e><p><l>prodajno<s n="adv"/></l><r>prodajno<s n="adv"/></r></p></e>
     <e><p><l>proizvodno<s n="adv"/></l><r>proizvodno<s n="adv"/></r></p></e>
@@ -2313,7 +2314,7 @@
     <e><p><l>kolektivno<s n="adv"/><s n="comp"/></l><r>družno<s n="adv"/><s n="sint"/><s n="comp"/><s n="add_comp"/></r></p></e>
     <e><p><l>kolektivno<s n="adv"/><s n="sup"/></l><r>družno<s n="adv"/><s n="sint"/><s n="sup"/><s n="add_sup"/></r></p></e>
     <e><p><l>kolektivno<s n="adv"/><s n="ssup"/></l><r>družno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
-    <e><p><l>konačno<s n="adv"/><s n="ssup"/></l><r>finalno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
+    <e><p><l>konačno<s n="adv"/><s n="ssup"/></l><r>končno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
     <e><p><l>konstruktivno<s n="adv"/><s n="comp"/></l><r>konstruktivno<s n="adv"/><s n="sint"/><s n="comp"/><s n="add_comp"/></r></p></e>
     <e><p><l>konstruktivno<s n="adv"/><s n="sup"/></l><r>konstruktivno<s n="adv"/><s n="sint"/><s n="sup"/><s n="add_sup"/></r></p></e>
     <e><p><l>konstruktivno<s n="adv"/><s n="ssup"/></l><r>konstruktivno<s n="adv"/><s n="sint"/><s n="ela"/><s n="add_ela"/></r></p></e>
@@ -25614,7 +25615,7 @@
     <e><p><l>aktivno<s n="adv"/></l><r>dejavno<s n="adv"/></r></p></e>
     <e><p><l>elegantno<s n="adv"/></l><r>elegantno<s n="adv"/></r></p></e>
     <e><p><l>elitno<s n="adv"/></l><r>elitno<s n="adv"/></r></p></e>
-    <e><p><l>konačno<s n="adv"/></l><r>finalno<s n="adv"/></r></p></e>
+    <e><p><l>konačno<s n="adv"/></l><r>končno<s n="adv"/></r></p></e>
     <e><p><l>zlo<s n="adv"/></l><r>hudobno<s n="adv"/></r></p></e>
     <e><p><l>intimno<s n="adv"/></l><r>intimno<s n="adv"/></r></p></e>
     <e><p><l>kruto<s n="adv"/></l><r>kruto<s n="adv"/></r></p></e>
