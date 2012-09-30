@@ -36469,6 +36469,11 @@
     <e lm="kružan"><p><l>najkruž</l><r>kruž</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="kružan"><p><l>prekruž</l><r>kruž</r></p><par n="ruž/an__ssup__adj"/></e>
 
+    <e lm="finalan"><i>final</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="finalan"><i>final</i><par n="ruž/an__comp__adj"/></e>
+    <e lm="finalan"><p><l>najfinal</l><r>final</r></p><par n="ruž/an__sup__adj"/></e>
+    <e lm="finalan"><p><l>prefinal</l><r>final</r></p><par n="ruž/an__ssup__adj"/></e>
+
     <e lm="rodan"><i>rod</i><par n="ruž/an__pst__adj"/></e>
     <e lm="rodan"><i>rod</i><par n="ruž/an__comp__adj"/></e>
     <e lm="rodan"><p><l>najrod</l><r>rod</r></p><par n="ruž/an__sup__adj"/></e>

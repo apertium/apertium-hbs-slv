@@ -167,6 +167,13 @@
 
   <pardefs>
 
+    <pardef n="analytic_comparision">
+      <e><p><l><s n="pst"/></l><r></r></p></e>
+      <e><p><l><s n="comp"/></l><r><s n="comp"/><s n="add_comp"/></r></p></e>
+      <e><p><l><s n="sup"/></l><r><s n="sup"/><s n="add_sup"/></r></p></e>
+      <e><p><l><s n="ssup"/></l><r><s n="add_ela"/></r></p></e>
+    </pardef>
+
     <pardef n="analytic_comparision_adv">
       <e><p><l></l><r></r></p></e>
       <e><p><l><s n="comp"/></l><r><s n="comp"/><s n="add_comp"/></r></p></e>
@@ -17878,7 +17885,7 @@
 	<e><p><l>početni<s n="adj"/></l><r>začeten<s n="adj"/></r></p><par n="pst2null"/></e>
 	<e><p><l>pravi<s n="adj"/></l><r>pristen<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>pravi<s n="adj"/></l><r>resničen<s n="adj"/></r></p><par n="only_pst2null"/></e>
-	<e><p><l>finalan<s n="adj"/></l><r>finalen<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>finalan<s n="adj"/></l><r>finalen<s n="adj"/></r></p><par n="analytic_comparision"/></e>
 	<e><p><l>južni<s n="adj"/></l><r>južen<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>sjeverni<s n="adj"/></l><r>severen<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>domaći<s n="adj"/></l><r>avtohton<s n="adj"/></r></p><par n="only_pst2null"/></e>
