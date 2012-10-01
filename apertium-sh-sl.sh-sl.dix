@@ -25617,52 +25617,52 @@
     <e r="RL"><p><l>španjolski<s n="adj"/><s n="pst"/><s n="mi"/></l><r>španščina<s n="n"/><s n="f"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
     <e r="RL"><p><l>bližnji<s n="adj"/><s n="pst"/><s n="ma"/></l><r>sočlovek<s n="n"/><s n="ma"/></r></p><par n="num_id"/><par n="cas_id"/><par n="def2null"/></e>
 
-    <e r="LR"><p><l>višegradski<s n="adv"/></l><r>večmestno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>građevinski<s n="adv"/></l><r>gradbeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>glasački<s n="adv"/></l><r>glasovalno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>okolno<s n="adv"/></l><r>okolno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>reklamno<s n="adv"/></l><r>reklamno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>naredno<s n="adv"/></l><r>naslednje<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>potonje<s n="adv"/></l><r>slednje<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>dojučerašnje<s n="adv"/></l><r>dovčerajšnje<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>orkestralno<s n="adv"/></l><r>orkestralno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>protupožarno<s n="adv"/></l><r>protipožarno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>susjedno<s n="adv"/></l><r>sosedovo<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>minulo<s n="adv"/></l><r>minulo<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>rukovodstveno<s n="adv"/></l><r>vodstveno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>reformno<s n="adv"/></l><r>reformno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>naznačeno<s n="adv"/></l><r>označeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>sniženo<s n="adv"/></l><r>znižano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>napravljeno<s n="adv"/></l><r>napravljeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>naseljeno<s n="adv"/></l><r>naseljeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>upućeno<s n="adv"/></l><r>poslano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>okrivljeno<s n="adv"/></l><r>obtoženo<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>pobjeđeno<s n="adv"/></l><r>premagano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>podijeljeno<s n="adv"/></l><r>podeljeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>preminulo<s n="adv"/></l><r>preminulo<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>pronađeno<s n="adv"/></l><r>najdeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>pritvoreno<s n="adv"/></l><r>priprto<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>proglašeno<s n="adv"/></l><r>proglašeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>prosvjećeno<s n="adv"/></l><r>razsvetljeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>raspoloženo<s n="adv"/></l><r>razpoloženo<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>plavo<s n="adv"/></l><r>plavo<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>zagušeno<s n="adv"/></l><r>zadušeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>planirano<s n="adv"/></l><r>planirano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>umiješano<s n="adv"/></l><r>umešano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>održano<s n="adv"/></l><r>vzdrževano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>patriotski<s n="adv"/></l><r>patriotsko<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>menadžerski<s n="adv"/></l><r>vodstveno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>evangelički<s n="adv"/></l><r>evangelično<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>zanatski<s n="adv"/></l><r>obrtniško<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>geomagnetski<s n="adv"/></l><r>geomagnetno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>gimnastičarski<s n="adv"/></l><r>telovadno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>depresijski<s n="adv"/></l><r>depresijsko<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>obmanuto<s n="adv"/></l><r>prevarano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>zapadnoevropski<s n="adv"/></l><r>zapadnoevropsko<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>lišeno<s n="adv"/></l><r>odvzeto<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>nominovano<s n="adv"/></l><r>kandidirano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>zahvalno<s n="adv"/></l><r>zahvalno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
-    <e r="LR"><p><l>ključno<s n="adv"/></l><r>zahvalno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>višegradski<s n="adv"/></l><r>večmestno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>građevinski<s n="adv"/></l><r>gradbeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>glasački<s n="adv"/></l><r>glasovalno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>okolno<s n="adv"/></l><r>okolno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>reklamno<s n="adv"/></l><r>reklamno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>naredno<s n="adv"/></l><r>naslednje<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>potonje<s n="adv"/></l><r>slednje<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>dojučerašnje<s n="adv"/></l><r>dovčerajšnje<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>orkestralno<s n="adv"/></l><r>orkestralno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>protupožarno<s n="adv"/></l><r>protipožarno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>susjedno<s n="adv"/></l><r>sosedovo<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>minulo<s n="adv"/></l><r>minulo<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>rukovodstveno<s n="adv"/></l><r>vodstveno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>reformno<s n="adv"/></l><r>reformno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>naznačeno<s n="adv"/></l><r>označeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>sniženo<s n="adv"/></l><r>znižano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>napravljeno<s n="adv"/></l><r>napravljeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>naseljeno<s n="adv"/></l><r>naseljeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>upućeno<s n="adv"/></l><r>poslano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>okrivljeno<s n="adv"/></l><r>obtoženo<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>pobjeđeno<s n="adv"/></l><r>premagano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>podijeljeno<s n="adv"/></l><r>podeljeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>preminulo<s n="adv"/></l><r>preminulo<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>pronađeno<s n="adv"/></l><r>najdeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>pritvoreno<s n="adv"/></l><r>priprto<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>proglašeno<s n="adv"/></l><r>proglašeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>prosvjećeno<s n="adv"/></l><r>razsvetljeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>raspoloženo<s n="adv"/></l><r>razpoloženo<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>plavo<s n="adv"/></l><r>plavo<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>zagušeno<s n="adv"/></l><r>zadušeno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>planirano<s n="adv"/></l><r>planirano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>umiješano<s n="adv"/></l><r>umešano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>održano<s n="adv"/></l><r>vzdrževano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>patriotski<s n="adv"/></l><r>patriotsko<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>menadžerski<s n="adv"/></l><r>vodstveno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>evangelički<s n="adv"/></l><r>evangelično<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>zanatski<s n="adv"/></l><r>obrtniško<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>geomagnetski<s n="adv"/></l><r>geomagnetno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>gimnastičarski<s n="adv"/></l><r>telovadno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>depresijski<s n="adv"/></l><r>depresijsko<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>obmanuto<s n="adv"/></l><r>prevarano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>zapadnoevropski<s n="adv"/></l><r>zapadnoevropsko<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>lišeno<s n="adv"/></l><r>odvzeto<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>nominovano<s n="adv"/></l><r>kandidirano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>zahvalno<s n="adv"/></l><r>zahvalno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
+    <e><p><l>ključno<s n="adv"/></l><r>zahvalno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
 
 	
 
