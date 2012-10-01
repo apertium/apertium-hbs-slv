@@ -42261,10 +42261,10 @@
     <e lm="antieuropski"><p><l>najantieurops</l><r>antieurops</r></p><par n="pridjevs/ki__sup__adj"/></e>
     <e lm="antieuropski"><p><l>preantieurops</l><r>antieurops</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
-    <!-- <e lm="antievropski"><i>antievrops</i><par n="pridjevs/ki__pst__adj"/></e> -->
-    <!-- <e lm="antievropski"><p><l>antievrops</l><r>antievrops</r></p><par n="pridjevs/ki__comp__adj"/></e> -->
-    <!-- <e lm="antievropski"><p><l>najantievrops</l><r>antievrops</r></p><par n="pridjevs/ki__sup__adj"/></e> -->
-    <!-- <e lm="antievropski"><p><l>preantievrops</l><r>antievrops</r></p><par n="pridjevs/ki__ssup__adj"/></e> -->
+    <e lm="antievropski"><i>antievrops</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="antievropski"><p><l>antievrops</l><r>antievrops</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="antievropski"><p><l>najantievrops</l><r>antievrops</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="antievropski"><p><l>preantievrops</l><r>antievrops</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 
     <e lm="antikorupcijski"><i>antikorupcijs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="antikorupcijski"><p><l>antikorupcijs</l><r>antikorupcijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
