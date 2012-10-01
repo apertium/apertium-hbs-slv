@@ -748,7 +748,7 @@
     <e><p><l>neprimjereno<s n="adv"/></l><r>neprimerno<s n="adv"/></r></p></e>
     <e><p><l>nestrpljivo<s n="adv"/></l><r>nestrpno<s n="adv"/></r></p></e>
     <e><p><l>nevidljivo<s n="adv"/></l><r>nevidno<s n="adv"/></r></p></e>
-    <e><p><l>orijentirano<s n="adv"/></l><r>orientirano<s n="adv"/></r></p></e>
+    <e><p><l>orijentirano<s n="adv"/></l><r>orientirano<s n="adv"/></r></p><par n="analytic_comparision_adv"/></e>
     <e><p><l>oholo<s n="adv"/></l><r>ošabno<s n="adv"/></r></p></e>
     <e><p><l>pregledno<s n="adv"/></l><r>pregledano<s n="adv"/></r></p></e>
     <e><p><l>nadmeno<s n="adv"/></l><r>prevzetno<s n="adv"/></r></p></e>
@@ -22537,7 +22537,7 @@
 	<e><p><l>nepotpun<s n="adj"/><s n="comp"/></l><r>nepopoln<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>nepotpun<s n="adj"/><s n="sup"/></l><r>nepopoln<s n="adj"/><s n="add_sup"/></r></p></e>
 	<e><p><l>nepotpun<s n="adj"/><s n="ssup"/></l><r>nepopoln<s n="adj"/><s n="add_ela"/></r></p></e>
-	<e><p><l>orijentiran<s n="adj"/></l><r>orientiran<s n="adj"/></r></p><par n="only_pst2null"/><par n="analytic_comparision"/></e>
+	<e><p><l>orijentiran<s n="adj"/></l><r>orientiran<s n="adj"/></r></p><par n="analytic_comparision"/></e>
 	<e><p><l>pouzdan<s n="adj"/></l><r>zanesljiv<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>pouzdan<s n="adj"/><s n="comp"/></l><r>zanesljiv<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>pouzdan<s n="adj"/><s n="sup"/></l><r>zanesljiv<s n="adj"/><s n="add_sup"/></r></p></e>
