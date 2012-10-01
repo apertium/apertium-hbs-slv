@@ -13343,7 +13343,7 @@
 
     </pardef>
     <pardef n="marij/in__adj">
-      <e><p><l></l><r>in<s n="adj"/><s n="ssup"/></r></p><par n="marij/in__pst__sfx"/></e>
+      <e><p><l></l><r>in<s n="adj"/><s n="pst"/></r></p><par n="marij/in__pst__sfx"/></e>
     </pardef>
     <!--end 'marij/in'-->
     <!--Adjective paradigm 'marij/ev'--><!--Masculine possesive adjective form, no adverbial form, no comparative, superlative and absolute superlative-->
@@ -36468,6 +36468,11 @@
     <e lm="kružan"><i>kruž</i><par n="ruž/an__comp__adj"/></e>
     <e lm="kružan"><p><l>najkruž</l><r>kruž</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="kružan"><p><l>prekruž</l><r>kruž</r></p><par n="ruž/an__ssup__adj"/></e>
+
+    <e lm="prijatan"><i>prijat</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="prijatan"><i>prijat</i><par n="ruž/an__comp__adj"/></e>
+    <e lm="prijatan"><p><l>najprijat</l><r>prijat</r></p><par n="ruž/an__sup__adj"/></e>
+    <e lm="prijatan"><p><l>preprijat</l><r>prijat</r></p><par n="ruž/an__ssup__adj"/></e>
 
     <e lm="finalan"><i>final</i><par n="ruž/an__pst__adj"/></e>
     <e lm="finalan"><i>final</i><par n="ruž/an__comp__adj"/></e>
