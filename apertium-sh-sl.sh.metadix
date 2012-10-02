@@ -26869,7 +26869,7 @@
       <e><p><l>em</l><r>e<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>i</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>a</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>â</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>â</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l>ima</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>a</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>a</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -28332,7 +28332,7 @@
       <e><p><l>o</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
       <e><p><l>om</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>a</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>â</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>â</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l>a</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>ima</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>ima</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -28348,7 +28348,7 @@
       <e><p><l>e</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
       <e><p><l>em</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>a</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>â</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>â</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l>a</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>ima</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>ima</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -28386,7 +28386,7 @@
       <e r="LR"><p><l>a</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
       <e><p><l>om</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>e</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>â</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>â</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l>e</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>ama</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>ama</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -29409,7 +29409,7 @@
       <e><p><l>om</l><r>o<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>â</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>â</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
       <e r="LR"><p><l>esa</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -29483,7 +29483,7 @@
       <e><p><l>em</l><r>a<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>a</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>a</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>â</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>â</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l>a</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>a</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
       <e r="LR"><p><l>iju</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
