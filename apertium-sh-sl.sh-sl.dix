@@ -722,7 +722,7 @@
     <e><p><l>sad<s n="adv"/></l><r>sedaj<s n="adv"/></r></p></e>
     <e><p><l>još<b/>uvijek<s n="adv"/></l><r>še<b/>vedno<s n="adv"/></r></p></e>
 
-    <e><p><l>rano<s n="adv"/></l><r>rano<s n="adv"/></r></p><par n="analytic_comparision_adv_elative"/></e> <!-- FIXME: Check -->
+    <e><p><l>rano<s n="adv"/></l><r>rano<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e> <!-- FIXME: Check -->
     <e><p><l>rodno<s n="adv"/></l><r>rodno<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>
 
     <!--ne_ski (Se vedno SH: adj lemma, adv TAG;; --><!--by Krvoje: converted from adjective lemmas to adverb lemmas -->
@@ -986,7 +986,7 @@
     <e><p><l>slobodno<s n="adv"/></l><r>svobodno<s n="adv"/></r></p></e>
     <e><p><l>ugledno<s n="adv"/></l><r>ugledno<s n="adv"/></r></p></e>
     <e><p><l>određeno<s n="adv"/></l><r>določno<s n="adv"/></r></p></e>
-    <e><p><l>jako<s n="adv"/></l><r>močneje<s n="adv"/></r></p></e>
+    <e><p><l>jako<s n="adv"/></l><r>močnejo<s n="adv"/></r></p></e>
     <e><p><l>naivno<s n="adv"/></l><r>naivno<s n="adv"/></r></p></e>
     <e><p><l>nemirno<s n="adv"/></l><r>nemirno<s n="adv"/></r></p></e>
     <e><p><l>hrabro<s n="adv"/></l><r>pogumno<s n="adv"/></r></p></e>
@@ -1504,7 +1504,7 @@
     <e><p><l>austrijski<s n="adv"/></l><r>avstrijsko<s n="adv"/></r></p></e>
     <e><p><l>azijski<s n="adv"/></l><r>azijsko<s n="adv"/></r></p></e>
     <e><p><l>artiljerijski<s n="adv"/></l><r>topovsko<s n="adv"/></r></p></e>
-    <e><p><l>artiljerijski<s n="adv"/></l><r>artiljerijsko<s n="adv"/></r></p></e>
+    <e><p><l>artiljerijski<s n="adv"/></l><r>artilerijsko<s n="adv"/></r></p></e>
     <e><p><l>atlanski<s n="adv"/></l><r>atlantsko<s n="adv"/></r></p></e>
     <e><p><l>benzinski<s n="adv"/></l><r>bencinsko<s n="adv"/></r></p></e>
     <e><p><l>boksački<s n="adv"/></l><r>boksarsko<s n="adv"/></r></p></e>
@@ -5502,7 +5502,7 @@
     <e r="LR"><p><l>glineno<s n="adv"/><s n="ssup"/></l><r>glinen<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/><s n="add_ela"/></r></p></e>
     <e r="LR"><p><l>starčevački<s n="adv"/></l><r>starčevaški<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
     <e r="LR"><p><l>kulturološki<s n="adv"/></l><r>kulturološki<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
-    <e r="LR"><p><l>cetinski<s n="adv"/></l><r>cetinsko<s n="adv"/></r></p></e>
+    <e><p><l>cetinski<s n="adv"/></l><r>cetinsko<s n="adv"/><s n="sint"/></r></p></e>
     <e r="LR"><p><l>cetinski<s n="adv"/></l><r>cetinski<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
     <e><p><l>danilski<s n="adv"/></l><r>danilsko<s n="adv"/></r></p></e>
     <e r="LR"><p><l>danilski<s n="adv"/></l><r>danilski<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
@@ -5541,7 +5541,7 @@
     <e r="LR"><p><l>australski<s n="adv"/></l><r>avstralski<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
     
     <e><p><l>australski<s n="adv"/></l><r>avstralsko<s n="adv"/><s n="sint"/></r></p></e>
-    <e><p><l>bizantinski<s n="adv"/></l><r>bizantinsko<s n="adv"/><s n="sint"/></r></p></e>    
+    <e><p><l>bizantinski<s n="adv"/></l><r>bizantinsko<s n="adv"/><s n="sint"/></r></p><par n="analytic_comparision_adv"/></e>    
 
     <!--Verbs-->
     
@@ -18024,10 +18024,10 @@
 	<e><p><l>litvanski<s n="adj"/><s n="comp"/></l><r>litovski<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>litvanski<s n="adj"/><s n="sup"/></l><r>litovski<s n="adj"/><s n="add_sup"/></r></p></e>
 	<e><p><l>litvanski<s n="adj"/><s n="ssup"/></l><r>litovski<s n="adj"/><s n="add_ela"/></r></p></e>
-	<e><p><l>travanjski<s n="adj"/></l><r>aprílski<s n="adj"/></r></p><par n="only_pst2null"/></e>
-	<e><p><l>travanjski<s n="adj"/><s n="comp"/></l><r>aprílski<s n="adj"/><s n="add_comp"/></r></p></e>
-	<e><p><l>travanjski<s n="adj"/><s n="sup"/></l><r>aprílski<s n="adj"/><s n="add_sup"/></r></p></e>
-	<e><p><l>travanjski<s n="adj"/><s n="ssup"/></l><r>aprílski<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>travanjski<s n="adj"/></l><r>aprilski<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>travanjski<s n="adj"/><s n="comp"/></l><r>aprilski<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>travanjski<s n="adj"/><s n="sup"/></l><r>aprilski<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>travanjski<s n="adj"/><s n="ssup"/></l><r>aprilski<s n="adj"/><s n="add_ela"/></r></p></e>
 	<e><p><l>bjeloruski<s n="adj"/></l><r>beloruski<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>bjeloruski<s n="adj"/><s n="comp"/></l><r>beloruski<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>bjeloruski<s n="adj"/><s n="sup"/></l><r>beloruski<s n="adj"/><s n="add_sup"/></r></p></e>
@@ -20304,10 +20304,10 @@
 	<e><p><l>ozbiljan<s n="adj"/><s n="sup"/></l><r>resnoben<s n="adj"/><s n="sup"/></r></p></e>
 	<e><p><l>ozbiljan<s n="adj"/><s n="ssup"/></l><r>resnoben<s n="adj"/><s n="add_ela"/></r></p></e>
 	<e><p><l>srednje<b/>velik<s n="adj"/></l><r>srednje<b/>velik<s n="adj"/></r></p><par n="only_pst2null"/></e>
-	<e><p><l>unilateralan<s n="adj"/></l><r>enostránski<s n="adj"/></r></p><par n="only_pst2null"/></e>
-	<e><p><l>unilateralan<s n="adj"/><s n="comp"/></l><r>enostránski<s n="adj"/><s n="add_comp"/></r></p></e>
-	<e><p><l>unilateralan<s n="adj"/><s n="sup"/></l><r>enostránski<s n="adj"/><s n="add_sup"/></r></p></e>
-	<e><p><l>unilateralan<s n="adj"/><s n="ssup"/></l><r>enostránski<s n="adj"/><s n="add_ela"/></r></p></e>
+	<e><p><l>unilateralan<s n="adj"/></l><r>enostranski<s n="adj"/></r></p><par n="only_pst2null"/></e>
+	<e><p><l>unilateralan<s n="adj"/><s n="comp"/></l><r>enostranski<s n="adj"/><s n="add_comp"/></r></p></e>
+	<e><p><l>unilateralan<s n="adj"/><s n="sup"/></l><r>enostranski<s n="adj"/><s n="add_sup"/></r></p></e>
+	<e><p><l>unilateralan<s n="adj"/><s n="ssup"/></l><r>enostranski<s n="adj"/><s n="add_ela"/></r></p></e>
 	<e><p><l>bilateralan<s n="adj"/></l><r>dvostranski<s n="adj"/></r></p><par n="only_pst2null"/></e>
 	<e><p><l>bilateralan<s n="adj"/><s n="comp"/></l><r>dvostranski<s n="adj"/><s n="add_comp"/></r></p></e>
 	<e><p><l>bilateralan<s n="adj"/><s n="sup"/></l><r>dvostranski<s n="adj"/><s n="add_sup"/></r></p></e>
@@ -22840,7 +22840,7 @@
     <e><p><l>profesionalno<s n="adv"/></l><r>poklicno<s n="adv"/></r></p></e>
     <e><p><l>uspravno<s n="adv"/></l><r>pokonci<s n="adv"/></r></p></e>
     <e><p><l>ljetno<s n="adv"/></l><r>poletno<s n="adv"/></r></p></e>
-    <e><p><l>obično<s n="adv"/></l><r>po navadi<s n="adv"/></r></p></e>
+    <e><p><l>obično<s n="adv"/></l><r>ponavadi<s n="adv"/></r></p></e>
     <e><p><l>ponovno<s n="adv"/></l><r>ponovno<s n="adv"/></r></p></e>
     <e><p><l>potpuno<s n="adv"/></l><r>popolnoma<s n="adv"/></r></p></e>
     <e><p><l>tada<s n="adv"/></l><r>potlej<s n="adv"/></r></p></e>
@@ -24520,7 +24520,7 @@
 <e><p><l>sponzorski<s n="adv"/></l><r>pokroviteljsko<s n="adv"/><s n="sint"/></r></p></e>
 <e><p><l>poljoprivredno<s n="adv"/></l><r>poljedelsko<s n="adv"/><s n="sint"/></r></p></e>
 <e><p><l>posttraumatski<s n="adv"/></l><r>posttravmatsko<s n="adv"/><s n="sint"/></r></p></e>
-<e><p><l>pretplaćujući<s n="adv"/></l><r>predplačniško<s n="adv"/><s n="sint"/></r></p></e>
+<e><p><l>pretplaćujući<s n="vblex"/><s n="adv"/></l><r>predplačniško<s n="adv"/><s n="sint"/></r></p></e>
 <e><p><l>prethodno<s n="adv"/></l><r>prejšnjo<s n="adv"/><s n="sint"/></r></p></e>
 <e><p><l>imovinski<s n="adv"/></l><r>premoženjsko<s n="adv"/><s n="sint"/></r></p></e>
 <e><p><l>kavgadžijski<s n="adv"/></l><r>pretepaško<s n="adv"/><s n="sint"/></r></p></e>
