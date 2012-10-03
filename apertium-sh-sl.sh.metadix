@@ -33179,6 +33179,7 @@
     <e lm="pješice"><i>p</i><par n="e_je__yat"/><i>šice</i><par n="danas__adv"/></e>
     <e lm="pješke"><i>p</i><par n="e_je__yat"/><i>ške</i><par n="danas__adv"/></e>
     <e lm="više"><i>više</i><par n="danas__adv"/></e>
+    <e lm="najviše"><i>najviše</i><par n="danas__adv"/></e>
     <e lm="većma"><i>većma</i><par n="danas__adv"/></e>
     <e lm="radije"><i>radije</i><par n="danas__adv"/></e>
     <e lm="već"><i>već</i><par n="danas__adv"/></e>
@@ -52025,6 +52026,7 @@
     <e lm="pojedino"><i>pojedino</i><par n="danas__adv"/></e>
 
     <e lm="u međuvremenu"><i>u<b/>međuvremenu</i><par n="danas__adv"/></e>
+    <e lm="čim više"><i>čim<b/>više</i><par n="danas__adv"/></e>
 
     <e lm="na koncu"><i>na<b/>koncu</i><par n="gen__pr"/></e>
     <e lm="na kraju"><i>na<b/>kraju</i><par n="gen__pr"/></e>

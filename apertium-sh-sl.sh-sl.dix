@@ -2188,6 +2188,9 @@
     <e><p><l>papinski<s n="adv"/></l><r>papeško<s n="adv"/></r></p></e>
     <e><p><l>nezakonski<s n="adv"/></l><r>nezakonsko<s n="adv"/></r></p></e>
     <e><p><l>bezbjedonosno<s n="adv"/></l><r>varnostno<s n="adv"/></r></p></e>
+
+    <e><p><l>više<s n="adv"/></l><r>bolj<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>najviše<s n="adv"/></l><r>najbolj<s n="adv"/><s n="sint"/><s n="sup"/></r></p></e>
     
     
     <!-- Adverbs/Adjectives(adv) with missing form on the other side (SH->SL) => Add bolj/najbolj/preveč with rule -->
@@ -23110,7 +23113,7 @@
     <e><p><l>četvrto<s n="adv"/></l><r>četrtič<s n="adv"/></r></p></e>
     <e><p><l>pretjerano<s n="adv"/></l><r>čezmerno<s n="adv"/></r></p></e>
     <e><p><l>ciklički<s n="adv"/></l><r>ciklično<s n="adv"/></r></p></e>
-    <e><p><l>najviše<s n="adv"/></l><r>čimbolj<s n="adv"/></r></p></e>
+    <e><p><l>čim<b/>više<s n="adv"/></l><r>čimbolj<s n="adv"/></r></p></e>
     <e><p><l>što<b/>prije<s n="adv"/></l><r>čimprej<s n="adv"/></r></p></e>
     <e><p><l>čipkasto<s n="adv"/></l><r>čipkasto<s n="adv"/></r></p></e>
     <e><p><l>čitljivo<s n="adv"/></l><r>čitljivo<s n="adv"/></r></p></e>
