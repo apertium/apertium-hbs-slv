@@ -72,5 +72,7 @@ dev/testvoc.sh -text
 /separate.sh -text
 /sh-sl.prob -text
 /sl-sh.prob -text svneol=unset#unset
+/test-sh-sl.sh -text
+/test-sl-sh.sh -text
 /translate_stories.sh -text
 /zamjenice.txt -text
