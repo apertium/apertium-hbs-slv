@@ -55,6 +55,10 @@ dev/eval/story2_sl_uncorrected.txt -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/missing-words.sh -text
+dev/paper/Makefile -text
+dev/paper/mtsxiv.bst -text
+dev/paper/mtsxiv.sty -text
+dev/paper/mtsxivslsh.tex -text
 dev/sh_HR.translated.txt -text
 dev/sh_original.txt -text
 dev/sl.translated.txt -text
