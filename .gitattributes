@@ -27,6 +27,9 @@
 /apertium-sh-sl.sl-sh.t1x -text
 /apertium-sh-sl.sl-sh.t2x -text
 /apertium-sh-sl.sl-sh.t3x -text
+/apertium-sh-sl.sl-sh_BS.lrx -text
+/apertium-sh-sl.sl-sh_HR.lrx -text
+/apertium-sh-sl.sl-sh_SR.lrx -text
 /apertium-sh-sl.sl.acx -text
 /apertium-sh-sl.sl.dix -text
 /autogen.sh -text
