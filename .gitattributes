@@ -65,6 +65,7 @@ dev/missing-words.sh -text
 dev/paper/Makefile -text
 dev/paper/mtsxiv.bst -text
 dev/paper/mtsxiv.sty -text
+dev/paper/mtsxivslsh.bib -text
 dev/paper/mtsxivslsh.tex -text
 dev/sh_HR.translated.txt -text
 dev/sh_original.txt -text
