@@ -57,6 +57,8 @@ dev/eval/story1_sl_uncorrected_google.txt -text
 dev/eval/story2_hr.txt -text
 dev/eval/story2_sl.txt -text
 dev/eval/story2_sl_uncorrected.txt -text
+dev/eval/ustav-sfrj/ustav-raw.sh -text
+dev/eval/ustav-sfrj/ustav-raw.sl -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/missing-words.sh -text
