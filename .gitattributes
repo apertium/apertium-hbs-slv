@@ -5,6 +5,7 @@
 /INSTALL -text
 /Makefile.am -text
 /NEWS -text
+/NOTES -text
 /README -text
 /adverbs-neosnovniki-prevedeno.txt -text
 /alt.xsl -text
