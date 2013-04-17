@@ -64,6 +64,11 @@ dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/missing-words.sh -text
 dev/paper/Makefile -text
+dev/paper/conclusions.tex -text
+dev/paper/design.tex -text
+dev/paper/development.tex -text
+dev/paper/evaluation.tex -text
+dev/paper/introduction.tex -text
 dev/paper/mtsxiv.bst -text
 dev/paper/mtsxiv.sty -text
 dev/paper/mtsxivslsh.bib -text
