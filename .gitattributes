@@ -167,6 +167,7 @@ dev/paper/eval/volitve.bhs.original.txt -text
 dev/paper/eval/volitve.sl.original.txt -text
 dev/paper/evaluation.tex -text
 dev/paper/images/Makefile -text
+dev/paper/images/chart.eps -text
 dev/paper/images/chart.obj -text
 dev/paper/images/chart.png -text
 dev/paper/introduction.tex -text
