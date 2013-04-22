@@ -65,6 +65,7 @@ dev/inconsistency.sh -text
 dev/missing-words.sh -text
 dev/paper/Makefile -text
 dev/paper/conclusions.tex -text
+dev/paper/coveragetable.tex -text
 dev/paper/design.tex -text
 dev/paper/development.tex -text
 dev/paper/disambiguation.tex -text
