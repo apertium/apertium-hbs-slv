@@ -19,8 +19,8 @@
 /apertium-hbs-slv.hbs.acx -text
 /apertium-hbs-slv.hbs.metadix -text
 /apertium-hbs-slv.hbs.tsx -text
-/apertium-hbs-slv.post-sh.dix -text
-/apertium-hbs-slv.post-sl.dix -text
+/apertium-hbs-slv.post-hbs.dix -text
+/apertium-hbs-slv.post-slv.dix -text
 /apertium-hbs-slv.slv-hbs.rlx -text
 /apertium-hbs-slv.slv-hbs.t1x -text
 /apertium-hbs-slv.slv-hbs.t2x -text
