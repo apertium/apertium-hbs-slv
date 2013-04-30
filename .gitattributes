@@ -172,10 +172,12 @@ dev/paper/images/chart.obj -text
 dev/paper/images/chart.png -text
 dev/paper/introduction.tex -text
 dev/paper/lexicaltransfer.tex -text
+dev/paper/lingmacros.sty -text
 dev/paper/mtsxiv.bst -text
 dev/paper/mtsxiv.sty -text
 dev/paper/mtsxivslsh.bib -text
 dev/paper/mtsxivslsh.tex -text
+dev/paper/multibib.sty -text
 dev/paper/quantitativeevaluationtable.tex -text
 dev/paper/transfer.tex -text
 dev/sh_HR.translated.txt -text
