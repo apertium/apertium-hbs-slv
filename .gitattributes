@@ -11,6 +11,7 @@
 /apertium-hbs-slv.hbs-slv.dix -text
 /apertium-hbs-slv.hbs-slv.dix.old -text
 /apertium-hbs-slv.hbs-slv.lex -text
+/apertium-hbs-slv.hbs-slv.lrx -text
 /apertium-hbs-slv.hbs-slv.rlx -text
 /apertium-hbs-slv.hbs-slv.t1x -text
 /apertium-hbs-slv.hbs-slv.t2x -text
@@ -29,6 +30,7 @@
 /apertium-hbs-slv.slv-hbs_SR.lrx -text
 /apertium-hbs-slv.slv.acx -text
 /apertium-hbs-slv.slv.dix -text
+/apertium-hbs-slv.slv.tsx -text
 /autogen.sh -text
 /config.in -text
 /configure.ac -text
