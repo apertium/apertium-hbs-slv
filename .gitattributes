@@ -7,7 +7,6 @@
 /NEWS -text
 /NOTES -text
 /README -text
-/adverbs-neosnovniki-prevedeno.txt -text
 /alt.xsl -text
 /apertium-hbs-slv.hbs-slv.dix -text
 /apertium-hbs-slv.hbs-slv.dix.old -text
@@ -33,6 +32,7 @@
 /autogen.sh -text
 /config.in -text
 /configure.ac -text
+dev/adverbs-neosnovniki-prevedeno.txt -text
 dev/amigos_adjectives.txt -text
 dev/amigos_nouns.txt -text
 dev/amigos_vblex.txt -text
@@ -190,6 +190,7 @@ dev/story_Pavao2_HR_original.txt -text
 dev/testvoc-summary.sh-sl.txt -text
 dev/testvoc-summary.sl-sh.txt -text
 dev/testvoc.sh -text
+dev/zamjenice.txt -text
 /hbs-slv.prob -text
 /k.sh -text
 /modes.xml -text
@@ -200,4 +201,3 @@ dev/testvoc.sh -text
 /test-hbs-slv.sh -text
 /test-slv-hbs.sh -text
 /translate_stories.sh -text
-/zamjenice.txt -text
