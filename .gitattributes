@@ -9,9 +9,6 @@
 /README -text
 /adverbs-neosnovniki-prevedeno.txt -text
 /alt.xsl -text
-/amigos_adjectives.txt -text
-/amigos_nouns.txt -text
-/amigos_vblex.txt -text
 /apertium-hbs-slv.hbs-slv.dix -text
 /apertium-hbs-slv.hbs-slv.dix.old -text
 /apertium-hbs-slv.hbs-slv.lex -text
@@ -19,9 +16,9 @@
 /apertium-hbs-slv.hbs-slv.t1x -text
 /apertium-hbs-slv.hbs-slv.t2x -text
 /apertium-hbs-slv.hbs-slv.t3x -text
-/apertium-hbs-slv.hbs.gacx -text
-/apertium-hbs-slv.hbs.gmetadix -text
-/apertium-hbs-slv.hbs.gtsx -text
+/apertium-hbs-slv.hbs.acx -text
+/apertium-hbs-slv.hbs.metadix -text
+/apertium-hbs-slv.hbs.tsx -text
 /apertium-hbs-slv.post-sh.dix -text
 /apertium-hbs-slv.post-sl.dix -text
 /apertium-hbs-slv.slv-hbs.rlx -text
@@ -36,6 +33,9 @@
 /autogen.sh -text
 /config.in -text
 /configure.ac -text
+dev/amigos_adjectives.txt -text
+dev/amigos_nouns.txt -text
+dev/amigos_vblex.txt -text
 dev/apertium-sh-sl.sh-sl.dix.generated -text
 dev/apertium-sl-sr.sl-sr.dix -text
 dev/eval/corpora/Makefile -text
