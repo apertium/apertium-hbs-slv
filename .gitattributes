@@ -177,6 +177,7 @@ dev/paper/lrec2014_version/images/chart.obj -text
 dev/paper/lrec2014_version/images/chart.png -text
 dev/paper/lrec2014_version/introduction.tex -text
 dev/paper/lrec2014_version/lexicaltransfer.tex -text
+dev/paper/lrec2014_version/lingmacros.sty -text
 dev/paper/lrec2014_version/lrec2006.bst -text
 dev/paper/lrec2014_version/lrec2006.sty -text
 dev/paper/lrec2014_version/quantitativeevaluationtable.tex -text
