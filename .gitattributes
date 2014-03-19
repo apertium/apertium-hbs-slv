@@ -192,6 +192,7 @@ dev/paper/lrec2014_version/lingmacros.sty -text
 dev/paper/lrec2014_version/lrec2006.bst -text
 dev/paper/lrec2014_version/lrec2006.sty -text
 dev/paper/lrec2014_version/quantitativeevaluationtable.tex -text
+dev/paper/lrec2014_version/reviewers_comments.md -text
 dev/paper/lrec2014_version/transfer.tex -text
 dev/paper/mtsxiv_version/Makefile -text
 dev/paper/mtsxiv_version/conclusions.tex -text
