@@ -170,6 +170,7 @@ dev/paper/eval/volitve.hbs-slv.src -text
 dev/paper/eval/volitve.sl.original.txt -text
 dev/paper/eval/volitve.slv-hbs.src -text
 dev/paper/lrec2014_version/Makefile -text
+dev/paper/lrec2014_version/TODOs.md -text
 dev/paper/lrec2014_version/apertium-hbs-slv.bib -text
 dev/paper/lrec2014_version/apertium-hbs-slv.tex -text
 dev/paper/lrec2014_version/conclusions.tex -text
