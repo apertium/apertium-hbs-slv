@@ -226,6 +226,14 @@ dev/sh_HR.translated.txt -text
 dev/sh_original.txt -text
 dev/sl.translated.txt -text
 dev/sl_original.txt -text
+dev/slides/images/chart.eps -text
+dev/slides/src.aux -text
+dev/slides/src.log -text
+dev/slides/src.nav -text
+dev/slides/src.out -text
+dev/slides/src.snm -text
+dev/slides/src.tex -text
+dev/slides/src.toc -text
 dev/story_Pavao1_HR_original.txt -text
 dev/story_Pavao1_SL_original.txt -text
 dev/story_Pavao2_HR_original.txt -text
