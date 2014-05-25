@@ -227,7 +227,13 @@ dev/sh_original.txt -text
 dev/sl.translated.txt -text
 dev/sl_original.txt -text
 dev/slides/coveragetable.tex -text
+dev/slides/images/apertium.png -text
+dev/slides/images/balkans.jpg -text
+dev/slides/images/chart-eps-converted-to.pdf -text
 dev/slides/images/chart.eps -text
+dev/slides/images/chart.eps~ -text
+dev/slides/images/europe.gif -text
+dev/slides/images/europe.jpg -text
 dev/slides/notes.txt -text
 dev/slides/quantitativeevaluationtable.tex -text
 dev/slides/src.tex -text
