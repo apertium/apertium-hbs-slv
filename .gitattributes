@@ -250,3 +250,8 @@ dev/zamjenice.txt -text
 /test-hbs-slv.sh -text
 /test-slv-hbs.sh -text
 /translate_stories.sh -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
