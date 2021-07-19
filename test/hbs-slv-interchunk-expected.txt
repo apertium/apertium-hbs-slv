@@ -1,0 +1,28 @@
+[-JmuU9J6d_eJ#0] ^unknown<unknown>{^*preekma$}$
+[/-JmuU9J6d_eJ]
+[0DUCxD10owuT#0] ^default<default>{^,<cm>$}$
+[/0DUCxD10owuT]
+[3n0bchoeBjK3#0] ^default<default>{^in<cnjcoo>$}$
+[/3n0bchoeBjK3]
+[4UtDz1bPt0QA#0] ^unknown<unknown>{^*najekooo$}$
+[/4UtDz1bPt0QA]
+[6pBwxBgM8RzN#0] ^unknown<unknown>{^*Frankud$}$
+[/6pBwxBgM8RzN]
+[BOAVt7Lt9MBz#0] ^unknown<unknown>{^*Bjelokie$}$
+[/BOAVt7Lt9MBz]
+[HzXzhFrJWwnC#0] ^unknown<unknown>{^*kšsensiee$}$
+[/HzXzhFrJWwnC]
+[JCAqNW6Vyo7R#0] ^unknown<unknown>{^*Škodðvjmiv$}$
+[/JCAqNW6Vyo7R]
+[O2PuiOrg2WzI#0] ^default<default>{^sedmer<num><coll><nt><sg><dat>$}$
+[/O2PuiOrg2WzI]
+[OXPgIukyIPkh#0] ^default<default>{^-<guio>$}$
+[/OXPgIukyIPkh]
+[teSGwHOb_hLn#0] ^default<default>{^en<num><f><sg><acc>$}$
+[/teSGwHOb_hLn]
+[ul7FHQekrA6V#0] ^default<default>{^)<rpar>$}$
+[/ul7FHQekrA6V]
+[uyEQLJnikXwD#0] ^default<default>{^deseter<num><coll><nt><sg><dat>$}$
+[/uyEQLJnikXwD]
+[yNBCu_Ja2EZK#0] ^default<default>{^9.04<num>$}$
+[/yNBCu_Ja2EZK]

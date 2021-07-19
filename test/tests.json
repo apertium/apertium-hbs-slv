@@ -1,0 +1,10 @@
+{
+    "hbs-slv": {
+        "input": "hbs-slv-input.txt",
+        "mode": "hbs-slv"
+    },
+    "slv-hbs": {
+        "input": "slv-hbs-input.txt",
+        "mode": "slv-hbs"
+    }
+}

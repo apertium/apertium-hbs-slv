@@ -1,0 +1,34 @@
+[-5EilIePLIuG#0] ^na<pr><acc>$ ^sebe<prn><ref><enc><mfn><sp><acc>$
+[/-5EilIePLIuG]
+[0DUCxD10owuT#0] ^,<cm>$
+[/0DUCxD10owuT]
+[3n0bchoeBjK3#0] ^i<num>$
+[/3n0bchoeBjK3]
+[ED_VC3zw8qbj#0] ^za<pr><acc>$ ^sebe<prn><ref><enc><mfn><sp><acc>$
+[/ED_VC3zw8qbj]
+[IIoqP48n50Y6#0] ^AIS<abbr><nom>$
+[/IIoqP48n50Y6]
+[Nu1tXa-qmt-3#0] ^*vuvig$
+[/Nu1tXa-qmt-3]
+[PVBk0N-1NL6m#0] ^ponovni zagon<n><mi><sg><dat>$
+[/PVBk0N-1NL6m]
+[QEAH3Iwll5gH#0] ^7.1 °C<num>$
+[/QEAH3Iwll5gH]
+[QbgF6nrAFOI1#0] ^;<sent>$
+[/QbgF6nrAFOI1]
+[UBwmslcaH3_X#0] ^FR<abbr><nom>$
+[/UBwmslcaH3_X]
+[ZLip_qwYJyQ4#0] ^klimatska naprava<n><f><sg><nom>$
+[/ZLip_qwYJyQ4]
+[_hzmv59sDaFU#0] ^v<pr><acc>$ ^prpers<prn><pers><p1><mf><sg><acc>$
+[/_hzmv59sDaFU]
+[gReGrRrnSt_d#0] ^45<num>$
+[/gReGrRrnSt_d]
+[tNaDJV2HpiYM#0] ^zborno mesto<n><nt><du><nom>$
+[/tNaDJV2HpiYM]
+[u_q8reISASxd#0] ^morski pes<n><ma><sg><gen>$
+[/u_q8reISASxd]
+[xz0wxvt8Rfpl#0] ^ALDE<abbr><ins>$
+[/xz0wxvt8Rfpl]
+[yVgo8d-vG5b8#0] ^srednje velik<adj><f><sg><ins><ind>$
+[/yVgo8d-vG5b8]

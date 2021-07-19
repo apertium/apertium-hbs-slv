@@ -1,0 +1,34 @@
+[-5EilIePLIuG#0] ^na<pr><acc>/na<pr><acc>$ ^sebe<prn><ref><enc><mfn><sp><acc>/clitic<prn><ref><pers><mfn><sp><acc>$
+[/-5EilIePLIuG]
+[0DUCxD10owuT#0] ^,<cm>/,<cm>$
+[/0DUCxD10owuT]
+[3n0bchoeBjK3#0] ^i<num>/i<num>$
+[/3n0bchoeBjK3]
+[ED_VC3zw8qbj#0] ^za<pr><acc>/za<pr><acc>/pozadi<pr><acc>$ ^sebe<prn><ref><enc><mfn><sp><acc>/clitic<prn><ref><pers><mfn><sp><acc>$
+[/ED_VC3zw8qbj]
+[IIoqP48n50Y6#0] ^AIS<abbr><nom>/AIS<abbr><nom>$
+[/IIoqP48n50Y6]
+[Nu1tXa-qmt-3#0] ^*vuvig/*vuvig$
+[/Nu1tXa-qmt-3]
+[PVBk0N-1NL6m#0] ^ponovni zagon<n><mi><sg><dat>/restart<n><mi><sg><dat>$
+[/PVBk0N-1NL6m]
+[QEAH3Iwll5gH#0] ^7.1 °C<num>/7.1 °C<num>$
+[/QEAH3Iwll5gH]
+[QbgF6nrAFOI1#0] ^;<sent>/;<sent>$
+[/QbgF6nrAFOI1]
+[UBwmslcaH3_X#0] ^FR<abbr><nom>/FR<abbr><nom>$
+[/UBwmslcaH3_X]
+[ZLip_qwYJyQ4#0] ^klimatska naprava<n><f><sg><nom>/klimatizacija<n><f><sg><nom>$
+[/ZLip_qwYJyQ4]
+[_hzmv59sDaFU#0] ^v<pr><acc>/u<pr><acc>$ ^prpers<prn><pers><p1><mf><sg><acc>/free<prn><pers><p1><mf><sg><acc>$
+[/_hzmv59sDaFU]
+[gReGrRrnSt_d#0] ^45<num>/45<num>$
+[/gReGrRrnSt_d]
+[tNaDJV2HpiYM#0] ^zborno mesto<n><nt><du><nom>/agora<n><f><du><nom>$
+[/tNaDJV2HpiYM]
+[u_q8reISASxd#0] ^morski pes<n><ma><sg><gen>/morski pas<n><ma><sg><gen>/ajkula<n><f><sg><gen>$
+[/u_q8reISASxd]
+[xz0wxvt8Rfpl#0] ^ALDE<abbr><ins>/ALDE<abbr><ins>$
+[/xz0wxvt8Rfpl]
+[yVgo8d-vG5b8#0] ^srednje velik<adj><f><sg><ins><ind>/srednje velik<adj><pst><f><sg><ins><ind>$
+[/yVgo8d-vG5b8]
